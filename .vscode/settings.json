@@ -1,0 +1,7 @@
+{
+    "Lua.diagnostics.globals": [
+        "LibStub",
+        "AtlasLoot_Data",
+        "AtlasLoot_GetLocaleLibBabble"
+    ]
+}
