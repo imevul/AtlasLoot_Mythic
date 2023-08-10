@@ -731,6 +731,12 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                         text = itemwishicons.." "..text;
                     end
                 end
+
+				--Highlight unattuned items
+				if dataSource[dataID][i][2] ~= "" and dataSource[dataID][i][2] ~= 0 and ItemAttuneHas and (ItemAttuneHas[dataSource[dataID][i][2]] or 0) < 100 then
+					text = "!! "..text;
+				end
+
                 --Set the name and description of the item
 				nameFrame:SetText(text);
 				extraFrame:SetText(extra);
