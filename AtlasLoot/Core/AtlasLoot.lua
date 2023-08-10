@@ -70,7 +70,7 @@ local function CheckItemValid(itemId)
     
     -- show N/A
     if ItemAttuneSkip[itemId] then return -5 end
-    if itemEquipLoc ~= "INVTYPE_CLOAK" and not SynastriaCoreLib.IsArmorTypeValid(itemType, itemSubType, itemLevel) then return -2 end
+    if itemEquipLoc ~= "INVTYPE_CLOAK" and not IsArmorTypeValid(itemType, itemSubType, itemLevel) then return -2 end
     if itemEquipLoc == "INVTYPE_2HWEAPON" then return -4 end
     if itemEquipLoc == "INVTYPE_WEAPON" then return -4 end
     if itemEquipLoc == "INVTYPE_WEAPONMAINHAND" then return -4 end
