@@ -57,3 +57,17 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 25, 60158, "", "=q4=The Sun Eater", "=ds=#h1#, #w10#", "", "1.48%"};
 		Prev = "MythicTKMechSepethrea";
 	};
+
+		----------------------------------------
+		--- Coilfang Reservoir: The Underbog ---
+		----------------------------------------
+
+	AtlasLoot_Data["MythicCFRUnderHungarfen"] = {
+		{ 1, 60171, "", "=q3=Arcanium Signet Bands", "=ds=#s8#, #a1#", "", "8.37%"};
+		Next = "MythicCFRUnderStalker"
+	};
+
+	AtlasLoot_Data["MythicCFRUnderStalker"] = {
+		{ 1, 60203, "", "=q3=Oracle Belt of Timeless Mystery", "=ds=#s10#, #a1#", "", "14.63%"};
+		Prev = "MythicCFRUnderHungarfen"
+	};

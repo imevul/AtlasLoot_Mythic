@@ -892,6 +892,11 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 				{ BabbleZone["The Mechanar"], "MythicTKMech", "Submenu" },
 			},
 		},
+		[2] = {
+			["BC " .. BabbleZone["Coilfang Reservoir"]] = {
+				{ BabbleZone["The Underbog"], "MythicCFRUnder", "Submenu" },
+			},
+		}
 	},
 }
 
@@ -900,4 +905,9 @@ AtlasLoot_DewDropDown_SubTables["MythicTKMech"] = {
 	{ "", "MythicTKMechCapacitus" },
 	{ "", "MythicTKMechSepethrea" },
 	{ "", "MythicTKMechCalc" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicCFRUnder"] = {
+	{ "", "MythicCFRUnderHungarfen" },
+	{ "", "MythicCFRUnderStalker" },
 }

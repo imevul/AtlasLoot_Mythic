@@ -2,7 +2,7 @@
 ## Title: AtlasLoot_Mythic
 ## Notes: AtlasLoot loot tables for Mythic items
 ## Author: Imevul
-## Version: v1.0.0
+## Version: v1.0.1
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
 

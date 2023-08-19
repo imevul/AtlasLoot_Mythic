@@ -1800,3 +1800,6 @@ end
 	AtlasLoot_TableNames["MythicTKMechCapacitus"] = { BabbleBoss["Mechano-Lord Capacitus"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicTKMechSepethrea"] = { BabbleBoss["Nethermancer Sepethrea"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicTKMechCalc"] = { BabbleBoss["Pathaleon the Calculator"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicCFRUnderHungarfen"] = { BabbleBoss["Hungarfen"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCFRUnderStalker"] = { BabbleBoss["The Black Stalker"], "AtlasLootMythic" };
