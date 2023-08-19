@@ -909,5 +909,7 @@ AtlasLoot_DewDropDown_SubTables["MythicTKMech"] = {
 
 AtlasLoot_DewDropDown_SubTables["MythicCFRUnder"] = {
 	{ "", "MythicCFRUnderHungarfen" },
+	{ "", "MythicCFRUnderGhazan" },
+	{ "", "MythicCFRUnderSwamplord" },
 	{ "", "MythicCFRUnderStalker" },
 }
