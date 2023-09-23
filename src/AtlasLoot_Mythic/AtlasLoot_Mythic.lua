@@ -116,40 +116,37 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	--- Auchindoun: Mana-Tombs ---
 	------------------------------
 
-	AtlasLoot_Data["MythicAuchManaTombsPanademonius"] = {
-		{ 1,60203, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
-		{ 2,60203, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" };
-		{ 3,60203, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" };
-		{ 4,60203, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" };
-		{ 5,60203, "", "=q3=Mindrage Pauldrons", "=ds=#s3#, #a1#", "13.95%" };
-		{ 6,60203, "", "=q3=Starry Robes of the Crescent", "=ds=#s5#, #a2#", "11.63%" };
-		{ 7,60203, "", "=q3=Boots of the Colossus", "=ds=#s12#, #a4#", "13.95%" };
-		{ 8,60203, "", "=q3=Totem of the Astral Winds", "=ds=#s16#, #w15#", "2.33%" };
-		{ 9,60203, "", "=q3=Twinblade of Mastery", "=ds=#h1#, #w4#", "6.98%" };
-		{ 10,60203, "", "=q3=Starbolt Longbow", "=ds=#w2#", "9.30%" };
-		Next = "MythicAuchManaTombsTavarok";
+	AtlasLoot_Data["MythicAuchManaPanademonius"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
+		{ 2, 60203, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" };
+		{ 3, 60203, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" };
+		{ 4, 60203, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" };
+		{ 5, 60203, "", "=q3=Mindrage Pauldrons", "=ds=#s3#, #a1#", "13.95%" };
+		{ 6, 60203, "", "=q3=Starry Robes of the Crescent", "=ds=#s5#, #a2#", "11.63%" };
+		{ 7, 60203, "", "=q3=Boots of the Colossus", "=ds=#s12#, #a4#", "13.95%" };
+		{ 8, 60203, "", "=q3=Totem of the Astral Winds", "=ds=#s16#, #w15#", "2.33%" };
+		{ 9, 60203, "", "=q3=Twinblade of Mastery", "=ds=#h1#, #w4#", "6.98%" };
+		{ 10, 60203, "", "=q3=Starbolt Longbow", "=ds=#w2#", "9.30%" };
+		Next = "MythicAuchManaTavarok";
 	};
 
-
-	AtlasLoot_Data["MythicAuchManaTombsTavarok"] = {
-		{ 1,60203, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
-		{ 2,60203, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" };
-		{ 3,60203, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" };
-		{ 4,60203, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" };
-		{ 5,60203, "", "=q3=Robe of the Great Dark Beyond", "=ds=#s5#, #a1#", "9.09%" };
-		{ 6,60203, "", "=q3=Extravagant Boots of Malice", "=ds=#s12#, #a1#", "9.09%" };
-		{ 7,60203, "", "=q3=Predatory Gloves", "=ds=#s9#, #a2#", "15.15%" };
-		{ 8,60203, "", "=q3=Mantle of the Sea Wolf", "=ds=#s3#, #a3#", "3.03%" };
-		{ 9,60203, "", "=q3=Shard Encrusted Breastplate", "=ds=#s5#, #a3#", "15.15%" };
-		{ 10,60203, "", "=q3=Crystal Band of Valor", "=ds=#s13#", "15.15%" };
-		Prev = "MythicAuchManaTombsPanademonius";
-		Next = "MythicAuchManaTombsNexusPrinceShaffar";
+	AtlasLoot_Data["MythicAuchManaTavarok"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
+		{ 2, 60203, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" };
+		{ 3, 60203, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" };
+		{ 4, 60203, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" };
+		{ 5, 60203, "", "=q3=Robe of the Great Dark Beyond", "=ds=#s5#, #a1#", "9.09%" };
+		{ 6, 60203, "", "=q3=Extravagant Boots of Malice", "=ds=#s12#, #a1#", "9.09%" };
+		{ 7, 60203, "", "=q3=Predatory Gloves", "=ds=#s9#, #a2#", "15.15%" };
+		{ 8, 60203, "", "=q3=Mantle of the Sea Wolf", "=ds=#s3#, #a3#", "3.03%" };
+		{ 9, 60203, "", "=q3=Shard Encrusted Breastplate", "=ds=#s5#, #a3#", "15.15%" };
+		{ 10, 60203, "", "=q3=Crystal Band of Valor", "=ds=#s13#", "15.15%" };
+		Prev = "MythicAuchManaPanademonius";
+		Next = "MythicAuchManaNexusPrinceShaffar";
 	};
 
-
-
-	AtlasLoot_Data["MythicAuchManaTombsNexusPrinceShaffar"] = {
-		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
+	AtlasLoot_Data["MythicAuchManaNexusPrinceShaffar"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
 		{ 29240, "", "=q4=Bands of Negation", "=ds=#s8#, #a1#", "3.03%" };
 		{ 30535, "", "=q4=Forestwalker Kilt", "=ds=#s11#, #a2#", "27.27%" };
 		{ 29352, "", "=q4=Cobalt Band of Tyrigosa", "=ds=#s13#", "0.21%" };
@@ -177,11 +174,11 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 27842, "", "=q3=Grand Scepter of the Nexus-Kings", "=ds=#w9#", "9.09%" };
 		{ 0,"","","" };
 		{ 22921, "", "=q2=Recipe: Major Frost Protection Potion", "=ds=#p1# (360)", "2.85%" };
-		Prev = "MythicAuchManaTombsTavarok";
-		Next = "MythicAuchManaTombsYor";
+		Prev = "MythicAuchManaTavarok";
+		Next = "MythicAuchManaYor";
 	};
 
-	AtlasLoot_Data["MythicAuchManaTombsYor"] = {
+	AtlasLoot_Data["MythicAuchManaYor"] = {
 		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
 		{ 31919, "", "=q4=Nexus-Prince's Ring of Balance", "=ds=#s13#" };
 		{ 31920, "", "=q4=Shaffar's Band of Brutality", "=ds=#s13#" };

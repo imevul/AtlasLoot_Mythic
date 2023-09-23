@@ -1806,8 +1806,8 @@ end
 	AtlasLoot_TableNames["MythicCFRUnderSwamplord"] = { BabbleBoss["Swamplord Musel'ek"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicCFRUnderStalker"] = { BabbleBoss["The Black Stalker"], "AtlasLootMythic" };
 
-	AtlasLoot_TableNames["MythicAuchManaTombsPanademonius"] = { BabbleBoss["Pandemonius"], "AtlaslootMythic" };
-	AtlasLoot_TableNames["MythicAuchManaTombsTavarok"] = { BabbleBoss["Tavarok"], "AtlaslootMythic" };
-	AtlasLoot_TableNames["MythicAuchManaTombsNexusPrinceShaffar"] = { BabbleBoss["Nexus Prince Shaffar"], "AtlasLootMythic" };
-	AtlasLoot_TableNames["MythicAuchManaTombsYor"] = { BabbleBoss["Yor"], "AtlaslootMythic" };
+	AtlasLoot_TableNames["MythicAuchManaPanademonius"] = { BabbleBoss["Pandemonius"], "AtlaslootMythic" };
+	AtlasLoot_TableNames["MythicAuchManaTavarok"] = { BabbleBoss["Tavarok"], "AtlaslootMythic" };
+	AtlasLoot_TableNames["MythicAuchManaNexusPrince"] = { BabbleBoss["Nexus-Prince Shaffar"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchManaYor"] = { AL["Yor"], "AtlaslootMythic" };
 	
