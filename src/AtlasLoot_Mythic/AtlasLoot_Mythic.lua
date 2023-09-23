@@ -111,3 +111,68 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 24, 60202, "", "=q3=Stormshield of Renewal", "=ds=#w8#", "", "13.01%"};
 		Prev = "MythicCFRUnderSwamplord";
 	};
+
+	------------------------------
+	--- Auchindoun: Mana-Tombs ---
+	------------------------------
+
+	AtlasLoot_Data["MythicAuchManaPanademonius"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%" };
+		{ 2, 60206, "", "=q3=Mindrage Pauldrons", "=ds=#s3#, #a1#", "", "13.95%" };
+		{ 3, 60205, "", "=q3=Starry Robes of the Crescent", "=ds=#s5#, #a2#", "", "11.63%" };
+		{ 4, 60208, "", "=q3=Boots of the Colossus", "=ds=#s12#, #a4#", "", "13.95%" };
+		{ 5, 60210, "", "=q3=Totem of the Astral Winds", "=ds=#s16#, #w15#", "", "2.33%" };
+		{ 6, 60207, "", "=q3=Twinblade of Mastery", "=ds=#h1#, #w4#", "", "6.98%" };
+		{ 7, 60209, "", "=q3=Starbolt Longbow", "=ds=#w2#", "", "9.30%" };
+		Next = "MythicAuchManaTavarok";
+	};
+
+	AtlasLoot_Data["MythicAuchManaTavarok"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%" };
+		{ 2, 60212, "", "=q3=Robe of the Great Dark Beyond", "=ds=#s5#, #a1#", "", "9.09%" };
+		{ 3, 60211, "", "=q3=Extravagant Boots of Malice", "=ds=#s12#, #a1#", "", "9.09%" };
+		{ 4, 60215, "", "=q3=Predatory Gloves", "=ds=#s9#, #a2#", "", "15.15%" };
+		{ 5, 60214, "", "=q3=Mantle of the Sea Wolf", "=ds=#s3#, #a3#", "", "3.03%" };
+		{ 6, 60216, "", "=q3=Shard Encrusted Breastplate", "=ds=#s5#, #a3#", "", "15.15%" };
+		{ 7, 60213, "", "=q3=Crystal Band of Valor", "=ds=#s13#", "", "15.15%" };
+		Prev = "MythicAuchManaPanademonius";
+		Next = "MythicAuchManaNexusPrince";
+	};
+
+	AtlasLoot_Data["MythicAuchManaNexusPrince"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%" };
+		{ 2, 60230, "", "=q4=Bands of Negation", "=ds=#s8#, #a1#", "", "3.03%" };
+		{ 3, 60231, "", "=q4=Forestwalker Kilt", "=ds=#s11#, #a2#", "", "27.27%" };
+		{ 4, 60224, "", "=q4=Cobalt Band of Tyrigosa", "=ds=#s13#", "", "0.21%" };
+		{ 5, 60232, "", "=q4=The Fel Barrier", "=ds=#w8#" };
+		{ 6, 60220, "", "=q3=Mantle of the Unforgiven", "=ds=#s3#, #a1#", "", "9.20%" };
+		{ 7, 60218, "", "=q3=Glyph-Lined Sash", "=ds=#s10#, #a1#", "",  "10.80%" };
+		{ 8, 60226, "", "=q3=Lucid Dream Bracers", "=ds=#s8#, #a2#" };
+		{ 9, 60228, "", "=q3=Stillwater Girdle", "=ds=#s10#, #a3#", "", "6.06%" };
+		{ 10, 60229, "", "=q3=Pauldrons of Swift Retribution", "=ds=#s3#, #a4#", "", "8.10%" };
+		{ 11, 60225, "", "=q3=Gauntlets of Vindication", "=ds=#s9#, #a4#", "", "11.80%" };
+		{ 12, 60223, "", "=q3=Wastewalker Leggings", "=ds=#s11#, #a2# (D3)", "", "3.03%" };
+		{ 13, 60221, "", "=q3=Warp-Scarab Brooch", "=ds=#s14#", "", "30.30%" };
+		{ 14, 60222, "", "=q3=Warp-Storm Warblade", "=ds=#h1#, #w10#" };
+		{ 15, 60217, "", "=q3=Axe of the Nexus-Kings", "=ds=#h2#, #w1#", "", "9.09%" };
+		{ 16, 60227, "", "=q3=Scepter of Sha'tar", "=ds=#h2#, #w6#" };
+		{ 17, 60219, "", "=q3=Grand Scepter of the Nexus-Kings", "=ds=#w9#", "", "9.09%" };
+		Prev = "MythicAuchManaTavarok";
+		Next = "MythicAuchManaYor";
+	};
+
+	AtlasLoot_Data["MythicAuchManaYor"] = {
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%" };
+		{ 2, 60233, "", "=q4=Nexus-Prince's Ring of Balance", "=ds=#s13#" };
+		{ 3, 60236, "", "=q4=Shaffar's Band of Brutality", "=ds=#s13#" };
+		{ 4, 60234, "", "=q4=Yor's Collapsing Band", "=ds=#s13#" };
+		{ 5, 60238, "", "=q4=Ring of Conflict Survival", "=ds=#s13#" };
+		{ 6, 60237, "", "=q4=Band of the Crystalline Void", "=ds=#s13#" };
+		{ 7, 60235, "", "=q4=Yor's Revenge", "=ds=#s13#" };
+		{ 8,"","","" };
+		{ 9, 60242, "", "=q3=Windchanneller's Tunic", "=ds=#s5#, #a1# =q2=#m16#" };
+		{ 10, 60240, "", "=q3=Skystalker's Tunic", "=ds=#s5#, #a2# =q2=#m16#" };
+		{ 11, 60239, "", "=q3=Mistshroud Tunic", "=ds=#s5#, #a3# =q2=#m16#" };
+		{ 12, 60241, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#, =q2=#m16#" };
+		Prev = "MythicAuchManaTombsNexusPrince";
+	};

@@ -896,7 +896,13 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 			["BC " .. BabbleZone["Coilfang Reservoir"]] = {
 				{ BabbleZone["The Underbog"], "MythicCFRUnder", "Submenu" },
 			},
+		},
+		[3] = {
+			["BC ".. BabbleZone["Auchindoun"]] = {
+				{BabbleZone["Mana-Tombs"], "MythicAuchManaTombs","Submenu"},
+			},
 		}
+
 	},
 }
 
@@ -912,4 +918,11 @@ AtlasLoot_DewDropDown_SubTables["MythicCFRUnder"] = {
 	{ "", "MythicCFRUnderGhazan" },
 	{ "", "MythicCFRUnderSwamplord" },
 	{ "", "MythicCFRUnderStalker" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicAuchManaTombs"] = {
+	{ "", "MythicAuchManaPanademonius" },
+	{ "", "MythicAuchManaTavarok" },
+	{ "", "MythicAuchManaNexusPrince" },
+	{ "", "MythicAuchManaYor" },
 }
