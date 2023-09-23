@@ -111,3 +111,97 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 24, 60202, "", "=q3=Stormshield of Renewal", "=ds=#w8#", "", "13.01%"};
 		Prev = "MythicCFRUnderSwamplord";
 	};
+
+	------------------------------
+	--- Auchindoun: Mana-Tombs ---
+	------------------------------
+
+	AtlasLoot_Data["MythicAuchManaTombsPanademonius"] = {
+		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" },
+		{ 30584, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" },
+		{ 30585, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" },
+		{ 30583, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" },
+		{ 0,"","","" },
+		{ 27816, "", "=q3=Mindrage Pauldrons", "=ds=#s3#, #a1#", "13.95%" },
+		{ 27818, "", "=q3=Starry Robes of the Crescent", "=ds=#s5#, #a2#", "11.63%" },
+		{ 27813, "", "=q3=Boots of the Colossus", "=ds=#s12#, #a4#", "13.95%" },
+		{ 27815, "", "=q3=Totem of the Astral Winds", "=ds=#s16#, #w15#", "2.33%" },
+		{ 27814, "", "=q3=Twinblade of Mastery", "=ds=#h1#, #w4#", "6.98%" },
+		{ 27817, "", "=q3=Starbolt Longbow", "=ds=#w2#", "9.30%" },
+		Next = "MythicAuchManaTombsTavarok";
+	};
+
+
+
+	AtlasLoot_Data["MythicAuchManaTombsTavarok"] = {
+		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" },
+		{ 30584, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" },
+		{ 30585, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" },
+		{ 30583, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" },
+		{ 0,"","","" },
+		{ 27824, "", "=q3=Robe of the Great Dark Beyond", "=ds=#s5#, #a1#", "9.09%" },
+		{ 27821, "", "=q3=Extravagant Boots of Malice", "=ds=#s12#, #a1#", "9.09%" },
+		{ 27825, "", "=q3=Predatory Gloves", "=ds=#s9#, #a2#", "15.15%" },
+		{ 27826, "", "=q3=Mantle of the Sea Wolf", "=ds=#s3#, #a3#", "3.03%" },
+		{ 27823, "", "=q3=Shard Encrusted Breastplate", "=ds=#s5#, #a3#", "15.15%" },
+		{ 27822, "", "=q3=Crystal Band of Valor", "=ds=#s13#", "15.15%" },
+		Prev = "MythicAuchManaTombsPanademonius";
+		Next = "MythicAuchManaTombsNexusPrinceShaffar";
+	};
+
+
+
+	AtlasLoot_Data["MythicAuchManaTombsNexusPrinceShaffar"] = {
+		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" },
+		{ 29240, "", "=q4=Bands of Negation", "=ds=#s8#, #a1#", "3.03%" },
+		{ 30535, "", "=q4=Forestwalker Kilt", "=ds=#s11#, #a2#", "27.27%" },
+		{ 29352, "", "=q4=Cobalt Band of Tyrigosa", "=ds=#s13#", "0.21%" },
+		{ 32082, "", "=q4=The Fel Barrier", "=ds=#w8#" },
+		{ 0,"","","" },
+		{ 27831, "", "=q3=Mantle of the Unforgiven", "=ds=#s3#, #a1#", "9.20%" },
+		{ 27843, "", "=q3=Glyph-Lined Sash", "=ds=#s10#, #a1#", "10.80%" },
+		{ 27827, "", "=q3=Lucid Dream Bracers", "=ds=#s8#, #a2#" },
+		{ 27835, "", "=q3=Stillwater Girdle", "=ds=#s10#, #a3#", "6.06%" },
+		{ 27844, "", "=q3=Pauldrons of Swift Retribution", "=ds=#s3#, #a4#", "8.10%" },
+		{ 27798, "", "=q3=Gauntlets of Vindication", "=ds=#s9#, #a4#", "11.80%" },
+		{ 0,"","","" },
+		{ 33835, "", "=q1=Shaffar's Wondrous Amulet", "=ds=#m3#", "100%" },
+		{ 28490, "", "=q1=Shaffar's Wrappings", "=ds=#m3#", "100%" },
+		{ 30584, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" },
+		{ 30585, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" },
+		{ 30583, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" },
+		{ 0,"","","" },
+		{ 27837, "", "=q3=Wastewalker Leggings", "=ds=#s11#, #a2# (D3)", "3.03%" },
+		{ 0,"","","" },
+		{ 27828, "", "=q3=Warp-Scarab Brooch", "=ds=#s14#", "30.30%" },
+		{ 28400, "", "=q3=Warp-Storm Warblade", "=ds=#h1#, #w10#" },
+		{ 27829, "", "=q3=Axe of the Nexus-Kings", "=ds=#h2#, #w1#", "9.09%" },
+		{ 27840, "", "=q3=Scepter of Sha'tar", "=ds=#h2#, #w6#" },
+		{ 27842, "", "=q3=Grand Scepter of the Nexus-Kings", "=ds=#w9#", "9.09%" },
+		{ 0,"","","" },
+		{ 22921, "", "=q2=Recipe: Major Frost Protection Potion", "=ds=#p1# (360)", "2.85%" },
+		Prev = "MythicAuchManaTombsTavarok";
+		Next = "MythicAuchManaTombsYor";
+	};
+
+	AtlasLoot_Data["MythicAuchManaTombsYor"] = {
+		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" },
+		{ 31919, "", "=q4=Nexus-Prince's Ring of Balance", "=ds=#s13#" },
+		{ 31920, "", "=q4=Shaffar's Band of Brutality", "=ds=#s13#" },
+		{ 31921, "", "=q4=Yor's Collapsing Band", "=ds=#s13#" },
+		{ 31922, "", "=q4=Ring of Conflict Survival", "=ds=#s13#" },
+		{ 31923, "", "=q4=Band of the Crystalline Void", "=ds=#s13#" },
+		{ 31924, "", "=q4=Yor's Revenge", "=ds=#s13#" },
+		{ 0,"","","" },
+		{ 31554, "", "=q3=Windchanneller's Tunic", "=ds=#s5#, #a1# =q2=#m16#" },
+		{ 31562, "", "=q3=Skystalker's Tunic", "=ds=#s5#, #a2# =q2=#m16#" },
+		{ 31570, "", "=q3=Mistshroud Tunic", "=ds=#s5#, #a3# =q2=#m16#" },
+		{ 31578, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#, =q2=#m16#" },
+		{ 0,"","","" },
+		{ 0,"","","" },
+		{ 0,"","","" },
+		{ 30584, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" },
+		{ 30585, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" },
+		{ 30583, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" },
+		Prev = "MythicAuchManaTombsNexusPrinceShaffar";
+	};
