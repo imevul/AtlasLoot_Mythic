@@ -921,8 +921,8 @@ AtlasLoot_DewDropDown_SubTables["MythicCFRUnder"] = {
 }
 
 AtlasLoot_DewDropDown_SubTables["MythicAuchManaTombs"] = {
-	{ "", "MythicAuchManaTombsPanademonius" },
-	{ "", "MythicAuchManaTombsTavarok" },
-	{ "", "MythicAuchManaTombsNexusPrinceShaffar" },
-	{ "", "MythicAuchManaTombsYor" },
+	{ "", "MythicAuchManaPanademonius" },
+	{ "", "MythicAuchManaTavarok" },
+	{ "", "MythicAuchManaNexusPrinceShaffar" },
+	{ "", "MythicAuchManaYor" },
 }
