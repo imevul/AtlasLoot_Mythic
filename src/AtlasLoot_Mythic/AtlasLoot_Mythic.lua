@@ -162,17 +162,17 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	};
 
 	AtlasLoot_Data["MythicAuchManaYor"] = {
-		{ 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
-		{ 60233, "", "=q4=Nexus-Prince's Ring of Balance", "=ds=#s13#" };
-		{ 60236, "", "=q4=Shaffar's Band of Brutality", "=ds=#s13#" };
-		{ 60234, "", "=q4=Yor's Collapsing Band", "=ds=#s13#" };
-		{ 60238, "", "=q4=Ring of Conflict Survival", "=ds=#s13#" };
-		{ 60237, "", "=q4=Band of the Crystalline Void", "=ds=#s13#" };
-		{ 60235, "", "=q4=Yor's Revenge", "=ds=#s13#" };
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
+		{ 2, 60233, "", "=q4=Nexus-Prince's Ring of Balance", "=ds=#s13#" };
+		{ 3, 60236, "", "=q4=Shaffar's Band of Brutality", "=ds=#s13#" };
+		{ 4, 60234, "", "=q4=Yor's Collapsing Band", "=ds=#s13#" };
+		{ 5, 60238, "", "=q4=Ring of Conflict Survival", "=ds=#s13#" };
+		{ 6, 60237, "", "=q4=Band of the Crystalline Void", "=ds=#s13#" };
+		{ 7, 60235, "", "=q4=Yor's Revenge", "=ds=#s13#" };
 		{ 0,"","","" };
-		{ 60242, "", "=q3=Windchanneller's Tunic", "=ds=#s5#, #a1# =q2=#m16#" };
-		{ 60240, "", "=q3=Skystalker's Tunic", "=ds=#s5#, #a2# =q2=#m16#" };
-		{ 60239, "", "=q3=Mistshroud Tunic", "=ds=#s5#, #a3# =q2=#m16#" };
-		{ 60241, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#, =q2=#m16#" };
+		{ 8, 60242, "", "=q3=Windchanneller's Tunic", "=ds=#s5#, #a1# =q2=#m16#" };
+		{ 9, 60240, "", "=q3=Skystalker's Tunic", "=ds=#s5#, #a2# =q2=#m16#" };
+		{ 10, 60239, "", "=q3=Mistshroud Tunic", "=ds=#s5#, #a3# =q2=#m16#" };
+		{ 11, 60241, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#, =q2=#m16#" };
 		Prev = "MythicAuchManaTombsNexusPrince";
 	};
