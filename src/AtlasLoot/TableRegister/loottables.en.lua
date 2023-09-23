@@ -1809,5 +1809,5 @@ end
 	AtlasLoot_TableNames["MythicAuchManaTombsPanademonius"] = { BabbleBoss["Pandemonius"], "AtlaslootMythic"};
 	AtlasLoot_TableNames["MythicAuchManaTombsTavarok"] = {BabbleBoss["Tavarok"],"AtlaslootMythic"};
 	AtlasLoot_TableNames["MythicAuchManaTombsNexusPrinceShaffar"] = {BabbleBoss["Nexus Prince Shaffar"],"AtlasLootMythic"};
-	AtlasLoot_TableNames["MythicAuchManaTombsYor"] = {BabbleBoss["Yor"],"AtlaslootMythic"};
+	AtlasLoot_TableNames["MythicAuchManaTombsYor"] = {AL["Yor"],"AtlaslootMythic"};
 	
