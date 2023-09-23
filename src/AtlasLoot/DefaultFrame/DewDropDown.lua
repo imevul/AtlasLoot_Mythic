@@ -898,10 +898,10 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 			},
 		},
 		[3] = {
-			["BC ".. BabbleZone["AuchManaTombs"]] ={
-				{BabbleZone["AuchManaTombs"], "MythicAuchManaTombs","Submenu"},
+			["BC ".. BabbleZone["Auchindoun"]] = {
+				{BabbleZone["Mana-Tombs"], "MythicAuchManaTombs","Submenu"},
 			},
-		},
+		}
 
 	},
 }
