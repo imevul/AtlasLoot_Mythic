@@ -142,10 +142,10 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 9, 60203, "", "=q3=Shard Encrusted Breastplate", "=ds=#s5#, #a3#", "15.15%" };
 		{ 10, 60203, "", "=q3=Crystal Band of Valor", "=ds=#s13#", "15.15%" };
 		Prev = "MythicAuchManaPanademonius";
-		Next = "MythicAuchManaNexusPrinceShaffar";
+		Next = "MythicAuchManaNexusPrince";
 	};
 
-	AtlasLoot_Data["MythicAuchManaNexusPrinceShaffar"] = {
+	AtlasLoot_Data["MythicAuchManaNexusPrince"] = {
 		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "100%" };
 		{ 29240, "", "=q4=Bands of Negation", "=ds=#s8#, #a1#", "3.03%" };
 		{ 30535, "", "=q4=Forestwalker Kilt", "=ds=#s11#, #a2#", "27.27%" };
@@ -197,5 +197,5 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 30584, "", "=q4=Enscribed Fire Opal", "=ds=#e7#", "0.08%" };
 		{ 30585, "", "=q4=Glistening Fire Opal", "=ds=#e7#", "6.06%" };
 		{ 30583, "", "=q4=Timeless Chrysoprase", "=ds=#e7#", "9.09%" };
-		Prev = "MythicAuchManaTombsNexusPrinceShaffar";
+		Prev = "MythicAuchManaTombsNexusPrince";
 	};
