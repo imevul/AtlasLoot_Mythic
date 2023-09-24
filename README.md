@@ -9,7 +9,7 @@ Adds mythic items to AtlasLoot
 
 ## Installation
 
-Extract to Interface/AddOns and enable the addon in-game
-Overwrite AtlasLoot files when prompted
+1. Download the [latest release](https://github.com/imevul/AtlasLoot_Mythic/releases)
+2. Extract to Interface/AddOns and enable the addon in-game. Replace AtlasLoot files when prompted
 
 *You NEED to have AtlasLoot installed first!* - The AtlasLoot folder only contains modifications to the base addon.
