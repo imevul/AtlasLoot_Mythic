@@ -144,7 +144,7 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 2, 60230, "", "=q4=Bands of Negation", "=ds=#s8#, #a1#", "", "3.03%" };
 		{ 3, 60231, "", "=q4=Forestwalker Kilt", "=ds=#s11#, #a2#", "", "27.27%" };
 		{ 4, 60224, "", "=q4=Cobalt Band of Tyrigosa", "=ds=#s13#", "", "0.21%" };
-		{ 5, 60232, "", "=q4=The Fel Barrier", "=ds=#w8#" };
+		{ 5, 60243, "", "=q4=The Fel Barrier", "=ds=#w8#" };
 		{ 6, 60220, "", "=q3=Mantle of the Unforgiven", "=ds=#s3#, #a1#", "", "9.20%" };
 		{ 7, 60218, "", "=q3=Glyph-Lined Sash", "=ds=#s10#, #a1#", "",  "10.80%" };
 		{ 8, 60226, "", "=q3=Lucid Dream Bracers", "=ds=#s8#, #a2#" };
