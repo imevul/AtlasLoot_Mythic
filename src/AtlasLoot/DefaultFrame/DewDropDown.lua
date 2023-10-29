@@ -901,6 +901,11 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 			["BC ".. BabbleZone["Auchindoun"]] = {
 				{BabbleZone["Mana-Tombs"], "MythicAuchManaTombs","Submenu"},
 			},
+		},
+		[4] = {
+			["BC ".. BabbleZone["Hellfire Citadel"]] = {
+				{BabbleZone["Hellfire Ramparts"], "MythicRamparts","Submenu"},
+			},
 		}
 
 	},
@@ -925,4 +930,10 @@ AtlasLoot_DewDropDown_SubTables["MythicAuchManaTombs"] = {
 	{ "", "MythicAuchManaTavarok" },
 	{ "", "MythicAuchManaNexusPrince" },
 	{ "", "MythicAuchManaYor" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicRamparts"] = {
+	{ "", "MythicRampWatchkeeper" },
+	{ "", "MythicRampOmor" },
+	{ "", "MythicRampVazruden" },
 }

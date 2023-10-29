@@ -176,3 +176,55 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 12, 60241, "", "=q3=Slatesteel Breastplate", "=ds=#s5# #a4#, =q2=#m16#" };
 		Prev = "MythicAuchManaTombsNexusPrince";
 	};
+
+		-------------------------------------------
+		--- Hellfire Citadel: Hellfire Ramparts ---
+		-------------------------------------------
+
+		AtlasLoot_Data["MythicRampWatchkeeper"] = {
+			{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+			{ 2, 60277, "", "=q3=Cloak of the Everliving", "=ds=#s4#", "", "28.37%"};
+			{ 3, 60276, "", "=q3=Boots of the Darkwalker", "=ds=#s12#, #a1#", "", "16.61%"};
+			{ 4, 60279, "", "=q3=Wild Stalker Boots", "=ds=#s12#, #a3#", "", "14.19%"};
+			{ 5, 60275, "", "=q3=Bracers of Just Rewards", "=ds=#s8#, #a4#", "", "13.84%"};
+			{ 6, 60278, "", "=q3=Blood Knight Defender", "=ds=#w8#", "", "13.15%"};
+			Next = "MythicRampOmor";
+		};
+	
+		AtlasLoot_Data["MythicRampOmor"] = {
+			{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+			{ 2, 60287, "", "=q3=Mana-Etched Gloves", "=ds=#s9#, #a1#", "", "11.74%"};
+			{ 3, 60289, "", "=q3=Headdress of Alacrity", "=ds=#s1#, #a1#", "", "12.10%"};
+			{ 4, 60282, "", "=q3=Crimson Bracers of Gloom", "=ds=#s8#, #a1#", "", "7.12%"};
+			{ 5, 60283, "", "=q3=Silent-Strider Kneeboots", "=ds=#s12#, #a2#", "", "16.37%"};
+			{ 6, 60285, "", "=q3=Girdle of the Blasted Reaches", "=ds=#s10#, #a3#", "", "14.59%"};
+			{ 7, 60286, "", "=q3=Justice Bearer's Pauldrons", "=ds=#s3#, #a4#", "", "8.90%"};
+			{ 8, 60291, "", "=q3=Crimsonforge Breastplate", "#s5#, #a4#", "", "12.10%"};
+			{ 9, 60290, "", "=q3=Omor's Unyielding Will", "=ds=#s2#", "", "13.52%"};
+			{ 10, 60281, "", "=q3=Band of Many Prisms", "=ds=#s13#", "", "11.74%"};
+			{ 11, 60288, "", "=q3=Faol's Signet of Cleansing", "=ds=#s15#", "", "10.32%"};
+			{ 12, 60280, "", "=q3=Terror Flame Dagger", "=ds=#h1#, #w4#", "", "8.90%"};
+			{ 13, 60284, "", "=q3=Truncheon of Five Hells", "=ds=#h1#, #w6#", "", "9.25%"};
+			Prev = "MythicRampWatchkeeper";
+			Next = "MythicRampVazruden";
+		};
+	
+	
+		AtlasLoot_Data["MythicRampVazruden"] = {
+			{ 1, 60304, "", "=q4=Tree-Mender's Belt", "=ds=#s10#, #a2#", "", "16.05%"};
+			{ 2, 60305, "", "=q4=Wrath Infused Gauntlets", "=ds=#s9#, #a3#"};
+			{ 3, 60303, "", "=q4=Lion's Heart Girdle", "=ds=#s10#, #a4#", "", "14.81%"};
+			{ 4, 60302, "", "=q4=Feltooth Eviscerator", "=ds=#h1#, #w4#", "", "5.56%"};
+			{ 6, 60296, "", "=q3=Light Scribe Bands", "=ds=#s8#, #a1#", "", "11.73%"};
+			{ 7, 60293, "", "=q3=Chestguard of the Prowler", "=ds=#s5#, #a2#", "", "11.73%"};
+			{ 8, 60298, "", "=q3=Raiments of Nature's Breath", "=ds=#s5#, #a2#", "", "19.75%"};
+			{ 9, 60301, "", "=q3=Volcanic Pauldrons", "=ds=#s3#, #a3#", "", "16.66%"};
+			{ 10, 60297, "", "=q3=Oceansong Kilt", "=ds=#s11#, #a3#", "", "10.49%"};
+			{ 11, 60294, "", "=q3=Irondrake Faceguard", "=ds=#s1#, #a4#", "", "11.11%"};
+			{ 12, 60300, "", "=q3=Vambraces of Daring", "=ds=#s8#, #a4#", "", "10.49%"};
+			{ 13, 60295, "", "=q3=Life Bearer's Gauntlets", "=ds=#s9#, #a4#", "", "8.02%"};
+			{ 16, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"};
+			{ 17, 60292, "", "=q3=Averinn's Ring of Slaying", "=ds=#s13#", "", "14.20%"};
+			{ 18, 60299, "", "=q3=Reavers' Ring", "=ds=#s13#", "", "17.90%"};
+			Prev = "MythicRampOmor";
+		};

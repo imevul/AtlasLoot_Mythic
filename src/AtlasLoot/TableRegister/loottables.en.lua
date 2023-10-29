@@ -1810,3 +1810,7 @@ end
 	AtlasLoot_TableNames["MythicAuchManaTavarok"] = { BabbleBoss["Tavarok"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicAuchManaNexusPrince"] = { BabbleBoss["Nexus-Prince Shaffar"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicAuchManaYor"] = { AL["Yor"], "AtlasLootMythic" };
+		
+	AtlasLoot_TableNames["MythicRampWatchkeeper"] = { BabbleBoss["Watchkeeper Gargolmar"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicRampOmor"] = { BabbleBoss["Omor the Unscarred"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicRampVazruden"] = { BabbleBoss["Vazruden"], "AtlasLootMythic" };
