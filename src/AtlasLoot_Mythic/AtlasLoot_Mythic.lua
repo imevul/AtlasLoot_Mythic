@@ -228,3 +228,110 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 			{ 18, 60299, "", "=q3=Reavers' Ring", "=ds=#s13#", "", "17.90%"};
 			Prev = "MythicRampOmor";
 		};
+
+		------------------------------------
+		--- Auchindoun: Shadow Labyrinth ---
+		------------------------------------
+
+		AtlasLoot_Data["MythicAuchShadowHellmaw"] = {
+			{ 1, 60339, "", "=q3=Jaedenfire Gloves of Annihilation", "=ds=#s9#, #a1#", "", "13.58%"};
+			{ 2, 60337, "", "=q3=Dream-Wing Helm", "=ds=#s1#, #a3#", "", "11.81%"};
+			{ 3, 60340, "", "=q3=Ornate Boots of the Sanctified", "=ds=#s12#, #a4#", "", "13.15%"};
+			{ 4, 60338, "", "=q3=Idol of the Emerald Queen", "=ds=#s16#, #w14#", "", "12.94%"};
+			{ 5, 60341, "", "=q3=Platinum Shield of the Valorous", "=ds=#w8#", "", "10.88%"};
+			{ 6, 60342, "", "=q3=Soul-Wand of the Aldor", "=ds=#w12#", "", "13.34%"};
+			Next = "MythicAuchShadowBlackheart";
+		};
+	
+		AtlasLoot_Data["MythicAuchShadowBlackheart"] = {
+			{ 1, 60346, "", "=q3=Moonglade Handwraps", "=ds=#s9#, #a2# (D3)", "", "6.67%"};
+			{ 3, 60345, "", "=q3=Cloak of the Inciter", "=ds=#s4#", "", "16.32%"};
+			{ 4, 60347, "", "=q3=Ornate Leggings of the Venerated", "=ds=#s11#, #a4#", "", "13.35%"};
+			{ 5, 60344, "", "=q3=Brooch of Hightened Potential", "=ds=#s2#", "", "10.54%"};
+			{ 6, 60343, "", "=q3=Adamantine Figurine", "=ds=#s14#", "", "10.93%"};
+			{ 7, 60348, "", "=q3=Wand of the Netherwing", "=ds=#w12#", "", "10.77%"};
+			Prev = "MythicAuchShadowHellmaw";
+			Next = "MythicAuchShadowGrandmaster";
+		};
+	
+		AtlasLoot_Data["MythicAuchShadowGrandmaster"] = {
+			{ 1, 60351, "", "=q3=Hallowed Pauldrons", "=ds=#s3#, #a1# (D3)", "", "16.11%"};
+			{ 3, 60350, "", "=q3=Breastplate of Many Graces", "=ds=#s5#, #a4#", "", "12.67%"};
+			{ 4, 60352, "", "=q3=Jewel of Charismatic Mystique", "=ds=#s14#", "", "16.64%"};
+			{ 5, 60349, "", "=q3=Blackout Truncheon", "=ds=#h1#, #w6#", "", "14.35%"};
+			{ 6, 60353, "", "=q3=Wrathfire Hand-Cannon", "=ds=#w5#", "", "14.71%"};
+			Prev = "MythicAuchShadowBlackheart";
+			Next = "MythicAuchShadowMurmur";
+		};
+	
+		AtlasLoot_Data["MythicAuchShadowMurmur"] = {
+			{ 3, 60364, "", "=q3=Silent Slippers of Meditation", "=ds=#s12#, #a1#", "", "12.28%"};
+			{ 4, 60360, "", "=q3=Harness of the Deep Currents", "=ds=#s5#, #a3#", "", "13.59%"};
+			{ 5, 60369, "", "=q3=Whispering Blade of Slaying", "=ds=#h1#, #w4#", "", "9.69%"};
+			{ 6, 60358, "", "=q3=Greatsword of Horrid Dreams", "=ds=#h3#, #w10#", "", "9.35%"};
+			{ 7, 60366, "", "=q3=Sonic Spear", "=ds=#w7#", "", "11.17%"};
+			{ 8, 60365, "", "=q3=Silvermoon Crest Shield", "=ds=#w8#", "", "12.46%"};
+			{ 10, 60367, "", "=q3=Spaulders of Oblivion", "=ds=#s3#, #a1# (D3)", "", "12.28%"};
+			{ 11, 60362, "", "=q3=Robe of Oblivion", "=ds=#s5#, #a1# (D3)", "", "10.47%"};
+			{ 12, 60359, "", "=q3=Hallowed Garments", "=ds=#s5#, #a1# (D3)", "", "11.46%"};
+			{ 13, 60361, "", "=q3=Leggings of Assassination", "=ds=#s11#, #a2# (D3)", "", "8.76%"};
+			{ 14, 60368, "", "=q3=Tidefury Kilt", "=ds=#s11#, #a3# (D3)", "", "13.87%"};
+			{ 15, 60363, "", "=q3=Shoulderguards of the Bold", "=ds=#s3#, #a4# (D3)", "", "9.49%"};
+			{ 22, 60355, "", "=q4=Kirin Tor Master's Trousers", "=ds=#s11#, #a1#", "", "11.90%"};
+			{ 23, 60356, "", "=q4=Master Thief's Gloves", "=ds=#s9#, #a2#"};
+			{ 24, 60354, "", "=q4=Girdle of Ferocity", "=ds=#s10#, #a3#", "", "3.57%"};
+			{ 25, 60357, "", "=q4=Shockwave Truncheon", "=ds=#h3#, #w6#", "", "10.71%"};
+			Prev = "MythicAuchShadowGrandmaster";
+		};
+
+		----------------------------------
+		--- Tempest Keep: The Arcatraz ---
+		----------------------------------
+
+		AtlasLoot_Data["MythicTKArcUnbound"] = {
+			{ 1, 60306, "", "=q3=Cloak of Scintillating Auras", "=ds=#s4#", "", "17.13%"};
+			{ 2, 60308, "", "=q3=Mana-Sphere Shoulderguards", "=ds=#s3#, #a1#", "", "20.35%"};
+			{ 3, 60309, "", "=q3=Outland Striders", "=ds=#s12#, #a3#", "", "19.52%"};
+			{ 4, 60310, "", "=q3=Rubium War-Girdle", "=ds=#s10#, #a4#", "", "14.38%"};
+			{ 5, 60307, "", "=q3=Idol of Feral Shadows", "=ds=#s16#, #w14#", "", "15.80%"};
+			Next = "MythicTKArcScryer";
+		};
+	
+		AtlasLoot_Data["MythicTKArcScryer"] = {
+			{ 1, 60317, "", "=q3=Gloves of the Unbound", "=ds=#s9#, #a2#", "", "17.80%"};
+			{ 2, 60319, "", "=q3=The Sleeper's Cord", "=ds=#s10#, #a2#", "", "16.29%"};
+			{ 3, 60318, "", "=q3=Ryngo's Band of Ingenuity", "=ds=#s13#", "", "16.81%"};
+			{ 4, 60320, "", "=q3=Warmaul of Infused Light", "=ds=#h2#, #w6#", "", "16.14%"};
+			{ 5, 60316, "", "=q3=Emberhawk Crossbow", "=ds=#w3#", "", "17.65%"};
+			Next = "MythicTKArcDalliah";
+		};
+	
+		AtlasLoot_Data["MythicTKArcDalliah"] = {
+			{ 3, 60315, "", "=q3=Worldfire Chestguard", "=ds=#s5#, #a3#", "", "18.57%"};
+			{ 4, 60314, "", "=q3=Thatia's Self-Correcting Gauntlets", "=ds=#s9#, #a4#", "", "14.80%"};
+			{ 5, 60311, "", "=q3=Lamp of Peaceful Repose", "=ds=#s15#", "", "15.92%"};
+			{ 6, 60313, "", "=q3=Reflex Blades", "=ds=#h3#, #w13#", "", "18.37%"};
+			{ 7, 60312, "", "=q3=Nether Core's Control Rod", "#w12#", "", "15.29%"};
+			Prev = "MythicTKArcScryer";
+			Next = "MythicTKArcHarbinger";
+		};
+	
+		AtlasLoot_Data["MythicTKArcHarbinger"] = {
+			{ 1, 60331, "", "=q3=Hood of Oblivion", "=ds=#s1#, #a1# (D3)", "", "12.23%"};
+			{ 2, 60329, "", "=q3=Hallowed Crown", "=ds=#s1#, #a1# (D3)", "", "12.17%"};
+			{ 3, 60330, "", "=q3=Helm of Assassination", "=ds=#s1#, #a2# (D3)", "", "11.25%"};
+			{ 4, 60336, "", "=q3=Tidefury Chestpiece", "=ds=#s5#, #a3# (D3)", "", "14.98%"};
+			{ 5, 60327, "", "=q3=Doomplate Chestguard", "=ds=#s5#, #a4# (D3)", "", "13.15%"};
+			{ 6, 60325, "", "=q3=Breastplate of the Bold", "=ds=#s5#, #a4# (D3)", "", "11.19%"};
+			{ 8, 60335, "", "=q3=Sigil-Laced Boots", "=ds=#s12#, #a1#", "", "12.23%"};
+			{ 9, 60326, "", "=q3=Choker of Fluid Thought", "=ds=#s2#", "", "14.92%"};
+			{ 10, 60328, "", "=q3=Elementium Band of the Sentry", "=ds=#s13#", "", "10.70%"};
+			{ 11, 60334, "", "=q3=Shiffar's Nexus-Horn", "=ds=#s14#", "", "12.23%"};
+			{ 12, 60333, "", "=q3=Lamp of Peaceful Radiance", "=ds=#s15#", "", "13.15%"};
+			{ 13, 60332, "", "=q3=Hungering Spineripper", "=ds=#h1#, #w4#", "", "12.35%"};
+			{ 22, 60321, "", "=q4=Belt of Depravity", "=ds=#s10#, #a1#", "", "8.47%"};
+			{ 23, 60323, "", "=q4=Shadowstep Striders", "=ds=#s12#, #a2#", "", "0.61%"};
+			{ 24, 60322, "", "=q4=Bracers of Dignity", "=ds=#s8#, #a4#", "", "3.03%"};
+			{ 25, 60324, "", "=q4=Vileblade of the Betrayer", "=ds=#h1#, #w4#", "", "0.18%"};
+			Prev = "MythicTKArcDalliah";
+		};
