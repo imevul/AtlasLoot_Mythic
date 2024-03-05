@@ -1814,3 +1814,13 @@ end
 	AtlasLoot_TableNames["MythicRampWatchkeeper"] = { BabbleBoss["Watchkeeper Gargolmar"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicRampOmor"] = { BabbleBoss["Omor the Unscarred"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicRampVazruden"] = { BabbleBoss["Vazruden"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicAuchShadowHellmaw"] = { BabbleBoss["Ambassador Hellmaw"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchShadowBlackheart"] = { BabbleBoss["Blackheart the Inciter"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchShadowGrandmaster"] = { BabbleBoss["Grandmaster Vorpil"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchShadowMurmur"] = { BabbleBoss["Murmur"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicTKArcUnbound"] = { BabbleBoss["Zereketh the Unbound"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKArcDalliah"] = { BabbleBoss["Dalliah the Doomsayer"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKArcScryer"] = { BabbleBoss["Wrath-Scryer Soccothrates"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKArcHarbinger"] = { BabbleBoss["Harbinger Skyriss"], "AtlasLootMythic" };

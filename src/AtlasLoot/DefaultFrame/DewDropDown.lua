@@ -890,6 +890,7 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 		[1] = {
 			["BC " .. BabbleZone["Tempest Keep"]] = {
 				{ BabbleZone["The Mechanar"], "MythicTKMech", "Submenu" },
+				{ BabbleZone["The Arcatraz"], "MythicTKArc", "Submenu" },
 			},
 		},
 		[2] = {
@@ -899,12 +900,13 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 		},
 		[3] = {
 			["BC ".. BabbleZone["Auchindoun"]] = {
-				{BabbleZone["Mana-Tombs"], "MythicAuchManaTombs","Submenu"},
+				{ BabbleZone["Mana-Tombs"], "MythicAuchManaTombs","Submenu"},
+				{ BabbleZone["Shadow Labyrinth"], "MythicAuchShadowLab", "Submenu" },
 			},
 		},
 		[4] = {
 			["BC ".. BabbleZone["Hellfire Citadel"]] = {
-				{BabbleZone["Hellfire Ramparts"], "MythicRamparts","Submenu"},
+				{ BabbleZone["Hellfire Ramparts"], "MythicRamparts","Submenu"},
 			},
 		}
 
@@ -936,4 +938,18 @@ AtlasLoot_DewDropDown_SubTables["MythicRamparts"] = {
 	{ "", "MythicRampWatchkeeper" },
 	{ "", "MythicRampOmor" },
 	{ "", "MythicRampVazruden" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicTKArc"] = {
+	{ "", "MythicTKArcUnbound" },
+	{ "", "MythicTKArcScryer" },
+	{ "", "MythicTKArcDalliah" },
+	{ "", "MythicTKArcHarbinger" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicAuchShadowLab"] = {
+	{ "", "MythicAuchShadowHellmaw" },
+	{ "", "MythicAuchShadowBlackheart" },
+	{ "", "MythicAuchShadowGrandmaster" },
+	{ "", "MythicAuchShadowMurmur" },
 }
