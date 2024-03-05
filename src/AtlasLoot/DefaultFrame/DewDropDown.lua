@@ -947,9 +947,9 @@ AtlasLoot_DewDropDown_SubTables["MythicTKArc"] = {
 	{ "", "MythicTKArcHarbinger" },
 }
 
-["MythicTKArc"] = {
-	{ "", "MythicTKArcUnbound" },
-	{ "", "MythicTKArcScryer" },
-	{ "", "MythicTKArcDalliah" },
-	{ "", "MythicTKArcHarbinger" },
+AtlasLoot_DewDropDown_SubTables["MythicAuchShadowLab"] = {
+	{ "", "MythicAuchShadowHellmaw" },
+	{ "", "MythicAuchShadowBlackheart" },
+	{ "", "MythicAuchShadowGrandmaster" },
+	{ "", "MythicAuchShadowMurmur" },
 }
