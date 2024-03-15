@@ -370,8 +370,8 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 6, 60392, "", "=q3=Legplates of the Righteous", "=ds=#s11#, #a4# (D3)", "", "12.10%"};
 		{ 8, 60387, "", "=q3=Cowl of the Guiltless", "=ds=#s1#, #a2#", "", "12.25%"};
 		{ 9, 60396, "", "=q3=Primal Surge Bracers", "=ds=#s8#, #a3#", "", "13.51%"};
-		{ 10, 60395 "", "=q3=Pauldrons of the Crimson Flight", "=ds=#s3#, #a4#", "", "11.11%"};
-		{ 11, 60397 "", "=q3=Scarab of the Infinite Cycle", "=ds=#s14#", "", "11.32%"};
+		{ 10, 60395, "", "=q3=Pauldrons of the Crimson Flight", "=ds=#s3#, #a4#", "", "11.11%"};
+		{ 11, 60397, "", "=q3=Scarab of the Infinite Cycle", "=ds=#s14#", "", "11.32%"};
 		{ 12, 60390, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "9.70%"};
 		{ 13, 60386, "", "=q3=Bloodfire Greatstaff", "=ds=#w9#", "", "10.48%"};
 		{ 22, 60382, "", "=q4=Breeches of the Occultist", "=ds=#s11#, #a1#", "", "1.49%"};
