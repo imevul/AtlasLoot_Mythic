@@ -1834,15 +1834,15 @@ end
 	AtlasLoot_TableNames["MythicAuchCryptsAvatar"] = { AL["Avatar of the Martyred"], "AtlasLootBurningCrusade" };
 
 	AtlasLoot_TableNames["MythicAuchSethekkDarkweaver"] = { BabbleBoss["Darkweaver Syth"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["MythicAuchSethekkRavenGod"] = { BabbleBoss["Anzu"].." ("..AL["Heroic"]..")", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["MythicAuchSethekkRavenGod"] = { BabbleBoss["Anzu"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MythicAuchSethekkTalonKing"] = { BabbleBoss["Talon King Ikiss"], "AtlasLootBurningCrusade" };
 
 	AtlasLoot_TableNames["MythicTKBotSarannis"] = { BabbleBoss["Commander Sarannis"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MythicTKBotFreywinn"] = { BabbleBoss["High Botanist Freywinn"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MythicTKBotThorngrin"] = { BabbleBoss["Thorngrin the Tender"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MythicTKBotLaj"] = { BabbleBoss["Laj"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["MythicTKBotSplinterHEROIC"] = { BabbleBoss["Warp Splinter"].." ("..AL["Heroic"]..")", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["MythicTKBotSplinter"] = { BabbleBoss["Warp Splinter"], "AtlasLootBurningCrusade" };
 
 	AtlasLoot_TableNames["MythicCoTHillsbradDrake"] = { BabbleBoss["Lieutenant Drake"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MythicCoTHillsbradSkarloc"] = { BabbleBoss["Captain Skarloc"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["MythicCoTHillsbradHunterHEROIC"] = { BabbleBoss["Epoch Hunter"].." ("..AL["Heroic"]..")", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["MythicCoTHillsbradHunter"] = { BabbleBoss["Epoch Hunter"], "AtlasLootBurningCrusade" };

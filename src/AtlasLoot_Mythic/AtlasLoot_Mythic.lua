@@ -503,10 +503,10 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 5, 60456, "", "=q3=Mantle of Autumn", "=ds=#s3#, #a2#", "", "17.19%"};
 		{ 6, 60454, "", "=q3=Boots of the Shifting Sands", "=ds=#s12#, #a2#", "", "19.07%"};
 		Prev = "MythicTKBotThorngrin";
-		Next = "MythicTKBotSplinterHEROIC";
+		Next = "MythicTKBotSplinter";
 	};
 
-	AtlasLoot_Data["MythicTKBotSplinterHEROIC"] = {
+	AtlasLoot_Data["MythicTKBotSplinter"] = {
 		{ 2, 60459, "", "=q4=Boots of Ethereal Manipulation", "=ds=#s11#, #a1#"};
 		{ 3, 60460, "", "=q4=Boots of the Endless Hunt", "=ds=#s12#, #a3#", "", "4.00%"};
 		{ 4, 60462, "", "=q4=Gauntlets of Dissension", "=ds=#s9#, #a4#"};
@@ -558,10 +558,10 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 26, 60492, "", "=q3=Tarren Mill Vitality Locket", "=ds=#s2#", "", "9.09%"};
 		{ 27, 60486, "", "=q3=Dathrohan's Ceremonial Hammer", "=ds=#h3#, #w6#", "", "6.06%"};
 		Prev = "MythicCoTHillsbradDrake";
-		Next = "MythicCoTHillsbradHunterHEROIC";
+		Next = "MythicCoTHillsbradHunter";
 	};
 
-	AtlasLoot_Data["MythicCoTHillsbradHunterHEROIC"] = {
+	AtlasLoot_Data["MythicCoTHillsbradHunter"] = {
 		{ 2, 60493, "", "=q4=Cord of Sanctification", "=ds=#s10#, #a1#"};
 		{ 3, 60495, "", "=q4=Nightfall Wristguards", "=ds=#s8#, #a2#"};
 		{ 4, 17, "", "=q4=Master Thief's Gloves", "=ds=#s9#, #a2#", "", "10.00%"};
