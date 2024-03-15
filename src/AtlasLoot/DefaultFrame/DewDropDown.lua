@@ -985,11 +985,11 @@ AtlasLoot_DewDropDown_SubTables["MythicTKBot"] = {
 	{ "", "MythicTKBotFreywinn" },
 	{ "", "MythicTKBotThorngrin" },
 	{ "", "MythicTKBotLaj" },
-	{ "", "MythicTKBotSplinter" },
+	{ "", "MythicTKBotSplinterHEROIC" },
 }
 
 AtlasLoot_DewDropDown_SubTables["MythicCoTOldHillsbrad"] = {
 	{ "", "MythicCoTHillsbradDrake" },
 	{ "", "MythicCoTHillsbradSkarloc" },
-	{ "", "MythicCoTHillsbradHunter" },
+	{ "", "MythicCoTHillsbradHunterHEROIC" },
 }
