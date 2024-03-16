@@ -410,12 +410,12 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	};
 
 	AtlasLoot_Data["MythicAuchCryptsAvatar"] = {
-		{ 1, 17, "", "=q3=Auchenai Death Shroud", "=ds=#s4#", "", "4.41%"};
-		{ 2, 17, "", "=q3=Natural Mender's Wraps", "=ds=#s9#, #a2#", "", "3.94%"};
-		{ 3, 17, "", "=q3=Will of the Fallen Exarch", "=ds=#h3#, #w6#", "", "5.10%"};
-		{ 4, 17, "", "=q3=Sky Breaker", "=ds=#h3#, #w6#", "", "3.48%"};
-		{ 5, 17, "", "=q3=Draenic Wildstaff", "=ds=#w9#", "", "4.87%"};
-		{ 7, 17, "", "=q3=Wastewalker Shoulderpads", "=ds=#s3#, #a2# (D3)", "", "3.94%"};
+		{ 1, 60512, "", "=q3=Auchenai Death Shroud", "=ds=#s4#", "", "4.41%"};
+		{ 2, 60513, "", "=q3=Natural Mender's Wraps", "=ds=#s9#, #a2#", "", "3.94%"};
+		{ 3, 60517, "", "=q3=Will of the Fallen Exarch", "=ds=#h3#, #w6#", "", "5.10%"};
+		{ 4, 60514, "", "=q3=Sky Breaker", "=ds=#h3#, #w6#", "", "3.48%"};
+		{ 5, 60516, "", "=q3=Draenic Wildstaff", "=ds=#w9#", "", "4.87%"};
+		{ 7, 60515, "", "=q3=Wastewalker Shoulderpads", "=ds=#s3#, #a2# (D3)", "", "3.94%"};
 		Prev = "MythicAuchCryptsExarch";
 	};
 
@@ -531,11 +531,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		------------------------------------------------
 
 	AtlasLoot_Data["MythicCoTHillsbradDrake"] = {
-		{ 2, 60478, "", "=q3=Cloak of Impulsiveness", "=ds=#s4#", "", "19.68%"};
-		{ 3, 17, "", "=q3=Stormreaver Shadow-Kilt", "=ds=#s11#, #a1#", "", "18.16%"};
-		{ 4, 60483, "", "=q3=Ravenwing Pauldrons", "=ds=#s3#, #a2#", "", "18.33%"};
-		{ 5, 17, "", "=q3=Uther's Ceremonial Warboots", "=ds=#s12#, #a4#", "", "17.14%"};
-		{ 6, 17, "", "=q3=Iron Band of the Unbreakable", "=ds=#s13#", "", "15.09%"};
 		{ 22, 60476, "", "=q3=Aran's Sorcerous Slacks", "=ds=#s11#, #a1#", "", "11.43%"};
 		{ 23, 60479, "", "=q3=Grips of the Lunar Eclipse", "=ds=#s9#, #a2#", "", "2.86%"};
 		{ 24, 60482, "", "=q3=Mok'Nathal Mask of Battle", "=ds=#s1#, #a3#", "", "11.43%"};
@@ -546,11 +541,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	};
 
 	AtlasLoot_Data["MythicCoTHillsbradSkarloc"] = {
-		{ 2, 60491, "", "=q3=Stormfront Gauntlets", "=ds=#s9#, #a3#", "", "19.04%"};
-		{ 3, 60490, "", "=q3=Scaled Greaves of Patience", "=ds=#s11#, #a3#", "", "19.22%"};
-		{ 4, 17, "", "=q3=Durotan's Battle Harness", "=ds=#s5#, #a4#", "", "14.83%"};
-		{ 5, 60484, "", "=q3=Amani Venom-Axe", "=ds=#h1#, #w1#", "", "18.50%"};
-		{ 6, 17, "", "=q3=Northshire Battlemace", "=ds=#h3#, #w6#", "", "15.37%"};
 		{ 22, 60489, "", "=q3=Pontiff's Pantaloons of Prophecy", "=ds=#s11#, #a1#", "", "18.18%"};
 		{ 23, 60488, "", "=q3=Moon-Crown Antlers", "=ds=#s1#, #a2#", "", "0.14%"};
 		{ 24, 60487, "", "=q3=Emerald-Scale Greaves", "=ds=#s11#, #a3#", "", "3.03%"};
@@ -564,7 +554,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	AtlasLoot_Data["MythicCoTHillsbradHunter"] = {
 		{ 2, 60493, "", "=q4=Cord of Sanctification", "=ds=#s10#, #a1#"};
 		{ 3, 60495, "", "=q4=Nightfall Wristguards", "=ds=#s8#, #a2#"};
-		{ 4, 17, "", "=q4=Master Thief's Gloves", "=ds=#s9#, #a2#", "", "10.00%"};
 		{ 5, 60496, "", "=q4=Wyrmscale Greaves", "=ds=#s11#, #a3#"};
 		{ 6, 60494, "", "=q4=Greaves of the Martyr", "=ds=#s11#, #a4#", "", "15.00%"};
 		{ 8, 60500, "", "=q3=Epoch's Whispering Cinch", "=ds=#s10#, #a2#", "", "10.00%"};
