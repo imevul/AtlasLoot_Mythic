@@ -1824,3 +1824,25 @@ end
 	AtlasLoot_TableNames["MythicTKArcDalliah"] = { BabbleBoss["Dalliah the Doomsayer"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicTKArcScryer"] = { BabbleBoss["Wrath-Scryer Soccothrates"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicTKArcHarbinger"] = { BabbleBoss["Harbinger Skyriss"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicCoTMorassDeja"] = { BabbleBoss["Chrono Lord Deja"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCoTMorassTemporus"] = { BabbleBoss["Temporus"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCoTMorassAeonus"] = { BabbleBoss["Aeonus"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicAuchCryptsShirrak"] = { BabbleBoss["Shirrak the Dead Watcher"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchCryptsExarch"] = { BabbleBoss["Exarch Maladaar"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchCryptsAvatar"] = { AL["Avatar of the Martyred"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicAuchSethekkDarkweaver"] = { BabbleBoss["Darkweaver Syth"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchSethekkRavenGod"] = { BabbleBoss["Anzu"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicAuchSethekkTalonKing"] = { BabbleBoss["Talon King Ikiss"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicTKBotSarannis"] = { BabbleBoss["Commander Sarannis"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKBotFreywinn"] = { BabbleBoss["High Botanist Freywinn"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKBotThorngrin"] = { BabbleBoss["Thorngrin the Tender"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKBotLaj"] = { BabbleBoss["Laj"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicTKBotSplinter"] = { BabbleBoss["Warp Splinter"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicCoTHillsbradDrake"] = { BabbleBoss["Lieutenant Drake"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCoTHillsbradSkarloc"] = { BabbleBoss["Captain Skarloc"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCoTHillsbradHunter"] = { BabbleBoss["Epoch Hunter"], "AtlasLootMythic" };

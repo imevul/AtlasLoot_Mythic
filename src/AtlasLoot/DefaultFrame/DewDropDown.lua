@@ -890,6 +890,7 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 		[1] = {
 			["BC " .. BabbleZone["Tempest Keep"]] = {
 				{ BabbleZone["The Mechanar"], "MythicTKMech", "Submenu" },
+				{ BabbleZone["The Botanica"], "MythicTKBot", "Submenu" },
 				{ BabbleZone["The Arcatraz"], "MythicTKArc", "Submenu" },
 			},
 		},
@@ -901,6 +902,8 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 		[3] = {
 			["BC ".. BabbleZone["Auchindoun"]] = {
 				{ BabbleZone["Mana-Tombs"], "MythicAuchManaTombs","Submenu"},
+				{ BabbleZone["Auchenai Crypts"], "MythicAuchCrypts", "Submenu" },
+				{ BabbleZone["Sethekk Halls"], "MythicAuchSethekk", "Submenu" },
 				{ BabbleZone["Shadow Labyrinth"], "MythicAuchShadowLab", "Submenu" },
 			},
 		},
@@ -908,8 +911,13 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 			["BC ".. BabbleZone["Hellfire Citadel"]] = {
 				{ BabbleZone["Hellfire Ramparts"], "MythicRamparts","Submenu"},
 			},
+		},
+		[5] = {
+			["BC ".. BabbleZone["Caverns of Time"]] = {
+				{ BabbleZone["Old Hillsbrad Foothills"], "MythicCoTOldHillsbrad", "Submenu" },
+				{ BabbleZone["The Black Morass"], "MythicCoTBlackMorass", "Submenu" },
+			},
 		}
-
 	},
 }
 
@@ -952,4 +960,36 @@ AtlasLoot_DewDropDown_SubTables["MythicAuchShadowLab"] = {
 	{ "", "MythicAuchShadowBlackheart" },
 	{ "", "MythicAuchShadowGrandmaster" },
 	{ "", "MythicAuchShadowMurmur" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicCoTBlackMorass"] = {
+	{ "", "MythicCoTMorassDeja" },
+	{ "", "MythicCoTMorassTemporus" },
+	{ "", "MythicCoTMorassAeonus" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicAuchCrypts"] = {
+	{ "", "MythicAuchCryptsShirrak" },
+	{ "", "MythicAuchCryptsExarch" },
+	{ "", "MythicAuchCryptsAvatar" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicAuchSethekk"] = {
+	{ "", "MythicAuchSethekkDarkweaver" },
+	{ "", "MythicAuchSethekkTalonKing" },
+	{ "", "MythicAuchSethekkRavenGod" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicTKBot"] = {
+	{ "", "MythicTKBotSarannis" },
+	{ "", "MythicTKBotFreywinn" },
+	{ "", "MythicTKBotThorngrin" },
+	{ "", "MythicTKBotLaj" },
+	{ "", "MythicTKBotSplinter" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicCoTOldHillsbrad"] = {
+	{ "", "MythicCoTHillsbradDrake" },
+	{ "", "MythicCoTHillsbradSkarloc" },
+	{ "", "MythicCoTHillsbradHunter" },
 }
