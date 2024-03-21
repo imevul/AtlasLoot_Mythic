@@ -547,11 +547,14 @@ It is the workhorse of the mod and allows the loot tables to be displayed any wa
 function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	--Set up local variables needed for GetItemInfo, etc
 	local itemName, itemLink, itemQuality, itemLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, itemColor;
-	local iconFrame, nameFrame, extraFrame, itemButton;
+	local iconFrame, nameFrame, extraFrame, itemButton, attuneProgressFrame, attuneIconFrame;
 	local text, extra;
 	local wlPage, wlPageMax = 1, 1;
 	local isItem;
 	local spellName, spellIcon;
+	local progressWidth = 4
+	local progressMinHeight = progressWidth
+	local progressMaxHeight = 23
 
     --If the loot table name has not been passed, throw up a debugging statement
 	if dataID==nil then
@@ -697,6 +700,31 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				iconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Icon");
 				nameFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Name");
 				extraFrame = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Extra");
+				attuneIconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttuneIcon");
+				attuneProgressFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttuneProgress");
+
+				if SynastriaCoreLib and dataSource[dataID][i][2] > 0 then
+					if SynastriaCoreLib.IsAttuned(dataSource[dataID][i][2]) then
+						attuneIconFrame:Hide()
+						attuneProgressFrame:Show()
+						attuneProgressFrame:SetSize(progressWidth, progressMaxHeight)
+						attuneProgressFrame:SetVertexColor(0.24, 0.80, 0.18, 1)
+					else
+						if SynastriaCoreLib.IsAttunable(dataSource[dataID][i][2]) then
+							attuneIconFrame:Hide()
+							attuneProgressFrame:Show()
+							local progress = SynastriaCoreLib.GetAttune(dataSource[dataID][i][2])
+							attuneProgressFrame:SetSize(progressWidth, math.floor((progress / 100.0) * (progressMaxHeight - progressMinHeight)) + progressMinHeight)
+							attuneProgressFrame:SetVertexColor(0.80, 0.73, 0.18, 1)
+						else
+							attuneProgressFrame:Hide()
+							attuneIconFrame:Show()
+						end
+					end
+				else
+					attuneProgressFrame:Hide()
+					attuneIconFrame:Hide()
+				end
 
 				--If there is no data on the texture an item should have, show a big red question mark
 				if dataSource[dataID][i][3] == "?" then

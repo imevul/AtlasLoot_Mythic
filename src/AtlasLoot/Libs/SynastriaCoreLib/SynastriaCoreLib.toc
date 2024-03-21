@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: SynastriaCoreLib
+## Notes: A library of functions from Syanstria
+## Author: Imevul, meh321
+## Version: 1.0.2-Release
+## X-Category: Imevul
+
+SynastriaCoreLib.lua
