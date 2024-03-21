@@ -177,7 +177,19 @@
 		<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
 		<Layers>
 			<Layer level="OVERLAY">
-				<Texture name="$parent_AttuneIcon" file="Interface\AddOns\AtlasLoot\Images\icons\AttunableIcon" hidden="false">
+				<Texture name="$parent_UnattunableIcon" file="Interface\AddOns\AtlasLoot\Images\icons\AttunableIcon" hidden="true">
+					<Size>
+						<AbsDimension x="25" y="25"/>
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOMLEFT" relativeTo="$parent" relativePoint="BOTTOMLEFT">
+                            <Offset>
+                                <AbsDimension x="-7" y="3"/>
+                            </Offset>
+                        </Anchor>
+					</Anchors>
+				</Texture>
+				<Texture name="$parent_AttunedIcon" file="Interface\AddOns\AtlasLoot\Images\icons\AttunedIcon" hidden="true">
 					<Size>
 						<AbsDimension x="25" y="25"/>
 					</Size>

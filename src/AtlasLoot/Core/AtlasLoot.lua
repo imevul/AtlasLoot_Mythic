@@ -547,12 +547,12 @@ It is the workhorse of the mod and allows the loot tables to be displayed any wa
 function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	--Set up local variables needed for GetItemInfo, etc
 	local itemName, itemLink, itemQuality, itemLevel, itemType, itemSubType, itemCount, itemEquipLoc, itemTexture, itemColor;
-	local iconFrame, nameFrame, extraFrame, itemButton, attuneProgressFrame, attuneIconFrame;
+	local iconFrame, nameFrame, extraFrame, itemButton, attuneProgressFrame, attunedIconFrame, unattunableIconFrame;
 	local text, extra;
 	local wlPage, wlPageMax = 1, 1;
 	local isItem;
 	local spellName, spellIcon;
-	local progressWidth = 4
+	local progressWidth = 5
 	local progressMinHeight = progressWidth
 	local progressMaxHeight = 23
 
@@ -700,30 +700,38 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				iconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Icon");
 				nameFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Name");
 				extraFrame = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Extra");
-				attuneIconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttuneIcon");
+				attunedIconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttunedIcon");
+				unattunableIconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_UnattunableIcon");
 				attuneProgressFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttuneProgress");
 
 				if SynastriaCoreLib and dataSource[dataID][i][2] > 0 then
 					if SynastriaCoreLib.IsAttuned(dataSource[dataID][i][2]) then
-						attuneIconFrame:Hide()
-						attuneProgressFrame:Show()
-						attuneProgressFrame:SetSize(progressWidth, progressMaxHeight)
+						unattunableIconFrame:Hide()
+						attunedIconFrame:Show()
+						--attuneProgressFrame:Show()
+--[[ 						attuneProgressFrame:SetSize(progressWidth, progressWidth)
 						attuneProgressFrame:SetVertexColor(0.24, 0.80, 0.18, 1)
+						attuneProgressFrame:ClearAllPoints()
+						attuneProgressFrame:SetPoint("TOPLEFT", itemButton, "TOPLEFT", -6, -2) ]]
 					else
+						attunedIconFrame:Hide()
 						if SynastriaCoreLib.IsAttunable(dataSource[dataID][i][2]) then
-							attuneIconFrame:Hide()
+							attuneProgressFrame:ClearAllPoints()
+							attuneProgressFrame:SetPoint("BOTTOMLEFT", itemButton, "BOTTOMLEFT", -6, 3)
+							unattunableIconFrame:Hide()
 							attuneProgressFrame:Show()
 							local progress = SynastriaCoreLib.GetAttune(dataSource[dataID][i][2])
 							attuneProgressFrame:SetSize(progressWidth, math.floor((progress / 100.0) * (progressMaxHeight - progressMinHeight)) + progressMinHeight)
 							attuneProgressFrame:SetVertexColor(0.80, 0.73, 0.18, 1)
 						else
 							attuneProgressFrame:Hide()
-							attuneIconFrame:Show()
+							unattunableIconFrame:Show()
 						end
 					end
 				else
+					attunedIconFrame:Hide()
 					attuneProgressFrame:Hide()
-					attuneIconFrame:Hide()
+					unattunableIconFrame:Hide()
 				end
 
 				--If there is no data on the texture an item should have, show a big red question mark
