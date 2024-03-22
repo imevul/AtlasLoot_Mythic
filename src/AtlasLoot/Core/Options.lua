@@ -47,6 +47,7 @@ function AtlasLootOptions_Init()
     AtlasLootOptionsFrameEquipCompare:SetChecked(AtlasLoot.db.profile.EquipCompare);
     AtlasLootOptionsFrameOpaque:SetChecked(AtlasLoot.db.profile.Opaque);
     AtlasLootOptionsFrameItemID:SetChecked(AtlasLoot.db.profile.ItemIDs);
+    AtlasLootOptionsFrameColorBlind:SetChecked(AtlasLoot.db.profile.colorBlindMode);
     AtlasLootOptionsFrameItemSpam:SetChecked(AtlasLoot.db.profile.ItemSpam);
     AtlasLootOptionsFrameLoDStartup:SetChecked(AtlasLoot.db.profile.LoadAllLoDStartup);
     AtlasLootOptionsFrameHidePanel:SetChecked(AtlasLoot.db.profile.HidePanel);
@@ -132,6 +133,11 @@ function AtlasLootOptions_ItemIDToggle()
     AtlasLootOptions_Init();
 end
 
+function AtlasLootOptions_ColorBlindToggle()
+    AtlasLoot.db.profile.colorBlindMode=AtlasLootOptionsFrameColorBlind:GetChecked();
+    AtlasLootOptions_Init();
+end
+
 function AtlasLoot_SetupLootBrowserSlider(frame, mymin, mymax, step)
     getglobal(frame:GetName().."Text"):SetText(AL["Loot Browser Scale: "].." ("..frame:GetValue()..")");
 	frame:SetMinMaxValues(mymin, mymax);
@@ -211,6 +217,7 @@ function AtlasLoot_CreateOptionsInfoTooltips()
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameItemSyncTT", nil) -- AL["ItemSync Tooltips"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameOpaque", nil) -- AL["Make Loot Table Opaque"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameItemID", nil) -- AL["Show itemIDs at all times"]
+      AtlasLoot_AddTooltip("AtlasLootOptionsFrameColorBlind", nil) -- AL["Use accessible colors"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameSafeLinks", nil) -- AL["Safe Chat Links |cff1eff00(recommended)|r"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameEquipCompare", nil) -- AL["Show Comparison Tooltips"]
       AtlasLoot_AddTooltip("AtlasLootOptionsFrameHidePanel", nil) -- AL["Hide AtlasLoot Panel"]

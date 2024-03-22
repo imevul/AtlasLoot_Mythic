@@ -189,7 +189,7 @@
                         </Anchor>
 					</Anchors>
 				</Texture>
-				<Texture name="$parent_AttunedIcon" file="Interface\AddOns\AtlasLoot\Images\icons\AttunedIcon" hidden="true">
+				<Texture name="$parent_AttunedIcon" hidden="true">
 					<Size>
 						<AbsDimension x="25" y="25"/>
 					</Size>
@@ -212,7 +212,7 @@
                             </Offset>
                         </Anchor>
 					</Anchors>
-					<Color r="1" g="1" b="0" a="1"/>
+					<Color r="0.80" g="0.73" b="0.18" a="1"/>
 				</Texture>
 			</Layer>
 			<Layer level="ARTWORK">
@@ -953,6 +953,24 @@
 					</OnClick>
 				</Scripts>
 			</CheckButton>
+            <CheckButton name="$parentColorBlind" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="5" y="-190"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+						getglobal(this:GetName().."Text"):SetText('Colorblind mode');
+					</OnLoad>
+					<OnClick>
+						AtlasLootOptions_ColorBlindToggle();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
             <CheckButton name="$parentLoDStartup" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP">
@@ -1084,7 +1102,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="30" y="-200"/>
+							<AbsDimension x="30" y="-210"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -1106,7 +1124,7 @@
 				<Anchors>
 					<Anchor point="TOP">
 						<Offset>
-							<AbsDimension x="30" y="-230"/>
+							<AbsDimension x="30" y="-240"/>
 						</Offset>
 					</Anchor>
 				</Anchors>

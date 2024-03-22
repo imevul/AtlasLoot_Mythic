@@ -708,11 +708,12 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 					if SynastriaCoreLib.IsAttuned(dataSource[dataID][i][2]) then
 						unattunableIconFrame:Hide()
 						attunedIconFrame:Show()
-						--attuneProgressFrame:Show()
---[[ 						attuneProgressFrame:SetSize(progressWidth, progressWidth)
-						attuneProgressFrame:SetVertexColor(0.24, 0.80, 0.18, 1)
-						attuneProgressFrame:ClearAllPoints()
-						attuneProgressFrame:SetPoint("TOPLEFT", itemButton, "TOPLEFT", -6, -2) ]]
+
+						if AtlasLoot.db.profile.colorBlindMode then
+							attunedIconFrame:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\icons\\AttunedIconCB")
+						else
+							attunedIconFrame:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\icons\\AttunedIcon")
+						end
 					else
 						attunedIconFrame:Hide()
 						if SynastriaCoreLib.IsAttunable(dataSource[dataID][i][2]) then
@@ -722,7 +723,12 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 							attuneProgressFrame:Show()
 							local progress = SynastriaCoreLib.GetAttune(dataSource[dataID][i][2])
 							attuneProgressFrame:SetSize(progressWidth, math.floor((progress / 100.0) * (progressMaxHeight - progressMinHeight)) + progressMinHeight)
-							attuneProgressFrame:SetVertexColor(0.80, 0.73, 0.18, 1)
+
+							if AtlasLoot.db.profile.colorBlindMode then
+								attuneProgressFrame:SetVertexColor(1, 0.69, 0, 1)
+							else
+								attuneProgressFrame:SetVertexColor(0.80, 0.73, 0.18, 1)
+							end
 						else
 							attuneProgressFrame:Hide()
 							unattunableIconFrame:Show()
