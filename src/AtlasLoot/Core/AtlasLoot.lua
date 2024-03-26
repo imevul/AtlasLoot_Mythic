@@ -554,7 +554,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	local spellName, spellIcon;
 	local progressWidth = 5
 	local progressMinHeight = progressWidth
-	local progressMaxHeight = 23
+	local progressMaxHeight = 24
 
     --If the loot table name has not been passed, throw up a debugging statement
 	if dataID==nil then
@@ -700,27 +700,20 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				iconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Icon");
 				nameFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Name");
 				extraFrame = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_Extra");
-				attunedIconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttunedIcon");
-				unattunableIconFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_UnattunableIcon");
 				attuneProgressFrame  = getglobal("AtlasLootItem_"..dataSource[dataID][i][1].."_AttuneProgress");
 
-				if SynastriaCoreLib and dataSource[dataID][i][2] > 0 then
+				-- If not number, that means we're dealing with a crafting spell ("s<spellId>")
+				if SynastriaCoreLib and type(dataSource[dataID][i][2]) == 'number' and dataSource[dataID][i][2] > 0 then
+					attuneProgressFrame:Show()
 					if SynastriaCoreLib.IsAttuned(dataSource[dataID][i][2]) then
-						unattunableIconFrame:Hide()
-						attunedIconFrame:Show()
-
+						attuneProgressFrame:SetSize(progressWidth, progressMaxHeight)
 						if AtlasLoot.db.profile.colorBlindMode then
-							attunedIconFrame:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\icons\\AttunedIconCB")
+							attuneProgressFrame:SetVertexColor(0.39, 0.56, 1, 1)
 						else
-							attunedIconFrame:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\icons\\AttunedIcon")
+							attuneProgressFrame:SetVertexColor(0.24, 0.8, 0.18, 1)
 						end
 					else
-						attunedIconFrame:Hide()
 						if SynastriaCoreLib.IsAttunable(dataSource[dataID][i][2]) then
-							attuneProgressFrame:ClearAllPoints()
-							attuneProgressFrame:SetPoint("BOTTOMLEFT", itemButton, "BOTTOMLEFT", -6, 3)
-							unattunableIconFrame:Hide()
-							attuneProgressFrame:Show()
 							local progress = SynastriaCoreLib.GetAttune(dataSource[dataID][i][2])
 							attuneProgressFrame:SetSize(progressWidth, math.floor((progress / 100.0) * (progressMaxHeight - progressMinHeight)) + progressMinHeight)
 
@@ -730,14 +723,16 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 								attuneProgressFrame:SetVertexColor(0.80, 0.73, 0.18, 1)
 							end
 						else
-							attuneProgressFrame:Hide()
-							unattunableIconFrame:Show()
+							attuneProgressFrame:SetSize(progressWidth, progressMinHeight)
+							if AtlasLoot.db.profile.colorBlindMode then
+								attuneProgressFrame:SetVertexColor(0.86, 0.15, 0.5, 1)
+							else
+								attuneProgressFrame:SetVertexColor(0.8, 0.19, 0.19, 1)
+							end
 						end
 					end
 				else
-					attunedIconFrame:Hide()
 					attuneProgressFrame:Hide()
-					unattunableIconFrame:Hide()
 				end
 
 				--If there is no data on the texture an item should have, show a big red question mark

@@ -177,33 +177,9 @@
 		<HighlightTexture file="Interface\QuestFrame\UI-QuestTitleHighlight" alphaMode="ADD"/>
 		<Layers>
 			<Layer level="OVERLAY">
-				<Texture name="$parent_UnattunableIcon" file="Interface\AddOns\AtlasLoot\Images\icons\AttunableIcon" hidden="true">
+				<Texture name="$parent_AttuneProgress" file="Interface\AddOns\AtlasLoot\Images\icons\AttunementProgress" hidden="true">
 					<Size>
-						<AbsDimension x="25" y="25"/>
-					</Size>
-					<Anchors>
-						<Anchor point="BOTTOMLEFT" relativeTo="$parent" relativePoint="BOTTOMLEFT">
-                            <Offset>
-                                <AbsDimension x="-7" y="3"/>
-                            </Offset>
-                        </Anchor>
-					</Anchors>
-				</Texture>
-				<Texture name="$parent_AttunedIcon" hidden="true">
-					<Size>
-						<AbsDimension x="25" y="25"/>
-					</Size>
-					<Anchors>
-						<Anchor point="BOTTOMLEFT" relativeTo="$parent" relativePoint="BOTTOMLEFT">
-                            <Offset>
-                                <AbsDimension x="-7" y="3"/>
-                            </Offset>
-                        </Anchor>
-					</Anchors>
-				</Texture>
-				<Texture name="$parent_AttuneProgress" hidden="true">
-					<Size>
-						<AbsDimension x="4" y="4"/>
+						<AbsDimension x="5" y="5"/>
 					</Size>
 					<Anchors>
 						<Anchor point="BOTTOMLEFT" relativeTo="$parent" relativePoint="BOTTOMLEFT">
@@ -212,7 +188,6 @@
                             </Offset>
                         </Anchor>
 					</Anchors>
-					<Color r="0.80" g="0.73" b="0.18" a="1"/>
 				</Texture>
 			</Layer>
 			<Layer level="ARTWORK">
