@@ -1846,3 +1846,26 @@ end
 	AtlasLoot_TableNames["MythicCoTHillsbradDrake"] = { BabbleBoss["Lieutenant Drake"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicCoTHillsbradSkarloc"] = { BabbleBoss["Captain Skarloc"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicCoTHillsbradHunter"] = { BabbleBoss["Epoch Hunter"], "AtlasLootMythic" };
+	#####################################################
+	AtlasLoot_TableNames["MythicHCFurnaceMaker"] = { BabbleBoss["The Maker"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicHCFurnaceBroggok"] = { BabbleBoss["Broggok"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicHCFurnaceBreaker"] = { BabbleBoss["Keli'dan the Breaker"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicCFRSlaveMennu"] = { BabbleBoss["Mennu the Betrayer"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCFRSlaveRokmar"] = { BabbleBoss["Rokmar the Crackler"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCFRSlaveQuagmirran"] = { BabbleBoss["Quagmirran"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicHCHallsNethekurse"] = { BabbleBoss["Grand Warlock Nethekurse"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicHCHallsPorung"] = { BabbleBoss["Blood Guard Porung"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["HMythicCHallsOmrogg"] = { BabbleBoss["Warbringer O'mrogg"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicHCHallsKargath"] = { BabbleBoss["Warchief Kargath Bladefist"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicCFRSteamThespia"] = { BabbleBoss["Hydromancer Thespia"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCFRSteamSteamrigger"] = { BabbleBoss["Mekgineer Steamrigger"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicCFRSteamWarlord"] = { BabbleBoss["Warlord Kalithresh"], "AtlasLootMythic" };
+
+	AtlasLoot_TableNames["MythicSMTFireheart"] = { BabbleBoss["Selin Fireheart"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicSMTVexallus"] = { BabbleBoss["Vexallus"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicSMTDelrissa"] = { BabbleBoss["Priestess Delrissa"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicSMTKaelthas"] = { BabbleBoss["Kael'thas Sunstrider"], "AtlasLootMythic" };
+	--AtlasLoot_TableNames["SMTKaelthasHEROIC"] = { BabbleBoss["Kael'thas Sunstrider"].." ("..AL["Heroic"]..")", "AtlasLootMythic" };

@@ -573,3 +573,292 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 28, 60498, "", "=q3=Diamond Prism of Recurrence", "=ds=#s2#", "", "16.12%"};
 		Prev = "MythicCoTHillsbradSkarloc";
 	};
+
+########################################################
+		-------------------------------------------
+		--- Hellfire Citadel: The Blood Furnace ---
+		-------------------------------------------
+
+	AtlasLoot_Data["MythicHCFurnaceMaker"] = {
+		{ 2, 8888888888888888, "", "=q3=Girdle of the Gale Storm", "=ds=#s10#, #a3#", "", "15.84%"};
+		{ 3, 8888888888888888, "", "=q3=Ironblade Gauntlets", "=ds=#s9#, #a4#", "", "13.27%"};
+		{ 4, 8888888888888888, "", "=q3=Pendant of Battle-Lust", "=ds=#s2#", "", "15.43%"};
+		{ 5, 8888888888888888, "", "=q3=Libram of Saints Departed", "=ds=#s16#, #w16#", "", "14.78%"};
+		{ 6, 8888888888888888, "", "=q3=Diamond-Core Sledgemace", "=ds=#h3#, #w6#", "", "12.90%"};
+		{ 22, 61340, "", "=q3=Embroidered Cape of Mysteries", "=ds=#s4#", "", "13.89%"};
+		{ 23, 61342, "", "=q3=Mage-Collar of the Firestorm", "=ds=#s1#, #a1#", "", "16.67%"};
+		{ 24, 61343, "", "=q3=Moon-Touched Bands", "=ds=#s8#, #a2#", "", "25.00%"};
+		{ 25, 61339, "", "=q3=Bloodlord Legplates", "=ds=#s11#, #a4#", "", "9.26%"};
+		{ 26, 61341, "", "=q3=Libram of Avengement", "=ds=#s16#, #w16#", "", "14.81%"};
+		Next = "MythicHCFurnaceBroggok";
+	};
+
+	AtlasLoot_Data["MythicHCFurnaceBroggok"] = {
+		{ 2, 8888888888888888, "", "=q3=Arcing Bracers", "=ds=#s8#, #a1#", "", "14.37%"};
+		{ 3, 8888888888888888, "", "=q3=Bloody Surgeon's Mitts", "=ds=#s9#, #a1#", "", "17.62%"};
+		{ 4, 8888888888888888, "", "=q3=Kilt of the Night Strider", "=ds=#s11#, #a2#", "", "16.58%"};
+		{ 5, 8888888888888888, "", "=q3=Auslese's Light Channeler", "=ds=#s14#", "", "11.57%"};
+		{ 6, 8888888888888888, "", "=q3=Legion Blunderbuss", "=ds=#w5#", "", "17.69%"};
+		{ 22, 61344, "", "=q3=Embroidered Spellpyre Boots", "=ds=#s12#, #a1#", "", "8.33%"};
+		{ 23, 61346, "", "=q3=Moonchild Leggings", "=ds=#s11#, #a2#", "", "13.89%"};
+		{ 24, 61348, "", "=q3=Virtue Bearer's Vambraces", "=ds=#s8#, #a4#", "", "22.22%"};
+		{ 25, 61347, "", "=q3=Signet of Repose", "=ds=#s13#", "", "30.56%"};
+		{ 26, 61345, "", "=q3=Firebrand Battleaxe", "=ds=#h1#, #w1#", "", "9.72%"};
+		Prev = "MythicHCFurnaceMaker";
+		Next = "MythicHCFurnaceBreaker";
+	};
+
+	AtlasLoot_Data["MythicHCFurnaceBreaker"] = {
+		{ 1, 61363, "", "=q3=Wastewalker Tunic", "=ds=#s5#, #a2# (D3)", "", "6.82%"};
+		{ 2, 61355, "", "=q3=Doomplate Gauntlets", "=ds=#s9#, #a4# (D3)", "", "9.09%"};
+		{ 4, 61359, "", "=q3=Robe of Effervescent Light", "=ds=#s5#, #a1#", "", "17.42%"};
+		{ 5, 61358, "", "=q3=Leggings of the Unrepentant", "=ds=#s11#, #a2#", "", "13.64%"};
+		{ 6, 61364, "", "=q3=World's End Bracers", "=ds=#s8#, #a3#", "", "25.76%"};
+		{ 7, 61356, "", "=q3=Emerald Eye Bracer", "=ds=#s8#, #a3#", "", "11.50%"};
+		{ 8, 61360, "", "=q3=Ruby Helm of the Just", "=ds=#s1#, #a4#", "", "11.36%"};
+		{ 9, 61354, "", "=q3=Bloodsworn Warboots", "=ds=#s12#, #a4#"};
+		{ 10, 61361, "", "=q3=Soldier's Dog Tags", "=ds=#s2#", "", "9.85%"};
+		{ 11, 61357, "", "=q3=Icon of Unyielding Courage", "=ds=#s14#", "", "8.33%"};
+		{ 12, 61362, "", "=q3=The Willbreaker", "=ds=#h3#, #w10#", "", "6.06%"};
+		{ 13, 61353, "", "=q3=Adamantine Repeater", "=ds=#w3#", "", "6.82%"};
+		{ 20, 61350, "", "=q4=Mantle of Shadowy Embrace", "=ds=#s3#, #a2#"};
+		{ 21, 61352, "", "=q4=Wave-Crest Striders", "=ds=#s12#, #a3#", "", "3.79%"};
+		{ 22, 61349, "", "=q4=Eaglecrest Warboots", "=ds=#s12#, #a4#", "", "6.82%"};
+		{ 23, 61351, "", "=q4=Talisman of the Breaker", "=ds=#s2#", "", "7.58%"};
+		{ 26, 8888888888888888, "", "=q3=Raiments of Divine Authority", "=ds=#s5#, #a1#", "", "16.92%"};
+		{ 27, 248888888888888888395, "", "=q3=Mindfire Waistband", "=ds=#s10#, #a1#", "", "16.64%"};
+		{ 28, 8888888888888888, "", "=q3=Mantle of the Dusk-Dweller", "=ds=#s3#, #a2#", "", "14.29%"};
+		{ 29, 243888888888888888896, "", "=q3=Vest of Vengeance", "=ds=#s5#, #a2#", "", "15.46%"};
+		{ 30, 8888888888888888, "", "=q3=Warsong Howling Axe", "=ds=#h2#, #w1#", "", "15.52%"};
+		Prev = "MythicHCFurnaceBroggok";
+	};
+
+		------------------------------------------
+		--- Coilfang Reservoir: The Slave Pens ---
+		------------------------------------------
+
+	AtlasLoot_Data["MythicCFRSlaveMennu"] = {
+		{ 2, 248888888888888888359, "", "=q3=Princely Reign Leggings", "=ds=#s11#, #a1#", "", "10.20%"};
+		{ 3, 248888888888888888357, "", "=q3=Vest of Living Lightning", "=ds=#s5#, #a3#", "", "11.94%"};
+		{ 4, 243888888888888888860, "", "=q3=Tracker's Belt", "=ds=#s10#, #a3#", "", "11.07%"};
+		{ 5, 243888888888888888856, "", "=q3=Wastewalker Shiv", "=ds=#h1#, #w4#", "", "12.47%"};
+		{ 6, 243888888888888888861, "", "=q3=Spellfire Longsword", "=ds=#h3#, #w10#", "", "11.07%"};
+		{ 8, 296888888888888888874, "", "=q2=Pattern: Nature Armor Kit", "=ds=#p7# (340)", "", "0.80%"};
+		{ 22, 61366, "", "=q3=Cord of Belief", "=ds=#s10#, #a1#", "", "16.50%"};
+		{ 23, 61367, "", "=q3=Mennu's Scaled Leggings", "=ds=#s11#, #a2#", "", "8.50%"};
+		{ 24, 61365, "", "=q3=Archery Belt of the Broken", "=ds=#s10#, #a3#", "", "12.75%"};
+		{ 25, 61370, "", "=q3=Traitor's Noose", "=ds=#s2#", "", "13.75%"};
+		{ 26, 61369, "", "=q3=Totem of Spontaneous Regrowth", "=ds=#s16#, #w15#", "", "12.25%"};
+		{ 27, 61368, "", "=q3=Starlight Dagger", "=ds=#h3#, #w4#", "", "20.00%"};
+		Next = "MythicCFRSlaveRokmar";
+	};
+
+	AtlasLoot_Data["MythicCFRSlaveRokmar"] = {
+		{ 2, 248888888888888888379, "", "=q3=Bogstrok Scale Cloak", "=ds=#s4#", "", "10.05%"};
+		{ 3, 248888888888888888376, "", "=q3=Runed Fungalcap", "=ds=#s14#", "", "11.45%"};
+		{ 4, 243888888888888888878, "", "=q3=Coilfang Hammer of Renewal", "=ds=#h3#, #w6#", "", "9.66%"};
+		{ 5, 248888888888888888380, "", "=q3=Calming Spore Reed", "=ds=#w12#", "", "10.26%"};
+		{ 6, 248888888888888888381, "", "=q3=Coilfang Needler", "=ds=#w3#", "", "10.05%"};
+		{ 22, 61373, "", "=q3=Ironscale War Cloak", "=ds=#s4#", "", "11.48%"};
+		{ 23, 61371, "", "=q3=Coldwhisper Cord", "=ds=#s10#, #a1#", "", "14.85%"};
+		{ 24, 61374, "", "=q3=Liar's Cord", "=ds=#s10#, #a2#", "", "8.96%"};
+		{ 25, 61376, "", "=q3=Wavefury Boots", "=ds=#s12#, #a3#", "", "9.80%"};
+		{ 26, 61372, "", "=q3=Girdle of Many Blessings", "=ds=#s10#, #a4#", "", "14.85%"};
+		{ 27, 61375, "", "=q3=Skeletal Necklace of Battlerage", "=ds=#s2#", "", "16.25%"};
+		Prev = "MythicCFRSlaveMennu";
+		Next = "MythicCFRSlaveQuagmirran";
+	};
+
+	AtlasLoot_Data["MythicCFRSlaveQuagmirran"] = {
+		{ 1, 61387, "", "=q3=Mana-Etched Spaulders", "=ds=#s3#, #a1# (D3)", "", "5.24%"};
+		{ 2, 61388, "", "=q3=Pauldrons of Desolation", "=ds=#s3#, #a3# (D3)", "", "10.70%"};
+		{ 4, 61386, "", "=q3=Mage-Fury Girdle", "=ds=#s10#, #a1#", "", "12.00%"};
+		{ 5, 61391, "", "=q3=Shackles of Quagmirran", "=ds=#s8#, #a2#"};
+		{ 6, 61384, "", "=q3=Earthsoul Britches", "=ds=#s11#, #a2#", "", "13.76%"};
+		{ 7, 61383, "", "=q3=Breastplate of Righteous Fury", "=ds=#s5#, #a4#", "", "8.73%"};
+		{ 8, 61385, "", "=q3=Girdle of the Immovable", "=ds=#s10#, #a4#", "", "7.64%"};
+		{ 9, 61381, "", "=q3=Band of Ursol", "=ds=#s13#", "", "12.23%"};
+		{ 10, 61390, "", "=q3=Quagmirran's Eye", "=ds=#s14#", "", "7.86%"};
+		{ 11, 61392, "", "=q3=Swamplight Lantern", "=ds=#s15#", "", "10.92%"};
+		{ 12, 61389, "", "=q3=Phosphorescent Blade", "=ds=#h1#, #w10#"};
+		{ 13, 61382, "", "=q3=Bleeding Hollow Warhammer", "=ds=#h3#, #w6#", "", "9.83%"};
+		{ 20, 61378, "", "=q4=Boots of Blasphemy", "=ds=#s12#, #a1#", "", "10.04%"};
+		{ 21, 61379, "", "=q4=Midnight Legguards", "=ds=#s11#, #a2#", "", "8.95%"};
+		{ 22, 61380, "", "=q4=Pauldrons of Wild Magic", "=ds=#s3#, #a3#"};
+		{ 23, 61377, "", "=q4=Adamantine Chain of the Unbroken", "=ds=#s2#", "", "1.53%"};
+		{ 26, 248888888888888888362, "", "=q3=Spore-Soaked Vaneer", "=ds=#s4#", "", "10.63%"};
+		{ 27, 248888888888888888365, "", "=q3=Deft Handguards", "=ds=#s9#, #a2#", "", "10.89%"};
+		{ 28, 248888888888888888366, "", "=q3=Scorpid-Sting Mantle", "=ds=#s3#, #a3#", "", "11.72%"};
+		{ 29, 248888888888888888363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#", "", "9.54%"};
+		{ 30, 248888888888888888364, "", "=q3=Azureplate Greaves", "=ds=#s11#, #a4#", "", "9.98%"};
+		Prev = "MythicCFRSlaveRokmar";
+	};
+
+		---------------------------------------------
+		--- Hellfire Citadel: The Shattered Halls ---
+		---------------------------------------------
+
+	AtlasLoot_Data["MythicHCHallsNethekurse"] = {
+		{ 3, 61394, "", "=q3=Cloak of Malice", "=ds=#s4#", "", "17.44%"};
+		{ 4, 61393, "", "=q3=Bands of Nethekurse", "=ds=#s8#, #a1#", "", "17.52%"};
+		{ 5, 61397, "", "=q3=Telaari Hunting Girdle", "=ds=#s10#, #a3#", "", "16.50%"};
+		{ 6, 61395, "", "=q3=Greathelm of the Unbreakable", "=ds=#s1#, #a4#", "", "16.47%"};
+		{ 7, 61396, "", "=q3=Ivory Idol of the Moongoddess", "=ds=#s16#, #w14#", "", "17.42%"};
+		Next = "MythicHCHallsPorung";
+	};
+
+	AtlasLoot_Data["MythicHCHallsPorung"] = {
+		{ 6, 61401, "", "=q3=Pantaloons of Flaming Wrath", "=ds=#s11#, #a1#", "", "14.58%"};
+		{ 7, 61400, "", "=q3=Nimble-foot Treads", "=ds=#s12#, #a2#", "", "10.42%"};
+		{ 8, 61398, "", "=q3=Belt of Flowing Thought", "=ds=#s10#, #a3#", "", "12.50%"};
+		{ 9, 61402, "", "=q3=Spaulders of Slaughter", "=ds=#s3#, #a4#", "", "21.88%"};
+		{ 10, 61399, "", "=q3=Blood Guard's Necklace of Ferocity", "=ds=#s2#", "", "10.42%"};
+		Prev = "MythicHCHallsNethekurse";
+		Next = "MythicHCHallsOmrogg";
+	};
+
+	AtlasLoot_Data["MythicHCHallsOmrogg"] = {
+		{ 1, 61407, "", "=q3=Tidefury Shoulderguards", "=ds=#s3#, #a3# (D3)", "", "17.02%"};
+		{ 3, 61404, "", "=q3=Jeweled Boots of Sanctification", "=ds=#s12#, #a1#", "", "18.26%"};
+		{ 4, 61405, "", "=q3=Runesong Dagger", "=ds=#h3#, #w4#", "", "15.32%"};
+		{ 5, 61403, "", "=q3=Firemaul of Destruction", "=ds=#h2#, #w6#", "", "17.95%"};
+		{ 6, 61406, "", "=q3=Skyfire Hawk-Bow", "=ds=#w2#", "", "17.31%"};
+		Prev = "MythicHCHallsPorung";
+		Next = "MythicHCHallsKargath";
+	};
+
+	AtlasLoot_Data["MythicHCHallsKargath"] = {
+		{ 1, 61419, "", "=q3=Hallowed Handwraps", "=ds=#s9#, #a1# (D3)", "", "12.63%"};
+		{ 2, 61417, "", "=q3=Gloves of Oblivion", "=ds=#s9#, #a1# (D3)", "", "12.54%"};
+		{ 3, 61423, "", "=q3=Wastewalker Gloves", "=ds=#s9#, #a2# (D3)", "", "11.03%"};
+		{ 4, 61412, "", "=q3=Beast Lord Handguards", "=ds=#s9#, #a3# (D3)", "", "10.73%"};
+		{ 5, 61415, "", "=q3=Gauntlets of Desolation", "=ds=#s9#, #a3# (D3)", "", "13.86%"};
+		{ 6, 61416, "", "=q3=Gauntlets of the Righteous", "=ds=#s9#, #a4# (D3)", "", "11.24%"};
+		{ 8, 61418, "", "=q3=Greaves of the Shatterer", "=ds=#s11#, #a4#", "", "12.89%"};
+		{ 9, 61414, "", "=q3=Figurine of the Colossus", "=ds=#s14#", "", "10.41%"};
+		{ 10, 61420, "", "=q3=Hortus' Seal of Brilliance", "=ds=#s15#", "", "12.98%"};
+		{ 11, 61413, "", "=q3=Demonblood Eviscerator", "=ds=#h3#, #w13#", "", "12.70%"};
+		{ 12, 61421, "", "=q3=Lightsworn Hammer", "=ds=#h3#, #w6#", "", "10.6%"};
+		{ 13, 61422, "", "=q3=Nexus Torch", "=ds=#w12#", "", "13.02%"};
+		{ 22, 61408, "", "=q4=Bands of Rarefied Magic", "=ds=#s8#, #a1#", "", "0.58%"};
+		{ 23, 61410, "", "=q4=Forestheart Bracers", "=ds=#s8#, #a2#", "", "0.28%"};
+		{ 24, 61409, "", "=q4=Boots of the Righteous Path", "=ds=#s12#, #a4#"};
+		{ 25, 61411, "", "=q4=The Bladefist", "=ds=#h3#, #w13#", "", "3.39%"};
+		Prev = "MythicHCHallsOmrogg";
+	};
+
+		------------------------------------------
+		--- Coilfang Reservoir: The Steamvault ---
+		------------------------------------------
+
+	AtlasLoot_Data["MythicCFRSteamThespia"] = {
+		{ 1, 61426, "", "=q3=Incanter's Gloves", "=ds=#s9#, #a1# (D3)", "", "17.09%"};
+		{ 3, 61425, "", "=q3=Cloak of Whispering Shells", "=ds=#s4#", "", "14.32%"};
+		{ 4, 61424, "", "=q3=Chestguard of No Remorse", "=ds=#s5#, #a2#", "", "17.65%"};
+		{ 5, 61427, "", "=q3=Moonrage Girdle", "=ds=#s10#, #a2#", "", "18.71%"};
+		{ 6, 61428, "", "=q3=Scintillating Coral Band", "=ds=#s13#", "", "16.72%"};
+		Next = "MythicCFRSteamSteamrigger";
+	};
+
+	AtlasLoot_Data["MythicCFRSteamSteamrigger"] = {
+		{ 1, 61429, "", "=q3=Earth Mantle Handwraps", "=ds=#s9#, #a3#", "", "16.92%"};
+		{ 2, 61430, "", "=q3=Mask of Pennance", "=ds=#s1#, #a4#", "", "16.65%"};
+		{ 3, 61433, "", "=q3=Steam-Hinge Chain of Valor", "=ds=#s2#", "", "14.49%"};
+		{ 4, 61432, "", "=q3=Serpentcrest Life-Staff", "=ds=#w9#", "", "17.09%"};
+		{ 5, 61431, "", "=q3=Recoilless Rocket Ripper X-54", "=ds=#w5#", "", "15.88%"};
+		Prev = "MythicCFRSteamThespia";
+		Next = "MythicCFRSteamWarlord";
+	};
+
+	AtlasLoot_Data["MythicCFRSteamWarlord"] = {
+		{ 3, 61444, "", "=q3=Incanter's Pauldrons", "=ds=#s3#, #a1# (D3)", "", "12.25%"};
+		{ 4, 61445, "", "=q3=Moonglade Shoulders", "=ds=#s3#, #a2# (D3)", "", "12.89%"};
+		{ 5, 61439, "", "=q3=Beast Lord Mantle", "=ds=#s3#, #a3# (D3)", "", "10.63%"};
+		{ 6, 61448, "", "=q3=Tidefury Gauntlets", "=ds=#s9#, #a3# (D3)", "", "12.45%"};
+		{ 7, 61438, "", "=q3=Beast Lord Leggings", "=ds=#s11#, #a3# (D3)", "", "9.56%"};
+		{ 8, 61440, "", "=q3=Breastplate of the Righteous", "=ds=#s5#, #a4# (D3)", "", "10.98%"};
+		{ 9, 61443, "", "=q3=Gauntlets of the Bold", "=ds=#s9#, #a4# (D3)", "", "10.05%"};
+		{ 11, 61441, "", "=q3=Devilshark Cape", "=ds=#s4#", "", "12.18%"};
+		{ 12, 61449, "", "=q3=Vermillion Robes of the Dominant", "=ds=#s5#, #a1#", "", "12.47%"};
+		{ 13, 61447, "", "=q3=Sash of Serpentra", "=ds=#s10#, #a1#", "", "11.03%"};
+		{ 14, 61442, "", "=q3=Fathomheart Gauntlets", "=ds=#s9#, #a3#", "", "14.84%"};
+		{ 15, 61446, "", "=q3=Ring of the Silver Hand", "=ds=#s13#", "", "13.95%"};
+		{ 21, 61435, "", "=q4=Pontifex Kilt", "=ds=#s11#, #a1#", "", "7.81%"};
+		{ 22, 61436, "", "=q4=Wave-Fury Vambraces", "=ds=#s8#, #a3#", "", "17.97%"};
+		{ 23, 61434, "", "=q4=Amber Bands of the Aggressor", "=ds=#s8#, #a4#", "", "2.34%"};
+		{ 24, 61437, "", "=q4=Wrathtide Longbow", "=ds=#w2#", "", "3.52%"};
+		Prev = "MythicCFRSteamSteamrigger";
+	};
+
+		----------------------------------------
+		--- Sunwell Isle: Magister's Terrace ---
+		----------------------------------------
+
+	AtlasLoot_Data["MythicSMTFireheart"] = {
+		{ 2, 61456, "", "=q3=Cloak of Swift Mending", "=ds=#s4#", "", "5%"};
+		{ 3, 61454, "", "=q3=Bindings of Raging Fire", "=ds=#s8#, #a1#", "", "5%"};
+		{ 4, 61458, "", "=q3=Leggings of the Betrayed", "=ds=#s11#, #a2#", "", "5%"};
+		{ 5, 61455, "", "=q3=Bracers of the Forest Stalker", "=ds=#s8#, #a3#", "", "5%"};
+		{ 6, 61457, "", "=q3=Gauntlets of Divine Blessings", "=ds=#s9#, #a4#", "", "5%"};
+		{ 7, 61459, "", "=q3=Sun-forged Cleaver", "=ds=#h1#, #w1#", "", "5%"};
+		{ 18, 61451, "", "=q4=Eversong Cuffs", "=ds=#s8#, #a2#", "", "20%"};
+		{ 19, 61453, "", "=q4=Shoulderplates of Everlasting Pain", "=ds=#s3#, #a4#", "", "21%"};
+		{ 20, 61452, "", "=q4=Jaded Crystal Dagger", "=ds=#h3#, #w4#", "", "21%"};
+		{ 21, 61450, "", "=q4=Distracting Blades", "=ds=#w11#", "", "21%"};
+		Next = "MythicSMTVexallus";
+	};
+
+	AtlasLoot_Data["MythicSMTVexallus"] = {
+		{ 2, 61468, "", "=q3=Cloak of the Coming Night", "=ds=#s4#", "", "17%"};
+		{ 3, 61467, "", "=q3=Bracers of Divine Infusion", "=ds=#s8#, #a1#", "", "5%"};
+		{ 4, 61466, "", "=q3=Boots of Resuscitation", "=ds=#s12#, #a2#", "", "16%"};
+		{ 5, 61464, "", "=q3=Band of Arcane Alacrity", "=ds=#s13#", "", "18%"};
+		{ 6, 61465, "", "=q3=Band of Determination", "=ds=#s13#", "", "5%"};
+		{ 7, 61469, "", "=q3=Latro's Dancing Blade", "=ds=#h1#, #w10#", "", "16%"};
+		{ 18, 61462, "", "=q4=Fel-tinged Mantle", "=ds=#s3#, #a1#", "", "20%"};
+		{ 19, 61460, "", "=q4=Breastplate of Fierce Survival", "=ds=#s5#, #a4#", "", "19%"};
+		{ 20, 61461, "", "=q4=Edge of Oppression", "=ds=#h1#, #w4#", "", "20%"};
+		{ 21, 61463, "", "=q4=Rod of the Blazing Light", "=ds=#w9#", "", "19%"};
+		Prev = "MythicSMTFireheart";
+		Next = "MythicSMTDelrissa";
+	};
+
+	AtlasLoot_Data["MythicSMTDelrissa"] = {
+		{ 2, 61476, "", "=q3=Cloak of the Betrayed", "=ds=#s4#", "", "17%"};
+		{ 3, 61477, "", "=q3=Duskhallow Mantle", "=ds=#s3#, #a1#", "", "5%"};
+		{ 4, 61478, "", "=q3=Gauntlets of the Tranquil Waves", "=ds=#s9#, #a3#", "", "16%"};
+		{ 5, 61475, "", "=q3=Bracers of Slaughter", "=ds=#s8#, #a4#", "", "17%"};
+		{ 6, 61474, "", "=q3=Battle-mace of the High Priestess", "=ds=#h3#, #w6#", "", "16%"};
+		{ 7, 61479, "", "=q3=Nightstrike", "=ds=#w11#", "", "17%"};
+		{ 18, 61470, "", "=q4=Commendation of Kael'thas", "=ds=#s14#", "", "19%"};
+		{ 19, 61471, "", "=q4=Shard of Contempt", "=ds=#s14#", "", "19%"};
+		{ 20, 61472, "", "=q4=Timbal's Focusing Crystal", "=ds=#s14#", "", "19%"};
+		{ 21, 61473, "", "=q4=Vial of the Sunwell", "=ds=#s14#", "", "19%"};
+
+		Prev = "MythicSMTVexallus";
+		Next = "MythicSMTKaelthas";
+	};
+
+	AtlasLoot_Data["MythicSMTKaelthas"] = {
+		{ 1, 61480, "", "=q4=Cloak of Blade Turning", "=ds=#s4#", "", "5%"};
+		{ 2, 61481, "", "=q4=Gloves of Arcane Acuity", "=ds=#s9#, #a1#", "", "5%"};
+		{ 3, 61484, "", "=q4=Sunrage Treads", "=ds=#s12#, #a2#", "", "15%"};
+		{ 4, 61482, "", "=q4=Hauberk of the War Bringer", "=ds=#s5#, #a3#", "", "13%"};
+		{ 5, 61485, "", "=q4=Sunstrider Warboots", "=ds=#s12#, #a4#", "", "5%"};
+		{ 6, 61483, "", "=q4=Kharmaa's Ring of Fate", "=ds=#s13#", "", "5%"};
+		{ 7, 61488, "", "=q3=Cord of Reconstruction", "=ds=#s10#, #a1#", "", "5%"};
+		{ 8, 61490, "", "=q3=Robes of Summer Flame", "=ds=#s5#, #a2#", "", "5%"};
+		{ 9, 61489, "", "=q3=Helm of Sanctification", "=ds=#s1#, #a4#", "", "5%"};
+		{ 10, 61487, "", "=q3=Band of Celerity", "=ds=#s13#", "", "5%"};
+		{ 11, 61486, "", "=q3=Axe of Shattered Dreams", "=ds=#h2#, #w1#", "", "5%"};
+		{ 12, 61491, "", "=q3=Sun-infused Focus Staff", "=ds=#w9#", "", "14%"};
+		{ 13, 61497, "", "=q4=Scarlet Sin'dorei Robes", "=ds=#s5#, #a1#", "", "19%"};
+		{ 14, 61498, "", "=q4=Shoulderpads of the Silvermoon Retainer", "=ds=#s3#, #a2#", "", "19%"};
+		{ 15, 61499, "", "=q4=Tunic of the Ranger Lord", "=ds=#s5#, #a3#", "", "18%"};
+		{ 16, 61495, "", "=q4=Netherforce Chestplate", "=ds=#s5#, #a4#", "", "19%"};
+		{ 17, 61494, "", "=q4=Greaves of the Penitent Knight", "=ds=#s12#, #a4#", "", "19%"};
+		{ 18, 61496, "", "=q4=Quickening Blade of the Prince", "=ds=#h1#, #w10#", "", "20%"};
+		{ 19, 61492, "", "=q4=Breeching Comet", "=ds=#h1#, #w1#", "", "19%"};
+		{ 20, 61493, "", "=q4=Cudgel of Consecration", "=ds=#h3#, #w6#", "", "19%"};
+		Prev = "MythicSMTDelrissa";
+	};
