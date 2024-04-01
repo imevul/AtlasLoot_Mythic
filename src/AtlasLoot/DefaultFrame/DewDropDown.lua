@@ -921,7 +921,7 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 				{ BabbleZone["Old Hillsbrad Foothills"], "MythicCoTOldHillsbrad", "Submenu" },
 				{ BabbleZone["The Black Morass"], "MythicCoTBlackMorass", "Submenu" },
 			},
-		}
+		},
 		[6] = {
 			{"BC ".. BabbleZone["Magisters' Terrace"], "MythicMagistersTerrace", "Submenu" },
 		},
