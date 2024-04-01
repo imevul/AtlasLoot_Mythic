@@ -33,6 +33,7 @@ AtlasLoot = LibStub("AceAddon-3.0"):NewAddon("AtlasLoot");
 --Instance required libraries
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local SynastriaCoreLib = LibStub('SynastriaCoreLib-1.0')
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";

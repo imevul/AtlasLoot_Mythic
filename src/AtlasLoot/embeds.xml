@@ -20,10 +20,10 @@
 
 <Include file="Libs\DewdropLib\embeds.xml"/>
 <Script file="Libs\DewdropLib\Dewdrop-2.0\Dewdrop-2.0.lua"/>
+
+<Include file="Libs\SynastriaCoreLib-1.0\SynastriaCoreLib-1.0.xml"/>
 <!--@end-no-lib-strip@-->
 
 <Script file="Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
-
-<Script file="Libs\SynastriaCoreLib\SynastriaCoreLib.lua"/>
 
 </Ui>
