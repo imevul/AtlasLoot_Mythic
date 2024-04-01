@@ -574,17 +574,11 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		Prev = "MythicCoTHillsbradSkarloc";
 	};
 
-########################################################
 		-------------------------------------------
 		--- Hellfire Citadel: The Blood Furnace ---
 		-------------------------------------------
 
 	AtlasLoot_Data["MythicHCFurnaceMaker"] = {
-		{ 2, 8888888888888888, "", "=q3=Girdle of the Gale Storm", "=ds=#s10#, #a3#", "", "15.84%"};
-		{ 3, 8888888888888888, "", "=q3=Ironblade Gauntlets", "=ds=#s9#, #a4#", "", "13.27%"};
-		{ 4, 8888888888888888, "", "=q3=Pendant of Battle-Lust", "=ds=#s2#", "", "15.43%"};
-		{ 5, 8888888888888888, "", "=q3=Libram of Saints Departed", "=ds=#s16#, #w16#", "", "14.78%"};
-		{ 6, 8888888888888888, "", "=q3=Diamond-Core Sledgemace", "=ds=#h3#, #w6#", "", "12.90%"};
 		{ 22, 61340, "", "=q3=Embroidered Cape of Mysteries", "=ds=#s4#", "", "13.89%"};
 		{ 23, 61342, "", "=q3=Mage-Collar of the Firestorm", "=ds=#s1#, #a1#", "", "16.67%"};
 		{ 24, 61343, "", "=q3=Moon-Touched Bands", "=ds=#s8#, #a2#", "", "25.00%"};
@@ -594,11 +588,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	};
 
 	AtlasLoot_Data["MythicHCFurnaceBroggok"] = {
-		{ 2, 8888888888888888, "", "=q3=Arcing Bracers", "=ds=#s8#, #a1#", "", "14.37%"};
-		{ 3, 8888888888888888, "", "=q3=Bloody Surgeon's Mitts", "=ds=#s9#, #a1#", "", "17.62%"};
-		{ 4, 8888888888888888, "", "=q3=Kilt of the Night Strider", "=ds=#s11#, #a2#", "", "16.58%"};
-		{ 5, 8888888888888888, "", "=q3=Auslese's Light Channeler", "=ds=#s14#", "", "11.57%"};
-		{ 6, 8888888888888888, "", "=q3=Legion Blunderbuss", "=ds=#w5#", "", "17.69%"};
 		{ 22, 61344, "", "=q3=Embroidered Spellpyre Boots", "=ds=#s12#, #a1#", "", "8.33%"};
 		{ 23, 61346, "", "=q3=Moonchild Leggings", "=ds=#s11#, #a2#", "", "13.89%"};
 		{ 24, 61348, "", "=q3=Virtue Bearer's Vambraces", "=ds=#s8#, #a4#", "", "22.22%"};
@@ -625,11 +614,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 21, 61352, "", "=q4=Wave-Crest Striders", "=ds=#s12#, #a3#", "", "3.79%"};
 		{ 22, 61349, "", "=q4=Eaglecrest Warboots", "=ds=#s12#, #a4#", "", "6.82%"};
 		{ 23, 61351, "", "=q4=Talisman of the Breaker", "=ds=#s2#", "", "7.58%"};
-		{ 26, 8888888888888888, "", "=q3=Raiments of Divine Authority", "=ds=#s5#, #a1#", "", "16.92%"};
-		{ 27, 248888888888888888395, "", "=q3=Mindfire Waistband", "=ds=#s10#, #a1#", "", "16.64%"};
-		{ 28, 8888888888888888, "", "=q3=Mantle of the Dusk-Dweller", "=ds=#s3#, #a2#", "", "14.29%"};
-		{ 29, 243888888888888888896, "", "=q3=Vest of Vengeance", "=ds=#s5#, #a2#", "", "15.46%"};
-		{ 30, 8888888888888888, "", "=q3=Warsong Howling Axe", "=ds=#h2#, #w1#", "", "15.52%"};
 		Prev = "MythicHCFurnaceBroggok";
 	};
 
@@ -638,12 +622,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		------------------------------------------
 
 	AtlasLoot_Data["MythicCFRSlaveMennu"] = {
-		{ 2, 248888888888888888359, "", "=q3=Princely Reign Leggings", "=ds=#s11#, #a1#", "", "10.20%"};
-		{ 3, 248888888888888888357, "", "=q3=Vest of Living Lightning", "=ds=#s5#, #a3#", "", "11.94%"};
-		{ 4, 243888888888888888860, "", "=q3=Tracker's Belt", "=ds=#s10#, #a3#", "", "11.07%"};
-		{ 5, 243888888888888888856, "", "=q3=Wastewalker Shiv", "=ds=#h1#, #w4#", "", "12.47%"};
-		{ 6, 243888888888888888861, "", "=q3=Spellfire Longsword", "=ds=#h3#, #w10#", "", "11.07%"};
-		{ 8, 296888888888888888874, "", "=q2=Pattern: Nature Armor Kit", "=ds=#p7# (340)", "", "0.80%"};
 		{ 22, 61366, "", "=q3=Cord of Belief", "=ds=#s10#, #a1#", "", "16.50%"};
 		{ 23, 61367, "", "=q3=Mennu's Scaled Leggings", "=ds=#s11#, #a2#", "", "8.50%"};
 		{ 24, 61365, "", "=q3=Archery Belt of the Broken", "=ds=#s10#, #a3#", "", "12.75%"};
@@ -654,11 +632,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 	};
 
 	AtlasLoot_Data["MythicCFRSlaveRokmar"] = {
-		{ 2, 248888888888888888379, "", "=q3=Bogstrok Scale Cloak", "=ds=#s4#", "", "10.05%"};
-		{ 3, 248888888888888888376, "", "=q3=Runed Fungalcap", "=ds=#s14#", "", "11.45%"};
-		{ 4, 243888888888888888878, "", "=q3=Coilfang Hammer of Renewal", "=ds=#h3#, #w6#", "", "9.66%"};
-		{ 5, 248888888888888888380, "", "=q3=Calming Spore Reed", "=ds=#w12#", "", "10.26%"};
-		{ 6, 248888888888888888381, "", "=q3=Coilfang Needler", "=ds=#w3#", "", "10.05%"};
 		{ 22, 61373, "", "=q3=Ironscale War Cloak", "=ds=#s4#", "", "11.48%"};
 		{ 23, 61371, "", "=q3=Coldwhisper Cord", "=ds=#s10#, #a1#", "", "14.85%"};
 		{ 24, 61374, "", "=q3=Liar's Cord", "=ds=#s10#, #a2#", "", "8.96%"};
@@ -686,11 +659,6 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 		{ 21, 61379, "", "=q4=Midnight Legguards", "=ds=#s11#, #a2#", "", "8.95%"};
 		{ 22, 61380, "", "=q4=Pauldrons of Wild Magic", "=ds=#s3#, #a3#"};
 		{ 23, 61377, "", "=q4=Adamantine Chain of the Unbroken", "=ds=#s2#", "", "1.53%"};
-		{ 26, 248888888888888888362, "", "=q3=Spore-Soaked Vaneer", "=ds=#s4#", "", "10.63%"};
-		{ 27, 248888888888888888365, "", "=q3=Deft Handguards", "=ds=#s9#, #a2#", "", "10.89%"};
-		{ 28, 248888888888888888366, "", "=q3=Scorpid-Sting Mantle", "=ds=#s3#, #a3#", "", "11.72%"};
-		{ 29, 248888888888888888363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#", "", "9.54%"};
-		{ 30, 248888888888888888364, "", "=q3=Azureplate Greaves", "=ds=#s11#, #a4#", "", "9.98%"};
 		Prev = "MythicCFRSlaveRokmar";
 	};
 

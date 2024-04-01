@@ -1001,7 +1001,6 @@ AtlasLoot_DewDropDown_SubTables["MythicCoTOldHillsbrad"] = {
 	{ "", "MythicCoTHillsbradSkarloc" },
 	{ "", "MythicCoTHillsbradHunter" },
 }
-##########################################
 AtlasLoot_DewDropDown_SubTables["MythicHCFurnace"] = {
 	{ "", "MythicHCFurnaceMaker" },
 	{ "", "MythicHCFurnaceBroggok" },
