@@ -896,7 +896,9 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 		},
 		[2] = {
 			["BC " .. BabbleZone["Coilfang Reservoir"]] = {
+				{ BabbleZone["The Slave Pens"], "MythicCFRSlavePens", "Submenu" },
 				{ BabbleZone["The Underbog"], "MythicCFRUnder", "Submenu" },
+				{ BabbleZone["The Steamvault"], "MythicCFRSteamvault", "Submenu" },
 			},
 		},
 		[3] = {
@@ -910,6 +912,8 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 		[4] = {
 			["BC ".. BabbleZone["Hellfire Citadel"]] = {
 				{ BabbleZone["Hellfire Ramparts"], "MythicRamparts","Submenu"},
+				{ BabbleZone["The Blood Furnace"], "MythicHCFurnace", "Submenu" },
+				{ BabbleZone["The Shattered Halls"], "MythicHCShatteredHalls", "Submenu" },
 			},
 		},
 		[5] = {
@@ -917,7 +921,11 @@ AtlasLoot_DewDropDown[#AtlasLoot_DewDropDown + 1] = {
 				{ BabbleZone["Old Hillsbrad Foothills"], "MythicCoTOldHillsbrad", "Submenu" },
 				{ BabbleZone["The Black Morass"], "MythicCoTBlackMorass", "Submenu" },
 			},
-		}
+		},
+		[6] = {
+			{"BC ".. BabbleZone["Magisters' Terrace"], "MythicMagistersTerrace", "Submenu" },
+		},
+
 	},
 }
 
@@ -992,4 +1000,35 @@ AtlasLoot_DewDropDown_SubTables["MythicCoTOldHillsbrad"] = {
 	{ "", "MythicCoTHillsbradDrake" },
 	{ "", "MythicCoTHillsbradSkarloc" },
 	{ "", "MythicCoTHillsbradHunter" },
+}
+AtlasLoot_DewDropDown_SubTables["MythicHCFurnace"] = {
+	{ "", "MythicHCFurnaceMaker" },
+	{ "", "MythicHCFurnaceBroggok" },
+	{ "", "MythicHCFurnaceBreaker" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicHCShatteredHalls"] = {
+	{ "", "MythicHCHallsNethekurse" },
+	{ "", "MythicHCHallsPorung" },
+	{ "", "MythicHCHallsOmrogg" },
+	{ "", "MythicHCHallsKargath" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicCFRSlavePens"] = {
+	{ "", "MythicCFRSlaveMennu" },
+	{ "", "MythicCFRSlaveRokmar" },
+	{ "", "MythicCFRSlaveQuagmirran" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicCFRSteamvault"] = {
+	{ "", "MythicCFRSteamThespia" },
+	{ "", "MythicCFRSteamSteamrigger" },
+	{ "", "MythicCFRSteamWarlord" },
+}
+
+AtlasLoot_DewDropDown_SubTables["MythicMagistersTerrace"] = {
+	{ "", "MythicSMTFireheart" },
+	{ "", "MythicSMTVexallus" },
+	{ "", "MythicSMTDelrissa" },
+	{ "", "MythicSMTKaelthas" },
 }
