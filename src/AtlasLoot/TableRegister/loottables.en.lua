@@ -1857,7 +1857,7 @@ end
 
 	AtlasLoot_TableNames["MythicHCHallsNethekurse"] = { BabbleBoss["Grand Warlock Nethekurse"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicHCHallsPorung"] = { BabbleBoss["Blood Guard Porung"], "AtlasLootMythic" };
-	AtlasLoot_TableNames["HMythicCHallsOmrogg"] = { BabbleBoss["Warbringer O'mrogg"], "AtlasLootMythic" };
+	AtlasLoot_TableNames["MythicHCHallsOmrogg"] = { BabbleBoss["Warbringer O'mrogg"], "AtlasLootMythic" };
 	AtlasLoot_TableNames["MythicHCHallsKargath"] = { BabbleBoss["Warchief Kargath Bladefist"], "AtlasLootMythic" };
 
 	AtlasLoot_TableNames["MythicCFRSteamThespia"] = { BabbleBoss["Hydromancer Thespia"], "AtlasLootMythic" };
