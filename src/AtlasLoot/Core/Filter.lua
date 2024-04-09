@@ -13,6 +13,7 @@ AtlasLoote_CreateFilterOptions()
 ]]
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local SynastriaCoreLib = LibStub('SynastriaCoreLib-1.0')
 
 local OptionsLoadet = false
 
