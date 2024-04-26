@@ -1,9 +1,0 @@
-﻿## Interface: 30300
-## Title: AtlasLoot_Mythic
-## Notes: AtlasLoot loot tables for Mythic items
-## Author: Imevul
-## Version: v1.0.14
-## Dependencies: AtlasLoot
-## LoadOnDemand: 1
-
-AtlasLoot_Mythic.lua

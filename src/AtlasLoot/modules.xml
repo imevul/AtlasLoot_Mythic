@@ -2,16 +2,11 @@
 ..\FrameXML\UI.xsd">
 
 <!--@debug@
-<Script file="Modules\BurningCrusade\burningcrusade.lua"/>
-<Script file="Modules\BurningCrusade\localization.lua"/>
-<Script file="Modules\Crafting\crafting.lua"/>
-<Script file="Modules\Crafting\localization.lua"/>
-<Script file="Modules\OriginalWoW\originalwow.lua"/>
-<Script file="Modules\OriginalWoW\localization.lua"/>
-<Script file="Modules\WorldEvents\worldevents.lua"/>
-<Script file="Modules\WorldEvents\localization.lua"/>
-<Script file="Modules\WrathoftheLichKing\wrathofthelichking.lua"/>
-<Script file="Modules\WrathoftheLichKing\localization.lua"/>
+<Script file="LootTableModules\ClassicWoW\classicwow.lua"/>
+<Script file="LootTableModules\BurningCrusade\burningcrusade.lua"/>
+<Script file="LootTableModules\WrathoftheLichKing\wrathofthelichking.lua"/>
+<Script file="LootTableModules\Crafting\crafting.lua"/>
+<Script file="LootTableModules\WorldEvents\worldevents.lua"/>
 @end-debug@-->
-
+ 
 </Ui>
