@@ -160,16 +160,6 @@ do
 		itemButton.Frame.Unsafe:SetTexture(1,0,0,1)
 		itemButton.Frame.Unsafe:Hide()
 
-		-- Attune <texture>
-		itemButton.Frame.AttuneTextureBorder = itemButton.Frame:CreateTexture(nil, "ARTWORK")
-		itemButton.Frame.AttuneTextureBorder:SetTexture(AtlasLoot.imagePath.."AttuneIconWhite")
-		itemButton.Frame.AttuneTextureBorder:SetVertexColor(0, 0, 0)
-		itemButton.Frame.AttuneTextureBorder:Hide()
-		
-		itemButton.Frame.AttuneTexture = itemButton.Frame:CreateTexture(nil, "OVERLAY")
-		itemButton.Frame.AttuneTexture:SetTexture(AtlasLoot.imagePath.."AttuneIconWhite")
-		itemButton.Frame.AttuneTexture:Hide()
-
 		-- itemButton Scripts
 		itemButton.Frame:SetScript("OnEnter", AtlasLoot.ItemOnEnter)
 		itemButton.Frame:SetScript("OnLeave", AtlasLoot.ItemOnLeave)
@@ -179,9 +169,8 @@ do
 		itemButton.Frame.par = itemButton
 		-- Hide the button
 		itemButton.Frame:Hide()
-
-
-		return itemButton	
+		
+		return itemButton
 	end
 	
 	-- AtlasLoot:CreateCompareFrameItemButton(nil, nil, "TestIt")

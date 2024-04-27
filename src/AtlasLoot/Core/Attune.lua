@@ -16,9 +16,25 @@ function AtlasAttune:ToggleAttuneIcon(slot, itemId)
 	end
 end
 
-function ToggleAttuneIcon(slot, itemId)
+function AddAttuneIcon(slot)
+	if not slot.AttuneTextureBorder then
+		slot.AttuneTextureBorder = slot:CreateTexture(nil, "ARTWORK")
+		slot.AttuneTextureBorder:SetTexture(AtlasLoot.imagePath.."AttuneIconWhite")
+		slot.AttuneTextureBorder:SetVertexColor(0, 0, 0)
+		slot.AttuneTextureBorder:Hide()
+	end
+	
+	if not slot.AttuneTexture then
+		slot.AttuneTexture = slot:CreateTexture(nil, "OVERLAY")
+		slot.AttuneTexture:SetTexture(AtlasLoot.imagePath.."AttuneIconWhite")
+		slot.AttuneTexture:Hide()
+	end
 	slot.AttuneTexture:Hide()
 	slot.AttuneTextureBorder:Hide()
+end
+
+function ToggleAttuneIcon(slot, itemId)
+	AddAttuneIcon(slot)
 	if itemId == 0 then
 		return
 	end
