@@ -37,11 +37,20 @@ function AtlasLoot:RefreshLootPage()
 	end
 end
 
+QueryAllScanTooltip = CreateFrame("GAMETOOLTIP","AtlasLootQueryAllScanTooltip",nil,"GameTooltipTemplate");
+QueryAllScanTooltip:SetOwner(UIParent, "ANCHOR_NONE");
+
 function AtlasLoot:IsItemInCache(itemId)
 	if itemId and itemId ~= 0 and not GetItemInfo(itemId) then
 		return false
 	end
 	return true
+end
+
+function AtlasLoot:AddItemToCache(itemId)
+	if not AtlasLoot:IsItemInCache(itemId) then
+		QueryAllScanTooltip:SetHyperlink("item:"..itemId..":0:0:0:0:0:0:0")
+	end
 end
 
 --- Sets a itemtable to the item frame
@@ -50,8 +59,75 @@ end
 -- local queryAllScanTooltip = CreateFrame("GAMETOOLTIP","AtlasLootQueryAllScanTooltip",nil,"GameTooltipTemplate");
 -- queryAllScanTooltip:SetOwner(UIParent, "ANCHOR_NONE");
 
-local queryAllScanTooltip = CreateFrame("GAMETOOLTIP","AtlasLootQueryAllScanTooltip",nil,"GameTooltipTemplate");
-queryAllScanTooltip:SetOwner(UIParent, "ANCHOR_NONE");
+
+
+function tprint(tbl, indent)
+	if not indent then indent = 0 end
+	local toprint = string.rep(" ", indent) .. "{\r\n"
+	indent = indent + 2
+	for k, v in pairs(tbl) do
+		toprint = toprint .. string.rep(" ", indent)
+		if (type(k) == "number") then
+			toprint = toprint .. "[" .. k .. "] = "
+		elseif (type(k) == "string") then
+			toprint = toprint .. k .. "= "
+		end
+		if (type(v) == "number") then
+			toprint = toprint .. v .. ",\r\n"
+		elseif (type(v) == "string") then
+			toprint = toprint .. "\"" .. v .. "\",\r\n"
+		elseif (type(v) == "table") then
+			toprint = toprint .. tprint(v, indent + 2) .. ",\r\n"
+		else
+			toprint = toprint .. "\"" .. tostring(v) .. "\",\r\n"
+		end
+	end
+	toprint = toprint .. string.rep(" ", indent - 2) .. "}"
+	return toprint
+end
+
+function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, direction)
+	if not attunable then
+		attunable = 0
+		attuned = 0
+	end
+	if not dataID or type(dataID) ~= "string" then
+		return
+	end
+	local dataIDOri = dataID
+	local dataIDNew, instancePage = self:FormatDataID(dataID)
+	local lootTableType = self:GetLootTableType(dataIDOri) or "Normal"
+	if not AtlasLoot_Data[dataIDNew] or not AtlasLoot_Data[dataIDNew][lootTableType] or not AtlasLoot_Data[dataIDNew][lootTableType][instancePage] then
+		print(string.format("AtlasLoot_Data[\"%s\"][\"%s\"][%s] not found. (%s)", dataIDNew or "nil", lootTableType or "nil",
+			instancePage or "nil", dataIDOri or "nil"))
+		return
+	end
+
+	for k1, v1 in ipairs(AtlasLoot_Data[dataIDNew][lootTableType]) do
+		for k2, v2 in ipairs(v1) do
+			if v2[2] then
+				local itemId = v2[2]
+				AtlasLoot:AddItemToCache(itemId)
+				if itemId ~= nil and itemId ~= 0 then
+					if SynastriaCoreLib.IsItemValid(itemId) then
+						attunable = attunable + 1
+						if SynastriaCoreLib.GetAttuneProgress(itemId) >= 100 then
+							attuned = attuned + 1
+						end
+					end
+				end
+			end
+		end
+	end
+	local nextPage, prevPage = self:GetNextPrevPage(dataIDNew, instancePage)
+	if nextPage and (not direction or direction == "fw") then
+		attunable, attuned = AtlasLoot:GetAttunesFromDataID(nextPage, attunable, attuned, "fw")
+	end
+	if prevPage and (not direction or direction == "bw") then
+		attunable, attuned = AtlasLoot:GetAttunesFromDataID(prevPage, attunable, attuned, "bw")
+	end
+	return attunable, attuned
+end
 
 function AtlasLoot:SetItemTable(tab)
 	self:ClearLootPageItems()
@@ -65,7 +141,8 @@ function AtlasLoot:SetItemTable(tab)
 			itemButtonNum = v[1]
 			if self.ItemFrame.ItemButtons[itemButtonNum] then
 				local itemId = v[2]
-				queryAllScanTooltip:SetHyperlink("item:"..itemId..":0:0:0:0:0:0:0")
+				-- query the item
+				AtlasLoot:AddItemToCache(itemId)
 				texture = nil
 				if v[3] == "?" then
 					texture = "?"
@@ -102,12 +179,12 @@ function AtlasLoot:SetItemTable(tab)
 					self.ItemFrame.ItemButtons[itemButtonNum]:SetLink(v[2])
 					self.ItemFrame.ItemButtons[itemButtonNum]:SetLink(v[3])
 				end
-				
 				if v.type then self.ItemFrame.ItemButtons[itemButtonNum]:SetItemType(v.type) end
 			end
 		end
 	end
 
+	-- move the attune check to a secondary loop in hope that the query to server is done and we can fetch the attune status
 	for k,v in ipairs(tab) do
 		if v and type(v) == "table" then
 			itemButtonNum = v[1]
@@ -124,8 +201,6 @@ function AtlasLoot:SetItemTable(tab)
 			end
 		end
 	end
-
-	self.ItemFrame.ItemButtons[itemButtonNum]:Refresh()
 
 	self.ItemFrame.Switch.changePoint = cPoint
 	self.ItemFrame:Show()

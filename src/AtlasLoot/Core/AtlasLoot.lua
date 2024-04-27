@@ -17,13 +17,14 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "6";
 local VERSION_MINOR = "05";
 local VERSION_BOSSES = "04";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_VERSION_NUM = VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v" .. VERSION_MAJOR .. "." .. VERSION_MINOR ..
+"." .. VERSION_BOSSES .. "|r";
+ATLASLOOT_VERSION_NUM = VERSION_MAJOR .. "." .. VERSION_MINOR .. "." .. VERSION_BOSSES
 
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_MIN_ATLAS = "1.21.0"
-ATLASLOOT_CURRENT_ATLAS = {"1.21.1"};
-ATLASLOOT_PREVIEW_ATLAS = {"1.22.0", "1.21.2"};
+ATLASLOOT_CURRENT_ATLAS = { "1.21.1" };
+ATLASLOOT_PREVIEW_ATLAS = { "1.22.0", "1.21.2" };
 
 --ATLASLOOT_POSITION = AL["Position:"];
 ATLASLOOT_DEBUGMESSAGES = false;
@@ -47,7 +48,7 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 
 --Establish number of boss lines in the Atlas frame for scrolling
-local ATLAS_LOOT_BOSS_LINES	= 25;
+local ATLAS_LOOT_BOSS_LINES = 25;
 
 --Flag so that error messages do not spam
 local ATLASLOOT_POPUPSHOWN = false;
@@ -61,7 +62,7 @@ Hooked_AtlasScrollBar_Update = nil;
 AtlasLootTooltip = nil
 
 --The error loottable
-AtlasLoot_Data["ErrorPage"] = {["Normal"] = {{}};info = {name = "ErrorPage"};};
+AtlasLoot_Data["ErrorPage"] = { ["Normal"] = { {} }, info = { name = "ErrorPage" }, };
 
 -- Saves the pFrame positions
 local pFrameRegister = {}
@@ -70,7 +71,7 @@ AtlasLoot.IgnoreList = {
 	["FormatedList"] = true,
 }
 
-AtlasLoot.imagePath = "Interface\\AddOns\\"..addonname.."\\Images\\"
+AtlasLoot.imagePath = "Interface\\AddOns\\" .. addonname .. "\\Images\\"
 --AtlasLootCharDB={};
 local AtlasLootDBDefaults = {
 	profile = {
@@ -116,8 +117,8 @@ local AtlasLootDBDefaults = {
 		},
 		AtlasType = "Release",
 		modules = { ["*"] = true },
-		sortFuncs = { ["*"] = { ["*"] = false },},
-		QuickLooks = { ["*"] = { locked = false, lootPage = nil, lootPageType = nil, customName = nil, useInstanceName = false, useBossName = false }},
+		sortFuncs = { ["*"] = { ["*"] = false }, },
+		QuickLooks = { ["*"] = { locked = false, lootPage = nil, lootPageType = nil, customName = nil, useInstanceName = false, useBossName = false } },
 		NumQuickLooks = 4,
 		EnableQuickLook = true,
 		ShowUnusedQuickLooks = true,
@@ -145,25 +146,31 @@ StaticPopupDialogs["ATLASLOOT_SETUP"] = {
 
 --Popup Box for an old version of Atlas
 StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
-	text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS[1].."/"..ATLASLOOT_PREVIEW_ATLAS[1]..AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."],
+	text = AL
+	["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] ..
+	ATLASLOOT_CURRENT_ATLAS[1] ..
+	"/" ..
+	ATLASLOOT_PREVIEW_ATLAS[1] ..
+	AL
+	[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."],
 	button1 = AL["OK"],
 	OnAccept = function()
-		AtlasLoot:Print(BLUE..AL["AtlasLoot"]..": "..RED..AL["Incompatible Atlas Detected"]);
+		AtlasLoot:Print(BLUE .. AL["AtlasLoot"] .. ": " .. RED .. AL["Incompatible Atlas Detected"]);
 	end,
 	timeout = 0,
 	whileDead = 1,
 	hideOnEscape = 1
 };
 
-AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
+AtlasLoot.lootTableTypes = { "Normal", "Heroic", "25Man", "25ManHeroic" }
 
 local function CopyTable(t)
 	local new = {}
 	local i, v = next(t, nil)
 	while i do
-		if type(v)=="table" then 
-			v=CopyTable(v)
-		end 
+		if type(v) == "table" then
+			v = CopyTable(v)
+		end
 		new[i] = v
 		i, v = next(t, i)
 	end
@@ -180,17 +187,17 @@ local loaded = false
 function AtlasLoot:OnLoaderLoad()
 	if loaded then return end
 	if AtlasLootDB and AtlasLootDB["namespaces"] and AtlasLootDB["namespaces"]["DefaultFrame"] then
-		for k,v in pairs(AtlasLootDB["namespaces"]["DefaultFrame"]) do
+		for k, v in pairs(AtlasLootDB["namespaces"]["DefaultFrame"]) do
 			if v["point"] then
 				v["point"] = nil
 			end
 		end
 	end
-	
-    self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
-    self.db:RegisterDefaults(AtlasLootDBDefaults);
+
+	self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
+	self.db:RegisterDefaults(AtlasLootDBDefaults);
 	self.chardb = LibStub("AceDB-3.0"):New("AtlasLootCharDB")
-    self.chardb:RegisterDefaults(AtlasLootDBDefaults);
+	self.chardb:RegisterDefaults(AtlasLootDBDefaults);
 	self.db.RegisterCallback(self, "OnProfileChanged", "OnProfileChanged")
 	self.db.RegisterCallback(self, "OnProfileCopied", "OnProfileChanged")
 	self.db.RegisterCallback(self, "OnProfileReset", "OnProfileChanged")
@@ -203,7 +210,7 @@ function AtlasLoot:OnLoaderLoad()
 	self:CreateItemFrame()
 	-- Options loader
 	self:ReplaceOptions()
-	-- Atlas 
+	-- Atlas
 	self:AtlasInitialize()
 	-- QuickLook
 	self:QuickLookInitialize()
@@ -218,45 +225,44 @@ function AtlasLoot:OnLoaderLoad()
 	--#########
 	-- Default Frame -- 40301 --
 	--#########
-	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < tonumber(VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES))) then
-		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
+	if ((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < tonumber(VERSION_MAJOR .. VERSION_MINOR .. VERSION_BOSSES))) then
+		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR .. VERSION_MINOR .. VERSION_BOSSES;
 		--AtlasLootCharDB.AutoQuery = false;
 	end
 
 	--If EquipCompare is available, use it
-	if((EquipCompare_RegisterTooltip) and (self.db.profile.EquipCompare == true)) then
+	if ((EquipCompare_RegisterTooltip) and (self.db.profile.EquipCompare == true)) then
 		EquipCompare_RegisterTooltip(AtlasLootTooltip)
 	end
 
 	--if (self.db.profile.LoadAllLoDStartup == true) then
-		--AtlasLoot:LoadModule("all")
+	--AtlasLoot:LoadModule("all")
 	--end
 	collectgarbage("collect")
-    if LibStub:GetLibrary("LibAboutPanel", true) then
-    	LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
-	end    
-   	loaded = true
-   	if AtlasLootDB then
+	if LibStub:GetLibrary("LibAboutPanel", true) then
+		LibStub("LibAboutPanel").new(AL["AtlasLoot"], "AtlasLoot");
+	end
+	loaded = true
+	if AtlasLootDB then
 		AtlasLootDB.showWarning = true
 	end
 end
 
 do
 	local refreshProfile = {}
-	
+
 	function AtlasLoot:RegisterOnProfileChanged(func)
 		refreshProfile[#refreshProfile + 1] = func
 	end
 
 	function AtlasLoot:OnProfileChanged(event, database, newProfileKey)
-	   self:RefreshAtlasLootPanel()
-	   for k,v in ipairs(refreshProfile) do
-	   		v()
-	   end
+		self:RefreshAtlasLootPanel()
+		for k, v in ipairs(refreshProfile) do
+			v()
+		end
 	end
-
 end
--- Only a simple print function 
+-- Only a simple print function
 function AtlasLoot:Print(...)
 	DEFAULT_CHAT_FRAME:AddMessage(...)
 end
@@ -284,7 +290,7 @@ do
 			end
 		end
 	end
-	
+
 	function AtlasLoot:RegisterSlashCommand(com, func)
 		slashCommand[string.lower(com)] = func
 	end
@@ -295,25 +301,25 @@ do
 	local resetFunctions = {
 		quicklooks = {
 			function()
-				for i = 1,AtlasLoot.db.profile.NumQuickLooks do
+				for i = 1, AtlasLoot.db.profile.NumQuickLooks do
 					AtlasLoot.db.profile.QuickLooks[i].lootPage = nil
 				end
 				AtlasLoot:RefreshAtlasLootPanel()
 			end
 		},
-		
+
 	}
 
-	--- Adds a reset function 
+	--- Adds a reset function
 	-- /al reset <com>
 	-- @param func the reset function
 	-- @param ... the commands "/al reset <com>"
 	-- @usage AtlasLoot:AddResetCommand(com, func)
 	function AtlasLoot:AddResetCommand(func, ...)
 		if type(func) == "function" then
-			for i=1,select("#",...) do
-				if not resetFunctions[select(i,...)] then resetFunctions[select(i,...)] = {} end
-				resetFunctions[select(i,...)][#resetFunctions[select(i,...)]+1] = func
+			for i = 1, select("#", ...) do
+				if not resetFunctions[select(i, ...)] then resetFunctions[select(i, ...)] = {} end
+				resetFunctions[select(i, ...)][#resetFunctions[select(i, ...)] + 1] = func
 			end
 		end
 	end
@@ -321,13 +327,13 @@ do
 	-- Resets: frames/quicklooks/wishlist/all
 	function AtlasLoot:Reset(data)
 		if data == "all" then
-			for _,funcTab in pairs(resetFunctions) do
-				for _,func in ipairs(funcTab) do
+			for _, funcTab in pairs(resetFunctions) do
+				for _, func in ipairs(funcTab) do
 					func()
 				end
 			end
 		elseif resetFunctions[data] then
-			for _,func in ipairs(resetFunctions[data]) do
+			for _, func in ipairs(resetFunctions[data]) do
 				func()
 			end
 		end
@@ -339,44 +345,44 @@ end
 
 function AtlasLoot:CreateSelectBossLineButton(parent, point, name)
 	parent = parent or UIParent
-	if not point or type(point) ~= "table" then point = {"TOPLEFT", parent, "TOPLEFT", 0, 0} end
+	if not point or type(point) ~= "table" then point = { "TOPLEFT", parent, "TOPLEFT", 0, 0 } end
 	if not name or name == "" then
 		--error("AtlasLoot:CreateItemButton: Enter a name.", 2)
 		return
 	end
 
 	local bossLineButton = {}
-	
+
 	bossLineButton = CreateFrame("Button", name, parent)
 	--bossLineButton:SetFrameStrata("HIGH")
 	bossLineButton:SetWidth(336)
 	bossLineButton:SetHeight(15)
 	bossLineButton:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
 	bossLineButton:SetPoint(point[1], point[2], point[3], point[4], point[5])
-	
-	bossLineButton.Text = bossLineButton:CreateFontString(name.."_Text","OVERLAY","GameFontNormal")
+
+	bossLineButton.Text = bossLineButton:CreateFontString(name .. "_Text", "OVERLAY", "GameFontNormal")
 	bossLineButton.Text:SetPoint("LEFT", bossLineButton, "LEFT")
 	bossLineButton.Text:SetJustifyH("LEFT")
 	bossLineButton.Text:SetText("")
 	bossLineButton.Text:SetWidth(320)
 	bossLineButton.Text:SetHeight(15)
-	
-	bossLineButton.Loot = bossLineButton:CreateTexture(name.."_Loot","OVERLAY")
+
+	bossLineButton.Loot = bossLineButton:CreateTexture(name .. "_Loot", "OVERLAY")
 	bossLineButton.Loot:SetPoint("RIGHT", bossLineButton, "RIGHT")
-	bossLineButton.Loot:SetTexture(AtlasLoot.imagePath.."silver")
+	bossLineButton.Loot:SetTexture(AtlasLoot.imagePath .. "silver")
 	bossLineButton.Loot:SetHeight(16)
 	bossLineButton.Loot:SetWidth(16)
 	bossLineButton.Loot:Hide()
-	
-	bossLineButton.Selected = bossLineButton:CreateTexture(name.."_Selected","OVERLAY")
+
+	bossLineButton.Selected = bossLineButton:CreateTexture(name .. "_Selected", "OVERLAY")
 	bossLineButton.Selected:SetPoint("RIGHT", bossLineButton, "RIGHT")
-	bossLineButton.Selected:SetTexture(AtlasLoot.imagePath.."gold")
+	bossLineButton.Selected:SetTexture(AtlasLoot.imagePath .. "gold")
 	bossLineButton.Selected:SetHeight(16)
 	bossLineButton.Selected:SetWidth(16)
 	bossLineButton.Selected:Hide()
 
 	bossLineButton:Hide()
-	
+
 	return bossLineButton
 end
 
@@ -387,19 +393,19 @@ end
 function AtlasLoot:GetTableLoaction(dataID)
 	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.instance then
 		local instance = AtlasLoot_Data[dataID].info.instance
-		for ini,iniTab in pairs(AtlasLoot_LootTableRegister) do
+		for ini, iniTab in pairs(AtlasLoot_LootTableRegister) do
 			if iniTab[instance] then
-				return {ini, instance}
+				return { ini, instance }
 			end
 		end
 	else
-		for ini,iniTab in pairs(AtlasLoot_LootTableRegister) do
+		for ini, iniTab in pairs(AtlasLoot_LootTableRegister) do
 			if iniTab[dataID] then
-				return {ini, dataID}
+				return { ini, dataID }
 			end
 		end
 	end
-	
+
 	return nil
 end
 
@@ -413,17 +419,16 @@ function AtlasLoot:GetTableRegister(dataID)
 		--error("AtlasLoot:GetTableRegister: Enter a available dataID <string>", 2)
 		return
 	end
-	
+
 	local lootTable
 	local instancePage, tLocation
-	
+
 	dataID, instancePage = self:FormatDataID(dataID)
 	tLocation = self:GetTableLoaction(dataID)
-	
+
 	if tLocation then
 		lootTable = AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]
-		if lootTable then 
-			
+		if lootTable then
 			if type(lootTable) == "string" then
 				if AtlasLoot_LootTableRegister[tLocation[1]][lootTable] then
 					lootTable = AtlasLoot_LootTableRegister[tLocation[1]][lootTable]
@@ -432,26 +437,26 @@ function AtlasLoot:GetTableRegister(dataID)
 					return nil
 				end
 			end
-		
+
 			if not lootTable["Bosses"] then
 				lootTable["Bosses"] = {}
 				if lootTable["Info"].sortOrder then
-					for _,tab in ipairs(lootTable["Info"].sortOrder) do
+					for _, tab in ipairs(lootTable["Info"].sortOrder) do
 						if lootTable[tab] then
-							for _,ini in ipairs(lootTable[tab]) do
+							for _, ini in ipairs(lootTable[tab]) do
 								if not ini.hide then
-									lootTable["Bosses"][#lootTable["Bosses"]+1] = CopyTable(ini)
+									lootTable["Bosses"][#lootTable["Bosses"] + 1] = CopyTable(ini)
 								end
 							end
 						end
 					end
 				end
 			end
-			
+
 			return lootTable
 		end
 	end
-	
+
 	return nil
 end
 
@@ -480,15 +485,15 @@ function AtlasLoot:GetBossTableZoneID(zoneID)
 			LootTable = AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Bosses"]
 			InfoTable = AtlasLoot_LootTableRegister[tLocation[1]][tLocation[2]]["Info"]
 		end
-		
+
 		if LootTable and not LootTable["Bosses"] then
 			LootTable["Bosses"] = {}
 			if InfoTable.sortOrder then
-				for _,tab in ipairs(InfoTable.sortOrder) do
+				for _, tab in ipairs(InfoTable.sortOrder) do
 					if LootTable[tab] then
-						for _,ini in ipairs(LootTable[tab]) do
+						for _, ini in ipairs(LootTable[tab]) do
 							if not ini.hide then
-								LootTable["Bosses"][#LootTable["Bosses"]+1] = CopyTable(ini)
+								LootTable["Bosses"][#LootTable["Bosses"] + 1] = CopyTable(ini)
 							end
 						end
 					end
@@ -498,7 +503,7 @@ function AtlasLoot:GetBossTableZoneID(zoneID)
 
 		return LootTable, InfoTable
 	else
-		return nil,nil
+		return nil, nil
 	end
 end
 
@@ -523,7 +528,7 @@ function AtlasLoot:GetLocInstanceType(instanceType)
 	end
 	return instanceType
 end
-	
+
 --- Get boss name and instance name
 -- Gets localized boss name and instance name from the loottable data
 -- @param dataID the name of the AtlasLootTable
@@ -533,23 +538,23 @@ end
 -- @usage local bossName, instanceName = AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber)
 -- @return localized boss name or table name
 -- @return localized instance name
-function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber, attunable, attuned)
+function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber, attunable, attuned, attunableOverall, attunedOverall)
 	if not dataID or type(dataID) ~= "string" then
 		--error("AtlasLoot:GetTableInfo: Enter a available dataID <string>", 2)
 		return
 	end
-	
+
 	local bossName, instanceName, menuID
 	local instancePage, tableRegister, instanceType
 	local oriDataID = dataID
-	
+
 	dataID, instancePage = self:FormatDataID(dataID)
 	tableRegister = self:GetTableRegister(dataID)
 	instanceType = AtlasLoot:GetLootTableType(oriDataID)
 	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.menu then
 		menuID = AtlasLoot_Data[dataID].info.menu
 	end
-	
+
 	if tableRegister and tableRegister["Info"] and tableRegister["Info"][1] then
 		instanceName = tableRegister["Info"][1]
 	elseif menuID and AtlasLoot_Data[menuID] and AtlasLoot_Data[menuID].info and AtlasLoot_Data[menuID].info.name then
@@ -563,32 +568,33 @@ function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPag
 			bossName = AL["Trash Mobs"]
 		end
 		if AtlasLoot_Data[dataID][instanceType] and AtlasLoot_Data[dataID][instanceType][instancePage] and AtlasLoot_Data[dataID][instanceType][instancePage].extraText then
-			bossName = bossName..AtlasLoot_Data[dataID][instanceType][instancePage].extraText
+			bossName = bossName .. AtlasLoot_Data[dataID][instanceType][instancePage].extraText
 		end
 	else
 		bossName = dataID
 	end
 	local instanceTypeOld = instanceType
 	instanceType = self:GetLocInstanceType(instanceType)
-	
-	if attunable ~= nil and attuned ~=nil then
-		bossName = bossName.." (Attuned: "..attuned.."/"..attunable..")"
+
+	-- add attune status to the boss name
+	if attunable ~= nil and attuned ~= nil then
+		bossName = bossName .. " Attuned: [" .. attuned .. "/" .. attunable .. "] - all [" .. attunedOverall .. "/" .. attunableOverall.. "]"
 	end
 	if addInstanceName and not addInstanceType and instanceName and instanceType ~= "" then
-		bossName = bossName.." ("..instanceName..")"
+		bossName = bossName .. " (" .. instanceName .. ")"
 	elseif addInstanceType and not addInstanceName and instanceType and instanceType ~= "" then
-		bossName = bossName.." ("..instanceType..")"
+		bossName = bossName .. " (" .. instanceType .. ")"
 	elseif addInstanceType and addInstanceName and instanceType and instanceName and instanceType ~= "" then
-		bossName = bossName.." ("..instanceName.."-"..instanceType..")"
+		bossName = bossName .. " (" .. instanceName .. "-" .. instanceType .. ")"
 	end
 	--GREY
 	if addPageNumber and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID][instanceTypeOld] then
 		local maxPages = #AtlasLoot_Data[dataID][instanceTypeOld]
 		if maxPages > 1 then
-			bossName = bossName.." "..GREY.."["..instancePage.."/"..maxPages.."]"
+			bossName = bossName .. " " .. GREY .. "[" .. instancePage .. "/" .. maxPages .. "]"
 		end
 	end
-	
+
 	return bossName, instanceName
 end
 
@@ -607,15 +613,15 @@ function AtlasLoot:FormatDataID(dataID)
 	dataID = gsub(dataID, "#25ManHeroic", "")
 	dataID = gsub(dataID, "#25Man", "")
 
-	local _,_,instanceTableIndex = string.find(dataID, "#(%d+)")
+	local _, _, instanceTableIndex = string.find(dataID, "#(%d+)")
 	local last = string.find(dataID, "#last")
-	
+
 	--dataID = gsub(dataID, "#(%d+)", "")
 	--dataID = gsub(dataID, "#last", "")
 	dataID = gsub(dataID, "#(.+)", "")
 	if string.find(dataID, "MENU") or (AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.menu) then
 		if AtlasLoot_Data[dataID].info.Modules then
-			for k,v in ipairs(AtlasLoot_Data[dataID].info.Modules) do
+			for k, v in ipairs(AtlasLoot_Data[dataID].info.Modules) do
 				self:LoadModule(v)
 			end
 		else
@@ -624,9 +630,9 @@ function AtlasLoot:FormatDataID(dataID)
 	end
 	local dataIDLoaded = AtlasLoot:CheckDataID(dataID)
 	if not dataIDLoaded then
-		return 
+		return
 	end
-	
+
 	if last then
 		local lootTableType = AtlasLoot:GetLootTableType(dataID)
 		instanceTableIndex = #AtlasLoot_Data[dataID][lootTableType]
@@ -644,11 +650,11 @@ do
 		["25Man"] = { "25ManHeroic", "Normal", "Heroic" },
 		["25ManHeroic"] = { "25Man", "Heroic", "Normal" },
 	}
-	
+
 	function AtlasLoot:GetLootTableTypeFromDataID(dataID)
 		if dataID then
-			for k,v in ipairs(lootTableTypes) do
-				if string.match(dataID, "#"..v) then
+			for k, v in ipairs(lootTableTypes) do
+				if string.match(dataID, "#" .. v) then
 					--local _,_,newLootTableType = string.match(dataID, "#"..v)
 					return v
 				end
@@ -673,8 +679,8 @@ do
 			factionAdd = "_A"
 		end
 		-- dataID#savedTableType
-		for k,v in ipairs(lootTableTypes) do
-			if dataID and string.match(dataID, "#"..v) then
+		for k, v in ipairs(lootTableTypes) do
+			if dataID and string.match(dataID, "#" .. v) then
 				--local _,_,newLootTableType = string.match(dataID, "#"..v)
 				lootTableType = v
 			end
@@ -683,16 +689,16 @@ do
 			dataID = self:FormatDataID(dataID)
 		end
 		if dataID and AtlasLoot_Data[dataID] then
-			for k,v in ipairs(lootTableTypes) do
-				if AtlasLoot_Data[dataID][v..factionAdd] then
-					AtlasLoot_Data[dataID][v] = AtlasLoot_Data[dataID][v..factionAdd]
+			for k, v in ipairs(lootTableTypes) do
+				if AtlasLoot_Data[dataID][v .. factionAdd] then
+					AtlasLoot_Data[dataID][v] = AtlasLoot_Data[dataID][v .. factionAdd]
 				end
 			end
 
 			if AtlasLoot_Data[dataID][lootTableType] then
 				return lootTableType
 			else
-				for k,v in ipairs(lootTableTypesCheck[lootTableType]) do
+				for k, v in ipairs(lootTableTypesCheck[lootTableType]) do
 					if v and type(v) == "string" then
 						if AtlasLoot_Data[dataID][v] then
 							return v
@@ -710,7 +716,7 @@ do
 	-- @param dataID the name of the AtlasLootTable
 	-- @usage AtlasLoot:SetLootTableType(lootTableType)
 	function AtlasLoot:SetLootTableType(lootTableType, dataID)
-		for k,v in ipairs(lootTableTypes) do
+		for k, v in ipairs(lootTableTypes) do
 			if v == lootTableType then
 				self.db.profile.LootTableType = lootTableType
 				if dataID then
@@ -718,7 +724,7 @@ do
 				end
 				return
 			end
-		end 
+		end
 		--error("AtlasLoot:SetLootTableType: "..lootTableType.." is not a available lootTableType", 2 )
 	end
 end
@@ -727,19 +733,18 @@ end
 do
 	local tableFormatFunctions = {}
 
-	--- Adds a Table format function 
+	--- Adds a Table format function
 	-- @param name name of the format function
-	-- @param func 
+	-- @param func
 	-- @param save a function that returns if the format function is enabled or disabled
 	-- @usage AtlasLoot:AddTableFormatFunction(name, func, save)
 	function AtlasLoot:AddTableFormatFunction(name, func, save)
 		if not name or not func or type(func) ~= "function" then return end
 		if save and type(save) ~= "function" then return end
-		
+
 		if not tableFormatFunctions[name] then
 			tableFormatFunctions[name] = { func, save }
 		end
-
 	end
 
 	--- Gets the Table format function
@@ -750,13 +755,13 @@ do
 		if not name or not tableFormatFunctions[name] then return end
 		return tableFormatFunctions[name][1]
 	end
-	
+
 	--- Formats the loottable
 	-- @param loottable a atlasloot loottable
 	-- @usage newLoottable = AtlasLoot:FormatLootTable(loottable)
 	-- @return Formated tooltip
 	function AtlasLoot:FormatLootTable(dataID, loottable)
-		for k,v in pairs(tableFormatFunctions) do
+		for k, v in pairs(tableFormatFunctions) do
 			if v[2] and v[2]() then
 				loottable = v[1](v, loottable)
 			end
@@ -789,21 +794,21 @@ do
 		if not name or not toolTipAdds[name] then return end
 		return toolTipAdds[name][1]
 	end
-	
-	
+
 	--- Adds the text to the given tooltip
-	-- @param tooltip the tooltip 
+	-- @param tooltip the tooltip
 	-- @param infoTab the infotable { spellID, itemID, itemName, extraText, itemTexture, itemPrice, itemDroprate }
 	-- @usage AtlasLoot:AddTextToTooltip(tooltip, infoTab)
 	function AtlasLoot:AddTextToTooltip(tooltip, infoTab)
 		if not tooltip or not infoTab then return end
-		for k,v in pairs(toolTipAdds) do
+		for k, v in pairs(toolTipAdds) do
 			if v[2]() then
 				tooltip:AddLine(v[1](infoTab))
 			end
 		end
 	end
 end
+
 
 --- Returns the loottable
 -- @param dataID the name of the AtlasLootTable
@@ -819,11 +824,12 @@ function AtlasLoot:GetLootPageFromDataID(dataID)
 	dataID, instancePage = self:FormatDataID(dataID)
 	lootTableType = self:GetLootTableType(dataIDOri) or "Normal"
 	if not AtlasLoot_Data[dataID] or not AtlasLoot_Data[dataID][lootTableType] or not AtlasLoot_Data[dataID][lootTableType][instancePage] then
-		print(string.format("AtlasLoot_Data[\"%s\"][\"%s\"][%s] not found. (%s)", dataID or "nil", lootTableType or "nil", instancePage or "nil", dataIDOri or "nil"))
+		print(string.format("AtlasLoot_Data[\"%s\"][\"%s\"][%s] not found. (%s)", dataID or "nil", lootTableType or "nil",
+			instancePage or "nil", dataIDOri or "nil"))
 		return
 	end
 	lootTable = AtlasLoot_Data[dataID][lootTableType][instancePage]
-	for k,v in ipairs(lootTable) do
+	for k, v in ipairs(lootTable) do
 		if type(v[1]) == "table" or type(v[2]) == "table" then
 			if englishFaction == "Horde" then
 				if v[1] then
@@ -861,23 +867,22 @@ function AtlasLoot:GetNextPrevPage(dataID, curPage)
 		--error("AtlasLoot:GetNextPrevPage: Enter a available dataID <string>", 2)
 		return
 	end
-	
+
 	local nextPage, prevPage
 	local bossesPos
 	local instancePage, lootTableType, tableRegister, tablePages
-	
+
 	dataID, instancePage = self:FormatDataID(dataID)
 	lootTableType = self:GetLootTableType(dataID)
 	tableRegister = self:GetTableRegister(dataID)
-	
+
 	if not curPage then
 		curPage = instancePage
 	end
-	
+
 	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID][lootTableType] then
-	
 		tablePages = #AtlasLoot_Data[dataID][lootTableType]
-		
+
 		if tablePages > 1 then
 			if tablePages ~= curPage then
 				if curPage > 1 then
@@ -892,9 +897,9 @@ function AtlasLoot:GetNextPrevPage(dataID, curPage)
 				end
 			end
 		end
-		
+
 		if tableRegister then
-			for k,v in ipairs(tableRegister["Bosses"]) do
+			for k, v in ipairs(tableRegister["Bosses"]) do
 				if v[1] == dataID then
 					bossesPos = k
 				end
@@ -904,21 +909,21 @@ function AtlasLoot:GetNextPrevPage(dataID, curPage)
 		if bossesPos then
 			if not prevPage then
 				if bossesPos > 1 then
-					for i=1,bossesPos do
-						if tableRegister["Bosses"][bossesPos-i] and AtlasLoot_Data[tableRegister["Bosses"][bossesPos-i][1]] and not tableRegister["Bosses"][bossesPos-i].hide then
-							if not AtlasLoot_Data[tableRegister["Bosses"][bossesPos-i][1]].info.NextPrevDisable then
-								prevPage = tableRegister["Bosses"][bossesPos-i][1]
-								prevPage = prevPage.."#last"
+					for i = 1, bossesPos do
+						if tableRegister["Bosses"][bossesPos - i] and AtlasLoot_Data[tableRegister["Bosses"][bossesPos - i][1]] and not tableRegister["Bosses"][bossesPos - i].hide then
+							if not AtlasLoot_Data[tableRegister["Bosses"][bossesPos - i][1]].info.NextPrevDisable then
+								prevPage = tableRegister["Bosses"][bossesPos - i][1]
+								prevPage = prevPage .. "#last"
 								break
 							end
 						end
 					end
 				end
 			end
-			
+
 			if not nextPage then
 				if bossesPos ~= #tableRegister["Bosses"] then
-					for i=bossesPos+1, #tableRegister["Bosses"] do
+					for i = bossesPos + 1, #tableRegister["Bosses"] do
 						if tableRegister["Bosses"][i] and AtlasLoot_Data[tableRegister["Bosses"][i][1]] and not tableRegister["Bosses"][i].hide then
 							if not AtlasLoot_Data[tableRegister["Bosses"][i][1]].info.NextPrevDisable then
 								nextPage = tableRegister["Bosses"][i][1]
@@ -930,42 +935,43 @@ function AtlasLoot:GetNextPrevPage(dataID, curPage)
 			end
 		end
 
-		
+
 		if nextPage and type(nextPage) == "number" then
-			nextPage = dataID.."#"..nextPage
+			nextPage = dataID .. "#" .. nextPage
 		end
 		if prevPage and type(prevPage) == "number" then
-			prevPage = dataID.."#"..prevPage
-		end	
+			prevPage = dataID .. "#" .. prevPage
+		end
 	end
-	
+
 	return nextPage, prevPage
 end
 
-function tprint (tbl, indent)
+-- Helper function to print a table
+function Tprint(tbl, indent)
 	if not indent then indent = 0 end
 	local toprint = string.rep(" ", indent) .. "{\r\n"
-	indent = indent + 2 
+	indent = indent + 2
 	for k, v in pairs(tbl) do
-	  toprint = toprint .. string.rep(" ", indent)
-	  if (type(k) == "number") then
-		toprint = toprint .. "[" .. k .. "] = "
-	  elseif (type(k) == "string") then
-		toprint = toprint  .. k ..  "= "   
-	  end
-	  if (type(v) == "number") then
-		toprint = toprint .. v .. ",\r\n"
-	  elseif (type(v) == "string") then
-		toprint = toprint .. "\"" .. v .. "\",\r\n"
-	  elseif (type(v) == "table") then
-		toprint = toprint .. tprint(v, indent + 2) .. ",\r\n"
-	  else
-		toprint = toprint .. "\"" .. tostring(v) .. "\",\r\n"
-	  end
+		toprint = toprint .. string.rep(" ", indent)
+		if (type(k) == "number") then
+			toprint = toprint .. "[" .. k .. "] = "
+		elseif (type(k) == "string") then
+			toprint = toprint .. k .. "= "
+		end
+		if (type(v) == "number") then
+			toprint = toprint .. v .. ",\r\n"
+		elseif (type(v) == "string") then
+			toprint = toprint .. "\"" .. v .. "\",\r\n"
+		elseif (type(v) == "table") then
+			toprint = toprint .. tprint(v, indent + 2) .. ",\r\n"
+		else
+			toprint = toprint .. "\"" .. tostring(v) .. "\",\r\n"
+		end
 	end
-	toprint = toprint .. string.rep(" ", indent-2) .. "}"
+	toprint = toprint .. string.rep(" ", indent - 2) .. "}"
 	return toprint
-  end
+end
 
 --- Shows the Loot page
 -- @param dataID the name of the AtlasLootTable
@@ -976,39 +982,42 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		--self:Print("No dataID!")
 		return
 	end
-	
+
 	if not pFrame or pFrame == "" then
 		pFrame = AtlasLoot:GetItemInfoFrame()
 	end
 	self:SetItemInfoFrame(pFrame)
-	
+
 	local instancePage, nextPage, prevPage, lootTableType, bossName, moduleName
 	local saveDataID = dataID
-	
-	dataID, instancePage = self:FormatDataID(dataID)
-	-- error(tprint(AtlasLoot_Data[dataID]))
-	-- error(tprint(AtlasLoot:GetLootPageFromDataID(dataID)))
 
+	dataID, instancePage = self:FormatDataID(dataID)
+
+	-- get Attune status of current boss displayed + all items of instance
 	local attunable, attuned = self:SetItemTable(self:GetLootPageFromDataID(saveDataID))
-	
+	local attunableOverall, attunedOverall = AtlasLoot:GetAttunesFromDataID(dataID)
+
 	nextPage, prevPage = self:GetNextPrevPage(dataID, instancePage)
 	lootTableType = self:GetLootTableType(saveDataID)
 
 	if AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID].info and AtlasLoot_Data[dataID].info.module then
 		moduleName = AtlasLoot_Data[dataID].info.module
 	end
-	
+
 	if self.ItemFrame.dataID == "FormatedList" and dataID ~= "FormatedList" then
 		wipe(AtlasLoot_Data["FormatedList"]["Normal"])
 		collectgarbage("collect")
 	end
-	
+
 	self:ClearLootPage()
-	
+
 	self.ItemFrame.dataID = saveDataID
 	self.ItemFrame.lootTableType = lootTableType
-	
-	
+
+	-- boss name include attune status
+	bossName = self:GetTableInfo(saveDataID, false, true, true, attunable, attuned, attunableOverall, attunedOverall)
+	self.ItemFrame.BossName:SetText(bossName)
+
 	if nextPage then
 		self.ItemFrame.Next.lootpage = nextPage
 		self.ItemFrame.Next:Show()
@@ -1021,7 +1030,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Back.lootpage = AtlasLoot_Data[dataID].info.menu
 		self.ItemFrame.Back:Show()
 	end
-	
+
 	if lootTableType == "Heroic" and AtlasLoot_Data[dataID]["Heroic"] then
 		self.ItemFrame.Heroic:Show()
 		self.ItemFrame.Heroic:SetChecked(true)
@@ -1051,11 +1060,11 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 			self.ItemFrame.Heroic:Enable()
 		end
 	end
-	
-	if ( lootTableType == "Normal" or lootTableType == "Heroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"] ) then
+
+	if (lootTableType == "Normal" or lootTableType == "Heroic") and AtlasLoot_Data[dataID] and (AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"]) then
 		self.ItemFrame.Switch:SetText(AL["Show 25 Man Loot"])
 		self.ItemFrame.Switch:Show()
-	elseif ( lootTableType == "25Man" or lootTableType == "25ManHeroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"] ) then
+	elseif (lootTableType == "25Man" or lootTableType == "25ManHeroic") and AtlasLoot_Data[dataID] and (AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"]) then
 		self.ItemFrame.Switch:SetText(AL["Show 10 Man Loot"])
 		self.ItemFrame.Switch:Show()
 	elseif self.ItemFrame.Switch.changePoint then
@@ -1082,7 +1091,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		end
 		self.ItemFrame.Switch:Show()
 	end
-	
+
 	AtlasLoot.ItemFrame.EncounterJournal.info = dataID
 	AtlasLoot:EncounterJournal_ButtonsRefresh()
 	if AtlasLoot.ItemFrame.CloseButton:IsShown() then
@@ -1090,7 +1099,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	else
 		AtlasLoot.ItemFrame.EncounterJournal:SetPoint("TOPRIGHT", AtlasLoot.ItemFrame, "TOPRIGHT", -5, -5)
 	end
-	
+
 	if string.find(dataID, "SortedTable") then
 		self.ItemFrame.QuickLooks:Hide()
 		self.ItemFrame.QuickLooksName:Hide()
@@ -1098,13 +1107,11 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self:SetEnableQuickLook(self:GetEnableQuickLook())
 	end
 	-- AtlasLoot:QueryLootPage()
-	bossName = self:GetTableInfo(saveDataID, false, true, true, attunable, attuned)
-	self.ItemFrame.BossName:SetText(bossName)
 end
 
 -- Table format (wishlist, filter, ...)
 do
-	local lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
+	local lootTableTypes = { "Normal", "Heroic", "25Man", "25ManHeroic" }
 
 	local function SortTable(t, f)
 		local a = {}
@@ -1134,11 +1141,14 @@ do
 		end
 
 		local i = 1
-		for _,item in ipairs(itemTable) do
+		for _, item in ipairs(itemTable) do
 			if i < 5 then
-				print(item[1].. " - ".. item[2].. " - ".. item[3].. " - ".. item[4].. " - ".. item[5].. " - ".. item[6].. " - ".. item[7])
+				print(item[1] ..
+				" - " ..
+				item[2] .. " - " .. item[3] .. " - " .. item[4] .. " - " .. item[5] .. " - " .. item[6] ..
+				" - " .. item[7])
 			end
-				i = i + 1
+			i = i + 1
 			if type(item) == "table" then
 				if item[6] then
 					if not itemCache[item[6]] then
@@ -1147,45 +1157,49 @@ do
 					if not itemCache[item[6]][item[7]] then
 						itemCache[item[6]][item[7]] = {}
 					end
-					table.insert( itemCache[item[6]][item[7]], { item[1], item[2], item[3], item[4], item[5], item[6], item[7] } )
+					table.insert(itemCache[item[6]][item[7]],
+						{ item[1], item[2], item[3], item[4], item[5], item[6], item[7] })
 				end
 			end
 		end
-		
+
 		local itemCount = 1
 		local pageCount = 1
 		local bossName, instanceName, spellID, itemID
 		for instance, instanceTab in SortTable(itemCache) do
-			for _,iniType in ipairs(lootTableTypes) do
+			for _, iniType in ipairs(lootTableTypes) do
 				if instanceTab[iniType] then
 					if not AtlasLoot_Data["FormatedList"]["Normal"][pageCount] then AtlasLoot_Data["FormatedList"]["Normal"][pageCount] = {} end
-					if ( #AtlasLoot_Data["FormatedList"]["Normal"][pageCount] >= 30 ) or ( #AtlasLoot_Data["FormatedList"]["Normal"][pageCount] + #instanceTab[iniType] + 2 >= 30 ) then
+					if (#AtlasLoot_Data["FormatedList"]["Normal"][pageCount] >= 30) or (#AtlasLoot_Data["FormatedList"]["Normal"][pageCount] + #instanceTab[iniType] + 2 >= 30) then
 						pageCount = pageCount + 1
 						itemCount = 1
 						if not AtlasLoot_Data["FormatedList"]["Normal"][pageCount] then AtlasLoot_Data["FormatedList"]["Normal"][pageCount] = {} end
 					end
-					
+
 					bossName, instanceName = AtlasLoot:GetTableInfo(instance)
 					if itemCount ~= 1 and itemCount ~= 16 then itemCount = itemCount + 1 end
-					table.insert( AtlasLoot_Data["FormatedList"]["Normal"][pageCount], { itemCount, instance, "INV_Box_01", "=q6="..bossName.." ("..iniType..")", "=q5="..instanceName } )
+					table.insert(AtlasLoot_Data["FormatedList"]["Normal"][pageCount],
+						{ itemCount, instance, "INV_Box_01", "=q6=" .. bossName .. " (" .. iniType .. ")", "=q5=" ..
+						instanceName })
 					itemCount = itemCount + 1
-					
-					for _,item in ipairs(instanceTab[iniType]) do
+
+					for _, item in ipairs(instanceTab[iniType]) do
 						if not AtlasLoot_Data["FormatedList"]["Normal"][pageCount] then AtlasLoot_Data["FormatedList"]["Normal"][pageCount] = {} end
-						if ( #AtlasLoot_Data["FormatedList"]["Normal"][pageCount] >= 30 ) then
+						if (#AtlasLoot_Data["FormatedList"]["Normal"][pageCount] >= 30) then
 							pageCount = pageCount + 1
 							itemCount = 1
 							if not AtlasLoot_Data["FormatedList"]["Normal"][pageCount] then AtlasLoot_Data["FormatedList"]["Normal"][pageCount] = {} end
 						end
-						
+
 						spellID = item[2]
 						itemID = ""
 						if item[2] and item[2] ~= "" and item[2] > 0 and item[3] ~= "" then
-							spellID = "s"..item[2]
+							spellID = "s" .. item[2]
 							itemID = item[3]
 						end
-						
-						table.insert( AtlasLoot_Data["FormatedList"]["Normal"][pageCount], { itemCount, spellID, itemID, item[4], item[5] } )
+
+						table.insert(AtlasLoot_Data["FormatedList"]["Normal"][pageCount],
+							{ itemCount, spellID, itemID, item[4], item[5] })
 						--spellID, itemID, itemName, extraText, dataID, lootTableType
 						itemCount = itemCount + 1
 					end
@@ -1202,7 +1216,7 @@ end
 -- Register pFrame
 do
 	local function hideOtherFramesOnShow(self)
-		for k,v in pairs(pFrameRegister) do
+		for k, v in pairs(pFrameRegister) do
 			if k ~= self.AtlasLootRegisterName and v[2] then
 				_G[v[2]]:Hide()
 			end
@@ -1255,7 +1269,7 @@ function AtlasLoot:SetItemInfoFrame(pFrame)
 				self:SetItemInfoFrame()
 			end
 		end
-	elseif ( AtlasFrame ) then
+	elseif (AtlasFrame) then
 		--If no pFrame is specified and Atlas is installed, anchor in Atlas
 		AtlasLootItemsFrame:ClearAllPoints();
 		AtlasLootItemsFrame:SetParent(AtlasFrame);
@@ -1274,7 +1288,7 @@ end
 -- @usage local pFrame = AtlasLoot:GetItemInfoFrame()
 -- @return pFrame
 function AtlasLoot:GetItemInfoFrame()
-	for k,v in pairs(pFrameRegister) do
+	for k, v in pairs(pFrameRegister) do
 		if k and _G[v[2]]:IsShown() then
 			return k
 		end
@@ -1310,9 +1324,9 @@ function AtlasLoot:GetItemEquipInfo(itemID)
 	local tempText = ""
 	if _G[itemEquipLoc] then
 		if itemType == ENCHSLOT_WEAPON then
-			tempText = itemSubType..', '..itemType
+			tempText = itemSubType .. ', ' .. itemType
 		else
-			tempText = _G[itemEquipLoc]..', '..itemSubType
+			tempText = _G[itemEquipLoc] .. ', ' .. itemSubType
 		end
 	elseif itemSubType and string.find(itemSubType, MONEY) then
 		tempText = MONEY
@@ -1322,12 +1336,12 @@ end
 
 -- AtlasLoot:GetEnchantLink()
 do
-	local AtlasLootScanTooltip = CreateFrame("GAMETOOLTIP","AtlasLootScanTooltip",nil,"GameTooltipTemplate")
+	local AtlasLootScanTooltip = CreateFrame("GAMETOOLTIP", "AtlasLootScanTooltip", nil, "GameTooltipTemplate")
 	AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
-	
+
 	--- Gets a enchant link
 	-- self creats a chatlink for tradeskill links
-	-- @param enchantID 
+	-- @param enchantID
 	-- @return the enchant link
 	-- @usage local enchantLink = AtlasLoot:GetEnchantLink(12345)
 	function AtlasLoot:GetEnchantLink(enchantID)
@@ -1335,12 +1349,12 @@ do
 		local EnchantLink = nil
 		AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
 		AtlasLootScanTooltip:ClearLines();
-		AtlasLootScanTooltip:SetHyperlink("enchant:"..enchantID);
+		AtlasLootScanTooltip:SetHyperlink("enchant:" .. enchantID);
 		AtlasLootScanTooltip:Show()
 		local tooltipline = _G["AtlasLootScanTooltipTextLeft1"]
 		local text = tooltipline:GetText()
 		if text and string.find(text, ":") then
-			EnchantLink = "|cffffd000|Henchant:"..enchantID.."|h["..text.."]|h|r"
+			EnchantLink = "|cffffd000|Henchant:" .. enchantID .. "|h[" .. text .. "]|h|r"
 		else
 			EnchantLink = GetSpellLink(enchantID)
 		end
@@ -1349,19 +1363,19 @@ do
 	end
 
 	--- Gets the max-lvl from a Heirloom
-	-- @param itemID 
+	-- @param itemID
 	function AtlasLoot:GetHeirloomMaxLvl(itemID)
 		if not itemID then return end
 		local maxLvl = 80
-		local _,itemLink,itemRarity = GetItemInfo(itemID)
+		local _, itemLink, itemRarity = GetItemInfo(itemID)
 		if itemRarity ~= 7 then return end
 		AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
 		AtlasLootScanTooltip:ClearLines()
 		AtlasLootScanTooltip:SetHyperlink(itemLink)
 		AtlasLootScanTooltip:Show()
 		local tooltipline = _G["AtlasLootScanTooltipTextLeft1"]
-		for i = 1,AtlasLootScanTooltip:NumLines() do
-			tooltipline = _G["AtlasLootScanTooltipTextLeft"..i]:GetText()
+		for i = 1, AtlasLootScanTooltip:NumLines() do
+			tooltipline = _G["AtlasLootScanTooltipTextLeft" .. i]:GetText()
 			if string.match(tooltipline, ITEM_LEVEL_RANGE) then
 				maxLvl = tonumber(string.match(tooltipline, "%d%d"))
 				break
@@ -1370,47 +1384,47 @@ do
 		AtlasLootScanTooltip:Hide()
 		return maxLvl
 	end
-	
+
 	--/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffff00\124Hquest:5090:50\124h[A Call to Arms: The Plaguelands!]\124h\124r");
 	function AtlasLoot:GetQuestName(questID)
 		if not questID then return end
 		local questName
 		AtlasLootScanTooltip:SetOwner(UIParent, "ANCHOR_NONE")
 		AtlasLootScanTooltip:ClearLines();
-		AtlasLootScanTooltip:SetHyperlink("quest:"..questID);
+		AtlasLootScanTooltip:SetHyperlink("quest:" .. questID);
 		AtlasLootScanTooltip:Show()
-		
+
 		--local lastTime = GetTime()
 		--while not questName or questName == "" do
-			questName = _G["AtlasLootScanTooltipTextLeft1"]:GetText()
-			--if (GetTime() - lastTime) > 0.05 then
-				--break
-			--end
+		questName = _G["AtlasLootScanTooltipTextLeft1"]:GetText()
+		--if (GetTime() - lastTime) > 0.05 then
+		--break
 		--end
-		
+		--end
+
 		AtlasLootScanTooltip:Hide()
-		
+
 		return questName or "", questLink
 	end
 end
 
 function AtlasLoot:CheckHeroic(itemTable)
 	local checkName = {
-		"|cffFF0000"..AL["Heroic Mode"],
+		"|cffFF0000" .. AL["Heroic Mode"],
 		"=q6=#j3#",
 	}
-	
+
 	if itemTable then
-		for itemNum,item in ipairs(itemTable) do
-			for k,v in ipairs(checkName) do
+		for itemNum, item in ipairs(itemTable) do
+			for k, v in ipairs(checkName) do
 				if item[4] == v then
 					return itemNum
 				end
 			end
 		end
 	else
-		for itemNum,item in ipairs(AtlasLoot.ItemFrame.ItemButtons) do
-			for k,v in ipairs(checkName) do
+		for itemNum, item in ipairs(AtlasLoot.ItemFrame.ItemButtons) do
+			for k, v in ipairs(checkName) do
 				if item.Frame.Name:GetText() == v then
 					return itemNum
 				end
@@ -1418,12 +1432,3 @@ function AtlasLoot:CheckHeroic(itemTable)
 		end
 	end
 end
-
-
-
-
-
-
-
-
-
