@@ -1178,6 +1178,282 @@ AtlasLoot_LootTableRegister = {
 		},
 	},
 
+
+--------------------
+--- Mythic BC Instances ---
+--------------------
+
+	---- Dungeons
+
+	["MythicAuchAuchenaiCrypts"] = {
+		["Bosses"] = {
+			{ "MythicAuchCryptsShirrak", 3 },
+			{ "MythicAuchCryptsExarch", 4 },
+			{ "MythicAuchCryptsAvatar", 5 },
+		},
+		["Info"] = { BabbleZone["Auchenai Crypts"], "AtlasLootMythic" },
+	},
+
+	["MythicAuchManaTombs"] = {
+		["Bosses"] = {
+			{ "MythicAuchManaPandemonius", 4 },
+			{ "MythicAuchManaTavarok", 6 },
+			{ "MythicAuchManaNexusPrince", 7 },
+			{ "MythicAuchManaYor", 8 },
+		},
+		["Info"] = { BabbleZone["Mana-Tombs"], "AtlasLootMythic", mapname = "ManaTombs1" },
+	},
+
+	["MythicAuchSethekkHalls"] = {
+		["Bosses"] = {
+			{ "MythicAuchSethekkDarkweaver", 3 },
+			{ "MythicAuchSethekkRavenGod", 5 },
+			{ "MythicAuchSethekkTalonKing", 7 },
+		},
+		["Info"] = { BabbleZone["Sethekk Halls"], "AtlasLootMythic" },
+	},
+
+	["MythicAuchShadowLabyrinth"] = {
+		["Bosses"] = {
+			{ "MythicAuchShadowHellmaw", 3 },
+			{ "MythicAuchShadowBlackheart", 4 },
+			{ "MythicAuchShadowGrandmaster", 5 },
+			{ "MythicAuchShadowMurmur", 7 },
+		},
+		["Info"] = { BabbleZone["Shadow Labyrinth"], "AtlasLootMythic", mapname = "ShadowLabyrinth1" },
+	},
+
+	["MythicCoTOldHillsbrad"] = {
+		["Bosses"] = {
+			{ "MythicCoTHillsbradDrake", 10 },
+			{ "MythicCoTHillsbradSkarloc", 12 },
+			{ "MythicCoTHillsbradHunter", 15 },
+		},
+		["Info"] = { BabbleZone["Old Hillsbrad Foothills"], "AtlasLootMythic" },
+	},
+
+	["MythicCoTBlackMorass"] = {
+		["Bosses"] = {
+			{ "MythicCoTMorassDeja", 7 },
+			{ "MythicCoTMorassTemporus", 8 },
+			{ "MythicCoTMorassAeonus", 9 },
+		},
+		["Info"] = { BabbleZone["The Black Morass"], "AtlasLootMythic" },
+	},
+
+	["MythicCFRTheSlavePens"] = {
+		["Bosses"] = {
+			{ "MythicCFRSlaveMennu", 3 },
+			{ "MythicCFRSlaveRokmar", 4 },
+			{ "MythicCFRSlaveQuagmirran", 5 },
+		},
+		["Info"] = { BabbleZone["The Slave Pens"], "AtlasLootMythic" },
+	},
+
+	["MythicCFRTheSteamvault"] = {
+		["Bosses"] = {
+			{ "MythicCFRSteamThespia", 3 },
+			{ "MythicCFRSteamSteamrigger", 5 },
+			{ "MythicCFRSteamWarlord", 7 },
+		},
+		["Info"] = { BabbleZone["The Steamvault"], "AtlasLootMythic" },
+	},
+
+	["MythicCFRTheUnderbog"] = {
+		["Bosses"] = {
+			{ "MythicCFRUnderHungarfen", 3 },
+			{ "MythicCFRUnderGhazan", 5 },
+			{ "MythicCFRUnderSwamplord", 6 },
+			{ "MythicCFRUnderStalker", 8 },
+		},
+		["Info"] = { BabbleZone["The Underbog"], "AtlasLootMythic" },
+	},
+	
+	["MythicHellfireRamparts"] = {
+		["Bosses"] = {
+			{ "MythicRampWatchkeeper", 4 },
+			{ "MythicRampOmor", 5 },
+			{ "MythicRampVazruden", {6,8} },
+		},
+		["Info"] = { BabbleZone["Hellfire Ramparts"], "AtlasLootMythic" },
+	},
+
+	["MythicHCBloodFurnace"] = {
+		["Bosses"] = {
+			{ "MythicFurnaceMaker", 4 },
+			{ "MythicFurnaceBroggok", 5 },
+			{ "MythicFurnaceBreaker", 6 },
+		},
+		["Info"] = { BabbleZone["The Blood Furnace"], "AtlasLootMythic" },
+	},
+
+	["MythicTheShatteredHalls"] = {
+		["Bosses"] = {
+			{ "MythicHallsNethekurse", 4 },
+			{ "MythicHallsPorung", 5 },
+			{ "MythicHallsOmrogg", 6 },
+			{ "MythicHallsKargath", 7 },
+		},
+		["Info"] = { BabbleZone["The Shattered Halls"], "AtlasLootMythic" },
+	},
+
+	["MythicMagistersTerrace"] = {
+		["Bosses"] = {
+			{ "MythicSMTFireheart", 4 },
+			{ "MythicSMTVexallus", 6 },
+			{ "MythicSMTDelrissa", 7 },
+			{ "MythicSMTKaelthas", 18 },
+		},
+		["Info"] = { BabbleZone["Magisters' Terrace"], "AtlasLootMythic" },
+	},
+
+	["MythicTempestKeepArcatraz"] = {
+		["Bosses"] = {
+			{ "MythicTKArcUnbound", 3 },
+			{ "MythicTKArcDalliah", 4 },
+			{ "MythicTKArcScryer", 5 },
+			{ "MythicTKArcHarbinger", 6 },
+		},
+		["Info"] = { BabbleZone["The Arcatraz"], "AtlasLootMythic" },
+	},
+
+	["MythicTempestKeepBotanica"] = {
+		["Bosses"] = {
+			{ "MythicTKBotSarannis", 4 },
+			{ "MythicTKBotFreywinn", 5 },
+			{ "MythicTKBotThorngrin", 6 },
+			{ "MythicTKBotLaj", 7 },
+			{ "MythicTKBotSplinter", 8 },
+		},
+		["Info"] = { BabbleZone["The Botanica"], "AtlasLootMythic" },
+	},
+
+	["MythicTempestKeepMechanar"] = {
+		["Bosses"] = {
+			{ "MythicTKMechCapacitus", 6 },
+			{ "MythicTKMechSepethrea", 8 },
+			{ "MythicTKMechCalc", 9 },
+			{ "MythicTKMechCacheoftheLegion", 10 },
+		},
+		["Info"] = { BabbleZone["The Mechanar"], "AtlasLootMythic" },
+	},
+
+---- Raids
+
+	["MythicBlackTempleStart"] = "MythicBlackTemple",
+	["MythicBlackTempleBasement"] = "MythicBlackTemple",
+	["MythicBlackTempleTop"] = "MythicBlackTemple",
+	["MythicBlackTemple"] = {
+		["MythicBlackTempleStart"] = {
+			{ "MythicBTNajentus", 6 },
+			{ "MythicBTSupremus", 7 },
+			{ "MythicBTAkama", 8 },
+		},
+		["MythicBlackTempleBasement"] = {
+			{ "MythicBTBloodboil", 4 },
+			{ "MythicBTReliquaryofSouls", 5 },
+			{ "MythicBTGorefiend", 9 },
+		},
+		["MythicBlackTempleTop"] = {
+			{ "MythicBTShahraz", 4 },
+			{ "MythicBTCouncil", 5 },
+			{ "MythicBTIllidanStormrage", 10 },
+		},
+		["Info"] = { BabbleZone["Black Temple"], "AtlasLootMythic", sortOrder = { "MythicBlackTempleStart", "MythicBlackTempleBasement", "MythicBlackTempleTop" }, raid = true },
+	},
+
+	["MythicCoTHyjalEnt"] = "MythicCoTHyjalEaI",
+	["MythicCoTHyjal"] = "MythicCoTHyjalEaI",
+	["MythicCoTHyjalEaI"] = {
+		["CoTHyjalEnt"] = {
+			{ "ScaleSands", 2, hide = true },
+		},
+		["CoTHyjal"] = {
+			{ "MythicMountHyjalWinterchill", 9 },
+			{ "MythicMountHyjalAnetheron", 10 },
+			{ "MythicMountHyjalKazrogal", 11 },
+			{ "MythicMountHyjalAzgalor", 12 },
+			{ "MythicMountHyjalArchimonde", 13 },
+		},
+		["Info"] = { BabbleZone["Hyjal"], "AtlasLootMythic", sortOrder = { "MythicCoTHyjalEnt", "MythicCoTHyjal" }, raid = true },
+	},
+
+	["MythicCFRSerpentshrineCavern"] = {
+		["Bosses"] = {
+			{ "MythicCFRSerpentHydross", 3 },
+			{ "MythicCFRSerpentLurker", 4 },
+			{ "MythicCFRSerpentLeotheras", 5 },
+			{ "MythicCFRSerpentKarathress", 6 },
+			{ "MythicCFRSerpentMorogrim", 8 },
+			{ "MythicCFRSerpentVashj", 9 },
+		},
+		["Info"] = { BabbleZone["Serpentshrine Cavern"], "AtlasLootMythic", raid = true },
+	},
+
+	["MythicGruulsLair"] = {
+		["Bosses"] = {
+			{ "MythicGruulsLairHighKingMaulgar", 2 },
+			{ "MythicGruulGruul", 7 },
+		},
+		["Info"] = { BabbleZone["Gruul's Lair"], "AtlasLootMythic", raid = true },
+	},
+
+	["MythicMagtheridonsLair"] = {
+		["Bosses"] = {
+			{ "MythicMagtheridon", 2 },
+		},
+		["Info"] = { BabbleZone["Magtheridon's Lair"], "AtlasLootMythic", raid = true },
+	},
+
+	["MythicKarazhanEnt"] = "MythicKarazhanEaI",
+	["MythicKarazhanStart"] = "MythicKarazhanEaI",
+	["MythicKarazhanEnd"] = "MythicKarazhanEaI",
+	["MythicKarazhanEaI"] = {
+		["MythicKarazhanEnt"] = {
+			{ "KaraCharredBoneFragment", 8, hide = true },
+		},
+		["MythicKarazhanStart"] = {
+			{ "MythicKaraAttumen", 4 },
+			{ "MythicKaraMoroes", 6 },
+			{ "MythicKaraMaiden", 13 },
+			{ "MythicKaraOperaEvent", 14 },
+			{ "MythicKaraNightbane", 27 },
+			{ "MythicKaraNamed", {29,30,31,32} },
+		},
+		["MythicKarazhanEnd"] = {
+			{ "MythicKaraCurator", 10 },
+			{ "MythicKaraIllhoof", 11 },
+			{ "MythicKaraAran", 13 },
+			{ "MythicKaraNetherspite", 14 },
+			{ "MythicKaraChess", {15,16} },
+			{ "MythicKaraPrince", 17 },
+		},
+		["Info"] = { BabbleZone["Karazhan"], "AtlasLootMythic", sortOrder = { "MythicKarazhanEnt", "MythicKarazhanStart", "MythicKarazhanEnd" }, raid = true },
+	},
+
+	["MythicSunwellPlateau"] = {
+		["Bosses"] = {
+			{ "MythicSPKalecgos", 2 },
+			{ "MythicSPBrutallus", 4 },
+			{ "MythicSPFelmyst", 5 },
+			{ "MythicSPEredarTwins", 7 },
+			{ "MythicSPMuru", 10 },
+			{ "MythicSPKiljaeden", 12 },
+		},
+		["Info"] = { BabbleZone["Sunwell Plateau"], "AtlasLootMythic", raid = true },
+	},
+
+	["MythicTempestKeepTheEye"] = {
+		["Bosses"] = {
+			{ "MythicTKEyeAlar", 3 },
+			{ "MythicTKEyeVoidReaver", 4 },
+			{ "MythicTKEyeSolarian", 5 },
+			{ "MythicTKEyeKaelthas", 6 },
+			{ "MythicTKEyeTrash", 12 },
+		},
+		["Info"] = { BabbleZone["The Eye"], "AtlasLootMythic", raid = true },
+	},
+
 ---------------------
 --- Battlegrounds ---
 ---------------------
