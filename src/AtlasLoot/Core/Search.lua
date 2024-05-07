@@ -19,6 +19,7 @@ AtlasLoot.Modules = {
 	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
 	{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
 	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
+	{"AtlasLootMythic", "AtlasLoot_Mythic", false, "", "TBC Mythics"},
 }
 
 -- Shows the DropDown
