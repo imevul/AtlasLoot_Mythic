@@ -24,6 +24,4 @@ AtlasLootClassPriority = {
     Item16863 = "";
     --Lawbringer Boots
     Item16859 = "";
-};
-    
-    
+}
