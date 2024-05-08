@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="Classes\ItemCache.lua"/>
+	<Script file="Classes\HashQueue.lua"/>
+	<Script file="SynastriaCoreLib-1.0.lua"/>
+	<Script file="Attunement.lua"/>
+	<Script file="CheckAttune.lua"/>
+	<Script file="Perks.lua"/>
+	<Script file="ResourceBank.lua"/>
+	<Script file="LDB.lua"/>
+</Ui>

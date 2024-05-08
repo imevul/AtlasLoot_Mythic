@@ -1128,7 +1128,7 @@ AtlasLoot_Data["MythicSMTDelrissa"] = {
 	},
 };
 
-AtlasLoot_Data["MythicSMTsKaelthas"] = {
+AtlasLoot_Data["MythicSMTKaelthas"] = {
 	["Normal"] = { {
 		{ 1,  61480, "", "=q4=Cloak of Blade Turning",                  "=ds=#s4#",        "", "5%" },
 		{ 2,  61481, "", "=q4=Gloves of Arcane Acuity",                 "=ds=#s9#, #a1#",  "", "5%" },
