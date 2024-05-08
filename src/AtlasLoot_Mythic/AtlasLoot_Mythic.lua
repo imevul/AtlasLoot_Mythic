@@ -257,7 +257,7 @@ AtlasLoot_Data["MythicAuchManaYor"] = {
 --- Hellfire Citadel: Hellfire Ramparts ---
 -------------------------------------------
 
-AtlasLoot_Data["MythicRampWatchkeeper"] = {
+AtlasLoot_Data["MythicHCRampWatchkeeper"] = {
 	["Normal"] = { {
 		{ 1, 29434, "", "=q4=Badge of Justice",        "=ds=#e15#",       "", "100%" },
 		{ 2, 60277, "", "=q3=Cloak of the Everliving", "=ds=#s4#",        "", "28.37%" },
@@ -273,7 +273,7 @@ AtlasLoot_Data["MythicRampWatchkeeper"] = {
 	},
 };
 
-AtlasLoot_Data["MythicRampOmor"] = {
+AtlasLoot_Data["MythicHCRampOmor"] = {
 	["Normal"] = { {
 		{ 1,  29434, "", "=q4=Badge of Justice",              "=ds=#e15#",       "", "100%" },
 		{ 2,  60287, "", "=q3=Mana-Etched Gloves",            "=ds=#s9#, #a1#",  "", "11.74%" },
@@ -297,7 +297,7 @@ AtlasLoot_Data["MythicRampOmor"] = {
 };
 
 
-AtlasLoot_Data["MythicRampVazruden"] = {
+AtlasLoot_Data["MythicHCRampVazruden"] = {
 	["Normal"] = { {
 		{ 1,  60304, "", "=q4=Tree-Mender's Belt",          "=ds=#s10#, #a2#", "", "16.05%" },
 		{ 2,  60305, "", "=q4=Wrath Infused Gauntlets",     "=ds=#s9#, #a3#" },
