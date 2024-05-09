@@ -3,6 +3,7 @@ local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 -- Player faction
 local englishFaction = UnitFactionGroup("player")
+local SynastriaCoreLib = LibStub('SynastriaCoreLib-1.0')
 
 --- Clears the itemtable
 -- @usage AtlasLoot:ClearLootPage()
@@ -74,16 +75,18 @@ function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, direction)
 		return
 	end
 
-	for k1, v1 in ipairs(AtlasLoot_Data[dataIDNew][lootTableType]) do
-		for k2, v2 in ipairs(v1) do
-			if v2[2] then
-				local itemId = v2[2]
-				AtlasLoot:AddItemToCache(itemId)
-				if itemId ~= nil and itemId ~= 0 then
-					if SynastriaCoreLib.IsItemValid(itemId) then
-						attunable = attunable + 1
-						if SynastriaCoreLib.GetAttuneProgress(itemId) >= 100 then
-							attuned = attuned + 1
+	if instancePage == 1 then
+		for k1, v1 in ipairs(AtlasLoot_Data[dataIDNew][lootTableType]) do
+			for k2, v2 in ipairs(v1) do
+				if v2[2] then
+					local itemId = v2[2]
+					AtlasLoot:AddItemToCache(itemId)
+					if itemId ~= nil and itemId ~= 0 then
+						if SynastriaCoreLib.IsItemValid(itemId) then
+							attunable = attunable + 1
+							if SynastriaCoreLib.IsAttuned(itemId) then
+								attuned = attuned + 1
+							end
 						end
 					end
 				end
