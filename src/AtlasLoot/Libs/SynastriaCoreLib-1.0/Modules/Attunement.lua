@@ -1,11 +1,12 @@
-local MODULE_NAME, MODULE_VERSION = 'Attunement', 1
+local MODULE_NAME, MODULE_VERSION = 'Attunement', 2
 local SynastriaCoreLib = LibStub and LibStub('SynastriaCoreLib-1.0', true)
-if not SynastriaCoreLib or SynastriaCoreLib:GetModuleVersion(MODULE_NAME) >= MODULE_VERSION then return end
+if not SynastriaCoreLib or SynastriaCoreLib:_GetModuleVersion(MODULE_NAME) >= MODULE_VERSION then return end
 
 SynastriaCoreLib.Attunement = SynastriaCoreLib.Attunement or {}
 if not SynastriaCoreLib._RegisterModule(MODULE_NAME, SynastriaCoreLib.Attunement, MODULE_VERSION) then return end
 
 
+-- @deprecated
 function SynastriaCoreLib.getItemStatus(itemLink)
     assert(type(itemLink) == 'string', 'itemLink must be item link string')
     local itemId = SynastriaCoreLib.parseItemId(itemLink)
@@ -20,52 +21,69 @@ function SynastriaCoreLib.getItemStatus(itemLink)
         return SynastriaCoreLib.Status.ATTUNED
     end
 
-    if not SynastriaCoreLib.IsAttunable(itemId) then return SynastriaCoreLib.Status.UNATTUNABLE end
+    if not SynastriaCoreLib.IsAttunable(itemLink) then return SynastriaCoreLib.Status.UNATTUNABLE end
     return SynastriaCoreLib.Status.ATTUNABLE
 end
 
-function SynastriaCoreLib.CheckItemValid(itemId)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return 0 end
-    SynastriaCoreLib.LoadItem(itemId)
+function SynastriaCoreLib.CheckItemValid(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return 0 end
+    local itemId, _ = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
+    SynastriaCoreLib.LoadItem(itemIdOrLink)
 
     return CanAttuneItemHelper(itemId)
 end
 
-function SynastriaCoreLib.IsItemValid(itemId)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return false end
+function SynastriaCoreLib.IsItemValid(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return false end
+    local itemId, _ = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
 	return SynastriaCoreLib.CheckItemValid(itemId) > 0
 end
 
-function SynastriaCoreLib.GetAttuneProgress(itemId)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return 0 end
-	return GetItemAttuneProgress(itemId) or 0
-end
+function SynastriaCoreLib.GetAttuneProgress(itemIdOrLink, suffixId)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return 0 end
+    local itemId, itemLink = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
 
-function SynastriaCoreLib.IsAttuned(itemId, checkAttune)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return false end
-	local ret = SynastriaCoreLib.GetAttuneProgress(itemId) >= 100
-
-    if checkAttune and SynastriaCoreLib.CheckAttune and not ret then
-        local tmpInfo = SynastriaCoreLib._cache:get(itemId, SynastriaCoreLib.CheckAttune)
-        return tmpInfo and tmpInfo.attuned
+    if itemLink then
+        return GetItemLinkAttuneProgress(itemLink) or 0
     end
 
-    return ret
+    return GetItemAttuneProgress(itemId, suffixId) or 0
 end
 
-function SynastriaCoreLib.IsAttunable(itemId)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return false end
-	return SynastriaCoreLib.IsItemValid(itemId) and not SynastriaCoreLib.IsAttuned(itemId)
+function SynastriaCoreLib.IsAttuned(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return false end
+
+    local ret = SynastriaCoreLib.GetAttuneProgress(itemIdOrLink)
+
+    -- Can't risk using cache, since it doesn't care about suffixId
+--[[     if not ret then
+        local tmpInfo = SynastriaCoreLib._cache:get(itemId)
+        return tmpInfo and tmpInfo.attuned
+    end ]]
+
+    return ret >= 100
 end
 
-function SynastriaCoreLib.IsAttunableBySomeone(itemId)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return false end
+function SynastriaCoreLib.IsAttunable(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return false end
+    local itemId, _ = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
+
+    return SynastriaCoreLib.IsItemValid(itemId) and not SynastriaCoreLib.IsAttuned(itemIdOrLink)
+end
+
+function SynastriaCoreLib.IsAttunableBySomeone(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return false end
+    local itemId, _ = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
+
 	return IsAttunableBySomeone(itemId) or false
 end
 
-function SynastriaCoreLib.HasAttuneProgress(itemId)
-    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return false end
-	return SynastriaCoreLib.GetAttuneProgress(itemId) > 0 and not SynastriaCoreLib.IsAttuned(itemId)
+function SynastriaCoreLib.HasAttuneProgress(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return false end
+
+    local ret = SynastriaCoreLib.GetAttuneProgress(itemIdOrLink)
+
+	return ret > 0 and ret < 100
 end
 
 function SynastriaCoreLib.InProgressItems()
@@ -73,17 +91,29 @@ function SynastriaCoreLib.InProgressItems()
 
     local nxt, t, r = SynastriaCoreLib.AllCustomGameData(
         SynastriaCoreLib.CustomDataTypes.ATTUNE_HAS,
-        function(_, progress) return progress > 0 and progress < 100 end
+        function(itemId, progress) return itemId > 0 and itemId < (SynastriaCoreLib.MAX_ITEMID or 80000) and progress > 0 and progress < 100 end
     )
     return nxt, t, r
 end
 
+-- Broken since client patch 16
+-- @deprecated
 function SynastriaCoreLib.GetAttunedSuffix(itemId)
     if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return nil end
-    local suffixId = GetCustomGameData(SynastriaCoreLib.CustomDataTypes.ATTUNE_RANDOMPROP, itemId) or 0
-    if suffixId > 0 then suffixId = suffixId - 100 end
+    --local suffixId = GetCustomGameData(SynastriaCoreLib.CustomDataTypes.ATTUNE_RANDOMPROP, itemId) or 0
+    --if suffixId > 0 then suffixId = suffixId - 100 end
 
-    return suffixId, SynastriaCoreLib.GetSuffixName(suffixId)
+    local suffixId, suffixName = 0, ''
+    local _, _, _, _, index = SynastriaCoreLib.GetItemAffixMask(itemId)
+    if index > 0 then
+        local affix = ItemAttuneAffix[index] or nil
+        if affix then
+            suffixId = affix.ex
+            suffixName = affix.name
+        end
+    end
+
+    return suffixId, suffixName
 end
 
 function SynastriaCoreLib.GetSuffixName(itemId, suffixId)
@@ -96,6 +126,13 @@ function SynastriaCoreLib.GetSuffixName(itemId, suffixId)
     return nil
 end
 
+function SynastriaCoreLib.GetItemAffixMask(itemId) -- -> possibleMask1, possibleMask2, attunedMask1, attunedMask2, activeIndex
+    if type(itemId) ~= 'number' or not SynastriaCoreLib.isLoaded() then return nil end
+    return GetItemAffixMask(itemId)
+end
+
+-- Broken since client patch 16
+-- @deprecated
 function SynastriaCoreLib.GetItemStats(itemLink, suffixId)
 	local itemId = tonumber(itemLink:match('item:(%d+)'))
 	if type(itemId) ~= 'number' or itemId <= 0 or not SynastriaCoreLib.isLoaded() then return {} end
@@ -145,37 +182,33 @@ function SynastriaCoreLib.GetAttuneStatName(statId)
     return GetAttuneStatName(statId) or nil
 end
 
-function SynastriaCoreLib.GetItemInfo(itemLink, checkAttune)
-	local itemId = tonumber(itemLink:match('item:(%d+)'))
+function SynastriaCoreLib.GetItemInfo(itemLink)
+    local itemId = SynastriaCoreLib.parseItemId(itemLink)
 	if type(itemId) ~= 'number' or itemId <= 0 or not SynastriaCoreLib.isLoaded() then return nil end
 
-    local progress = SynastriaCoreLib.GetAttuneProgress(itemId)
-    local suffixId = SynastriaCoreLib.GetAttunedSuffix(itemId)
+    local progress
+    if SynastriaCoreLib.IsAttunableBySomeone(itemLink) then
+        progress = SynastriaCoreLib.GetAttuneProgress(itemLink)
+    else
+        progress = 0
+    end
+
+    local suffixMask = { SynastriaCoreLib.GetItemAffixMask(itemId) }
 
     local ret = {
         itemId = itemId,
         attuned = progress >= 100,
         progress = progress,
-        suffixId = suffixId,
-        suffixName = SynastriaCoreLib.GetSuffixName(itemId, suffixId)
+        suffixMask = suffixMask
     }
 
     if not ret.attuned and ret.progress == 0 then
-        local fnc
-        if checkAttune and SynastriaCoreLib.CheckAttune then fnc = SynastriaCoreLib.CheckAttune end
-
-        local tmpInfo = SynastriaCoreLib._cache:get(itemId, fnc)
+        local tmpInfo = SynastriaCoreLib._cache:get(itemId)
         if tmpInfo then
             if ret.attuned == false then ret.attuned = tmpInfo.attuned end
-            if ret.suffixId == nil then ret.suffixId = tmpInfo.suffixId end
-            if ret.suffixName == nil then ret.suffixName = tmpInfo.suffixName end
-
             if ret.attuned then ret.progress = 100 end
         end
     end
-
-    ret.stats = SynastriaCoreLib.GetItemStats(itemLink, suffixId)
-    ret.overwrite = SynastriaCoreLib.GetItemAttuneOverwrite(itemId)
 
     return ret
 end

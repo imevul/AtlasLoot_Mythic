@@ -22,11 +22,8 @@ function ItemCache:init(itemId)
             itemLink = nil,
             attuned = nil,
             progress = nil,
-            suffixId = nil,
-            suffixName = nil,
-            timestamp = nil,
-            stats = {},
-            overwrite = nil,
+            suffixMask = nil,
+            timestamp = nil
         }
     end
 end

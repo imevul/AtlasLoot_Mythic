@@ -11,7 +11,7 @@
 	<Script file="Panel.lua"/>
 	<Script file="QuickLooks.lua"/>
 	<Script file="EJIntegration.lua"/>
-	
+
     <Script file="Search.lua"/>
 	
 	<!--@debug@ <Script file="DEVTOOLS.lua"/> @end-debug@-->

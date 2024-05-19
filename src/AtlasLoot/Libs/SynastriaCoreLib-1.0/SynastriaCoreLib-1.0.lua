@@ -1,4 +1,4 @@
-﻿local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 7
+﻿local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 10
 local SynastriaCoreLib, oldminor = LibStub:NewLibrary(SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR)
 
 if not SynastriaCoreLib then return end -- No upgrade needed
@@ -76,11 +76,11 @@ function SynastriaCoreLib._OnCustomGameDataFinish(...)
                 elseif change.cur > change.prev then
                     SynastriaCoreLib._OnAttuneProgress(change.id, change.cur)
                 end
-            elseif change.typeId == 15 then
+--[[             elseif change.typeId == 15 then
                 SynastriaCoreLib._cache:put(change.id, {
                     itemId = change.id,
                     suffixId = change.cur,
-                })
+                }) ]]
             end
         end
     end
@@ -93,6 +93,10 @@ function SynastriaCoreLib._OnCustomGameInit(...)
     SynastriaCoreLib.callbacks:Fire(SynastriaCoreLib.Events.CustomGameInit, ...)
 
     if SynastriaCoreLib.MAX_ITEMID == nil then SynastriaCoreLib.MAX_ITEMID = MAX_ITEMID end
+end
+
+function SynastriaCoreLib.testFire()
+    SynastriaCoreLib._OnAttuneItem(1)
 end
 
 SynastriaCoreLib.MAX_ITEMID = MAX_ITEMID
@@ -210,8 +214,27 @@ function SynastriaCoreLib._RegisterModule(name, module, version)
     return true
 end
 
-function SynastriaCoreLib.GetModuleVersion(name)
+function SynastriaCoreLib._GetModuleVersion(name)
     return moduleVersions[name] or 0
+end
+
+function SynastriaCoreLib.generateItemLink(itemId, suffixId, name, color)
+    color = color or 'ffffff'
+    name = name or ''
+    suffixId = suffixId or 0
+
+    return ('|cff%s|Hitem:%d:0:0:0:0:0:%d:%d:%d|h[%s]|h|r'):format(color, itemId, 0, suffixId, 0, name)
+end
+
+function SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink, suffixId)
+    if type(itemIdOrLink) == 'number' then
+        return itemIdOrLink, SynastriaCoreLib.generateItemLink(itemIdOrLink, suffixId)
+    elseif type(itemIdOrLink) == 'string' then
+        if itemIdOrLink:find('item:') == 1 then itemIdOrLink = '|H' .. itemIdOrLink end
+        return SynastriaCoreLib.parseItemId(itemIdOrLink, 0), itemIdOrLink
+    end
+
+    return nil, nil
 end
 
 function SynastriaCoreLib.parseItemId(itemLink, default)
@@ -220,8 +243,7 @@ function SynastriaCoreLib.parseItemId(itemLink, default)
 end
 
 function SynastriaCoreLib.parseSuffixId(itemLink, default)
-    local suffixId = tonumber(itemLink:match('item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:([^:]*):')) or default or nil
-    return suffixId
+    return tonumber(itemLink:match('item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:([^:]*):')) or default or nil
 end
 
 function SynastriaCoreLib.isValidItemId(itemId)
@@ -278,14 +300,17 @@ function SynastriaCoreLib.AllCustomGameData(typeId, filterFnc)
     end, typeId, nil
 end
 
-function SynastriaCoreLib.LoadItem(itemId, fnc)
+function SynastriaCoreLib.LoadItem(itemIdOrLink, fnc)
+    if type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string' then return false end
     if not SynastriaCoreLib._doServerCheck then return false end
     if SynastriaCoreLib._lastServerCheck and SynastriaCoreLib._lastServerCheck >= time() - 1 then return false end
-    if GetItemInfo(itemId) ~= nil then return false end
+    if GetItemInfo(itemIdOrLink) ~= nil then return false end
+
+    local _, itemLink = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
 
     SynastriaCoreLib._lastServerCheck = time()
     if not SynastriaCoreLib.scantip then SynastriaCoreLib.scantip = CreateFrame('GameTooltip') end
-    SynastriaCoreLib.scantip:SetHyperlink('item:' .. itemId .. ':0:0:0');
+    SynastriaCoreLib.scantip:SetHyperlink(itemLink);
 
     if fnc then
         local name, link = SynastriaCoreLib.scantip:GetItem()
