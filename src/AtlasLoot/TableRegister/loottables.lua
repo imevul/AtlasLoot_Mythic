@@ -1176,6 +1176,25 @@ AtlasLoot_LootTableRegister = {
 			},
 			["Info"] = { BabbleZone["Zul'Farrak"], "AtlasLootClassicWoW", mapname = "ZulFarrak" },
 		},
+		
+		["ZulGurub"] = {
+			["Bosses"] = {
+				{ "ZGJeklik", 				1 },
+				{ "ZGVenoxis", 				2 },
+				{ "ZGMarli",				3 },
+				{ "ZGMandokir",				4 },
+				{ "ZGEdgeofMadness",		5 },
+				{ "ZGGahzranka",			6 },
+				{ "ZGThekal",				7 },
+				{ "ZGArlokk",				8 },
+				{ "ZGJindo",				9 },
+				{ "ZGHakkar",				10 },
+				{ "ZGShared",				11 },
+				{ "ZGTrash",				12 },
+				{ "ZGEnchants",				13 },
+			},
+			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootClassicWoW", mapname = "ZulGurub", raid = true },
+		},
 
 		--------------------
 		--- Mythic BC Instances ---

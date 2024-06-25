@@ -180,6 +180,17 @@ AtlasLoot_TextParsing = {
 	-- Upper Deck Card Game
 	{ "#ud1#", AL["Loot Card Items"] },
 
+	-- ZG Tokens
+    { "#zgt1#", AL["Primal Hakkari Kossack"] },
+    { "#zgt2#", AL["Primal Hakkari Shawl"] },
+    { "#zgt3#", AL["Primal Hakkari Bindings"] },
+    { "#zgt4#", AL["Primal Hakkari Sash"] },
+    { "#zgt5#", AL["Primal Hakkari Stanchion"] },
+    { "#zgt6#", AL["Primal Hakkari Aegis"] },
+    { "#zgt7#", AL["Primal Hakkari Girdle"] },
+    { "#zgt8#", AL["Primal Hakkari Armsplint"] },
+    { "#zgt9#", AL["Primal Hakkari Tabard"] },
+
 	-- AQ20 Tokens
 	{ "#aq20t1#", AL["Qiraji Ornate Hilt"] },
 	{ "#aq20t2#", AL["Qiraji Martial Drape"] },
@@ -301,6 +312,17 @@ AtlasLoot_TextParsing = {
 	{ "#pre60s22#", BabbleItemSet["Primal Blessing"] },
 	{ "#pre60s23#", BabbleItemSet["Dal'Rend's Arms"] },
 	{ "#pre60s24#", BabbleItemSet["Spider's Kiss"] },
+
+	-- ZG Sets
+    { "#zgs1#", BabbleItemSet["Haruspex's Garb"] },
+    { "#zgs2#", BabbleItemSet["Predator's Armor"] },
+    { "#zgs3#", BabbleItemSet["Illusionist's Attire"] },
+    { "#zgs4#", BabbleItemSet["Freethinker's Armor"] },
+    { "#zgs5#", BabbleItemSet["Confessor's Raiment"] },
+    { "#zgs6#", BabbleItemSet["Madcap's Outfit"] },
+    { "#zgs7#", BabbleItemSet["Augur's Regalia"] },
+    { "#zgs8#", BabbleItemSet["Demoniac's Threads"] },
+    { "#zgs9#", BabbleItemSet["Vindicator's Battlegear"] },
 
 	-- AQ20 Sets
 	{ "#aq20s1#", BabbleItemSet["Symbols of Unending Life"] },
