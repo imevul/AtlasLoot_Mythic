@@ -4279,17 +4279,12 @@ AtlasLoot_Data["DeadminesCookie"] = {
 AtlasLoot_Data["DeadminesVanCleef"] = {
 	["Normal"] = {
 		{
-			{ 1,  63484, "", "=q3=Armbands of Exiled Architects",   "=ds=#s8#, #a1#",  "" },
-			{ 2,  63482, "", "=q3=Daughter's Hands",                "=ds=#s9#, #a1#",  "" },
-			{ 3,  63485, "", "=q3=Cowl of Rebellion",               "=ds=#s1#, #a2#",  "" },
-			{ 4,  65178, "", "=q3=VanCleef's Boots",                "=ds=#s12#, #a2#", "" },
-			{ 5,  63479, "", "=q3=Bracers of Some Consequence",     "=ds=#s8#, #a3#",  "" },
-			{ 6,  63486, "", "=q3=Shackles of the Betrayed",        "=ds=#s8#, #a3#",  "" },
-			{ 7,  63478, "", "=q3=Stonemason's Helm",               "=ds=#s1#, #a4#",  "" },
-			{ 8,  63483, "", "=q3=Guildmaster's Greaves",           "=ds=#s12#, #a4#", "" },
-			{ 16, 63487, "", "=q3=Book of the Well Sung Song",      "=ds=#s16#",       "" },
-			{ 17, 63480, "", "=q3=Record of the Brotherhood's End", "=ds=#s16#",       "" },
-			{ 19, 63477, "", "=q3=Wicked Dagger",                   "=ds=#h1#, #w4#",  "" },
+			{ 1, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "", "21.25%"};
+			{ 2, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "", "22.86%"};
+			{ 3, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "14.77%"};
+			{ 4, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "14.17%"};
+			{ 5, 2874, "", "=q1=An Unsent Letter", "=ds=#m2#"};
+			{ 6, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#"};
 		},
 	},
 	info = {
@@ -4328,19 +4323,21 @@ AtlasLoot_Data["DeadminesTrash"] = {
 AtlasLoot_Data["Stockade"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=Randolph Moloch",               "" },
-			{ 2,  63345, "",           "=q3=Noble's Robe",                  "=ds=#s5#, #a1#",  "" },
-			{ 3,  63344, "",           "=q3=Standard Issue Prisoner Shoes", "=ds=#s12#, #a2#", "" },
-			{ 4,  63346, "",           "=q3=Wicked Dagger",                 "=ds=#h1#, #w4#",  "" },
-			{ 6,  0,     "INV_Box_01", "=q6=Hogger",                        "" },
-			{ 7,  2168,  "",           "=q3=Corpse Rompers",                "=ds=#s12#, #a1#", "" },
-			{ 8,  1934,  "",           "=q3=Hogger's Trousers",             "=ds=#s11#, #a2#", "" },
-			{ 9,  1959,  "",           "=q3=Cold Iron Pick",                "=ds=#h2#, #w1#",  "" },
-			{ 16, 0,     "INV_Box_01", "=q6=Lord Overheat",                 "" },
-			{ 17, 1929,  "",           "=q3=Silk-Threaded Trousers",        "=ds=#s11#, #a1#", "" },
-			{ 18, 5967,  "",           "=q3=Girdle of Nobility",            "=ds=#s10#, #a1#", "" },
-			{ 19, 4676,  "",           "=q3=Skeletal Gauntlets",            "=ds=#s9#, #a3#",  "" },
-			{ 20, 62305, "",           "=q1=Lord Overheat's Fiery Core",    "=ds=#m3#",        "", "100%" },
+			{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Targorr the Dread"], ""};
+			{ 2, 3630, "", "=q1=Head of Targorr", "=ds=#m3#", "", "100%"};
+			{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Kam Deepfury"], ""};
+			{ 5, 2280, "", "=q3=Kam's Walking Stick", "=ds=#w9#", "", "0.62%"};
+			{ 6, 3640, "", "=q1=Head of Deepfury", "=ds=#m3#", "", "100%"};
+			{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
+			{ 9, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
+			{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Dextren Ward"], ""};
+			{ 12, 3628, "", "=q1=Hand of Dextren Ward", "=ds=#m3#", "", "100%"};
+			{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Bruegal Ironknuckle"], ""};
+			{ 17, 3228, "", "=q3=Jimmied Handcuffs", "=ds=#s8#, #a3#", "", "54.73%"};
+			{ 18, 2942, "", "=q3=Iron Knuckles", "=ds=#h1#, #w13#", "", "18.18%"};
+			{ 19, 2941, "", "=q3=Prison Shank", "=ds=#h1#, #w4#", "", "16.05%"};
+			{ 21, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+			{ 22, 2909, "", "=q1=Red Wool Bandana", "=ds=#m3#"};
 		},
 	},
 	info = {
@@ -4847,6 +4844,407 @@ AtlasLoot_Data["ZFTrash"] = {
 		instance = "ZulFarrak",
 	},
 };
+
+------------------
+--- Zul'Gurub ---
+------------------
+AtlasLoot_Data["ZGJeklik"] = {
+	["Normal"] = {
+		{
+			{ 1, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "11.41%"};
+			{ 2, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "11.02%"};
+			{ 3, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "10.84%"};
+			{ 4, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "5.89%"};
+			{ 5, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "5.80%"};
+			{ 6, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "5.56%"};
+			{ 7, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.33%"};
+			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.32%"};
+			{ 9, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.17%"};
+			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "8.8%"};
+			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
+			{ 16, 19918, "", "=q4=Jeklik's Crusher", "=ds=#h2#, #w6#", "", "3.96%"};
+			{ 18, 19928, "", "=q3=Animist's Spaulders", "=ds=#s3#, #a2#", "", "3.39%"};
+			{ 19, 20262, "", "=q3=Seafury Boots", "=ds=#s12#, #a3#", "", "4.31%"};
+			{ 20, 20265, "", "=q3=Peacekeeper Boots", "=ds=#s12#, #a4#", "", "6.99%"};
+			{ 21, 19923, "", "=q3=Jeklik's Opaline Talisman", "=ds=#s2#", "", "12.22%"};
+			{ 22, 19920, "", "=q3=Primalist's Band", "=ds=#s13#", "", "11.89%"};
+			{ 23, 19915, "", "=q3=Zulian Defender", "=ds=#w8#", "", " 11.36%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["High Priestess Jeklik"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGVenoxis"] = {
+	["Normal"] = {
+		{
+			{ 1, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "11.01%"};
+			{ 2, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "10.55%"};
+			{ 3, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "10.18%"};
+			{ 4, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "5.93%"};
+			{ 5, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "5.67%"};
+			{ 6, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "5.52%"};
+			{ 7, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.18%"};
+			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.02%"};
+			{ 9, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.00%"};
+			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "6.0%"};
+			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
+			{ 13, 22216, "", "=q1=Venoxis's Venom Sac", "=ds=#m3#", "", "100%"};
+			{ 16, 19904, "", "=q4=Runed Bloodstained Hauberk", "=ds=#s5#, #a3#", "", "3.70%"};
+			{ 17, 19903, "", "=q4=Fang of Venoxis", "=ds=#h3#, #w4#", "", "3.68%"};
+			{ 19, 19907, "", "=q3=Zulian Tigerhide Cloak", "=ds=#s4#", "", "12.09%"};
+			{ 20, 19906, "", "=q3=Blooddrenched Footpads", "=ds=#s12#, #a2#", "", "11.36%"};
+			{ 21, 19905, "", "=q3=Zanzil's Band", "=ds=#s13#", "", "6.99%"};
+			{ 22, 19900, "", "=q3=Zulian Stone Axe", "=ds=#h2#, #w1#", "", "11.89%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["High Priest Venoxis"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+
+AtlasLoot_Data["ZGMarli"] = {
+	["Normal"] = {
+		{
+			{ 1, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "13.69%"};
+			{ 2, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "13.69%"};
+			{ 3, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "13.64%"};
+			{ 4, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "6.55%"};
+			{ 5, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "6.49%"};
+			{ 6, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "6.31%"};
+			{ 7, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.56%"};
+			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.55%"};
+			{ 9, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.30%"};
+			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "7.4%"};
+			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
+			{ 16, 20032, "", "=q4=Flowing Ritual Robes", "=ds=#s5#, #a1#", "", "4.46%"};
+			{ 17, 19927, "", "=q4=Mar'li's Touch", "=ds=#w12#", "", "4.35%"};
+			{ 19, 19919, "", "=q3=Bloodstained Greaves", "=ds=#s12#, #a3#", "", "11.89%"};
+			{ 20, 19871, "", "=q3=Talisman of Protection", "=ds=#s2#", "", "11.36%"};
+			{ 21, 19925, "", "=q3=Band of Jin", "=ds=#s13#", "", " 6.99%"};
+			{ 22, 19930, "", "=q3=Mar'li's Eye", "=ds=#s14#", "", "12.09%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["High Priestess Mar'li"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGMandokir"] = {
+	["Normal"] = {
+		{
+			{ 1, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "12.94%"};
+			{ 2, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "12.07%"};
+			{ 3, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "11.56%"};
+			{ 4, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "6.65%"};
+			{ 5, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "6.55%"};
+			{ 6, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "6.52%"};
+			{ 7, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "2.98%"};
+			{ 8, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "2.65%"};
+			{ 9, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "2.48%"};
+			{ 11, 22637, "", "=q3=Primal Hakkari Idol", "=ds=#m3#"};
+			{ 12, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "9.4%"};
+			{ 16, 19867, "", "=q4=Bloodlord's Defender", "=ds=#h1#, #w10#", "", "5.83%"};
+			{ 17, 19866, "", "=q4=Warblade of the Hakkari", "=ds=#h4#, #w10#", "", "3.96%"};
+			{ 18, 19874, "", "=q4=Halberd of Smiting", "=ds=#w7#", "", "6.35%"};
+			{ 19, 20038, "", "=q4=Mandokir's Sting", "=ds=#w2#", "", "5.96%"};
+			{ 20, 19872, "", "=q4=Swift Razzashi Raptor", "=ds=#e12#", "", "0.43%"};
+			{ 22, 19870, "", "=q3=Hakkari Loa Cloak", "=ds=#s4#", "", "12.54%"};
+			{ 23, 19895, "", "=q3=Bloodtinged Kilt", "=ds=#s11#, #a1#", "", "13.50%"};
+			{ 24, 19869, "", "=q3=Blooddrenched Grips", "=ds=#s9#, #a2#", "", "12.87%"};
+			{ 25, 19877, "", "=q3=Animist's Leggings", "=ds=#s11#, #a2#", "", "12.14%"};
+			{ 26, 19878, "", "=q3=Bloodsoaked Pauldrons", "=ds=#s9#, #a4#", "", "12.31%"};
+			{ 27, 19873, "", "=q3=Overlord's Crimson Band", "=ds=#s13#", "", "12.28%"};
+			{ 28, 19893, "", "=q3=Zanzil's Seal", "=ds=#s13#", "", "13.11%"};
+			{ 29, 19863, "", "=q3=Primalist's Seal", "=ds=#s13#", "", "12.32%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["Bloodlord Mandokir"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGEdgeofMadness"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
+			{ 2, 19961, "", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "", "43.90%"};
+			{ 3, 19962, "", "=q3=Gri'lek's Carver", "=ds=#h2#, #w1#", "", "41.99%"};
+			{ 4, 19939, "", "=q2=Gri'lek's Blood", "=ds=#m3#", "", "100%"};
+			{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
+			{ 7, 19968, "", "=q3=Fiery Retributer", "=ds=#h1#, #w10#", "", "38.37%"};
+			{ 8, 19967, "", "=q3=Thoughtblighter", "=ds=#w12#", "", "45.49%"};
+			{ 9, 19942, "", "=q2=Hazza'rah's Dream Thread", "=ds=#m3#", "", "100%"};
+			{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
+			{ 17, 19964, "", "=q3=Renataki's Soul Conduit", "=ds=#h3#, #w10#", "", "40.06%"};
+			{ 18, 19963, "", "=q3=Pitchfork of Madness", "=ds=#w7#", "", "45.51%"};
+			{ 19, 19940, "", "=q2=Renataki's Tooth", "=ds=#m3#", "", "100%"};
+			{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+			{ 22, 19965, "", "=q3=Wushoolay's Poker", "=ds=#h3#, #w4#", "", "45.21%"};
+			{ 23, 19993, "", "=q3=Hoodoo Hunting Bow", "=ds=#w2#", "", "40.96%"};
+			{ 24, 19941, "", "=q2=Wushoolay's Mane", "=ds=#m3#", "", "100%"};
+		}
+	},
+	info = {
+		name =  "Edge of Madness",
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGGahzranka"] = {
+	["Normal"] = {
+		{
+			{ 1, 19945, "", "=q4=Foror's Eyepatch", "=ds=#s1#, #a2#", "", "8,82%"};
+			{ 2, 19944, "", "=q4=Nat Pagle's Fish Terminator", "=ds=#w9#", "", "2.39%"};
+			{ 4, 19947, "", "=q3=Nat Pagle's Broken Reel", "=ds=#s14#", "", "28.20%"};
+			{ 5, 19946, "", "=q3=Tigule's Harpoon", "=ds=#w7#", "", "29.22%"};
+			{ 7, 22739, "", "=q3=Tome of Polymorph: Turtle", "=ds=#e10#, =q1=#m1# =ds=#c3#"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["Gahz'ranka"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGThekal"] = {
+	["Normal"] = {
+		{
+			{ 1, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", " 14.95%"};
+			{ 2, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", " 13.74%"};
+			{ 3, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", " 12.95%"};
+			{ 4, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", " 6.60%"};
+			{ 5, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", " 6.56%"};
+			{ 6, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", " 6.45%"};
+			{ 8, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "8.3%"};
+			{ 9, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
+			{ 16, 19897, "", "=q4=Betrayer's Boots", "=ds=#s12#, #a1#", "", "5.83%"};
+			{ 17, 19896, "", "=q4=Thekal's Grasp", "=ds=#h3#, #w13#", "", "4.23%"};
+			{ 18, 19902, "", "=q4=Swift Zulian Tiger", "=ds=#e12#", "", "0.70%"};
+			{ 20, 19898, "", "=q3=Seal of Jin", "=ds=#s13#", "", "13.65%"};
+			{ 21, 19899, "", "=q3=Ritualistic Legguards", "=ds=#s11#, #a1#", "", "13.41%"};
+			{ 22, 20260, "", "=q3=Seafury Leggings", "=ds=#s11#, #a3#", "", "4.30%"};
+			{ 23, 20266, "", "=q3=Peacekeeper Leggings", "=ds=#s11#, #a4#", "", "8.69%"};
+			{ 24, 19901, "", "=q3=Zulian Slicer", "=ds=#h1#, #w10#, =q1=#e18#", "", "13.36%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["High Priest Thekal"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGArlokk"] = {
+	["Normal"] = {
+		{
+			{ 1, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.49%"};
+			{ 2, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "12.52%"};
+			{ 3, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "13.17%"};
+			{ 4, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "6.94%"};
+			{ 5, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "6.65%"};
+			{ 6, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "6.21%"};
+			{ 7, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.75%"};
+			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.60%"};
+			{ 9, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.41%"};
+			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "5.6%"};
+			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
+			{ 16, 19910, "", "=q4=Arlokk's Grasp", "=ds=#h4#, #w13#", "", "3.62%"};
+			{ 17, 19909, "", "=q4=Will of Arlokk", "=ds=#w9#", "", "5.14%"};
+			{ 19, 19913, "", "=q3=Bloodsoaked Greaves", "=ds=#s12#, #a4#", "", "13.29%"};
+			{ 20, 19912, "", "=q3=Overlord's Onyx Band", "=ds=#s13#", "", "13.95%"};
+			{ 21, 19922, "", "=q3=Arlokk's Hoodoo Stick", "=ds=#s15#", "", "13.66%"};
+			{ 22, 19914, "", "=q3=Panther Hide Sack", "=ds=#m14# #e1#", "", "14.03%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["High Priestess Arlokk"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGJindo"] = {
+	["Normal"] = {
+		{
+			{ 1, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "13.56%"};
+			{ 2, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "13.48%"};
+			{ 3, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "12.09%"};
+			{ 4, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "7.30%"};
+			{ 5, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "6.37%"};
+			{ 6, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "6.10%"};
+			{ 7, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "2.85%"};
+			{ 8, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "2.70%"};
+			{ 9, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "2.36%"};
+			{ 11, 22637, "", "=q3=Primal Hakkari Idol", "=ds=#m3#"};
+			{ 12, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "8.4%"};
+			{ 16, 19885, "", "=q4=Jin'do's Evil Eye", "=ds=#s2#", "", "6.82%"};
+			{ 17, 19891, "", "=q4=Jin'do's Bag of Whammies", "=ds=#s15#", "", "7.70%"};
+			{ 18, 19890, "", "=q4=Jin'do's Hexxer", "=ds=#h3#, #w6#", "", "8.08%"};
+			{ 19, 19884, "", "=q4=Jin'do's Judgement", "=ds=#w9#", "", "8.36%"};
+			{ 21, 19888, "", "=q3=Overlord's Embrace", "=ds=#s4#", "", "12.72%"};
+			{ 22, 19886, "", "=q3=The Hexxer's Cover", "=ds=#s1#, #a1#", "", "12.11%"};
+			{ 23, 19929, "", "=q3=Bloodtinged Gloves", "=ds=#s9#, #a1#", "", "11.75%"};
+			{ 24, 19889, "", "=q3=Blooddrenched Leggings", "=ds=#s11#, #a2#", "", "11.97%"};
+			{ 25, 19892, "", "=q3=Animist's Boots", "=ds=#s12#, #a2#", "", "12.28%"};
+			{ 26, 19875, "", "=q3=Bloodstained Coif", "=ds=#s1#, #a3#", "", "13.73%"};
+			{ 27, 19887, "", "=q3=Bloodstained Legplates", "=ds=#s11#, #a3#", "", "11.11%"};
+			{ 28, 19894, "", "=q3=Bloodsoaked Gauntlets", "=ds=#s9#, #a4#", "", "12.93%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["Jin'do the Hexxer"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGHakkar"] = {
+	["Normal"] = {
+		{
+			{ 1, 19857, "", "=q4=Cloak of Consumption", "=ds=#s4#", "", "11.65%"};
+			{ 2, 20257, "", "=q4=Seafury Gauntlets", "=ds=#s9#, #a3#", "", "4.11%"};
+			{ 3, 20264, "", "=q4=Peacekeeper Gauntlets", "=ds=#s9#, #a4#", "", "7.37%"};
+			{ 4, 19855, "", "=q4=Bloodsoaked Legplates", "=ds=#s11#, #a4#", "", "10.52%"};
+			{ 5, 19876, "", "=q4=Soul Corrupter's Necklace", "=ds=#s2#", "", "10.11%"};
+			{ 6, 19856, "", "=q4=The Eye of Hakkar", "=ds=#s2#", "", "12.02%"};
+			{ 8, 19859, "", "=q4=Fang of the Faceless", "=ds=#h1#, #w4#", "", "7.33%"};
+			{ 9, 19864, "", "=q4=Bloodcaller", "=ds=#h3#, #w10#", "", "7.69%"};
+			{ 10, 19865, "", "=q4=Warblade of the Hakkari", "=ds=#h3#, #w10#", "", "3.67%"};
+			{ 11, 19854, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#h2#, #w10#", "", "6.78%"};
+			{ 12, 19852, "", "=q4=Ancient Hakkari Manslayer", "=ds=#h1#, #w1#", "", "6.62%"};
+			{ 13, 19862, "", "=q4=Aegis of the Blood God", "=ds=#w8#", "", "9.99%"};
+			{ 14, 19853, "", "=q4=Gurubashi Dwarf Destroyer", "=ds=#w5#", "", "6.12%"};
+			{ 15, 19861, "", "=q4=Touch of Chaos", "=ds=#w12#", "", "7.24%"};
+			{ 16, 19802, "", "=q4=Heart of Hakkar", "=ds=#m2#", "", "100%"};
+			{ 17, 19950, "", "=q4=Zandalarian Hero Charm", "=q1=#m4#: =ds=#s14#"};
+			{ 18, 19949, "", "=q4=Zandalarian Hero Medallion", "=q1=#m4#: =ds=#s14#"};
+			{ 19, 19948, "", "=q4=Zandalarian Hero Badge", "=q1=#m4#: =ds=#s14#"};
+			{ 21, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "34.3%"};
+		}
+	},
+	info = {
+		name =  BabbleBoss["Hakkar"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+	--AtlasLoot_Data["ZGMuddyChurningWaters"] = {
+	--	{ 1, 19975, "", "=q1=Zulian Mudskunk", "=ds=#e21#"};
+	--};
+--
+AtlasLoot_Data["ZGShared"] = {
+	["Normal"] = {
+		{
+			{ 1, 22721, "", "=q4=Band of Servitude", "=ds=#s13#"};
+			{ 2, 22722, "", "=q4=Seal of the Gurubashi Berserker", "=ds=#s13#"};
+			{ 4, 22711, "", "=q3=Cloak of the Hakkari Worshipers", "=ds=#s4#"};
+			{ 5, 22712, "", "=q3=Might of the Tribe", "=ds=#s4#"};
+			{ 6, 22720, "", "=q3=Zulian Headdress", "=ds=#s1#, #a1#"};
+			{ 7, 22716, "", "=q3=Belt of Untapped Power", "=ds=#s10#, #a1#"};
+			{ 8, 22718, "", "=q3=Blooddrenched Mask", "=ds=#s1#, #a2#"};
+			{ 9, 22715, "", "=q3=Gloves of the Tormented", "=ds=#s9#, #a3#"};
+			{ 10, 22714, "", "=q3=Sacrificial Gauntlets", "=ds=#s9#, #a4#"};
+			{ 11, 22713, "", "=q3=Zulian Scepter of Rites", "=ds=#h3#, #w6#"};
+		}
+	},
+	info = {
+		name =  AL["Shared"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 20259, "", "=q3=Shadow Panther Hide Gloves", "=ds=#s9#, #a2#"};
+			{ 2, 20261, "", "=q3=Shadow Panther Hide Belt", "=ds=#s10#, #a2#"};
+			{ 3, 20263, "", "=q3=Gurubashi Helm", "=ds=#s1#, #a4#"};
+			{ 4, 19908, "", "=q3=Sceptre of Smiting", "=ds=#h1#, #w6#"};
+			{ 5, 19921, "", "=q3=Zulian Hacker", "=ds=#h1#, #w1#"};
+			{ 6, 20258, "", "=q3=Zulian Ceremonial Staff", "=ds=#w9#"};
+			{ 7, 19727, "", "=q3=Blood Scythe", "=ds=#e19#", "", "0.02%"};
+			{ 8, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#"};
+			{ 10, 19726, "", "=q2=Bloodvine", "=ds=#e8#", "", ""};
+			{ 11, 19774, "", "=q2=Souldarite", "=ds=#e8#", "", ""};
+			{ 12, 19767, "", "=q1=Primal Bat Leather", "=ds=#e8#", "", ""};
+			{ 13, 19768, "", "=q1=Primal Tiger Leather", "=ds=#e8#", "", ""};
+			{ 16, 19821, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c1#", "", "0.01%"};
+			{ 17, 19816, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c2#", "", "0.01%"};
+			{ 18, 19818, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c3#", "", "0.01%"};
+			{ 19, 19815, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c4#", "", "0.01%"};
+			{ 20, 19820, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c5#", "", "0.01%"};
+			{ 21, 19814, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c6#", "", "0.01%"};
+			{ 22, 19817, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c7#", "", "0.01%"};
+			{ 23, 19819, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c8#", "", "0.01%"};
+			{ 24, 19813, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c9#", "", "0.01%"};
+		},
+		{
+			{ 1, 19708, "", "=q3=Blue Hakkari Bijou", "=ds=#e15#", "", "1.48%"};
+			{ 2, 19713, "", "=q3=Bronze Hakkari Bijou", "=ds=#e15#", "", "1.57%"};
+			{ 3, 19715, "", "=q3=Gold Hakkari Bijou", "=ds=#e15#", "", "1.63%"};
+			{ 4, 19711, "", "=q3=Green Hakkari Bijou", "=ds=#e15#", "", "1.67%"};
+			{ 5, 19710, "", "=q3=Orange Hakkari Bijou", "=ds=#e15#", "", "1.76%"};
+			{ 6, 19712, "", "=q3=Purple Hakkari Bijou", "=ds=#e15#", "", "1.67%"};
+			{ 7, 19707, "", "=q3=Red Hakkari Bijou", "=ds=#e15#", "", "1.63%"};
+			{ 8, 19714, "", "=q3=Silver Hakkari Bijou", "=ds=#e15#", "", "1.59%"};
+			{ 9, 19709, "", "=q3=Yellow Hakkari Bijou", "=ds=#e15#", "", "1.50%"};
+			{ 16, 19706, "", "=q2=Bloodscalp Coin", "=ds=#e15#", "", "3.01%"};
+			{ 17, 19701, "", "=q2=Gurubashi Coin", "=ds=#e15#", "", "3.12%"};
+			{ 18, 19700, "", "=q2=Hakkari Coin", "=ds=#e15#", "", "3.19%"};
+			{ 19, 19699, "", "=q2=Razzashi Coin", "=ds=#e15#", "", "3.36%"};
+			{ 20, 19704, "", "=q2=Sandfury Coin", "=ds=#e15#", "", "3.47%"};
+			{ 21, 19705, "", "=q2=Skullsplitter Coin", "=ds=#e15#", "", "3.32%"};
+			{ 22, 19702, "", "=q2=Vilebranch Coin", "=ds=#e15#", "", "3.27%"};
+			{ 23, 19703, "", "=q2=Witherbark Coin", "=ds=#e15#", "", "3.27%"};
+			{ 24, 19698, "", "=q2=Zulian Coin", "=ds=#e15#", "", "3.01%"};
+		}
+	},
+	info = {
+		name =  AL["Trash Mobs"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+};
+
+AtlasLoot_Data["ZGEnchants"] = {
+	["Normal"] = {
+		{
+			{ 1, 19790, "", "=q3=Animist's Caress", "=q1=#m1# =ds=#c1#"};
+			{ 2, 19785, "", "=q3=Falcon's Call", "=q1=#m1# =ds=#c2#"};
+			{ 3, 19787, "", "=q3=Presence of Sight", "=q1=#m1# =ds=#c3#"};
+			{ 4, 19783, "", "=q3=Syncretist's Sigil", "=q1=#m1# =ds=#c4#"};
+			{ 5, 19789, "", "=q3=Prophetic Aura", "=q1=#m1# =ds=#c5#"};
+			{ 6, 19784, "", "=q3=Death's Embrace", "=q1=#m1# =ds=#c6#"};
+			{ 7, 19786, "", "=q3=Vodouisant's Vigilant Embrace", "=q1=#m1# =ds=#c7#"};
+			{ 8, 19788, "", "=q3=Hoodoo Hex", "=q1=#m1# =ds=#c8#"};
+			{ 9, 19782, "", "=q3=Presence of Might", "=q1=#m1# =ds=#c9#"};
+			{ 16, 20077, "", "=q3=Zandalar Signet of Might", "=ds=#s3# #e17#"};
+			{ 17, 20076, "", "=q3=Zandalar Signet of Mojo", "=ds=#s3# #e17#"};
+			{ 18, 20078, "", "=q3=Zandalar Signet of Serenity", "=ds=#s3# #e17#"};
+			{ 20, 22635, "", "=q3=Savage Guard", "=ds=#s1#/#s11# #e17#"};
+		}
+	},
+	info = {
+		name =  AL["ZG Enchants"],
+		module = moduleName,
+		instance = "ZulGurub",
+	},
+ };
 
 --------------------------
 --- Sets & Collections ---
@@ -5837,6 +6235,79 @@ AtlasLoot_Data["AQ40Sets"] = {
 		module = moduleName,
 		menu = "SETSMISCMENU",
 	},
+}
+
+-----------------
+--- ZG Sets	  ---
+-----------------
+AtlasLoot_Data["ZGSets"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "Spell_Nature_Regeneration", "=q6=#zgs1#", "=ec1=#c1#"};
+			{ 2, 19955, "", "=q4=Wushoolay's Charm of Nature", ""};
+			{ 3, 19613, "", "=q4=Pristine Enchanted South Seas Kelp", "=ds=#r5#"};
+			{ 4, 19838, "", "=q4=Zandalar Haruspex's Tunic", "=q4=#zgt9#, =ds=#r4#"};
+			{ 5, 19839, "", "=q4=Zandalar Haruspex's Belt", "=q4=#zgt4#, =ds=#r3#"};
+			{ 6, 19840, "", "=q4=Zandalar Haruspex's Bracers", "=q4=#zgt5#, =ds=#r2#"};
+			{ 8, 0, "Ability_Hunter_RunningShot", "=q6=#zgs2#", "=ec1=#c2#"};
+			{ 9, 19953, "", "=q4=Renataki's Charm of Beasts", ""};
+			{ 10, 19621, "", "=q4=Maelstrom's Wrath", "=ds=#r5#"};
+			{ 11, 19831, "", "=q4=Zandalar Predator's Mantle", "=q4=#zgt6#, =ds=#r4#"};
+			{ 12, 19832, "", "=q4=Zandalar Predator's Belt", "=q4=#zgt2#, =ds=#r3#"};
+			{ 13, 19833, "", "=q4=Zandalar Predator's Bracers", "=q4=#zgt3#, =ds=#r2#"};
+			{ 16, 0, "Spell_Frost_IceStorm", "=q6=#zgs3#", "=ec1=#c3#"};
+			{ 17, 19959, "", "=q4=Hazza'rah's Charm of Magic", ""};
+			{ 18, 19601, "", "=q4=Jewel of Kajaro", "=ds=#r5#"};
+			{ 19, 20034, "", "=q4=Zandalar Illusionist's Robe", "=q4=#zgt1#, =ds=#r4#"};
+			{ 20, 19845, "", "=q4=Zandalar Illusionist's Mantle", "=q4=#zgt2#, =ds=#r3#"};
+			{ 21, 19846, "", "=q4=Zandalar Illusionist's Wraps", "=q4=#zgt3#, =ds=#r2#"};
+			{ 23, 0, "Spell_Holy_SealOfMight", "=q6=#zgs4#", "=ec1=#c4#"};
+			{ 24, 19952, "", "=q4=Gri'lek's Charm of Valor", ""};
+			{ 25, 19588, "", "=q4=Hero's Brand", "=ds=#r5#"};
+			{ 26, 19825, "", "=q4=Zandalar Freethinker's Breastplate", "=q4=#zgt9#, =ds=#r4#"};
+			{ 27, 19826, "", "=q4=Zandalar Freethinker's Belt", "=q4=#zgt2#, =ds=#r3#"};
+			{ 28, 19827, "", "=q4=Zandalar Freethinker's Armguards", "=q4=#zgt3#, =ds=#r2#"};
+		},
+		{
+			{ 1, 0, "Spell_Holy_PowerWordShield", "=q6=#zgs5#", "=ec1=#c5#"};
+			{ 2, 19958, "", "=q4=Hazza'rah's Charm of Healing", ""};
+			{ 3, 19594, "", "=q4=The All-Seeing Eye of Zuldazar", "=ds=#r5#"};
+			{ 4, 19841, "", "=q4=Zandalar Confessor's Mantle", "=q4=#zgt6#, =ds=#r4#"};
+			{ 5, 19842, "", "=q4=Zandalar Confessor's Bindings", "=q4=#zgt4#, =ds=#r3#"};
+			{ 6, 19843, "", "=q4=Zandalar Confessor's Wraps", "=q4=#zgt5#, =ds=#r2#"};
+			{ 8, 0, "Ability_BackStab", "=q6=#zgs6#", "=ec1=#c6#"};
+			{ 9, 19954, "", "=q4=Renataki's Charm of Trickery", ""};
+			{ 10, 19617, "", "=q4=Zandalarian Shadow Mastery Talisman", "=ds=#r5#"};
+			{ 11, 19834, "", "=q4=Zandalar Madcap's Tunic", "=q4=#zgt6#, =ds=#r4#"};
+			{ 12, 19835, "", "=q4=Zandalar Madcap's Mantle", "=q4=#zgt7#, =ds=#r3#"};
+			{ 13, 19836, "", "=q4=Zandalar Madcap's Bracers", "=q4=#zgt8#, =ds=#r2#"};
+			{ 16, 0, "Spell_FireResistanceTotem_01", "=q6=#zgs7#", "=ec1=#c7#"};
+			{ 17, 19956, "", "=q4=Wushoolay's Charm of Spirits", ""};
+			{ 18, 19609, "", "=q4=Unmarred Vision of Voodress", "=ds=#r5#"};
+			{ 19, 19828, "", "=q4=Zandalar Augur's Hauberk", "=q4=#zgt9#, =ds=#r4#"};
+			{ 20, 19829, "", "=q4=Zandalar Augur's Belt", "=q4=#zgt7#, =ds=#r3#"};
+			{ 21, 19830, "", "=q4=Zandalar Augur's Bracers", "=q4=#zgt8#, =ds=#r2#"};
+			{ 23, 0, "Spell_Shadow_CurseOfTounges", "=q6=#zgs8#", "=ec1=#c8#"};
+			{ 24, 19957, "", "=q4=Hazza'rah's Charm of Destruction", ""};
+			{ 25, 19605, "", "=q4=Kezan's Unstoppable Taint", "=ds=#r5#"};
+			{ 26, 20033, "", "=q4=Zandalar Demoniac's Robe", "=q4=#zgt1#, =ds=#r4#"};
+			{ 27, 19849, "", "=q4=Zandalar Demoniac's Mantle", "=q4=#zgt4#, =ds=#r3#"};
+			{ 28, 19848, "", "=q4=Zandalar Demoniac's Wraps", "=q4=#zgt5#, =ds=#r2#"};
+		},
+		{
+			{ 1, 0, "INV_Shield_05", "=q6=#zgs9#", "=ec1=#c9#"};
+			{ 2, 19951, "", "=q4=Gri'lek's Charm of Might", ""};
+			{ 3, 19577, "", "=q4=Rage of Mugamba", "=ds=#r5#"};
+			{ 4, 19822, "", "=q4=Zandalar Vindicator's Breastplate", "=q4=#zgt1#, =ds=#r4#"};
+			{ 5, 19823, "", "=q4=Zandalar Vindicator's Belt", "=q4=#zgt7#, =ds=#r3#"};
+			{ 6, 19824, "", "=q4=Zandalar Vindicator's Armguards", "=q4=#zgt8#, =ds=#r2#"};
+		}
+	},
+	info = {
+		name = BabbleZone["Zul'Gurub"] .. " " .. AL["Set"],
+		module = moduleName,
+		menu = "SETSMISCMENU",
+	}
 }
 
 -----------------------

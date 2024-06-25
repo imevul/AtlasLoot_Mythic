@@ -677,6 +677,7 @@ if AL then
 	AL["BRD Blacksmithing Plans"] = true;
 	AL["Firelands Patterns/Plans"] = true;
 	AL["Dragon Soul Patterns/Plans"] = true;
+	AL["ZG Enchants"] = true;
 
 	-- General titles
 	AL["Achievement"] = true;
@@ -887,6 +888,17 @@ if AL then
 	AL["Spider"] = true;
 	AL["Darkhound"] = true;
 	AL["Bat"] = true;
+
+	-- ZG Tokens
+    AL["Primal Hakkari Kossack"] = true;
+    AL["Primal Hakkari Shawl"] = true;
+    AL["Primal Hakkari Bindings"] = true;
+    AL["Primal Hakkari Sash"] = true;
+    AL["Primal Hakkari Stanchion"] = true;
+    AL["Primal Hakkari Aegis"] = true;
+    AL["Primal Hakkari Girdle"] = true;
+    AL["Primal Hakkari Armsplint"] = true;
+    AL["Primal Hakkari Tabard"] = true;
 
 	-- AQ20 Tokens
 	AL["Qiraji Ornate Hilt"] = true;
