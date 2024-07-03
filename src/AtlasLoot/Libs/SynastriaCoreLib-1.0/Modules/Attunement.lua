@@ -1,10 +1,19 @@
-local MODULE_NAME, MODULE_VERSION = 'Attunement', 2
+local _, NS = ...
+local MODULE_NAME, MODULE_VERSION = 'Attunement', 4
+
+NS.DebugLog(MODULE_NAME, MODULE_VERSION, 'Start')
+if not NS.loaded then return end
+MODULE_VERSION = NS.SYNASTRIACORELIB_MINOR * 100 + MODULE_VERSION
+
 local SynastriaCoreLib = LibStub and LibStub('SynastriaCoreLib-1.0', true)
-if not SynastriaCoreLib or SynastriaCoreLib:_GetModuleVersion(MODULE_NAME) >= MODULE_VERSION then return end
+if not SynastriaCoreLib then return end
+
+NS.DebugLog(MODULE_NAME, MODULE_VERSION, 'Try load')
 
 SynastriaCoreLib.Attunement = SynastriaCoreLib.Attunement or {}
 if not SynastriaCoreLib._RegisterModule(MODULE_NAME, SynastriaCoreLib.Attunement, MODULE_VERSION) then return end
 
+NS.DebugLog(MODULE_NAME, MODULE_VERSION, 'Loaded')
 
 -- @deprecated
 function SynastriaCoreLib.getItemStatus(itemLink)
@@ -39,15 +48,22 @@ function SynastriaCoreLib.IsItemValid(itemIdOrLink)
 	return SynastriaCoreLib.CheckItemValid(itemId) > 0
 end
 
-function SynastriaCoreLib.GetAttuneProgress(itemIdOrLink, suffixId)
+function SynastriaCoreLib.GetAttuneProgress(itemIdOrLink, suffixId, forgedType)
     if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return 0 end
+    if type(forgedType) == 'number' and (forgedType < 0 or forgedType > 3) then return 0 end
     local itemId, itemLink = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
 
-    if itemLink then
+    if itemLink and type(forgedType) == 'number' then
         return GetItemLinkAttuneProgress(itemLink) or 0
     end
 
-    return GetItemAttuneProgress(itemId, suffixId) or 0
+    return GetItemAttuneProgress(itemId, suffixId, forgedType) or 0
+end
+
+function SynastriaCoreLib.GetItemAttuneForge(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return -1 end
+    local itemId, _ = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
+    return GetItemAttuneForge(itemId) or -1
 end
 
 function SynastriaCoreLib.IsAttuned(itemIdOrLink)
@@ -62,6 +78,13 @@ function SynastriaCoreLib.IsAttuned(itemIdOrLink)
     end ]]
 
     return ret >= 100
+end
+
+function SynastriaCoreLib.HasAttunedAnyVariant(itemIdOrLink)
+    if (type(itemIdOrLink) ~= 'number' and type(itemIdOrLink) ~= 'string') or not SynastriaCoreLib.isLoaded() then return false end
+    local itemId, _ = SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink)
+
+    return HasAttunedAnyVariantOfItem(itemId) or false
 end
 
 function SynastriaCoreLib.IsAttunable(itemIdOrLink)
@@ -246,3 +269,5 @@ function SynastriaCoreLib.ItemHasBaseResist(itemId)
     if not itemTags2 then return false end
     return bit.band(itemTags2, 4) ~= 0
 end
+
+NS.DebugLog(MODULE_NAME, MODULE_VERSION, 'Done')

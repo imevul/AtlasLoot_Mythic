@@ -1,7 +1,23 @@
-﻿local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 10
+﻿local wowAddonName, NS = ...
+local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 13
+NS.SYNASTRIACORELIB_MINOR = SYNASTRIACORELIB_MINOR
+
+if not SCL then SCL = {} end
+function NS.DebugLog(moduleName, moduleVersion, text)
+    text = text or ''
+    SCL._debugLog = SCL._debugLog or {}
+    table.insert(SCL._debugLog, ('%s.SCL.%d.%s.%d: %s'):format(wowAddonName or '', SYNASTRIACORELIB_MINOR or 0, moduleName or '', moduleVersion or 0, text or ''))
+end
+
+NS.DebugLog(nil, nil, 'Start')
+
 local SynastriaCoreLib, oldminor = LibStub:NewLibrary(SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR)
 
+NS.DebugLog(nil, nil, 'Try load')
 if not SynastriaCoreLib then return end -- No upgrade needed
+NS.loaded = true
+
+NS.DebugLog(nil, nil, 'Loaded')
 
 local ItemCache = LibStub('ItemCache-1.0')
 
@@ -170,8 +186,8 @@ SynastriaCoreLib._queuedGameData = {}
 SynastriaCoreLib._lastServerCheck = nil
 SynastriaCoreLib._doServerCheck = true
 
-local modules = {}
-local moduleVersions = {}
+SynastriaCoreLib.modules = SynastriaCoreLib.modules or {}
+SynastriaCoreLib.moduleVersions = SynastriaCoreLib.moduleVersions or {}
 
 function SynastriaCoreLib.isLoaded()
     if not SynastriaCoreLib.loaded then
@@ -185,27 +201,26 @@ end
 
 function SynastriaCoreLib.OnEnable()
     if SynastriaCoreLib.MAX_ITEMID == nil then SynastriaCoreLib.MAX_ITEMID = MAX_ITEMID end
-    SynastriaCoreLib.enabled = true
     SynastriaCoreLib.isLoaded()
-
-    for _, module in ipairs(modules) do
-        if module.OnEnable then module.OnEnable() end
+    if not SynastriaCoreLib.enabled then
+        SynastriaCoreLib.enabled = true
+        SynastriaCoreLib._EnableModules()
     end
 end
 
 function SynastriaCoreLib.OnDisable()
     SynastriaCoreLib.enabled = false
-    for _, module in ipairs(modules) do
+    for _, module in ipairs(SynastriaCoreLib.modules) do
         if module.OnDisable then module.OnDisable() end
     end
 end
 
 function SynastriaCoreLib._RegisterModule(name, module, version)
-    local oldVersion = moduleVersions[name]
+    local oldVersion = SynastriaCoreLib.moduleVersions[name]
     if oldVersion and oldVersion >= version then return false end
 
-    modules[name] = module
-    moduleVersions[name] = version
+    SynastriaCoreLib.modules[name] = module
+    SynastriaCoreLib.moduleVersions[name] = version
 
     if SynastriaCoreLib.enabled then
         if module.OnEnable then module.OnEnable() end
@@ -215,7 +230,13 @@ function SynastriaCoreLib._RegisterModule(name, module, version)
 end
 
 function SynastriaCoreLib._GetModuleVersion(name)
-    return moduleVersions[name] or 0
+    return SynastriaCoreLib.moduleVersions[name] or 0
+end
+
+function SynastriaCoreLib._EnableModules()
+    for _, module in ipairs(SynastriaCoreLib.modules) do
+        if module.OnEnable then module.OnEnable() end
+    end
 end
 
 function SynastriaCoreLib.generateItemLink(itemId, suffixId, name, color)
@@ -321,4 +342,4 @@ function SynastriaCoreLib.LoadItem(itemIdOrLink, fnc)
     return true
 end
 
-SynastriaCoreLib.OnEnable()
+NS.DebugLog(nil, nil, 'Done')
