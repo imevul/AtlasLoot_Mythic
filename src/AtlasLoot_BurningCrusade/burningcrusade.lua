@@ -3417,6 +3417,201 @@ AtlasLoot_Data["TKEyeTrash"] = {
 };
 
 ----------------
+--- Zul'Aman ---
+----------------
+
+AtlasLoot_Data["ZAAkilZon"] = {
+	["Normal"] = {
+		{
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"},
+		{ 2, 33286, "", "=q4=Mojo-mender's Mask", "=ds=#s1#, #a3#", "", "13%"},
+		{ 3, 33215, "", "=q4=Bloodstained Elven Battlevest", "=ds=#s5#, #a4#", "", "13%"},
+		{ 4, 33216, "", "=q4=Chestguard of Hidden Purpose", "=ds=#s5#, #a4#", "", "13%"},
+		{ 5, 33281, "", "=q4=Brooch of Nature's Mercy", "=ds=#s2#", "", "13%"},
+		{ 6, 33293, "", "=q4=Signet of Ancient Magics", "=ds=#s13#", "", "13%"},
+		{ 7, 33214, "", "=q4=Akil'zon's Talonblade", "=ds=#h1#, #w10#", "", "13%"},
+		{ 8, 33283, "", "=q4=Amani Punisher", "=ds=#h3#, #w6#", "", "14%"},
+		{ 10, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Akil'zon"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZANalorakk"] = {
+	["Normal"] = {
+		{
+			{ 1, 29434, "", "=q4=Badge of Justice", 						"=ds=#e15#", 		"", "100%"},
+			{ 2, 33203, "", "=q4=Robes of Heavenly Purpose", 				"=ds=#s5#, #a1#", 	"", "13%"},
+			{ 3, 33285, "", "=q4=Fury of the Ursine", 						"=ds=#s8#, #a1#", 	"", "13%"},
+			{ 4, 33211, "", "=q4=Bladeangel's Money Belt", 					"=ds=#s10#, #a2#",	"", "14%"},
+			{ 5, 33206, "", "=q4=Pauldrons of Primal Fury", 				"=ds=#s3#, #a3#",	"", "13%"},
+			{ 6, 33327, "", "=q4=Mask of Introspection", 					"=ds=#s1#, #a4#", 	"", "13%"},
+			{ 7, 33191, "", "=q4=Jungle Stompers", 							"=ds=#s12#, #a4#",	"", "13%"},
+			{ 8, 33640, "", "=q4=Fury", 									"=ds=#h4#, #w13#",	"", "14%"},
+			{ 10, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", 	"=ds=#p4# (375)",	"", "3%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Nalorakk"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZAJanAlai"] = {
+	["Normal"] = {
+		{
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"},
+		{ 2, 33357, "", "=q4=Footpads of Madness", "=ds=#s12#, #a1#", "", "13%"},
+		{ 3, 33356, "", "=q4=Helm of Natural Regeneration", "=ds=#s1#, #a2#", "", "13%"},
+		{ 4, 33329, "", "=q4=Shadowtooth Trollskin Cuirass", "=ds=#s5#, #a2#", "", "13%"},
+		{ 5, 33328, "", "=q4=Arrow-fall Chestguard", "=ds=#s5#, #a3#", "", "13%"},
+		{ 6, 33354, "", "=q4=Wub's Cursed Hexblade", "=ds=#h3#, #w4#", "", "14%"},
+		{ 7, 33326, "", "=q4=Bulwark of the Amani Empire", "=ds=#w8#", "", "13%"},
+		{ 8, 33332, "", "=q4=Enamelled Disc of Mojo", "=ds=#w8#", "", "12%"},
+		{ 10, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Jan'alai"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZAHalazzi"] = {
+	["Normal"] = {
+		{
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"},
+		{ 2, 33317, "", "=q4=Robe of Departed Spirits", "=ds=#s5#, #a1#", "", "13%"},
+		{ 3, 33300, "", "=q4=Shoulderpads of Dancing Blades", "=ds=#s3#, #a2#", "", "14%"},
+		{ 4, 33322, "", "=q4=Shimmer-pelt Vest", "=ds=#s5#, #a2#", "", "13%"},
+		{ 5, 33533, "", "=q4=Avalanche Leggings", "=ds=#s11#, #a3#", "", "13%"},
+		{ 6, 33299, "", "=q4=Spaulders of the Advocate", "=ds=#s3#, #a4#", "", "13%"},
+		{ 7, 33303, "", "=q4=Skullshatter Warboots", "=ds=#s12#, #a4#", "", "14%"},
+		{ 8, 33297, "", "=q4=The Savage's Choker", "=ds=#s2#", "", "13%"},
+		{ 10, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Halazzi"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZAMalacrass"] = {
+	["Normal"] = {
+		{
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"},
+		{ 2, 33592, "", "=q4=Cloak of Ancient Rituals", "=ds=#s4#", "", "13%"},
+		{ 3, 33453, "", "=q4=Hood of Hexing", "=ds=#s1#, #a1#", "", "13%"},
+		{ 4, 33463, "", "=q4=Hood of the Third Eye", "=ds=#s1#, #a1#", "", "13%"},
+		{ 5, 33432, "", "=q4=Coif of the Jungle Stalker", "=ds=#s1#, #a3#", "", "15%"},
+		{ 6, 33464, "", "=q4=Hex Lord's Voodoo Pauldrons", "=ds=#s3#, #a3#", "", "13%"},
+		{ 7, 33421, "", "=q4=Battleworn Tuskguard", "=ds=#s1#, #a4#", "", "15%"},
+		{ 8, 33446, "", "=q4=Girdle of Stromgarde's Hope", "=ds=#s10#, #a4#", "", "15%"},
+		{ 10, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"},
+		{ 16, 33829, "", "=q4=Hex Shrunken Head", "=ds=#s14#", "", "12%"},
+		{ 17, 34029, "", "=q4=Tiny Voodoo Mask", "=ds=#s14#", "", "25%"},
+		{ 18, 33828, "", "=q4=Tome of Diabolic Remedy", "=ds=#s14#", "", "13%"},
+		{ 19, 33389, "", "=q4=Dagger of Bad Mojo", "=ds=#h1#, #w4#", "", "15%"},
+		{ 20, 33298, "", "=q4=Prowler's Strikeblade", "=ds=#h1#, #w4#", "", "14%"},
+		{ 21, 33388, "", "=q4=Heartless", "=ds=#h1#, #w10#", "", "15%"},
+		{ 22, 33465, "", "=q4=Staff of Primal Fury", "=ds=#w9#", "", "13%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Hex Lord Malacrass"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZAZuljin"] = {
+	["Normal"] = {
+		{
+		{ 1, 29434, "", "=q4=Badge of Justice", "=ds=#e15#", "", "100%"},
+		{ 2, 33471, "", "=q4=Two-toed Sandals", "=ds=#s12#, #a1#", "", "15%"},
+		{ 3, 33479, "", "=q4=Grimgin Faceguard", "=ds=#s1#, #a2#", "", "15%"},
+		{ 4, 33469, "", "=q4=Hauberk of the Empire's Champion", "=ds=#s5#, #a3#", "", "16%"},
+		{ 5, 33473, "", "=q4=Chestguard of the Warlord", "=ds=#s5#, #a4#", "", "15%"},
+		{ 6, 33466, "", "=q4=Loop of Cursed Bones", "=ds=#s2#", "", "14%"},
+		{ 7, 33830, "", "=q4=Ancient Aqir Artifact", "=ds=#s14#", "", "14%"},
+		{ 8, 33831, "", "=q4=Berserker's Call", "=ds=#s14#", "", "14%"},
+		{ 10, 33307, "", "=q3=Formula: Enchant Weapon - Executioner", "=ds=#p4# (375)", "", "3%"},
+		{ 16, 33467, "", "=q4=Blade of Twisted Visions", "=ds=#h3#, #w10#", "", "14%"},
+		{ 17, 33478, "", "=q4=Jin'rohk, The Great Apocalypse", "=ds=#h2#, #w10#", "", "14%"},
+		{ 18, 33476, "", "=q4=Cleaver of the Unforgiving", "=ds=#h1#, #w1#", "", "15%"},
+		{ 19, 33468, "", "=q4=Dark Blessing", "=ds=#h3#, #w6#", "", "15%"},
+		{ 20, 33474, "", "=q4=Ancient Amani Longbow", "=ds=#w2#", "", "14%"},
+		{ 22, 33102, "", "=q4=Blood of Zul'Jin", "=ds=#m2#", "", "87%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Zul'jin"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZATimedChest"] = {
+	["Normal"] = {
+		{
+		{ 1, 0, "INV_Box_01", "Timed Reward Chest 1", ""},
+		{ 2, 33590, "", "=q4=Cloak of Fiends", "=ds=#s4#", "", "10%"},
+		{ 3, 33591, "", "=q4=Shadowcaster's Drape", "=ds=#s4#", "", "11%"},
+		{ 4, 33489, "", "=q4=Mantle of Ill Intent", "=ds=#s3#, #a1#", "", "11%"},
+		{ 5, 33480, "", "=q4=Cord of Braided Troll Hair", "=ds=#s10#, #a1#", "", "10%"},
+		{ 6, 33483, "", "=q4=Life-step Belt", "=ds=#s10#, #a2#", "", "12%"},
+		{ 7, 33971, "", "=q4=Elunite Imbued Leggings", "=ds=#s11#, #a2#", "", "10%"},
+		{ 8, 33805, "", "=q4=Shadowhunter's Treads", "=ds=#s12#, #a3#", "", "10%"},
+		{ 9, 33481, "", "=q4=Pauldrons of Stone Resolve", "=ds=#s3#, #a4#", "", "11%"},
+		{ 16, 0, "INV_Box_01", "Timed Reward Chest 2", ""},
+		{ 17, 33495, "", "=q4=Rage", "=ds=#h3#, #w13#", "", "12%"},
+		{ 18, 33493, "", "=q4=Umbral Shiv", "=ds=#h1#, #w4#", "", "12%"},
+		{ 19, 33492, "", "=q4=Trollbane", "=ds=#h2#, #w1#", "", "11%"},
+		{ 20, 33490, "", "=q4=Staff of Dark Mending", "=ds=#w9#", "", "13%"},
+		{ 21, 33494, "", "=q4=Amani Divining Staff", "=ds=#w9#", "", "11%"},
+		{ 22, 33491, "", "=q4=Tuskbreaker", "=ds=#w5#", "", "12%"},
+		{ 24, 0, "INV_Box_01", "Timed Reward Chest 3", ""},
+		{ 25, 33497, "", "=q4=Mana Attuned Band", "=ds=#s13#", "", "18%"},
+		{ 26, 33500, "", "=q4=Signet of Eternal Life", "=ds=#s13#", "", "20%"},
+		{ 27, 33496, "", "=q4=Signet of Primal Wrath", "=ds=#s13#", "", "23%"},
+		{ 28, 33499, "", "=q4=Signet of the Last Defender", "=ds=#s13#", "", "18%"},
+		{ 29, 33498, "", "=q4=Signet of the Quiet Forest", "=ds=#s13#", "", "21%"},
+		},
+	},
+	info = {
+		name = AL["Timed Reward Chest"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+AtlasLoot_Data["ZATrash"] = {
+	["Normal"] = {
+		{
+		{ 1, 33993, "", "=q3=Mojo", "=ds=#e13#"},
+		{ 3, 33865, "", "=q2=Amani Hex Stick", "=ds=#m20#", "", "40%"},
+		{ 4, 33930, "", "=q2=Amani Charm of the Bloodletter", "Conjured Item", "", "25%"},
+		{ 5, 33932, "", "=q2=Amani Charm of the Witch Doctor", "Conjured Item", "", "24%"},
+		{ 6, 33931, "", "=q2=Amani Charm of Mighty Mojo", "Conjured Item", "", "25%"},
+		{ 7, 33933, "", "=q2=Amani Charm of the Raging Defender", "Conjured Item", "", "25%"},
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
+		module = moduleName,
+		instance = "ZulAman",
+	},
+};
+
+----------------
 --- Factions ---
 ----------------
 
@@ -6724,10 +6919,9 @@ AtlasLoot_Data["WorldEpics70"] = {
 --- World Bosses ---
 --------------------
 
-AtlasLoot_Data["WorldBossesBC"] = {
+AtlasLoot_Data["WBDoomLordKazzak"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Doom Lord Kazzak"],  "" },
 			{ 2,  30735, "",           "=q4=Ancient Spellcloak of the Highborne", "=ds=#s4#",        "", "16.5%" },
 			{ 3,  30734, "",           "=q4=Leggings of the Seventh Circle",      "=ds=#s11#, #a1#", "", "17.0%" },
 			{ 4,  30737, "",           "=q4=Gold-Leaf Wildboots",                 "=ds=#s12#, #a2#", "", "21.1%" },
@@ -6738,22 +6932,33 @@ AtlasLoot_Data["WorldBossesBC"] = {
 			{ 9,  30738, "",           "=q4=Ring of Reciprocity",                 "=ds=#s13#",       "", "23.4%" },
 			{ 10, 30733, "",           "=q4=Hope Ender",                          "=ds=#h1#, #w10#", "", "16.7%" },
 			{ 11, 30732, "",           "=q4=Exodar Life-Staff",                   "=ds=#w9#",        "", "17.1%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Doomwalker"],        "" },
-			{ 17, 30729, "",           "=q4=Black-Iron Battlecloak",              "=ds=#s4#",        "", "19.6%" },
-			{ 18, 30725, "",           "=q4=Anger-Spark Gloves",                  "=ds=#s9#, #a1#",  "", "17.9%" },
-			{ 19, 30727, "",           "=q4=Gilded Trousers of Benediction",      "=ds=#s11#, #a1#", "", "18.1%" },
-			{ 20, 30730, "",           "=q4=Terrorweave Tunic",                   "=ds=#s5#, #a2#",  "", "18.8%" },
-			{ 21, 30728, "",           "=q4=Fathom-Helm of the Deeps",            "=ds=#s1#, #a3#",  "", "16.2%" },
-			{ 22, 30731, "",           "=q4=Faceguard of the Endless Watch",      "=ds=#s1#, #a4#",  "", "18.1%" },
-			{ 23, 30726, "",           "=q4=Archaic Charm of Presence",           "=ds=#s2#",        "", "20.9%" },
-			{ 24, 30723, "",           "=q4=Talon of the Tempest",                "=ds=#h3#, #w4#",  "", "15.4%" },
-			{ 25, 30722, "",           "=q4=Ethereum Nexus-Reaver",               "=ds=#h2#, #w1#",  "", "16.0%" },
-			{ 26, 30724, "",           "=q4=Barrel-Blade Longrifle",              "=ds=#w5#",        "", "20.0%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Doom Lord Kazzak"] .. " / " .. BabbleBoss["Doomwalker"],
+		name = BabbleBoss["Doom Lord Kazzak"],
 		module = moduleName,
-		instance = "WorldBosses",
+		instance = "WorldBossesBC",
 	},
-}
+};
+
+AtlasLoot_Data["WBDoomwalker"] = {
+	["Normal"] = {
+		{
+			{ 2, 30729, "",           "=q4=Black-Iron Battlecloak",              "=ds=#s4#",        "", "19.6%" },
+			{ 3, 30725, "",           "=q4=Anger-Spark Gloves",                  "=ds=#s9#, #a1#",  "", "17.9%" },
+			{ 4, 30727, "",           "=q4=Gilded Trousers of Benediction",      "=ds=#s11#, #a1#", "", "18.1%" },
+			{ 5, 30730, "",           "=q4=Terrorweave Tunic",                   "=ds=#s5#, #a2#",  "", "18.8%" },
+			{ 6, 30728, "",           "=q4=Fathom-Helm of the Deeps",            "=ds=#s1#, #a3#",  "", "16.2%" },
+			{ 7, 30731, "",           "=q4=Faceguard of the Endless Watch",      "=ds=#s1#, #a4#",  "", "18.1%" },
+			{ 8, 30726, "",           "=q4=Archaic Charm of Presence",           "=ds=#s2#",        "", "20.9%" },
+			{ 9, 30723, "",           "=q4=Talon of the Tempest",                "=ds=#h3#, #w4#",  "", "15.4%" },
+			{ 10, 30722, "",           "=q4=Ethereum Nexus-Reaver",               "=ds=#h2#, #w1#",  "", "16.0%" },
+			{ 11, 30724, "",           "=q4=Barrel-Blade Longrifle",              "=ds=#w5#",        "", "20.0%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Doomwalker"],
+		module = moduleName,
+		instance = "WorldBossesBC",
+	},
+};
