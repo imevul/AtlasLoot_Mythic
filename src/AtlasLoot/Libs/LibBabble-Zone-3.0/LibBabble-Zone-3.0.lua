@@ -316,6 +316,8 @@ lib:SetBaseTranslations {
 	["Zul'Drak"] = "Zul'Drak",
 	["Zul'Farrak"] = "Zul'Farrak",
 	["Zul'Gurub"] = "Zul'Gurub",
+	["World Bosses Azeroth"] = "World Bosses Azeroth",
+	["World Bosses Outland"] = "World Bosses Outland",
 }
 
 
