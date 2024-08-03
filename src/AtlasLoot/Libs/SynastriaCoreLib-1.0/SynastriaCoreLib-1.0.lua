@@ -1,5 +1,5 @@
 ﻿local wowAddonName, NS = ...
-local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 13
+local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 17
 NS.SYNASTRIACORELIB_MINOR = SYNASTRIACORELIB_MINOR
 
 if not SCL then SCL = {} end
@@ -297,7 +297,7 @@ function SynastriaCoreLib.PlayerIsRaceMask(raceMask)
 end
 
 function SynastriaCoreLib.AllCustomGameData(typeId, filterFnc)
-    if not SynastriaCoreLib.isLoaded() then return nil, nil end
+    if not SynastriaCoreLib.isLoaded() then return function() end, nil end
 
     local index = nil
     local count = GetCustomGameDataCount(typeId)
