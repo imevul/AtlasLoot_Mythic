@@ -3020,16 +3020,16 @@ AtlasLoot_Data["RagefireChasmLoot"] = {
 	["Normal"] = {
 		{
 			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Taragaman the Hungerer"], "" },
-			{ 2,  14149, "",           "=q3=Subterranean Cape",                      "=ds=#s4#",        "", "31.59%" },
-			{ 3,  14148, "",           "=q3=Crystalline Cuffs",                      "=ds=#s8#, #a1#",  "", "33.91%" },
-			{ 4,  14145, "",           "=q3=Cursed Felblade",                        "=ds=#h1#, #w10#", "", "15.98%" },
+			{ 2,  14149, "",           "=q3=Subterranean Cape",                      "=ds=#s4#",        "", "40%" },
+			{ 3,  14148, "",           "=q3=Crystalline Cuffs",                      "=ds=#s8#, #a1#",  "", "40%" },
+			{ 4,  14145, "",           "=q3=Cursed Felblade",                        "=ds=#h1#, #w10#", "", "20%" },
 			{ 5,  14540, "",           "=q1=Taragaman the Hungerer's Heart",         "=ds=#m3#",        "", "100%" },
 			{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
 			{ 8, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
 			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Jergosh the Invoker"],  "" },
-			{ 17, 14150, "",           "=q3=Robe of Evocation",                      "=ds=#s5#, #a1#",  "", "36.40%" },
-			{ 18, 14147, "",           "=q3=Cavedweller Bracers",                    "=ds=#s8#, #a3#",  "", "34.35%" },
-			{ 19, 14151, "",           "=q3=Chanting Blade",                         "=ds=#h1#, #w4#",  "", "17.10%" },
+			{ 17, 14150, "",           "=q3=Robe of Evocation",                      "=ds=#s5#, #a1#",  "", "40%" },
+			{ 18, 14147, "",           "=q3=Cavedweller Bracers",                    "=ds=#s8#, #a3#",  "", "40%" },
+			{ 19, 14151, "",           "=q3=Chanting Blade",                         "=ds=#h1#, #w4#",  "", "20%" },
 		},
 	},
 	info = {
@@ -4143,17 +4143,15 @@ AtlasLoot_Data["STRATStonespine"] = {
 --- The Deadmines ---
 ---------------------
 
-AtlasLoot_Data["DeadminesGlubtok"] = {
+AtlasLoot_Data["DeadminesRhahkZor"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,    "INV_Box_01", "=q6=#j1#",                "" },
-			{ 2, 5444, "",           "=q3=Miner's Cape",        "=ds=#s4#",       "" },
-			{ 3, 5195, "",           "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" },
-			{ 4, 2169, "",           "=q3=Buzzer Blade",        "=ds=#h1#, #w4#", "" },
+			{ 2, 5444, "",           "=q3=Rhahk'Zor's Hammer",  "=ds=#s4#",       "", "95%"},
+			{ 3, 5195, "",           "=q3=Rockslicer",          "=ds=#s9#, #a1#", "", "5%"},
 		},
 	},
 	info = {
-		name = AtlasLoot:EJ_GetBossName("Glubtok", 89),
+		name = BabbleBoss["Rhahk'Zor"],
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
@@ -6370,7 +6368,7 @@ AtlasLoot_Data["AVMisc"] = {
 			{ 3,  19030, "",                 "=q4=Stormpike Battle Charger",        "=ds=#e26#",                             "#HONOR:50000#" },
 			{ 4,  19045, "",                 "=q3=Stormpike Battle Standard",       "=ds=#e14#",                             "#HONOR:15000#" },
 			{ 5,  19032, "",                 "=q1=Stormpike Battle Tabard",         "=ds=#s7#",                              "#HONOR:15000#" },
-			{ 6,  19316, "", 				 "=q2=Ice Threaded Arrow", 				"=ds=#w17#", 							 "60 #silver# #HONOR:1#"};
+			{ 6,  19316, "", 		 "=q2=Ice Threaded Arrow", 		"=ds=#w17#", 				 "60 #silver# #HONOR:1#"};
 			{ 7,  17348, "",                 "=q1=Major Healing Draught",           "=ds=#e2#",                              "10 #silver# #HONOR:8#" },
 			{ 8,  17349, "",                 "=q1=Superior Healing Draught",        "=ds=#e2#",                              "5 #silver# #HONOR:1#" },
 			{ 9,  19301, "",                 "=q1=Alterac Manna Biscuit",           "=ds=#e3#",                              "70 #silver#" },
@@ -6379,7 +6377,7 @@ AtlasLoot_Data["AVMisc"] = {
 			{ 18, 19029, "",                 "=q4=Horn of the Frostwolf Howler",    "=ds=#e26#",                             "#HONOR:50000#" },
 			{ 19, 19046, "",                 "=q3=Frostwolf Battle Standard",       "=ds=#e14#",                             "#HONOR:15000#" },
 			{ 20, 19031, "",                 "=q1=Frostwolf Battle Tabard",         "=ds=#s7#",                              "#HONOR:15000#" },
-			{ 21, 19317, "", 				 "=q2=Ice Threaded Bullet", 			"=ds=#w18#",							 "60 #silver# #HONOR:1#"};
+			{ 21, 19317, "", 		 "=q2=Ice Threaded Bullet", 		"=ds=#w18#",				 "60 #silver# #HONOR:1#"};
 			{ 22, 17351, "",                 "=q1=Major Mana Draught",              "=ds=#e2#",                              "10 #silver# #HONOR:8#" },
 			{ 23, 17352, "",                 "=q1=Superior Mana Draught",           "=ds=#e2#",                              "5 #silver# #HONOR:1#" },
 			{ 24, 19318, "",                 "=q1=Bottled Alterac Spring Water",    "=ds=#e4#",                              "50 #silver#" },
