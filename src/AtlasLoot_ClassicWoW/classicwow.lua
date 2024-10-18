@@ -4146,8 +4146,8 @@ AtlasLoot_Data["STRATStonespine"] = {
 AtlasLoot_Data["DeadminesRhahkZor"] = {
 	["Normal"] = {
 		{
-			{ 2, 5444, "",           "=q3=Rhahk'Zor's Hammer",  "=ds=#s4#",       "", "95%"},
-			{ 3, 5195, "",           "=q3=Rockslicer",          "=ds=#s9#, #a1#", "", "5%"},
+			{ 2, 5444, "",           "=q3=Rhahk'Zor's Hammer",  "=ds=#h2#, #w6#", "", "95%"},
+			{ 3, 5195, "",           "=q3=Rockslicer",          "=ds=#h2#, #w1#", "", "5%"},
 		},
 	},
 	info = {
