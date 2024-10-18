@@ -4146,8 +4146,8 @@ AtlasLoot_Data["STRATStonespine"] = {
 AtlasLoot_Data["DeadminesRhahkZor"] = {
 	["Normal"] = {
 		{
-			{ 2, 5444, "",           "=q3=Rhahk'Zor's Hammer",  "=ds=#h2#, #w6#", "", "95%"},
-			{ 3, 5195, "",           "=q3=Rockslicer",          "=ds=#h2#, #w1#", "", "5%"},
+			{ 1, 5187, "", "=q3=Rhahk'Zor's Hammer", "=ds=#h2#, #w6#", "", "95%"},
+			{ 2, 872,  "", "=q3=Rockslicer",         "=ds=#h2#, #w1#", "", "5%"},
 		},
 	},
 	info = {
@@ -4157,50 +4157,59 @@ AtlasLoot_Data["DeadminesRhahkZor"] = {
 	},
 };
 
-AtlasLoot_Data["DeadminesGearbreaker"] = {
+AtlasLoot_Data["DeadminesSneedsShredder"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,    "INV_Box_01", "=q6=#j1#",                "" },
-			{ 2, 5199, "",           "=q3=Smelting Pants",      "=ds=#s11#, #a2#", "" },
-			{ 3, 5191, "",           "=q3=Cruel Barb",          "=ds=#h1#, #w10#", "" },
-			{ 4, 5200, "",           "=q3=Impaling Harpoon",    "=ds=#w7#",        "" },
-			{ 5, 5443, "",           "=q3=Gold-plated Buckler", "=ds=#w8#",        "" },
+			{ 1, 2169, "", "=q3=Buzzer Blade",           "=ds=#h1#, #w4#",  "", "90%"},
+			{ 2, 1937, "", "=q3=Buzz Saw",               "=ds=#h1#, #w10#", "", "10%"},
+			{ 3, 7365, "", "=q3=Gnoam Sprecklesprocket", "=ds=#m3#",        "", "100%"},
 		},
 	},
 	info = {
-		name = AtlasLoot:EJ_GetBossName("Helix Gearbreaker", 90),
+		name = BabbleBoss["Sneed's Shredder"],
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
 };
 
-AtlasLoot_Data["DeadminesFoeReaper"] = {
+AtlasLoot_Data["DeadminesSneed"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,    "INV_Box_01", "=q6=#j1#",             "" },
-			{ 2, 1937, "",           "=q3=Buzz Saw",         "=ds=#h1#, #w10#", "", },
-			{ 3, 5187, "",           "=q3=Foe Reaper",       "=ds=#h2#, #w6#",  "" },
-			{ 4, 5201, "",           "=q3=Emberstone Staff", "=ds=#w9#",        "" },
+			{ 1, 5195, "", "=q3=Gold-flecked Gloves", "=ds=#s9#, #a1#", "", "65%"},
+			{ 2, 5194, "", "=q3=Taskmaster Axe",      "=ds=#h2#, #w1#", "", "35%"},
 		},
 	},
 	info = {
-		name = AtlasLoot:EJ_GetBossName("Foe Reaper 5000", 91),
+		name = BabbleBoss["Sneed"],
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
 };
 
-AtlasLoot_Data["DeadminesRipsnarl"] = {
+AtlasLoot_Data["DeadminesGilnid"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,    "INV_Box_01", "=q6=#j1#",                  "" },
-			{ 2, 1156, "",           "=q3=Lavishly Jeweled Ring", "=ds=#s13#",      "", },
-			{ 3, 5196, "",           "=q3=Smite's Reaver",        "=ds=#h1#, #w1#", "" },
-			{ 4, 872,  "",           "=q3=Rockslicer",            "=ds=#h2#, #w1#", "" },
+			{ 1, 5199, "", "=q3=Smelting Pants", 	    "=ds=#s11#, #a2#", "", "55%"},
+			{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#",       "", "45%"},
 		},
 	},
 	info = {
-		name = AtlasLoot:EJ_GetBossName("Admiral Ripsnarl", 92),
+		name = BabbleBoss["Gilnid"],
+		module = moduleName,
+		instance = "TheDeadminesEaI",
+	},
+};
+
+AtlasLoot_Data["DeadminesMrSmite"] = {
+	["Normal"] = {
+		{
+			{ 1, 5196, "", "=q3=Smite's Reaver",	    "=ds=#h1#, #w1#",  "", "40%"},
+			{ 2, 5192, "", "=q3=Thief's Blade",         "=ds=#h1#, #w10#", "", "40%"},
+			{ 3, 7230, "", "=q3=Smite's Mighty Hammer", "=ds=#h2#, #w6#",  "", "20%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Mr. Smite"],
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
@@ -4209,16 +4218,27 @@ AtlasLoot_Data["DeadminesRipsnarl"] = {
 AtlasLoot_Data["DeadminesCookie"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,    "INV_Box_01", "=q6=#j1#",                    "" },
-			{ 2, 5193, "",           "=q3=Cape of the Brotherhood", "=ds=#s4#",        "" },
-			{ 3, 5202, "",           "=q3=Corsair's Overshirt",     "=ds=#s5#, #a1#",  "" },
-			{ 4, 5192, "",           "=q3=Thief's Blade",           "=ds=#h1#, #w10#", "" },
-			{ 5, 5197, "",           "=q3=Cookie's Tenderizer",     "=ds=#h1#, #w6#",  "", },
-			{ 6, 5198, "",           "=q3=Cookie's Stirring Rod",   "=ds=#w12#",       "", },
+			{ 1, 5197, "", "=q3=Cookie's Tenderizer",   "=ds=#h1#, #w6#", "", "65%"};
+			{ 2, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#",      "", "35%"};
 		},
 	},
 	info = {
-		name = AtlasLoot:EJ_GetBossName("\"Captain\" Cookie", 93),
+		name = BabbleBoss["Cookie"],
+		module = moduleName,
+		instance = "TheDeadminesEaI",
+	},
+};
+
+AtlasLoot_Data["DeadminesCaptainGreenskin"] = {
+	["Normal"] = {
+		{
+			{ 1, 5201,  "", "=q3=Emberstone Staff",      "=ds=#w9#",        "", "40%"};
+			{ 2, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#, #a2#", "", "30%"};
+			{ 3, 5200,  "", "=q3=Impaling Harpoon",      "=ds=#w7#",        "", "30%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Captain Greenskin"],
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
@@ -4227,16 +4247,30 @@ AtlasLoot_Data["DeadminesCookie"] = {
 AtlasLoot_Data["DeadminesVanCleef"] = {
 	["Normal"] = {
 		{
-			{ 1, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "", "21.25%"};
-			{ 2, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "", "22.86%"};
-			{ 3, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "14.77%"};
-			{ 4, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "14.17%"};
-			{ 5, 2874, "", "=q1=An Unsent Letter", "=ds=#m2#"};
-			{ 6, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#"};
+			{ 1, 5193,  "", "=q3=Cape of the Brotherhood", "=ds=#s4#",        "",  "30%"};
+			{ 2, 5202,  "", "=q3=Corsair's Overshirt",     "=ds=#s5#, #a1#",  "",  "30%"};
+			{ 3, 10399, "", "=q3=Blackened Defias Armor",  "=ds=#s5#, #a2#",  "",  "20%"};
+			{ 4, 5191,  "", "=q3=Cruel Barb",              "=ds=#h1#, #w10#", "",  "20%"};
+			{ 5, 2874,  "", "=q1=An Unsent Letter",        "=ds=#m2#",        "" , "100%"};
+			{ 6, 3637,  "", "=q1=Head of VanCleef",        "=ds=#m3#",        "" , "100%"};
 		},
 	},
 	info = {
 		name = BabbleBoss["Edwin VanCleef"],
+		module = moduleName,
+		instance = "TheDeadminesEaI",
+	},
+};
+
+AtlasLoot_Data["DeadminesMinerJohnson"] = {
+	["Normal"] = {
+		{
+			{ 1, 5444, "", "=q3=Miner's Cape",        "=ds=#s4#", "", "65%"};
+			{ 2, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "", "35%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Miner Johnson (Rare)"],
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
