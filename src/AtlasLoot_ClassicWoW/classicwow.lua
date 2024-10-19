@@ -4279,16 +4279,17 @@ AtlasLoot_Data["DeadminesMinerJohnson"] = {
 AtlasLoot_Data["DeadminesTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,    "INV_Box_01", "=q6=#j1#",                              "" },
-			{ 2,  1930, "",           "=q3=Stonemason Cloak",                  "=ds=#s4#",        "", "0.01%" },
-			{ 3,  1951, "",           "=q3=Blackwater Cutlass",                "=ds=#h1#, #w10#", "", "0.01%" },
-			{ 4,  1926, "",           "=q3=Weighted Sap",                      "=ds=#h1#, #w6#",  "", "0.01%" },
-			{ 17, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Marisa du'Paige"], "=ec1=#j28#" },
-			{ 18, 3019, "",           "=q3=Noble's Robe",                      "=ds=#s5#, #a1#",  "", "22.4%" },
-			{ 19, 4660, "",           "=q3=Walking Boots",                     "=ds=#s12#, #a1#", "", "71.4%" },
-			{ 21, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Brainwashed Noble"], "=ec1=#j28#" },
-			{ 22, 5967, "",           "=q3=Girdle of Nobility",                "=ds=#s10#, #a1#", "", "70.4%" },
-			{ 23, 3902, "",           "=q3=Staff of Nobles",                   "=ds=#w9#",        "", "23.0%" },
+			{ 1,  10402, "", "=q3=Blackened Defias Boots",    "=ds=#s12#, #a2# =q1=" .. AL["Defias Strip Miner"],         "", "2%" },
+			{ 2,  10401, "", "=q3=Blackened Defias Gloves",   "=ds=#s9#, #a2# =q1=" .. AL["Defias Overseer/Taskmaster"],  "", "2%" },
+			{ 3,  10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#, #a2# =q1=" .. AL["Defias Overseer/Taskmaster"], "", "2%" },
+			{ 4,  1951,  "", "=q3=Blackwater Cutlass",        "=ds=#h1#, #w10# =q1=" .. AL["Defias Pirate/Squallshaper"], "", "6%" },
+			{ 5,  1925,  "", "=q3=Defias Rapier",		  "=ds=#h1#, #w10# =q1=" .. AL["Defias Watchman"],            "", "6.6%" },
+			{ 6,  1936,  "", "=q3=Goblin Screwdriver",	  "=ds=#h1#, #w4# =q1=" .. AL["Goblin Engineer"],      	      "", "0.01%" },
+			{ 7,  1944,  "", "=q3=Metalworking Gloves", 	  "=ds=#s9#, #a2# =q1=" .. AL["Goblin Craftsman"],	      "", "0.01%" },
+			{ 8,  1929,  "", "=q3=Silk-threaded Trousers",    "=ds=#s11#, #a1# =q1=" .. AL["Defias Evoker/Wizard"],	      "", "0.01%" },
+			{ 9,  1930,  "", "=q3=Stonemason Cloak", 	  "=ds=#s4# =q1=" .. AL["Defias Miner"],		      "", "3%" },
+			{ 10, 1934,  "", "=q3=Stonemason Trousers",	  "=ds=#s11#, #a2# =q1=" .. AL["Defias Blackguard"],	      "", "0.01%" },
+			{ 11, 1945,  "", "=q3=Woodworking Gloves",	  "=ds=#s9#, #a2# =q1=" .. AL["Goblin Woodcarver"],           "", "0.01%" },
 		},
 	},
 	info = {
