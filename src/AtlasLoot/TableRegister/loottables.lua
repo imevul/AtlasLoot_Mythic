@@ -1002,9 +1002,11 @@ AtlasLoot_LootTableRegister = {
 
 		["RagefireChasm"] = {
 			["Bosses"] = {
-				{ "RagefireChasmLoot", { 2, 3, 4, 5 } },
+				{ "RagefireChasmTaragamanTheHungerer", 1},
+				{ "RagefireChasmJergoshTheInvoker",    2},
+				{ "RagefireChasmZelemarTheWrathful",   3},
 			},
-			["Info"] = { "[15] " .. BabbleZone["Ragefire Chasm"], "AtlasLootClassicWoW", mapname = "Ragefire" },
+			["Info"] = { "[15] " .. BabbleZone["Ragefire Chasm"], "AtlasLootClassicWoW", mapname = "Ragefire"},
 		},
 
 		["MoltenCore"] = {
@@ -1058,7 +1060,7 @@ AtlasLoot_LootTableRegister = {
 --				{ "Valentineday#3",        12, hide = true },
 --				{ "ShadowfangTrash",       21 },
 			},
-			["Info"] = { "[20] " .. BabbleZone["Shadowfang Keep"], { "AtlasLootClassicWoW" }, mapname = "ShadowfangKeep", EncounterJournalID = 64 },
+			["Info"] = { "[20] " .. BabbleZone["Shadowfang Keep"], { "AtlasLootClassicWoW" }, mapname = "ShadowfangKeep"},
 		},
 
 		["Gnomeregan"] = {
@@ -1148,19 +1150,26 @@ AtlasLoot_LootTableRegister = {
 				{ "DeadminesMinerJohnson",    12 },
 				{ "DeadminesTrash",       18 },
 			},
-			["Info"] = { "[19] " .. BabbleZone["The Deadmines"], { "AtlasLootClassicWoW" }, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },
+			["Info"] = { "[19] " .. BabbleZone["The Deadmines"], { "AtlasLootClassicWoW" }, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines"},
 		},
 
 		["WailingCavernsEnt"] = "WailingCavernsEaI",
 		["WailingCaverns"] = "WailingCavernsEaI",
 		["WailingCavernsEaI"] = {
 			["WailingCavernsEnt"] = {
-				{ "WailingCavernsLoot#1", 3, hide = true },
+				{ "WailingCavernsTrash", 3, hide = true },
 			},
 			["WailingCaverns"] = {
-				{ "WailingCavernsLoot#1", { 2, 3, 4, 5 } },
-				{ "WailingCavernsLoot#2", { 6, 7, 8, 10, 11 }, hide = true },
-				{ "VWOWSets#1",           16,                  hide = true },
+				{ "WailingCavernsKresh",     1 },
+				{ "WailingCavernsLadyAnacondra", 2 },
+				{ "WailingCavernsLordCobrahn",   3 },
+				{ "WailingCavernsLordPythas",    4 },
+				{ "WailingCavernsSkum",      5 },
+				{ "WailingCavernsLordSerpentis",    6 },
+				{ "WailingCavernsVerdanTheEverliving",    7 },
+				{ "WailingCavernsMutanusTheDevourer",    8 },
+				{ "WailingCavernsDeviateFaerieDragon",    9 },
+				{ "WailingCavernsTrash",       10 },
 			},
 			["Info"] = { "[19] " .. BabbleZone["Wailing Caverns"], "AtlasLootClassicWoW", sortOrder = { "WailingCavernsEnt", "WailingCaverns" }, mapname = "WailingCaverns" },
 		},
