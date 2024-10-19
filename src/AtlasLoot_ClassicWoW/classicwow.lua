@@ -4279,17 +4279,17 @@ AtlasLoot_Data["DeadminesMinerJohnson"] = {
 AtlasLoot_Data["DeadminesTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  10402, "", "=q3=Blackened Defias Boots",    "=ds=#s12#, #a2# =q1=" .. AL["Defias Strip Miner"],         "", "2%" },
-			{ 2,  10401, "", "=q3=Blackened Defias Gloves",   "=ds=#s9#, #a2# =q1=" .. AL["Defias Overseer/Taskmaster"],  "", "2%" },
-			{ 3,  10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#, #a2# =q1=" .. AL["Defias Overseer/Taskmaster"], "", "2%" },
-			{ 4,  1951,  "", "=q3=Blackwater Cutlass",        "=ds=#h1#, #w10# =q1=" .. AL["Defias Pirate/Squallshaper"], "", "6%" },
-			{ 5,  1925,  "", "=q3=Defias Rapier",		  "=ds=#h1#, #w10# =q1=" .. AL["Defias Watchman"],            "", "6.6%" },
-			{ 6,  1936,  "", "=q3=Goblin Screwdriver",	  "=ds=#h1#, #w4# =q1=" .. AL["Goblin Engineer"],      	      "", "0.01%" },
-			{ 7,  1944,  "", "=q3=Metalworking Gloves", 	  "=ds=#s9#, #a2# =q1=" .. AL["Goblin Craftsman"],	      "", "0.01%" },
-			{ 8,  1929,  "", "=q3=Silk-threaded Trousers",    "=ds=#s11#, #a1# =q1=" .. AL["Defias Evoker/Wizard"],	      "", "0.01%" },
-			{ 9,  1930,  "", "=q3=Stonemason Cloak", 	  "=ds=#s4# =q1=" .. AL["Defias Miner"],		      "", "3%" },
-			{ 10, 1934,  "", "=q3=Stonemason Trousers",	  "=ds=#s11#, #a2# =q1=" .. AL["Defias Blackguard"],	      "", "0.01%" },
-			{ 11, 1945,  "", "=q3=Woodworking Gloves",	  "=ds=#s9#, #a2# =q1=" .. AL["Goblin Woodcarver"],           "", "0.01%" },
+			{ 1,  10402, "", "=q3=Blackened Defias Boots",    "=ds=#s12#, #a2# =q1=Defias Strip Miner",         "", "2%" },
+			{ 2,  10401, "", "=q3=Blackened Defias Gloves",   "=ds=#s9#, #a2# =q1=Defias Overseer/Taskmaster",  "", "2%" },
+			{ 3,  10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#, #a2# =q1=Defias Overseer/Taskmaster", "", "2%" },
+			{ 4,  1951,  "", "=q3=Blackwater Cutlass",        "=ds=#h1#, #w10# =q1=Defias Pirate/Squallshaper", "", "6%" },
+			{ 5,  1925,  "", "=q3=Defias Rapier",		  "=ds=#h1#, #w10# =q1=Defias Watchman",            "", "6.6%" },
+			{ 6,  1936,  "", "=q3=Goblin Screwdriver",	  "=ds=#h1#, #w4# =q1=Goblin Engineer",      	    "", "0.01%" },
+			{ 7,  1944,  "", "=q3=Metalworking Gloves", 	  "=ds=#s9#, #a2# =q1=Goblin Craftsman",	    "", "0.01%" },
+			{ 8,  1929,  "", "=q3=Silk-threaded Trousers",    "=ds=#s11#, #a1# =q1=Defias Evoker/Wizard",	    "", "0.01%" },
+			{ 9,  1930,  "", "=q3=Stonemason Cloak", 	  "=ds=#s4# =q1=Defias Miner",		      	    "", "3%" },
+			{ 10, 1934,  "", "=q3=Stonemason Trousers",	  "=ds=#s11#, #a2# =q1=Defias Blackguard",	    "", "0.01%" },
+			{ 11, 1945,  "", "=q3=Woodworking Gloves",	  "=ds=#s9#, #a2# =q1=Goblin Woodcarver",           "", "0.01%" },
 		},
 	},
 	info = {
