@@ -3016,28 +3016,50 @@ AtlasLoot_Data["MaraudonLoot"] = {
 --- Ragefire Chasm ---
 ----------------------
 
-AtlasLoot_Data["RagefireChasmLoot"] = {
+AtlasLoot_Data["RagefireChasmTaragamanTheHungerer"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Taragaman the Hungerer"], "" },
-			{ 2,  14149, "",           "=q3=Subterranean Cape",                      "=ds=#s4#",        "", "40%" },
-			{ 3,  14148, "",           "=q3=Crystalline Cuffs",                      "=ds=#s8#, #a1#",  "", "40%" },
-			{ 4,  14145, "",           "=q3=Cursed Felblade",                        "=ds=#h1#, #w10#", "", "20%" },
-			{ 5,  14540, "",           "=q1=Taragaman the Hungerer's Heart",         "=ds=#m3#",        "", "100%" },
-			{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Zelemar the Wrathful"], ""};
-			{ 8, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Jergosh the Invoker"],  "" },
-			{ 17, 14150, "",           "=q3=Robe of Evocation",                      "=ds=#s5#, #a1#",  "", "40%" },
-			{ 18, 14147, "",           "=q3=Cavedweller Bracers",                    "=ds=#s8#, #a3#",  "", "40%" },
-			{ 19, 14151, "",           "=q3=Chanting Blade",                         "=ds=#h1#, #w4#",  "", "20%" },
+			{ 1, 14149, "", "=q3=Subterranean Cape",              "=ds=#s4#",        "", "40%" },
+			{ 2, 14148, "", "=q3=Crystalline Cuffs",              "=ds=#s8#, #a1#",  "", "40%" },
+			{ 3, 14145, "", "=q3=Cursed Felblade",                "=ds=#h1#, #w10#", "", "20%" },
+			{ 4, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#",        "", "100%" },
 		},
 	},
 	info = {
-		name = BabbleZone["Ragefire Chasm"],
+		name = BabbleBoss["Taragaman the Hungerer"],
 		module = moduleName,
 		instance = "RagefireChasm",
 	},
 };
+
+AtlasLoot_Data["RagefireChasmJergoshTheInvoker"] = {
+	["Normal"] = {
+		{
+			{ 1, 14150, "", "=q3=Robe of Evocation",   "=ds=#s5#, #a1#",  "", "40%" },
+			{ 2, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#",  "", "40%" },
+			{ 3, 14151, "", "=q3=Chanting Blade",      "=ds=#h1#, #w4#",  "", "20%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Jergosh the Invoker"],
+		module = moduleName,
+		instance = "RagefireChasm",
+	},
+};
+
+AtlasLoot_Data["RagefireChasmZelemarTheWrathful"] = {
+	["Normal"] = {
+		{			
+			{ 1, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Zelemar the Wrathful"],
+		module = moduleName,
+		instance = "RagefireChasm",
+	},
+};
+
 
 ----------------------
 --- Razorfen Downs ---
@@ -4279,17 +4301,17 @@ AtlasLoot_Data["DeadminesMinerJohnson"] = {
 AtlasLoot_Data["DeadminesTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  10402, "", "=q3=Blackened Defias Boots",    "=ds=#s12#, #a2# =q1=Defias Strip Miner",         "", "2%" },
-			{ 2,  10401, "", "=q3=Blackened Defias Gloves",   "=ds=#s9#, #a2# =q1=Defias Overseer/Taskmaster",  "", "2%" },
-			{ 3,  10400, "", "=q3=Blackened Defias Leggings", "=ds=#s11#, #a2# =q1=Defias Overseer/Taskmaster", "", "2%" },
-			{ 4,  1951,  "", "=q3=Blackwater Cutlass",        "=ds=#h1#, #w10# =q1=Defias Pirate/Squallshaper", "", "6%" },
-			{ 5,  1925,  "", "=q3=Defias Rapier",		  "=ds=#h1#, #w10# =q1=Defias Watchman",            "", "6.6%" },
-			{ 6,  1936,  "", "=q3=Goblin Screwdriver",	  "=ds=#h1#, #w4# =q1=Goblin Engineer",      	    "", "0.01%" },
-			{ 7,  1944,  "", "=q3=Metalworking Gloves", 	  "=ds=#s9#, #a2# =q1=Goblin Craftsman",	    "", "0.01%" },
-			{ 8,  1929,  "", "=q3=Silk-threaded Trousers",    "=ds=#s11#, #a1# =q1=Defias Evoker/Wizard",	    "", "0.01%" },
-			{ 9,  1930,  "", "=q3=Stonemason Cloak", 	  "=ds=#s4# =q1=Defias Miner",		      	    "", "3%" },
-			{ 10, 1934,  "", "=q3=Stonemason Trousers",	  "=ds=#s11#, #a2# =q1=Defias Blackguard",	    "", "0.01%" },
-			{ 11, 1945,  "", "=q3=Woodworking Gloves",	  "=ds=#s9#, #a2# =q1=Goblin Woodcarver",           "", "0.01%" },
+			{ 1,  10402, "", "=q2=Blackened Defias Boots",    "=ds=#s12#, #a2# =q1=Defias Strip Miner",         "", "2%" },
+			{ 2,  10401, "", "=q2=Blackened Defias Gloves",   "=ds=#s9#, #a2# =q1=Defias Overseer/Taskmaster",  "", "2%" },
+			{ 3,  10400, "", "=q2=Blackened Defias Leggings", "=ds=#s11#, #a2# =q1=Defias Overseer/Taskmaster", "", "2%" },
+			{ 4,  1951,  "", "=q2=Blackwater Cutlass",        "=ds=#h1#, #w10# =q1=Defias Pirate/Squallshaper", "", "6%" },
+			{ 5,  1925,  "", "=q2=Defias Rapier",		  "=ds=#h1#, #w10# =q1=Defias Watchman",            "", "6.6%" },
+			{ 6,  1936,  "", "=q2=Goblin Screwdriver",	  "=ds=#h1#, #w4# =q1=Goblin Engineer",      	    "", "0.01%" },
+			{ 7,  1944,  "", "=q2=Metalworking Gloves", 	  "=ds=#s9#, #a2# =q1=Goblin Craftsman",	    "", "0.01%" },
+			{ 8,  1929,  "", "=q2=Silk-threaded Trousers",    "=ds=#s11#, #a1# =q1=Defias Evoker/Wizard",	    "", "0.01%" },
+			{ 9,  1930,  "", "=q2=Stonemason Cloak", 	  "=ds=#s4# =q1=Defias Miner",		      	    "", "3%" },
+			{ 10, 1934,  "", "=q2=Stonemason Trousers",	  "=ds=#s11#, #a2# =q1=Defias Blackguard",	    "", "0.01%" },
+			{ 11, 1945,  "", "=q2=Woodworking Gloves",	  "=ds=#s9#, #a2# =q1=Goblin Woodcarver",           "", "0.01%" },
 		},
 	},
 	info = {
@@ -4626,58 +4648,153 @@ AtlasLoot_Data["UldTrash"] = {
 --- Wailing Caverns ---
 -----------------------
 
-AtlasLoot_Data["WailingCavernsLoot"] = {
+AtlasLoot_Data["WailingCavernsKresh"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Trigore the Lasher"], "#j28#, " .. AL["Rare"] },
-			{ 2,  5425,  "",           "=q3=Runescale Girdle",                   "=ds=#s8#, #a3#",     "", "50%" },
-			{ 3,  5426,  "",           "=q3=Serpent's Kiss",                     "=ds=#h1#, #w1#",     "", "35%" },
-			{ 5,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Boahn"],            "#j28#, " .. AL["Rare"] },
-			{ 6,  5423,  "",           "=q3=Boahn's Fang",                       "=ds=#h2#, #w1#",     "", "28%" },
-			{ 7,  5422,  "",           "=q2=Brambleweed Leggings",               "=ds=#s11#, #a2#",    "", "64%" },
-			{ 9,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lady Anacondra"],   "" },
-			{ 10, 5404,  "",           "=q3=Serpent's Shoulders",                "=ds=#s3#, #a2#",     "", "58.61%" },
-			{ 11, 10412, "",           "=q3=Belt of the Fang",                   "=ds=#s10#, #a2#",    "", "8.63%" },
-			{ 12, 6446,  "",           "=q3=Snakeskin Bag",                      "=ds=#e1#",           "", "6.61%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lord Pythas"],      "" },
-			{ 17, 6473,  "",           "=q3=Armor of the Fang",                  "=ds=#s5#, #a2#",     "", "52.06%" },
-			{ 18, 6472,  "",           "=q3=Stinging Viper",                     "=ds=#h1#, #w6#",     "", "28.24%" },
-			{ 20, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lord Cobrahn"],     "" },
-			{ 21, 6465,  "",           "=q3=Robe of the Moccasin",               "=ds=#s5#, #a1#",     "", "51.73%" },
-			{ 22, 10410, "",           "=q3=Leggings of the Fang",               "=ds=#s11#, #a2#",    "", "16.03%" },
-			{ 23, 6460,  "",           "=q3=Cobrahn's Grasp",                    "=ds=#s10#, #a3#",    "", "16.20%" },
-			{ 25, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Skum"],             "" },
-			{ 26, 6449,  "",           "=q3=Glowing Lizardscale Cloak",          "=ds=#s4#",           "", "38.24%" },
-			{ 27, 6448,  "",           "=q3=Tail Spike",                         "=ds=#h1#, #w4#",     "", "39.24%" },
-		},
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lord Serpentis"],      "" },
-			{ 2,  5970,  "",           "=q3=Serpent Gloves",                        "=ds=#s9#, #a1#",  "",                              "20.96%" },
-			{ 3,  10411, "",           "=q3=Footpads of the Fang",                  "=ds=#s12#, #a2#", "",                              "19.07%" },
-			{ 4,  6459,  "",           "=q3=Savage Trodders",                       "=ds=#s12#, #a3#", "",                              "24.39%" },
-			{ 5,  6469,  "",           "=q3=Venomstrike",                           "=ds=#w2#",        "",                              "16.63%" },
-			{ 7,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Verdan the Everliving"], "" },
-			{ 8,  6629,  "",           "=q3=Sporid Cape",                           "=ds=#s4#",        "",                              "16.65%" },
-			{ 9,  6631,  "",           "=q3=Living Root",                           "=ds=#w9#",        "",                              "34.47%" },
-			{ 10, 6630,  "",           "=q3=Seedcloud Buckler",                     "=ds=#w8#",        "",                              "35.38%" },
-			{ 12, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Mutanus the Devourer"], "" },
-			{ 13, 6461,  "",           "=q3=Slime-Encrusted Pads",                  "=ds=#s3#, #a1#",  "",                              "22.96%" },
-			{ 14, 6627,  "",           "=q3=Mutant Scale Breastplate",              "=ds=#s5#, #a3#",  "",                              "18.33%" },
-			{ 15, 6463,  "",           "=q3=Deep Fathom Ring",                      "=ds=#s13#",       "",                              "21.99%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Kresh"],               "" },
-			{ 17, 13245, "",           "=q3=Kresh's Back",                          "=ds=#w8#",        "",                              "9.17%" },
-			{ 18, 6447,  "",           "=q3=Worn Turtle Shell Shield",              "=ds=#w8#",        "",                              "63.66%" },
-			{ 20, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Deviate Faerie Dragon"], AL["Rare"] },
-			{ 21, 6632,  "",           "=q3=Feyscale Cloak",                        "=ds=#s4#",        "",                              "37.84%" },
-			{ 22, 5243,  "",           "=q3=Firebelcher",                           "=ds=#w12#",       "",                              "39.65%" },
-			{ 24, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"] },
-			{ 25, 10413, "",           "=q3=Gloves of the Fang",                    "=ds=#s9#",        "=q2=" .. AL["Druid of the Fang"], "1.20%" },
+			{ 1, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "90%"},
+			{ 2, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "10%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Wailing Caverns"],
+		name = BabbleBoss["Kresh"],
 		module = moduleName,
-		instance = "WailingCaverns",
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsLadyAnacondra"] = {
+	["Normal"] = {
+		{
+			{ 1, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "80%"},
+			{ 2, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "10%"},
+			{ 3, 6446, "", "=q3=Snakeskin Bag", "#e1#", "", "10%"},
+			{ 4, 9739, "", "=q1=Gem of Anacondra", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Lady Anacondra"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsLordCobrahn"] = {
+	["Normal"] = {
+		{
+			{ 1, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "60%"},
+			{ 2, 6460, "", "=q3=Cobrahn's Grasp", "=ds=#s10#, #a3#", "", "20%"},
+			{ 3, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "20%"},
+			{ 4, 9738, "", "=q1=Gem of Cobrahn", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Lord Cobrahn"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsLordPythas"] = {
+	["Normal"] = {
+		{
+			{ 1, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "60%"},
+			{ 2, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "40%"},
+			{ 3, 9740, "", "=q1=Gem of Pythas", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Lord Pythas"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsSkum"] = {
+	["Normal"] = {
+		{
+			{ 1, 6449, "", "=q3=Glowing Lizardscale Cloak", "=ds=#s4#", "", "50%"},
+			{ 2, 6448, "", "=q3=Tail Spike", "=ds=#h1#, #w4#", "", "50%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Skum"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsLordSerpentis"] = {
+	["Normal"] = {
+		{
+			{ 1, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, #a2#", "", "25%"};
+			{ 2, 6459, "", "=q3=Savage Trodders", "=ds=#s12#, #a3#", "", "25%"};
+			{ 3, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "25%"};
+			{ 4, 6469, "", "=q3=Venomstrike", "=ds=#w2#", "", "25%"};
+			{ 5, 9741, "", "=q1=Gem of Serpentis", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Lord Serpentis"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsVerdanTheEverliving"] = {
+	["Normal"] = {
+		{
+			{ 1, 6631, "", "=q3=Living Root", "=ds=#w9#", "", "40%"};
+			{ 2, 6630, "", "=q3=Seedcloud Buckler", "=ds=#w8#", "", "40%"};
+			{ 3, 6629, "", "=q3=Sporid Cape", "=ds=#s4#",  "", "20%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Verdan the Everliving"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsMutanusTheDevourer"] = {
+	["Normal"] = {
+		{
+			{ 1, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "33.3%"};
+			{ 2, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "33.3%"};
+			{ 3, 6461, "", "=q3=Slime-encrusted Pads", "=ds=#s3#, #a1#", "", "33.3%"};
+			{ 4, 10441, "", "=q1=Glowing Shard", "=ds=#m2#", "", "100%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Mutanus the Devourer"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsDeviateFaerieDragon"] = {
+	["Normal"] = {
+		{
+			{ 1, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "50%"};
+			{ 2, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "50%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Deviate Faerie Dragon"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "WailingCavernsEaI",
+	},
+};
+
+AtlasLoot_Data["WailingCavernsTrash"] = {
+	["Normal"] = {
+		{
+			{ 1,  10413, "", "=q3=Gloves of the Fang", "=ds=#s9#, #a2# =q1=Druid of the Fang", "", "2.3%" },
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
+		module = moduleName,
+		instance = "WailingCavernsEaI",
 	},
 };
 
