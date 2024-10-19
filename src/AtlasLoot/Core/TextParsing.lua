@@ -78,7 +78,7 @@ AtlasLoot_TextParsing = {
 	{ "#s15#", BabbleInventory["Held in Off-Hand"] },
 	{ "#s16#", BabbleInventory["Relic"] },
 
-	-- Weapon Weilding
+	-- Weapon Wielding
 	{ "#h1#", BabbleInventory["One-Hand"] },
 	{ "#h2#", BabbleInventory["Two-Hand"] },
 	{ "#h3#", BabbleInventory["Main Hand"] },
@@ -101,6 +101,10 @@ AtlasLoot_TextParsing = {
 	{ "#w14#", BabbleInventory["Idol"] },
 	{ "#w15#", BabbleInventory["Totem"] },
 	{ "#w16#", BabbleInventory["Libram"] },
+	{ "#w17#", BabbleInventory["Arrow"] },
+	{ "#w18#", BabbleInventory["Bullet"] },
+	{ "#w19#", BabbleInventory["Quiver"] },
+	{ "#w20#", BabbleInventory["Ammo Pouch"] }, --just extrapolating based on above being quiver. not actually used anywhere in loot tables at present.
 	{ "#w21#", BabbleInventory["Sigil"] },
 
 	-- Misc Inventory related words
@@ -121,6 +125,8 @@ AtlasLoot_TextParsing = {
 	{ "#e15#", AL["Token"] },
 	{ "#e16#", AL["Darkmoon Faire Card"] },
 	{ "#e17#", BabbleInventory["Enchant"] },
+	{ "#e18#", BabbleInventory["Skinning"] }, --assumed, based on zulian slicer being the only item to use this tag, which doubles as a skinning knife. will add to finkle's skinner too.
+	{ "#e19#", BabbleInventory["Herbalism"] },
 	{ "#e20#", BabbleInventory["Fishing Pole"] },
 	{ "#e21#", BabbleInventory["Fish"] },
 	{ "#e22#", AL["Combat Pet"] },
