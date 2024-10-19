@@ -1613,16 +1613,16 @@ AtlasLoot_Data["UBRSGyth"] = {
 AtlasLoot_Data["UBRSBeast"] = {
 	["Normal"] = {
 		{
-			{ 1,  12967, "", "=q3=Bloodmoon Cloak",       "=ds=#s4#",        "", "18.30%" },
-			{ 2,  12968, "", "=q3=Frostweaver Cape",      "=ds=#s4#",        "", "14.47%" },
-			{ 3,  12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", "", "13.16%" },
-			{ 4,  22311, "", "=q3=Ironweave Boots",       "=ds=#s12#, #a1#", "", "12.31%" },
-			{ 5,  12966, "", "=q3=Blackmist Armguards",   "=ds=#s8#, #a2#",  "", "16.06%" },
-			{ 6,  12963, "", "=q3=Blademaster Leggings",  "=ds=#s11#, #a2#", "", "12.74%" },
-			{ 7,  12964, "", "=q3=Tristam Legguards",     "=ds=#s11#, #a3#", "", "18.16%" },
-			{ 8,  12709, "", "=q3=Finkle's Skinner",      "=ds=#h1#, #w4#",  "", "6.95%" },
-			{ 9,  12969, "", "=q3=Seeping Willow",        "=ds=#h2#, #w6#",  "", "11.49%" },
-			{ 16, 19227, "", "=q3=Ace of Beasts",         "=ds=#e16#",       "", "4.53%" },
+			{ 1,  12967, "", "=q3=Bloodmoon Cloak",       "=ds=#s4#",       	    "", "18.30%" },
+			{ 2,  12968, "", "=q3=Frostweaver Cape",      "=ds=#s4#",       	    "", "14.47%" },
+			{ 3,  12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", 	    "", "13.16%" },
+			{ 4,  22311, "", "=q3=Ironweave Boots",       "=ds=#s12#, #a1#", 	    "", "12.31%" },
+			{ 5,  12966, "", "=q3=Blackmist Armguards",   "=ds=#s8#, #a2#",  	    "", "16.06%" },
+			{ 6,  12963, "", "=q3=Blademaster Leggings",  "=ds=#s11#, #a2#", 	    "", "12.74%" },
+			{ 7,  12964, "", "=q3=Tristam Legguards",     "=ds=#s11#, #a3#",	    "", "18.16%" },
+			{ 8,  12709, "", "=q3=Finkle's Skinner",      "=ds=#h1#, #w4#, =q1=#e18#",  "", "6.95%" },
+			{ 9,  12969, "", "=q3=Seeping Willow",        "=ds=#h2#, #w6#", 	    "", "11.49%" },
+			{ 16, 19227, "", "=q3=Ace of Beasts",         "=ds=#e16#",       	    "", "4.53%" },
 		},
 	},
 	info = {
@@ -3736,7 +3736,7 @@ AtlasLoot_Data["ShadowfangKeep"] = {
 			{ 6, 5254, "", "=q3=Rugged Spaulders", "=ds=#s3#, #a2#", "", "84.73%"};
 			{ 8, 0, "INV_Box_01", "=q6="..AL["Felsteed"], ""};
 			{ 9, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#", "", "5.48%"};
-			{ 10, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#m12# #e1#", "", "16.46%"};
+			{ 10, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#e1#", "", "16.46%"};
 			{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorclaw the Butcher"], ""};
 			{ 13, 6226, "", "=q3=Bloody Apron", "=ds=#s5#, #a1#", "", "39.47%"};
 			{ 14, 6633, "", "=q3=Butcher's Slicer", "=ds=#h1#, #w10#", "", "39.53%"};
@@ -5048,7 +5048,7 @@ AtlasLoot_Data["ZGArlokk"] = {
 			{ 19, 19913, "", "=q3=Bloodsoaked Greaves", "=ds=#s12#, #a4#", "", "13.29%"};
 			{ 20, 19912, "", "=q3=Overlord's Onyx Band", "=ds=#s13#", "", "13.95%"};
 			{ 21, 19922, "", "=q3=Arlokk's Hoodoo Stick", "=ds=#s15#", "", "13.66%"};
-			{ 22, 19914, "", "=q3=Panther Hide Sack", "=ds=#m14# #e1#", "", "14.03%"};
+			{ 22, 19914, "", "=q3=Panther Hide Sack", "=ds=#e1#", "", "14.03%"};
 		}
 	},
 	info = {
