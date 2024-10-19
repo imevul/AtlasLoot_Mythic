@@ -4270,7 +4270,7 @@ AtlasLoot_Data["DeadminesMinerJohnson"] = {
 		},
 	},
 	info = {
-		name = BabbleBoss["Miner Johnson (Rare)"],
+		name = BabbleBoss["Miner Johnson"] .. " (" .. AL["Rare"] .. ")",
 		module = moduleName,
 		instance = "TheDeadminesEaI",
 	},
