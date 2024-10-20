@@ -3748,63 +3748,157 @@ AtlasLoot_Data["SCHOLOTrash"] = {
 ----- Shadowfang Keep  ---
 -------------------------
 
-AtlasLoot_Data["ShadowfangKeep"] = {
+AtlasLoot_Data["ShadowfangKeepRethilgore"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Deathsworn Captain"], ""};
-			{ 2, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#", "", "30.49%"};
-			{ 3, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#", "", "58.60%"};
-			{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Rethilgore"], ""};
-			{ 6, 5254, "", "=q3=Rugged Spaulders", "=ds=#s3#, #a2#", "", "84.73%"};
-			{ 8, 0, "INV_Box_01", "=q6="..AL["Felsteed"], ""};
-			{ 9, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#", "", "5.48%"};
-			{ 10, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#e1#", "", "16.46%"};
-			{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorclaw the Butcher"], ""};
-			{ 13, 6226, "", "=q3=Bloody Apron", "=ds=#s5#, #a1#", "", "39.47%"};
-			{ 14, 6633, "", "=q3=Butcher's Slicer", "=ds=#h1#, #w10#", "", "39.53%"};
-			{ 15, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#", "", "8.70%"};
-			{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Baron Silverlaine"], ""};
-			{ 17, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#", "", "18.91%"};
-			{ 18, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#", "", "37.93%"};
-			{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Commander Springvale"], ""};
-			{ 21, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#", "", "31.73%"};
-			{ 22, 6320, "", "=q3=Commander's Crest", "=ds=#w8#", "", "27.71%"};
-			{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Odo the Blindwatcher"], ""};
-			{ 25, 6319, "", "=q3=Girdle of the Blindwatcher", "=ds=#s10#, #a2#", "", "57.15%"};
-			{ 26, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#", "", "29.97%"};
-			{ 28, 0, "INV_Box_01", "=q6="..BabbleBoss["Fenrus the Devourer"], ""};
-			{ 29, 6340, "", "=q3=Fenrus' Hide", "=ds=#s4#", "", "58.02%"};
-			{ 30, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#", "", "14.76%"};
-		},
-		{
-			{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Arugal's Voidwalker"], ""};
-			{ 2, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3#", "", "3%"};
-			{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Wolf Master Nandos"], ""};
-			{ 5, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#", "", "33.25%"};
-			{ 6, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#", "", "48.55%"};
-			{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Archmage Arugal"], ""};
-			{ 9, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#", "", "30.50%"};
-			{ 10, 6392, "", "=q3=Belt of Arugal", "=ds=#s10#, #a1#", "", "30.51%"};
-			{ 11, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#", "", "15.78%"};
-			{ 12, 24224, "", "=q1=Crate of Bloodforged Ingots", "=ds=#m3#"};
-			{ 13, 6895, "", "=q1=Jordan's Smithing Hammer", "=ds=#m3#"};
-			{ 14, 6283, "", "=q1=The Book of Ur", "=ds=#m3#"};
-			{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-			{ 17, 2292, "", "=q3=Necrology Robes", "=ds=#s5#, #a1#", "", "0.01%"};
-			{ 18, 1974, "", "=q3=Mindthrust Bracers", "=ds=#s8#, #a1#", "", "0.02%"};
-			{ 19, 1489, "", "=q3=Gloomshroud Armor", "=ds=#s5#, #a2#", "", "0.01%"};
-			{ 20, 1935, "", "=q3=Assassin's Blade", "=ds=#h1#, #w4#", "", "0.01%"};
-			{ 21, 1482, "", "=q3=Shadowfang", "=ds=#h1#, #w10#", "", "0.01%"};
-			{ 22, 2205, "", "=q3=Duskbringer", "=ds=#h2#, #w10#", "", "0.01%"};
-			{ 23, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
-			{ 24, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
-			{ 25, 1483, "", "=q3=Face Smasher", "=ds=#h1#, #w6#", "", "0.02%"};
-			{ 26, 3194, "", "=q3=Black Malice", "=ds=#h2#, #w6#", "", "0.02%"};
-			{ 27, 1484, "", "=q3=Witching Stave", "=ds=#w9#", "", "0.01%"};
+			{ 1, 5254, "", "=q3=Rugged Spaulders", "=ds=#s3#, #a2#", "", "100%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Shadowfang Keep"],
+		name = BabbleBoss["Rethilgore"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepRazorclawTheButcher"] = {
+	["Normal"] = {
+		{
+			{ 1, 6226, "", "=q3=Bloody Apron", "=ds=#s5#, #a1#", "", "45%"},
+			{ 2, 6633, "", "=q3=Butcher's Slicer", "=ds=#h1#, #w10#", "", "45%"},
+			{ 3, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#", "", "10%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Razorclaw the Butcher"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepBaronSilverlaine"] = {
+	["Normal"] = {
+		{
+			{ 1, 6323, "", "=q3=Baron's Scepter", "=ds=#h1#, #w6#", "", "70%"},
+			{ 2, 6321, "", "=q3=Silverlaine's Family Seal", "=ds=#s13#", "", "30%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Baron Silverlaine"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepCommanderSpringvale"] = {
+	["Normal"] = {
+		{
+			{ 1, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#", "", "50%"},
+			{ 2, 6320, "", "=q3=Commander's Crest", "=ds=#h2#, #w1#", "", "50%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Commander Springvale"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepOdoTheBlindwatcher"] = {
+	["Normal"] = {
+		{
+			{ 1, 6319, "", "=q3=Girdle of the Blindwatcher", "=ds=#s10#, #a2#", "", "60%"};
+			{ 2, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#", "", "40%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Odo the Blindwatcher"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepFenrusTheDevourer"] = {
+	["Normal"] = {
+		{
+			{ 1, 6340, "", "=q3=Fenrus' Hide", "=ds=#s4#", "", "70%"};
+			{ 2, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#", "", "30%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Fenrus the Devourer"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepWolfMasterNandos"] = {
+	["Normal"] = {
+		{
+			{ 1, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#", "", "60%"};
+			{ 2, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#", "", "40%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Wolf Master Nandos"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepArchmageArugal"] = {
+	["Normal"] = {
+		{
+			{ 1, 6392, "", "=q3=Belt of Arugal", "=ds=#s10#, #a1#", "", "40%"};
+			{ 2, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#", "", "40%"};
+			{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#", "", "20%"};
+			{ 4, 5442, "", "=q1=Head of Arugal", "=ds=#m3#", "", "100%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Archmage Arugal"],
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepDeathswornCaptain"] = {
+	["Normal"] = {
+		{
+			{ 1, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#", "", "60%"};
+			{ 2, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#", "", "40%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Deathsworn Captain"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "ShadowfangKeep",
+	},
+};
+
+AtlasLoot_Data["ShadowfangKeepTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 1935, "", "=q3=Assassin's Blade", "=ds=#h1#, #w4#", "", "~0.045%" },
+			{ 2, 3194, "", "=q3=Black Malice", "=ds=#h2#, #w6#", "", "~0.04%" },
+			{ 3, 2205, "", "=q3=Duskbringer", "=ds=#h2#, #w10#", "", "~0.04%" },
+			{ 4, 1483, "", "=q3=Face Smasher", "=ds=#h1#, #w6#", "", "~0.07%" },
+			{ 5, 1489, "", "=q3=Gloomshroud Armor", "=ds=#s5#, #a2#", "", "~0.025%" },
+			{ 6, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "~0.05%" },
+			{ 7, 1974, "", "=q3=Mindthrust Bracers", "=ds=#s8#, #a1#", "", "~0.035%" },
+			{ 8, 2292, "", "=q3=Necrology Robes", "=ds=#s5#, #a1#", "", "~0.03%" },
+			{ 9, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "~0.07%" },
+			{ 10, 1482, "", "=q3=Shadowfang", "=ds=#h1#, #w10#", "", "~0.04%" },
+			{ 11, 1484, "", "=q3=Witching Stave", "=ds=#w9#", "", "~0.06%" },
+			
+			{ 16, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#e1# =q1=Fel Steed", "", "29.2%"},
+			{ 17, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15# =q1=Fel Steed", "", "8.2%"},
+			
+			{ 19, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3# =q1=Arugal's Voidwalker", "", "3.4%"};
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
 		module = moduleName,
 		instance = "ShadowfangKeep",
 	},
@@ -4667,7 +4761,7 @@ AtlasLoot_Data["WailingCavernsLadyAnacondra"] = {
 		{
 			{ 1, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "80%"},
 			{ 2, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "10%"},
-			{ 3, 6446, "", "=q3=Snakeskin Bag", "#e1#", "", "10%"},
+			{ 3, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "", "10%"},
 			{ 4, 9739, "", "=q1=Gem of Anacondra", "=ds=#m3#", "", "100%"},
 		},
 	},
