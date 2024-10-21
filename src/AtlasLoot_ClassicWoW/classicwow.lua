@@ -679,59 +679,129 @@ AtlasLoot_Data["AQ40Trash"] = {
 --- Blackfathom Deeps ---
 -------------------------
 
-AtlasLoot_Data["Blackfathom"] = {
+AtlasLoot_Data["BlackfathomDeepsGhamoora"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Ghamoo-ra"],          "" },
-			{ 2,  6908,  "",           "=q3=Ghamoo-Ra's Bind",                     "=ds=#s10#, #a1#",          "", "50%" },
-			{ 3,  6907,  "",           "=q3=Tortoise Armor",                       "=ds=#s5#, #a3#",           "", "50%" },
-			{ 6,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lady Sarevess"],      "" },
-			{ 7,  888,   "",           "=q3=Naga Battle Gloves",                   "=ds=#s9#, #a2#",           "", "33%" },
-			{ 8,  11121, "",           "=q3=Darkwater Talwar",                     "=ds=#h1#, #w10#",          "", "33%" },
-			{ 9,  3078,  "",           "=q3=Naga Heartpiercer",                    "=ds=#w2#",                 "", "33%" },
-			{ 11, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Gelihast"],           "" },
-			{ 12, 6906,  "",           "=q3=Algae Fists",                          "=ds=#s9#, #a3#",           "", "50%" },
-			{ 13, 6905,  "",           "=q3=Reef Axe",                             "=ds=#h2#, #w1#",           "", "50%" },
-			{ 14, 1470,  "",           "=q1=Murloc Skin Bag",                      "=ds=#e1#",                 "", "12%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Baron Aquanis"],      "" },
-			{ 17, 16782, "",           "=q2=Strange Water Globe",                  "=ds=#m2# (#m6#)",          "", "100%" },
-			{ 18, 16886, "",           "=q3=Outlaw Sabre",                         "=q1=#m4#: =ds=#h1#, #w10#" },
-			{ 19, 16887, "",           "=q3=Witch's Finger",                       "=q1=#m4#: =ds=#s15#" },
-			{ 21, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Twilight Lord Kelris"], "" },
-			{ 22, 6903,  "",           "=q3=Gaze Dreamer Pants",                   "=ds=#s11#, #a1#",          "", "50%" },
-			{ 23, 1155,  "",           "=q3=Rod of the Sleepwalker",               "=ds=#w9#",                 "", "50%" },
-			{ 24, 5881,  "",           "=q1=Head of Kelris",                       "=ds=#m3#",                 "", "100%" },
-			{ 26, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Old Serra'kis"],      "" },
-			{ 27, 6901,  "",           "=q3=Glowing Thresher Cape",                "=ds=#s4#",                 "", "33%" },
-			{ 28, 6902,  "",           "=q3=Bands of Serra'kis",                   "=ds=#s8#, #a2#",           "", "33%" },
-			{ 29, 6904,  "",           "=q3=Bite of Serra'kis",                    "=ds=#h1#, #w4#",           "", "33%" },
-		},
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Aku'mai"], "" },
-			{ 2,  6910,  "",           "=q3=Leech Pants",               "=ds=#s11#, #a1#", "", "33%" },
-			{ 3,  6911,  "",           "=q3=Moss Cinch",                "=ds=#s10#, #a2#", "", "33%" },
-			{ 4,  6909,  "",           "=q3=Strike of the Hydra",       "=ds=#h2#, #w10#", "", "33%" },
-			{ 6,  0,     "INV_Box_01", "=q6=" .. AL["Quest Item"],      "" },
-			{ 7,  5359,  "",           "=q1=Lorgalis Manuscript",       "=ds=#m3#",        "", "100%" },
-			{ 8,  16762, "",           "=q1=Fathom Core",               "=ds=#m3#",        "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],      "" },
-			{ 17, 1486,  "",           "=q3=Tree Bark Jacket",          "=ds=#s5#, #a1#" },
-			{ 18, 3416,  "",           "=q3=Martyr's Chain",            "=ds=#s5#, #a3#" },
-			{ 19, 1491,  "",           "=q3=Ring of Precision",         "=ds=#s13#" },
-			{ 20, 3413,  "",           "=q3=Doomspike",                 "=ds=#h1#, #w4#" },
-			{ 21, 2567,  "",           "=q3=Evocator's Blade",          "=ds=#h1#, #w4#" },
-			{ 22, 3417,  "",           "=q3=Onyx Claymore",             "=ds=#h2#, #w10#" },
-			{ 23, 1454,  "",           "=q3=Axe of the Enforcer",       "=ds=#h1#, #w1#" },
-			{ 24, 1481,  "",           "=q3=Grimclaw",                  "=ds=#h1#, #w1#" },
-			{ 25, 3414,  "",           "=q3=Crested Scepter",           "=ds=#h1#, #w6#" },
-			{ 26, 3415,  "",           "=q3=Staff of the Friar",        "=ds=#w9#" },
-			{ 27, 2271,  "",           "=q3=Staff of the Blessed Seer", "=ds=#w9#" },
+			{ 1, 6908, "", "=q3=Ghamoo-ra's Bind", "=ds=#s10#, #a1#", "", "60%"},
+			{ 2, 6907, "", "=q3=Tortoise Armor", "=ds=#s5#, #a3#", "", "40%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Blackfathom Deeps"],
+		name = BabbleBoss["Ghamoo-ra"],
 		module = moduleName,
-		instance = "BlackfathomDeeps",
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsLadySarevess"] = {
+	["Normal"] = {
+		{
+			{ 1, 11121, "", "=q3=Darkwater Talwar", "=ds=#h1#, #w10#", "", "40%"},
+			{ 2, 888, "", "=q3=Naga Battle Gloves", "=ds=#s9#, #a2#", "", "40%"},
+			{ 3, 3078, "", "=q3=Naga Heartpiercer", "=ds=#w2#", "", "20%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Lady Sarevess"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsGelihast"] = {
+	["Normal"] = {
+		{
+			{ 1, 6906, "", "=q3=Algae Fists", "=ds=#s9#, #a3#", "", "50%"},
+			{ 2, 6905, "", "=q3=Reef Axe", "=ds=#h2#, #w1#", "", "50%"},
+			{ 3, 1470, "", "=q1=Murloc Skin Bag", "=ds=#e1#", "", "15%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Gelihast"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsBaronAquanis"] = {
+	["Normal"] = {
+		{
+			{ 1, 16782, "", "=q2=Strange Water Globe", "=ds=#m2# (#m6#)", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Baron Aquanis"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsOldSerrakis"] = {
+	["Normal"] = {
+		{
+			{ 1, 6901, "", "=q3=Glowing Thresher Cape", "=ds=#s4#", "", "40%"};
+			{ 2, 6902, "", "=q3=Bands of Serra'kis", "=ds=#s8#, #a2#", "", "30%"};
+			{ 3, 6904, "", "=q3=Bite of Serra'kis", "=ds=#h1#, #w4#", "", "30%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Old Serra'kis"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsTwilightLordKelris"] = {
+	["Normal"] = {
+		{
+			{ 1, 1155, "", "=q3=Rod of the Sleepwalker", "=ds=#w9#", "", "60%"};
+			{ 2, 6903, "", "=q3=Gaze Dreamer Pants", "=ds=#s11#, #a1#", "", "40%"};
+			{ 3, 5881, "", "=q1=Head of Kelris", "=ds=#m3#",  "", "100%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Twilight Lord Kelris"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsAkumai"] = {
+	["Normal"] = {
+		{
+			{ 1, 6910, "", "=q3=Leech Pants", "=ds=#s11#, #a1#", "", "40%"};
+			{ 2, 6911, "", "=q3=Moss Cinch", "=ds=#s10#, #a2#", "", "40%"};
+			{ 3, 6909, "", "=q3=Strike of the Hydra", "=ds=#h2#, #w10#", "", "20%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Aku'mai"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
+	},
+};
+
+AtlasLoot_Data["BlackfathomDeepsTrash"] = {
+	["Normal"] = {
+		{
+			{ 1,  1454, "", "=q3=Axe of the Enforcer", "=ds=#h1#, #w1#", "", "~0.055%" },
+			{ 2,  3414, "", "=q3=Crested Scepter", "=ds=#h1#, #w6#", "", "~0.07%" },
+			{ 3,  3413, "", "=q3=Doomspike", "=ds=#h1#, #w4#", "", "~0.04%" },
+			{ 4,  2567, "", "=q3=Evocator's Blade", "=ds=#h1#, #w4#", "", "~0.06%" },
+			{ 5,  1481, "", "=q3=Grimclaw", "=ds=#h1#, #w1#", "", "~0.05%" },
+			{ 6,  3416, "", "=q3=Martyr's Chain", "=ds=#s5#, #a3#", "", "~0.13%" },
+			{ 7,  3417, "", "=q3=Onyx Claymore", "=ds=#h2#, #w10#", "", "~0.05%" },
+			{ 8,  1491, "", "=q3=Ring of Precision", "=ds=#s13#", "", "~0.295%" },
+			{ 9,  2034, "", "=q2=Scholarly Robes", "=ds=#s5#, #a1#", "", "~1.75%" },
+			{ 10,  2271, "", "=q3=Staff of the Blessed Seer", "=ds=#w9#", "", "~0.06%" },
+			{ 11,  3415, "", "=q3=Staff of the Friar", "=ds=#w9#", "", "~0.18%" },
+			{ 12,  1486, "", "=q3=Tree Bark Jacket", "=ds=#s5#, #a1#", "", "~0.36%" },
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
+		module = moduleName,
+		instance = "BlackFathomDeeps",
 	},
 };
 
@@ -3794,7 +3864,7 @@ AtlasLoot_Data["ShadowfangKeepCommanderSpringvale"] = {
 	["Normal"] = {
 		{
 			{ 1, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#", "", "50%"},
-			{ 2, 6320, "", "=q3=Commander's Crest", "=ds=#h2#, #w1#", "", "50%"},
+			{ 2, 6320, "", "=q3=Commander's Crest", "=ds=#w8#", "", "50%"},
 		},
 	},
 	info = {
@@ -4363,12 +4433,12 @@ AtlasLoot_Data["DeadminesCaptainGreenskin"] = {
 AtlasLoot_Data["DeadminesVanCleef"] = {
 	["Normal"] = {
 		{
-			{ 1, 5193,  "", "=q3=Cape of the Brotherhood", "=ds=#s4#",        "",  "30%"};
-			{ 2, 5202,  "", "=q3=Corsair's Overshirt",     "=ds=#s5#, #a1#",  "",  "30%"};
-			{ 3, 10399, "", "=q3=Blackened Defias Armor",  "=ds=#s5#, #a2#",  "",  "20%"};
-			{ 4, 5191,  "", "=q3=Cruel Barb",              "=ds=#h1#, #w10#", "",  "20%"};
-			{ 5, 2874,  "", "=q1=An Unsent Letter",        "=ds=#m2#",        "" , "100%"};
-			{ 6, 3637,  "", "=q1=Head of VanCleef",        "=ds=#m3#",        "" , "100%"};
+			{ 1, 5193,  "", "=q3=Cape of the Brotherhood", "=ds=#s4#",        "", "30%"};
+			{ 2, 5202,  "", "=q3=Corsair's Overshirt",     "=ds=#s5#, #a1#",  "", "30%"};
+			{ 3, 10399, "", "=q3=Blackened Defias Armor",  "=ds=#s5#, #a2#",  "", "20%"};
+			{ 4, 5191,  "", "=q3=Cruel Barb",              "=ds=#h1#, #w10#", "", "20%"};
+			{ 5, 2874,  "", "=q1=An Unsent Letter",        "=ds=#m2# (#m7#)", "", "100%"};
+			{ 6, 3637,  "", "=q1=Head of VanCleef",        "=ds=#m3#", 	 	  "", "100%"};
 		},
 	},
 	info = {
