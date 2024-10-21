@@ -753,8 +753,14 @@ AtlasLoot_LootTableRegister = {
 
 		["BlackfathomDeeps"] = {
 			["Bosses"] = {
-				{ "Blackfathom#1", { 3, 4, 5, 7, 8, 11 } },
-				{ "Blackfathom#2", { 9, 12, 19 },        hide = true },
+				{ "BlackfathomDeepsGhamoora", 1 },
+				{ "BlackfathomDeepsLadySarevess", 2 },
+				{ "BlackfathomDeepsGelihast", 3 },
+				{ "BlackfathomDeepsBaronAquanis", 4 },
+				{ "BlackfathomDeepsOldSerrakis", 5 },
+				{ "BlackfathomDeepsTwilightLordKelris", 6 },
+				{ "BlackfathomDeepsAkumai", 7 },
+				{ "BlackfathomDeepsTrash", 8 },
 			},
 			["Info"] = { "[23] " .. BabbleZone["Blackfathom Deeps"], "AtlasLootClassicWoW", mapname = "BlackFathomDeeps" },
 		},
