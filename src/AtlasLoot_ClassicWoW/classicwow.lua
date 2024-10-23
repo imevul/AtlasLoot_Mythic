@@ -2964,57 +2964,125 @@ AtlasLoot_Data["DMWTrash"] = {
 --- Gnomeregan ---
 ------------------
 
-AtlasLoot_Data["GnomereganLoot"] = {
+AtlasLoot_Data["GnomereganGrubbis"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Grubbis"],            "" },
-			{ 2,  9445, "",           "=q3=Grubbis Paws",                         "=ds=#s9#, #a3#",  "", "9.22%" },
-			{ 4,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Viscous Fallout"],    "" },
-			{ 5,  9454, "",           "=q3=Acidic Walkers",                       "=ds=#s12#, #a1#", "", "54.02%" },
-			{ 6,  9453, "",           "=q3=Toxic Revenger",                       "=ds=#h1#, #w4#",  "", "19.05%" },
-			{ 7,  9452, "",           "=q3=Hydrocane",                            "=ds=#w9#",        "", "18.25%" },
-			{ 9,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Electrocutioner 6000"], "" },
-			{ 10, 9448, "",           "=q3=Spidertank Oilrag",                    "=ds=#s8#, #a1#",  "", "28.37%" },
-			{ 11, 9447, "",           "=q3=Electrocutioner Lagnut",               "=ds=#s13#",       "", "28.44%" },
-			{ 12, 9446, "",           "=q3=Electrocutioner Leg",                  "=ds=#h1#, #w10#", "", "13.19%" },
-			{ 16, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Crowd Pummeler 9-60"], "" },
-			{ 17, 9450, "",           "=q3=Gnomebot Operating Boots",             "=ds=#s12#, #a2#", "", "60.45%" },
-			{ 18, 9449, "",           "=q3=Manual Crowd Pummeler",                "=ds=#h2#, #w6#",  "", "33.14%" },
-			{ 20, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Dark Iron Ambassador"], "" },
-			{ 21, 9455, "",           "=q3=Emissary Cuffs",                       "=ds=#s8#, #a2#",  "", "33.96%" },
-			{ 22, 9457, "",           "=q3=Royal Diplomatic Scepter",             "=ds=#h1#, #w6#",  "", "17.79%" },
-			{ 23, 9456, "",           "=q3=Glass Shooter",                        "=ds=#w5#",        "", "38.01%" },
-		},
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Mekgineer Thermaplugg"], "" },
-			{ 2,  9492,  "",           "=q3=Electromagnetic Gigaflux Reactivator",  "=ds=#s1#, #a1#",     "", "7.65%" },
-			{ 3,  9461,  "",           "=q3=Charged Gear",                          "=ds=#s13#",          "", "28.49%" },
-			{ 4,  9459,  "",           "=q3=Thermaplugg's Left Arm",                "=ds=#h2#, #w1#",     "", "18.05%" },
-			{ 5,  9458,  "",           "=q3=Thermaplugg's Central Core",            "=ds=#w8#",           "", "28.61%" },
-			{ 6,  4415,  "",           "=q3=Schematic: Craftsman's Monocle",        "=ds=#p5# (185)",     "", "" },
-			{ 7,  11828, "",           "=q2=Schematic: Pet Bombling",               "=ds=#p5# (205)",     "", "" },
-			{ 8,  4413,  "",           "=q2=Schematic: Discombobulator Ray",        "=ds=#p5# (160)",     "", "" },
-			{ 9,  4411,  "",           "=q2=Schematic: Flame Deflector",            "=ds=#p5# (125)",     "", "0.7%" },
-			{ 10, 7742,  "",           "=q1=Schematic: Gnomish Cloaking Device",    "=ds=#p5# (200)",     "", "" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],                  "" },
-			{ 17, 9508,  "",           "=q3=Mechbuilder's Overalls",                "=ds=#s5#, #a1#",     "", "0.02%" },
-			{ 18, 9491,  "",           "=q3=Hotshot Pilot's Gloves",                "=ds=#s9#, #a1#",     "", "0.01%" },
-			{ 19, 9509,  "",           "=q3=Petrolspill Leggings",                  "=ds=#s11#, #a2#",    "", "0.01%" },
-			{ 20, 9510,  "",           "=q3=Caverndeep Trudgers",                   "=ds=#s12#, #a3#",    "", "0.01%" },
-			{ 21, 9490,  "",           "=q3=Gizmotron Megachopper",                 "=ds=#h2#, #w10#",    "", "0.01%" },
-			{ 22, 9485,  "",           "=q3=Vibroblade",                            "=ds=#h1#, #w1#",     "", "0.01%" },
-			{ 23, 9486,  "",           "=q3=Supercharger Battle Axe",               "=ds=#h2#, #w1#",     "", "0.02%" },
-			{ 24, 9488,  "",           "=q3=Oscillating Power Hammer",              "=ds=#h1#, #w6#",     "", "0.02%" },
-			{ 25, 9487,  "",           "=q3=Hi-Tech Supergun",                      "=ds=#w5#",           "", "0.01%" },
-			{ 26, 11827, "",           "=q2=Schematic: Lil' Smoky",                 "=ds=#p5# (205)",     "", "" },
-			{ 27, 9327,  "",           "=q2=Security DELTA Data Access Card",       "=ds=#m20#",          "", "1.41%" },
-			{ 28, 9326,  "",           "=q1=Grime-Encrusted Ring",                  "=ds=#m2#",           "", "9.38%" },
-			{ 29, 9538,  "",           "=q3=Talvash's Gold Ring",                   "=q1=#m4#: =ds=#s13#" },
-			{ 30, 9362,  "",           "=q2=Brilliant Gold Ring",                   "=q1=#m4#: =ds=#s13#" },
+			{ 1, 9445, "", "=q3=Grubbis Paws", "=ds=#s9#, #a3#", "", "10%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Gnomeregan"],
+		name = BabbleBoss["Grubbis"],
+		module = moduleName,
+		instance = "Gnomeregan",
+	},
+};
+
+AtlasLoot_Data["GnomereganViscousFallout"] = {
+	["Normal"] = {
+		{
+			{ 1, 9454, "", "=q3=Acidic Walkers", "=ds=#s12#, #a1#", "", "33.3%"},
+			{ 2, 9452, "", "=q3=Hydrocane", "=ds=#w9#", "", "33.3%"},
+			{ 3, 9453, "", "=q3=Toxic Revenger", "=ds=#h1#, #w4#", "", "33.3%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Viscous Fallout"],
+		module = moduleName,
+		instance = "Gnomeregan",
+	},
+};
+
+AtlasLoot_Data["GnomereganElectrocutioner6000"] = {
+	["Normal"] = {
+		{
+			{ 1, 9447, "", "=q3=Electrocutioner Lagnut", "=ds=#s13#", "", "33.3%"},
+			{ 2, 9446, "", "=q3=Electrocutioner Leg", "=ds=#h1#, #w10#", "", "33.3%"},
+			{ 3, 9448, "", "=q3=Spidertank Oilrag", "=ds=#s8#, #a1#", "", "33.3%"},
+			{ 4, 6893, "", "=q1=Workshop Key", "=ds=#e9#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Electrocutioner 6000"],
+		module = moduleName,
+		instance = "Gnomeregan",
+	},
+};
+
+AtlasLoot_Data["GnomereganCrowdPummeler960"] = {
+	["Normal"] = {
+		{
+			{ 1, 9450, "", "=q3=Gnomebot Operating Boots", "=ds=#s12#, #a2#", "", "60%"},
+			{ 2, 9449, "", "=q3=Manual Crowd Pummeler", "=ds=#h2#, #w6#", "", "40%"},
+			{ 4, 11827, "", "=q2=Schematic: Lil' Smoky", "=ds=#p5# (205)", "", "50%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Crowd Pummeler 9-60"],
+		module = moduleName,
+		instance = "Gnomeregan",
+	},
+};
+
+AtlasLoot_Data["GnomereganMekgineerThermaplugg"] = {
+	["Normal"] = {
+		{
+			{ 1, 9461, "", "=q3=Charged Gear", "=ds=#s13#", "", "30%"},
+			{ 2, 9458, "", "=q3=Thermaplugg's Central Core", "=ds=#w8#", "", "30%"},
+			{ 3, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "=ds=#s1#, #a1#", "", "20%"},
+			{ 4, 9459, "", "=q3=Thermaplugg's Left Arm", "=ds=#h2#, #w1#", "", "20%"},
+			{ 5, 9299, "", "=q1=Thermaplugg's Safe Combination", "=ds=#m3#", "", "100%"},
+			{ 7, 4415, "", "=q3=Schematic: Craftsman's Monocle", "=ds=#p5# (185)", "", "2%"},
+			{ 8, 4413, "", "=q2=Schematic: Discombobulator Ray", "=ds=#p5# (160)", "", "2%"},
+			{ 9, 4411, "", "=q2=Schematic: Flame Deflector", "=ds=#p5# (125)", "", "2%"},
+			{ 10, 7742, "", "=q2=Schematic: Gnomish Cloaking Device", "=ds=#p5# (200)", "", "2%"},
+			{ 11, 11828, "", "=q1=Schematic: Pet Bombling", "=ds=#p5# (205)", "", "90%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Mekgineer Thermaplugg"],
+		module = moduleName,
+		instance = "Gnomeregan",
+	},
+};
+
+AtlasLoot_Data["GnomereganDarkIronAmbassador"] = {
+	["Normal"] = {
+		{
+			{ 1, 9455, "", "=q3=Emissary Cuffs", "=ds=#s8#, #a2#", "", "33.3%"};
+			{ 2, 9456, "", "=q3=Glass Shooter", "=ds=#w5#", "", "33.3%"};
+			{ 3, 9457, "", "=q3=Royal Diplomatic Scepter", "=ds=#h1#, #w6#", "", "33.3%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Dark Iron Ambassador"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "Gnomeregan",
+	},
+};
+
+AtlasLoot_Data["GnomereganTrash"] = {
+	["Normal"] = {
+		{
+			{1, 9510, "", "=q3=Caverndeep Trudgers", "=ds=#s12#, #a3#", "", "~0.035%"},
+			{2, 9490, "", "=q3=Gizmotron Megachopper", "=ds=#h2#, #w10#", "", "~0.15%"},
+			{3, 9489, "", "=q2=Gyromatic Icemaker", "=ds=#w12#", "", "~0.04%"},
+			{4, 9487, "", "=q3=Hi-tech Supergun", "=ds=#w5#", "", "~0.07%"},
+			{5, 9491, "", "=q3=Hotshot Pilot's Gloves", "=ds=#s9#, #a1#", "", "~0.09%"},
+			{6, 9508, "", "=q3=Mechbuilder's Overalls", "=ds=#s5#, #a1#", "", "~0.31%"},
+			{7, 9488, "", "=q3=Oscillating Power Hammer", "=ds=#h1#, #w6#", "", "~0.08%"},
+			{8, 9509, "", "=q3=Petrolspill Leggings", "=ds=#s11#, #a2#", "", "~0.05%"},
+			{9, 9486, "", "=q3=Supercharger Battle Axe", "=ds=#h2#, #w1#", "", "~0.07%"},
+			{10, 9485, "", "=q3=Vibroblade", "=ds=#h1#, #w1#", "", "~0.08%"},
+			{12, 11827, "", "=q2=Schematic: Lil' Smoky", "=ds=#p5# (205) =q1=Arcane Nullifier/Peacekeeper Security", "", "10%"},
+			{14, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#, =ds=#p5# (1)", "", "3%"},
+			{16, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2# =q1=Dark Iron Agent", "", "8%"},
+			{17, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#", "", ""},
+			{18, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13# =q1=(#m7#)", "", ""},
+			{19, 9588, "", "=q3=Nogg's Gold Ring", "=q1=#m4#: =ds=#s13# =q1=(#m6#)", "", ""},
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
 		module = moduleName,
 		instance = "Gnomeregan",
 	},
