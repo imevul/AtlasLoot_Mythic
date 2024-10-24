@@ -3203,54 +3203,115 @@ AtlasLoot_Data["RagefireChasmZelemarTheWrathful"] = {
 --- Razorfen Downs ---
 ----------------------
 
-AtlasLoot_Data["RazorfenDownsLoot"] = {
+AtlasLoot_Data["RazorfenDownsTutenkash"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,        "INV_Box_01", "=q6=" .. BabbleBoss["Tuten'kash"],       "" },
-			{ 2,  10776,    "",           "=q3=Silky Spider Cape",                  "=ds=#s4#",        "", "28.64%" },
-			{ 3,  10777,    "",           "=q3=Arachnid Gloves",                    "=ds=#s9#, #a2#",  "", "28.95%" },
-			{ 4,  10775,    "",           "=q3=Carapace of Tuten'kash",             "=ds=#s5#, #a4#",  "", "24.87%" },
-			{ 6,  0,        "INV_Box_01", "=q6=" .. BabbleBoss["Henry Stern"],      "" },
-			{ 7,  3831,     "",           "=q2=Recipe: Major Troll's Blood Elixir", "=ds=#p1# (180)" },
-			{ 8,  "s13028", "10841",      "=q1=Goldthorn Tea",                      "=ds=#p3# (175)" },
-			{ 10, 0,        "INV_Box_01", "=q6=" .. BabbleBoss["Mordresh Fire Eye"], "" },
-			{ 11, 10771,    "",           "=q3=Deathmage Sash",                     "=ds=#s10#, #a1#", "", "27.92%" },
-			{ 12, 10769,    "",           "=q3=Glowing Eye of Mordresh",            "=ds=#s2#",        "", "29.11%" },
-			{ 13, 10770,    "",           "=q3=Mordresh's Lifeless Skull",          "=ds=#s15#",       "", "29.59%" },
-			{ 16, 0,        "INV_Box_01", "=q6=" .. BabbleBoss["Glutton"],          "" },
-			{ 17, 10774,    "",           "=q3=Fleshhide Shoulders",                "=ds=#s3#, #a2#",  "", "42.15%" },
-			{ 18, 10772,    "",           "=q3=Glutton's Cleaver",                  "=ds=#h1#, #w1#",  "", "44.22%" },
-			{ 20, 0,        "INV_Box_01", "=q6=" .. BabbleBoss["Ragglesnout"],      "" },
-			{ 21, 10768,    "",           "=q3=Boar Champion's Belt",               "=ds=#s10#, #a3#", "", "31.40%" },
-			{ 22, 10758,    "",           "=q3=X'caliboar",                         "=ds=#h2#, #w10#", "", "18.51%" },
-			{ 23, 10767,    "",           "=q3=Savage Boar's Guard",                "=ds=#w8#",        "", "35.14%" },
-		},
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Amnennar the Coldbringer"], "" },
-			{ 2,  10762, "",           "=q3=Robes of the Lich",                        "=ds=#s5#, #a1#",               "", "29.52%" },
-			{ 3,  10765, "",           "=q3=Bonefingers",                              "=ds=#s9#, #a2#" },
-			{ 4,  10764, "",           "=q3=Deathchill Armor",                         "=ds=#s5#, #a3#",               "", "24.24%" },
-			{ 5,  10763, "",           "=q3=Icemetal Barbute",                         "=ds=#s1#, #a4#",               "", "28.66%" },
-			{ 6,  10761, "",           "=q3=Coldrage Dagger",                          "=ds=#h1#, #w4#",               "", "13.89%" },
-			{ 8,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Plaguemaw the Rotting"],  "" },
-			{ 9,  10760, "",           "=q3=Swine Fists",                              "=ds=#s9#, #a2#",               "", "58.15%" },
-			{ 10, 10766, "",           "=q3=Plaguerot Sprig",                          "=ds=#w12#, =q1=#m1# =ds=#c3#", "", "29.98%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],                     "" },
-			{ 17, 10574, "",           "=q3=Corpseshroud",                             "=ds=#s1#, #a1#",               "", "0.01%" },
-			{ 18, 10581, "",           "=q3=Death's Head Vestment",                    "=ds=#s5#, #a1#",               "", "0.02%" },
-			{ 19, 10578, "",           "=q3=Thoughtcast Boots",                        "=ds=#s12#, #a1#",              "", "0.01%" },
-			{ 20, 10583, "",           "=q3=Quillward Harness",                        "=ds=#s5#, #a2#",               "", "0.01%" },
-			{ 21, 10582, "",           "=q3=Briar Tredders",                           "=ds=#s12#, #a2#",              "", "0.02%" },
-			{ 22, 10584, "",           "=q3=Stormgale Fists",                          "=ds=#s9#, #a4#",               "", "0.02%" },
-			{ 23, 10573, "",           "=q3=Boneslasher",                              "=ds=#h2#, #w10#",              "", "0.01%" },
-			{ 24, 10570, "",           "=q3=Manslayer",                                "=ds=#h2#, #w1#",               "", "0.01%" },
-			{ 25, 10571, "",           "=q3=Ebony Boneclub",                           "=ds=#h1#, #w6#",               "", "0.01%" },
-			{ 26, 10567, "",           "=q3=Quillshooter",                             "=ds=#w2#",                     "", "0.02%" },
-			{ 27, 10572, "",           "=q3=Freezing Shard",                           "=ds=#w12#, =q1=#m1# =q2=#c3#", "", "0.01%" },
+			{ 1, 10777, "", "=q3=Arachnid Gloves", "=ds=#s9#, #a2#", "", "33.3%"},
+			{ 2, 10775, "", "=q3=Carapace of Tuten'kash", "=ds=#s5#, #a4#", "", "33.3%"},
+			{ 3, 10776, "", "=q3=Silky Spider Cape", "=ds=#s4#", "", "33.3%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Razorfen Downs"],
+		name = BabbleBoss["Tuten'kash"],
+		module = moduleName,
+		instance = "RazorfenDowns",
+	},
+};
+
+AtlasLoot_Data["RazorfenDownsMordreshFireEye"] = {
+	["Normal"] = {
+		{
+			{ 1, 10771, "", "=q3=Deathmage Sash", "=ds=#s10#, #a1#", "", "33.3%"},
+			{ 2, 10769, "", "=q3=Glowing Eye of Mordresh", "=ds=#s2#", "", "33.3%"},
+			{ 3, 10770, "", "=q3=Mordresh's Lifeless Skull", "=ds=#s15#", "", "33.3%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Mordresh Fire Eye"],
+		module = moduleName,
+		instance = "RazorfenDowns",
+	},
+};
+
+AtlasLoot_Data["RazorfenDownsPlaguemawTheRotting"] = {
+	["Normal"] = {
+		{
+			{ 1, 10760, "", "=q3=Swine Fists", "=ds=#s9#, #a2#", "", "60%"},
+			{ 2, 10766, "", "=q3=Plaguerot Sprig", "=ds=#w12#, =q1=#m1# =ds=#c3#", "", "40%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Plaguemaw the Rotting"],
+		module = moduleName,
+		instance = "RazorfenDowns",
+	},
+};
+
+AtlasLoot_Data["RazorfenDownsGlutton"] = {
+	["Normal"] = {
+		{
+			{ 1, 10774, "", "=q3=Fleshhide Shoulders", "=ds=#s3#, #a2#", "", "50%"},
+			{ 2, 10772, "", "=q3=Glutton's Cleaver", "=ds=#h1#, #w1#", "", "50%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Glutton"],
+		module = moduleName,
+		instance = "RazorfenDowns",
+	},
+};
+
+AtlasLoot_Data["RazorfenDownsAmnennarTheColdbringer"] = {
+	["Normal"] = {
+		{
+			{ 1, 10765, "", "=q3=Bonefingers", "=ds=#s9#, #a2#", "", "20%"},
+			{ 2, 10761, "", "=q3=Coldrage Dagger", "=ds=#h1#, #w4#", "", "20%"},
+			{ 3, 10764, "", "=q3=Deathchill Armor", "=ds=#s5#, #a3#", "", "20%"},
+			{ 4, 10763, "", "=q3=Icemetal Barbute", "=ds=#s1#, #a4#", "", "20%"},
+			{ 5, 10762, "", "=q3=Robes of the Lich", "=ds=#s5#, #a1#", "", "20%"},
+			{ 6, 10420, "", "=q1=Skull of the Coldbringer", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Amnennar the Coldbringer"],
+		module = moduleName,
+		instance = "RazorfenDowns",
+	},
+};
+
+AtlasLoot_Data["RazorfenDownsRagglesnout"] = {
+	["Normal"] = {
+		{
+			{ 1, 10768, "", "=q3=Boar Champion's Belt", "=ds=#s10#, #a3#", "", "40%"};
+			{ 2, 10767, "", "=q3=Savage Boar's Guard", "=ds=#w8#", "", "40%"};
+			{ 3, 10758, "", "=q3=X'caliboar", "=ds=#h2#, #w10#", "", "20%"};
+		},
+	},
+	info = {
+		name = BabbleBoss["Ragglesnout"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "RazorfenDowns",
+	},
+};
+
+AtlasLoot_Data["RazorfenDownsTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 10573, "", "=q3=Boneslasher", "=ds=#h2#, #w10#", "", "~0.06%"},
+			{ 2, 10582, "", "=q3=Briar Tredders", "=ds=#s12#, #a2#", "", "~0.035%"},
+			{ 3, 10574, "", "=q3=Corpseshroud", "=ds=#s1#, #a1#", "", "~0.045%"},
+			{ 4, 10581, "", "=q3=Death's Head Vestment", "=ds=#s5#, #a1#", "", "~0.05%"},
+			{ 5, 10571, "", "=q3=Ebony Boneclub", "=ds=#h1#, #w6#", "", "~0.07%"},
+			{ 6, 10572, "", "=q3=Freezing Shard", "=ds=#w12#, =q1=#m1# =q2=#c3#", "", "~0.03%"},
+			{ 7, 10570, "", "=q3=Manslayer", "=ds=#h2#, #w1#", "", "~0.04%"},
+			{ 8, 10567, "", "=q3=Quillshooter", "=ds=#w2#", "", "~0.05%"},
+			{ 9, 10583, "", "=q3=Quillward Harness", "=ds=#s5#, #a2#", "", "~0.045%"},
+			{ 10, 10584, "", "=q3=Stormgale Fists", "=ds=#s9#, #a3#", "", "~0.045%"},
+			{ 11, 10578, "", "=q3=Thoughtcast Boots", "=ds=#s12#, #a1#", "", "~0.065%"},
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
 		module = moduleName,
 		instance = "RazorfenDowns",
 	},
