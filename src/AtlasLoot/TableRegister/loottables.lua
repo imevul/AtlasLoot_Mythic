@@ -980,8 +980,13 @@ AtlasLoot_LootTableRegister = {
 
 		["RazorfenDowns"] = {
 			["Bosses"] = {
-				{ "RazorfenDownsLoot#1", { 3, 4, 5, 8, 10 } },
-				{ "RazorfenDownsLoot#2", { 6, 7 },          hide = true },
+				{"RazorfenDownsTutenkash", 1},
+				{"RazorfenDownsMordreshFireEye", 2},
+				{"RazorfenDownsPlaguemawTheRotting", 3},
+				{"RazorfenDownsGlutton", 4},
+				{"RazorfenDownsAmnennarTheColdbringer", 5},
+				{"RazorfenDownsRagglesnout", 6},
+				{"RazorfenDownsTrash", 7},
 			},
 			["Info"] = { "[36] " .. BabbleZone["Razorfen Downs"], "AtlasLootClassicWoW", mapname = "RazorfenDowns" },
 		},
