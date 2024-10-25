@@ -3476,135 +3476,215 @@ AtlasLoot_Data["RazorfenKraulTrash"] = {
 --- Scarlet Monastery ---
 -------------------------
 
-AtlasLoot_Data["SMArmoryLoot"] = {
+AtlasLoot_Data["SMArmoryHerod"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Herod"],       "" },
-			{ 2,  7719,  "",           "=q3=Raging Berserker's Helm",       "=ds=#s1#, #a3#",  "", "30.62%" },
-			{ 3,  7718,  "",           "=q3=Herod's Shoulder",              "=ds=#s3#, #a3#",  "", "30.82%" },
-			{ 4,  10330, "",           "=q3=Scarlet Leggings",              "=ds=#s11#, #a3#", "", "12.75%" },
-			{ 5,  7717,  "",           "=q3=Ravager",                       "=ds=#h2#, #w1#",  "", "12.86%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Scarlet Trainee"],     "" },
-			{ 17, 23192, "",           "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#",        "", "0.4%" },
+			{ 1, 7718, "", "=q3=Herod's Shoulder", "=ds=#s3#, #a3#", "", "25%"},
+			{ 2, 7719, "", "=q3=Raging Berserker's Helm", "=ds=#s1#, #a3#", "", "25%"},
+			{ 3, 7717, "", "=q3=Ravager", "=ds=#h2#, #w1#", "", "25%"},
+			{ 4, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "", "25%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Scarlet Monastery"] .. ": " .. BabbleZone["Armory"],
+		name = BabbleBoss["Herod"],
 		module = moduleName,
-	},
-};
-
-AtlasLoot_Data["SMCathedralLoot"] = {
-	["Normal"] = {
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["High Inquisitor Fairbanks"], "" },
-			{ 2,  19507, "",           "=q3=Inquisitor's Shawl",                         "=ds=#s3#, #a1#",  "", "15.94%" },
-			{ 3,  19508, "",           "=q3=Branded Leather Bracers",                    "=ds=#s8#, #a2#",  "", "16.17%" },
-			{ 4,  19509, "",           "=q3=Dusty Mail Boots",                           "=ds=#s12#, #a3#", "", "17.24%" },
-			{ 6,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Scarlet Commander Mograine"], "" },
-			{ 7,  7724,  "",           "=q3=Gauntlets of Divinity",                      "=ds=#s9#, #a3#",  "", "17.49%" },
-			{ 8,  10330, "",           "=q3=Scarlet Leggings",                           "=ds=#s11#, #a3#", "", "12.95%" },
-			{ 9,  7723,  "",           "=q3=Mograine's Might",                           "=ds=#h2#, #w6#",  "", "17.13%" },
-			{ 10, 7726,  "",           "=q3=Aegis of the Scarlet Commander",             "=ds=#w8#",        "", "38.37%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["High Inquisitor Whitemane"], "" },
-			{ 17, 7720,  "",           "=q3=Whitemane's Chapeau",                        "=ds=#s1#, #a1#",  "", "34.01%" },
-			{ 18, 7722,  "",           "=q3=Triune Amulet",                              "=ds=#s2#",        "", "33.23%" },
-			{ 19, 7721,  "",           "=q3=Hand of Righteousness",                      "=ds=#h3#, #w6#",  "", "18.32%" },
-			{ 20, 20976, "",           "=q2=Design: Citrine Pendant of Golden Healing",  "=ds=#p12# (190)", "", "100%" },
-		},
-	},
-	info = {
-		name = BabbleZone["Scarlet Monastery"] .. ": " .. BabbleZone["Cathedral"],
-		module = moduleName,
-	},
-};
-
-AtlasLoot_Data["SMGraveyardLoot"] = {
-	["Normal"] = {
-		{
-			{ 1,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Interrogator Vishas"], "" },
-			{ 2,  7683, "",           "=q3=Bloody Brass Knuckles",                "=ds=#h1#, #w13#", "", "66.1%" },
-			{ 3,  7682, "",           "=q3=Torturing Poker",                      "=ds=#h1#, #w4#",  "", "5.56%" },
-			{ 5,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Bloodmage Thalnos"],  "" },
-			{ 6,  7684, "",           "=q3=Bloodmage Mantle",                     "=ds=#s3#, #a1#",  "", "48.46%" },
-			{ 7,  7685, "",           "=q3=Orb of the Forgotten Seer",            "=ds=#s15#",       "", "47.07%" },
-			{ 9,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Ironspine"],          "" },
-			{ 10, 7688, "",           "=q3=Ironspine's Ribcage",                  "=ds=#s5#, #a3#",  "", "32.91%" },
-			{ 11, 7686, "",           "=q3=Ironspine's Eye",                      "=ds=#s13#",       "", "40.08%" },
-			{ 12, 7687, "",           "=q3=Ironspine's Fist",                     "=ds=#h1#, #w6#",  "", "20.34%" },
-			{ 16, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Azshir the Sleepless"], "" },
-			{ 17, 7709, "",           "=q3=Blighted Leggings",                    "=ds=#s11#, #a1#", "", "31.19%" },
-			{ 18, 7731, "",           "=q3=Ghostshard Talisman",                  "=ds=#s2#",        "", "32.71%" },
-			{ 19, 7708, "",           "=q3=Necrotic Wand",                        "=ds=#w12#",       "", "30.72%" },
-			{ 21, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Fallen Champion"],    "" },
-			{ 22, 7691, "",           "=q3=Embalmed Shroud",                      "=ds=#s1#, #a1#",  "", "38.58%" },
-			{ 23, 7690, "",           "=q3=Ebon Vise",                            "=ds=#s9#, #a2#",  "", "37.83%" },
-			{ 24, 7689, "",           "=q3=Morbid Dawn",                          "=ds=#h2#, #w10#", "", "19.15%" },
-		},
-	},
-	info = {
-		name = BabbleZone["Scarlet Monastery"] .. ": " .. BabbleZone["Graveyard"],
-		module = moduleName,
-	},
-};
-
-AtlasLoot_Data["SMLibraryLoot"] = {
-	["Normal"] = {
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Houndmaster Loksey"], "" },
-			{ 2,  7756,  "",           "=q3=Dog Training Gloves",                "=ds=#s9#, #a2#", "", "53.66%" },
-			{ 3,  7710,  "",           "=q3=Loksey's Training Stick",            "=ds=#w9#",       "", "13.96%" },
-			{ 4,  3456,  "",           "=q3=Dog Whistle",                        "=ds=#e13#",      "", "21.33%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Arcanist Doan"],    "" },
-			{ 17, 34227, "",           "=q4=Deadman's Hand",                     "=ds=#s13#",      "", "" },
-			{ 18, 7712,  "",           "=q3=Mantle of Doan",                     "=ds=#s3#, #a1#", "", "41.96%" },
-			{ 19, 7711,  "",           "=q3=Robe of Doan",                       "=ds=#s5#, #a1#", "", "42.86%" },
-			{ 20, 7714,  "",           "=q3=Hypnotic Blade",                     "=ds=#h3#, #w4#", "", "39.91%" },
-			{ 21, 7713,  "",           "=q3=Illusionary Rod",                    "=ds=#w9#",       "", "38.44%" },
-		},
-	},
-	info = {
-		name = BabbleZone["Scarlet Monastery"] .. ": " .. BabbleZone["Library"],
-		module = moduleName,
+		instance = "SMArmory",
 	},
 };
 
 AtlasLoot_Data["SMTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  7728,  "", "=q3=Beguiler Robes",       "=ds=#s5#, #a1#",  "", "0.01%" },
-			{ 2,  7755,  "", "=q3=Flintrock Shoulders",  "=ds=#s3#, #a2#",  "", "0.00%" },
-			{ 3,  7727,  "", "=q3=Watchman Pauldrons",   "=ds=#s3#, #a2#",  "", "0.01%" },
-			{ 4,  7760,  "", "=q3=Warchief Kilt",        "=ds=#s11#, #a2#", "", "0.00%" },
-			{ 5,  7754,  "", "=q3=Harbinger Boots",      "=ds=#s12#, #a2#", "", "0.01%" },
-			{ 6,  5819,  "", "=q3=Sunblaze Coif",        "=ds=#s1#, #a3#",  "", "0.01%" },
-			{ 7,  7759,  "", "=q3=Archon Chestpiece",    "=ds=#s5#, #a3#",  "", "0.00%" },
-			{ 8,  10328, "", "=q3=Scarlet Chestpiece",   "=ds=#s5#, #a3#",  "", "0.3%" },
-			{ 9,  10332, "", "=q3=Scarlet Boots",        "=ds=#s12#, #a3#", "", "0.1%" },
-			{ 10, 2262,  "", "=q3=Mark of Kern",         "=ds=#s13#",       "", "0.01%" },
-			{ 11, 1992,  "", "=q3=Swampchill Fetish",    "=ds=#s15#",       "", "0.00%" },
-			{ 13, 10333, "", "=q2=Scarlet Wristguards",  "=ds=#s8#, #a3#",  "", "1.6%" },
-			{ 14, 10331, "", "=q2=Scarlet Gauntlets",    "=ds=#s9#, #a3#",  "", "1.7%" },
-			{ 15, 10329, "", "=q2=Scarlet Belt",         "=ds=#s10#, #a3#", "", "1.6%" },
-			{ 16, 5756,  "", "=q3=Sliverblade",          "=ds=#h1#, #w4#",  "", "0.01%" },
-			{ 17, 8225,  "", "=q3=Tainted Pierce",       "=ds=#h1#, #w10#", "", "0.01%" },
-			{ 18, 8226,  "", "=q3=The Butcher",          "=ds=#h1#, #w10#", "", "0.01%" },
-			{ 19, 7786,  "", "=q3=Headsplitter",         "=ds=#h1#, #w1#",  "", "0.01%" },
-			{ 20, 7761,  "", "=q3=Steelclaw Reaver",     "=ds=#h1#, #w1#",  "", "0.01%" },
-			{ 21, 7753,  "", "=q3=Bloodspiller",         "=ds=#h2#, #w1#",  "", "0.01%" },
-			{ 22, 7752,  "", "=q3=Dreamslayer",          "=ds=#h1#, #w6#",  "", "0.01%" },
-			{ 23, 7736,  "", "=q3=Fight Club",           "=ds=#h1#, #w6#",  "", "0.00%" },
-			{ 24, 7730,  "", "=q3=Cobalt Crusher",       "=ds=#h2#, #w6#",  "", "0.01%" },
-			{ 25, 7758,  "", "=q3=Ruthless Shiv",        "=ds=#w7#",        "", "0.00%" },
-			{ 26, 7757,  "", "=q3=Windweaver Staff",     "=ds=#w9#",        "", "0.01%" },
-			{ 27, 7787,  "", "=q3=Resplendent Guardian", "=ds=#w8#",        "", "0.01%" },
-			{ 28, 7729,  "", "=q3=Chesterfall Musket",   "=ds=#w5#",        "", "0.01%" },
-		}
+			{ 1, 7759, "", "=q3=Archon Chestpiece", "=ds=#s5#, #a3#", "", "~0.015%" },
+			{ 2, 7728, "", "=q3=Beguiler Robes", "=ds=#s5#, #a1#", "", "~0.045%" },
+			{ 3, 7753, "", "=q3=Bloodspiller", "=ds=#h2#, #w1#", "", "~0.035%" },
+			{ 4, 7729, "", "=q3=Chesterfall Musket", "=ds=#w5#", "", "~0.03%" },
+			{ 5, 7730, "", "=q3=Cobalt Crusher", "=ds=#h2#, #w6#", "", "~0.03%" },
+			{ 6, 7752, "", "=q3=Dreamslayer", "=ds=#h1#, #w6#", "", "0.02%" },
+			{ 7, 7736, "", "=q3=Fight Club", "=ds=#h1#, #w6#", "", "0.02%" },
+			{ 8, 7755, "", "=q3=Flintrock Shoulders", "=ds=#s3#, #a2#", "", "~0.015%" },
+			{ 9, 7754, "", "=q3=Harbinger Boots", "=ds=#s12#, #a2#", "", "~0.035%" },
+			{ 10, 7786, "", "=q3=Headsplitter", "=ds=#h1#, #w1#", "", "~0.03%" },
+			{ 11, 2262, "", "=q3=Mark of Kern", "=ds=#s13#", "", "~0.03%" },
+			{ 12, 7787, "", "=q3=Resplendent Guardian", "=ds=#w8#", "", "~0.035%" },
+			{ 13, 7758, "", "=q3=Ruthless Shiv", "=ds=#w7#", "", "0.02%" },
+			{ 14, 5756, "", "=q3=Sliverblade", "=ds=#h1#, #w4#", "", "0.02%" },
+			{ 15, 7761, "", "=q3=Steelclaw Reaver", "=ds=#h1#, #w1#", "", "~0.015%" },
+			
+			{ 16, 5819, "", "=q3=Sunblaze Coif", "=ds=#s1#, #a3#", "", "~0.025%" },
+			{ 17, 1992, "", "=q3=Swampchill Fetish", "=ds=#s15#", "", "~0.02%" },
+			{ 18, 8225, "", "=q3=Tainted Pierce", "=ds=#h1#, #w10#", "", "0.02%" },
+			{ 19, 8226, "", "=q3=The Butcher", "=ds=#h1#, #w10#", "", "~0.035%" },
+			{ 20, 7760, "", "=q3=Warchief Kilt", "=ds=#s11#, #a2#", "", "0.02%" },
+			{ 21, 7727, "", "=q3=Watchman Pauldrons", "=ds=#s3#, #a2#", "", "~0.065%" },
+			{ 22, 7757, "", "=q3=Windweaver Staff", "=ds=#w9#", "", "0.02%" },
+			
+			{ 24, 10332, "", "=q3=Scarlet Boots", "=ds=#s12#, #a3#", "", "0.02%" },
+			{ 25, 10328, "", "=q3=Scarlet Chestpiece", "=ds=#s5#, #a3# =q1=Scarlet Champion", "", "0.23%" },
+			{ 26, 10329, "", "=q2=Scarlet Belt", "=ds=#s10#, #a3# =q1=Scarlet Defender/Myrmidon", "", "2%" },
+			{ 27, 10331, "", "=q2=Scarlet Gauntlets", "=ds=#s9#, #a3# =q1=Scarlet Centurion", "", "2%" },
+			{ 28, 10333, "", "=q2=Scarlet Wristguards", "=ds=#s8#, #a3# =q1=Scarlet Guardsman/Protector", "", "2%" },
+			
+			{ 30,  23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7# =q1=" .. AL["Scarlet Trainee"], "", "1.6%" },
+		},
 	},
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		NextPrevDisable = true,
+		--instance = "SMArmory",
+	},
+};
+
+AtlasLoot_Data["SMCathedralHighInquisitorFairbanks"] = {
+	["Normal"] = {
+		{
+			{ 1, 19508, "", "=q3=Branded Leather Bracers", "=ds=#s8#, #a2#", "", "33.3%" },
+			{ 2, 19509, "", "=q3=Dusty Mail Boots", "=ds=#s12#, #a3#", "", "33.3%" },
+			{ 3, 19507, "", "=q3=Inquisitor's Shawl", "=ds=#s3#, #a1#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["High Inquisitor Fairbanks"],
+		module = moduleName,
+		instance = "SMCathedral",
+	},
+};
+
+AtlasLoot_Data["SMCathedralScarletCommanderMograine"] = {
+	["Normal"] = {
+		{
+			{ 1, 7726, "", "=q3=Aegis of the Scarlet Commander", "=ds=#w8#", "", "40%" },
+			{ 2, 7724, "", "=q3=Gauntlets of Divinity", "=ds=#s9#, #a3#", "", "20%" },
+			{ 3, 7723, "", "=q3=Mograine's Might", "=ds=#h2#, #w6#", "", "20%" },
+			{ 4, 10330, "", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "", "20%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Scarlet Commander Mograine"],
+		module = moduleName,
+		instance = "SMCathedral",
+	},
+};
+
+AtlasLoot_Data["SMCathedralHighInquisitorWhitemane"] = {
+	["Normal"] = {
+		{
+			{ 1, 7722, "", "=q3=Triune Amulet", "=ds=#s2#", "", "40%" },
+			{ 2, 7720, "", "=q3=Whitemane's Chapeau", "=ds=#s1#, #a1#", "", "40%" },
+			{ 3, 7721, "", "=q3=Hand of Righteousness", "=ds=#h3#, #w6#", "", "20%" },
+			{ 5, 20976, "", "=q2=Design: Citrine Pendant of Golden Healing", "=ds=#p12# (190)", "", "10%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["High Inquisitor Whitemane"],
+		module = moduleName,
+		instance = "SMCathedral",
+	},
+};
+
+AtlasLoot_Data["SMGraveyardInterrogatorVishas"] = {
+	["Normal"] = {
+		{
+			{ 1, 7683, "", "=q3=Bloody Brass Knuckles", "=ds=#h1#, #w13#", "", "90%" },
+			{ 2, 7682, "", "=q3=Torturing Poker", "=ds=#h1#, #w4#", "", "10%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Interrogator Vishas"],
+		module = moduleName,
+		instance = "SMGraveyard",
+	},
+};
+
+AtlasLoot_Data["SMGraveyardBloodmageThalnos"] = {
+	["Normal"] = {
+		{
+			{ 1,  7684, "", "=q3=Bloodmage Mantle", "=ds=#s3#, #a1#", "", "50%" },
+			{ 2,  7685, "", "=q3=Orb of the Forgotten Seer", "=ds=#s15#", "", "50%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Bloodmage Thalnos"],
+		module = moduleName,
+		instance = "SMGraveyard",
+	},
+};
+
+AtlasLoot_Data["SMGraveyardAzshirTheSleepless"] = {
+	["Normal"] = {
+		{
+			{ 1, 7709, "", "=q3=Blighted Leggings", "=ds=#s11#, #a1#", "", "33.3%" },
+			{ 2, 7731, "", "=q3=Ghostshard Talisman", "=ds=#s2#", "", "33.3%" },
+			{ 3, 7708, "", "=q3=Necrotic Wand", "=ds=#w12#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Azshir the Sleepless"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "SMGraveyard",
+	},
+};
+
+AtlasLoot_Data["SMGraveyardFallenChampion"] = {
+	["Normal"] = {
+		{
+			{ 1, 7691, "", "=q3=Embalmed Shroud", "=ds=#s1#, #a1#", "", "33.3%" },
+			{ 2, 7690, "", "=q3=Ebon Vise", "=ds=#s9#, #a2#", "", "33.3%" },
+			{ 3, 7689, "", "=q3=Morbid Dawn", "=ds=#h2#, #w10#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Fallen Champion"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "SMGraveyard",
+	},
+};
+
+AtlasLoot_Data["SMGraveyardIronspine"] = {
+	["Normal"] = {
+		{
+			{ 1, 7688, "", "=q3=Ironspine's Ribcage", "=ds=#s5#, #a3#", "", "33.3%" },
+			{ 2, 7686, "", "=q3=Ironspine's Eye", "=ds=#s13#", "", "33.3%" },
+			{ 3, 7687, "", "=q3=Ironspine's Fist", "=ds=#h1#, #w6#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Ironspine"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "SMGraveyard",
+	},
+};
+
+AtlasLoot_Data["SMLibraryHoundmasterLoksey"] = {
+	["Normal"] = {
+		{
+			{ 1, 7756, "", "=q3=Dog Training Gloves", "=ds=#s9#, #a2#", "", "60%" },
+			{ 2, 3456, "", "=q3=Dog Whistle", "=ds=#e13#", "", "30%" },
+			{ 3, 7710, "", "=q3=Loksey's Training Stick", "=ds=#w9#", "", "10%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Houndmaster Loksey"],
+		module = moduleName,
+		instance = "SMLibrary",
+	},
+};
+
+AtlasLoot_Data["SMLibraryArcanistDoan"] = {
+	["Normal"] = {
+		{
+			{ 1, 7714, "", "=q3=Hypnotic Blade", "=ds=#h3#, #w4#", "", "24%" },
+			{ 2, 7713, "", "=q3=Illusionary Rod", "=ds=#w9#", "", "24%" },
+			{ 3, 7712, "", "=q3=Mantle of Doan", "=ds=#s3#, #a1#", "", "24%" },
+			{ 4, 7711, "", "=q3=Robe of Doan", "=ds=#s5#, #a1#", "", "24%" },
+			{ 5, 34227, "", "=q4=Deadman's Hand", "=ds=#s13#", "", "4%" },
+			{ 7, 7146, "", "=q2=The Scarlet Key", "=ds=#e9# =q1=(Doan's Strongbox)", "", "4%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Arcanist Doan"],
+		module = moduleName,
+		instance = "SMLibrary",
 	},
 };
 
