@@ -4993,51 +4993,40 @@ AtlasLoot_Data["STTrash"] = {
 --- Uldaman ---
 ---------------
 
-AtlasLoot_Data["UldShovelphlange"] = {
+AtlasLoot_Data["UldamanLostVikings"] = {
 	["Normal"] = {
 		{
-			{ 1, 9375, "", "=q3=Expert Goldminer's Helmet",  "=ds=#s1#, #a2#",  "", "9.30%" },
-			{ 2, 9378, "", "=q3=Shovelphlange's Mining Axe", "=ds=#h1#, #w1#",  "", "13.50%" },
-			{ 4, 9382, "", "=q2=Tromping Miner's Boots",     "=ds=#s12#, #a2#", "", "70.70%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Baelog"], "" },
+			{ 2, 9400, "", "=q3=Baelog's Shortbow", "=ds=#w2#", "", "90%" },
+			{ 3, 9401, "", "=q3=Nordic Longshank", "=ds=#h1#, #w10#", "", "10%" },
+			{ 4, 9399, "", "=q2=Precision Arrow", "=ds=#w17# =q1=(x150-200)", "", "100%" },
+			{ 6, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Eric \"The Swift\""], "" },
+			{ 7, 9398, "", "=q3=Worn Running Boots", "=ds=#s12#, #a2#", "", "90%" },
+			{ 8, 9394, "", "=q3=Horned Viking Helmet", "=ds=#s1#, #a4#", "", "10%" },			
+			{ 9, 2459, "", "=q1=Swiftness Potion", "=ds=#e2#", "", "100%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Olaf"], "" },
+			{ 17, 9403, "", "=q3=Battered Viking Shield", "=ds=#w8#", "", "90%" },
+			{ 18, 9404, "", "=q3=Olaf's All Purpose Shield", "=ds=#w8#", "", "10%" },
+			{ 19, 1177, "", "=q1=Oil of Olaf", "=ds=#e2#", "", "100%" },
+			{ 21, 0, "INV_Box_01", "=q6=" .. AL["Baelog's Chest"], "" },
+			{ 22, 7740, "", "=q3=Gni'kiv Medallion", "=ds=#m20#", "", "100%" },
 		}
 	},
 	info = {
-		name = BabbleBoss["Digmaster Shovelphlange"],
+		name = "The Lost Vikings",
 		module = moduleName,
 		instance = "Uldaman",
 	},
 };
 
-AtlasLoot_Data["UldBaelog"] = {
+AtlasLoot_Data["UldamanRevelosh"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Baelog"],           "" },
-			{ 2,  9401, "",           "=q3=Nordic Longshank",                   "=ds=#h1#, #w10#", "", "8.89%" },
-			{ 3,  9400, "",           "=q3=Baelog's Shortbow",                  "=ds=#w2#",        "", "46.52%" },
-			{ 5,  0,    "INV_Box_01", "=q6=" .. BabbleBoss["Eric \"The Swift\""], "" },
-			{ 6,  9394, "",           "=q3=Horned Viking Helmet",               "=ds=#s1#, #a3#",  "", "4.05%" },
-			{ 7,  9398, "",           "=q3=Worn Running Boots",                 "=ds=#s12#, #a2#", "", "45.09%" },
-			{ 8,  2459, "",           "=q1=Swiftness Potion",                   "=ds=#e2#" },
-			{ 16, 0,    "INV_Box_01", "=q6=" .. BabbleBoss["Olaf"],             "" },
-			{ 17, 9404, "",           "=q3=Olaf's All Purpose Shield",          "=ds=#w8#",        "", "11.33%" },
-			{ 18, 9403, "",           "=q3=Battered Viking Shield",             "=ds=#w8#",        "", "69.85%" },
-			{ 19, 1177, "",           "=q1=Oil of Olaf",                        "=ds=#e2#",        "", "76.54%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Baelog"],
-		module = moduleName,
-		instance = "Uldaman",
-	},
-};
-
-AtlasLoot_Data["UldRevelosh"] = {
-	["Normal"] = {
-		{
-			{ 1, 9390, "", "=q3=Revelosh's Gloves",    "=ds=#s9#, #a1#",  "", "20.08%" },
-			{ 2, 9389, "", "=q3=Revelosh's Spaulders", "=ds=#s3#, #a2#",  "", "18.77%" },
-			{ 3, 9388, "", "=q3=Revelosh's Armguards", "=ds=#s8#, #a3#",  "", "19.84%" },
-			{ 4, 9387, "", "=q3=Revelosh's Boots",     "=ds=#s12#, #a3#", "", "20.53%" },
+			{ 1, 9387, "", "=q3=Revelosh's Boots", "=ds=#s12#, #a4#", "", "23%" },
+			{ 2, 9389, "", "=q3=Revelosh's Spaulders", "=ds=#s3#, #a2#", "", "23%" },
+			{ 3, 9388, "", "=q3=Revelosh's Armguards", "=ds=#s8#, #a3#", "", "21%" },
+			{ 4, 9390, "", "=q3=Revelosh's Gloves", "=ds=#s9#, #a1#", "", "21%" },
+			{ 6, 7741, "", "=q3=The Shaft of Tsol", "=ds=#m20#", "", "100%" },
 		}
 	},
 	info = {
@@ -5047,12 +5036,12 @@ AtlasLoot_Data["UldRevelosh"] = {
 	},
 };
 
-AtlasLoot_Data["UldIronaya"] = {
+AtlasLoot_Data["UldamanIronaya"] = {
 	["Normal"] = {
 		{
-			{ 1, 9407, "", "=q3=Stoneweaver Leggings", "=ds=#s11#, #a1#", "", "31.02%" },
-			{ 2, 9409, "", "=q3=Ironaya's Bracers",    "=ds=#s8#, #a3#",  "", "32.71%" },
-			{ 3, 9408, "", "=q3=Ironshod Bludgeon",    "=ds=#w9#",        "", "17.37%" },
+			{ 1, 9409, "", "=q3=Ironaya's Bracers", "=ds=#s8#, #a3#", "", "40%" },
+			{ 2, 9407, "", "=q3=Stoneweaver Leggings", "=ds=#s11#, #a1#", "", "40%" },
+			{ 3, 9408, "", "=q3=Ironshod Bludgeon", "=ds=#w9#", "", "20%" },
 		}
 	},
 	info = {
@@ -5062,10 +5051,10 @@ AtlasLoot_Data["UldIronaya"] = {
 	},
 };
 
-AtlasLoot_Data["UldObsidianSentinel"] = {
+AtlasLoot_Data["UldamanObsidianSentinel"] = {
 	["Normal"] = {
 		{
-			{ 1, 62053, "", "=q1=Obsidian Power Core", "=ds=#m3#", "", "100%" },
+			{ 1, 8053, "", "=q1=Obsidian Power Core", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
@@ -5075,12 +5064,11 @@ AtlasLoot_Data["UldObsidianSentinel"] = {
 	},
 };
 
-AtlasLoot_Data["UldAncientStoneKeeper"] = {
+AtlasLoot_Data["UldamanAncientStoneKeeper"] = {
 	["Normal"] = {
 		{
-			{ 1, 9411,  "", "=q3=Rockshard Pauldrons", "=ds=#s3#, #a2#", "", "43.41%" },
-			{ 2, 9410,  "", "=q3=Cragfists",           "=ds=#s9#, #a3#", "", "41.61%" },
-			{ 4, 62055, "", "=q1=Titan Power Core",    "=ds=#m3#",       "", "100%" },
+			{ 1, 9410,  "", "=q3=Cragfists",           "=ds=#s9#, #a4#", "", "50%" },
+			{ 2, 9411,  "", "=q3=Rockshard Pauldrons", "=ds=#s3#, #a3#", "", "50%" },
 		}
 	},
 	info = {
@@ -5090,13 +5078,13 @@ AtlasLoot_Data["UldAncientStoneKeeper"] = {
 	},
 };
 
-AtlasLoot_Data["UldGalgannFirehammer"] = {
+AtlasLoot_Data["UldamanGalgannFirehammer"] = {
 	["Normal"] = {
 		{
-			{ 1, 11311, "", "=q3=Emberscale Cape",       "=ds=#s4#",       "", "36.52%" },
-			{ 2, 11310, "", "=q3=Flameseer Mantle",      "=ds=#s3#, #a1#", "", "17.35%" },
-			{ 3, 9419,  "", "=q3=Galgann's Firehammer",  "=ds=#h1#, #w6#", "", "18.10%" },
-			{ 4, 9412,  "", "=q3=Galgann's Fireblaster", "=ds=#w5#",       "", "17.10%" },
+			{ 1, 11311, "", "=q3=Emberscale Cape", "=ds=#s4#", "", "40%" },
+			{ 2, 11310, "", "=q3=Flameseer Mantle", "=ds=#s3#, #a1#", "", "20%" },
+			{ 3, 9412, "", "=q3=Galgann's Fireblaster", "=ds=#w5#", "", "20%" },
+			{ 4, 9419, "", "=q3=Galgann's Firehammer", "=ds=#h1#, #w6#", "", "20%" },
 		}
 	},
 	info = {
@@ -5106,12 +5094,13 @@ AtlasLoot_Data["UldGalgannFirehammer"] = {
 	},
 };
 
-AtlasLoot_Data["UldGrimlok"] = {
+AtlasLoot_Data["UldamanGrimlok"] = {
 	["Normal"] = {
 		{
-			{ 1, 9415, "", "=q3=Grimlok's Tribal Vestments", "=ds=#s5#, #a1#",  "", "36.51%" },
-			{ 2, 9414, "", "=q3=Oilskin Leggings",           "=ds=#s11#, #a2#", "", "29.78%" },
-			{ 3, 9416, "", "=q3=Grimlok's Charge",           "=ds=#w7#",        "", "15.05%" },
+			{ 1, 9415, "", "=q3=Grimlok's Tribal Vestments", "=ds=#s5#, #a1#", "", "40%" },
+			{ 2, 9414, "", "=q3=Oilskin Leggings", "=ds=#s11#, #a2#", "", "40%" },
+			{ 3, 9416, "", "=q3=Grimlok's Charge", "=ds=#w7#", "", "20%" },
+			{ 4, 7670, "", "=q1=Shattered Necklace Sapphire", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
@@ -5121,12 +5110,13 @@ AtlasLoot_Data["UldGrimlok"] = {
 	},
 };
 
-AtlasLoot_Data["UldArchaedas"] = {
+AtlasLoot_Data["UldamanArchaedas"] = {
 	["Normal"] = {
 		{
-			{ 1, 11118, "", "=q3=Archaedic Stone", "=ds=#s13#",       "", "51.99%" },
-			{ 2, 9418,  "", "=q3=Stoneslayer",     "=ds=#h2#, #w10#", "", "10.48%" },
-			{ 3, 9413,  "", "=q3=The Rockpounder", "=ds=#h2#, #w6#",  "", "10.94%" },
+			{ 1, 11118, "", "=q3=Archaedic Stone", "=ds=#s13#", "", "60%" },
+			{ 2, 9418, "", "=q3=Stoneslayer", "=ds=#h2#, #w10#", "", "20%" },
+			{ 3, 9413, "", "=q3=The Rockpounder", "=ds=#h2#, #w6#", "", "20%" },
+			{ 4, 7672, "", "=q1=Shattered Necklace Power Source", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
@@ -5136,32 +5126,33 @@ AtlasLoot_Data["UldArchaedas"] = {
 	},
 };
 
-AtlasLoot_Data["UldTrash"] = {
+AtlasLoot_Data["UldamanTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  9397, "", "=q3=Energy Cloak",             "=ds=#s4#",                 "", "0.01%" },
-			{ 2,  9431, "", "=q3=Papal Fez",                "=ds=#s1#, #a1#",           "", "0.01%" },
-			{ 3,  9429, "", "=q3=Miner's Hat of the Deep",  "=ds=#s1#, #a1#",           "", "0.01%" },
-			{ 4,  9420, "", "=q3=Adventurer's Pith Helmet", "=ds=#s1#, #a2#",           "", "0.01%" },
-			{ 5,  9430, "", "=q3=Spaulders of a Lost Age",  "=ds=#s3#, #a2#",           "", "0.00%" },
-			{ 6,  9406, "", "=q3=Spirewind Fetter",         "=ds=#s5#, #a2#",           "", "0.01%" },
-			{ 7,  9428, "", "=q3=Unearthed Bands",          "=ds=#s8#, #a2#",           "", "0.01%" },
-			{ 8,  9396, "", "=q3=Legguards of the Vault",   "=ds=#s11#, #a3#" },
-			{ 9,  9432, "", "=q3=Skullplate Bracers",       "=ds=#s8#, #a3#",           "", "0.01%" },
-			{ 10, 9393, "", "=q3=Beacon of Hope",           "=ds=#s15#",                "", "0.01%" },
-			{ 16, 9384, "", "=q3=Stonevault Shiv",          "=ds=#h1#, #w4#",           "", "0.01%" },
-			{ 17, 9392, "", "=q3=Annealed Blade",           "=ds=#h1#, #w10#",          "", "0.01%" },
-			{ 18, 9424, "", "=q3=Ginn-Su Sword",            "=ds=#h1#, #w10#",          "", "0.01%" },
-			{ 19, 9465, "", "=q3=Digmaster 5000",           "=ds=#h1#, #w1#",           "", "0.01%" },
-			{ 20, 9383, "", "=q3=Obsidian Cleaver",         "=ds=#h2#, #w1#",           "", "0.01%" },
-			{ 21, 9425, "", "=q3=Pendulum of Doom",         "=ds=#h2#, #w1#",           "", "0.01%" },
-			{ 22, 9386, "", "=q3=Excavator's Brand",        "=ds=#h1#, #w6#",           "", "0.01%" },
-			{ 23, 9427, "", "=q3=Stonevault Bonebreaker",   "=ds=#h1#, #w6#",           "", "0.01%" },
-			{ 24, 9423, "", "=q3=The Jackhammer",           "=ds=#h2#, #w6#",           "", "0.01%" },
-			{ 25, 9391, "", "=q3=The Shoveler",             "=ds=#h2#, #w6#, =q2=#c9#", "", "0.01%" },
-			{ 26, 9381, "", "=q3=Earthen Rod",              "=ds=#w12#",                "", "0.01%" },
-			{ 27, 9426, "", "=q3=Monolithic Bow",           "=ds=#w2#",                 "", "0.01%" },
-			{ 28, 9422, "", "=q3=Shadowforge Bushmaster",   "=ds=#w5#",                 "", "0.01%" },
+			{ 1, 9420, "", "=q3=Adventurer's Pith Helmet", "=ds=#s1#, #a2#", "", "~0.06%" },
+			{ 2, 9392, "", "=q3=Annealed Blade", "=ds=#h1#, #w10#", "", "~0.04%" },
+			{ 3, 9393, "", "=q3=Beacon of Hope", "=ds=#s15#", "", "~0.035%" },
+			{ 4, 9465, "", "=q3=Digmaster 5000", "=ds=#h1#, #w1#", "", "~0.03%" },
+			{ 5, 9381, "", "=q3=Earthen Rod", "=ds=#w12#", "", "~0.03%" },
+			{ 6, 9397, "", "=q3=Energy Cloak", "=ds=#s4#", "", "~0.035%" },
+			{ 7, 9386, "", "=q3=Excavator's Brand", "=ds=#h1#, #w6#", "", "~0.025%" },
+			{ 8, 9424, "", "=q3=Ginn-Su Sword", "=ds=#h1#, #w10#", "", "~0.03%" },
+			{ 9, 9396, "", "=q3=Legguards of the Vault", "=ds=#s11#, #a3#", "", "~0.065%" },
+			{ 10, 9429, "", "=q3=Miner's Hat of the Deep", "=ds=#s1#, #a1#", "", "~0.11%" },
+			{ 11, 9426, "", "=q3=Monolithic Bow", "=ds=#w2#", "", "~0.04%" },
+			{ 12, 9383, "", "=q3=Obsidian Cleaver", "=ds=#h2#, #w1#", "", "0.02%" },
+			{ 13, 9431, "", "=q3=Papal Fez", "=ds=#s1#, #a1#", "", "~0.04%" },
+			{ 14, 9425, "", "=q3=Pendulum of Doom", "=ds=#h2#, #w1#", "", "~0.04%" },
+			{ 15, 9422, "", "=q3=Shadowforge Bushmaster", "=ds=#w5#", "", "~0.03%" },
+			{ 16, 9432, "", "=q3=Skullplate Bracers", "=ds=#s8#, #a4#", "", "~0.03%" },
+			{ 17, 9430, "", "=q3=Spaulders of a Lost Age", "=ds=#s3#, #a3#", "", "0.02%" },
+			{ 18, 9406, "", "=q3=Spirewind Fetter", "=ds=#s5#, #a2#", "", "~0.03%" },
+			{ 19, 9427, "", "=q3=Stonevault Bonebreaker", "=ds=#h1#, #w6#", "", "~0.03%" },
+			{ 20, 9384, "", "=q3=Stonevault Shiv", "=ds=#h1#, #w4#", "", "~0.035%" },
+			{ 21, 9423, "", "=q3=The Jackhammer", "=ds=#h2#, #w6#", "", "~0.04%" },
+			{ 22, 9391, "", "=q3=The Shoveler", "=ds=#h2#, #w6#", "", "~0.025%" },
+			{ 23, 9428, "", "=q3=Unearthed Bands", "=ds=#s8#, #a2#", "", "~0.035%" },
+			
 		}
 	},
 	info = {
