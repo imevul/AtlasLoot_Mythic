@@ -921,9 +921,17 @@ AtlasLoot_LootTableRegister = {
 
 		["Maraudon"] = {
 			["Bosses"] = {
-				{ "MaraudonLoot#1", { 4, 5, 6, 7, 12 } },
-				{ "MaraudonLoot#2", { 8, 9, 10, 11 },  hide = true },
-				{ "LunarFestival",  13,                hide = true },
+				{ "MaraudonVeng", 1 },
+				{ "MaraudonNoxxion", 2 },
+				{ "MaraudonRazorlash", 3 },
+				{ "MaraudonMaraudos", 4 },
+				{ "MaraudonLordVyletongue", 5 },
+				{ "MaraudonCelebrasTheCursed", 6 },
+				{ "MaraudonLandslide", 7 },
+				{ "MaraudonTinkererGizlock", 8 },
+				{ "MaraudonRotgrip", 9 },
+				{ "MaraudonPrincessTheradras", 10 },
+				{ "MaraudonMeshlokTheHarvester", 11 },
 			},
 			["Info"] = { "[47] " .. BabbleZone["Maraudon"], "AtlasLootClassicWoW", mapname = "Maraudon" },
 		},
