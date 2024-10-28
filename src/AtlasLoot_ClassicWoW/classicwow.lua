@@ -3092,59 +3092,170 @@ AtlasLoot_Data["GnomereganTrash"] = {
 --- Maraudon ---
 ----------------
 
-AtlasLoot_Data["MaraudonLoot"] = {
+AtlasLoot_Data["MaraudonVeng"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Noxxion"],             "" },
-			{ 2,  17746, "",           "=q3=Noxxion's Shackles",                    "=ds=#s8#, #a3#",  "", "32.50%" },
-			{ 3,  17744, "",           "=q3=Heart of Noxxion",                      "=ds=#s14#",       "", "30.35%" },
-			{ 4,  17745, "",           "=q3=Noxious Shooter",                       "=ds=#w12#",       "", "17.53%" },
-			{ 6,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Razorlash"],           "" },
-			{ 7,  17750, "",           "=q3=Chloromesh Girdle",                     "=ds=#s10#, #a1#", "", "22.93%" },
-			{ 8,  17748, "",           "=q3=Vinerot Sandals",                       "=ds=#s12#, #a1#", "", "20.60%" },
-			{ 9,  17749, "",           "=q3=Phytoskin Spaulders",                   "=ds=#s3#, #a2#",  "", "22.09%" },
-			{ 10, 17751, "",           "=q3=Brusslehide Leggings",                  "=ds=#s11#, #a2#", "", "21.65%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lord Vyletongue"],     "" },
-			{ 17, 17755, "",           "=q3=Satyrmane Sash",                        "=ds=#s10#, #a1#", "", "25.71%" },
-			{ 18, 17754, "",           "=q3=Infernal Trickster Leggings",           "=ds=#s11#, #a3#", "", "28.09%" },
-			{ 19, 17752, "",           "=q3=Satyr's Lash",                          "=ds=#h1#, #w4#",  "", "23.14%" },
-			{ 21, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Meshlok the Harvester"], "" },
-			{ 22, 17741, "",           "=q3=Nature's Embrace",                      "=ds=#s5#, #a1#",  "", "30.34%" },
-			{ 23, 17742, "",           "=q3=Fungus Shroud Armor",                   "=ds=#s5#, #a2#",  "", "31.37%" },
-			{ 24, 17767, "",           "=q3=Bloomsprout Headpiece",                 "=ds=#s1#, #a3#",  "", "28.32%" },
-			{ 26, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Tinkerer Gizlock"],    "" },
-			{ 27, 17719, "",           "=q3=Inventor's Focal Sword",                "=ds=#h1#, #w10#", "", "27.44%" },
-			{ 28, 17718, "",           "=q3=Gizlock's Hypertech Buckler",           "=ds=#w8#",        "", "30.61%" },
-			{ 29, 17717, "",           "=q3=Megashot Rifle",                        "=ds=#w5#",        "", "27.23%" },
-
-		},
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Celebras the Cursed"], "" },
-			{ 2,  17739, "",           "=q3=Grovekeeper's Drape",                 "=ds=#s4#",        "", "30.32%" },
-			{ 3,  17740, "",           "=q3=Soothsayer's Headdress",              "=ds=#s1#, #a2#",  "", "28.59%" },
-			{ 4,  17738, "",           "=q3=Claw of Celebras",                    "=ds=#h4#, #w13#", "", "28.22%" },
-			{ 6,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Landslide"],         "" },
-			{ 7,  17736, "",           "=q3=Rockgrip Gauntlets",                  "=ds=#s9#, #a3#",  "", "23.09%" },
-			{ 8,  17734, "",           "=q3=Helm of the Mountain",                "=ds=#s1#, #a3#",  "", "20.87%" },
-			{ 9,  17737, "",           "=q3=Cloud Stone",                         "=ds=#s15#",       "", "19.99%" },
-			{ 10, 17943, "",           "=q3=Fist of Stone",                       "=ds=#h1#, #w6#",  "", "16.58%" },
-			{ 12, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Rotgrip"],           "" },
-			{ 13, 17732, "",           "=q3=Rotgrip Mantle",                      "=ds=#s3#, #a1#",  "", "25.73%" },
-			{ 14, 17728, "",           "=q3=Albino Crocscale Boots",              "=ds=#s12#, #a2#", "", "26.20%" },
-			{ 15, 17730, "",           "=q3=Gatorbite Axe",                       "=ds=#h2#, #w1#",  "", "19.21%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Princess Theradras"], "" },
-			{ 17, 17780, "",           "=q4=Blade of Eternal Darkness",           "=ds=#h1#, #w4#",  "", "0.20%" },
-			{ 18, 17715, "",           "=q3=Eye of Theradras",                    "=ds=#s1#, #a1#",  "", "13.47%" },
-			{ 19, 17714, "",           "=q3=Bracers of the Stone Princess",       "=ds=#s8#, #a3#",  "", "20.06%" },
-			{ 20, 17711, "",           "=q3=Elemental Rockridge Leggings",        "=ds=#s11#, #a3#", "", "14.96%" },
-			{ 21, 17707, "",           "=q3=Gemshard Heart",                      "=ds=#s2#",        "", "15.30%" },
-			{ 22, 17713, "",           "=q3=Blackstone Ring",                     "=ds=#s13#",       "", "18.92%" },
-			{ 23, 17710, "",           "=q3=Charstone Dirk",                      "=ds=#h1#, #w4#",  "", "14.24%" },
-			{ 24, 17766, "",           "=q3=Princess Theradras' Scepter",         "=ds=#h2#, #w6#",  "", "16.44%" },
+			{ 1, 17765, "", "=q1=Gem of the Fifth Khan", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
-		name = BabbleZone["Maraudon"],
+		name = BabbleBoss["Veng"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonNoxxion"] = {
+	["Normal"] = {
+		{
+			{ 1, 17744, "", "=q3=Heart of Noxxion", "=ds=#s14#", "", "40%" },
+			{ 2, 17746, "", "=q3=Noxxion's Shackles", "=ds=#s8#, #a4#", "", "40%" },
+			{ 3, 17745, "", "=q3=Noxious Shooter", "=ds=#w12#", "", "20%" },
+			{ 4, 17702, "", "=q1=Celebrian Rod", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Noxxion"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonRazorlash"] = {
+	["Normal"] = {
+		{
+			{ 1, 17751, "", "=q3=Brusslehide Leggings", "=ds=#s11#, #a2#", "", "25%" },
+			{ 2, 17750, "", "=q3=Chloromesh Girdle", "=ds=#s10#, #a1#", "", "25%" },
+			{ 3, 17749, "", "=q3=Phytoskin Spaulders", "=ds=#s3#, #a2#", "", "25%" },
+			{ 4, 17748, "", "=q3=Vinerot Sandals", "=ds=#s12#, #a1#", "", "25%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Razorlash"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonMaraudos"] = {
+	["Normal"] = {
+		{
+			{ 1, 17764, "", "=q1=Gem of the Fourth Khan", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Maraudos"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonLordVyletongue"] = {
+	["Normal"] = {
+		{
+			{ 1, 17754, "", "=q3=Infernal Trickster Leggings", "=ds=#s11#, #a3#", "", "33.3%" },
+			{ 2, 17752, "", "=q3=Satyr's Lash", "=ds=#h1#, #w4#", "", "33.3%" },
+			{ 3, 17755, "", "=q3=Satyrmane Sash", "=ds=#s10#, #a1#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Lord Vyletongue"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonCelebrasTheCursed"] = {
+	["Normal"] = {
+		{
+			{ 1, 17738, "", "=q3=Claw of Celebras", "=ds=#h4#, #w13#", "", "33.3%" },
+			{ 2, 17739, "", "=q3=Grovekeeper's Drape", "=ds=#s4#", "", "33.3%" },
+			{ 3, 17740, "", "=q3=Soothsayer's Headdress", "=ds=#s1#, #a2#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Celebras the Cursed"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonLandslide"] = {
+	["Normal"] = {
+		{
+			{ 1, 17737, "", "=q3=Cloud Stone", "=ds=#s15#", "", "25%" },
+			{ 2, 17943, "", "=q3=Fist of Stone", "=ds=#h1#, #w6#", "", "25%" },
+			{ 3, 17734, "", "=q3=Helm of the Mountain", "=ds=#s1#, #a4#", "", "25%" },
+			{ 4, 17736, "", "=q3=Rockgrip Gauntlets", "=ds=#s9#, #a3#", "", "25%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Landslide"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonTinkererGizlock"] = {
+	["Normal"] = {
+		{
+			{ 1, 17718, "", "=q3=Gizlock's Hypertech Buckler", "=ds=#w8#", "", "33.3%" },
+			{ 2, 17719, "", "=q3=Inventor's Focal Sword", "=ds=#h1#, #w10#", "", "33.3%" },
+			{ 3, 17717, "", "=q3=Megashot Rifle", "=ds=#w5#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Tinkerer Gizlock"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonRotgrip"] = {
+	["Normal"] = {
+		{
+			{ 1, 17728, "", "=q3=Albino Crocscale Boots", "=ds=#s12#, #a2#", "", "40%" },
+			{ 2, 17732, "", "=q3=Rotgrip Mantle", "=ds=#s3#, #a1#", "", "40%" },
+			{ 3, 17730, "", "=q3=Gatorbite Axe", "=ds=#h2#, #w1#", "", "20%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Rotgrip"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonPrincessTheradras"] = {
+	["Normal"] = {
+		{
+			{ 1, 17713, "", "=q3=Blackstone Ring", "=ds=#s13#", "", "16.6%" },
+			{ 2, 17714, "", "=q3=Bracers of the Stone Princess", "=ds=#s8#, #a3#", "", "16.6%" },
+			{ 3, 17710, "", "=q3=Charstone Dirk", "=ds=#h1#, #w4#", "", "13.3%" },
+			{ 4, 17711, "", "=q3=Elemental Rockridge Leggings", "=ds=#s11#, #a4#", "", "13.3%" },
+			{ 5, 17715, "", "=q3=Eye of Theradras", "=ds=#s1#, #a1#", "", "13.3%" },
+			{ 6, 17707, "", "=q3=Gemshard Heart", "=ds=#s2#", "", "13.3%" },
+			{ 7, 17766, "", "=q3=Princess Theradras' Scepter", "=ds=#h2#, #w6#", "", "13.3%" },
+			{ 8, 17780, "", "=q4=Blade of Eternal Darkness", "=ds=#h1#, #w4#", "", "0.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Princess Theradras"],
+		module = moduleName,
+		instance = "Maraudon",
+	},
+};
+
+AtlasLoot_Data["MaraudonMeshlokTheHarvester"] = {
+	["Normal"] = {
+		{
+			{ 1, 17767, "", "=q3=Bloomsprout Headpiece", "=ds=#s1#, #a3#", "", "33.3%" },
+			{ 2, 17742, "", "=q3=Fungus Shroud Armor", "=ds=#s5#, #a2#", "", "33.3%" },
+			{ 3, 17741, "", "=q3=Nature's Embrace", "=ds=#s5#, #a1#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Meshlok the Harvester"] .. " (" .. AL["Rare"] .. ")",
 		module = moduleName,
 		instance = "Maraudon",
 	},
