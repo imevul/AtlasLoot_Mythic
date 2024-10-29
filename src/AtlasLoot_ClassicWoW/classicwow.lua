@@ -756,7 +756,7 @@ AtlasLoot_Data["BlackfathomDeepsTwilightLordKelris"] = {
 		{
 			{ 1, 1155, "", "=q3=Rod of the Sleepwalker", "=ds=#w9#", "", "60%"};
 			{ 2, 6903, "", "=q3=Gaze Dreamer Pants", "=ds=#s11#, #a1#", "", "40%"};
-			{ 3, 5881, "", "=q1=Head of Kelris", "=ds=#m3#",  "", "100%"};
+			{ 4, 5881, "", "=q1=Head of Kelris", "=ds=#m3#",  "", "100%"};
 		},
 	},
 	info = {
@@ -2998,7 +2998,7 @@ AtlasLoot_Data["GnomereganElectrocutioner6000"] = {
 			{ 1, 9447, "", "=q3=Electrocutioner Lagnut", "=ds=#s13#", "", "33.3%"},
 			{ 2, 9446, "", "=q3=Electrocutioner Leg", "=ds=#h1#, #w10#", "", "33.3%"},
 			{ 3, 9448, "", "=q3=Spidertank Oilrag", "=ds=#s8#, #a1#", "", "33.3%"},
-			{ 4, 6893, "", "=q1=Workshop Key", "=ds=#e9#", "", "100%"},
+			{ 5, 6893, "", "=q1=Workshop Key", "=ds=#e9#", "", "100%"},
 		},
 	},
 	info = {
@@ -3030,12 +3030,14 @@ AtlasLoot_Data["GnomereganMekgineerThermaplugg"] = {
 			{ 2, 9458, "", "=q3=Thermaplugg's Central Core", "=ds=#w8#", "", "30%"},
 			{ 3, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "=ds=#s1#, #a1#", "", "20%"},
 			{ 4, 9459, "", "=q3=Thermaplugg's Left Arm", "=ds=#h2#, #w1#", "", "20%"},
-			{ 5, 9299, "", "=q1=Thermaplugg's Safe Combination", "=ds=#m3#", "", "100%"},
-			{ 7, 4415, "", "=q3=Schematic: Craftsman's Monocle", "=ds=#p5# (185)", "", "2%"},
-			{ 8, 4413, "", "=q2=Schematic: Discombobulator Ray", "=ds=#p5# (160)", "", "2%"},
-			{ 9, 4411, "", "=q2=Schematic: Flame Deflector", "=ds=#p5# (125)", "", "2%"},
-			{ 10, 7742, "", "=q2=Schematic: Gnomish Cloaking Device", "=ds=#p5# (200)", "", "2%"},
-			{ 11, 11828, "", "=q1=Schematic: Pet Bombling", "=ds=#p5# (205)", "", "90%"},
+			
+			{ 6, 4415, "", "=q3=Schematic: Craftsman's Monocle", "=ds=#p5# (185)", "", "2%"},
+			{ 7, 4413, "", "=q2=Schematic: Discombobulator Ray", "=ds=#p5# (160)", "", "2%"},
+			{ 8, 4411, "", "=q2=Schematic: Flame Deflector", "=ds=#p5# (125)", "", "2%"},
+			{ 9, 7742, "", "=q2=Schematic: Gnomish Cloaking Device", "=ds=#p5# (200)", "", "2%"},
+			{ 10, 11828, "", "=q1=Schematic: Pet Bombling", "=ds=#p5# (205)", "", "90%"},
+			
+			{ 12, 9299, "", "=q1=Thermaplugg's Safe Combination", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -3111,7 +3113,7 @@ AtlasLoot_Data["MaraudonNoxxion"] = {
 			{ 1, 17744, "", "=q3=Heart of Noxxion", "=ds=#s14#", "", "40%" },
 			{ 2, 17746, "", "=q3=Noxxion's Shackles", "=ds=#s8#, #a4#", "", "40%" },
 			{ 3, 17745, "", "=q3=Noxious Shooter", "=ds=#w12#", "", "20%" },
-			{ 4, 17702, "", "=q1=Celebrian Rod", "=ds=#m3#", "", "100%"},
+			{ 5, 17702, "", "=q1=Celebrian Rod", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -3271,7 +3273,7 @@ AtlasLoot_Data["RagefireChasmTaragamanTheHungerer"] = {
 			{ 1, 14149, "", "=q3=Subterranean Cape",              "=ds=#s4#",        "", "40%" },
 			{ 2, 14148, "", "=q3=Crystalline Cuffs",              "=ds=#s8#, #a1#",  "", "40%" },
 			{ 3, 14145, "", "=q3=Cursed Felblade",                "=ds=#h1#, #w10#", "", "20%" },
-			{ 4, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#",        "", "100%" },
+			{ 5, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#",        "", "100%" },
 		},
 	},
 	info = {
@@ -3380,7 +3382,7 @@ AtlasLoot_Data["RazorfenDownsAmnennarTheColdbringer"] = {
 			{ 3, 10764, "", "=q3=Deathchill Armor", "=ds=#s5#, #a3#", "", "20%"},
 			{ 4, 10763, "", "=q3=Icemetal Barbute", "=ds=#s1#, #a4#", "", "20%"},
 			{ 5, 10762, "", "=q3=Robes of the Lich", "=ds=#s5#, #a1#", "", "20%"},
-			{ 6, 10420, "", "=q1=Skull of the Coldbringer", "=ds=#m3#", "", "100%"},
+			{ 7, 10420, "", "=q1=Skull of the Coldbringer", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -3507,9 +3509,9 @@ AtlasLoot_Data["RazorfenKraulCharlgaRazorflank"] = {
 			{ 1, 6693, "", "=q3=Agamaggan's Clutch", "=ds=#s13#", "", "40%"},
 			{ 2, 6694, "", "=q3=Heart of Agamaggan", "=ds=#w8#", "", "40%"},
 			{ 3, 6692, "", "=q3=Pronged Reaver", "=ds=#h1#, #w1#", "", "20%"},
-			{ 4, 5793, "", "=q1=Razorflank's Heart", "=ds=#m3#", "", "100%"},
-			{ 5, 5792, "", "=q1=Razorflank's Medallion", "=ds=#m3#", "", "100%"},
-			{ 6, 49205, "", "=q1=Small Scroll", "=ds=#m2# (#m6#)", "", "100%"},
+			{ 5, 5793, "", "=q1=Razorflank's Heart", "=ds=#m3#", "", "100%"},
+			{ 6, 5792, "", "=q1=Razorflank's Medallion", "=ds=#m3#", "", "100%"},
+			{ 7, 49205, "", "=q1=Small Scroll", "=ds=#m2# (#m6#)", "", "100%"},
 		},
 	},
 	info = {
@@ -3789,7 +3791,7 @@ AtlasLoot_Data["SMLibraryArcanistDoan"] = {
 			{ 3, 7712, "", "=q3=Mantle of Doan", "=ds=#s3#, #a1#", "", "24%" },
 			{ 4, 7711, "", "=q3=Robe of Doan", "=ds=#s5#, #a1#", "", "24%" },
 			{ 5, 34227, "", "=q4=Deadman's Hand", "=ds=#s13#", "", "4%" },
-			{ 7, 7146, "", "=q2=The Scarlet Key", "=ds=#e9# =q1=(Doan's Strongbox)", "", "4%" },
+			{ 7, 7146, "", "=q2=The Scarlet Key", "=ds=#e9# =q1=Doan's Strongbox", "", "4%" },
 		},
 	},
 	info = {
@@ -4342,7 +4344,7 @@ AtlasLoot_Data["ShadowfangKeepArchmageArugal"] = {
 			{ 1, 6392, "", "=q3=Belt of Arugal", "=ds=#s10#, #a1#", "", "40%"};
 			{ 2, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#", "", "40%"};
 			{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#", "", "20%"};
-			{ 4, 5442, "", "=q1=Head of Arugal", "=ds=#m3#", "", "100%"};
+			{ 5, 5442, "", "=q1=Head of Arugal", "=ds=#m3#", "", "100%"};
 		},
 	},
 	info = {
@@ -4768,7 +4770,7 @@ AtlasLoot_Data["DeadminesSneedsShredder"] = {
 		{
 			{ 1, 2169, "", "=q3=Buzzer Blade",           "=ds=#h1#, #w4#",  "", "90%"},
 			{ 2, 1937, "", "=q3=Buzz Saw",               "=ds=#h1#, #w10#", "", "10%"},
-			{ 3, 7365, "", "=q3=Gnoam Sprecklesprocket", "=ds=#m3#",        "", "100%"},
+			{ 4, 7365, "", "=q3=Gnoam Sprecklesprocket", "=ds=#m3#",        "", "100%"},
 		},
 	},
 	info = {
@@ -4857,8 +4859,8 @@ AtlasLoot_Data["DeadminesVanCleef"] = {
 			{ 2, 5202,  "", "=q3=Corsair's Overshirt",     "=ds=#s5#, #a1#",  "", "30%"};
 			{ 3, 10399, "", "=q3=Blackened Defias Armor",  "=ds=#s5#, #a2#",  "", "20%"};
 			{ 4, 5191,  "", "=q3=Cruel Barb",              "=ds=#h1#, #w10#", "", "20%"};
-			{ 5, 2874,  "", "=q1=An Unsent Letter",        "=ds=#m2# (#m7#)", "", "100%"};
-			{ 6, 3637,  "", "=q1=Head of VanCleef",        "=ds=#m3#", 	 	  "", "100%"};
+			{ 6, 2874,  "", "=q1=An Unsent Letter",        "=ds=#m2# (#m7#)", "", "100%"};
+			{ 7, 3637,  "", "=q1=Head of VanCleef",        "=ds=#m3#", 	 	  "", "100%"};
 		},
 	},
 	info = {
@@ -4939,7 +4941,7 @@ AtlasLoot_Data["TheStockadeKamDeepfury"] = {
 	["Normal"] = {
 		{
 			{ 1, 2280, "", "=q3=Kam's Walking Stick", "=ds=#w9#", "", "1%"},
-			{ 2, 3640, "", "=q1=Head of Kam Deepfury", "=ds=#m3#", "", "100%"},
+			{ 3, 3640, "", "=q1=Head of Kam Deepfury", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -4994,109 +4996,176 @@ AtlasLoot_Data["TheStockadeTrash"] = {
 --- The Sunken Temple ---
 -------------------------
 
-AtlasLoot_Data["STAvatarofHakkar"] = {
+AtlasLoot_Data["SunkenTempleAtalalarion"] = {
 	["Normal"] = {
 		{
-			{ 1, 12462, "", "=q4=Embrace of the Wind Serpent", "=ds=#s5#, #a1#",  "", "0.15%" },
-			{ 3, 10843, "", "=q3=Featherskin Cape",            "=ds=#s4#",        "", "31.12%" },
-			{ 4, 10842, "", "=q3=Windscale Sarong",            "=ds=#s11#, #a2#", "", "33.22%" },
-			{ 5, 10846, "", "=q3=Bloodshot Greaves",           "=ds=#s12#, #a3#", "", "32.44%" },
-			{ 6, 10845, "", "=q3=Warrior's Embrace",           "=ds=#s5#, #a4#",  "", "30.44%" },
-			{ 7, 10838, "", "=q3=Might of Hakkar",             "=ds=#h1#, #w6#",  "", "16.37%" },
-			{ 8, 10844, "", "=q3=Spire of Hakkar",             "=ds=#w9#",        "", "16.02%" },
+			{ 1, 10798, "", "=q3=Atal'alarion's Tusk Ring", "=ds=#s10#, #a4#", "", "40%"},
+			{ 2, 10800, "", "=q3=Darkwater Bracers", "=ds=#s8#, #a2#", "", "40%"},
+			{ 3, 10799, "", "=q3=Headspike", "=ds=#w7#", "", "20%"},
+			{ 5, 22444, "", "=q1=Putrid Vine", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
-		name = BabbleBoss["Avatar of Hakkar"],
+		name = BabbleBoss["Atal'alarion"],
 		module = moduleName,
-		instance = "TheSunkenTemple",
+		instance = "TempleOfAtalHakkar",
 	},
 };
 
-AtlasLoot_Data["STJammalanandOgom"] = {
+AtlasLoot_Data["SunkenTempleTrolls"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Jammal'an the Prophet"], "" },
-			{ 2,  10806, "",           "=q3=Vestments of the Atal'ai Prophet",      "=ds=#s5#, #a1#",  "", "24.13%" },
-			{ 3,  10808, "",           "=q3=Gloves of the Atal'ai Prophet",         "=ds=#s9#, #a1#",  "", "26.74%" },
-			{ 4,  10807, "",           "=q3=Kilt of the Atal'ai Prophet",           "=ds=#s11#, #a1#", "", "23.00%" },
-			{ 6,  6212,  "",           "=q1=Head of Jammal'an",                     "=ds=#m3#" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Ogom the Wretched"],   "" },
-			{ 17, 10805, "",           "=q3=Eater of the Dead",                     "=ds=#h1#, #w1#",  "", "28.27%" },
-			{ 18, 10804, "",           "=q3=Fist of the Damned",                    "=ds=#h1#, #w6#",  "", "30.03%" },
-			{ 19, 10803, "",           "=q3=Blade of the Wretched",                 "=ds=#h1#, #w10#", "", "28.21%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Shared"], "" },
+			{ 2, 10788, "", "=q3=Atal'ai Girdle", "=ds=#s10#, #a4#", "", "9%"},
+			{ 3, 10786, "", "=q3=Atal'ai Boots", "=ds=#s12#, #a3#", "", "8%"},
+			{ 4, 10787, "", "=q3=Atal'ai Gloves", "=ds=#s9#, #a1#", "", "7%"},
+			{ 5, 10785, "", "=q3=Atal'ai Leggings", "=ds=#s11#, #a2#", "", "5%"},
+			{ 6, 10783, "", "=q3=Atal'ai Spaulders", "=ds=#s3#, #a2#", "", "4%"},
+			{ 7, 10784, "", "=q3=Atal'ai Breastplate", "=ds=#s5#, #a3#", "", "3%"},
+			--hukku & mijan
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Hukku"] ..	" & " .. BabbleBoss["Mijan"], "" },
+			{ 17, 20607, "", "=q1=Blue Voodoo Feather", "=ds=#m3#", "", "100%"},
+			--zul'lor & gasher
+			{ 19, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Zul'Lor"] ..	" & " .. BabbleBoss["Gasher"], "" },
+			{ 20, 20606, "", "=q1=Amber Voodoo Feather", "=ds=#m3#", "", "100%"},
+			--zolo & loro
+			{ 22, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Zolo"] ..	" & " .. BabbleBoss["Loro"], "" },
+			{ 23, 20608, "", "=q1=Green Voodoo Feather", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Hukku"] ..	", " .. BabbleBoss["Mijan"] ..	", " .. BabbleBoss["Zul'Lor"] ..	", " .. BabbleBoss["Zolo"] ..	", " .. BabbleBoss["Gasher"] ..	" & " .. BabbleBoss["Loro"],
+		module = moduleName,
+		instance = "TempleOfAtalHakkar",
+	},
+};
+
+AtlasLoot_Data["SunkenTempleJammalanTheProphet"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Jammal'an the Prophet"], "" },
+			{ 2, 10808, "", "=q3=Gloves of the Atal'ai Prophet", "=ds=#s9#, #a1#", "", "33.3%" },
+			{ 3, 10807, "", "=q3=Kilt of the Atal'ai Prophet", "=ds=#s11#, #a1#", "", "33.3%" },
+			{ 4, 10806, "", "=q3=Vestments of the Atal'ai Prophet", "=ds=#s5#, #a1#", "", "33.3%" },
+			{ 6, 6212, "", "=q1=Head of Jammal'an", "=ds=#m3#", "", "100%" },
+			
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Ogom the Wretched"], "" },
+			{ 17, 10803, "", "=q3=Blade of the Wretched", "=ds=#h1#, #w10#", "", "33.3%" },
+			{ 18, 10805, "", "=q3=Eater of the Dead", "=ds=#h1#, #w1#", "", "33.3%" },
+			{ 19, 10804, "", "=q3=Fist of the Damned", "=ds=#h1#, #w6#", "", "33.3%" },
 		},
 	},
 	info = {
 		name = BabbleBoss["Jammal'an the Prophet"] .. " & " .. BabbleBoss["Ogom the Wretched"],
 		module = moduleName,
-		instance = "TheSunkenTemple",
+		instance = "TempleOfAtalHakkar",
 	},
 };
 
-AtlasLoot_Data["STDragons"] = {
+AtlasLoot_Data["SunkenTempleDragons"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,     "INV_Box_01", "=q6=" .. AL["Shared"],  "" },
-			{ 2, 12465, "",           "=q3=Nightfall Drape",   "=ds=#s4#",        "", "4.48%" },
-			{ 3, 12466, "",           "=q3=Dawnspire Cord",    "=ds=#s10#, #a1#", "", "4.46%" },
-			{ 4, 12464, "",           "=q3=Bloodfire Talons",  "=ds=#s9#, #a2#",  "", "5.00%" },
-			{ 5, 10795, "",           "=q3=Drakeclaw Band",    "=ds=#s13#",       "", "4.18%" },
-			{ 6, 10796, "",           "=q3=Drakestone",        "=ds=#s15#",       "", "4.92%" },
-			{ 7, 10797, "",           "=q3=Firebreather",      "=ds=#h1#, #w10#", "", "4.50%" },
-			{ 8, 12463, "",           "=q3=Drakefang Butcher", "=ds=#h2#, #w10#", "", "4.58%" },
-			{ 9, 12243, "",           "=q3=Smoldering Claw",   "=ds=#w7#",        "", "4.56%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Shared"], "" },
+			{ 2, 12464, "","=q3=Bloodfire Talons", "=ds=#s9#, #a2#", "", "5%" },
+			{ 3, 12466, "","=q3=Dawnspire Cord", "=ds=#s10#, #a1#", "", "5%" },
+			{ 4, 10795, "","=q3=Drakeclaw Band", "=ds=#s13#", "", "5%" },
+			{ 5, 12463, "","=q3=Drakefang Butcher", "=ds=#h2#, #w10#", "", "5%" },
+			{ 6, 10796, "","=q3=Drakestone", "=ds=#s15#", "", "5%" },
+			{ 7, 10797, "","=q3=Firebreather", "=ds=#h1#, #w10#", "", "5%" },
+			{ 8, 12465, "","=q3=Nightfall Drape", "=ds=#s4#", "", "5%" },
+			{ 9, 12243, "","=q3=Smoldering Claw", "=ds=#w7#", "", "5%" },
+			
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Morphaz"], "" },
+			{ 17, 20085, "", "=q1=Arcane Shard", "=ds=#m3#", "", "100%"},
+			{ 18, 20022, "", "=q1=Azure Key", "=ds=#m3#", "", "100%"},
+			{ 19, 20025, "", "=q1=Blood of Morphaz", "=ds=#m3#", "", "100%"},
+			{ 20, 20019, "", "=q1=Tooth of Morphaz", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
-		name = BabbleBoss["Dreamscythe"] ..
-		", " .. BabbleBoss["Weaver"] .. ", " .. BabbleBoss["Hazzas"] .. " & " .. BabbleBoss["Morphaz"],
+		name = BabbleBoss["Dreamscythe"] ..	", " .. BabbleBoss["Weaver"] .. ", " .. BabbleBoss["Hazzas"] .. " & " .. BabbleBoss["Morphaz"],
 		module = moduleName,
-		instance = "TheSunkenTemple",
+		instance = "TempleOfAtalHakkar",
 	},
 };
 
-AtlasLoot_Data["STEranikus"] = {
+AtlasLoot_Data["SunkenTempleAvatarOfHakkar"] = {
 	["Normal"] = {
 		{
-			{ 1, 10847, "", "=q4=Dragon's Call",      "=ds=#h1#, #w10#", "", "0.18%" },
-			{ 3, 10833, "", "=q3=Horns of Eranikus",  "=ds=#s1#, #a3#",  "", "25.66%" },
-			{ 4, 10829, "", "=q3=The Dragon's Eye",   "=ds=#s2#",        "", "27.02%" },
-			{ 5, 10828, "", "=q3=Dire Nail",          "=ds=#h1#, #w4#",  "", "10.91%" },
-			{ 6, 10837, "", "=q3=Tooth of Eranikus",  "=ds=#h1#, #w1#",  "", "10.05%" },
-			{ 7, 10835, "", "=q3=Crest of Supremacy", "=ds=#w8#",        "", "19.17%" },
-			{ 8, 10836, "", "=q3=Rod of Corrosion",   "=ds=#w12#",       "", "21.54%" },
+			{ 1, 10846, "", "=q3=Bloodshot Greaves", "=ds=#s12#, #a3#", "", "17.3%" },
+			{ 2, 10843, "", "=q3=Featherskin Cape", "=ds=#s4#", "", "17.3%" },
+			{ 3, 10845, "", "=q3=Warrior's Embrace", "=ds=#s5#, #a4#", "", "17.3%" },
+			{ 4, 10842, "", "=q3=Windscale Sarong", "=ds=#s11#, #a2#", "", "17.3%" },
+			{ 5, 10838, "", "=q3=Might of Hakkar", "=ds=#h1#, #w6#", "", "15%" },
+			{ 6, 10844, "", "=q3=Spire of Hakkar", "=ds=#w9#", "", "15%" },
+			{ 7, 12462, "", "=q4=Embrace of the Wind Serpent", "=ds=#s5#, #a1#", "", "1%" },
+			{ 9, 10663, "", "=q1=Essence of Hakkar", "=ds=#m3#", "", "100%"},
+		},
+	},
+	info = {
+		name = BabbleBoss["Avatar of Hakkar"],
+		module = moduleName,
+		instance = "TempleOfAtalHakkar",
+	},
+};
+
+AtlasLoot_Data["SunkenTempleShadeOfEranikus"] = {
+	["Normal"] = {
+		{
+			{ 1, 10835, "", "=q3=Crest of Supremacy", "=ds=#w8#", "", "17.3%" },
+			{ 2, 10833, "", "=q3=Horns of Eranikus", "=ds=#s1#, #a3#", "", "17.3%" },
+			{ 3, 10836, "", "=q3=Rod of Corrosion", "=ds=#w12#", "", "17.3%" },
+			{ 4, 10829, "", "=q3=The Dragon's Eye", "=ds=#s2#", "", "17.3%" },
+			{ 5, 10828, "", "=q3=Dire Nail", "=ds=#h1#, #w4#", "", "15%" },
+			{ 6, 10837, "", "=q3=Tooth of Eranikus", "=ds=#h1#, #w1#", "", "15%" },
+			{ 7, 10847, "", "=q4=Dragon's Call", "=ds=#h1#, #w10#", "", "1%" },
+			{ 9, 10454, "", "=q1=Essence of Eranikus", "=ds=#m2#", "", "100%"},
 		},
 	},
 	info = {
 		name = BabbleBoss["Shade of Eranikus"],
 		module = moduleName,
-		instance = "TheSunkenTemple",
+		instance = "TempleOfAtalHakkar",
 	},
 };
 
-AtlasLoot_Data["STTrash"] = {
+AtlasLoot_Data["SunkenTempleSpawnOfHakkar"] = {
 	["Normal"] = {
 		{
-			{ 1,  10630, "", "=q3=Soulcatcher Halo",                    "=ds=#s1#, #a1#",                       "", "0.01%" },
-			{ 2,  10629, "", "=q3=Mistwalker Boots",                    "=ds=#s12#, #a1#",                      "", "0.01%" },
-			{ 3,  10632, "", "=q3=Slimescale Bracers",                  "=ds=#s8#, #a3#",                       "", "0.01%" },
-			{ 4,  10631, "", "=q3=Murkwater Gauntlets",                 "=ds=#s9#, #a3#",                       "", "0.01%" },
-			{ 5,  10633, "", "=q3=Silvershell Leggings",                "=ds=#s11#, #a4#",                      "", "0.01%" },
-			{ 6,  10634, "", "=q3=Mindseye Circle",                     "=ds=#s13#",                            "", "0.02%" },
-			{ 8,  15733, "", "=q3=Pattern: Green Dragonscale Leggings", "=ds=#p7# (270) =q1=" .. AL["Murk Worm"], "", "1.80%" },
-			{ 16, 10623, "", "=q3=Winter's Bite",                       "=ds=#h1#, #w1#",                       "", "0.01%" },
-			{ 17, 10625, "", "=q3=Stealthblade",                        "=ds=#h1#, #w4#",                       "", "0.01%" },
-			{ 18, 10628, "", "=q3=Deathblow",                           "=ds=#h2#, #w10#",                      "", "0.01%" },
-			{ 19, 10626, "", "=q3=Ragehammer",                          "=ds=#h2#, #w6#",                       "", "0.01%" },
-			{ 20, 10627, "", "=q3=Bludgeon of the Grinning Dog",        "=ds=#w9#",                             "", "0.02%" },
-			{ 21, 10624, "", "=q3=Stinging Bow",                        "=ds=#w2#",                             "", "0.02%" },
+			{ 1, 10801, "", "=q3=Slitherscale Boots", "=ds=#s12#, #a2#", "", "47.4%"};
+			{ 2, 10802, "", "=q3=Wingveil Cloak", "=ds=#s4#", "", "26.1%"};
+		},
+	},
+	info = {
+		name = "Spawn of Hakkar (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "TempleOfAtalHakkar",
+	},
+};
+
+AtlasLoot_Data["SunkenTempleTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 10627, "", "=q3=Bludgeon of the Grinning Dog", "=ds=#w9#", "", "~0.05%" },
+			{ 2, 10628, "", "=q3=Deathblow", "=ds=#h2#, #w10#", "", "~0.035%" },
+			{ 3, 10634, "", "=q3=Mindseye Circle", "=ds=#s13#", "", "~0.055%" },
+			{ 4, 10629, "", "=q3=Mistwalker Boots", "=ds=#s12#, #a1#", "", "~0.04%" },
+			{ 5, 10631, "", "=q3=Murkwater Gauntlets", "=ds=#s9#, #a3#", "", "~0.185%" },
+			{ 6, 10626, "", "=q3=Ragehammer", "=ds=#h2#, #w6#", "", "~0.05%" },
+			{ 7, 10633, "", "=q3=Silvershell Leggings", "=ds=#s11#, #a4#", "", "~0.045%" },
+			{ 8, 10632, "", "=q3=Slimescale Bracers", "=ds=#s8#, #a3#", "", "~0.045%" },
+			{ 9, 10630, "", "=q3=Soulcatcher Halo", "=ds=#s1#, #a1#", "", "~0.04%" },
+			{ 10, 10625, "", "=q3=Stealthblade", "=ds=#h1#, #w4#", "", "~0.025%" },
+			{ 11, 10624, "", "=q3=Stinging Bow", "=ds=#w2#", "", "~0.035%" },
+			{ 12, 10623, "", "=q3=Winter's Bite", "=ds=#h1#, #w1#", "", "~0.045%" },
+			{ 14, 15733, "", "=q3=Pattern: Green Dragonscale Leggings", "=ds=#p7# (270) =q1=" .. AL["Murk Worm"], "", "3.6%" },
+			{ 15, 16216, "", "=q2=Formula: Enchant Cloak - Greater Resistance", "=ds=#p4# (265) =q1=" .. AL["Atal'ai Witch Doctor"], "", "1.48%" },
 		},
 	},
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		instance = "TheSunkenTemple",
+		instance = "TempleOfAtalHakkar",
 	},
 };
 
@@ -5211,7 +5280,7 @@ AtlasLoot_Data["UldamanGrimlok"] = {
 			{ 1, 9415, "", "=q3=Grimlok's Tribal Vestments", "=ds=#s5#, #a1#", "", "40%" },
 			{ 2, 9414, "", "=q3=Oilskin Leggings", "=ds=#s11#, #a2#", "", "40%" },
 			{ 3, 9416, "", "=q3=Grimlok's Charge", "=ds=#w7#", "", "20%" },
-			{ 4, 7670, "", "=q1=Shattered Necklace Sapphire", "=ds=#m3#", "", "100%" },
+			{ 5, 7670, "", "=q1=Shattered Necklace Sapphire", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
@@ -5227,7 +5296,7 @@ AtlasLoot_Data["UldamanArchaedas"] = {
 			{ 1, 11118, "", "=q3=Archaedic Stone", "=ds=#s13#", "", "60%" },
 			{ 2, 9418, "", "=q3=Stoneslayer", "=ds=#h2#, #w10#", "", "20%" },
 			{ 3, 9413, "", "=q3=The Rockpounder", "=ds=#h2#, #w6#", "", "20%" },
-			{ 4, 7672, "", "=q1=Shattered Necklace Power Source", "=ds=#m3#", "", "100%" },
+			{ 5, 7672, "", "=q1=Shattered Necklace Power Source", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
@@ -5297,7 +5366,7 @@ AtlasLoot_Data["WailingCavernsLadyAnacondra"] = {
 			{ 1, 5404, "", "=q3=Serpent's Shoulders", "=ds=#s3#, #a2#", "", "80%"},
 			{ 2, 10412, "", "=q3=Belt of the Fang", "=ds=#s10#, #a2#", "", "10%"},
 			{ 3, 6446, "", "=q3=Snakeskin Bag", "=ds=#e1#", "", "10%"},
-			{ 4, 9739, "", "=q1=Gem of Anacondra", "=ds=#m3#", "", "100%"},
+			{ 5, 9739, "", "=q1=Gem of Anacondra", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -5313,7 +5382,7 @@ AtlasLoot_Data["WailingCavernsLordCobrahn"] = {
 			{ 1, 6465, "", "=q3=Robe of the Moccasin", "=ds=#s5#, #a1#", "", "60%"},
 			{ 2, 6460, "", "=q3=Cobrahn's Grasp", "=ds=#s10#, #a3#", "", "20%"},
 			{ 3, 10410, "", "=q3=Leggings of the Fang", "=ds=#s11#, #a2#", "", "20%"},
-			{ 4, 9738, "", "=q1=Gem of Cobrahn", "=ds=#m3#", "", "100%"},
+			{ 5, 9738, "", "=q1=Gem of Cobrahn", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -5328,7 +5397,7 @@ AtlasLoot_Data["WailingCavernsLordPythas"] = {
 		{
 			{ 1, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "60%"},
 			{ 2, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "40%"},
-			{ 3, 9740, "", "=q1=Gem of Pythas", "=ds=#m3#", "", "100%"},
+			{ 4, 9740, "", "=q1=Gem of Pythas", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -5359,7 +5428,7 @@ AtlasLoot_Data["WailingCavernsLordSerpentis"] = {
 			{ 2, 6459, "", "=q3=Savage Trodders", "=ds=#s12#, #a3#", "", "25%"};
 			{ 3, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "25%"};
 			{ 4, 6469, "", "=q3=Venomstrike", "=ds=#w2#", "", "25%"};
-			{ 5, 9741, "", "=q1=Gem of Serpentis", "=ds=#m3#", "", "100%"},
+			{ 6, 9741, "", "=q1=Gem of Serpentis", "=ds=#m3#", "", "100%"},
 		},
 	},
 	info = {
@@ -5390,7 +5459,7 @@ AtlasLoot_Data["WailingCavernsMutanusTheDevourer"] = {
 			{ 1, 6463, "", "=q3=Deep Fathom Ring", "=ds=#s13#", "", "33.3%"};
 			{ 2, 6627, "", "=q3=Mutant Scale Breastplate", "=ds=#s5#, #a3#", "", "33.3%"};
 			{ 3, 6461, "", "=q3=Slime-encrusted Pads", "=ds=#s3#, #a1#", "", "33.3%"};
-			{ 4, 10441, "", "=q1=Glowing Shard", "=ds=#m2#", "", "100%"};
+			{ 6, 10441, "", "=q1=Glowing Shard", "=ds=#m2#", "", "100%"};
 		},
 	},
 	info = {
@@ -5459,7 +5528,7 @@ AtlasLoot_Data["ZulFarrakThekaTheMartyr"] = {
 			{ 5, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
 			{ 6, 2040, "", "=q3=Troll Protector", "=ds=#w8#", "", "0.02%" },
 			{ 7, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
-			{ 8, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%" },
+			{ 9, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -5494,7 +5563,7 @@ AtlasLoot_Data["ZulFarrakSandfuryExecutioner"] = {
 			{ 6, 2040, "", "=q3=Troll Protector", "=ds=#w8#", "", "0.03%" },
 			{ 7, 9483, "", "=q3=Flaming Incinerator", "=ds=#w12#", "", "0.02%" },
 			{ 8, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
-			{ 9, 8444, "", "=q1=Executioner's Key", "=ds=#e9#", "", "100%" },
+			{ 10, 8444, "", "=q1=Executioner's Key", "=ds=#e9#", "", "100%" },
 		},
 	},
 	info = {
@@ -5507,19 +5576,20 @@ AtlasLoot_Data["ZulFarrakSandfuryExecutioner"] = {
 AtlasLoot_Data["ZulFarrakShadowpriestSezzziz"] = {
 	["Normal"] = {
 		{
-			{ 1, 9470, "", "=q3=Bad Mojo Mask", "=ds=#s1#, #a1#", "", "25%" },
-			{ 2, 9475, "", "=q3=Diabolic Skiver", "=ds=#w7#", "", "25%" },
-			{ 3, 9474, "", "=q3=Jinxed Hoodoo Kilt", "=ds=#s11#, #a2#", "", "25%" },
-			{ 4, 9473, "", "=q3=Jinxed Hoodoo Skin", "=ds=#s5#, #a2#", "", "25%" },
-			{ 6, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Nekrum Gutchewer"], "" },
-			{ 7, 9480, "", "=q3=Eyegouger", "=ds=#w7#", "", "0.1%" },
-			{ 8, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
-			{ 9, 9471, "", "=q1=Nekrum's Medallion", "=ds=#m3#", "", "100%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Shadowpriest Sezz'ziz"], "" },
+			{ 2, 9470, "", "=q3=Bad Mojo Mask", "=ds=#s1#, #a1#", "", "25%" },
+			{ 3, 9475, "", "=q3=Diabolic Skiver", "=ds=#w7#", "", "25%" },
+			{ 4, 9474, "", "=q3=Jinxed Hoodoo Kilt", "=ds=#s11#, #a2#", "", "25%" },
+			{ 5, 9473, "", "=q3=Jinxed Hoodoo Skin", "=ds=#s5#, #a2#", "", "25%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Nekrum Gutchewer"], "" },
+			{ 17, 9480, "", "=q3=Eyegouger", "=ds=#w7#", "", "0.1%" },
+			{ 18, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
+			{ 20, 9471, "", "=q1=Nekrum's Medallion", "=ds=#m3#", "", "100%" },
 
 		},
 	},
 	info = {
-		name = BabbleBoss["Shadowpriest Sezz'ziz"],
+		name = BabbleBoss["Shadowpriest Sezz'ziz"] .. " & " .. BabbleBoss["Nekrum Gutchewer"],
 		module = moduleName,
 		instance = "ZulFarrak",
 	},
@@ -5528,23 +5598,27 @@ AtlasLoot_Data["ZulFarrakShadowpriestSezzziz"] = {
 AtlasLoot_Data["ZulFarrakSergeantBly"] = {
 	["Normal"] = {
 		{
-			{ 1, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
-			{ 2, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
-			{ 3, 8548, "", "=q1=Divino-matic Rod", "=ds=#m3#", "", "100%" },
-			{ 5, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Murta Grimgut"], "" },
-			{ 6, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.18%" },
-			{ 7, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.06%" },
-			{ 8, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
-			{ 10, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Oro Eyegouge"], "" },
-			{ 11, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
-			{ 12, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
-			{ 16, 0, "INV_Box_01", "=q6=Raven", "" },
-			{ 17, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.06%" },
-			{ 18, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.06%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Sergeant Bly"], "" },
+			{ 2, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
+			{ 3, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
+			{ 5, 8548, "", "=q1=Divino-matic Rod", "=ds=#m3#", "", "100%" },
+			
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Murta Grimgut"], "" },
+			{ 17, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.18%" },
+			{ 18, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.06%" },
+			{ 19, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
+			
+			{ 21, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Oro Eyegouge"], "" },
+			{ 22, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
+			{ 23, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.02%" },
+			
+			{ 25, 0, "INV_Box_01", "=q6=Raven", "" },
+			{ 26, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.06%" },
+			{ 27, 9482, "", "=q3=Witch Doctor's Cane", "=ds=#w9#", "", "0.06%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Sergeant Bly"],
+		name = BabbleBoss["Sergeant Bly"] .. ", " .. BabbleBoss["Murta Grimgut"] .. ", " .. BabbleBoss["Oro Eyegouge"] .. " & Raven",
 		module = moduleName,
 		instance = "ZulFarrak",
 	},
@@ -5557,8 +5631,8 @@ AtlasLoot_Data["ZulFarrakHydromancerVelratha"] = {
 			{ 2, 9481, "", "=q3=The Minotaur", "=ds=#h2#, #w1#", "", "0.02%" },
 			{ 3, 9483, "", "=q3=Flaming Incinerator", "=ds=#w12#", "", "0.02%" },
 			{ 4, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.02%" },
-			{ 5, 10661, "", "=q1=Second Mosh'aru Tablet", "=ds=#m3#", "", "100%" },
-			{ 6, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%" },
+			{ 6, 10661, "", "=q1=Second Mosh'aru Tablet", "=ds=#m3#", "", "100%" },
+			{ 7, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -5573,7 +5647,7 @@ AtlasLoot_Data["ZulFarrakGahzrilla"] = {
 		{
 			{ 1, 9467, "", "=q3=Gahz'rilla Fang", "=ds=#h1#, #w4#", "", "50%" },
 			{ 2, 9469, "", "=q3=Gahz'rilla Scale Armor", "=ds=#s5#, #a3#", "", "50%" },
-			{ 3, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#", "", "100%" },
+			{ 4, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -5586,22 +5660,23 @@ AtlasLoot_Data["ZulFarrakGahzrilla"] = {
 AtlasLoot_Data["ZulFarrakChiefUkorzSandscalp"] = {
 	["Normal"] = {
 		{
-			{ 1, 9476, "", "=q3=Big Bad Pauldrons", "=ds=#s3#, #a4#", "", "30%" },
-			{ 2, 9479, "", "=q3=Embrace of the Lycan", "=ds=#s1#, #a2#", "", "20%" },
-			{ 3, 9478, "", "=q3=Ripsaw", "=ds=#h1#, #w1#", "", "20%" },
-			{ 4, 9477, "", "=q3=The Chief's Enforcer", "=ds=#w9#", "", "20%" },
-			{ 5, 9484, "", "=q3=Spellshock Leggings", "=ds=#s11#, #a1#", "", "0.01%" },
-			{ 7, 11086, "", "=q3=Jang'thraze the Protector", "=ds=#h3#, #w10#", "", "10%" },
-			{ 8, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2# #w10#", ""},
-			{ 10, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Ruuzlu"], "" },
-			{ 11, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.08%" },
-			{ 12, 6440, "", "=q3=Brainlash", "=ds=#s13#", "", "0.05%" },
-			{ 13, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.04%" },
-			{ 14, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.03%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Chief Ukorz Sandscalp"], "" },
+			{ 2, 9476, "", "=q3=Big Bad Pauldrons", "=ds=#s3#, #a4#", "", "30%" },
+			{ 3, 9479, "", "=q3=Embrace of the Lycan", "=ds=#s1#, #a2#", "", "20%" },
+			{ 4, 9478, "", "=q3=Ripsaw", "=ds=#h1#, #w1#", "", "20%" },
+			{ 5, 9477, "", "=q3=The Chief's Enforcer", "=ds=#w9#", "", "20%" },
+			{ 6, 9484, "", "=q3=Spellshock Leggings", "=ds=#s11#, #a1#", "", "0.01%" },
+			{ 8, 11086, "", "=q3=Jang'thraze the Protector", "=ds=#h3#, #w10#", "", "10%" },
+			{ 9, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2# #w10#", ""},
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Ruuzlu"], "" },
+			{ 17, 9511, "", "=q3=Bloodletter Scalpel", "=ds=#h1#, #w10#", "", "0.08%" },
+			{ 18, 6440, "", "=q3=Brainlash", "=ds=#s13#", "", "0.05%" },
+			{ 19, 5616, "", "=q3=Gutwrencher", "=ds=#h1#, #w4#", "", "0.04%" },
+			{ 20, 9512, "", "=q3=Blackmetal Cape", "=ds=#s4#", "", "0.03%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Chief Ukorz Sandscalp"],
+		name = BabbleBoss["Chief Ukorz Sandscalp"] .. " & " .. BabbleBoss["Ruuzlu"],
 		module = moduleName,
 		instance = "ZulFarrak",
 	},
