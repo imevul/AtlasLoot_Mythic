@@ -1016,12 +1016,14 @@ AtlasLoot_LootTableRegister = {
 
 		["TheSunkenTemple"] = {
 			["Bosses"] = {
-				{ "STAvatarofHakkar",  3 },
-				{ "STJammalanandOgom", { 4, 5 } },
-				{ "STDragons",         { 6, 7, 8, 9 } },
-				{ "STEranikus",        10 },
-				{ "LunarFestival",     12,            hide = true },
-				{ "STTrash",           14 },
+				{ "SunkenTempleAtalalarion", 1 },
+				{ "SunkenTempleTrolls", 2 },
+				{ "SunkenTempleJammalanTheProphet", 3 },
+				{ "SunkenTempleDragons", 4 },
+				{ "SunkenTempleAvatarOfHakkar", 5 },
+				{ "SunkenTempleShadeOfEranikus", 6 },
+				{ "SunkenTempleSpawnOfHakkar", 7 },
+				{ "SunkenTempleTrash", 8 },
 			},
 			["Info"] = { "[49] " .. BabbleZone["Sunken Temple"], "AtlasLootClassicWoW", mapname = "TempleOfAtalHakkar" },
 		},
