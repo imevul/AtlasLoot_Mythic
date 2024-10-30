@@ -809,13 +809,14 @@ AtlasLoot_Data["BlackfathomDeepsTrash"] = {
 --- Blackrock Mountain: Blackrock Depths ---
 --------------------------------------------
 
-AtlasLoot_Data["BRDHighInterrogatorGerstahn"] = {
+AtlasLoot_Data["BlackrockDepthsHighInterrogatorGerstahn"] = {
 	["Normal"] = {
 		{
-			{ 1, 11626, "", "=q3=Blackveil Cape",               "=ds=#s4#",        "", "25%" },
-			{ 2, 11624, "", "=q3=Kentic Amice",                 "=ds=#s3#, #a1#",  "", "25%" },
+			{ 1, 11626, "", "=q3=Blackveil Cape", "=ds=#s4#", "", "25%" },
+			{ 2, 11625, "", "=q3=Enthralled Sphere", "=ds=#s15#", "", "25%" },
 			{ 3, 22240, "", "=q3=Greaves of Withering Despair", "=ds=#s12#, #a3#", "", "25%" },
-			{ 4, 11625, "", "=q3=Enthralled Sphere",            "=ds=#s15#",       "", "25%" },
+			{ 4, 11624, "", "=q3=Kentic Amice", "=ds=#s3#, #a1#", "", "25%" },
+			{ 6, 11140, "", "=q1=Prison Cell Key", "=ds=#e9#", "", "100%" },
 		},
 	},
 	info = {
@@ -825,15 +826,15 @@ AtlasLoot_Data["BRDHighInterrogatorGerstahn"] = {
 	},
 };
 
-AtlasLoot_Data["BRDLordRoccor"] = {
+AtlasLoot_Data["BlackrockDepthsLordRoccor"] = {
 	["Normal"] = {
 		{
-			{ 1,  22234, "", "=q3=Mantle of Lost Hope",                    "=ds=#s3#, #a1#", "", "25%" },
-			{ 2,  11632, "", "=q3=Earthslag Shoulders",                    "=ds=#s3#, #a4#", "", "25%" },
-			{ 3,  22397, "", "=q3=Idol of Ferocity",                       "=ds=#w14#",      "", "25%" },
-			{ 4,  11631, "", "=q3=Stoneshell Guard",                       "=ds=#w8#",       "", "25%" },
-			{ 16, 45050, "", "=q2=Formula: Smoking Heart of the Mountain", "=ds=#p4# (265)", "", "100%" },
-			{ 17, 11811, "", "=q3=Smoking Heart of the Mountain",          "=ds=#s14#" },
+			{ 1, 11632, "", "=q3=Earthslag Shoulders", "=ds=#s3#, #a4#", "", "25%" },
+			{ 2, 22397, "", "=q3=Idol of Ferocity", "=ds=#w14#", "", "25%" },
+			{ 3, 22234, "", "=q3=Mantle of Lost Hope", "=ds=#s3#, #a1#", "", "25%" },
+			{ 4, 11631, "", "=q3=Stoneshell Guard", "=ds=#w8#", "", "25%" },
+			{ 5, 11630, "", "=q3=Rockshard Pellets", "=ds=#w18# =q1=(x200)", "", "16%" },
+			{ 7, 11813, "", "=q2=Formula: Smoking Heart of the Mountain", "=ds=#p4# (265)", "", "15%" },
 		},
 	},
 	info = {
@@ -843,13 +844,13 @@ AtlasLoot_Data["BRDLordRoccor"] = {
 	},
 };
 
-AtlasLoot_Data["BRDHoundmaster"] = {
+AtlasLoot_Data["BlackrockDepthsHoundmasterGrebmar"] = {
 	["Normal"] = {
 		{
-			{ 1, 11623, "", "=q3=Spritecaster Cape",   "=ds=#s4#",        "", "33%" },
-			{ 2, 11627, "", "=q3=Fleetfoot Greaves",   "=ds=#s12#, #a3#", "", "33%" },
-			{ 3, 11628, "", "=q3=Houndmaster's Bow",   "=ds=#w2#",        "", "17%" },
-			{ 4, 11629, "", "=q3=Houndmaster's Rifle", "=ds=#w5#",        "", "17%" },
+			{ 1, 11627, "", "=q3=Fleetfoot Greaves", "=ds=#s12#, #a3#", "", "35%" },
+			{ 2, 11623, "", "=q3=Spritecaster Cape", "=ds=#s4#", "", "35%" },
+			{ 3, 11628, "", "=q3=Houndmaster's Bow", "=ds=#w2#", "", "15%" },
+			{ 4, 11629, "", "=q3=Houndmaster's Rifle", "=ds=#w5#", "", "15%" },
 		},
 	},
 	info = {
@@ -859,13 +860,13 @@ AtlasLoot_Data["BRDHoundmaster"] = {
 	},
 };
 
-AtlasLoot_Data["BRDBaelGar"] = {
+AtlasLoot_Data["BlackrockDepthsBaelGar"] = {
 	["Normal"] = {
 		{
-			{ 1, 11807, "", "=q3=Sash of the Burning Heart", "=ds=#s10#, #a1#", "", "25%" },
-			{ 2, 11802, "", "=q3=Lavacrest Leggings",        "=ds=#s11#, #a4#", "", "25%" },
-			{ 3, 11805, "", "=q3=Rubidium Hammer",           "=ds=#h1#, #w6#",  "", "25%" },
-			{ 4, 11803, "", "=q3=Force of Magma",            "=ds=#h2#, #w6#",  "", "25%" },
+			{ 1, 11803, "", "=q3=Force of Magma", "=ds=#h2#, #w6#", "", "32%" },
+			{ 2, 11802, "", "=q3=Lavacrest Leggings", "=ds=#s11#, #a4#", "", "32%" },
+			{ 3, 11805, "", "=q3=Rubidium Hammer", "=ds=#h1#, #w6#", "", "18%" },
+			{ 4, 11807, "", "=q3=Sash of the Burning Heart", "=ds=#s10#, #a1#", "", "18%" },
 		},
 	},
 	info = {
@@ -875,14 +876,15 @@ AtlasLoot_Data["BRDBaelGar"] = {
 	},
 };
 
-AtlasLoot_Data["BRDLordIncendius"] = {
+AtlasLoot_Data["BlackrockDepthsLordIncendius"] = {
 	["Normal"] = {
 		{
-			{ 1,  11766, "", "=q3=Flameweave Cuffs",      "=ds=#s8#, #a1#", "", "25%" },
-			{ 2,  11764, "", "=q3=Cinderhide Armsplints", "=ds=#s8#, #a2#", "", "25%" },
-			{ 3,  11765, "", "=q3=Pyremail Wristguards",  "=ds=#s8#, #a3#", "", "25%" },
-			{ 4,  11767, "", "=q3=Emberplate Armguards",  "=ds=#s8#, #a4#", "", "25%" },
-			{ 16, 19268, "", "=q3=Ace of Elementals",     "=ds=#e16#",      "", "3%" },
+			{ 1, 11764, "", "=q3=Cinderhide Armsplints", "=ds=#s8#, #a2#", "", "25%" },
+			{ 2, 11767, "", "=q3=Emberplate Armguards", "=ds=#s8#, #a4#", "", "25%" },
+			{ 3, 11766, "", "=q3=Flameweave Cuffs", "=ds=#s8#, #a1#", "", "25%" },
+			{ 4, 11765, "", "=q3=Pyremail Wristguards", "=ds=#s8#, #a3#", "", "25%" },
+			{ 6, 21987, "", "=q1=Incendicite of Incendius", "=ds=#m3#", "", "100%" },
+			{ 7, 11126, "", "=q1=Tablet of Kurniya", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -892,14 +894,15 @@ AtlasLoot_Data["BRDLordIncendius"] = {
 	},
 };
 
-AtlasLoot_Data["BRDFineousDarkvire"] = {
+AtlasLoot_Data["BlackrockDepthsFineousDarkvire"] = {
 	["Normal"] = {
 		{
-			{ 1, 11839, "", "=q3=Chief Architect's Monocle",    "=ds=#s1#, #a1#",  "", "25%" },
-			{ 2, 11841, "", "=q3=Senior Designer's Pantaloons", "=ds=#s11#, #a1#", "", "25%" },
-			{ 3, 11842, "", "=q3=Lead Surveyor's Mantle",       "=ds=#s3#, #a3#",  "", "25%" },
-			{ 4, 22223, "", "=q3=Foreman's Head Protector",     "=ds=#s1#, #a4#",  "", "25%" },
-			{ 6, 11840, "", "=q1=Master Builder's Shirt",       "#s6#",            "", "7%" },
+			{ 1, 11839, "", "=q3=Chief Architect's Monocle", "=ds=#s1#, #a1#", "", "25%" },
+			{ 2, 22223, "", "=q3=Foreman's Head Protector", "=ds=#s1#, #a4#", "", "25%" },
+			{ 3, 11842, "", "=q3=Lead Surveyor's Mantle", "=ds=#s3#, #a3#", "", "25%" },
+			{ 4, 11841, "", "=q3=Senior Designer's Pantaloons", "=ds=#s11#, #a1#", "", "25%" },
+			{ 6, 11840, "", "=q1=Master Builder's Shirt", "#s6#", "", "5%" },
+			{ 8, 10999, "", "=q1=Ironfel", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -909,20 +912,68 @@ AtlasLoot_Data["BRDFineousDarkvire"] = {
 	},
 };
 
-AtlasLoot_Data["BRDTheVault"] = {
+AtlasLoot_Data["BlackrockDepthsWarderStilgiss"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. AL["The Vault"],          "" },
-			{ 2,  11309, "",           "=q1=The Heart of the Mountain",    "=ds=#m3#",       "", "100%" },
-			{ 4,  0,     "INV_Box_01", "=q6=" .. AL["The Secret Safe"],    "" },
-			{ 5,  22256, "",           "=q3=Mana Shaping Handwraps",       "=ds=#s9#, #a1#", "", "25%" },
-			{ 8,  22205, "",           "=q3=Black Steel Bindings",         "=ds=#s8#, #a4#", "", "25%" },
-			{ 9,  22255, "",           "=q3=Magma Forged Band",            "=ds=#s13#",      "", "25%" },
-			{ 12, 22254, "",           "=q3=Wand of Eternal Light",        "=ds=#w12#",      "", "25%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Dark Coffer"], "" },
-			{ 17, 11752, "",           "=q1=Black Blood of the Tormented", "=ds=#m3#" },
-			{ 18, 11751, "",           "=q1=Burning Essence",              "=ds=#m3#" },
-			{ 19, 11753, "",           "=q1=Eye of Kajal",                 "=ds=#m3#" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Warder Stilgiss"], "" },
+			{ 2, 11784, "", "=q3=Arbiter's Blade", "=ds=#h3#, #w10#", "", "25%" },
+			{ 3, 11782, "", "=q3=Boreal Mantle", "=ds=#s3#, #a1#", "", "25%" },
+			{ 4, 11783, "", "=q3=Chillsteel Girdle", "=ds=#s10#, #a3#", "", "25%" },
+			{ 5, 22241, "", "=q3=Dark Warder's Pauldrons", "=ds=#s3#, #a2#",  "", "25%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Verek"], "" },
+			{ 17, 22242, "", "=q3=Verek's Leash", "=ds=#s10#, #a3#", "", "13%" },
+			{ 18, 11755, "", "=q3=Verek's Collar", "=ds=#s2#", "", "12%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Warder Stilgiss"] .. " & " .. BabbleBoss["Verek"],
+		module = moduleName,
+		instance = "BlackrockDepths",
+	},
+};
+
+AtlasLoot_Data["BlackrockDepthsDarkKeepers"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6=Dark Keeper Bethek", "The Vault" },
+			{ 2, 0, "INV_Box_01", "=q6=Dark Keeper Ofgut", "West Garrison" },
+			{ 3, 0, "INV_Box_01", "=q6=Dark Keeper Pelver", "The Domicile" },
+			{ 4, 0, "INV_Box_01", "=q6=Dark Keeper Uggel", "Halls of Crafting" },
+			{ 5, 0, "INV_Box_01", "=q6=Dark Keeper Vorfalk", "Grim Guzzler" },
+			{ 6, 0, "INV_Box_01", "=q6=Dark Keeper Zimrel", "Ring of the Law (Upper Level)" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Shared"], "" },
+			{ 17, 11197, "", "=q1=Dark Keeper Key", "=ds=#e9#", "", "100%" },
+		},
+	},
+	info = {
+		name = "Dark Keepers",
+		module = moduleName,
+		instance = "BlackrockDepths",
+	},
+};
+
+AtlasLoot_Data["BlackrockDepthsTheVault"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6=Relic Coffer", "" },
+			{ 2, 11945, "", "=q3=Dark Iron Ring", "=ds=#s13#", "", "0.5%" },
+			{ 3, 11946, "", "=q3=Fire Opal Necklace", "=ds=#s2#", "", "0.4%" },
+			
+			{ 5, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Dark Coffer"], "" },
+			{ 6, 22256, "", "=q3=Mana Shaping Handwraps", "=ds=#s9#, #a1#", "", "0.5%" },
+			{ 7, 22254, "", "=q3=Wand of Eternal Light", "=ds=#w12#", "", "0.3%" },
+			{ 8, 11945, "", "=q3=Dark Iron Ring", "=ds=#s13#", "", "0.2%" },
+			{ 9, 22255, "", "=q3=Magma Forged Band", "=ds=#s13#", "", "0.2%" },
+			{ 11, 11751, "", "=q1=Burning Essence", "=ds=#m3# =q1=(x1-2)", "", "46%" },
+			{ 12, 11752, "", "=q1=Black Blood of the Tormented", "=ds=#m3# =q1=(x1-2)", "", "43%" },
+			{ 13, 11753, "", "=q1=Eye of Kajal", "=ds=#m3#", "", "39%" },
+			
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["The Secret Safe"], "" },
+			{ 17, 22205, "", "=q3=Black Steel Bindings", "=ds=#s8#, #a4#", "", "25%" },
+			{ 18, 22255, "", "=q3=Magma Forged Band", "=ds=#s13#", "", "25%" },
+			{ 19, 22256, "", "=q3=Mana Shaping Handwraps", "=ds=#s9#, #a1#", "", "25%" },
+			{ 20, 22254, "", "=q3=Wand of Eternal Light", "=ds=#w12#", "", "25%" },
+			{ 22, 11309, "", "=q1=The Heart of the Mountain", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -932,46 +983,39 @@ AtlasLoot_Data["BRDTheVault"] = {
 	},
 };
 
-AtlasLoot_Data["BRDWarderStilgiss"] = {
+AtlasLoot_Data["BlackrockDepthsWatchmanDoomgrip"] = {
 	["Normal"] = {
 		{
-			{ 1, 11782, "", "=q3=Boreal Mantle",           "=ds=#s3#, #a1#",  "", "25%" },
-			{ 2, 22241, "", "=q3=Dark Warder's Pauldrons", "=ds=#s3#, #a2#",  "", "25%" },
-			{ 3, 11783, "", "=q3=Chillsteel Girdle",       "=ds=#s10#, #a3#", "", "25%" },
-			{ 4, 11784, "", "=q3=Arbiter's Blade",         "=ds=#h3#, #w10#", "", "25%" },
+			{ 1, 11926, "", "=q3=Deathdealer Breastplate", "=ds=#s5#, #a3#", "", "3%" },
+			{ 2, 11920, "", "=q3=Wraith Scythe", "=ds=#h1# #w1#", "", "3%" },
+			{ 3, 11929, "", "=q3=Haunting Specter Leggings", "=ds=#s11#, #a1#", "", "2.8%" },
+			{ 4, 11923, "", "=q3=The Hammer of Grace", "=ds=#h3#, #w6#", "", "2.3%" },
+			{ 5, 22256, "", "=q3=Mana Shaping Handwraps", "=ds=#s9#, #a1#", "", "1.91%" },
+			{ 6, 22205, "", "=q3=Black Steel Bindings", "=ds=#s8#, #a4#", "", "1.83%" },
+			{ 7, 22254, "", "=q3=Wand of Eternal Light", "=ds=#w12#", "", "0.75%" },
+			{ 8, 12550, "", "=q3=Runed Golem Shackles", "=ds=#s8#, #a4#", "", "0.32%" },
+			{ 9, 22255, "", "=q3=Magma Forged Band", "=ds=#s13#", "", "0.22%" },
+			{ 10, 12552, "", "=q3=Blisterbane Wrap", "=ds=#s4#", "", "0.08%" },
+			{ 11, 12547, "", "=q3=Mar Alom's Grip", "=ds=#s9#, #a2#", "", "0.08%" },
+			{ 12, 12527, "", "=q3=Ribsplitter", "=ds=#h1#, #w1#", "", "0.08%" },
+			{ 13, 12528, "", "=q3=The Judge's Gavel", "=ds=#h2#, #w6#", "", "0.08%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Warder Stilgiss"],
+		name = "Watchman Doomgrip",
 		module = moduleName,
 		instance = "BlackrockDepths",
 	},
 };
 
-AtlasLoot_Data["BRDVerek"] = {
+AtlasLoot_Data["BlackrockDepthsPyromancerLoregrain"] = {
 	["Normal"] = {
 		{
-			{ 1, 22242, "", "=q3=Verek's Leash",  "=ds=#s10#, #a3#", "", "12.50%" },
-			{ 2, 11755, "", "=q3=Verek's Collar", "=ds=#s2#",        "", "12.50%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Verek"],
-		module = moduleName,
-		instance = "BlackrockDepths",
-	},
-};
-
-AtlasLoot_Data["BRDPyromantLoregrain"] = {
-	["Normal"] = {
-		{
-			{ 1,  11747, "", "=q3=Flamestrider Robes",                     "=ds=#s5#, #a2#",              "", "25%" },
-			{ 2,  11749, "", "=q3=Searingscale Leggings",                  "=ds=#s11#, #a3#",             "", "25%" },
-			{ 3,  11750, "", "=q3=Kindling Stave",                         "=ds=#w9#",                    "", "25%" },
-			{ 4,  11748, "", "=q3=Pyric Caduceus",                         "=ds=#w12#",                   "", "25%" },
-			{ 16, 11207, "", "=q2=Formula: Enchant Weapon - Fiery Weapon", "=ds=#p4# (265)",              "", "15%" },
---			{ 18, 63469, "", "=q1=Breath of Cenarius",                     "=ds=#m3#, =q1=#m1# =ds=#c1#", "", " 100%" },
---			{ 19, 64305, "", "=q1=Loregrain's Grimoire",                   "=ds=#m3#, =q1=#m1# =ds=#c3#", "", " 100%" },
+			{ 1, 11747, "", "=q3=Flamestrider Robes", "=ds=#s5#, #a2#", "", "26.7%" },
+			{ 3, 11748, "", "=q3=Pyric Caduceus", "=ds=#w12#", "", "26.7%" },
+			{ 4, 11749, "", "=q3=Searingscale Leggings", "=ds=#s11#, #a3#", "", "26.7%" },
+			{ 2, 11750, "", "=q3=Kindling Stave", "=ds=#w9#", "", "20%" },
+			{ 6, 11207, "", "=q2=Formula: Enchant Weapon - Fiery Weapon", "=ds=#p4# (265)", "", "16%" },
 		},
 	},
 	info = {
@@ -981,34 +1025,34 @@ AtlasLoot_Data["BRDPyromantLoregrain"] = {
 	},
 };
 
-AtlasLoot_Data["BRDArena"] = {
+AtlasLoot_Data["BlackrockDepthsArena"] = {
 	["Normal"] = {
 		{
-			{ 1,  11677, "", "=q3=Graverot Cape",               "=ds=#s4# =q2=#brd1#",               "", "25%" },
-			{ 2,  11675, "", "=q3=Shadefiend Boots",            "=ds=#s12#, #a2# =q2=#brd1#",        "", "25%" },
-			{ 3,  11731, "", "=q3=Savage Gladiator Greaves",    "=ds=#s12#, #a3# =q2=#brd1#",        "", "25%" },
-			{ 4,  11678, "", "=q3=Carapace of Anub'shiah",      "=ds=#s5#, #a4# =q2=#brd1#",         "", "25%" },
-			{ 6,  11685, "", "=q3=Splinthide Shoulders",        "=ds=#s3#, #a2# =q2=#brd2#",         "", "25%%" },
-			{ 7,  11686, "", "=q3=Girdle of Beastial Fury",     "=ds=#s10#, #a2# =q2=#brd2#",        "", "25%%" },
-			{ 8,  11679, "", "=q3=Rubicund Armguards",          "=ds=#s8#, #a3# =q2=#brd2#",         "", "25%%" },
-			{ 9,  11730, "", "=q3=Savage Gladiator Grips",      "=ds=#s9#, #a3# =q2=#brd2#",         "", "25%%" },
-			{ 11, 11726, "", "=q4=Savage Gladiator Chain",      "=ds=#s5#, #a3# =q2=#brd3#",         "", "25%%" },
-			{ 12, 22271, "", "=q3=Leggings of Frenzied Magic",  "=ds=#s11#, #a2# =q2=#brd3#",        "", "25%%" },
-			{ 13, 22257, "", "=q3=Bloodclot Band",              "=ds=#s13# =q2=#brd3#",              "", "25%%" },
-			{ 14, 22266, "", "=q3=Flarethorn",                  "=ds=#h1#, #w4# =q2=#brd3#",         "", "25%" },
-			{ 16, 11722, "", "=q3=Dregmetal Spaulders",         "=ds=#s3#, #a3# =q2=#brd4#",         "", "25%%" },
-			{ 17, 11703, "", "=q3=Stonewall Girdle",            "=ds=#s10#, #a4# =q2=#brd4#",        "", "25%%" },
-			{ 18, 22270, "", "=q3=Entrenching Boots",           "=ds=#s12#, #a4# =q2=#brd4#",        "", "25%%" },
-			{ 19, 11702, "", "=q3=Grizzle's Skinner",           "=ds=#h1#, #w1# =q2=#brd4#",         "", "25%%" },
-			{ 20, 11610, "", "=q3=Plans: Dark Iron Pulverizer", "=ds=#p2# (265) =q2=#brd4#",         "", "100%" },
-			{ 22, 11634, "", "=q3=Silkweb Gloves",              "=ds=#s9#, #a1# =q2=#brd5#",         "", "25%%" },
-			{ 23, 11729, "", "=q3=Savage Gladiator Helm",       "=ds=#s1#, #a3# =q2=#brd3#, #brd5#", "", "25%%" },
-			{ 24, 11633, "", "=q3=Spiderfang Carapace",         "=ds=#s5#, #a4# =q2=#brd5#",         "", "25%%" },
-			{ 25, 11635, "", "=q3=Hookfang Shanker",            "=ds=#h1#, #w4# =q2=#brd5#",         "", "25%%" },
-			{ 27, 11662, "", "=q3=Ban'thok Sash",               "=ds=#s10#, #a1# =q2=#brd6#",        "", "25%%" },
-			{ 28, 11665, "", "=q3=Ogreseer Fists",              "=ds=#s9#, #a2# =q2=#brd6#",         "", "25%%" },
-			{ 29, 11728, "", "=q3=Savage Gladiator Leggings",   "=ds=#s11#, #a3# =q2=#brd6#",        "", "25%%" },
-			{ 30, 11824, "", "=q3=Cyclopean Band",              "=ds=#s13# =q2=#brd6#",              "", "25%%" },
+			{ 1, 11677, "", "=q3=Graverot Cape", "=ds=#s4# =q2=#brd1#", "", "42.5%" },
+			{ 2, 11675, "", "=q3=Shadefiend Boots", "=ds=#s12#, #a2# =q2=#brd1#", "", "42.5%" },
+			{ 3, 11678, "", "=q3=Carapace of Anub'shiah", "=ds=#s5#, #a4# =q2=#brd1#", "", "15%" },
+			{ 4, 11731, "", "=q3=Savage Gladiator Greaves", "=ds=#s12#, #a3# =q2=#brd1#", "", "15%" },
+			{ 6, 11679, "", "=q3=Rubicund Armguards", "=ds=#s8#, #a3# =q2=#brd2#", "", "35%" },
+			{ 7, 11685, "", "=q3=Splinthide Shoulders", "=ds=#s3#, #a2# =q2=#brd2#", "", "35%" },
+			{ 8, 11686, "", "=q3=Girdle of Beastial Fury", "=ds=#s10#, #a2# =q2=#brd2#", "", "15%" },
+			{ 9, 11730, "", "=q3=Savage Gladiator Grips", "=ds=#s9#, #a3# =q2=#brd2#", "", "15%" },
+			{ 11, 22257, "", "=q3=Bloodclot Band", "=ds=#s13# =q2=#brd3#", "", "35%" },
+			{ 12, 22271, "", "=q3=Leggings of Frenzied Magic", "=ds=#s11#, #a2# =q2=#brd3#", "", "35%" },
+			{ 13, 22266, "", "=q3=Flarethorn", "=ds=#h1#, #w4# =q2=#brd3#", "", "15%" },
+			{ 14, 11726, "", "=q4=Savage Gladiator Chain", "=ds=#s5#, #a3# =q2=#brd3#", "", "15%" },
+			{ 16, 11702, "", "=q3=Grizzle's Skinner", "=ds=#h1#, #w1# =q2=#brd4#", "", "35%" },
+			{ 17, 11703, "", "=q3=Stonewall Girdle", "=ds=#s10#, #a4# =q2=#brd4#", "", "35%" },
+			{ 18, 11722, "", "=q3=Dregmetal Spaulders", "=ds=#s3#, #a3# =q2=#brd4#", "", "15%" },
+			{ 19, 22270, "", "=q3=Entrenching Boots", "=ds=#s12#, #a4# =q2=#brd4#", "", "15%" },
+			{ 20, 11610, "", "=q3=Plans: Dark Iron Pulverizer", "=ds=#p2# (265) =q2=#brd4#", "", "100%" },
+			{ 22, 11634, "", "=q3=Silkweb Gloves", "=ds=#s9#, #a1# =q2=#brd5#", "", "35%" },
+			{ 23, 11633, "", "=q3=Spiderfang Carapace", "=ds=#s5#, #a4# =q2=#brd5#", "", "35%" },
+			{ 24, 11635, "", "=q3=Hookfang Shanker", "=ds=#h1#, #w4# =q2=#brd5#", "", "15%" },
+			{ 25, 11729, "", "=q3=Savage Gladiator Helm", "=ds=#s1#, #a3# =q2=#brd5#", "", "15%" },
+			{ 27, 11662, "", "=q3=Ban'thok Sash", "=ds=#s10#, #a1# =q2=#brd6#", "", "35%" },
+			{ 28, 11665, "", "=q3=Ogreseer Fists", "=ds=#s9#, #a2# =q2=#brd6#", "", "35%" },
+			{ 29, 11824, "", "=q3=Cyclopean Band", "=ds=#s13# =q2=#brd6#", "", "15%" },
+			{ 30, 11728, "", "=q3=Savage Gladiator Leggings", "=ds=#s11#, #a3# =q2=#brd6#", "", "15%" },
 		},
 	},
 	info = {
@@ -1018,15 +1062,15 @@ AtlasLoot_Data["BRDArena"] = {
 	},
 };
 
-AtlasLoot_Data["BRDGeneralAngerforge"] = {
+AtlasLoot_Data["BlackrockDepthsGeneralAngerforge"] = {
 	["Normal"] = {
 		{
-			{ 1,  11821, "", "=q3=Warstrife Leggings",      "=ds=#s11#, #a2#",             "", "20%" },
-			{ 2,  11820, "", "=q3=Royal Decorated Armor",   "=ds=#s5#, #a3#",              "", "20%" },
-			{ 3,  11810, "", "=q3=Force of Will",           "=ds=#s14#",                   "", "20%" },
-			{ 4,  11817, "", "=q3=Lord General's Sword",    "=ds=#h1#, #w10# ",            "", "20%" },
-			{ 5,  11816, "", "=q3=Angerforge's Battle Axe", "=ds=#h2#, #w1#",              "", "20%" },
---			{ 16, 64302, "", "=q1=General's Attack Plans",  "=ds=#m3#, =q1=#m1# =ds=#c9#", "", " 100%" },
+			{ 1, 11816, "", "=q3=Angerforge's Battle Axe", "=ds=#h2#, #w1#", "", "20%" },
+			{ 2, 11810, "", "=q3=Force of Will", "=ds=#s14#", "", "20%" },
+			{ 3, 11817, "", "=q3=Lord General's Sword", "=ds=#h1#, #w10# ", "", "20%" },
+			{ 4, 11820, "", "=q3=Royal Decorated Armor", "=ds=#s5#, #a3#", "", "20%" },
+			{ 5, 11821, "", "=q3=Warstrife Leggings", "=ds=#s11#, #a2#", "", "20%" },
+			{ 7, 11464, "", "=q1=Marshal Windsor's Lost Information", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1036,15 +1080,16 @@ AtlasLoot_Data["BRDGeneralAngerforge"] = {
 	},
 };
 
-AtlasLoot_Data["BRDGolemLordArgelmach"] = {
+AtlasLoot_Data["BlackrockDepthsGolemLordArgelmach"] = {
 	["Normal"] = {
 		{
-			{ 1,  11822, "", "=q3=Omnicast Boots",             "=ds=#s12#, #a1#",             "", "25%" },
-			{ 2,  11823, "", "=q3=Luminary Kilt",              "=ds=#s11#, #a2#",             "", "25%" },
-			{ 3,  11669, "", "=q3=Naglering",                  "=ds=#s13#",                   "", "25%" },
-			{ 4,  11819, "", "=q3=Second Wind",                "=ds=#s14#",                   "", "25%" },
-			{ 16, 21956, "", "=q2=Design: Dark Iron Scorpid",  "=ds=#p12# (300)" },
---			{ 18, 64303, "", "=q1=Elemental Golem Blueprints", "=ds=#m3#, =q1=#m1# =ds=#c2#", "", " 100%" },
+			{ 1, 11823, "", "=q3=Luminary Kilt", "=ds=#s11#, #a2#", "", "30.7%" },
+			{ 2, 11669, "", "=q3=Naglering", "=ds=#s13#", "", "30.7%" },
+			{ 3, 11822, "", "=q3=Omnicast Boots", "=ds=#s12#, #a1#", "", "30.7%" },
+			{ 4, 11819, "", "=q3=Second Wind", "=ds=#s14#", "", "8%" },
+			{ 6, 21956, "", "=q2=Design: Dark Iron Scorpid", "=ds=#p12# (300)", "", "60%" },
+			{ 8, 11268, "", "=q1=Head of Argelmach", "=ds=#m3#", "", "100%" },
+			{ 9, 11465, "", "=q1=Marshal Windsor's Lost Information", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1054,44 +1099,33 @@ AtlasLoot_Data["BRDGolemLordArgelmach"] = {
 	},
 };
 
-AtlasLoot_Data["BRDBSPlans"] = {
+AtlasLoot_Data["BlackrockDepthsGrimGuzzler"] = {
 	["Normal"] = {
 		{
-			{ 1, 11614, "", "=q2=Plans: Dark Iron Mail",      "=ds=#p2# (270)", "", "100%" },
-			{ 2, 11615, "", "=q2=Plans: Dark Iron Shoulders", "=ds=#p2# (280)", "", "100%" },
-		},
-	},
-	info = {
-		name = AL["BRD Blacksmithing Plans"],
-		module = moduleName,
-		instance = "BlackrockDepths",
-	},
-};
-
-AtlasLoot_Data["BRDGuzzler"] = {
-	["Normal"] = {
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Hurley Blackbreath"],   "" },
-			{ 2,  11735, "",           "=q3=Ragefury Eyepatch",                      "=ds=#s1#, #a2#",  "", "10%" },
-			{ 3,  18043, "",           "=q3=Coal Miner Boots",                       "=ds=#s12#, #a2#", "", "30%" },
-			{ 4,  22275, "",           "=q3=Firemoss Boots",                         "=ds=#s12#, #a2#", "", "30%" },
-			{ 5,  18044, "",           "=q3=Hurley's Tankard",                       "=ds=#h1#, #w6#",  "", "30%" },
-			{ 6,  11312, "",           "=q1=Lost Thunderbrew Recipe",                "=ds=#m3#" },
-			{ 8,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Phalanx"],              "" },
-			{ 9,  22212, "",           "=q3=Golem Fitted Pauldrons",                 "=ds=#s3#, #a3#",  "", "26.04%" },
-			{ 10, 11745, "",           "=q3=Fists of Phalanx",                       "=ds=#s9#, #a4#",  "", "29.79%" },
-			{ 11, 11744, "",           "=q3=Bloodfist",                              "=ds=#h1#, #w13#", "", "28.48%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Ribbly Screwspigot"],   "" },
-			{ 17, 11612, "",           "=q3=Plans: Dark Iron Plate",                 "=ds=#p2# (285)",  "", "50%" },
-			{ 18, 11742, "",           "=q3=Wayfarer's Knapsack",                    "=ds=#e1#",        "", "50%" },
-			{ 20, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Plugger Spazzring"],    "" },
-			{ 21, 12793, "",           "=q3=Mixologist's Tunic",                     "=ds=#s5#, #a2#",  "", "30%" },
-			{ 22, 12791, "",           "=q3=Barman Shanker",                         "=ds=#h1#, #w4#",  "", "10%" },
-			{ 23, 13483, "",           "=q2=Recipe: Transmute Fire to Earth",        "=ds=#p1# (275)" },
-			{ 24, 18653, "",           "=q2=Schematic: Goblin Jumper Cables XL",     "=ds=#p5# (265)",  "", "20%" },
-			{ 25, 15759, "",           "=q1=Pattern: Black Dragonscale Breastplate", "=ds=#p7# (290)" },
-			{ 26, 11602, "",           "=q1=Grim Guzzler Key",                       "=ds=#e9#" },
-			{ 27, 11325, "",           "=q1=Dark Iron Ale Mug",                      "=ds=#m3#" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Hurley Blackbreath"], "" },
+			{ 2, 18043, "", "=q3=Coal Miner Boots", "=ds=#s12#, #a2#", "", "30.3%" },
+			{ 3, 22275, "", "=q3=Firemoss Boots", "=ds=#s12#, #a2#", "", "30.3%" },
+			{ 4, 18044, "", "=q3=Hurley's Tankard", "=ds=#h1#, #w6#", "", "30.3%" },
+			{ 5, 11735, "", "=q3=Ragefury Eyepatch", "=ds=#s1#, #a2#", "", "9%" },
+			{ 7, 11312, "", "=q1=Lost Thunderbrew Recipe", "=ds=#m3#", "", "100%" },
+			
+			{ 9, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Ribbly Screwspigot"], "" },
+			{ 10, 11612, "", "=q3=Plans: Dark Iron Plate", "=ds=#p2# (285)", "", "34%" },
+			{ 11, 11742, "", "=q3=Wayfarer's Knapsack", "=ds=#e1#", "", "34%" },
+			{ 12, 2663, "", "=q3=Ribbly's Bandolier", "=ds=#w20#", "", "16%" },
+			{ 13, 2662, "", "=q3=Ribbly's Quiver", "=ds=#w19#", "", "16%" },
+			{ 15, 11313, "", "=q1=Ribbly's Head", "=ds=#m3#", "", "100%" },
+			
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Plugger Spazzring"], "" },
+			{ 17, 12793, "", "=q3=Mixologist's Tunic", "=ds=#s5#, #a2#", "", "30%" },
+			{ 18, 12791, "", "=q3=Barman Shanker", "=ds=#h1#, #w4#", "", "8%" },
+			{ 20, 18653, "", "=q2=Schematic: Goblin Jumper Cables XL", "=ds=#p5# (265)",  "", "16%" },
+			{ 22, 11602, "", "=q1=Grim Guzzler Key", "=ds=#e9# =q1=Pickpocket", "", "100%" },
+			
+			{ 24, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Phalanx"], "" },
+			{ 25, 11744, "", "=q3=Bloodfist", "=ds=#h1#, #w13#", "", "33.3%" },
+			{ 26, 11745, "", "=q3=Fists of Phalanx", "=ds=#s9#, #a4#", "", "33.3%" },
+			{ 27, 22212, "", "=q3=Golem Fitted Pauldrons", "=ds=#s3#, #a3#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1101,14 +1135,14 @@ AtlasLoot_Data["BRDGuzzler"] = {
 	},
 };
 
-AtlasLoot_Data["BRDFlamelash"] = {
+AtlasLoot_Data["BlackrockDepthsAmbassadorFlamelash"] = {
 	["Normal"] = {
 		{
-			{ 1, 11808, "", "=q4=Circle of Flame",             "=ds=#s1#, #a1#", "", "5%" },
-			{ 3, 11812, "", "=q3=Cape of the Fire Salamander", "=ds=#s4#",       "", "25%" },
-			{ 4, 11814, "", "=q3=Molten Fists",                "=ds=#s9#, #a3#", "", "25%" },
-			{ 5, 11832, "", "=q3=Burst of Knowledge",          "=ds=#s14#",      "", "25%" },
-			{ 6, 11809, "", "=q3=Flame Wrath",                 "=ds=#w7#",       "", "25%" },
+			{ 1, 11812, "", "=q3=Cape of the Fire Salamander", "=ds=#s4#",       "", "31%" },
+			{ 2, 11814, "", "=q3=Molten Fists",                "=ds=#s9#, #a3#", "", "31%" },
+			{ 3, 11809, "", "=q3=Flame Wrath",                 "=ds=#w7#",       "", "20%" },
+			{ 4, 11832, "", "=q3=Burst of Knowledge",          "=ds=#s14#",      "", "17%" },
+			{ 5, 11808, "", "=q4=Circle of Flame",             "=ds=#s1#, #a1#", "", "1%" },
 		},
 	},
 	info = {
@@ -1118,18 +1152,18 @@ AtlasLoot_Data["BRDFlamelash"] = {
 	},
 };
 
-AtlasLoot_Data["BRDTomb"] = {
+AtlasLoot_Data["BlackrockDepthsSummonersTomb"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Chest of The Seven"], "" },
-			{ 2, 11929, "",           "=q3=Haunting Specter Leggings",          "=ds=#s11#, #a1#", "", "25%" },
-			{ 3, 11925, "",           "=q3=Ghostshroud",                        "=ds=#s1#, #a2#",  "", "25%" },
-			{ 4, 11926, "",           "=q3=Deathdealer Breastplate",            "=ds=#s5#, #a3#",  "", "25%" },
-			{ 5, 11927, "",           "=q3=Legplates of the Eternal Guardian",  "=ds=#s11#, #a4#", "", "25%" },
-			{ 6, 11922, "",           "=q3=Blood-Etched Blade",                 "=ds=#h3#, #w4#",  "", "25%" },
-			{ 7, 11920, "",           "=q3=Wraith Scythe",                      "=ds=#h1# #w1#",   "", "25%" },
-			{ 8, 11923, "",           "=q3=The Hammer of Grace",                "=ds=#h3#, #w6#",  "", "25%" },
-			{ 9, 11921, "",           "=q3=Impervious Giant",                   "=ds=#h2#, #w6#",  "", "25%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Chest of The Seven"], "" },
+			{ 2, 11922, "", "=q3=Blood-Etched Blade", "=ds=#h3#, #w4#", "", "25%" },
+			{ 3, 11926, "", "=q3=Deathdealer Breastplate", "=ds=#s5#, #a3#", "", "25%" },
+			{ 4, 11925, "", "=q3=Ghostshroud", "=ds=#s1#, #a2#", "", "25%" },
+			{ 5, 11929, "", "=q3=Haunting Specter Leggings", "=ds=#s11#, #a1#", "", "25%" },
+			{ 6, 11921, "", "=q3=Impervious Giant", "=ds=#h2#, #w6#", "", "25%" },
+			{ 7, 11927, "", "=q3=Legplates of the Eternal Guardian", "=ds=#s11#, #a4#", "", "25%" },
+			{ 8, 11923, "", "=q3=The Hammer of Grace", "=ds=#h3#, #w6#", "", "25%" },
+			{ 9, 11920, "", "=q3=Wraith Scythe", "=ds=#h1# #w1#", "", "25%" },
 		},
 	},
 	info = {
@@ -1139,14 +1173,14 @@ AtlasLoot_Data["BRDTomb"] = {
 	},
 };
 
-AtlasLoot_Data["BRDMagmus"] = {
+AtlasLoot_Data["BlackrockDepthsMagmus"] = {
 	["Normal"] = {
 		{
 			{ 1, 11746, "", "=q3=Golem Skull Helm", "=ds=#s1#, #a4#", "", "20%" },
-			{ 2, 11935, "", "=q3=Magmus Stone",     "=ds=#s15#",      "", "20%" },
-			{ 3, 22395, "", "=q3=Totem of Rage",    "=ds=#w15#",      "", "20%" },
-			{ 4, 22400, "", "=q3=Libram of Truth",  "=ds=#w16#",      "", "20%" },
-			{ 5, 22208, "", "=q3=Lavastone Hammer", "=ds=#h2#, #w6#", "", "20%" },
+			{ 2, 22208, "", "=q3=Lavastone Hammer", "=ds=#h2#, #w6#", "", "20%" },
+			{ 3, 22400, "", "=q3=Libram of Truth", "=ds=#w16#", "", "20%" },
+			{ 4, 11935, "", "=q3=Magmus Stone", "=ds=#s15#", "", "20%" },
+			{ 5, 22395, "", "=q3=Totem of Rage", "=ds=#w15#", "", "20%" },
 		},
 	},
 	info = {
@@ -1156,53 +1190,43 @@ AtlasLoot_Data["BRDMagmus"] = {
 	},
 };
 
-AtlasLoot_Data["BRDImperatorDagranThaurissan"] = {
+AtlasLoot_Data["BlackrockDepthsEmperorDagranThaurissan"] = {
 	["Normal"] = {
 		{
-			{ 1,  11684, "", "=q4=Ironfoe",                    "=ds=#h1#, #w6#",  "", "5%" },
-			{ 3,  11930, "", "=q3=The Emperor's New Cape",     "=ds=#s4#",        "", "20%" },
-			{ 4,  11924, "", "=q3=Robes of the Royal Crown",   "=ds=#s5#, #a1#",  "", "20%" },
-			{ 5,  22204, "", "=q3=Wristguards of Renown",      "=ds=#s8#, #a2#",  "", "20%" },
-			{ 6,  22207, "", "=q3=Sash of the Grand Hunt",     "=ds=#s10#, #a3#", "", "20%" },
-			{ 7,  11933, "", "=q3=Imperial Jewel",             "=ds=#s2#",        "", "20%" },
-			{ 8,  11934, "", "=q3=Emperor's Seal",             "=ds=#s13#",       "", "20%" },
-			{ 9,  11815, "", "=q3=Hand of Justice",            "=ds=#s14#",       "", "20%" },
-			{ 16, 11931, "", "=q3=Dreadforge Retaliator",      "=ds=#h2#, #w1#",  "", "20%" },
-			{ 17, 11932, "", "=q3=Guiding Stave of Wisdom",    "=ds=#w9#",        "", "20%" },
-			{ 18, 11928, "", "=q3=Thaurissan's Royal Scepter", "=ds=#s15#",       "", "20%" },
-			{ 20, 12033, "", "=q1=Thaurissan Family Jewels",   "=ds=#e7# #e1#",   "", "3%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Emperor Dagran Thaurissan"], "" },
+			{ 2, 11931, "", "=q3=Dreadforge Retaliator", "=ds=#h2#, #w1#", "", "9.9%" },
+			{ 3, 11934, "", "=q3=Emperor's Seal", "=ds=#s13#", "", "9.9%" },
+			{ 4, 11932, "", "=q3=Guiding Stave of Wisdom", "=ds=#w9#", "", "9.9%" },
+			{ 5, 11815, "", "=q3=Hand of Justice", "=ds=#s14#", "", "9.9%" },
+			{ 6, 11933, "", "=q3=Imperial Jewel", "=ds=#s2#", "", "9.9%" },
+			{ 7, 11924, "", "=q3=Robes of the Royal Crown", "=ds=#s5#, #a1#", "", "9.9%" },
+			{ 8, 22207, "", "=q3=Sash of the Grand Hunt", "=ds=#s10#, #a3#", "", "9.9%" },
+			{ 9, 11928, "", "=q3=Thaurissan's Royal Scepter", "=ds=#s15#", "", "9.9%" },
+			{ 10, 11930, "", "=q3=The Emperor's New Cape", "=ds=#s4#", "", "9.9%" },
+			{ 11, 22204, "", "=q3=Wristguards of Renown", "=ds=#s8#, #a2#", "", "9.9%" },
+			{ 12, 11684, "", "=q4=Ironfoe", "=ds=#h1#, #w6#",  "", "1%" },
+			{ 14, 12033, "", "=q1=Thaurissan Family Jewels", "=ds=#e7# #e1#", "", "2%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Princess Moira Bronzebeard"] .. "/" .. BabbleBoss["High Priestess of Thaurissan"], "" },
+			{ 17, 12557, "", "=q3=Ebonsteel Spaulders", "=ds=#s3#, #a4#", "", "25%" },
+			{ 18, 12554, "", "=q3=Hands of the Exalted Herald", "=ds=#s9#, #a1#", "", "25%" },
+			{ 19, 12556, "", "=q3=High Priestess Boots", "=ds=#s12#, #a1#", "", "25%" },
+			{ 20, 12553, "", "=q3=Swiftwalker Boots", "=ds=#s12#, #a2#", "", "25%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Emperor Dagran Thaurissan"],
+		name = BabbleBoss["Emperor Dagran Thaurissan"] .. " & " .. BabbleBoss["Princess Moira Bronzebeard"] .. "/" .. BabbleBoss["High Priestess of Thaurissan"],
 		module = moduleName,
 		instance = "BlackrockDepths",
 	},
 };
 
-AtlasLoot_Data["BRDPrincess"] = {
+AtlasLoot_Data["BlackrockDepthsPanzorTheInvincible"] = {
 	["Normal"] = {
 		{
-			{ 1, 12554, "", "=q3=Hands of the Exalted Herald", "=ds=#s9#, #a1#",  "", "25%" },
-			{ 2, 12556, "", "=q3=High Priestess Boots",        "=ds=#s12#, #a1#", "", "25%" },
-			{ 3, 12557, "", "=q3=Ebonsteel Spaulders",         "=ds=#s3#, #a4#",  "", "25%" },
-			{ 4, 12553, "", "=q3=Swiftwalker Boots",           "=ds=#s12#, #a2#", "", "25%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Princess Moira Bronzebeard"],
-		module = moduleName,
-		instance = "BlackrockDepths",
-	},
-};
-
-AtlasLoot_Data["BRDPanzor"] = {
-	["Normal"] = {
-		{
-			{ 1, 22245, "", "=q3=Soot Encrusted Footwear", "=ds=#s12#,#a1#",  "", "25%" },
-			{ 2, 11787, "", "=q3=Shalehusk Boots",         "=ds=#s12#, #a4#", "", "25%" },
-			{ 3, 11786, "", "=q3=Stone of the Earth",      "=ds=#h2#, #w10#", "", "25%" },
-			{ 4, 11785, "", "=q3=Rock Golem Bulwark",      "=ds=#w8#",        "", "25%" },
+			{ 1, 11785, "", "=q3=Rock Golem Bulwark", "=ds=#w8#", "", "25%" },
+			{ 2, 11787, "", "=q3=Shalehusk Boots", "=ds=#s12#, #a4#", "", "25%" },
+			{ 3, 22245, "", "=q3=Soot Encrusted Footwear", "=ds=#s12#, #a1#", "", "25%" },
+			{ 4, 11786, "", "=q3=Stone of the Earth", "=ds=#h2#, #w10#", "", "25%" },
 		},
 	},
 	info = {
@@ -1212,49 +1236,35 @@ AtlasLoot_Data["BRDPanzor"] = {
 	},
 };
 
-AtlasLoot_Data["BRDQuestItems"] = {
+AtlasLoot_Data["BlackrockDepthsTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 18412, "",           "=q1=Core Fragment",                    "=ds=#m3#", "", "100%" },
-			{ 3, 0,     "INV_Box_01", "=q6=" .. AL["Shadowforge Flame Keeper"], "" },
-			{ 4, 11885, "",           "=q1=Shadowforge Torch",                "=ds=#m20#" },
-		},
-	},
-	info = {
-		name = BabbleZone["Blackrock Depths"] .. " - " .. AL["Quest Item"],
-		module = moduleName,
-		instance = "BlackrockDepths",
-	},
-};
-
-AtlasLoot_Data["BRDTrash"] = {
-	["Normal"] = {
-		{
-			{ 1,  12552, "", "=q3=Blisterbane Wrap",                     "=ds=#s4#" },
-			{ 2,  12551, "", "=q3=Stoneshield Cloak",                    "=ds=#s4#" },
-			{ 3,  12542, "", "=q3=Funeral Pyre Vestment",                "=ds=#s5#, #a1#" },
-			{ 4,  12546, "", "=q3=Aristocratic Cuffs",                   "=ds=#s8#, #a1#" },
-			{ 5,  12550, "", "=q3=Runed Golem Shackles",                 "=ds=#s8#, #a2#" },
-			{ 6,  12547, "", "=q3=Mar Alom's Grip",                      "=ds=#s9#, #a2#" },
-			{ 7,  12549, "", "=q3=Braincage",                            "=ds=#s1#, #a3#" },
-			{ 8,  12555, "", "=q3=Battlechaser's Greaves",               "=ds=#s12#, #a4#" },
-			{ 9,  12531, "", "=q3=Searing Needle",                       "=ds=#h1#, #w4#" },
-			{ 10, 12535, "", "=q3=Doomforged Straightedge",              "=ds=#h1#, #w10#" },
-			{ 11, 12527, "", "=q3=Ribsplitter",                          "=ds=#h1#, #w1#" },
-			{ 12, 12528, "", "=q3=The Judge's Gavel",                    "=ds=#h2#, #w6#" },
-			{ 13, 12532, "", "=q3=Spire of the Stoneshaper",             "=ds=#w9#" },
-			{ 16, 15781, "", "=q3=Pattern: Black Dragonscale Leggings",  "=ds=#p7# (300) =q1=" .. AL["Anvilrage Captain"] },
-			{ 17, 15770, "", "=q3=Pattern: Black Dragonscale Shoulders", "=ds=#p7# (300) =q1=" .. AL["Anvilrage Marshal"] },
-			{ 18, 16053, "", "=q2=Schematic: Master Engineer's Goggles", "=ds=#p5# (290) =q1=" .. AL["Doomforge Arcanasmith"] },
-			{ 19, 16049, "", "=q2=Schematic: Dark Iron Bomb",            "=ds=#p5# (285) =q1=" .. AL["Weapon Technician"] },
-			{ 20, 16048, "", "=q2=Schematic: Dark Iron Rifle",           "=ds=#p5# (275) =q1=" .. AL["Doomforge Craftsman"] },
-			{ 21, 18654, "", "=q2=Schematic: Gnomish Alarm-o-Bot",       "=ds=#p5# (265) =q1=" .. AL["Weapon Technician"] },
-			{ 22, 18661, "", "=q2=Schematic: World Enlarger",            "=ds=#p5# (260) =q1=" .. AL["Weapon Technician"] },
-			{ 24, 11754, "", "=q2=Black Diamond",                        "#e8#" },
-			{ 25, 11078, "", "=q1=Relic Coffer Key",                     "=ds=#e9#" },
-			{ 26, 18945, "", "=q1=Dark Iron Residue",                    "=ds=#m3#" },
---			{ 27, 64304, "", "=q1=Elemental Module",                     "=ds=#m3#, =q1=#m1# =ds=#c2#" },
---			{ 28, 64313, "", "=q1=Elemental-Imbued Weapon",              "=ds=#m3#, =q1=#m1# =ds=#c4#" },
+			{ 1, 12546, "", "=q3=Aristocratic Cuffs",                   "=ds=#s8#, #a1#", "", "~0.135%" },
+			{ 2, 12555, "", "=q3=Battlechaser's Greaves",               "=ds=#s12#, #a4#", "", "~0.47%" },
+			{ 3, 12552, "", "=q3=Blisterbane Wrap",                     "=ds=#s4#", "", "~0.055%" },
+			{ 4, 12549, "", "=q3=Braincage",                            "=ds=#s1#, #a3#", "", "~0.175%" },
+			{ 5, 11926, "", "=q3=Deathdealer Breastplate", "=ds=#s5#, #a3#", "", "~1.51%%" },
+			{ 6, 12535, "", "=q3=Doomforged Straightedge",              "=ds=#h1#, #w10#", "", "~0.11%" },
+			{ 7, 12542, "", "=q3=Funeral Pyre Vestment",                "=ds=#s5#, #a1#", "", "~0.155%" },
+			{ 8, 11929, "", "=q3=Haunting Specter Leggings", "=ds=#s11#, #a1# =q1=Warbringer Construct", "", "0.32%" },
+			{ 9, 11921, "", "=q3=Impervious Giant", "=ds=#h2#, #w6# =q1=Grim Patron", "", "0.02%" },
+			{ 10, 12547, "", "=q3=Mar Alom's Grip",                      "=ds=#s9#, #a2#", "", "~0.195%" },
+			{ 11, 12527, "", "=q3=Ribsplitter",                          "=ds=#h1#, #w1#", "", "~0.08%" },
+			{ 12, 12550, "", "=q3=Runed Golem Shackles",                 "=ds=#s8#, #a4#", "", "~0.24%" },
+			{ 13, 12531, "", "=q3=Searing Needle",                       "=ds=#h1#, #w4#", "", "~0.06%" },
+			{ 14, 12551, "", "=q3=Stoneshield Cloak",                    "=ds=#s4#", "", "~0.06%" },
+			{ 15, 12532, "", "=q3=Spire of the Stoneshaper",             "=ds=#w9#", "", "~0.025%" },
+			{ 16, 12528, "", "=q3=The Judge's Gavel",                    "=ds=#h2#, #w6#", "", "~0.1%" },
+			{ 17, 11920, "", "=q3=Wraith Scythe", "=ds=#h1# #w1# =q1=Warbringer Construct", "", "0.36%" },
+			{ 19, 15781, "", "=q3=Pattern: Black Dragonscale Leggings",  "=ds=#p7# (300) =q1=" .. AL["Anvilrage Captain"], "", "3.8%" },
+			{ 20, 15770, "", "=q3=Pattern: Black Dragonscale Shoulders", "=ds=#p7# (300) =q1=" .. AL["Anvilrage Marshal"], "", "3.9%" },
+			{ 21, 11615, "", "=q2=Plans: Dark Iron Shoulders", "=ds=#p2# (280) =q1=Blacksmithing Plans object", "", "100%" },
+			{ 22, 11611, "", "=q3=Plans: Dark Iron Sunderer", "=ds=#p2# (275) =q1=Ribbly's Crony/Hammered Patron", "", "~8.5%" },
+			{ 23, 16048, "", "=q2=Schematic: Dark Iron Rifle",           "=ds=#p5# (275) =q1=" .. AL["Doomforge Craftsman"], "", "1.8%" },
+			{ 24, 16049, "", "=q2=Schematic: Dark Iron Bomb",            "=ds=#p5# (285) =q1=" .. AL["Weapon Technician"], "", "1.03%" },
+			{ 25, 18654, "", "=q2=Schematic: Gnomish Alarm-o-Bot",       "=ds=#p5# (265) =q1=" .. AL["Weapon Technician"], "", "1.89%" },
+			{ 26, 16053, "", "=q2=Schematic: Master Engineer's Goggles", "=ds=#p5# (290) =q1=" .. AL["Doomforge Arcanasmith"], "", "0.7%" },
+			{ 27, 18661, "", "=q2=Schematic: World Enlarger",            "=ds=#p5# (260) =q1=" .. AL["Weapon Technician"], "", "2%" },
 		},
 	},
 	info = {
