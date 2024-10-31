@@ -2464,30 +2464,30 @@ AtlasLoot_Data["MCRANDOMBOSSDROPPS"] = {
 --- Dire Maul Books ---
 -----------------------
 
-AtlasLoot_Data["DMBooks"] = {
+AtlasLoot_Data["DireMaulBooks"] = {
 	["Normal"] = {
 		{
-			{ 1,  18364, "", "=q3=The Emerald Dream",                           "=ds=#e10#, =q1=#m1# =ds=#c1#" },
-			{ 2,  18361, "", "=q3=The Greatest Race of Hunters",                "=ds=#e10#, =q1=#m1# =ds=#c2#" },
-			{ 3,  18358, "", "=q3=The Arcanist's Cookbook",                     "=ds=#e10#, =q1=#m1# =ds=#c3#" },
-			{ 4,  18359, "", "=q3=The Light and How to Swing It",               "=ds=#e10#, =q1=#m1# =ds=#c4#" },
-			{ 5,  18362, "", "=q3=Holy Bologna: What the Light Won't Tell You", "=ds=#e10#, =q1=#m1# =ds=#c5#" },
-			{ 6,  18356, "", "=q3=Garona: A Study on Stealth and Treachery",    "=ds=#e10#, =q1=#m1# =ds=#c6#" },
-			{ 7,  18363, "", "=q3=Frost Shock and You",                         "=ds=#e10#, =q1=#m1# =ds=#c7#" },
-			{ 8,  18360, "", "=q3=Harnessing Shadows",                          "=ds=#e10#, =q1=#m1# =ds=#c8#" },
-			{ 9,  18357, "", "=q3=Codex of Defense",                            "=ds=#e10#, =q1=#m1# =ds=#c9#" },
-			{ 11, 18333, "", "=q2=Libram of Focus",                             "=ds=#e10#" },
-			{ 12, 18334, "", "=q2=Libram of Protection",                        "=ds=#e10#" },
-			{ 13, 18332, "", "=q2=Libram of Rapidity",                          "=ds=#e10#" },
-			{ 16, 18470, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c1#" },
-			{ 17, 18473, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c2#" },
-			{ 18, 18468, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c3#" },
-			{ 19, 18472, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c4#" },
-			{ 20, 18469, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c5#" },
-			{ 21, 18465, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c6#" },
-			{ 22, 18471, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c7#" },
-			{ 23, 18467, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c8#" },
-			{ 24, 18466, "", "=q3=Royal Seal of Eldre'Thalas",                  "=ds=#s14#, =q1=#m1# =ds=#c9#" },
+			{ 1, 18364, "", "=q3=The Emerald Dream", "=ds=#e10#, =q1=#m1# =ds=#c1#", "", "~5.1%" },
+			{ 2, 18361, "", "=q3=The Greatest Race of Hunters", "=ds=#e10#, =q1=#m1# =ds=#c2#", "", "~5.1%" },
+			{ 3, 18358, "", "=q3=The Arcanist's Cookbook", "=ds=#e10#, =q1=#m1# =ds=#c3#", "", "~5.01%" },
+			{ 4, 18359, "", "=q3=The Light and How to Swing It", "=ds=#e10#, =q1=#m1# =ds=#c4#", "", "~5.1%" },
+			{ 5, 18362, "", "=q3=Holy Bologna: What the Light Won't Tell You", "=ds=#e10#, =q1=#m1# =ds=#c5#", "", "~5.01%" },
+			{ 6, 18356, "", "=q3=Garona: A Study on Stealth and Treachery", "=ds=#e10#, =q1=#m1# =ds=#c6#", "", "~5.1%" },
+			{ 7, 18363, "", "=q3=Frost Shock and You", "=ds=#e10#, =q1=#m1# =ds=#c7#", "", "~5.1%" },
+			{ 8, 18360, "", "=q3=Harnessing Shadows", "=ds=#e10#, =q1=#m1# =ds=#c8#", "", "~5.01%" },
+			{ 9, 18357, "", "=q3=Codex of Defense", "=ds=#e10#, =q1=#m1# =ds=#c9#", "", "~5.01%" },
+			{ 11, 18333, "", "=q2=Libram of Focus", "=ds=#e10#", "", "~1.025%" },
+			{ 12, 18334, "", "=q2=Libram of Protection", "=ds=#e10#", "", "~1.015%" },
+			{ 13, 18332, "", "=q2=Libram of Rapidity", "=ds=#e10#", "", "~1.04%" },
+			{ 16, 18470, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c1#" },
+			{ 17, 18473, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c2#" },
+			{ 18, 18468, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c3#" },
+			{ 19, 18472, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c4#" },
+			{ 20, 18469, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c5#" },
+			{ 21, 18465, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c6#" },
+			{ 22, 18471, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c7#" },
+			{ 23, 18467, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c8#" },
+			{ 24, 18466, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c9#" },
 		},
 	},
 	info = {
@@ -2501,90 +2501,12 @@ AtlasLoot_Data["DMBooks"] = {
 --- Dire Maul East ---
 ----------------------
 
-AtlasLoot_Data["DMELethtendrisPimgib"] = {
+AtlasLoot_Data["DireMaulEastPusillin"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Lethtendris"], "" },
-			{ 2,  18325, "",           "=q3=Felhide Cap",                 "=ds=#s1#, #a2#",               "", "24.67%" },
-			{ 3,  18302, "",           "=q3=Band of Vigor",               "=ds=#s13#",                    "", "29.30%" },
-			{ 4,  18311, "",           "=q3=Quel'dorei Channeling Rod",   "=ds=#w9#",                     "", "7.30%" },
-			{ 5,  18301, "",           "=q3=Lethtendris' Wand",           "=ds=#w12#",                    "", "25.57%" },
-			{ 7,  18426, "",           "=q1=Lethtendris' Web",            "=ds=#m3#" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Pimgib"],    "" },
-			{ 17, 18354, "",           "=q3=Pimgib's Collar",             "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "18.68%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Lethtendris"] .. " & " .. BabbleBoss["Pimgib"],
-		module = moduleName,
-		instance = "DireMaulEast",
-	},
-};
-
-AtlasLoot_Data["DMEHydro"] = {
-	["Normal"] = {
-		{
-			{ 1, 18307, "", "=q3=Riptide Shoes",        "=ds=#s12#, #a1#", "", "21.33%" },
-			{ 2, 18322, "", "=q3=Waterspout Boots",     "=ds=#s12#, #a2#", "", "16.42%" },
-			{ 3, 18305, "", "=q3=Breakwater Legguards", "=ds=#s11#, #a3#", "", "22.75%" },
-			{ 4, 18317, "", "=q3=Tempest Talisman",     "=ds=#s2#",        "", "16.44%" },
-			{ 5, 18324, "", "=q3=Waveslicer",           "=ds=#h2#, #w1#",  "", "8.46%" },
-			{ 7, 18299, "", "=q1=Hydrospawn Essence",   "=ds=#m3#" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Hydrospawn"],
-		module = moduleName,
-		instance = "DireMaulEast",
-	},
-};
-
-AtlasLoot_Data["DMEZevrimThornhoof"] = {
-	["Normal"] = {
-		{
-			{ 1, 18306, "", "=q3=Gloves of Shadowy Mist", "=ds=#s9#, #a1#", "", "21.40%" },
-			{ 2, 18308, "", "=q3=Clever Hat",             "=ds=#s1#, #a2#", "", "23.73%" },
-			{ 3, 18319, "", "=q3=Fervent Helm",           "=ds=#s1#, #a2#", "", "7.88%" },
-			{ 4, 18313, "", "=q3=Helm of Awareness",      "=ds=#s1#, #a3#", "", "17.87%" },
-			{ 5, 18323, "", "=q3=Satyr's Bow",            "=ds=#w2#",       "", "17.24%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Zevrim Thornhoof"],
-		module = moduleName,
-		instance = "DireMaulEast",
-	},
-};
-
-AtlasLoot_Data["DMEAlzzin"] = {
-	["Normal"] = {
-		{
-			{ 1,  18328, "",           "=q3=Shadewood Cloak",         "=ds=#s4#",        "", "15.36%" },
-			{ 2,  18327, "",           "=q3=Whipvine Cord",           "=ds=#s10#, #a1#", "", "16.53%" },
-			{ 3,  18309, "",           "=q3=Gloves of Restoration",   "=ds=#s9#, #a2#",  "", "14.05%" },
-			{ 4,  18318, "",           "=q3=Merciful Greaves",        "=ds=#s12#, #a2#", "", "14.88%" },
-			{ 5,  18312, "",           "=q3=Energized Chestplate",    "=ds=#s5#, #a3#",  "", "16.08%" },
-			{ 6,  18326, "",           "=q3=Razor Gauntlets",         "=ds=#s9#, #a3#",  "", "18.62%" },
-			{ 8,  0,     "INV_Box_01", "=q6=" .. AL["Felvine Shard"], "" },
-			{ 9,  18501, "",           "=q1=Felvine Shard",           "=ds=#m3#" },
-			{ 16, 18315, "",           "=q3=Ring of Demonic Potency", "=ds=#s13#",       "", "15.40%" },
-			{ 17, 18314, "",           "=q3=Ring of Demonic Guile",   "=ds=#s13#",       "", "13.71%" },
-			{ 18, 18310, "",           "=q3=Fiendish Machete",        "=ds=#h1#, #w10#", "", "15.39%" },
-			{ 19, 18321, "",           "=q3=Energetic Rod",           "=ds=#h3#, #w6#",  "", "15.94%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Alzzin the Wildshaper"],
-		module = moduleName,
-		instance = "DireMaulEast",
-	},
-};
-
-AtlasLoot_Data["DMEPusillin"] = {
-	["Normal"] = {
-		{
-			{ 1, 18267, "", "=q2=Recipe: Runn Tum Tuber Surprise", "=ds=#p3# (275)", "", "71.55%" },
-			{ 3, 18261, "", "=q1=Book of Incantations",            "=ds=#m3#",       "", "100%" },
+			{ 1, 18267, "", "=q2=Recipe: Runn Tum Tuber Surprise", "=ds=#p3# (275)", "", "100%" },
+			{ 3, 18249, "", "=q1=Crescent Key", "=ds=#e9#", "", "100%" },
+			{ 5, 18261, "", "=q1=Book of Incantations", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -2594,13 +2516,92 @@ AtlasLoot_Data["DMEPusillin"] = {
 	},
 };
 
-AtlasLoot_Data["DMETrash"] = {
+AtlasLoot_Data["DireMaulEastLethtendris"] = {
 	["Normal"] = {
 		{
-			{ 1, 18295, "", "=q3=Phasing Boots",         "=ds=#s12#, #a1#", "", "1.26%" },
-			{ 2, 18298, "", "=q3=Unbridled Leggings",    "=ds=#s11#, #a2#", "", "0.62%" },
-			{ 3, 18296, "", "=q3=Marksman Bands",        "=ds=#s8#, #a3#",  "", "0.59%" },
-			{ 4, 18289, "", "=q3=Barbed Thorn Necklace", "=ds=#s2#",        "", "0.87%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Lethtendris"], "" },
+			{ 2, 18325, "", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "", "30%" },
+			{ 3, 18302, "", "=q3=Band of Vigor", "=ds=#s13#", "", "30%" },
+			{ 4, 18301, "", "=q3=Lethtendris' Wand", "=ds=#w12#", "", "30%" },
+			{ 5, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "10%" },
+			{ 7, 18426, "", "=q1=Lethtendris' Web", "=ds=#m3#", "", "100%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Pimgib"], "" },
+			{ 17, 18354, "", "=q3=Pimgib's Collar", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "14%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Lethtendris"] .. " & " .. BabbleBoss["Pimgib"],
+		module = moduleName,
+		instance = "DireMaulEast",
+	},
+};
+
+AtlasLoot_Data["DireMaulEastHydrospawn"] = {
+	["Normal"] = {
+		{
+			{ 1, 18305, "", "=q3=Breakwater Legguards", "=ds=#s11#, #a4#", "", "25%" },
+			{ 2, 18307, "", "=q3=Riptide Shoes", "=ds=#s12#, #a1#", "", "25%" },
+			{ 3, 18317, "", "=q3=Tempest Talisman", "=ds=#s2#", "", "20%" },
+			{ 4, 18322, "", "=q3=Waterspout Boots", "=ds=#s12#, #a2#", "", "20%" },
+			{ 5, 18324, "", "=q3=Waveslicer", "=ds=#h2#, #w1#", "", "10%" },
+			{ 7, 18299, "", "=q1=Hydrospawn Essence", "=ds=#m3#", "", "100%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Hydrospawn"],
+		module = moduleName,
+		instance = "DireMaulEast",
+	},
+};
+
+AtlasLoot_Data["DireMaulEastZevrimThornhoof"] = {
+	["Normal"] = {
+		{
+			{ 1, 18308, "", "=q3=Clever Hat", "=ds=#s1#, #a2#", "", "26%" },
+			{ 2, 18306, "", "=q3=Gloves of Shadowy Mist", "=ds=#s9#, #a1#", "", "26%" },
+			{ 3, 18313, "", "=q3=Helm of Awareness", "=ds=#s1#, #a4#", "", "20%" },
+			{ 4, 18323, "", "=q3=Satyr's Bow", "=ds=#w2#", "", "20%" },
+			{ 5, 18319, "", "=q3=Fervent Helm", "=ds=#s1#, #a3#", "", "8%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Zevrim Thornhoof"],
+		module = moduleName,
+		instance = "DireMaulEast",
+	},
+};
+
+AtlasLoot_Data["DireMaulEastAlzzinTheWildshaper"] = {
+	["Normal"] = {
+		{
+			{ 1, 18321, "", "=q3=Energetic Rod", "=ds=#h3#, #w6#", "", "10%" },
+			{ 2, 18312, "", "=q3=Energized Chestplate", "=ds=#s5#, #a4#", "", "10%" },
+			{ 3, 18310, "", "=q3=Fiendish Machete", "=ds=#h1#, #w10#", "", "10%" },
+			{ 4, 18309, "", "=q3=Gloves of Restoration", "=ds=#s9#, #a2#", "", "10%" },
+			{ 5, 18318, "", "=q3=Merciful Greaves", "=ds=#s12#, #a3#", "", "10%" },
+			{ 6, 18326, "", "=q3=Razor Gauntlets", "=ds=#s9#, #a4#", "", "10%" },
+			{ 7, 18314, "", "=q3=Ring of Demonic Guile", "=ds=#s13#", "", "10%" },
+			{ 8, 18315, "", "=q3=Ring of Demonic Potency", "=ds=#s13#", "", "10%" },
+			{ 9, 18328, "", "=q3=Shadewood Cloak", "=ds=#s4#", "", "10%" },
+			{ 10, 18327, "", "=q3=Whipvine Cord", "=ds=#s10#, #a1#", "", "10%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Felvine Shard"], "" },
+			{ 17, 18501, "", "=q1=Felvine Shard", "=ds=#m3#",  "", "100%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Alzzin the Wildshaper"],
+		module = moduleName,
+		instance = "DireMaulEast",
+	},
+};
+
+AtlasLoot_Data["DireMaulEastTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 18289, "", "=q3=Barbed Thorn Necklace", "=ds=#s2#", "", "~0.615%" },
+			{ 2, 18296, "", "=q3=Marksman Bands", "=ds=#s8#, #a3#", "", "~0.62%" },
+			{ 3, 18295, "", "=q3=Phasing Boots", "=ds=#s12#, #a1# =q1=Phase Lasher", "", "0.58%" },
+			{ 4, 18298, "", "=q3=Unbridled Leggings", "=ds=#s11#, #a2#", "", "~0.45%" },
 		},
 	},
 	info = {
