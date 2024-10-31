@@ -868,6 +868,19 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Dire Maul"], "AtlasLootWorldEvents" },
 		},
 
+		["DireMaulEast"] = {
+			["Bosses"] = {
+				{ "DireMaulEastPusillin", 1 },
+				{ "DireMaulEastLethtendris", 2 },
+				{ "DireMaulEastHydrospawn", 3 },
+				{ "DireMaulEastZevrimThornhoof", 4 },
+				{ "DireMaulEastAlzzinTheWildshaper", 5 },
+				{ "DireMaulEastTrash", 6 },
+				{ "DireMaulBooks", 7 },
+			},
+			["Info"] = { "[60] " .. BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
+		},
+
 		["DireMaulNorth"] = {
 			["Bosses"] = {
 				{ "DMNGuardMoldar",      4 },
@@ -882,19 +895,6 @@ AtlasLoot_LootTableRegister = {
 				{ "DMBooks",             14 },
 			},
 			["Info"] = { "[60] " .. BabbleZone["Dire Maul (North)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
-		},
-
-		["DireMaulEast"] = {
-			["Bosses"] = {
-				{ "DMELethtendrisPimgib", { 8, 9 } },
-				{ "DMEHydro",             10 },
-				{ "DMEZevrimThornhoof",   11 },
-				{ "DMEAlzzin",            12 },
-				{ "DMEPusillin",          { 13, 14 } },
-				{ "DMETrash",             17 },
-				{ "DMBooks",              18 },
-			},
-			["Info"] = { "[60] " .. BabbleZone["Dire Maul (East)"], "AtlasLootClassicWoW", mapname = "DireMaul" },
 		},
 
 		["DireMaulWest"] = {
