@@ -2615,22 +2615,23 @@ AtlasLoot_Data["DireMaulEastTrash"] = {
 --- Dire Maul North ---
 -----------------------
 
-AtlasLoot_Data["DMNGuardMoldar"] = {
+AtlasLoot_Data["DireMaulNorthGuardMoldar"] = {
 	["Normal"] = {
 		{
-			{ 1,  18496, "", "=q3=Heliotrope Cloak",            "=ds=#s4#",        "", "4.68%" },
-			{ 2,  18497, "", "=q3=Sublime Wristguards",         "=ds=#s8#, #a1#",  "", "4.14%" },
-			{ 3,  18494, "", "=q3=Denwatcher's Shoulders",      "=ds=#s3#, #a3#",  "", "4.62%" },
-			{ 4,  18493, "", "=q3=Bulky Iron Spaulders",        "=ds=#s3#, #a4#",  "", "3.96%" },
-			{ 5,  18498, "", "=q3=Hedgecutter",                 "=ds=#h1#, #w1#",  "", "4.94%" },
-			{ 16, 18450, "", "=q3=Robe of Combustion",          "=ds=#s5#, #a1#",  "", "6.57%" },
-			{ 17, 18451, "", "=q3=Hyena Hide Belt",             "=ds=#s10#, #a2#", "", "6.61%" },
-			{ 18, 18458, "", "=q3=Modest Armguards",            "=ds=#s8#, #a3#",  "", "7.12%" },
-			{ 19, 18459, "", "=q3=Gallant's Wristguards",       "=ds=#s8#, #a4#",  "", "6.09%" },
-			{ 20, 18464, "", "=q3=Gordok Nose Ring",            "=ds=#s13#",       "", "6.52%" },
-			{ 21, 18462, "", "=q3=Jagged Bone Fist",            "=ds=#h1#, #w13#", "", "7.54%" },
-			{ 22, 18463, "", "=q3=Ogre Pocket Knife",           "=ds=#h1#, #w10#", "", "7.38%" },
-			{ 23, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#",        "", "5.86%" },
+			{ 1, 18493, "", "=q3=Bulky Iron Spaulders", "=ds=#s3#, #a4#", "", "7.7%" },
+			{ 2, 18494, "", "=q3=Denwatcher's Shoulders", "=ds=#s3#, #a3#", "", "7.7%" },
+			{ 3, 18498, "", "=q3=Hedgecutter", "=ds=#h1#, #w1#", "", "7.7%" },
+			{ 4, 18496, "", "=q3=Heliotrope Cloak", "=ds=#s4#", "", "7.7%" },
+			{ 5, 18497, "", "=q3=Sublime Wristguards", "=ds=#s8#, #a1#", "", "7.7%" },
+			{ 7, 18268, "", "=q1=Gordok Inner Door Key", "=ds=#e9#", "", "100%" },
+			{ 16, 18459, "", "=q3=Gallant's Wristguards", "=ds=#s8#, #a4#", "", "7.7%" },
+			{ 17, 18464, "", "=q3=Gordok Nose Ring", "=ds=#s13#", "", "7.7%" },
+			{ 18, 18451, "", "=q3=Hyena Hide Belt", "=ds=#s10#, #a2#", "", "7.7%" },
+			{ 19, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "7.7%" },
+			{ 20, 18458, "", "=q3=Modest Armguards", "=ds=#s8#, #a3#", "", "7.7%" },
+			{ 21, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "7.7%" },
+			{ 22, 18450, "", "=q3=Robe of Combustion", "=ds=#s5#, #a1#",  "", "7.7%" },
+			{ 23, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "7.7%" },
 		},
 	},
 	info = {
@@ -2640,12 +2641,10 @@ AtlasLoot_Data["DMNGuardMoldar"] = {
 	},
 };
 
-AtlasLoot_Data["DMNStomperKreeg"] = {
+AtlasLoot_Data["DireMaulNorthStomperKreeg"] = {
 	["Normal"] = {
 		{
-			{ 1, 18425, "", "=q3=Kreeg's Mug",            "=ds=#s15#", "", "40.24%" },
-			{ 2, 18269, "", "=q2=Gordok Green Grog",      "=ds=#e4#",  "", "100%" },
-			{ 3, 18284, "", "=q2=Kreeg's Stout Beatdown", "=ds=#e4#",  "", "100%" },
+			{ 1, 18425, "", "=q3=Kreeg's Mug", "=ds=#s15#", "", "40%" },
 		},
 	},
 	info = {
@@ -2655,17 +2654,17 @@ AtlasLoot_Data["DMNStomperKreeg"] = {
 	},
 };
 
-AtlasLoot_Data["DMNGuardFengus"] = {
+AtlasLoot_Data["DireMaulNorthGuardFengus"] = {
 	["Normal"] = {
 		{
-			{ 1, 18450, "", "=q3=Robe of Combustion",          "=ds=#s5#, #a1#",  "", "9.76%" },
-			{ 2, 18451, "", "=q3=Hyena Hide Belt",             "=ds=#s10#, #a2#", "", "10.64%" },
-			{ 3, 18458, "", "=q3=Modest Armguards",            "=ds=#s8#, #a3#",  "", "11.41%" },
-			{ 4, 18459, "", "=q3=Gallant's Wristguards",       "=ds=#s8#, #a4#",  "", "9.60%" },
-			{ 5, 18464, "", "=q3=Gordok Nose Ring",            "=ds=#s13#",       "", "11.41%" },
-			{ 6, 18462, "", "=q3=Jagged Bone Fist",            "=ds=#h1#, #w13#", "", "11.79%" },
-			{ 7, 18463, "", "=q3=Ogre Pocket Knife",           "=ds=#h1#, #w10#", "", "11.02%" },
-			{ 8, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#",        "", "9.07%" },
+			{ 1, 18459, "", "=q3=Gallant's Wristguards", "=ds=#s8#, #a4#", "", "12.5%" },
+			{ 2, 18464, "", "=q3=Gordok Nose Ring", "=ds=#s13#", "", "12.5%" },
+			{ 3, 18451, "", "=q3=Hyena Hide Belt", "=ds=#s10#, #a2#", "", "12.5%" },
+			{ 4, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "12.5%" },
+			{ 5, 18458, "", "=q3=Modest Armguards", "=ds=#s8#, #a3#", "", "12.5%" },
+			{ 6, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "12.5%" },
+			{ 7, 18450, "", "=q3=Robe of Combustion", "=ds=#s5#, #a1#", "", "12.5%" },
+			{ 8, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "12.5%" },
 		},
 	},
 	info = {
@@ -2675,22 +2674,22 @@ AtlasLoot_Data["DMNGuardFengus"] = {
 	},
 };
 
-AtlasLoot_Data["DMNGuardSlipkik"] = {
+AtlasLoot_Data["DireMaulNorthGuardSlipkik"] = {
 	["Normal"] = {
 		{
-			{ 1,  18496, "", "=q3=Heliotrope Cloak",            "=ds=#s4#",        "", "5.82%" },
-			{ 2,  18497, "", "=q3=Sublime Wristguards",         "=ds=#s8#, #a1#",  "", "4.75%" },
-			{ 3,  18494, "", "=q3=Denwatcher's Shoulders",      "=ds=#s3#, #a3#",  "", "5.70%" },
-			{ 4,  18493, "", "=q3=Bulky Iron Spaulders",        "=ds=#s3#, #a4#",  "", "4.89%" },
-			{ 5,  18498, "", "=q3=Hedgecutter",                 "=ds=#h1#, #w1#",  "", "6.01%" },
-			{ 16, 18450, "", "=q3=Robe of Combustion",          "=ds=#s5#, #a1#",  "", "6.78%" },
-			{ 17, 18451, "", "=q3=Hyena Hide Belt",             "=ds=#s10#, #a2#", "", "7.83%" },
-			{ 18, 18458, "", "=q3=Modest Armguards",            "=ds=#s8#, #a3#",  "", "7.63%" },
-			{ 19, 18459, "", "=q3=Gallant's Wristguards",       "=ds=#s8#, #a4#",  "", "6.98%" },
-			{ 20, 18464, "", "=q3=Gordok Nose Ring",            "=ds=#s13#",       "", "7.36%" },
-			{ 21, 18462, "", "=q3=Jagged Bone Fist",            "=ds=#h1#, #w13#", "", "8.52%" },
-			{ 22, 18463, "", "=q3=Ogre Pocket Knife",           "=ds=#h1#, #w10#", "", "7.74%" },
-			{ 23, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#",        "", "6.66%" },
+			{ 1, 18493, "", "=q3=Bulky Iron Spaulders", "=ds=#s3#, #a4#", "", "7.7%" },
+			{ 2, 18494, "", "=q3=Denwatcher's Shoulders", "=ds=#s3#, #a3#", "", "7.7%" },
+			{ 3, 18498, "", "=q3=Hedgecutter", "=ds=#h1#, #w1#", "", "7.7%" },
+			{ 4, 18496, "", "=q3=Heliotrope Cloak", "=ds=#s4#", "", "7.7%" },
+			{ 5, 18497, "", "=q3=Sublime Wristguards", "=ds=#s8#, #a1#", "", "7.7%" },
+			{ 16, 18459, "", "=q3=Gallant's Wristguards", "=ds=#s8#, #a4#", "", "7.7%" },
+			{ 17, 18464, "", "=q3=Gordok Nose Ring", "=ds=#s13#", "", "7.7%" },
+			{ 18, 18451, "", "=q3=Hyena Hide Belt", "=ds=#s10#, #a2#", "", "7.7%" },
+			{ 19, 18462, "", "=q3=Jagged Bone Fist", "=ds=#h1#, #w13#", "", "7.7%" },
+			{ 20, 18458, "", "=q3=Modest Armguards", "=ds=#s8#, #a3#", "", "7.7%" },
+			{ 21, 18463, "", "=q3=Ogre Pocket Knife", "=ds=#h1#, #w10#", "", "7.7%" },
+			{ 22, 18450, "", "=q3=Robe of Combustion", "=ds=#s5#, #a1#",  "", "7.7%" },
+			{ 23, 18460, "", "=q3=Unsophisticated Hand Cannon", "=ds=#w5#", "", "7.7%" },
 		},
 	},
 	info = {
@@ -2700,33 +2699,24 @@ AtlasLoot_Data["DMNGuardSlipkik"] = {
 	},
 };
 
-AtlasLoot_Data["DMNThimblejack"] = {
+AtlasLoot_Data["DireMaulNorthKnotThimblejack"] = {
 	["Normal"] = {
 		{
-			{ 1,  18517, "",           "=q4=Pattern: Chromatic Cloak",      "=ds=#p7# (300)", "", "0.92%" },
-			{ 2,  18518, "",           "=q4=Pattern: Hide of the Wild",     "=ds=#p7# (300)", "", "1.29%" },
-			{ 3,  18519, "",           "=q4=Pattern: Shifting Cloak",       "=ds=#p7# (300)", "", "1.14%" },
-			{ 4,  18414, "",           "=q4=Pattern: Belt of the Archmage", "=ds=#p8# (300)", "", "1.00%" },
-			{ 6,  18418, "",           "=q3=Pattern: Cloak of Warding",     "=ds=#p8# (300)", "", "9.75%" },
-			{ 7,  18415, "",           "=q3=Pattern: Felcloth Gloves",      "=ds=#p8# (300)", "", "9.62%" },
-			{ 8,  18416, "",           "=q3=Pattern: Inferno Gloves",       "=ds=#p8# (300)", "", "10.66%" },
-			{ 9,  18417, "",           "=q3=Pattern: Mooncloth Gloves",     "=ds=#p8# (300)", "", "10.28%" },
-			{ 10, 18514, "",           "=q3=Pattern: Girdle of Insight",    "=ds=#p7# (300)", "", "10.90%" },
-			{ 11, 18515, "",           "=q3=Pattern: Mongoose Boots",       "=ds=#p7# (300)", "", "11.18%" },
-			{ 12, 18516, "",           "=q3=Pattern: Swift Flight Bracers", "=ds=#p7# (300)", "", "10.26%" },
-			{ 14, 0,     "INV_Box_01", "=q6=" .. AL["Ogre Tannin Basket"],  "" },
-			{ 15, 18240, "",           "=q2=Ogre Tannin",                   "=ds=#m3#",       "", "100%" },
-			{ 16, 18509, "",           "=q4=Chromatic Cloak",               "=ds=#s4#" },
-			{ 17, 18510, "",           "=q4=Hide of the Wild",              "=ds=#s4#" },
-			{ 18, 18511, "",           "=q4=Shifting Cloak",                "=ds=#s4#" },
-			{ 19, 18405, "",           "=q4=Belt of the Archmage",          "=ds=#s10#, #a1#" },
-			{ 21, 18413, "",           "=q3=Cloak of Warding",              "=ds=#s4#" },
-			{ 22, 18407, "",           "=q3=Felcloth Gloves",               "=ds=#s9#, #a1#" },
-			{ 23, 18408, "",           "=q3=Inferno Gloves",                "=ds=#s9#, #a1#" },
-			{ 24, 18409, "",           "=q3=Mooncloth Gloves",              "=ds=#s9#, #a1#" },
-			{ 25, 18504, "",           "=q3=Girdle of Insight",             "=ds=#s10#, #a2#" },
-			{ 26, 18506, "",           "=q3=Mongoose Boots",                "=ds=#s12#, #a2#" },
-			{ 27, 18508, "",           "=q3=Swift Flight Bracers",          "=ds=#s8#, #a3#" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Knot Thimblejack's Cache"],  "" },
+			{ 2, 18418, "", "=q3=Pattern: Cloak of Warding", "=ds=#p8# (300)", "", "13.1%" },
+			{ 3, 18415, "", "=q3=Pattern: Felcloth Gloves", "=ds=#p8# (300)", "", "13.1%" },
+			{ 4, 18416, "", "=q3=Pattern: Inferno Gloves", "=ds=#p8# (300)", "", "13.1%" },
+			{ 5, 18417, "", "=q3=Pattern: Mooncloth Gloves", "=ds=#p8# (300)", "", "13.1%" },
+			{ 6, 18514, "", "=q3=Pattern: Girdle of Insight", "=ds=#p7# (300)", "", "13.1%" },
+			{ 7, 18515, "", "=q3=Pattern: Mongoose Boots", "=ds=#p7# (300)", "", "13.1%" },
+			{ 8, 18516, "", "=q3=Pattern: Swift Flight Bracers", "=ds=#p7# (300)", "", "13.1%" },
+			{ 9, 18517, "", "=q4=Pattern: Chromatic Cloak", "=ds=#p7# (300)", "", "2%" },
+			{ 10, 18518, "", "=q4=Pattern: Hide of the Wild", "=ds=#p7# (300)", "", "2%" },
+			{ 11, 18519, "", "=q4=Pattern: Shifting Cloak", "=ds=#p7# (300)", "", "2%" },
+			{ 12, 18414, "", "=q4=Pattern: Belt of the Archmage", "=ds=#p8# (300)", "", "2%" },
+			{ 14, 18240, "", "=q2=Ogre Tannin", "=ds=#m3# =q1=(x1-2)", "", "35%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Ogre Tannin Basket"],  "" },
+			{ 17, 18240, "", "=q2=Ogre Tannin", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -2736,13 +2726,13 @@ AtlasLoot_Data["DMNThimblejack"] = {
 	},
 };
 
-AtlasLoot_Data["DMNCaptainKromcrush"] = {
+AtlasLoot_Data["DireMaulNorthCaptainKromcrush"] = {
 	["Normal"] = {
 		{
-			{ 1, 18507, "", "=q3=Boots of the Full Moon", "=ds=#s12#, #a1#", "", "18.75%" },
-			{ 2, 18505, "", "=q3=Mugger's Belt",          "=ds=#s10#, #a2#", "", "18.06%" },
-			{ 3, 18503, "", "=q3=Kromcrush's Chestplate", "=ds=#s5#, #a4#",  "", "17.48%" },
-			{ 4, 18502, "", "=q3=Monstrous Glaive",       "=ds=#w7#",        "", "21.47%" },
+			{ 1, 18507, "", "=q3=Boots of the Full Moon", "=ds=#s12#, #a1#", "", "25%" },
+			{ 2, 18503, "", "=q3=Kromcrush's Chestplate", "=ds=#s5#, #a4#", "", "25%" },
+			{ 3, 18502, "", "=q3=Monstrous Glaive", "=ds=#w7#", "", "25%" },
+			{ 4, 18505, "", "=q3=Mugger's Belt", "=ds=#s10#, #a2#", "", "25%" },
 		},
 	},
 	info = {
@@ -2752,20 +2742,18 @@ AtlasLoot_Data["DMNCaptainKromcrush"] = {
 	},
 };
 
-AtlasLoot_Data["DMNKingGordok"] = {
+AtlasLoot_Data["DireMaulNorthKingGordok"] = {
 	["Normal"] = {
 		{
-			{ 1,  18526, "", "=q3=Crown of the Ogre King",                       "=ds=#s1#, #a1#",          "", "17.17%" },
-			{ 2,  18525, "", "=q3=Bracers of Prosperity",                        "=ds=#s8#, #a2#",          "", "19.15%" },
-			{ 3,  18527, "", "=q3=Harmonious Gauntlets",                         "=ds=#s9#, #a3#",          "", "19.73%" },
-			{ 4,  18524, "", "=q3=Leggings of Destruction",                      "=ds=#s11#, #a3#",         "", "18.55%" },
-			{ 5,  18521, "", "=q3=Grimy Metal Boots",                            "=ds=#s12#, #a4#",         "", "17.80%" },
-			{ 6,  18522, "", "=q3=Band of the Ogre King",                        "=ds=#s13#",               "", "14.96%" },
-			{ 7,  18523, "", "=q3=Brightly Glowing Stone",                       "=ds=#s15#",               "", "20.21%" },
-			{ 8,  18520, "", "=q3=Barbarous Blade",                              "=ds=#h2#, #w10#",         "", "16.44%" },
-			{ 16, 19258, "", "=q3=Ace of Warlords",                              "=ds=#e16#",               "", "1.84%" },
-			{ 18, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "=ds=#m3#",                "", "6.00%" },
-			{ 19, 12727, "", "=q3=Plans: Enchanted Thorium Breastplate",         "=q1=#m4#: =ds=#p2# (300)" },
+			{ 1, 18522, "", "=q3=Band of the Ogre King", "=ds=#s13#", "", "12.5%" },
+			{ 2, 18520, "", "=q3=Barbarous Blade", "=ds=#h2#, #w10#", "", "12.5%" },
+			{ 3, 18525, "", "=q3=Bracers of Prosperity", "=ds=#s8#, #a2#", "", "12.5%" },
+			{ 4, 18523, "", "=q3=Brightly Glowing Stone", "=ds=#s15#", "", "12.5%" },
+			{ 5, 18526, "", "=q3=Crown of the Ogre King", "=ds=#s1#, #a1#", "", "12.5%" },
+			{ 6, 18521, "", "=q3=Grimy Metal Boots", "=ds=#s12#, #a4#", "", "12.5%" },
+			{ 7, 18527, "", "=q3=Harmonious Gauntlets", "=ds=#s9#, #a3#", "", "12.5%" },
+			{ 8, 18524, "", "=q3=Leggings of Destruction", "=ds=#s11#, #a3#", "", "12.5%" },
+			{ 10, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "=ds=#m3#", "", "9%" },
 		},
 	},
 	info = {
@@ -2775,13 +2763,13 @@ AtlasLoot_Data["DMNKingGordok"] = {
 	},
 };
 
-AtlasLoot_Data["DMNChoRush"] = {
+AtlasLoot_Data["DireMaulNorthChoRushTheObserver"] = {
 	["Normal"] = {
 		{
-			{ 1, 18490, "", "=q3=Insightful Hood",      "=ds=#s1#, #a2#",  "", "21.46%" },
-			{ 2, 18484, "", "=q3=Cho'Rush's Blade",     "=ds=#h1#, #w10#", "", "22.46%" },
-			{ 3, 18485, "", "=q3=Observer's Shield",    "=ds=#w8#",        "", "22.96%" },
-			{ 4, 18483, "", "=q3=Mana Channeling Wand", "=ds=#w12#",       "", "19.01%" },
+			{ 1, 18484, "", "=q3=Cho'Rush's Blade", "=ds=#h1#, #w10#", "", "25%" },
+			{ 2, 18490, "", "=q3=Insightful Hood", "=ds=#s1#, #a2#", "", "25%" },
+			{ 3, 18483, "", "=q3=Mana Channeling Wand", "=ds=#w12#", "", "25%" },
+			{ 4, 18485, "", "=q3=Observer's Shield", "=ds=#w8#", "", "25%" },
 		},
 	},
 	info = {
@@ -2791,34 +2779,48 @@ AtlasLoot_Data["DMNChoRush"] = {
 	},
 };
 
-AtlasLoot_Data["DMNTRIBUTERUN"] = {
+AtlasLoot_Data["DireMaulNorthTribute"] = {
 	["Normal"] = {
 		{
-			{ 1,  18538, "", "=q4=Treant's Bane",                   "=ds=#h2#, #w1#" },
-			{ 3,  18495, "", "=q3=Redoubt Cloak",                   "=ds=#s4#" },
-			{ 4,  18532, "", "=q3=Mindsurge Robe",                  "=ds=#s5#, #a1#" },
-			{ 5,  18475, "", "=q3=Oddly Magical Belt",              "=ds=#s10#, #a1#" },
-			{ 6,  18528, "", "=q3=Cyclone Spaulders",               "=ds=#s3#, #a2#" },
-			{ 7,  18478, "", "=q3=Hyena Hide Jerkin",               "=ds=#s5#, #a2#" },
-			{ 8,  18477, "", "=q3=Shaggy Leggings",                 "=ds=#s11#, #a2#" },
-			{ 9,  18476, "", "=q3=Mud Stained Boots",               "=ds=#s12#, #a2#" },
-			{ 10, 18479, "", "=q3=Carrion Scorpid Helm",            "=ds=#s1#, #a3#" },
-			{ 11, 18530, "", "=q3=Ogre Forged Hauberk",             "=ds=#s5#, #a3#" },
-			{ 12, 18480, "", "=q3=Scarab Plate Helm",               "=ds=#s1#, #a4#" },
-			{ 13, 18533, "", "=q3=Gordok Bracers of Power",         "=ds=#s8#, #a4#" },
-			{ 14, 18529, "", "=q3=Elemental Plate Girdle",          "=ds=#s10#, #a4#" },
-			{ 16, 18500, "", "=q3=Tarnished Elven Ring",            "=ds=#s13#" },
-			{ 17, 18537, "", "=q3=Counterattack Lodestone",         "=ds=#s14#" },
-			{ 19, 18481, "", "=q3=Skullcracking Mace",              "=ds=#h2#, #w6#" },
-			{ 20, 18531, "", "=q3=Unyielding Maul",                 "=ds=#h2#, #w6#" },
-			{ 21, 18534, "", "=q3=Rod of the Ogre Magi",            "=ds=#w9#" },
-			{ 22, 18499, "", "=q3=Barrier Shield",                  "=ds=#w8#" },
-			{ 23, 18482, "", "=q3=Ogre Toothpick Shooter",          "=ds=#w2#" },
-			{ 25, 18655, "", "=q2=Schematic: Major Recombobulator", "=ds=#p5# (275)" },
+			{ 1, 18499, "", "=q3=Barrier Shield", "=ds=#w8#", "", "14.8%" },
+			{ 2, 18528, "", "=q3=Cyclone Spaulders", "=ds=#s3#, #a2#", "", "13.9%" },
+			{ 3, 18500, "", "=q3=Tarnished Elven Ring", "=ds=#s13#", "", "13.9%" },
+			{ 4, 18495, "", "=q3=Redoubt Cloak", "=ds=#s4#", "", "13.1%" },
+			{ 5, 18532, "", "=q3=Mindsurge Robe", "=ds=#s5#, #a1#", "", "12.5%" },
+			{ 6, 18531, "", "=q3=Unyielding Maul", "=ds=#h2#, #w6#", "", "12.2%" },
+			{ 7, 18530, "", "=q3=Ogre Forged Hauberk", "=ds=#s5#, #a3#", "", "11.9%" },
+			{ 8, 18534, "", "=q3=Rod of the Ogre Magi", "=ds=#w9#", "", "11.3%" },
+			{ 9, 18533, "", "=q3=Gordok Bracers of Power", "=ds=#s8#, #a4#", "", "11.1%" },
+			{ 10, 18529, "", "=q3=Elemental Plate Girdle", "=ds=#s10#, #a4#", "", "9.6%" },
+			{ 11, 18537, "", "=q3=Counterattack Lodestone", "=ds=#s14#", "", "9.1%" },
+			{ 16, 18479, "", "=q3=Carrion Scorpid Helm", "=ds=#s1#, #a3#", "", "5%" },
+			{ 17, 18478, "", "=q3=Hyena Hide Jerkin", "=ds=#s5#, #a2#", "", "5%" },
+			{ 18, 18476, "", "=q3=Mud Stained Boots", "=ds=#s12#, #a2#", "", "5%" },
+			{ 19, 18475, "", "=q3=Oddly Magical Belt", "=ds=#s10#, #a1#", "", "5%" },
+			{ 20, 18482, "", "=q3=Ogre Toothpick Shooter", "=ds=#w2#", "", "5%" },
+			{ 21, 18480, "", "=q3=Scarab Plate Helm", "=ds=#s1#, #a4#", "", "5%" },
+			{ 22, 18477, "", "=q3=Shaggy Leggings", "=ds=#s11#, #a2#", "", "5%" },
+			{ 23, 18481, "", "=q3=Skullcracking Mace", "=ds=#h2#, #w6#", "", "5%" },
+			{ 25, 18538, "", "=q4=Treant's Bane", "=ds=#h2#, #w1#", "", "0.1%" },
+			{ 27, 18655, "", "=q2=Schematic: Major Recombobulator", "=ds=#p5# (275)", "", "8.5%" },
 		},
 	},
 	info = {
 		name = AL["DM North Tribute Chest"],
+		module = moduleName,
+		instance = "DireMaulNorth",
+	},
+};
+
+AtlasLoot_Data["DireMaulNorthTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 18250, "", "=q2=Gordok Shackle Key", "=ds=#e9#", "", "~13.55%" },
+			{ 2, 18640, "", "=q1=Happy Fun Rock", "=ds=#m20#", "", "~1.97%" },
+		},
+	},
+	info = {
+		name = AL["Trash Mobs"],
 		module = moduleName,
 		instance = "DireMaulNorth",
 	},
