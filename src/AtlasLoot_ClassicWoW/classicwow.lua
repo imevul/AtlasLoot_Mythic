@@ -2830,13 +2830,13 @@ AtlasLoot_Data["DireMaulNorthTrash"] = {
 --- Dire Maul West ---
 ----------------------
 
-AtlasLoot_Data["DMWTendrisWarpwood"] = {
+AtlasLoot_Data["DireMaulWestTendrisWarpwood"] = {
 	["Normal"] = {
 		{
-			{ 1, 18390, "", "=q3=Tanglemoss Leggings",   "=ds=#s11#, #a2#", "", "22.55%" },
-			{ 2, 18393, "", "=q3=Warpwood Binding",      "=ds=#s10#, #a3#", "", "19.81%" },
-			{ 3, 18353, "", "=q3=Stoneflower Staff",     "=ds=#w9#",        "", "23.46%" },
-			{ 4, 18352, "", "=q3=Petrified Bark Shield", "=ds=#w8#",        "", "21.67%" },
+			{ 1, 18390, "", "=q3=Tanglemoss Leggings", "=ds=#s11#, #a2#", "", "25%" },
+			{ 2, 18393, "", "=q3=Warpwood Binding", "=ds=#s10#, #a3#", "", "25%" },
+			{ 3, 18352, "", "=q3=Petrified Bark Shield", "=ds=#w8#", "", "25%" },
+			{ 4, 18353, "", "=q3=Stoneflower Staff", "=ds=#w9#", "", "25%" },
 		},
 	},
 	info = {
@@ -2846,15 +2846,15 @@ AtlasLoot_Data["DMWTendrisWarpwood"] = {
 	},
 };
 
-AtlasLoot_Data["DMWMagisterKalendris"] = {
+AtlasLoot_Data["DireMaulWestMagisterKalendris"] = {
 	["Normal"] = {
 		{
-			{ 1, 18350, "", "=q3=Amplifying Cloak",                "=ds=#s4#",       "", "21.44%" },
-			{ 2, 18374, "", "=q3=Flamescarred Shoulders",          "=ds=#s3#, #a2#", "", "18.11%" },
-			{ 3, 18351, "", "=q3=Magically Sealed Bracers",        "=ds=#s8#, #a4#", "", "24.36%" },
-			{ 4, 18397, "", "=q3=Elder Magus Pendant",             "=ds=#s2#",       "", "17.46%" },
-			{ 5, 18371, "", "=q3=Mindtap Talisman",                "=ds=#s14#",      "", "7.45%" },
-			{ 7, 22309, "", "=q2=Pattern: Big Bag of Enchantment", "=ds=#p8# (300)" },
+			{ 1, 18350, "", "=q3=Amplifying Cloak", "=ds=#s4#", "", "25.5%" },
+			{ 2, 18351, "", "=q3=Magically Sealed Bracers", "=ds=#s8#, #a4#", "", "25.5%" },
+			{ 3, 18397, "", "=q3=Elder Magus Pendant", "=ds=#s2#", "", "20%" },
+			{ 4, 18374, "", "=q3=Flamescarred Shoulders", "=ds=#s3#, #a2#", "", "20%" },
+			{ 5, 18371, "", "=q3=Mindtap Talisman", "=ds=#s14#", "", "9%" },
+			{ 7, 22309, "", "=q2=Pattern: Big Bag of Enchantment", "=ds=#p8# (300)", "", "15%" },
 		},
 	},
 	info = {
@@ -2864,13 +2864,13 @@ AtlasLoot_Data["DMWMagisterKalendris"] = {
 	},
 };
 
-AtlasLoot_Data["DMWIllyannaRavenoak"] = {
+AtlasLoot_Data["DireMaulWestIllyannaRavenoak"] = {
 	["Normal"] = {
 		{
-			{ 1, 18386, "", "=q3=Padre's Trousers",       "=ds=#s11#, #a1#", "", "18.79%" },
-			{ 2, 18349, "", "=q3=Gauntlets of Accuracy",  "=ds=#s9#, #a3#",  "", "23.94%" },
-			{ 3, 18383, "", "=q3=Force Imbued Gauntlets", "=ds=#s9#, #a4#",  "", "20.11%" },
-			{ 4, 18347, "", "=q3=Well Balanced Axe",      "=ds=#h1#, #w1#",  "", "22.44%" },
+			{ 1, 18383, "", "=q3=Force Imbued Gauntlets", "=ds=#s9#, #a4#", "", "25%" },
+			{ 2, 18386, "", "=q3=Padre's Trousers", "=ds=#s11#, #a1#", "", "25%" },
+			{ 3, 18349, "", "=q3=Gauntlets of Accuracy", "=ds=#s9#, #a3#", "", "25%" },
+			{ 4, 18347, "", "=q3=Well Balanced Axe", "=ds=#h1#, #w1#", "", "25%" },
 		},
 	},
 	info = {
@@ -2880,19 +2880,19 @@ AtlasLoot_Data["DMWIllyannaRavenoak"] = {
 	},
 };
 
-AtlasLoot_Data["DMWImmolthar"] = {
+AtlasLoot_Data["DireMaulWestImmolthar"] = {
 	["Normal"] = {
 		{
-			{ 1,  18389, "", "=q3=Cloak of the Cosmos",       "=ds=#s4#",        "", "14.35%" },
-			{ 2,  18385, "", "=q3=Robe of Everlasting Night", "=ds=#s5#, #a1#",  "", "15.33%" },
-			{ 3,  18377, "", "=q3=Quickdraw Gloves",          "=ds=#s9#, #a2#",  "", "21.01%" },
-			{ 4,  18391, "", "=q3=Eyestalk Cord",             "=ds=#s10#, #a2#", "", "20.08%" },
-			{ 5,  18394, "", "=q3=Demon Howl Wristguards",    "=ds=#s8#, #a3#",  "", "17.51%" },
-			{ 6,  18379, "", "=q3=Odious Greaves",            "=ds=#s12#, #a3#", "", " 19.81%" },
-			{ 7,  18384, "", "=q3=Bile-Etched Spaulders",     "=ds=#s3#, #a4#",  "", "14.71%" },
-			{ 16, 18381, "", "=q3=Evil Eye Pendant",          "=ds=#s2#",        "", "17.78%" },
-			{ 17, 18370, "", "=q3=Vigilance Charm",           "=ds=#s14#",       "", "6.30%" },
-			{ 18, 18372, "", "=q3=Blade of the New Moon",     "=ds=#h1#, #w4#",  "", "6.99%" },
+			{ 1, 18384, "", "=q3=Bile-Etched Spaulders", "=ds=#s3#, #a4#", "", "10%" },
+			{ 2, 18372, "", "=q3=Blade of the New Moon", "=ds=#h1#, #w4#", "", "10%" },
+			{ 3, 18389, "", "=q3=Cloak of the Cosmos", "=ds=#s4#", "", "10%" },
+			{ 4, 18394, "", "=q3=Demon Howl Wristguards", "=ds=#s8#, #a3#", "", "10%" },
+			{ 5, 18381, "", "=q3=Evil Eye Pendant", "=ds=#s2#", "", "10%" },
+			{ 6, 18391, "", "=q3=Eyestalk Cord", "=ds=#s10#, #a2#", "", "10%" },
+			{ 7, 18379, "", "=q3=Odious Greaves", "=ds=#s12#, #a3#", "", "10%" },
+			{ 8, 18377, "", "=q3=Quickdraw Gloves", "=ds=#s9#, #a2#", "", "10%" },
+			{ 9, 18385, "", "=q3=Robe of Everlasting Night", "=ds=#s5#, #a1#", "", "10%" },
+			{ 10, 18370, "", "=q3=Vigilance Charm", "=ds=#s14#", "", "10%" },
 		},
 	},
 	info = {
@@ -2902,13 +2902,13 @@ AtlasLoot_Data["DMWImmolthar"] = {
 	},
 };
 
-AtlasLoot_Data["DMWHelnurath"] = {
+AtlasLoot_Data["DireMaulWestLordHelnurath"] = {
 	["Normal"] = {
 		{
-			{ 1, 18757, "", "=q3=Diabolic Mantle",        "=ds=#s3#, #a1#", "", "23.12%" },
-			{ 2, 18754, "", "=q3=Fel Hardened Bracers",   "=ds=#s8#, #a4#", "", "19.24%" },
-			{ 3, 18756, "", "=q3=Dreadguard's Protector", "=ds=#w8#",       "", "19.77%" },
-			{ 4, 18755, "", "=q3=Xorothian Firestick",    "=ds=#w5#",       "", "21.92%" },
+			{ 1, 18757, "", "=q3=Diabolic Mantle", "=ds=#s3#, #a1#", "", "25%" },
+			{ 2, 18756, "", "=q3=Dreadguard's Protector", "=ds=#w8#", "", "25%" },
+			{ 3, 18754, "", "=q3=Fel Hardened Bracers", "=ds=#s8#, #a4#", "", "25%" },
+			{ 4, 18755, "", "=q3=Xorothian Firestick", "=ds=#w5#", "", "25%" },
 		},
 	},
 	info = {
@@ -2918,19 +2918,19 @@ AtlasLoot_Data["DMWHelnurath"] = {
 	},
 };
 
-AtlasLoot_Data["DMWPrinceTortheldrin"] = {
+AtlasLoot_Data["DireMaulWestPrinceTortheldrin"] = {
 	["Normal"] = {
 		{
-			{ 1,  18382, "", "=q3=Fluctuating Cloak",             "=ds=#s4#",        "", "21.84%" },
-			{ 2,  18373, "", "=q3=Chestplate of Tranquility",     "=ds=#s5#, #a2#",  "", "6.32%" },
-			{ 3,  18375, "", "=q3=Bracers of the Eclipse",        "=ds=#s8#, #a2#",  "", "15.62%" },
-			{ 4,  18378, "", "=q3=Silvermoon Leggings",           "=ds=#s11#, #a3#", "", "21.20%" },
-			{ 5,  18380, "", "=q3=Eldritch Reinforced Legplates", "=ds=#s11#, #a4#", "", "15.87%" },
-			{ 6,  18395, "", "=q3=Emerald Flame Ring",            "=ds=#s13#",       "", "14.55%" },
-			{ 16, 18392, "", "=q3=Distracting Dagger",            "=ds=#h4#, #w4#",  "", "14.70%" },
-			{ 17, 18396, "", "=q3=Mind Carver",                   "=ds=#h3#, #w10#", "", "14.62%" },
-			{ 18, 18376, "", "=q3=Timeworn Mace",                 "=ds=#h1#, #w6#",  "", "14.40%" },
-			{ 19, 18388, "", "=q3=Stoneshatter",                  "=ds=#w3#",        "", "7.72%" },
+			{ 1, 18375, "", "=q3=Bracers of the Eclipse", "=ds=#s8#, #a2#", "", "10%" },
+			{ 2, 18373, "", "=q3=Chestplate of Tranquility", "=ds=#s5#, #a2#", "", "10%" },
+			{ 3, 18392, "", "=q3=Distracting Dagger", "=ds=#h4#, #w4#", "", "10%" },
+			{ 4, 18380, "", "=q3=Eldritch Reinforced Legplates", "=ds=#s11#, #a4#", "", "10%" },
+			{ 5, 18395, "", "=q3=Emerald Flame Ring", "=ds=#s13#", "", "10%" },
+			{ 6, 18382, "", "=q3=Fluctuating Cloak", "=ds=#s4#", "", "10%" },
+			{ 7, 18396, "", "=q3=Mind Carver", "=ds=#h3#, #w10#", "", "10%" },
+			{ 8, 18378, "", "=q3=Silvermoon Leggings", "=ds=#s11#, #a3#", "", "10%" },
+			{ 9, 18388, "", "=q3=Stoneshatter", "=ds=#w3#", "", "10%" },
+			{ 10, 18376, "", "=q3=Timeworn Mace", "=ds=#h1#, #w6#", "", "10%" },
 		},
 	},
 	info = {
@@ -2940,12 +2940,12 @@ AtlasLoot_Data["DMWPrinceTortheldrin"] = {
 	},
 };
 
-AtlasLoot_Data["DMWTsuzee"] = {
+AtlasLoot_Data["DireMaulWestTsuzee"] = {
 	["Normal"] = {
 		{
-			{ 1, 18387, "", "=q3=Brightspark Gloves",  "=ds=#s9#, #a1#",  "", "24.79%" },
-			{ 2, 18346, "", "=q3=Threadbare Trousers", "=ds=#s11#, #a1#", "", "33.94%" },
-			{ 3, 18345, "", "=q3=Murmuring Ring",      "=ds=#s13#",       "", "30.28%" },
+			{ 1, 18387, "", "=q3=Brightspark Gloves",  "=ds=#s9#, #a1#",  "", "33.3%" },
+			{ 2, 18345, "", "=q3=Murmuring Ring",      "=ds=#s13#",       "", "33.3%" },
+			{ 3, 18346, "", "=q3=Threadbare Trousers", "=ds=#s11#, #a1#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -2955,15 +2955,12 @@ AtlasLoot_Data["DMWTsuzee"] = {
 	},
 };
 
-AtlasLoot_Data["DMWTrash"] = {
+AtlasLoot_Data["DireMaulWestTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],            "" },
-			{ 2,  18344, "",           "=q3=Stonebark Gauntlets",             "=ds=#s9#, #a2#", "", "0.47%" },
-			{ 3,  18340, "",           "=q3=Eidolon Talisman",                "=ds=#s2#",       "", "0.58%" },
-			{ 4,  18338, "",           "=q3=Wand of Arcane Potency",          "=ds=#w12#",      "", "0.78%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Shen'dralar Provisioner"], "" },
-			{ 17, 18487, "",           "=q1=Pattern: Mooncloth Robe",         "=ds=#p8# (300)" },
+			{ 1, 18338, "", "=q3=Wand of Arcane Potency", "=ds=#w12#", "", "~1.68%" },
+			{ 2, 18340, "", "=q3=Eidolon Talisman", "=ds=#s2#", "", "~0.555%" },
+			{ 3, 18344, "", "=q3=Stonebark Gauntlets", "=ds=#s9#, #a2#", "", "~0.48%" },
 		},
 	},
 	info = {
