@@ -1300,42 +1300,17 @@ AtlasLoot_Data["BlackrockMountainEntLoot"] = {
 --- Blackrock Mountain: Lower Blackrock Spire ---
 -------------------------------------------------
 
-AtlasLoot_Data["LBRSQuestItems"] = {
+AtlasLoot_Data["LowerBlackrockSpireHighlordOmokk"] = {
 	["Normal"] = {
 		{
-			{ 1, 12533, "", "=q1=Roughshod Pike", "=ds=#m3#" },
-		},
-	},
-	info = {
-		name = BabbleZone["Lower Blackrock Spire"] .. " - " .. AL["Quest Item"],
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSSpirestoneButcher"] = {
-	["Normal"] = {
-		{
-			{ 1, 12608, "", "=q3=Butcher's Apron", "=ds=#s4#",       "", "54.31%" },
-			{ 2, 13286, "", "=q3=Rivenspike",      "=ds=#h1#, #w1#", "", "35.78%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Spirestone Butcher"] .. " (" .. AL["Rare"] .. ")",
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSOmokk"] = {
-	["Normal"] = {
-		{
-			{ 1, 13170, "", "=q3=Skyshroud Leggings",       "=ds=#s11#, #a1#", "", "8.52%" },
-			{ 2, 13169, "", "=q3=Tressermane Leggings",     "=ds=#s11#, #a2#", "", "9.52%" },
-			{ 3, 13168, "", "=q3=Plate of the Shaman King", "=ds=#s5#, #a4#",  "", "8.62%" },
-			{ 4, 13166, "", "=q3=Slamshot Shoulders",       "=ds=#s3#, #a4#",  "", "7.25%" },
-			{ 5, 13167, "", "=q3=Fist of Omokk",            "=ds=#h2#, #w6#",  "", "10.64%" },
-			{ 7, 12534, "", "=q1=Omokk's Head",             "=ds=#m3#",        "", "100%" },
+			{ 1, 16670, "", "=q3=Boots of Elements", "=ds=#s12#, #a3# =q1=(#j6#)", "", "16.7%" },
+			{ 2, 13167, "", "=q3=Fist of Omokk", "=ds=#h2#, #w6#", "", "16.7%" },
+			{ 3, 13168, "", "=q3=Plate of the Shaman King", "=ds=#s5#, #a4#", "", "16.7%" },
+			{ 4, 13170, "", "=q3=Skyshroud Leggings", "=ds=#s11#, #a1#", "", "16.7%" },
+			{ 5, 13166, "", "=q3=Slamshot Shoulders", "=ds=#s3#, #a4#", "", "16.7%" },
+			{ 6, 13169, "", "=q3=Tressermane Leggings", "=ds=#s11#, #a2#", "", "16.7%" },
+			{ 8, 12336, "", "=q2=Gemstone of Spirestone", "=ds=#m3#", "", "100%" },
+			{ 9, 12534, "", "=q1=Omokk's Head", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1345,43 +1320,17 @@ AtlasLoot_Data["LBRSOmokk"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSSpirestoneLord"] = {
+AtlasLoot_Data["LowerBlackrockSpireShadowHunterVoshgajin"] = {
 	["Normal"] = {
 		{
-			{ 1, 13284, "", "=q3=Swiftdart Battleboots", "=ds=#s12#, #a3#", "", "48.68%" },
-			{ 2, 13285, "", "=q3=The Blackrock Slicer",  "=ds=#h2#, #w1#",  "", "34.87%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Spirestone Battle Lord"] .. " (" .. AL["Rare"] .. ")",
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSLordMagus"] = {
-	["Normal"] = {
-		{
-			{ 1, 13282, "", "=q3=Ogreseer Tower Boots", "=ds=#s12#, #a3#", "", "22.95%" },
-			{ 2, 13283, "", "=q3=Magus Ring",           "=ds=#s13#",       "", "38.01%" },
-			{ 3, 13261, "", "=q3=Globe of D'sak",       "=ds=#s15#",       "", "18.07%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Spirestone Lord Magus"] .. " (" .. AL["Rare"] .. ")",
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSVosh"] = {
-	["Normal"] = {
-		{
-			{ 1, 12626, "", "=q3=Funeral Cuffs",           "=ds=#s8#, #a1#", "", "18.74%" },
-			{ 2, 13257, "", "=q3=Demonic Runed Spaulders", "=ds=#s3#, #a2#", "", "16.84%" },
-			{ 3, 13255, "", "=q3=Trueaim Gauntlets",       "=ds=#s9#, #a3#", "", "18.08%" },
-			{ 4, 12651, "", "=q3=Blackcrow",               "=ds=#w3#",       "", "8.56%" },
-			{ 5, 12653, "", "=q3=Riphook",                 "=ds=#w2#",       "", "7.99%" },
+			{ 1, 12654, "", "=q3=Doomshot", "=ds=#w17# =q1=(x50)", "", "30%" },
+			{ 2, 13257, "", "=q3=Demonic Runed Spaulders", "=ds=#s3#, #a2#", "", "21%" },
+			{ 3, 12626, "", "=q3=Funeral Cuffs", "=ds=#s8#, #a1#", "", "21%" },
+			{ 4, 16712, "", "=q3=Shadowcraft Gloves", "=ds=#s9#, #a2# =q1=(#j6#)", "", "21%" },
+			{ 5, 13255, "", "=q3=Trueaim Gauntlets", "=ds=#s9#, #a3#", "", "21%" },
+			{ 6, 12651, "", "=q3=Blackcrow", "=ds=#w3#", "", "8%" },
+			{ 7, 12653, "", "=q3=Riphook", "=ds=#w2#", "", "8%" },
+			{ 9, 13352, "", "=q1=Vosh'gajin's Snakestone", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1391,14 +1340,16 @@ AtlasLoot_Data["LBRSVosh"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSVoone"] = {
+AtlasLoot_Data["LowerBlackrockSpireWarMasterVoone"] = {
 	["Normal"] = {
 		{
-			{ 1, 22231, "", "=q3=Kayser's Boots of Precision", "=ds=#s12#, #a1#", "", "15.40%" },
-			{ 2, 13179, "", "=q3=Brazecore Armguards",         "=ds=#s8#, #a3#",  "", "16.12%" },
-			{ 3, 13177, "", "=q3=Talisman of Evasion",         "=ds=#s2#",        "", "15.40%" },
-			{ 4, 12582, "", "=q3=Keris of Zul'Serak",          "=ds=#h1#, #w4#",  "", "8.08%" },
-			{ 5, 28972, "", "=q3=Flightblade Throwing Axe",    "=ds=#w11#",       "", "79.85%" },
+			{ 1, 28972, "", "=q3=Flightblade Throwing Axe", "=ds=#w11#", "", "100%" },
+			{ 2, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#s9#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 3, 13179, "", "=q3=Brazecore Armguards", "=ds=#s8#, #a3#", "", "20%" },
+			{ 4, 22231, "", "=q3=Kayser's Boots of Precision", "=ds=#s12#, #a1#", "", "20%" },
+			{ 5, 12582, "", "=q3=Keris of Zul'Serak", "=ds=#h1#, #w4#", "", "20%" },
+			{ 6, 13177, "", "=q3=Talisman of Evasion", "=ds=#s2#", "", "20%" },
+			{ 8, 12335, "", "=q2=Gemstone of Smolderthorn", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1408,29 +1359,13 @@ AtlasLoot_Data["LBRSVoone"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSGrimaxe"] = {
+AtlasLoot_Data["LowerBlackrockSpireMotherSmolderweb"] = {
 	["Normal"] = {
 		{
-			{ 1, 12634, "", "=q3=Chiselbrand Girdle",     "=ds=#s10#, #a3#", "", "31.73%" },
-			{ 2, 12637, "", "=q3=Backusarian Gauntlets",  "=ds=#s9#, #a4#",  "", "26.44%" },
-			{ 3, 12621, "", "=q3=Demonfork",              "=ds=#h1#, #w1#",  "", "27.64%" },
-			{ 5, 12838, "", "=q3=Plans: Arcanite Reaper", "=ds=#p2# (300)",  "", "6.73%" },
-			{ 6, 12784, "", "=q3=Arcanite Reaper",        "=ds=#h2#, #w1#" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Bannok Grimaxe"] .. " (" .. AL["Rare"] .. ")",
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSSmolderweb"] = {
-	["Normal"] = {
-		{
-			{ 1, 13244, "", "=q3=Gilded Gauntlets", "=ds=#s9#, #a3#", "", "25.06%" },
-			{ 2, 13213, "", "=q3=Smolderweb's Eye", "=ds=#s14#",      "", "24.97%" },
-			{ 3, 13183, "", "=q3=Venomspitter",     "=ds=#h1#, #w6#", "", "12.49%" },
+			{ 1, 13244, "", "=q3=Gilded Gauntlets", "=ds=#s9#, #a3#", "", "35%" },
+			{ 2, 13213, "", "=q3=Smolderweb's Eye", "=ds=#s14#", "", "35%" },
+			{ 3, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "", "15%" },
+			{ 4, 16715, "", "=q3=Wildheart Boots", "=ds=#s12#, #a2# =q1=(#j6#)", "", "15%" },
 		},
 	},
 	info = {
@@ -1440,30 +1375,15 @@ AtlasLoot_Data["LBRSSmolderweb"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSCrystalFang"] = {
+AtlasLoot_Data["LowerBlackrockSpireUrokDoomhowl"] = {
 	["Normal"] = {
 		{
-			{ 1, 13185, "", "=q3=Sunderseer Mantle",          "=ds=#s3#, #a1#", "", "28.10%" },
-			{ 2, 13184, "", "=q3=Fallbrush Handgrips",        "=ds=#s9#, #a2#", "", "35.48%" },
-			{ 3, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#", "", "17.62%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Crystal Fang"] .. " (" .. AL["Rare"] .. ")",
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSDoomhowl"] = {
-	["Normal"] = {
-		{
-			{ 1, 13258, "", "=q3=Slaghide Gauntlets",                             "=ds=#s9#, #a2#",          "", "17.09%" },
-			{ 2, 22232, "", "=q3=Marksman's Girdle",                              "=ds=#s10#, #a3#",         "", "20.60%" },
-			{ 3, 13259, "", "=q3=Ribsteel Footguards",                            "=ds=#s12#, #a4#",         "", "25.38%" },
-			{ 4, 13178, "", "=q3=Rosewine Circle",                                "=ds=#s13#",               "", "21.48%" },
-			{ 6, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "=ds=#m3#",                "", "10.30%" },
-			{ 7, 12725, "", "=q3=Plans: Enchanted Thorium Helm",                  "=q1=#m4#: =ds=#p2# (300)" },
+			{ 1, 22232, "", "=q3=Marksman's Girdle", "=ds=#s10#, #a3#", "", "25%" },
+			{ 2, 13259, "", "=q3=Ribsteel Footguards", "=ds=#s12#, #a4#", "", "25%" },
+			{ 3, 13178, "", "=q3=Rosewine Circle", "=ds=#s13#", "", "25%" },
+			{ 4, 13258, "", "=q3=Slaghide Gauntlets", "=ds=#s9#, #a2#", "", "25%" },
+			{ 6, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "16%" },
+			{ 8, 12712, "", "=q1=Warosh's Mojo", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1473,15 +1393,14 @@ AtlasLoot_Data["LBRSDoomhowl"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSZigris"] = {
+AtlasLoot_Data["LowerBlackrockSpireQuartermasterZigris"] = {
 	["Normal"] = {
 		{
-			{ 1,  13253, "", "=q3=Hands of Power",             "=ds=#s9#, #a1#",  "", "14.22%" },
-			{ 2,  13252, "", "=q3=Cloudrunner Girdle",         "=ds=#s10#, #a2#", "", "15.48%" },
-			{ 4,  12835, "", "=q3=Plans: Annihilator",         "=ds=#p2# (300)",  "", "8.37%" },
-			{ 5,  12798, "", "=q3=Annihilator",                "=ds=#h1#, #w1#" },
-			{ 7,  21955, "", "=q2=Design: Black Diamond Crab", "=ds=#p12# (300)" },
-			{ 16, 12264, "", "=q3=Worg Carrier",               "=ds=#e13#" },
+			{ 1, 13252, "", "=q3=Cloudrunner Girdle", "=ds=#s10#, #a2#", "", "20%" },
+			{ 2, 13253, "", "=q3=Hands of Power", "=ds=#s9#, #a1#", "", "19%" },
+			{ 3, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "1.3%" },
+			{ 5, 21955, "", "=q2=Design: Black Diamond Crab", "=ds=#p12# (300)", "", "60%" },
+			{ 6, 12835, "", "=q3=Plans: Annihilator", "=ds=#p2# (300)", "", "13%" },
 		},
 	},
 	info = {
@@ -1491,28 +1410,13 @@ AtlasLoot_Data["LBRSZigris"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSSlavener"] = {
+AtlasLoot_Data["LowerBlackrockSpireHalycon"] = {
 	["Normal"] = {
 		{
-			{ 1, 13206, "", "=q3=Wolfshear Leggings",     "=ds=#s11#, #a1#", "", "17.46%" },
-			{ 2, 13208, "", "=q3=Bleak Howler Armguards", "=ds=#s8#, #a2#",  "", "18.02%" },
-			{ 3, 13205, "", "=q3=Rhombeard Protector",    "=ds=#w8#",        "", "16.93%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Gizrul the Slavener"],
-		module = moduleName,
-		instance = "BlackrockSpireLower",
-	},
-};
-
-AtlasLoot_Data["LBRSHalycon"] = {
-	["Normal"] = {
-		{
-			{ 1, 22313, "", "=q3=Ironweave Bracers",       "=ds=#s8#, #a1#",  "", "18.16%" },
-			{ 2, 13210, "", "=q3=Pads of the Dread Wolf",  "=ds=#s12#, #a2#", "", "9.88%" },
-			{ 3, 13211, "", "=q3=Slashclaw Bracers",       "=ds=#s8#, #a3#",  "", "20.32%" },
-			{ 4, 13212, "", "=q3=Halycon's Spiked Collar", "=ds=#s2#",        "", "18.23%" },
+			{ 1, 13212, "", "=q3=Halycon's Spiked Collar", "=ds=#s2#", "", "28.7%" },
+			{ 2, 22313, "", "=q3=Ironweave Bracers", "=ds=#s8#, #a1#", "", "28.7%" },
+			{ 3, 13211, "", "=q3=Slashclaw Bracers", "=ds=#s8#, #a3#", "", "28.7%" },
+			{ 4, 13210, "", "=q3=Pads of the Dread Wolf", "=ds=#s12#, #a2#", "", "14%" },
 		},
 	},
 	info = {
@@ -1522,31 +1426,33 @@ AtlasLoot_Data["LBRSHalycon"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSBashguud"] = {
+AtlasLoot_Data["LowerBlackrockSpireGizrulTheSlavener"] = {
 	["Normal"] = {
 		{
-			{ 1, 13203, "", "=q3=Armswake Cloak", "=ds=#s4#",        "", "35.31%" },
-			{ 2, 13198, "", "=q3=Hurd Smasher",   "=ds=#h1#, #w13#", "", "21.15%" },
-			{ 3, 13204, "", "=q3=Bashguuder",     "=ds=#h1#, #w6#",  "", "27.09%" },
+			{ 2, 13208, "", "=q3=Bleak Howler Armguards", "=ds=#s8#, #a2#", "", "28.3%" },
+			{ 3, 13205, "", "=q3=Rhombeard Protector", "=ds=#w8#", "", "28.3%" },
+			{ 1, 13206, "", "=q3=Wolfshear Leggings", "=ds=#s11#, #a1#", "", "28.3%" },
+			{ 4, 16718, "", "=q3=Wildheart Spaulders", "=ds=#s3#, #a2# =q1=(#j6#)", "", "15%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Ghok Bashguud"] .. " (" .. AL["Rare"] .. ")",
+		name = BabbleBoss["Gizrul the Slavener"],
 		module = moduleName,
 		instance = "BlackrockSpireLower",
 	},
 };
 
-AtlasLoot_Data["LBRSWyrmthalak"] = {
+AtlasLoot_Data["LowerBlackrockSpireOverlordWyrmthalak"] = {
 	["Normal"] = {
 		{
-			{ 1, 13143, "", "=q4=Mark of the Dragon Lord", "=ds=#s13#",       "", "1.11%" },
-			{ 3, 13162, "", "=q3=Reiver Claws",            "=ds=#s9#, #a4#",  "", "12.14%" },
-			{ 4, 13164, "", "=q3=Heart of the Scale",      "=ds=#s14#",       "", "0.73%" },
-			{ 5, 22321, "", "=q3=Heart of Wyrmthalak",     "=ds=#s14#",       "", "13.87%" },
-			{ 6, 13163, "", "=q3=Relentless Scythe",       "=ds=#h2#, #w10#", "", "14.12%" },
-			{ 7, 13148, "", "=q3=Chillpike",               "=ds=#w7#",        "", "0.76%" },
-			{ 8, 13161, "", "=q3=Trindlehaven Staff",      "=ds=#w9#",        "", "10.40%" },
+			{ 1, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#s3#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 2, 22321, "", "=q3=Heart of Wyrmthalak", "=ds=#s14#", "", "20%" },
+			{ 3, 13162, "", "=q3=Reiver Claws", "=ds=#s9#, #a4#", "", "20%" },
+			{ 4, 13163, "", "=q3=Relentless Scythe", "=ds=#h2#, #w10#", "", "20%" },
+			{ 5, 13161, "", "=q3=Trindlehaven Staff", "=ds=#w9#", "", "20%" },
+			{ 6, 13143, "", "=q4=Mark of the Dragon Lord", "=ds=#s13#", "", "2%" },
+			{ 8, 12337, "", "=q2=Gemstone of Bloodaxe", "=ds=#m3#", "", "100%" },
+			{ 9, 12780, "", "=q1=General Drakkisath's Command", "=ds=#m2# (#m7#)", "", "100%" },
 		},
 	},
 	info = {
@@ -1556,11 +1462,11 @@ AtlasLoot_Data["LBRSWyrmthalak"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSFelguard"] = {
+AtlasLoot_Data["LowerBlackrockSpireBurningFelguard"] = {
 	["Normal"] = {
 		{
-			{ 1, 13181, "", "=q3=Demonskin Gloves", "=ds=#s9#, #a1#",  "", "14.47%" },
-			{ 2, 13182, "", "=q3=Phase Blade",      "=ds=#h1#, #w10#", "", "11.63%" },
+			{ 1, 13181, "", "=q3=Demonskin Gloves", "=ds=#s9#, #a1#", "", "14%" },
+			{ 2, 13182, "", "=q3=Phase Blade", "=ds=#h1#, #w10#", "", "14%" },
 		},
 	},
 	info = {
@@ -1570,16 +1476,113 @@ AtlasLoot_Data["LBRSFelguard"] = {
 	},
 };
 
-AtlasLoot_Data["LBRSTrash"] = {
+AtlasLoot_Data["LowerBlackrockSpireSpirestoneButcher"] = {
 	["Normal"] = {
 		{
-			{ 1, 14513, "", "=q4=Pattern: Robe of the Archmage",               "=ds=#p8# (300) =q1=#m1# =ds=#c3# =q1=" .. AL["Firebrand Pyromancer"],             "", "10.12%" },
-			{ 2, 14152, "", "=q4=Robe of the Archmage",                        "=ds=#s5#, #a1# =q1=#m1# =ds=#c3#" },
-			{ 4, 13494, "", "=q2=Recipe: Greater Fire Protection Potion",      "=ds=#p1# (290) =q1=" .. AL["Firebrand Pyromancer"] .. " / " .. AL["Firebrand Invoker"], "", "1.94%" },
-			{ 5, 16250, "", "=q2=Formula: Enchant Weapon - Superior Striking", "=ds=#p4# (300) =q1=" .. AL["Firebrand Grunt"],                                    "", "1.04%" },
-			{ 6, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength",  "=ds=#p4# (295) =q1=" .. AL["Firebrand Legionnaire"],                              "", "4.16%" },
-			{ 7, 15749, "", "=q2=Pattern: Volcanic Breastplate",               "=ds=#p7# (285) =q1=" .. AL["Spirestone Warlord"],                                 "", "2.04%" },
-			{ 8, 15775, "", "=q2=Pattern: Volcanic Shoulders",                 "=ds=#p7# (300) =q1=" .. AL["Spirestone Mystic"],                                  "", "10.56%" },
+			{ 1, 12608, "", "=q3=Butcher's Apron", "=ds=#s4#", "", "60%" },
+			{ 2, 13286, "", "=q3=Rivenspike", "=ds=#h1#, #w1#", "", "40%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Spirestone Butcher"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "BlackrockSpireLower",
+	},
+};
+
+AtlasLoot_Data["LowerBlackrockSpireBannokGrimaxe"] = {
+	["Normal"] = {
+		{
+			{ 1, 12637, "", "=q3=Backusarian Gauntlets", "=ds=#s9#, #a4#", "", "33.3%" },
+			{ 2, 12634, "", "=q3=Chiselbrand Girdle", "=ds=#s10#, #a3#", "", "33.3%" },
+			{ 3, 12621, "", "=q3=Demonfork", "=ds=#h1#, #w1#", "", "33.3%" },
+			{ 5, 12838, "", "=q3=Plans: Arcanite Reaper", "=ds=#p2# (300)", "", "7%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Bannok Grimaxe"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "BlackrockSpireLower",
+	},
+};
+
+AtlasLoot_Data["LowerBlackrockSpireCrystalFang"] = {
+	["Normal"] = {
+		{
+			{ 1, 13184, "", "=q3=Fallbrush Handgrips", "=ds=#s9#, #a2#", "", "43%" },
+			{ 2, 13185, "", "=q3=Sunderseer Mantle", "=ds=#s3#, #a1#", "", "43%" },
+			{ 3, 13218, "", "=q3=Fang of the Crystal Spider", "=ds=#h1#, #w4#", "", "14%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Crystal Fang"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "BlackrockSpireLower",
+	},
+};
+
+AtlasLoot_Data["LowerBlackrockSpireSpirestoneBattleLord"] = {
+	["Normal"] = {
+		{
+			{ 1, 13285, "", "=q3=The Blackrock Slicer", "=ds=#h2#, #w1#", "", "60%" },
+			{ 2, 13284, "", "=q3=Swiftdart Battleboots", "=ds=#s12#, #a3#", "", "40%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Spirestone Battle Lord"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "BlackrockSpireLower",
+	},
+};
+
+AtlasLoot_Data["LowerBlackrockSpireSpirestoneLordMagus"] = {
+	["Normal"] = {
+		{
+			{ 1, 13283, "", "=q3=Magus Ring", "=ds=#s13#", "", "50%" },
+			{ 2, 13261, "", "=q3=Globe of D'sak", "=ds=#s15#", "", "25%" },
+			{ 3, 13282, "", "=q3=Ogreseer Tower Boots", "=ds=#s12#, #a1#", "", "25%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Spirestone Lord Magus"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "BlackrockSpireLower",
+	},
+};
+
+AtlasLoot_Data["LowerBlackrockSpireGhokBashguud"] = {
+	["Normal"] = {
+		{
+			{ 1, 13203, "", "=q3=Armswake Cloak", "=ds=#s4#", "", "33.3%" },
+			{ 2, 13204, "", "=q3=Bashguuder", "=ds=#h1#, #w6#", "", "33.3%" },
+			{ 3, 13198, "", "=q3=Hurd Smasher", "=ds=#h1#, #w13#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Ghok Bashguud"] .. " (" .. AL["Rare"] .. ")",
+		module = moduleName,
+		instance = "BlackrockSpireLower",
+	},
+};
+
+AtlasLoot_Data["LowerBlackrockSpireTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=(#j6#)", "", "~4.72%" },
+			{ 2, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=(#j6#)", "", "~4.14%" },
+			{ 3, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "~3.51%" },
+			{ 4, 16680, "", "=q3=Beaststalker's Belt", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.78%" },
+			{ 5, 16683, "", "=q3=Magister's Bindings", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.25%" },
+			{ 6, 16673, "", "=q3=Cord of Elements", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.21%" },
+			{ 7, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.185%" },
+			{ 9, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength",  "=ds=#p4# (295) =q1=" .. AL["Spirestone Mystic"], "", "10.1%" },
+			{ 10, 16250, "", "=q2=Formula: Enchant Weapon - Superior Striking", "=ds=#p4# (300) =q1=" .. AL["Spirestone Warlord"], "", "7%" },
+			{ 11, 14513, "", "=q4=Pattern: Robe of the Archmage", "=ds=#p8# (300) =q1=#m1# =ds=#c3# =q1=" .. AL["Firebrand Pyromancer"], "", "18%" },
+			{ 12, 15749, "", "=q2=Pattern: Volcanic Breastplate", "=ds=#p7# (285) =q1=" .. AL["Firebrand Grunt"], "", "4.9%" },
+			{ 13, 15775, "", "=q2=Pattern: Volcanic Shoulders", "=ds=#p7# (300) =q1=" .. AL["Firebrand Legionnaire"], "", "22.8%" },
+			{ 14, 13494, "", "=q2=Recipe: Greater Fire Protection Potion", "=ds=#p1# (290) =q1=" .. AL["Firebrand Pyromancer"] .. " / " .. AL["Firebrand Invoker"], "", "~4.3%" },
+			{ 16, 0,     "INV_Box_01", "=q6=Unfired Plate Gauntlets", "" },
+			{ 17, 12812, "", "=q3=Unfired Plate Gauntlets", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
