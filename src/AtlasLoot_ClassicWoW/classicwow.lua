@@ -1398,7 +1398,6 @@ AtlasLoot_Data["LowerBlackrockSpireQuartermasterZigris"] = {
 		{
 			{ 1, 13252, "", "=q3=Cloudrunner Girdle", "=ds=#s10#, #a2#", "", "20%" },
 			{ 2, 13253, "", "=q3=Hands of Power", "=ds=#s9#, #a1#", "", "19%" },
-			{ 3, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "1.3%" },
 			{ 5, 21955, "", "=q2=Design: Black Diamond Crab", "=ds=#p12# (300)", "", "60%" },
 			{ 6, 12835, "", "=q3=Plans: Annihilator", "=ds=#p2# (300)", "", "13%" },
 		},
@@ -3818,402 +3817,7 @@ AtlasLoot_Data["SMLibraryArcanistDoan"] = {
 --- Scholomance ---
 -------------------
 
-AtlasLoot_Data["SCHOLOKirtonostheHerald"] = {
-	["Normal"] = {
-		{
-			{ 1, 13956, "", "=q3=Clutch of Andros",    "=ds=#s10#, #a1#", "", "15.31%" },
-			{ 2, 13957, "", "=q3=Gargoyle Slashers",   "=ds=#s9#, #a2#",  "", "14.40%" },
-			{ 3, 13969, "", "=q3=Loomguard Armbraces", "=ds=#s8#, #a3#",  "", "16.25%" },
-			{ 4, 13967, "", "=q3=Windreaver Greaves",  "=ds=#s12#, #a3#", "", "14.87%" },
-			{ 5, 13955, "", "=q3=Stoneform Shoulders", "=ds=#s3#, #a4#",  "", "14.73%" },
-			{ 6, 13960, "", "=q3=Heart of the Fiend",  "=ds=#s2#",        "", "16.36%" },
-			{ 7, 14024, "", "=q3=Frightalon",          "=ds=#h1#, #w4#",  "", "15.55%" },
-			{ 8, 13983, "", "=q3=Gravestone War Axe",  "=ds=#h2#, #w1#",  "", "12.78%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Kirtonos the Herald"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOJandiceBarov"] = {
-	["Normal"] = {
-		{
-			{ 1, 18689, "", "=q3=Phantasmal Cloak",      "=ds=#s4#",        "", "7.52%" },
-			{ 2, 14543, "", "=q3=Darkshade Gloves",      "=ds=#s9#, #a1#",  "", "0.26%" },
-			{ 3, 14545, "", "=q3=Ghostloom Leggings",    "=ds=#s11#, #a2#", "", "8.81%" },
-			{ 4, 14548, "", "=q3=Royal Cap Spaulders",   "=ds=#s3#, #a3#",  "", "10.06%" },
-			{ 5, 18690, "", "=q3=Wraithplate Leggings",  "=ds=#s11#, #a4#", "", "8.59%" },
-			{ 6, 14541, "", "=q3=Barovian Family Sword", "=ds=#h2#, #w10#", "", "8.27%" },
-			{ 7, 22394, "", "=q3=Staff of Metanoia",     "=ds=#w9#",        "", "8.67%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Jandice Barov"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLORattlegore"] = {
-	["Normal"] = {
-		{
-			{ 1,  14538, "", "=q3=Deadwalker Mantle",                             "=ds=#s3#, #a1#",          "", "11.32%" },
-			{ 2,  14539, "", "=q3=Bone Ring Helm",                                "=ds=#s1#, #a2#",          "", "10.89%" },
-			{ 3,  18686, "", "=q3=Bone Golem Shoulders",                          "=ds=#s3#, #a3#",          "", "9.04%" },
-			{ 4,  14537, "", "=q3=Corpselight Greaves",                           "=ds=#s12#, #a4#",         "", "10.22%" },
-			{ 5,  14531, "", "=q3=Frightskull Shaft",                             "=ds=#h2#, #w6#",          "", "9.55%" },
-			{ 6,  14528, "", "=q3=Rattlecage Buckler",                            "=ds=#w8#",                "", "9.16%" },
-			{ 16, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "=ds=#m3#",                "", "5.71%" },
-			{ 17, 12726, "", "=q3=Plans: Enchanted Thorium Leggings",             "=q1=#m4#: =ds=#p2# (300)" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Rattlegore"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLODeathKnight"] = {
-	["Normal"] = {
-		{
-			{ 1, 18760, "", "=q3=Necromantic Band",    "=ds=#s13#",                   "", "24.75%" },
-			{ 2, 18758, "", "=q3=Specter's Blade",     "=ds=#h1#, #w4#",              "", "15.72%" },
-			{ 3, 18759, "", "=q3=Malicious Axe",       "=ds=#h2#, #w1#",              "", "24.75%" },
-			{ 4, 18761, "", "=q3=Oblivion's Touch",    "=ds=#w12#",                   "", "17.17%" },
-			{ 6, 18749, "", "=q1=Charger's Lost Soul", "=ds=#m3#, =q1=#m1# =ds=#c4#", "", "10.93%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Death Knight Darkreaver"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLORasFrostwhisper"] = {
-	["Normal"] = {
-		{
-			{ 1,  13314, "", "=q4=Alanna's Embrace",               "=ds=#s5#, #a1#",  "", "1.07%" },
-			{ 3,  14340, "", "=q3=Freezing Lich Robes",            "=ds=#s5#, #a1#",  "", "12.55%" },
-			{ 4,  18693, "", "=q3=Shivery Handwraps",              "=ds=#s9#, #a1#",  "", "12.38%" },
-			{ 5,  14503, "", "=q3=Death's Clutch",                 "=ds=#s3#, #a2#",  "", "11.73%" },
-			{ 6,  14502, "", "=q3=Frostbite Girdle",               "=ds=#s10#, #a2#", "", "11.20%" },
-			{ 7,  18694, "", "=q3=Shadowy Mail Greaves",           "=ds=#s12#, #a3#", "", "14.63%" },
-			{ 8,  14522, "", "=q3=Maelstrom Leggings",             "=ds=#s11#, #a3#", "", "13.01%" },
-			{ 9,  14525, "", "=q3=Boneclenched Gauntlets",         "=ds=#s9#, #a4#",  "", "11.45%" },
-			{ 10, 18695, "", "=q3=Spellbound Tome",                "=ds=#s15#",       "", "10.86%" },
-			{ 11, 13952, "", "=q3=Iceblade Hacker",                "=ds=#h1#, #w1#",  "", "9.74%" },
-			{ 12, 14487, "", "=q3=Bonechill Hammer",               "=ds=#h1#, #w6#",  "", "11.92%" },
-			{ 13, 18696, "", "=q3=Intricately Runed Shield",       "=ds=#w8#",        "", "13.04%" },
-			{ 16, 13521, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)",  "", "2.92%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Ras Frostwhisper"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOLorekeeperPolkelt"] = {
-	["Normal"] = {
-		{
-			{ 1,  18681, "", "=q3=Burial Shawl",          "=ds=#s3#, #a1#",  "", "1.20%" },
-			{ 2,  14633, "", "=q3=Necropile Mantle",      "=ds=#s3#, #a1#",  "", "1.07%" },
-			{ 3,  14626, "", "=q3=Necropile Robe",        "=ds=#s5#, #a1#",  "", "1.30%" },
-			{ 4,  14629, "", "=q3=Necropile Cuffs",       "=ds=#s8#, #a1#",  "", "1.17%" },
-			{ 5,  14631, "", "=q3=Necropile Boots",       "=ds=#s12#, #a1#", "", "0.94%" },
-			{ 6,  14632, "", "=q3=Necropile Leggings",    "=ds=#s11#, #a1#", "", "0.78%" },
-			{ 7,  18682, "", "=q3=Ghoul Skin Leggings",   "=ds=#s11#, #a2#", "", "1.61%" },
-			{ 8,  14637, "", "=q3=Cadaverous Armor",      "=ds=#s5#, #a2#",  "", "0.94%" },
-			{ 9,  14638, "", "=q3=Cadaverous Leggings",   "=ds=#s11#, #a2#", "", "1.15%" },
-			{ 10, 14640, "", "=q3=Cadaverous Gloves",     "=ds=#s9#, #a2#",  "", "1.12%" },
-			{ 11, 14636, "", "=q3=Cadaverous Belt",       "=ds=#s10#, #a2#", "", "0.94%" },
-			{ 12, 14641, "", "=q3=Cadaverous Walkers",    "=ds=#s12#, #a2#", "", "0.70%" },
-			{ 13, 14612, "", "=q3=Bloodmail Legguards",   "=ds=#s11#, #a3#", "", "0.44%" },
-			{ 14, 14616, "", "=q3=Bloodmail Boots",       "=ds=#s12#, #a3#", "", "0.34%" },
-			{ 15, 14615, "", "=q3=Bloodmail Gauntlets",   "=ds=#s9#, #a3#",  "", "0.49%" },
-			{ 16, 14614, "", "=q3=Bloodmail Belt",        "=ds=#s10#, #a3#", "", "0.42%" },
-			{ 17, 14611, "", "=q3=Bloodmail Hauberk",     "=ds=#s5#, #a3#",  "", "0.44%" },
-			{ 18, 14621, "", "=q3=Deathbone Sabatons",    "=ds=#s12#, #a4#", "", "0.75%" },
-			{ 19, 14620, "", "=q3=Deathbone Girdle",      "=ds=#s10#, #a4#", "", "0.70%" },
-			{ 20, 14622, "", "=q3=Deathbone Gauntlets",   "=ds=#s9#, #a4#",  "", "0.60%" },
-			{ 21, 14624, "", "=q3=Deathbone Chestplate",  "=ds=#s5#, #a4#",  "", "0.81%" },
-			{ 22, 14623, "", "=q3=Deathbone Legguards",   "=ds=#s11#, #a4#", "", "0.83%" },
-			{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#",       "", "0.85%" },
-			{ 24, 23201, "", "=q3=Libram of Divinity",    "=ds=#w16#" },
-			{ 25, 23200, "", "=q3=Totem of Sustaining",   "=ds=#w15#",       "", "3.5%" },
-			{ 26, 18683, "", "=q3=Hammer of the Vesper",  "=ds=#h1#, #w6#",  "", "1.35%" },
-			{ 27, 18680, "", "=q3=Ancient Bone Bow",      "=ds=#w2#",        "", "1.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Lorekeeper Polkelt"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLODoctorTheolenKrastinov"] = {
-	["Normal"] = {
-		{
-			{ 1,  18681, "", "=q3=Burial Shawl",          "=ds=#s3#, #a1#",  "", "1.20%" },
-			{ 2,  14633, "", "=q3=Necropile Mantle",      "=ds=#s3#, #a1#",  "", "1.07%" },
-			{ 3,  14626, "", "=q3=Necropile Robe",        "=ds=#s5#, #a1#",  "", "1.30%" },
-			{ 4,  14629, "", "=q3=Necropile Cuffs",       "=ds=#s8#, #a1#",  "", "1.17%" },
-			{ 5,  14631, "", "=q3=Necropile Boots",       "=ds=#s12#, #a1#", "", "0.94%" },
-			{ 6,  14632, "", "=q3=Necropile Leggings",    "=ds=#s11#, #a1#", "", "0.78%" },
-			{ 7,  18682, "", "=q3=Ghoul Skin Leggings",   "=ds=#s11#, #a2#", "", "1.61%" },
-			{ 8,  14637, "", "=q3=Cadaverous Armor",      "=ds=#s5#, #a2#",  "", "0.94%" },
-			{ 9,  14638, "", "=q3=Cadaverous Leggings",   "=ds=#s11#, #a2#", "", "1.15%" },
-			{ 10, 14640, "", "=q3=Cadaverous Gloves",     "=ds=#s9#, #a2#",  "", "1.12%" },
-			{ 11, 14636, "", "=q3=Cadaverous Belt",       "=ds=#s10#, #a2#", "", "0.94%" },
-			{ 12, 14641, "", "=q3=Cadaverous Walkers",    "=ds=#s12#, #a2#", "", "0.70%" },
-			{ 13, 14612, "", "=q3=Bloodmail Legguards",   "=ds=#s11#, #a3#", "", "0.44%" },
-			{ 14, 14616, "", "=q3=Bloodmail Boots",       "=ds=#s12#, #a3#", "", "0.34%" },
-			{ 15, 14615, "", "=q3=Bloodmail Gauntlets",   "=ds=#s9#, #a3#",  "", "0.49%" },
-			{ 16, 14614, "", "=q3=Bloodmail Belt",        "=ds=#s10#, #a3#", "", "0.42%" },
-			{ 17, 14611, "", "=q3=Bloodmail Hauberk",     "=ds=#s5#, #a3#",  "", "0.44%" },
-			{ 18, 14621, "", "=q3=Deathbone Sabatons",    "=ds=#s12#, #a4#", "", "0.75%" },
-			{ 19, 14620, "", "=q3=Deathbone Girdle",      "=ds=#s10#, #a4#", "", "0.70%" },
-			{ 20, 14622, "", "=q3=Deathbone Gauntlets",   "=ds=#s9#, #a4#",  "", "0.60%" },
-			{ 21, 14624, "", "=q3=Deathbone Chestplate",  "=ds=#s5#, #a4#",  "", "0.81%" },
-			{ 22, 14623, "", "=q3=Deathbone Legguards",   "=ds=#s11#, #a4#", "", "0.83%" },
-			{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#",       "", "0.85%" },
-			{ 24, 23201, "", "=q3=Libram of Divinity",    "=ds=#w16#" },
-			{ 25, 23200, "", "=q3=Totem of Sustaining",   "=ds=#w15#",       "", "3.5%" },
-			{ 26, 18683, "", "=q3=Hammer of the Vesper",  "=ds=#h1#, #w6#",  "", "1.35%" },
-			{ 27, 18680, "", "=q3=Ancient Bone Bow",      "=ds=#w2#",        "", "1.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Doctor Theolen Krastinov"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOInstructorMalicia"] = {
-	["Normal"] = {
-		{
-			{ 1,  18681, "", "=q3=Burial Shawl",          "=ds=#s3#, #a1#",  "", "1.20%" },
-			{ 2,  14633, "", "=q3=Necropile Mantle",      "=ds=#s3#, #a1#",  "", "1.07%" },
-			{ 3,  14626, "", "=q3=Necropile Robe",        "=ds=#s5#, #a1#",  "", "1.30%" },
-			{ 4,  14629, "", "=q3=Necropile Cuffs",       "=ds=#s8#, #a1#",  "", "1.17%" },
-			{ 5,  14631, "", "=q3=Necropile Boots",       "=ds=#s12#, #a1#", "", "0.94%" },
-			{ 6,  14632, "", "=q3=Necropile Leggings",    "=ds=#s11#, #a1#", "", "0.78%" },
-			{ 7,  18682, "", "=q3=Ghoul Skin Leggings",   "=ds=#s11#, #a2#", "", "1.61%" },
-			{ 8,  14637, "", "=q3=Cadaverous Armor",      "=ds=#s5#, #a2#",  "", "0.94%" },
-			{ 9,  14638, "", "=q3=Cadaverous Leggings",   "=ds=#s11#, #a2#", "", "1.15%" },
-			{ 10, 14640, "", "=q3=Cadaverous Gloves",     "=ds=#s9#, #a2#",  "", "1.12%" },
-			{ 11, 14636, "", "=q3=Cadaverous Belt",       "=ds=#s10#, #a2#", "", "0.94%" },
-			{ 12, 14641, "", "=q3=Cadaverous Walkers",    "=ds=#s12#, #a2#", "", "0.70%" },
-			{ 13, 14612, "", "=q3=Bloodmail Legguards",   "=ds=#s11#, #a3#", "", "0.44%" },
-			{ 14, 14616, "", "=q3=Bloodmail Boots",       "=ds=#s12#, #a3#", "", "0.34%" },
-			{ 15, 14615, "", "=q3=Bloodmail Gauntlets",   "=ds=#s9#, #a3#",  "", "0.49%" },
-			{ 16, 14614, "", "=q3=Bloodmail Belt",        "=ds=#s10#, #a3#", "", "0.42%" },
-			{ 17, 14611, "", "=q3=Bloodmail Hauberk",     "=ds=#s5#, #a3#",  "", "0.44%" },
-			{ 18, 14621, "", "=q3=Deathbone Sabatons",    "=ds=#s12#, #a4#", "", "0.75%" },
-			{ 19, 14620, "", "=q3=Deathbone Girdle",      "=ds=#s10#, #a4#", "", "0.70%" },
-			{ 20, 14622, "", "=q3=Deathbone Gauntlets",   "=ds=#s9#, #a4#",  "", "0.60%" },
-			{ 21, 14624, "", "=q3=Deathbone Chestplate",  "=ds=#s5#, #a4#",  "", "0.81%" },
-			{ 22, 14623, "", "=q3=Deathbone Legguards",   "=ds=#s11#, #a4#", "", "0.83%" },
-			{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#",       "", "0.85%" },
-			{ 24, 23201, "", "=q3=Libram of Divinity",    "=ds=#w16#" },
-			{ 25, 23200, "", "=q3=Totem of Sustaining",   "=ds=#w15#",       "", "3.5%" },
-			{ 26, 18683, "", "=q3=Hammer of the Vesper",  "=ds=#h1#, #w6#",  "", "1.35%" },
-			{ 27, 18680, "", "=q3=Ancient Bone Bow",      "=ds=#w2#",        "", "1.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Instructor Malicia"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOLadyIlluciaBarov"] = {
-	["Normal"] = {
-		{
-			{ 1,  18681, "", "=q3=Burial Shawl",          "=ds=#s3#, #a1#",  "", "1.20%" },
-			{ 2,  14633, "", "=q3=Necropile Mantle",      "=ds=#s3#, #a1#",  "", "1.07%" },
-			{ 3,  14626, "", "=q3=Necropile Robe",        "=ds=#s5#, #a1#",  "", "1.30%" },
-			{ 4,  14629, "", "=q3=Necropile Cuffs",       "=ds=#s8#, #a1#",  "", "1.17%" },
-			{ 5,  14631, "", "=q3=Necropile Boots",       "=ds=#s12#, #a1#", "", "0.94%" },
-			{ 6,  14632, "", "=q3=Necropile Leggings",    "=ds=#s11#, #a1#", "", "0.78%" },
-			{ 7,  18682, "", "=q3=Ghoul Skin Leggings",   "=ds=#s11#, #a2#", "", "1.61%" },
-			{ 8,  14637, "", "=q3=Cadaverous Armor",      "=ds=#s5#, #a2#",  "", "0.94%" },
-			{ 9,  14638, "", "=q3=Cadaverous Leggings",   "=ds=#s11#, #a2#", "", "1.15%" },
-			{ 10, 14640, "", "=q3=Cadaverous Gloves",     "=ds=#s9#, #a2#",  "", "1.12%" },
-			{ 11, 14636, "", "=q3=Cadaverous Belt",       "=ds=#s10#, #a2#", "", "0.94%" },
-			{ 12, 14641, "", "=q3=Cadaverous Walkers",    "=ds=#s12#, #a2#", "", "0.70%" },
-			{ 13, 14612, "", "=q3=Bloodmail Legguards",   "=ds=#s11#, #a3#", "", "0.44%" },
-			{ 14, 14616, "", "=q3=Bloodmail Boots",       "=ds=#s12#, #a3#", "", "0.34%" },
-			{ 15, 14615, "", "=q3=Bloodmail Gauntlets",   "=ds=#s9#, #a3#",  "", "0.49%" },
-			{ 16, 14614, "", "=q3=Bloodmail Belt",        "=ds=#s10#, #a3#", "", "0.42%" },
-			{ 17, 14611, "", "=q3=Bloodmail Hauberk",     "=ds=#s5#, #a3#",  "", "0.44%" },
-			{ 18, 14621, "", "=q3=Deathbone Sabatons",    "=ds=#s12#, #a4#", "", "0.75%" },
-			{ 19, 14620, "", "=q3=Deathbone Girdle",      "=ds=#s10#, #a4#", "", "0.70%" },
-			{ 20, 14622, "", "=q3=Deathbone Gauntlets",   "=ds=#s9#, #a4#",  "", "0.60%" },
-			{ 21, 14624, "", "=q3=Deathbone Chestplate",  "=ds=#s5#, #a4#",  "", "0.81%" },
-			{ 22, 14623, "", "=q3=Deathbone Legguards",   "=ds=#s11#, #a4#", "", "0.83%" },
-			{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#",       "", "0.85%" },
-			{ 24, 23201, "", "=q3=Libram of Divinity",    "=ds=#w16#" },
-			{ 25, 23200, "", "=q3=Totem of Sustaining",   "=ds=#w15#",       "", "3.5%" },
-			{ 26, 18683, "", "=q3=Hammer of the Vesper",  "=ds=#h1#, #w6#",  "", "1.35%" },
-			{ 27, 18680, "", "=q3=Ancient Bone Bow",      "=ds=#w2#",        "", "1.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Lady Illucia Barov"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOLordAlexeiBarov"] = {
-	["Normal"] = {
-		{
-			{ 1,  18681, "", "=q3=Burial Shawl",          "=ds=#s3#, #a1#",  "", "1.20%" },
-			{ 2,  14633, "", "=q3=Necropile Mantle",      "=ds=#s3#, #a1#",  "", "1.07%" },
-			{ 3,  14626, "", "=q3=Necropile Robe",        "=ds=#s5#, #a1#",  "", "1.30%" },
-			{ 4,  14629, "", "=q3=Necropile Cuffs",       "=ds=#s8#, #a1#",  "", "1.17%" },
-			{ 5,  14631, "", "=q3=Necropile Boots",       "=ds=#s12#, #a1#", "", "0.94%" },
-			{ 6,  14632, "", "=q3=Necropile Leggings",    "=ds=#s11#, #a1#", "", "0.78%" },
-			{ 7,  18682, "", "=q3=Ghoul Skin Leggings",   "=ds=#s11#, #a2#", "", "1.61%" },
-			{ 8,  14637, "", "=q3=Cadaverous Armor",      "=ds=#s5#, #a2#",  "", "0.94%" },
-			{ 9,  14638, "", "=q3=Cadaverous Leggings",   "=ds=#s11#, #a2#", "", "1.15%" },
-			{ 10, 14640, "", "=q3=Cadaverous Gloves",     "=ds=#s9#, #a2#",  "", "1.12%" },
-			{ 11, 14636, "", "=q3=Cadaverous Belt",       "=ds=#s10#, #a2#", "", "0.94%" },
-			{ 12, 14641, "", "=q3=Cadaverous Walkers",    "=ds=#s12#, #a2#", "", "0.70%" },
-			{ 13, 14612, "", "=q3=Bloodmail Legguards",   "=ds=#s11#, #a3#", "", "0.44%" },
-			{ 14, 14616, "", "=q3=Bloodmail Boots",       "=ds=#s12#, #a3#", "", "0.34%" },
-			{ 15, 14615, "", "=q3=Bloodmail Gauntlets",   "=ds=#s9#, #a3#",  "", "0.49%" },
-			{ 16, 14614, "", "=q3=Bloodmail Belt",        "=ds=#s10#, #a3#", "", "0.42%" },
-			{ 17, 14611, "", "=q3=Bloodmail Hauberk",     "=ds=#s5#, #a3#",  "", "0.44%" },
-			{ 18, 14621, "", "=q3=Deathbone Sabatons",    "=ds=#s12#, #a4#", "", "0.75%" },
-			{ 19, 14620, "", "=q3=Deathbone Girdle",      "=ds=#s10#, #a4#", "", "0.70%" },
-			{ 20, 14622, "", "=q3=Deathbone Gauntlets",   "=ds=#s9#, #a4#",  "", "0.60%" },
-			{ 21, 14624, "", "=q3=Deathbone Chestplate",  "=ds=#s5#, #a4#",  "", "0.81%" },
-			{ 22, 14623, "", "=q3=Deathbone Legguards",   "=ds=#s11#, #a4#", "", "0.83%" },
-			{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#",       "", "0.85%" },
-			{ 24, 23201, "", "=q3=Libram of Divinity",    "=ds=#w16#" },
-			{ 25, 23200, "", "=q3=Totem of Sustaining",   "=ds=#w15#",       "", "3.5%" },
-			{ 26, 18683, "", "=q3=Hammer of the Vesper",  "=ds=#h1#, #w6#",  "", "1.35%" },
-			{ 27, 18680, "", "=q3=Ancient Bone Bow",      "=ds=#w2#",        "", "1.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Lord Alexei Barov"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOQuestItems"] = {
-	["Normal"] = {
-		{
-			{ 1, 13471, "", "=q1=The Deed to Brill",       "=ds=#m3#" },
-			{ 2, 13448, "", "=q1=The Deed to Caer Darrow", "=ds=#m3#" },
-			{ 3, 13450, "", "=q1=The Deed to Southshore",  "=ds=#m3#" },
-			{ 4, 13451, "", "=q1=The Deed to Tarren Mill", "=ds=#m3#" },
-			{ 6, 14023, "", "=q3=Barov Peasant Caller",    "=q1=#m4#: #QUESTID:27143#" },
-		}
-	},
-	info = {
-		name = AL["Quest Item"] .. " (" .. BabbleZone["Scholomance"] .. ")",
-		module = moduleName,
-		NextPrevDisable = true,
-	},
-};
-
-AtlasLoot_Data["SCHOLOTheRavenian"] = {
-	["Normal"] = {
-		{
-			{ 1,  18681, "", "=q3=Burial Shawl",          "=ds=#s3#, #a1#",  "", "1.20%" },
-			{ 2,  14633, "", "=q3=Necropile Mantle",      "=ds=#s3#, #a1#",  "", "1.07%" },
-			{ 3,  14626, "", "=q3=Necropile Robe",        "=ds=#s5#, #a1#",  "", "1.30%" },
-			{ 4,  14629, "", "=q3=Necropile Cuffs",       "=ds=#s8#, #a1#",  "", "1.17%" },
-			{ 5,  14631, "", "=q3=Necropile Boots",       "=ds=#s12#, #a1#", "", "0.94%" },
-			{ 6,  14632, "", "=q3=Necropile Leggings",    "=ds=#s11#, #a1#", "", "0.78%" },
-			{ 7,  18682, "", "=q3=Ghoul Skin Leggings",   "=ds=#s11#, #a2#", "", "1.61%" },
-			{ 8,  14637, "", "=q3=Cadaverous Armor",      "=ds=#s5#, #a2#",  "", "0.94%" },
-			{ 9,  14638, "", "=q3=Cadaverous Leggings",   "=ds=#s11#, #a2#", "", "1.15%" },
-			{ 10, 14640, "", "=q3=Cadaverous Gloves",     "=ds=#s9#, #a2#",  "", "1.12%" },
-			{ 11, 14636, "", "=q3=Cadaverous Belt",       "=ds=#s10#, #a2#", "", "0.94%" },
-			{ 12, 14641, "", "=q3=Cadaverous Walkers",    "=ds=#s12#, #a2#", "", "0.70%" },
-			{ 13, 14612, "", "=q3=Bloodmail Legguards",   "=ds=#s11#, #a3#", "", "0.44%" },
-			{ 14, 14616, "", "=q3=Bloodmail Boots",       "=ds=#s12#, #a3#", "", "0.34%" },
-			{ 15, 14615, "", "=q3=Bloodmail Gauntlets",   "=ds=#s9#, #a3#",  "", "0.49%" },
-			{ 16, 14614, "", "=q3=Bloodmail Belt",        "=ds=#s10#, #a3#", "", "0.42%" },
-			{ 17, 14611, "", "=q3=Bloodmail Hauberk",     "=ds=#s5#, #a3#",  "", "0.44%" },
-			{ 18, 14621, "", "=q3=Deathbone Sabatons",    "=ds=#s12#, #a4#", "", "0.75%" },
-			{ 19, 14620, "", "=q3=Deathbone Girdle",      "=ds=#s10#, #a4#", "", "0.70%" },
-			{ 20, 14622, "", "=q3=Deathbone Gauntlets",   "=ds=#s9#, #a4#",  "", "0.60%" },
-			{ 21, 14624, "", "=q3=Deathbone Chestplate",  "=ds=#s5#, #a4#",  "", "0.81%" },
-			{ 22, 14623, "", "=q3=Deathbone Legguards",   "=ds=#s11#, #a4#", "", "0.83%" },
-			{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#",       "", "0.85%" },
-			{ 24, 23201, "", "=q3=Libram of Divinity",    "=ds=#w16#" },
-			{ 25, 23200, "", "=q3=Totem of Sustaining",   "=ds=#w15#",       "", "3.5%" },
-			{ 26, 18683, "", "=q3=Hammer of the Vesper",  "=ds=#h1#, #w6#",  "", "1.35%" },
-			{ 27, 18680, "", "=q3=Ancient Bone Bow",      "=ds=#w2#",        "", "1.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["The Ravenian"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLODarkmasterGandling"] = {
-	["Normal"] = {
-		{
-			{ 1,  13937, "", "=q4=Headmaster's Charge",               "=ds=#w9#",                         "", "1.11%" },
-			{ 2,  14514, "", "=q4=Pattern: Robe of the Void",         "=ds=#p8# (300) =q1=#m1# =ds=#c8#", "", "6.71%" },
-			{ 3,  14153, "", "=q4=Robe of the Void",                  "=ds=#s5#, #a1# =q1=#m1# =ds=#c8#" },
-			{ 5,  13944, "", "=q3=Tombstone Breastplate",             "=ds=#s5#, #a2#",                   "", "8.96%" },
-			{ 6,  13398, "", "=q3=Boots of the Shrieker",             "=ds=#s12#, #a2#",                  "", "10.75%" },
-			{ 7,  13950, "", "=q3=Detention Strap",                   "=ds=#s10#, #a3#",                  "", "0.24%" },
-			{ 8,  13951, "", "=q3=Vigorsteel Vambraces",              "=ds=#s8#, #a4#",                   "", "10.38%" },
-			{ 9,  22433, "", "=q3=Don Mauricio's Band of Domination", "=ds=#s13#",                        "", "7.72%" },
-			{ 10, 13964, "", "=q3=Witchblade",                        "=ds=#h3#, #w4#",                   "", "9.82%" },
-			{ 11, 13953, "", "=q3=Silent Fang",                       "=ds=#h1#, #w10#",                  "", "9.68%" },
-			{ 12, 13938, "", "=q3=Bonecreeper Stylus",                "=ds=#w12#",                        "", "8.80% " },
-			{ 16, 19276, "", "=q3=Ace of Portals",                    "=ds=#e16#",                        "", "2.20%" },
-			{ 18, 13501, "", "=q2=Recipe: Major Mana Potion",         "=ds=#p1# (295)",                   "", "8.64%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Darkmaster Gandling"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOMardukVectus"] = {
-	["Normal"] = {
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["Marduk Blackpool"], "" },
-			{ 2,  18692, "",           "=q3=Death Knight Sabatons",            "=ds=#s12#, #a4#", "", "6.29%" },
-			{ 3,  14576, "",           "=q3=Ebon Hilt of Marduk",              "=ds=#h1#, #w10#", "", "6.55%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Vectus"],         "" },
-			{ 17, 14577, "",           "=q3=Skullsmoke Pants",                 "=ds=#s11#, #a1#", "", "5.24%" },
-			{ 18, 18691, "",           "=q3=Dark Advisor's Pendant",           "=ds=#s2#",        "", "6.16%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Marduk Blackpool"] .. " & " .. BabbleBoss["Vectus"],
-		module = moduleName,
-		instance = "Scholomance",
-	},
-};
-
-AtlasLoot_Data["SCHOLOBloodStewardofKirtonos"] = {
+AtlasLoot_Data["ScholomanceBloodStewardOfKirtonos"] = {
 	["Normal"] = {
 		{
 			{ 1, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "100%" },
@@ -4226,20 +3830,421 @@ AtlasLoot_Data["SCHOLOBloodStewardofKirtonos"] = {
 	},
 };
 
-AtlasLoot_Data["SCHOLOTrash"] = {
+AtlasLoot_Data["ScholomanceKirtonosTheHerald"] = {
 	["Normal"] = {
 		{
-			{ 1,  18697, "", "=q3=Coldstone Slippers",                        "=ds=#s12#, #a1#",                                      "", "0.01%" },
-			{ 2,  18698, "", "=q3=Tattered Leather Hood",                     "=ds=#s1#, #a2#",                                       "", "0.01%" },
-			{ 3,  18699, "", "=q3=Icy Tomb Spaulders",                        "=ds=#s3#, #a2#",                                       "", "0.01%" },
-			{ 4,  18700, "", "=q3=Malefic Bracers",                           "=ds=#s8#, #a2#",                                       "", "0.01%" },
-			{ 5,  14536, "", "=q3=Bonebrace Hauberk",                         "=ds=#s5#, #a3#",                                       "", "0.01%" },
-			{ 6,  18702, "", "=q3=Belt of the Ordained",                      "=ds=#s10#, #a4#",                                      "", "0.01%" },
-			{ 7,  18701, "", "=q3=Innervating Band",                          "=ds=#s13#",                                            "", "0.01%" },
-			{ 16, 16254, "", "=q3=Formula: Enchant Weapon - Lifestealing",    "=ds=#p4# (300) =q1=" .. AL["Spectral Researcher"],     "", "0.93%" },
-			{ 17, 16255, "", "=q2=Formula: Enchant 2H Weapon - Major Spirit", "=ds=#p4# (300) =q1=" .. AL["Scholomance Adept"],       "", "0.88%" },
-			{ 18, 15773, "", "=q2=Pattern: Wicked Leather Armor",             "=ds=#p7# (300) =q1=" .. AL["Spectral Researcher"],     "", "3.03%" },
-			{ 19, 15776, "", "=q2=Pattern: Runic Leather Armor",              "=ds=#p7# (300) =q1=" .. AL["Scholomance Dark Summoner"], "", "1.62%" },
+			{ 1, 16734, "", "=q3=Boots of Valor", "=ds=#s12#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 2, 13956, "", "=q3=Clutch of Andros", "=ds=#s10#, #a1#", "", "11.1%" },
+			{ 3, 14024, "", "=q3=Frightalon", "=ds=#h1#, #w4#", "", "11.1%" },
+			{ 4, 13957, "", "=q3=Gargoyle Slashers", "=ds=#s9#, #a2#", "", "11.1%" },
+			{ 5, 13983, "", "=q3=Gravestone War Axe", "=ds=#h2#, #w1#", "", "11.1%" },
+			{ 6, 13960, "", "=q3=Heart of the Fiend", "=ds=#s2#", "", "11.1%" },
+			{ 7, 13969, "", "=q3=Loomguard Armbraces", "=ds=#s8#, #a3#", "", "11.1%" },
+			{ 8, 13955, "", "=q3=Stoneform Shoulders", "=ds=#s3#, #a4#", "", "11.1%" },
+			{ 9, 13967, "", "=q3=Windreaver Greaves", "=ds=#s12#, #a3#", "", "11.1%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Kirtonos the Herald"] .. " (" .. AL["Summon"] .. ")",
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceJandiceBarov"] = {
+	["Normal"] = {
+		{
+			{ 1, 16701, "", "=q3=Dreadmist Mantle", "=ds=#s3#, #a1# =q1=(#j6#)", "", "17%" },
+			{ 2, 14541, "", "=q3=Barovian Family Sword", "=ds=#h2#, #w10#", "", "13.8%" },
+			{ 3, 14545, "", "=q3=Ghostloom Leggings", "=ds=#s11#, #a2#", "", "13.8%" },
+			{ 4, 18689, "", "=q3=Phantasmal Cloak", "=ds=#s4#", "", "13.8%" },
+			{ 5, 14548, "", "=q3=Royal Cap Spaulders", "=ds=#s3#, #a3#",  "", "13.8%" },
+			{ 6, 22394, "", "=q3=Staff of Metanoia", "=ds=#w9#", "", "13.8%" },
+			{ 7, 18690, "", "=q3=Wraithplate Leggings", "=ds=#s11#, #a4#", "", "13.8%" },
+			{ 9, 13725, "", "=q1=Krastinov's Bag of Horrors", "=ds=#m3#", "", "100%" },
+			{ 10, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Jandice Barov"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceRattlegore"] = {
+	["Normal"] = {
+		{
+			{ 1, 16711, "", "=q3=Shadowcraft Boots", "=ds=#s12#, #a2# =q1=(#j6#)", "", "16%" },
+			{ 2, 18686, "", "=q3=Bone Golem Shoulders", "=ds=#s3#, #a3#", "", "14%" },
+			{ 3, 14539, "", "=q3=Bone Ring Helm", "=ds=#s1#, #a2#", "", "14%" },
+			{ 4, 14537, "", "=q3=Corpselight Greaves", "=ds=#s12#, #a4#", "", "14%" },
+			{ 5, 14538, "", "=q3=Deadwalker Mantle", "=ds=#s3#, #a1#", "", "14%" },
+			{ 6, 14531, "", "=q3=Frightskull Shaft", "=ds=#h2#, #w6#", "", "14%" },
+			{ 7, 14528, "", "=q3=Rattlecage Buckler", "=ds=#w8#", "", "14%" },
+			{ 9, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "40%" },
+			{ 11, 13873, "", "=q1=Viewing Room Key", "=ds=#e9#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Rattlegore"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceDeathKnightDarkreaver"] = {
+	["Normal"] = {
+		{
+			{ 1, 18759, "", "=q3=Malicious Axe", "=ds=#h2#, #w1#", "", "25%" },
+			{ 2, 18760, "", "=q3=Necromantic Band", "=ds=#s13#", "", "25%" },
+			{ 3, 18761, "", "=q3=Oblivion's Touch", "=ds=#w12#", "", "25%" },
+			{ 4, 18758, "", "=q3=Specter's Blade", "=ds=#h1#, #w4#", "", "25%" },
+			{ 6, 18749, "", "=q1=Charger's Lost Soul", "=ds=#m3#, =q1=#m1# =ds=#c4#", "", "100%" },
+			{ 7, 18880, "", "=q1=Darkreaver's Head", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Death Knight Darkreaver"] .. " (" .. AL["Summon"] .. ")",
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceMardukBlackpoolAndVectus"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Marduk Blackpool"], "" },
+			{ 2, 14576, "", "=q3=Ebon Hilt of Marduk", "=ds=#h1#, #w10#", "", "8%" },
+			{ 3, 18692, "", "=q3=Death Knight Sabatons", "=ds=#s12#, #a4#", "", "5%" },
+
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Vectus"], "" },
+			{ 17, 18691, "", "=q3=Dark Advisor's Pendant", "=ds=#s2#", "", "7%" },
+			{ 18, 14577, "", "=q3=Skullsmoke Pants", "=ds=#s11#, #a1#", "", "7%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Marduk Blackpool"] .. " & " .. BabbleBoss["Vectus"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceRasFrostwhisper"] = {
+	["Normal"] = {
+		{
+			{ 1, 14487, "", "=q3=Bonechill Hammer", "=ds=#h1#, #w6#", "", "8.3%" },
+			{ 2, 14525, "", "=q3=Boneclenched Gauntlets", "=ds=#s9#, #a4#", "", "8.3%" },
+			{ 3, 14503, "", "=q3=Death's Clutch", "=ds=#s3#, #a2#", "", "8.3%" },
+			{ 4, 14340, "", "=q3=Freezing Lich Robes", "=ds=#s5#, #a1#", "", "8.3%" },
+			{ 5, 14502, "", "=q3=Frostbite Girdle", "=ds=#s10#, #a2#", "", "8.3%" },
+			{ 6, 13952, "", "=q3=Iceblade Hacker", "=ds=#h1#, #w1#", "", "8.3%" },
+			{ 7, 18696, "", "=q3=Intricately Runed Shield", "=ds=#w8#", "", "8.3%" },
+			{ 8, 14522, "", "=q3=Maelstrom Leggings", "=ds=#s11#, #a3#", "", "8.3%" },
+			{ 9, 16689, "", "=q3=Magister's Mantle", "=ds=#s3#, #a1# =q1=(#j6#)", "", "8.3%" },
+			{ 10, 18694, "", "=q3=Shadowy Mail Greaves", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 11, 18693, "", "=q3=Shivery Handwraps", "=ds=#s9#, #a1#", "", "8.3%" },
+			{ 12, 18695, "", "=q3=Spellbound Tome", "=ds=#s15#", "", "8.3%" },
+			{ 13, 13314, "", "=q4=Alanna's Embrace", "=ds=#s5#, #a1#", "", "0.36%" },
+			{ 15, 13521, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)", "", "4%" },
+			{ 16, 13626, "", "=q1=Human Head of Ras Frostwhisper", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Ras Frostwhisper"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceLorekeeperPolkelt"] = {
+	["Normal"] = {
+		{
+			{ 1, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# =q1=(#j6#)", "", "17%" },
+			{ 2, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.11%" },
+			{ 3, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "1.11%" },
+			{ 4, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "1.11%" },
+			{ 5, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "1.11%" },
+			{ 6, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "1.11%" },
+			{ 7, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "1.11%" },
+			{ 8, 18681, "", "=q3=Burial Shawl", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "1.11%" },
+			{ 10, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "1.11%" },
+			{ 11, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
+			{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
+			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
+			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
+			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
+			{ 19, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "1.11%" },
+			{ 20, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "1.11%" },
+			{ 21, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "1.11%" },
+			{ 22, 18682, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 23, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.11%" },
+			{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#", "", "1.11%" },
+			{ 25, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "1.11%" },
+			{ 26, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "1.11%" },
+			{ 27, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "1.11%" },
+			{ 28, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 29, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "1.11%" },
+			{ 30, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "1.11%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Lorekeeper Polkelt"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceDoctorTheolenKrastinov"] = {
+	["Normal"] = {
+		{
+			{ 1, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# =q1=(#j6#)", "", "14%" },
+			{ 2, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.11%" },
+			{ 3, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "1.11%" },
+			{ 4, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "1.11%" },
+			{ 5, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "1.11%" },
+			{ 6, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "1.11%" },
+			{ 7, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "1.11%" },
+			{ 8, 18681, "", "=q3=Burial Shawl", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "1.11%" },
+			{ 10, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "1.11%" },
+			{ 11, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
+			{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
+			{ 15, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%" },
+			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
+			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
+			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
+			{ 19, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "1.11%" },
+			{ 20, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "1.11%" },
+			{ 21, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "1.11%" },
+			{ 22, 18682, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 23, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.11%" },
+			{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#", "", "1.11%" },
+			{ 25, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "1.11%" },
+			{ 26, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "1.11%" },
+			{ 27, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "1.11%" },
+			{ 28, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 29, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "1.11%" },
+			{ 30, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "1.11%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Doctor Theolen Krastinov"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceInstructorMalicia"] = {
+	["Normal"] = {
+		{
+			{ 1, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2# =q1=(#j6#)", "", "5%" },
+			{ 2, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.11%" },
+			{ 3, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "1.11%" },
+			{ 4, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "1.11%" },
+			{ 5, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "1.11%" },
+			{ 6, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "1.11%" },
+			{ 7, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "1.11%" },
+			{ 8, 18681, "", "=q3=Burial Shawl", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "1.11%" },
+			{ 10, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "1.11%" },
+			{ 11, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
+			{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
+			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
+			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
+			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
+			{ 19, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "1.11%" },
+			{ 20, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "1.11%" },
+			{ 21, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "1.11%" },
+			{ 22, 18682, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 23, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.11%" },
+			{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#", "", "1.11%" },
+			{ 25, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "1.11%" },
+			{ 26, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "1.11%" },
+			{ 27, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "1.11%" },
+			{ 28, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 29, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "1.11%" },
+			{ 30, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "1.11%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Instructor Malicia"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceLadyIlluciaBarov"] = {
+	["Normal"] = {
+		{
+			{ 1, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.11%" },
+			{ 2, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "1.11%" },
+			{ 3, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "1.11%" },
+			{ 4, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "1.11%" },
+			{ 5, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "1.11%" },
+			{ 6, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "1.11%" },
+			{ 7, 18681, "", "=q3=Burial Shawl", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 8, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "1.11%" },
+			{ 9, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "1.11%" },
+			{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
+			{ 11, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 12, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
+			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
+			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
+			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
+			{ 19, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "1.11%" },
+			{ 20, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "1.11%" },
+			{ 21, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "1.11%" },
+			{ 22, 18682, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 23, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.11%" },
+			{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#", "", "1.11%" },
+			{ 25, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "1.11%" },
+			{ 26, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "1.11%" },
+			{ 27, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "1.11%" },
+			{ 28, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 29, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "1.11%" },
+			{ 30, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "1.11%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Lady Illucia Barov"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceLordAlexeiBarov"] = {
+	["Normal"] = {
+		{
+			{ 1, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# =q1=(#j6#)", "", "5%" },
+			{ 2, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "2.2%" },
+			{ 3, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "2.2%" },
+			{ 4, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "2.2%" },
+			{ 5, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "2.2%" },
+			{ 6, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "2.2%" },
+			{ 7, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "2.2%" },
+			{ 8, 18681, "", "=q3=Burial Shawl", "=ds=#s3#, #a1#", "", "2.2%" },
+			{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "2.2%" },
+			{ 10, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "2.2%" },
+			{ 11, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "2.2%" },
+			{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "2.2%" },
+			{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "2.2%" },
+			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "2.2%" },
+			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "2.2%" },
+			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "2.2%" },
+			{ 19, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "2.2%" },
+			{ 20, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "2.2%" },
+			{ 21, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "2.2%" },
+			{ 22, 18682, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", "2.2%" },
+			{ 23, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "2.2%" },
+			{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#", "", "2.2%" },
+			{ 25, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "2.2%" },
+			{ 26, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "2.2%" },
+			{ 27, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "2.2%" },
+			{ 28, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "2.2%" },
+			{ 29, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "2.2%" },
+			{ 30, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "2.2%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Lord Alexei Barov"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceTheRavenian"] = {
+	["Normal"] = {
+		{
+			{ 1, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "4%" },
+			{ 2, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.11%" },
+			{ 3, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "1.11%" },
+			{ 4, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "1.11%" },
+			{ 5, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "1.11%" },
+			{ 6, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "1.11%" },
+			{ 7, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "1.11%" },
+			{ 8, 18681, "", "=q3=Burial Shawl", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "1.11%" },
+			{ 10, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "1.11%" },
+			{ 11, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
+			{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
+			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
+			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
+			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
+			{ 19, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "1.11%" },
+			{ 20, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "1.11%" },
+			{ 21, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "1.11%" },
+			{ 22, 18682, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
+			{ 23, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.11%" },
+			{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#", "", "1.11%" },
+			{ 25, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "1.11%" },
+			{ 26, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "1.11%" },
+			{ 27, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "1.11%" },
+			{ 28, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "1.11%" },
+			{ 29, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "1.11%" },
+			{ 30, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "1.11%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["The Ravenian"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceDarkmasterGandling"] = {
+	["Normal"] = {
+		{
+			{ 1, 13938, "", "=q3=Bonecreeper Stylus", "=ds=#w12#", "", "14% " },
+			{ 2, 13398, "", "=q3=Boots of the Shrieker", "=ds=#s12#, #a2#", "", "14%" },
+			{ 3, 22433, "", "=q3=Don Mauricio's Band of Domination", "=ds=#s13#", "", "14%" },
+			{ 4, 13953, "", "=q3=Silent Fang", "=ds=#h1#, #w10#", "", "14%" },
+			{ 5, 13944, "", "=q3=Tombstone Breastplate", "=ds=#s5#, #a2#", "", "14%" },
+			{ 6, 13951, "", "=q3=Vigorsteel Vambraces", "=ds=#s8#, #a4#", "", "14%" },
+			{ 7, 13964, "", "=q3=Witchblade", "=ds=#h3#, #w4#", "", "14%" },
+			{ 8, 13937, "", "=q4=Headmaster's Charge", "=ds=#w9#", "", "2%" },
+			{ 10, 14514, "", "=q4=Pattern: Robe of the Void", "=ds=#p8# (300)", "", "7%" },
+			{ 11, 13501, "", "=q2=Recipe: Major Mana Potion", "=ds=#p1# (295)", "", "10%" },
+			{ 16, 16677, "", "=q3=Beaststalker's Cap", "=ds=#s1#, #a3# =q1=(#j6#)", "", "11.1%" },
+			{ 17, 16667, "", "=q3=Coif of Elements", "=ds=#s1#, #a3# =q1=(#j6#)", "", "11.1%" },
+			{ 18, 16693, "", "=q3=Devout Crown", "=ds=#s1#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 19, 16698, "", "=q3=Dreadmist Mask", "=ds=#s1#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 20, 16731, "", "=q3=Helm of Valor", "=ds=#s1#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 21, 16727, "", "=q3=Lightforge Helm", "=ds=#s1#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 22, 16686, "", "=q3=Magister's Crown", "=ds=#s1#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 23, 16707, "", "=q3=Shadowcraft Cap", "=ds=#s1#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 24, 16720, "", "=q3=Wildheart Cowl", "=ds=#s1#, #a2# =q1=(#j6#)", "", "11.1%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Darkmaster Gandling"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceTrash"] = {
+	["Normal"] = {
+		{
+			{ 1,  18699, "", "=q3=Icy Tomb Spaulders", "=ds=#s3#, #a2#", "", "~0.03%" },
+			{ 2,  18701, "", "=q3=Innervating Band", "=ds=#s13#", "", "~0.04%" },
+			{ 3,  16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# =q1=(#j6#)", "", "~2.15%" },
+			{ 4,  16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# =q1=(#j6#)", "", "4.6%" },
+			{ 5,  18700, "", "=q3=Malefic Bracers", "=ds=#s8#, #a2#", "", "~0.255%" },
+			{ 6,  18698, "", "=q3=Tattered Leather Hood", "=ds=#s1#, #a2#", "", "~0.145%" },
+			{ 7,  16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# =q1=(#j6#)", "", "0.02%" },
+			{ 8,  18697, "", "=q3=Coldstone Slippers", "=ds=#s12#, #a1#", "", "~0.135%" },
+			{ 9,  18702, "", "=q3=Belt of the Ordained", "=ds=#s10#, #a4#", "", "~0.015%" },
+			{ 10,  14536, "", "=q3=Bonebrace Hauberk", "=ds=#s5#, #a3#", "", "0.02%" },
+			{ 12, 16255, "", "=q2=Formula: Enchant 2H Weapon - Major Spirit", "=ds=#p4# (300) =q1=" .. AL["Scholomance Adept"], "", "2.2%" },
+			{ 13, 16254, "", "=q3=Formula: Enchant Weapon - Lifestealing", "=ds=#p4# (300) =q1=" .. AL["Spectral Researcher"], "", "0.88%" },
+			{ 14, 15776, "", "=q2=Pattern: Runic Leather Armor", "=ds=#p7# (300) =q1=" .. AL["Scholomance Dark Summoner"], "", "3.7%" },
+			{ 15, 15773, "", "=q2=Pattern: Wicked Leather Armor", "=ds=#p7# (300) =q1=" .. AL["Spectral Researcher"], "", "7.2%" },
 		}
 	},
 	info = {
