@@ -4419,121 +4419,7 @@ AtlasLoot_Data["ShadowfangKeepTrash"] = {
 --- Stratholme - Crusader's Square ---
 --------------------------------------
 
-AtlasLoot_Data["STRATTheUnforgiven"] = {
-	["Normal"] = {
-		{
-			{ 1, 13409, "", "=q3=Tearfall Bracers",            "=ds=#s8#, #a1#", "", "14.62%" },
-			{ 2, 13404, "", "=q3=Mask of the Unforgiven",      "=ds=#s1#, #a2#", "", "14.96%" },
-			{ 3, 13405, "", "=q3=Wailing Nightbane Pauldrons", "=ds=#s3#, #a4#", "", "12.10%" },
-			{ 4, 13408, "", "=q3=Soul Breaker",                "=ds=#h1#, #w1#", "", "19.33%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["The Unforgiven"],
-		module = moduleName,
-		instance = "StratholmeCrusader",
-	},
-};
-
-AtlasLoot_Data["STRATTimmytheCruel"] = {
-	["Normal"] = {
-		{
-			{ 1, 13403, "", "=q3=Grimgore Noose",          "=ds=#s10#, #a1#", "", "16.48%" },
-			{ 2, 13402, "", "=q3=Timmy's Galoshes",        "=ds=#s12#, #a3#", "", "16.74%" },
-			{ 3, 13400, "", "=q3=Vambraces of the Sadist", "=ds=#s8#, #a4#",  "", "14.02%" },
-			{ 4, 13401, "", "=q3=The Cruel Hand of Timmy", "=ds=#h1#, #w6#",  "", "16.87%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Timmy the Cruel"],
-		module = moduleName,
-		instance = "StratholmeCrusader",
-	},
-};
-
-AtlasLoot_Data["STRATWilleyHopebreaker"] = {
-	["Normal"] = {
-		{
-			{ 1,  22405, "", "=q3=Mantle of the Scarlet Crusade", "=ds=#s3#, #a1#",  "", "16.03%" },
-			{ 2,  22407, "", "=q3=Helm of the New Moon",          "=ds=#s1#, #a2#",  "", "13.61%" },
-			{ 3,  18721, "", "=q3=Barrage Girdle",                "=ds=#s10#, #a3#", "", "12.39%" },
-			{ 4,  13381, "", "=q3=Master Cannoneer Boots",        "=ds=#s12#, #a4#", "", "12.86%" },
-			{ 5,  22403, "", "=q3=Diana's Pearl Necklace",        "=ds=#s2#",        "", "14.27%" },
-			{ 6,  13382, "", "=q3=Cannonball Runner",             "=ds=#s14#",       "", "12.28%" },
-			{ 7,  22404, "", "=q3=Willey's Back Scratcher",       "=ds=#h3#, #w13#", "", "6.26%" },
-			{ 8,  22406, "", "=q3=Redemption",                    "=ds=#w9#",        "", "7.04%" },
-			{ 9,  13380, "", "=q3=Willey's Portable Howitzer",    "=ds=#w5#",        "", "10.71%" },
-			{ 16, 12839, "", "=q3=Plans: Heartseeker",            "=ds=#p2# (300)",  "", "4.98%" },
-			{ 17, 12783, "", "=q3=Heartseeker",                   "=ds=#h1#, #w4#" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Willey Hopebreaker"],
-		module = moduleName,
-		instance = "StratholmeCrusader",
-	},
-};
-
-AtlasLoot_Data["STRATInstructorGalford"] = {
-	["Normal"] = {
-		{
-			{ 1,  13386, "",           "=q3=Archivist Cape",              "=ds=#s4#",        "", "18.45%" },
-			{ 2,  18716, "",           "=q3=Ash Covered Boots",           "=ds=#s12#, #a2#", "", "16.30%" },
-			{ 3,  13387, "",           "=q3=Foresight Girdle",            "=ds=#s10#, #a3#", "", "18.24%" },
-			{ 4,  13385, "",           "=q3=Tome of Knowledge",           "=ds=#s15#",       "", "9.87%" },
-			{ 6,  12811, "",           "=q2=Righteous Orb",               "=ds=#e8#",        "", "61.3%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Unfinished Painting"], "" },
-			{ 17, 14679, "",           "=q1=Of Love and Family",          "=ds=#m3#" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Instructor Galford"],
-		module = moduleName,
-		instance = "StratholmeCrusader",
-	},
-};
-
-AtlasLoot_Data["STRATBalnazzar"] = {
-	["Normal"] = {
-		{
-			{ 1,  13353, "", "=q4=Book of the Dead",                  "=ds=#s15#",                       "", "1.37%" },
-			{ 2,  14512, "", "=q4=Pattern: Truefaith Vestments",      "=ds=#p8# (300)",                  "", "3.02%" },
-			{ 3,  14154, "", "=q4=Truefaith Vestments",               "=ds=#s5#, #a1# =q1=#m1# =ds=#c5#" },
-			{ 5,  18720, "", "=q3=Shroud of the Nathrezim",           "=ds=#s3#, #a1#",                  "", "10.54%" },
-			{ 6,  13369, "", "=q3=Fire Striders",                     "=ds=#s12#, #a1#",                 "", "14.84%" },
-			{ 7,  13358, "", "=q3=Wyrmtongue Shoulders",              "=ds=#s3#, #a2#",                  "", "11.58%" },
-			{ 8,  13359, "", "=q3=Crown of Tyranny",                  "=ds=#s1#, #a3#",                  "", "13.94%" },
-			{ 9,  18718, "", "=q3=Grand Crusader's Helm",             "=ds=#s1#, #a4#",                  "", "10.16%" },
-			{ 10, 12103, "", "=q3=Star of Mystaria",                  "=ds=#s2#",                        "", "12.48%" },
-			{ 11, 13360, "", "=q3=Gift of the Elven Magi",            "=ds=#h1#, #w4#",                  "", "13.66%" },
-			{ 12, 13348, "", "=q3=Demonshear",                        "=ds=#h2#, #w10#",                 "", "13.94%" },
-			{ 13, 18717, "", "=q3=Hammer of the Grand Crusader",      "=ds=#h2#, #w6#",                  "", "11.91%" },
-			{ 16, 13520, "", "=q2=Recipe: Flask of Distilled Wisdom", "=ds=#p1# (300)",                  "", "1.94%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Balnazzar"],
-		module = moduleName,
-		instance = "StratholmeCrusader",
-	},
-};
-
-AtlasLoot_Data["STRATSkull"] = {
-	["Normal"] = {
-		{
-			{ 1, 13395, "", "=q3=Skul's Fingerbone Claws", "=ds=#s9#, #a2#", "", "36.52%" },
-			{ 2, 13394, "", "=q3=Skul's Cold Embrace",     "=ds=#s5#, #a4#", "", "24.16%" },
-			{ 3, 13396, "", "=q3=Skul's Ghastly Touch",    "=ds=#w12#",      "", "16.85%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Skul"],
-		module = moduleName,
-		instance = "StratholmeCrusader",
-	},
-};
-
-AtlasLoot_Data["STRATFrasSiabi"] = {
+AtlasLoot_Data["LiveStratholmeFrasSiabi"] = {
 	["Normal"] = {
 		{
 			{ 1, 13172, "", "=q1=Siabi's Premium Tobacco", "=ds=#m3#", "", "100%" },
@@ -4546,13 +4432,31 @@ AtlasLoot_Data["STRATFrasSiabi"] = {
 	},
 };
 
-AtlasLoot_Data["STRATHearthsingerForresten"] = {
+AtlasLoot_Data["LiveStratholmeTheUnforgiven"] = {
 	["Normal"] = {
 		{
-			{ 1, 13378, "", "=q3=Songbird Blouse",                   "=ds=#s5#, #a2#",  "", "15.31%" },
-			{ 2, 13383, "", "=q3=Woollies of the Prancing Minstrel", "=ds=#s11#, #a3#", "", "18.42%" },
-			{ 3, 13384, "", "=q3=Rainbow Girdle",                    "=ds=#s10#, #a4#", "", "19.21%" },
-			{ 4, 13379, "", "=q3=Piccolo of the Flaming Fire",       "=ds=#s14#",       "", "15.13%" },
+			{ 1, 13404, "", "=q3=Mask of the Unforgiven", "=ds=#s1#, #a2#", "", "20%" },
+			{ 2, 13408, "", "=q3=Soul Breaker", "=ds=#h1#, #w1#", "", "20%" },
+			{ 3, 13409, "", "=q3=Tearfall Bracers", "=ds=#s8#, #a1#", "", "20%" },
+			{ 4, 13405, "", "=q3=Wailing Nightbane Pauldrons", "=ds=#s3#, #a4#", "", "20%" },
+			{ 5, 16717, "", "=q3=Wildheart Gloves", "=ds=#s9#, #a2# =q1=(#j6#)", "", "20%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["The Unforgiven"],
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeHearthsingerForresten"] = {
+	["Normal"] = {
+		{
+			{ 1, 16682, "", "=q3=Magister's Boots", "=ds=#s12#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 2, 13379, "", "=q3=Piccolo of the Flaming Fire", "=ds=#s14#", "", "20%" },
+			{ 3, 13384, "", "=q3=Rainbow Girdle", "=ds=#s10#, #a4#", "", "20%" },
+			{ 4, 13378, "", "=q3=Songbird Blouse", "=ds=#s5#, #a2#", "", "20%" },
+			{ 5, 13383, "", "=q3=Woollies of the Prancing Minstrel", "=ds=#s11#, #a3#", "", "20%" },
 		}
 	},
 	info = {
@@ -4561,40 +4465,158 @@ AtlasLoot_Data["STRATHearthsingerForresten"] = {
 		instance = "StratholmeCrusader",
 	},
 };
-AtlasLoot_Data["STRATRisenHammersmith"] = {
+
+AtlasLoot_Data["LiveStratholmeTimmyTheCruel"] = {
 	["Normal"] = {
 		{
-			{ 1, 18781, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume II", "=ds=#m3#",                "", "41.6%" },
-			{ 2, 12726, "", "=q3=Plans: Enchanted Thorium Leggings",                "=q1=#m4#: =ds=#p2# (300)" },
-			{ 4, 12827, "", "=q2=Plans: Serenity",                                  "=ds=#p2# (285)",          "", "100%" },
+			{ 1, 13403, "", "=q3=Grimgore Noose", "=ds=#s10#, #a1#", "", "20%" },
+			{ 2, 16724, "", "=q3=Lightforge Gauntlets", "=ds=#s9#, #a4# =q1=(#j6#)", "", "20%" },
+			{ 3, 13401, "", "=q3=The Cruel Hand of Timmy", "=ds=#h1#, #w6#", "", "20%" },
+			{ 4, 13402, "", "=q3=Timmy's Galoshes", "=ds=#s12#, #a3#", "", "20%" },
+			{ 5, 13400, "", "=q3=Vambraces of the Sadist", "=ds=#s8#, #a4#", "", "20%" },
 		}
 	},
 	info = {
-		name = "Risen Hammersmith (" .. AL["Summon"] .. ")",
+		name = BabbleBoss["Timmy the Cruel"],
 		module = moduleName,
 		instance = "StratholmeCrusader",
 	},
 };
 
-
-AtlasLoot_Data["STRATTrash"] = {
+AtlasLoot_Data["LiveStratholmeMalorTheZealous"] = {
 	["Normal"] = {
 		{
-			{ 1,  18743, "", "=q3=Gracious Cape",                                "=ds=#s4#",                                         "", "0.01%" },
-			{ 2,  17061, "", "=q3=Juno's Shadow",                                "=ds=#s4#",                                         "", "0.01%" },
-			{ 3,  18745, "", "=q3=Sacred Cloth Leggings",                        "=ds=#s11#, #a1#",                                  "", "0.01%" },
-			{ 4,  18744, "", "=q3=Plaguebat Fur Gloves",                         "=ds=#s9#, #a2#",                                   "", "0.00%" },
-			{ 5,  18736, "", "=q3=Plaguehound Leggings",                         "=ds=#s11#, #a2#",                                  "", "0.00%" },
-			{ 6,  18742, "", "=q3=Stratholme Militia Shoulderguard",             "=ds=#s3#, #a3#",                                   "", "0.00%" },
-			{ 7,  18741, "", "=q3=Morlune's Bracer",                             "=ds=#s8#, #a4#",                                   "", "0.01%" },
-			{ 9,  12811, "", "=q2=Righteous Orb",                                "=ds=#e8#",                                         "", "5.09%" },
-			{ 16, 16249, "", "=q2=Formula: Enchant 2H Weapon - Major Intellect", "=ds=#p4# (300) =q1=" .. AL["Crimson Sorcerer"],    "", "1.19%" },
-			{ 17, 16248, "", "=q2=Formula: Enchant Weapon - Unholy",             "=ds=#p4# (295) =q1=" .. AL["Thuzadin Shadowcaster"], "", "0.36%" },
-			{ 18, 18658, "", "=q2=Schematic: Ultra-Flash Shadow Reflector",      "=ds=#p5# (300) =q1=" .. AL["Crimson Inquisitor"],  "", "1.82%" },
-			{ 19, 16052, "", "=q2=Schematic: Voice Amplification Modulator",     "=ds=#p5# (290) =q1=" .. AL["Crimson Inquisitor"],  "", "1.99%" },
-			{ 20, 15777, "", "=q2=Pattern: Runic Leather Shoulders",             "=ds=#p7# (300) =q1=" .. AL["Crimson Battle Mage"], "", "1.00%" },
-			{ 21, 15768, "", "=q2=Pattern: Wicked Leather Belt",                 "=ds=#p7# (300) =q1=" .. AL["Ghoul Ravener"],       "", "0.85%" },
-			{ 22, 14495, "", "=q2=Pattern: Ghostweave Pants",                    "=ds=#p8# (290) =q1=" .. AL["Spectral Citizen"],    "", "2.13%" },
+			{ 1, 0, "INV_Box_01", "=q6=Malor's Strongbox", "" },
+			{ 2, 12845, "", "=q1=Medallion of Faith", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = "Malor the Zealous",
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeCrimsonHammersmith"] = {
+	["Normal"] = {
+		{
+			{ 1, 18781, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "64%" },
+			{ 3, 13351, "", "=q1=Crimson Hammersmith's Apron", "=ds=#m3#", "", "100%" },
+			{ 16, 0, "INV_Box_01", "=q6=Blacksmithing Plans", "" },
+			{ 17, 12827, "", "=q2=Plans: Serenity", "=ds=#p2# (285)", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Crimson Hammersmith"] .. " (" .. AL["Summon"] .. ")",
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeCannonMasterWilley"] = {
+	["Normal"] = {
+		{
+			{ 1, 13377, "", "=q3=Miniature Cannon Balls", "=ds=#w18# =q1=(x50-199)", "", "100%" },
+			{ 2, 18721, "", "=q3=Barrage Girdle", "=ds=#s10#, #a3#", "", "10%" },
+			{ 3, 13382, "", "=q3=Cannonball Runner", "=ds=#s14#", "", "10%" },
+			{ 4, 22403, "", "=q3=Diana's Pearl Necklace", "=ds=#s2#", "", "10%" },
+			{ 5, 22407, "", "=q3=Helm of the New Moon", "=ds=#s1#, #a2#", "", "10%" },
+			{ 6, 22405, "", "=q3=Mantle of the Scarlet Crusade", "=ds=#s3#, #a1#", "", "10%" },
+			{ 7, 13381, "", "=q3=Master Cannoneer Boots", "=ds=#s12#, #a4#", "", "10%" },
+			{ 8, 22406, "", "=q3=Redemption", "=ds=#w9#", "", "10%" },
+			{ 9, 16708, "", "=q3=Shadowcraft Spaulders", "=ds=#s3#, #a2# =q1=(#j6#)", "", "10%" },
+			{ 10, 22404, "", "=q3=Willey's Back Scratcher", "=ds=#h3#, #w13#", "", "10%" },
+			{ 11, 13380, "", "=q3=Willey's Portable Howitzer", "=ds=#w5#", "", "10%" },
+			{ 13, 12839, "", "=q3=Plans: Heartseeker", "=ds=#p2# (300)",  "", "6%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Cannon Master Willey"],
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeArchivistGalford"] = {
+	["Normal"] = {
+		{
+			{ 1, 13386, "", "=q3=Archivist Cape", "=ds=#s4#", "", "22%" },
+			{ 2, 18716, "", "=q3=Ash Covered Boots", "=ds=#s12#, #a2#", "", "22%" },
+			{ 3, 16692, "", "=q3=Devout Gloves", "=ds=#s9#, #a1# =q1=(#j6#)", "", "22%" },
+			{ 4, 13387, "", "=q3=Foresight Girdle", "=ds=#s10#, #a3#", "", "22%" },
+			{ 5, 13385, "", "=q3=Tome of Knowledge", "=ds=#s15#", "", "12%" },
+			{ 7, 22897, "", "=q3=Tome of Conjure Food VII", "=ds=#e10#", "", "14%" },
+			{ 9, 12811, "", "=q2=Righteous Orb", "=ds=#e8#", "", "66%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Unfinished Painting"], "" },
+			{ 17, 14679, "", "=q1=Of Love and Family", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Archivist Galford"],
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeBalnazzar"] = {
+	["Normal"] = {
+		{
+			{ 1, 13359, "", "=q3=Crown of Tyranny", "=ds=#s1#, #a3#", "", "9.8%" },
+			{ 2, 13348, "", "=q3=Demonshear", "=ds=#h2#, #w10#", "", "9.8%" },
+			{ 3, 13369, "", "=q3=Fire Striders", "=ds=#s12#, #a1#", "", "9.8%" },
+			{ 4, 13360, "", "=q3=Gift of the Elven Magi", "=ds=#h1#, #w4#", "", "9.8%" },
+			{ 5, 18718, "", "=q3=Grand Crusader's Helm", "=ds=#s1#, #a4#", "", "9.8%" },
+			{ 6, 18717, "", "=q3=Hammer of the Grand Crusader", "=ds=#h2#, #w6#", "", "9.8%" },
+			{ 7, 16725, "", "=q3=Lightforge Boots", "=ds=#s12#, #a4# =q1=(#j6#)", "", "9.8%" },
+			{ 8, 18720, "", "=q3=Shroud of the Nathrezim", "=ds=#s3#, #a1#", "", "9.8%" },
+			{ 9, 12103, "", "=q3=Star of Mystaria", "=ds=#s2#", "", "9.8%" },
+			{ 10, 13358, "", "=q3=Wyrmtongue Shoulders", "=ds=#s3#, #a2#", "", "9.8%" },
+			{ 11, 13353, "", "=q4=Book of the Dead", "=ds=#s15#", "", "2%" },
+			{ 13, 14512, "", "=q4=Pattern: Truefaith Vestments", "=ds=#p8# (300) =q1=#m1# =ds=#c5#", "", "6%" },
+			{ 14, 13520, "", "=q2=Recipe: Flask of Distilled Wisdom", "=ds=#p1# (300)", "", "3%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Balnazzar"],
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeSkul"] = {
+	["Normal"] = {
+		{
+			{ 1, 13394, "", "=q3=Skul's Cold Embrace", "=ds=#s5#, #a4#", "", "33.3%" },
+			{ 2, 13395, "", "=q3=Skul's Fingerbone Claws", "=ds=#s9#, #a2#", "", "33.3%" },
+			{ 3, 13396, "", "=q3=Skul's Ghastly Touch", "=ds=#w12#", "", "33.3%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Skul"],
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["StratholmeTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 16697, "", "=q3=Devout Bracers", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.325%" },
+			{ 2, 18743, "", "=q3=Gracious Cape", "=ds=#s4#", "", "~0.05%" },
+			{ 3, 17061, "", "=q3=Juno's Shadow", "=ds=#s4#", "", "0.02%" },
+			{ 4, 18741, "", "=q3=Morlune's Bracer", "=ds=#s8#, #a4#", "", "~0.03%" },
+			{ 5, 18744, "", "=q3=Plaguebat Fur Gloves", "=ds=#s9#, #a2#", "", "~0.03%" },
+			{ 6, 18736, "", "=q3=Plaguehound Leggings", "=ds=#s11#, #a2#", "", "~0.03%" },
+			{ 7, 18745, "", "=q3=Sacred Cloth Leggings", "=ds=#s11#, #a1#", "", "~0.045%" },
+			{ 8, 18742, "", "=q3=Stratholme Militia Shoulderguard", "=ds=#s3#, #a3#", "", "~0.025%" },
+			{ 10, 12811, "", "=q2=Righteous Orb", "=ds=#e8#", "", "~3.45%" },
+			{ 16, 16249, "", "=q2=Formula: Enchant 2H Weapon - Major Intellect", "=ds=#p4# (300) =q1=" .. AL["Crimson Sorcerer"], "", "2.3%" },
+			{ 17, 16248, "", "=q2=Formula: Enchant Weapon - Unholy", "=ds=#p4# (295) =q1=" .. AL["Thuzadin Shadowcaster"], "", "0.88%" },
+			{ 18, 14495, "", "=q2=Pattern: Ghostweave Pants", "=ds=#p8# (290) =q1=" .. AL["Spectral Citizen"], "", "2.1%" },
+			{ 19, 15777, "", "=q2=Pattern: Runic Leather Shoulders", "=ds=#p7# (300) =q1=" .. AL["Crimson Battle Mage"], "", "0.99%" },
+			{ 20, 15768, "", "=q2=Pattern: Wicked Leather Belt", "=ds=#p7# (300) =q1=" .. AL["Ghoul Ravener"], "", "2.1%" },
+			{ 21, 18658, "", "=q2=Schematic: Ultra-Flash Shadow Reflector", "=ds=#p5# (300) =q1=" .. AL["Crimson Inquisitor"], "", "3.8%" },
+			{ 22, 16052, "", "=q2=Schematic: Voice Amplification Modulator", "=ds=#p5# (290) =q1=" .. AL["Crimson Inquisitor"], "", "4.6%" },
 		}
 	},
 	info = {
