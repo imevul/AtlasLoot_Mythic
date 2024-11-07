@@ -4630,80 +4630,16 @@ AtlasLoot_Data["StratholmeTrash"] = {
 --- Stratholme - The Gauntlet ---
 ---------------------------------
 
-AtlasLoot_Data["STRATBaronessAnastari"] = {
+AtlasLoot_Data["UndeadStratholmeMagistrateBarthilas"] = {
 	["Normal"] = {
 		{
-			{ 1,  13535, "", "=q3=Coldtouch Phantom Wraps", "=ds=#s5#, #a1#", "", "9.84%" },
-			{ 2,  18730, "", "=q3=Shadowy Laced Handwraps", "=ds=#s9#, #a1#", "", "13.54%" },
-			{ 3,  13537, "", "=q3=Chillhide Bracers",       "=ds=#s8#, #a2#", "", "9.71%" },
-			{ 4,  13538, "", "=q3=Windshrieker Pauldrons",  "=ds=#s3#, #a3#", "", "9.75%" },
-			{ 5,  13539, "", "=q3=Banshee's Touch",         "=ds=#s9#, #a4#", "", "8.27%" },
-			{ 6,  18728, "", "=q3=Anastari Heirloom",       "=ds=#s2#",       "", "11.92%" },
-			{ 7,  13534, "", "=q3=Banshee Finger",          "=ds=#w12#",      "", "13.42%" },
-			{ 8,  18729, "", "=q3=Screeching Bow",          "=ds=#w2#",       "", "15.59%" },
-			{ 10, 13514, "", "=q2=Wail of the Banshee",     "=ds=#m20#",      "", "7.73%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Baroness Anastari"],
-		module = moduleName,
-		instance = "StratholmeGauntlet",
-	},
-};
-
-AtlasLoot_Data["STRATNerubenkan"] = {
-	["Normal"] = {
-		{
-			{ 1,  18740, "", "=q3=Thuzadin Sash",             "=ds=#s10#, #a1#", "", "14.72%" },
-			{ 2,  18739, "", "=q3=Chitinous Plate Legguards", "=ds=#s11#, #a4#", "", "12.19%" },
-			{ 3,  13529, "", "=q3=Husk of Nerub'enkan",       "=ds=#w8#",        "", "12.62%" },
-			{ 4,  18738, "", "=q3=Carapace Spine Crossbow",   "=ds=#w3#",        "", "14.17%" },
-			{ 6,  13530, "", "=q2=Fangdrip Runners",          "=ds=#s12#, #a1#", "", "8.49%" },
-			{ 7,  13531, "", "=q2=Crypt Stalker Leggings",    "=ds=#s11#, #a2#", "", "10.17%" },
-			{ 8,  13532, "", "=q2=Darkspinner Claws",         "=ds=#s9#, #a3#",  "", "9.69%" },
-			{ 9,  13533, "", "=q2=Acid-Etched Pauldrons",     "=ds=#s3#, #a4#",  "", "8.11%" },
-			{ 10, 13508, "", "=q2=Eye of Arachnida",          "=ds=#m20#",       "", "7.39%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Nerub'enkan"],
-		module = moduleName,
-		instance = "StratholmeGauntlet",
-	},
-};
-
-AtlasLoot_Data["STRATMalekithePallid"] = {
-	["Normal"] = {
-		{
-			{ 1,  18734, "", "=q3=Pale Moon Cloak",             "=ds=#s4#",        "", "13.42%" },
-			{ 2,  13525, "", "=q3=Darkbind Fingers",            "=ds=#s9#, #a1#",  "", "9.15%" },
-			{ 3,  18735, "", "=q3=Maleki's Footwraps",          "=ds=#s12#, #a1#", "", "15.03%" },
-			{ 4,  13526, "", "=q3=Flamescarred Girdle",         "=ds=#s10#, #a2#", "", "9.57%" },
-			{ 5,  13528, "", "=q3=Twilight Void Bracers",       "=ds=#s8#, #a3#",  "", "9.49%" },
-			{ 6,  13527, "", "=q3=Lavawalker Greaves",          "=ds=#s12#, #a4#", "", "9.39%" },
-			{ 7,  13524, "", "=q3=Skull of Burning Shadows",    "=ds=#s15#",       "", "13.42%" },
-			{ 8,  18737, "", "=q3=Bone Slicing Hatchet",        "=ds=#h1#, #w1#",  "", "14.23%" },
-			{ 10, 13509, "", "=q2=Clutch of Foresight",         "=ds=#m20#",       "", "6.95%" },
-			{ 16, 12833, "", "=q3=Plans: Hammer of the Titans", "=ds=#p2# (300)",  "", "5.86%" },
-			{ 17, 12796, "", "=q3=Hammer of the Titans",        "=ds=#h2#, #w6#" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Maleki the Pallid"],
-		module = moduleName,
-		instance = "StratholmeGauntlet",
-	},
-};
-
-AtlasLoot_Data["STRATMagistrateBarthilas"] = {
-	["Normal"] = {
-		{
-			{ 1, 13376, "", "=q3=Royal Tribunal Cloak", "=ds=#s4#",       "", "12.44%" },
-			{ 2, 18727, "", "=q3=Crimson Felt Hat",     "=ds=#s1#, #a1#", "", "13.82%" },
-			{ 3, 18726, "", "=q3=Magistrate's Cuffs",   "=ds=#s8#, #a2#", "", "12.87%" },
-			{ 4, 18722, "", "=q3=Death Grips",          "=ds=#s9#, #a4#", "", "15.34%" },
-			{ 5, 23198, "", "=q3=Idol of Brutality",    "=ds=#w14#",      "", "2.37%" },
-			{ 6, 18725, "", "=q3=Peacemaker",           "=ds=#w7#",       "", "14.22%" },
+			{ 1, 18727, "", "=q3=Crimson Felt Hat", "=ds=#s1#, #a1#", "", "16.7%" },
+			{ 2, 18722, "", "=q3=Death Grips", "=ds=#s9#, #a4#", "", "16.7%" },
+			{ 3, 23198, "", "=q3=Idol of Brutality", "=ds=#w14#", "", "16.7%" },
+			{ 4, 18726, "", "=q3=Magistrate's Cuffs", "=ds=#s8#, #a2#", "", "16.7%" },
+			{ 5, 18725, "", "=q3=Peacemaker", "=ds=#w7#", "", "16.7%" },
+			{ 6, 13376, "", "=q3=Royal Tribunal Cloak", "=ds=#s4#", "", "16.7%" },
+			{ 8, 12382, "", "=q2=Key to the City", "=ds=#e9#", "", "100%" },
 		}
 	},
 	info = {
@@ -4713,56 +4649,12 @@ AtlasLoot_Data["STRATMagistrateBarthilas"] = {
 	},
 };
 
-AtlasLoot_Data["STRATRamsteintheGorger"] = {
+AtlasLoot_Data["UndeadStratholmeBlackGuardSwordsmith"] = {
 	["Normal"] = {
 		{
-			{ 1, 13374, "", "=q3=Soulstealer Mantle",         "=ds=#s3#, #a1#", "", "9.87%" },
-			{ 2, 18723, "", "=q3=Animated Chain Necklace",    "=ds=#s2#",       "", "7.54%" },
-			{ 3, 13373, "", "=q3=Band of Flesh",              "=ds=#s13#",      "", "8.15%" },
-			{ 4, 13515, "", "=q3=Ramstein's Lightning Bolts", "=ds=#s14#",      "", "8.09%" },
-			{ 5, 13372, "", "=q3=Slavedriver's Cane",         "=ds=#w9#",       "", "8.63%" },
-			{ 6, 13375, "", "=q3=Crest of Retribution",       "=ds=#w8#",       "", "9.17%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Ramstein the Gorger"],
-		module = moduleName,
-		instance = "StratholmeGauntlet",
-	},
-};
-
-AtlasLoot_Data["STRATLordAuriusRivendare"] = {
-	["Normal"] = {
-		{
-			{ 1,  13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%" },
-			{ 2,  13335, "", "=q4=Deathcharger's Reins",         "=ds=#e26#",       "", "1%" },
-			{ 4,  13340, "", "=q3=Cape of the Black Baron",      "=ds=#s4#",        "", "8.75%" },
-			{ 5,  22412, "", "=q3=Thuzadin Mantle",              "=ds=#s3#, #a1#",  "", "4.16%" },
-			{ 6,  13346, "", "=q3=Robes of the Exalted",         "=ds=#s5#, #a1#",  "", "11.51%" },
-			{ 7,  22409, "", "=q3=Tunic of the Crescent Moon",   "=ds=#s5#, #a2#",  "", "4.59%" },
-			{ 8,  13344, "", "=q3=Dracorian Gauntlets",          "=ds=#s9#, #a3#",  "", "10.85%" },
-			{ 9,  22410, "", "=q3=Gauntlets of Deftness",        "=ds=#s9#, #a3#",  "", "4.98%" },
-			{ 10, 22411, "", "=q3=Helm of the Executioner",      "=ds=#s1#, #a4#",  "", "3.80%" },
-			{ 11, 13345, "", "=q3=Seal of Rivendare",            "=ds=#s13#",       "", "9.50%" },
-			{ 16, 13368, "", "=q3=Bonescraper",                  "=ds=#h1#, #w4#",  "", "4.32%" },
-			{ 17, 13361, "", "=q3=Skullforge Reaver",            "=ds=#h1#, #w10#", "", "4.25%" },
-			{ 18, 13349, "", "=q3=Scepter of the Unholy",        "=ds=#h1#, #w6#",  "", "9.30%" },
-			{ 19, 22408, "", "=q3=Ritssyn's Wand of Bad Mojo",   "=ds=#w12#",       "", "3.39%" },
-		}
-	},
-	info = {
-		name = BabbleBoss["Lord Aurius Rivendare"],
-		module = moduleName,
-		instance = "StratholmeGauntlet",
-	},
-};
-
-AtlasLoot_Data["STRATBlackGuardSwordsmith"] = {
-	["Normal"] = {
-		{
-			{ 1, 18783, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume III", "=ds=#m3#",                "", "23.5%" },
-			{ 2, 12725, "", "=q3=Plans: Enchanted Thorium Helm",                     "=q1=#m4#: =ds=#p2# (300)" },
-			{ 4, 12830, "", "=q1=Plans: Corruption",                                 "=ds=#p2# (290)",          "", "100%" },
+			{ 1, 18783, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "40%" },
+			{ 16, 0, "INV_Box_01", "=q6=Blacksmithing Plans", "" },
+			{ 17, 12830, "", "=q1=Plans: Corruption", "=ds=#p2# (290)", "", "100%" },
 		}
 	},
 	info = {
@@ -4772,12 +4664,135 @@ AtlasLoot_Data["STRATBlackGuardSwordsmith"] = {
 	},
 };
 
-AtlasLoot_Data["STRATStonespine"] = {
+AtlasLoot_Data["UndeadStratholmeBaronessAnastari"] = {
 	["Normal"] = {
 		{
-			{ 1, 13397, "", "=q3=Stoneskin Gargoyle Cape",  "=ds=#s4#",        "", "23.44%" },
-			{ 2, 13954, "", "=q3=Verdant Footpads",         "=ds=#s12#, #a2#", "", "25.36%" },
-			{ 3, 13399, "", "=q3=Gargoyle Shredder Talons", "=ds=#h4#, #w13#", "", "26.16%" },
+			{ 1, 18728, "", "=q3=Anastari Heirloom", "=ds=#s2#", "", "20%" },
+			{ 2, 13534, "", "=q3=Banshee Finger", "=ds=#w12#", "", "20%" },
+			{ 3, 16704, "", "=q3=Dreadmist Sandals", "=ds=#s12#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 4, 18729, "", "=q3=Screeching Bow", "=ds=#w2#", "", "20%" },
+			{ 5, 18730, "", "=q3=Shadowy Laced Handwraps", "=ds=#s9#, #a1#", "", "20%" },
+			{ 6, 13539, "", "=q3=Banshee's Touch", "=ds=#s9#, #a4#", "", "20%" },
+			{ 7, 13537, "", "=q3=Chillhide Bracers", "=ds=#s8#, #a2#", "", "20%" },
+			{ 8, 13535, "", "=q3=Coldtouch Phantom Wraps", "=ds=#s5#, #a1#", "", "20%" },
+			{ 9, 13514, "", "=q2=Wail of the Banshee", "=ds=#m20#", "", "20%" },
+			{ 10, 13538, "", "=q3=Windshrieker Pauldrons",  "=ds=#s3#, #a3#", "", "20%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Baroness Anastari"],
+		module = moduleName,
+		instance = "StratholmeGauntlet",
+	},
+};
+
+AtlasLoot_Data["UndeadStratholmeNerubenkan"] = {
+	["Normal"] = {
+		{
+			{ 1, 16675, "", "=q3=Beaststalker's Boots", "=ds=#s12#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 2, 18738, "", "=q3=Carapace Spine Crossbow", "=ds=#w3#", "", "20%" },
+			{ 3, 18739, "", "=q3=Chitinous Plate Legguards", "=ds=#s11#, #a4#", "", "20%" },
+			{ 4, 13529, "", "=q3=Husk of Nerub'enkan", "=ds=#w8#", "", "20%" },
+			{ 5, 18740, "", "=q3=Thuzadin Sash", "=ds=#s10#, #a1#", "", "20%" },
+			{ 6, 13533, "", "=q2=Acid-Etched Pauldrons", "=ds=#s3#, #a4#", "", "20%" },
+			{ 7, 13531, "", "=q2=Crypt Stalker Leggings", "=ds=#s11#, #a2#", "", "20%" },
+			{ 8, 13532, "", "=q2=Darkspinner Claws", "=ds=#s9#, #a3#", "", "20%" },
+			{ 9, 13508, "", "=q2=Eye of Arachnida", "=ds=#m20#", "", "20%" },
+			{ 10, 13530, "", "=q2=Fangdrip Runners", "=ds=#s12#, #a1#", "", "20%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Nerub'enkan"],
+		module = moduleName,
+		instance = "StratholmeGauntlet",
+	},
+};
+
+AtlasLoot_Data["UndeadStratholmeMalekiThePallid"] = {
+	["Normal"] = {
+		{
+			{ 1, 18737, "", "=q3=Bone Slicing Hatchet", "=ds=#h1#, #w1#", "", "20%" },
+			{ 2, 16691, "", "=q3=Devout Sandals", "=ds=#s12#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 3, 18735, "", "=q3=Maleki's Footwraps", "=ds=#s12#, #a1#", "", "20%" },
+			{ 4, 18734, "", "=q3=Pale Moon Cloak", "=ds=#s4#", "", "20%" },
+			{ 5, 13524, "", "=q3=Skull of Burning Shadows", "=ds=#s15#", "", "20%" },
+			{ 6, 13509, "", "=q2=Clutch of Foresight", "=ds=#m20#", "", "20%" },
+			{ 7, 13525, "", "=q3=Darkbind Fingers", "=ds=#s9#, #a1#", "", "20%" },
+			{ 8, 13526, "", "=q3=Flamescarred Girdle", "=ds=#s10#, #a2#", "", "20%" },
+			{ 9, 13527, "", "=q3=Lavawalker Greaves", "=ds=#s12#, #a4#", "", "20%" },
+			{ 10, 13528, "", "=q3=Twilight Void Bracers", "=ds=#s8#, #a3#", "", "20%" },
+			{ 12, 12833, "", "=q3=Plans: Hammer of the Titans", "=ds=#p2# (300)", "", "6%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Maleki the Pallid"],
+		module = moduleName,
+		instance = "StratholmeGauntlet",
+	},
+};
+
+AtlasLoot_Data["UndeadStratholmeRamsteinTheGorger"] = {
+	["Normal"] = {
+		{
+			{ 1, 18723, "", "=q3=Animated Chain Necklace", "=ds=#s2#", "", "14.7%" },
+			{ 2, 13373, "", "=q3=Band of Flesh", "=ds=#s13#", "", "14.7%" },
+			{ 3, 13375, "", "=q3=Crest of Retribution", "=ds=#w8#", "", "14.7%" },
+			{ 4, 13515, "", "=q3=Ramstein's Lightning Bolts", "=ds=#s14#", "", "14.7%" },
+			{ 5, 13372, "", "=q3=Slavedriver's Cane", "=ds=#w9#", "", "14.7%" },
+			{ 6, 13374, "", "=q3=Soulstealer Mantle", "=ds=#s3#, #a1#", "", "14.7%" },
+			{ 7, 16737, "", "=q3=Gauntlets of Valor", "=ds=#s9#, #a4# =q1=(#j6#)", "", "12%" },
+			{ 9, 15880, "", "=q1=Head of Ramstein the Gorger", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Ramstein the Gorger"],
+		module = moduleName,
+		instance = "StratholmeGauntlet",
+	},
+};
+
+AtlasLoot_Data["UndeadStratholmeBaronRivendare"] = {
+	["Normal"] = {
+		{
+			{ 1, 13340, "", "=q3=Cape of the Black Baron", "=ds=#s4#", "", "17.4%" },
+			{ 2, 13344, "", "=q3=Dracorian Gauntlets", "=ds=#s9#, #a3#", "", "8.7%" },
+			{ 3, 22410, "", "=q3=Gauntlets of Deftness", "=ds=#s9#, #a3#", "", "8.7%" },
+			{ 4, 22411, "", "=q3=Helm of the Executioner", "=ds=#s1#, #a4#", "", "8.7%" },
+			{ 5, 22408, "", "=q3=Ritssyn's Wand of Bad Mojo", "=ds=#w12#", "", "8.7%" },
+			{ 6, 13346, "", "=q3=Robes of the Exalted", "=ds=#s5#, #a1#", "", "8.7%" },
+			{ 7, 13349, "", "=q3=Scepter of the Unholy", "=ds=#h1#, #w6#", "", "8.7%" },
+			{ 8, 13345, "", "=q3=Seal of Rivendare", "=ds=#s13#", "", "8.7%" },
+			{ 9, 22412, "", "=q3=Thuzadin Mantle", "=ds=#s3#, #a1#", "", "8.7%" },
+			{ 10, 22409, "", "=q3=Tunic of the Crescent Moon", "=ds=#s5#, #a2#", "", "8.7%" },
+			{ 11, 13368, "", "=q3=Bonescraper", "=ds=#h1#, #w4#", "", "6%" },
+			{ 12, 13361, "", "=q3=Skullforge Reaver", "=ds=#h1#, #w10#", "", "6%" },
+			{ 13, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%" },
+			{ 15, 13335, "", "=q4=Deathcharger's Reins", "=ds=#e26#", "", "1%" },
+			{ 16, 16678, "", "=q3=Beaststalker's Pants", "=ds=#s11#, #a3# =q1=(#j6#)", "", "11.1%" },
+			{ 17, 16694, "", "=q3=Devout Skirt", "=ds=#s11#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 18, 16699, "", "=q3=Dreadmist Leggings", "=ds=#s11#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 19, 16668, "", "=q3=Kilt of Elements", "=ds=#s11#, #a3# =q1=(#j6#)", "", "11.1%" },
+			{ 20, 16732, "", "=q3=Legplates of Valor", "=ds=#s11#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 21, 16728, "", "=q3=Lightforge Legplates", "=ds=#s11#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 22, 16687, "", "=q3=Magister's Leggings", "=ds=#s11#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 23, 16709, "", "=q3=Shadowcraft Pants", "=ds=#s11#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 24, 16719, "", "=q3=Wildheart Kilt", "=ds=#s11#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 26, 13251, "", "=q1=Head of Baron Rivendare", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Baron Rivendare"],
+		module = moduleName,
+		instance = "StratholmeGauntlet",
+	},
+};
+
+AtlasLoot_Data["UndeadStratholmeStonespine"] = {
+	["Normal"] = {
+		{
+			{ 1, 13399, "", "=q3=Gargoyle Shredder Talons", "=ds=#h4#, #w13#", "", "33.3%" },
+			{ 2, 13397, "", "=q3=Stoneskin Gargoyle Cape", "=ds=#s4#", "", "33.3%" },
+			{ 3, 13954, "", "=q3=Verdant Footpads", "=ds=#s12#, #a2#", "", "33.3%" },
 		}
 	},
 	info = {
