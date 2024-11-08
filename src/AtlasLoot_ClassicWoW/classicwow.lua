@@ -1567,21 +1567,22 @@ AtlasLoot_Data["LowerBlackrockSpireGhokBashguud"] = {
 AtlasLoot_Data["LowerBlackrockSpireTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=(#j6#)", "", "~4.72%" },
-			{ 2, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=(#j6#)", "", "~4.14%" },
-			{ 3, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "~3.51%" },
-			{ 4, 16680, "", "=q3=Beaststalker's Belt", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.78%" },
-			{ 5, 16683, "", "=q3=Magister's Bindings", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.25%" },
-			{ 6, 16673, "", "=q3=Cord of Elements", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.21%" },
-			{ 7, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.185%" },
-			{ 9, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength",  "=ds=#p4# (295) =q1=" .. AL["Spirestone Mystic"], "", "10.1%" },
-			{ 10, 16250, "", "=q2=Formula: Enchant Weapon - Superior Striking", "=ds=#p4# (300) =q1=" .. AL["Spirestone Warlord"], "", "7%" },
-			{ 11, 14513, "", "=q4=Pattern: Robe of the Archmage", "=ds=#p8# (300) =q1=#m1# =ds=#c3# =q1=" .. AL["Firebrand Pyromancer"], "", "18%" },
-			{ 12, 15749, "", "=q2=Pattern: Volcanic Breastplate", "=ds=#p7# (285) =q1=" .. AL["Firebrand Grunt"], "", "4.9%" },
-			{ 13, 15775, "", "=q2=Pattern: Volcanic Shoulders", "=ds=#p7# (300) =q1=" .. AL["Firebrand Legionnaire"], "", "22.8%" },
-			{ 14, 13494, "", "=q2=Recipe: Greater Fire Protection Potion", "=ds=#p1# (290) =q1=" .. AL["Firebrand Pyromancer"] .. " / " .. AL["Firebrand Invoker"], "", "~4.3%" },
-			{ 16, 0,     "INV_Box_01", "=q6=Unfired Plate Gauntlets", "" },
-			{ 17, 12812, "", "=q3=Unfired Plate Gauntlets", "=ds=#m3#", "", "100%" },
+			{ 1, 13260, "", "=q3=Wind Dancer Boots", "=ds=#s12#, #a3#", "", "~0.025%" },
+			{ 3, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=(#j6#)", "", "~3.12%" },
+			{ 4, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=(#j6#)", "", "~3.04%" },
+			{ 5, 16680, "", "=q3=Beaststalker's Belt", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.78%" },
+			{ 6, 16683, "", "=q3=Magister's Bindings", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.25%" },
+			{ 7, 16673, "", "=q3=Cord of Elements", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.21%" },
+			{ 8, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "~1.56%" },
+			{ 9, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~1.435%" },
+			{ 16, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength",  "=ds=#p4# (295) =q1=" .. AL["Spirestone Mystic"], "", "10.1%" },
+			{ 17, 16250, "", "=q2=Formula: Enchant Weapon - Superior Striking", "=ds=#p4# (300) =q1=" .. AL["Spirestone Warlord"], "", "7%" },
+			{ 18, 14513, "", "=q4=Pattern: Robe of the Archmage", "=ds=#p8# (300) =q1=#m1# =ds=#c3# =q1=" .. AL["Firebrand Pyromancer"], "", "18%" },
+			{ 19, 15749, "", "=q2=Pattern: Volcanic Breastplate", "=ds=#p7# (285) =q1=" .. AL["Firebrand Grunt"], "", "4.9%" },
+			{ 20, 15775, "", "=q2=Pattern: Volcanic Shoulders", "=ds=#p7# (300) =q1=" .. AL["Firebrand Legionnaire"], "", "22.8%" },
+			{ 21, 13494, "", "=q2=Recipe: Greater Fire Protection Potion", "=ds=#p1# (290) =q1=" .. AL["Firebrand Pyromancer"] .. " / " .. AL["Firebrand Invoker"], "", "~4.3%" },
+			{ 23, 0,     "INV_Box_01", "=q6=Unfired Plate Gauntlets", "" },
+			{ 24, 12812, "", "=q3=Unfired Plate Gauntlets", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1595,13 +1596,17 @@ AtlasLoot_Data["LowerBlackrockSpireTrash"] = {
 --- Blackrock Mountain: Upper Blackrock Spire ---
 -------------------------------------------------
 
-AtlasLoot_Data["UBRSEmberseer"] = {
+AtlasLoot_Data["UpperBlackrockSpirePyroguardEmberseer"] = {
 	["Normal"] = {
 		{
-			{ 1, 12905, "", "=q3=Wildfire Cape",        "=ds=#s4#",       "", "15.20%" },
-			{ 2, 12927, "", "=q3=Truestrike Shoulders", "=ds=#s3#, #a2#", "", "17.47%" },
-			{ 3, 12929, "", "=q3=Emberfury Talisman",   "=ds=#s2#",       "", "15.89%" },
-			{ 4, 12926, "", "=q3=Flaming Band",         "=ds=#s13#",      "", "18.52%" },
+			{ 1, 12929, "", "=q3=Emberfury Talisman", "=ds=#s2#", "", "20%" },
+			{ 2, 12926, "", "=q3=Flaming Band", "=ds=#s13#", "", "20%" },
+			{ 3, 16672, "", "=q3=Gauntlets of Elements", "=ds=#s9#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 4, 12927, "", "=q3=Truestrike Shoulders", "=ds=#s3#, #a2#", "", "20%" },
+			{ 5, 12905, "", "=q3=Wildfire Cape", "=ds=#s4#", "", "20%" },
+			{ 7, 23320, "", "=q3=Tablet of Flame Shock VI", "=ds=#e10#", "", "8%" },
+			{ 9, 21988, "", "=q1=Ember of Emberseer", "=ds=#m3#", "", "100%" },
+			{ 10, 17322, "", "=q1=Eye of the Emberseer", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1611,134 +1616,7 @@ AtlasLoot_Data["UBRSEmberseer"] = {
 	},
 };
 
-AtlasLoot_Data["UBRSSolakar"] = {
-	["Normal"] = {
-		{
-			{ 1, 12609, "", "=q3=Polychromatic Visionwrap",                 "=ds=#s5#, #a1#",  "", "15.82%" },
-			{ 2, 12589, "", "=q3=Dustfeather Sash",                         "=ds=#s10#, #a1#", "", "12.84%" },
-			{ 3, 12603, "", "=q3=Nightbrace Tunic",                         "=ds=#s5#, #a2#",  "", "15.06%" },
-			{ 4, 12606, "", "=q3=Crystallized Girdle",                      "=ds=#s10#, #a2#", "", "14.04%" },
-			{ 6, 18657, "", "=q2=Schematic: Hyper-Radiant Flame Reflector", "=ds=#p5# (290)",  "", "7.38%" },
-			{ 7, 18638, "", "=q3=Hyper-Radiant Flame Reflector",            "=ds=#s14#" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Solakar Flamewreath"],
-		module = moduleName,
-		instance = "BlackrockSpireUpper",
-	},
-};
-
-AtlasLoot_Data["UBRSAnvilcrack"] = {
-	["Normal"] = {
-		{
-			{ 1,  18047, "", "=q3=Flame Walkers",                                   "=ds=#s12#, #a3#",         "", "18.05%" },
-			{ 2,  13502, "", "=q3=Handcrafted Mastersmith Girdle",                  "=ds=#s10#, #a4#",         "", "15.78%" },
-			{ 3,  13498, "", "=q3=Handcrafted Mastersmith Leggings",                "=ds=#s11#, #a4#",         "", "20.63%" },
-			{ 4,  18048, "", "=q3=Mastersmith's Hammer",                            "=ds=#h3#, #w6#",          "", "17.26%" },
-			{ 16, 12837, "", "=q3=Plans: Masterwork Stormhammer",                   "=ds=#p2# (300)",          "", "4.80%" },
-			{ 17, 12794, "", "=q3=Masterwork Stormhammer",                          "=ds=#h1#, #w6#" },
-			{ 18, 12834, "", "=q3=Plans: Arcanite Champion",                        "=ds=#p2# (300)",          "", "4.75%" },
-			{ 19, 12790, "", "=q3=Arcanite Champion",                               "=ds=#h2#, #w10#" },
-			{ 21, 18779, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume I", "=ds=#m3#",                "", "17.08%" },
-			{ 22, 12727, "", "=q3=Plans: Enchanted Thorium Breastplate",            "=q1=#m4#: =ds=#p2# (300)" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Goraluk Anvilcrack"],
-		module = moduleName,
-		instance = "BlackrockSpireUpper",
-	},
-};
-
-AtlasLoot_Data["UBRSRend"] = {
-	["Normal"] = {
-		{
-			{ 1,  12590, "", "=q4=Felstriker",                 "=ds=#h1#, #w4#",  "", "1.06%" },
-			{ 3,  22247, "", "=q3=Faith Healer's Boots",       "=ds=#s12#, #a1#", "", "12.71%" },
-			{ 4,  18102, "", "=q3=Dragonrider Boots",          "=ds=#s12#, #a1#", "", "14.35%" },
-			{ 5,  12587, "", "=q3=Eye of Rend",                "=ds=#s1#, #a2#",  "", "14.50%" },
-			{ 6,  12588, "", "=q3=Bonespike Shoulder",         "=ds=#s3#, #a3#",  "", "0.85%" },
-			{ 7,  18104, "", "=q3=Feralsurge Girdle",          "=ds=#s10#, #a3#", "", "15.30%" },
-			{ 8,  12936, "", "=q3=Battleborn Armbraces",       "=ds=#s8#, #a4#",  "", "16.96%" },
-			{ 9,  12935, "", "=q3=Warmaster Legguards",        "=ds=#s11#, #a4#", "", "15.05%" },
-			{ 10, 18103, "", "=q3=Band of Rumination",         "=ds=#s13#",       "", "15.38%" },
-			{ 16, 12940, "", "=q3=Dal'Rend's Sacred Charge",   "=ds=#h3#, #w10#", "", "6.79%" },
-			{ 17, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#", "", "7.61%" },
-			{ 18, 12583, "", "=q3=Blackhand Doomsaw",          "=ds=#w7#",        "", "7.44%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Warchief Rend Blackhand"],
-		module = moduleName,
-		instance = "BlackrockSpireUpper",
-	},
-};
-
-AtlasLoot_Data["UBRSGyth"] = {
-	["Normal"] = {
-		{
-			{ 1, 22225, "", "=q3=Dragonskin Cowl",                       "=ds=#s1#, #a1#", "", "11.85%" },
-			{ 2, 12960, "", "=q3=Tribal War Feathers",                   "=ds=#s1#, #a2#", "", "15.24%" },
-			{ 3, 12953, "", "=q3=Dragoneye Coif",                        "=ds=#s1#, #a3#", "", "15.99%" },
-			{ 4, 12952, "", "=q3=Gyth's Skull",                          "=ds=#s1#, #a4#", "", "12.43%" },
-			{ 6, 13522, "", "=q2=Recipe: Flask of Chromatic Resistance", "=ds=#p1# (300)", "", "2.95%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Gyth"],
-		module = moduleName,
-		instance = "BlackrockSpireUpper",
-	},
-};
-
-AtlasLoot_Data["UBRSBeast"] = {
-	["Normal"] = {
-		{
-			{ 1,  12967, "", "=q3=Bloodmoon Cloak",       "=ds=#s4#",       	    "", "18.30%" },
-			{ 2,  12968, "", "=q3=Frostweaver Cape",      "=ds=#s4#",       	    "", "14.47%" },
-			{ 3,  12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", 	    "", "13.16%" },
-			{ 4,  22311, "", "=q3=Ironweave Boots",       "=ds=#s12#, #a1#", 	    "", "12.31%" },
-			{ 5,  12966, "", "=q3=Blackmist Armguards",   "=ds=#s8#, #a2#",  	    "", "16.06%" },
-			{ 6,  12963, "", "=q3=Blademaster Leggings",  "=ds=#s11#, #a2#", 	    "", "12.74%" },
-			{ 7,  12964, "", "=q3=Tristam Legguards",     "=ds=#s11#, #a3#",	    "", "18.16%" },
-			{ 8,  12709, "", "=q3=Finkle's Skinner",      "=ds=#h1#, #w4#, =q1=#e18#",  "", "6.95%" },
-			{ 9,  12969, "", "=q3=Seeping Willow",        "=ds=#h2#, #w6#", 	    "", "11.49%" },
-			{ 16, 19227, "", "=q3=Ace of Beasts",         "=ds=#e16#",       	    "", "4.53%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["The Beast"],
-		module = moduleName,
-		instance = "BlackrockSpireUpper",
-	},
-};
-
-AtlasLoot_Data["UBRSDrakkisath"] = {
-	["Normal"] = {
-		{
-			{ 1,  12592, "", "=q4=Blackblade of Shahram",                "=ds=#h2#, #w10#", "", "1.08%" },
-			{ 3,  22269, "", "=q3=Shadow Prowler's Cloak",               "=ds=#s4#",        "", "10.61%" },
-			{ 4,  22267, "", "=q3=Spellweaver's Turban",                 "=ds=#s1#, #a1#",  "", "15.50%" },
-			{ 5,  13142, "", "=q3=Brigam Girdle",                        "=ds=#s10#, #a4#", "", "16.40%" },
-			{ 6,  13141, "", "=q3=Tooth of Gnarr",                       "=ds=#s2#",        "", "16.83%" },
-			{ 7,  13098, "", "=q3=Painweaver Band",                      "=ds=#s13#",       "", "13.51%" },
-			{ 8,  22268, "", "=q3=Draconic Infused Emblem",              "=ds=#s14#",       "", "4.13%" },
-			{ 9,  22253, "", "=q3=Tome of the Lost",                     "=ds=#s15#",       "", "16.05%" },
-			{ 10, 12602, "", "=q3=Draconian Deflector",                  "=ds=#w8#",        "", "14.52%" },
-			{ 16, 15730, "", "=q3=Pattern: Red Dragonscale Breastplate", "=ds=#p7# (300)",  "", "3.58%" },
-			{ 17, 15047, "", "=q3=Red Dragonscale Breastplate",          "=ds=#s5#, #a3#" },
-			{ 19, 13519, "", "=q2=Recipe: Flask of the Titans",          "=ds=#p1# (300)",  "", "1.72%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["General Drakkisath"],
-		module = moduleName,
-		instance = "BlackrockSpireUpper",
-	},
-};
-
-AtlasLoot_Data["UBRSFLAME"] = {
+AtlasLoot_Data["UpperBlackrockSpireFatherFlame"] = {
 	["Normal"] = {
 		{
 			{ 1, 13371, "", "=q3=Father Flame", "=ds=#s15#", "", "100%" },
@@ -1751,12 +1629,140 @@ AtlasLoot_Data["UBRSFLAME"] = {
 	},
 };
 
-AtlasLoot_Data["UBRSRunewatcher"] = {
+AtlasLoot_Data["UpperBlackrockSpireSolakarFlamewreath"] = {
 	["Normal"] = {
 		{
-			{ 1, 12604, "", "=q3=Starfire Tiara",     "=ds=#s1#, #a1#", "", "28.64%" },
-			{ 2, 12930, "", "=q3=Briarwood Reed",     "=ds=#s14#",      "", "26.36%" },
-			{ 3, 12605, "", "=q3=Serpentine Skuller", "=ds=#w12#",      "", "32.95%" },
+			{ 1, 12606, "", "=q3=Crystallized Girdle", "=ds=#s10#, #a2#", "", "20%" },
+			{ 2, 16695, "", "=q3=Devout Mantle", "=ds=#s3#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 3, 12589, "", "=q3=Dustfeather Sash", "=ds=#s10#, #a1#", "", "20%" },
+			{ 4, 12603, "", "=q3=Nightbrace Tunic", "=ds=#s5#, #a2#", "", "20%" },
+			{ 5, 12609, "", "=q3=Polychromatic Visionwrap", "=ds=#s5#, #a1#", "", "20%" },
+			{ 7, 18657, "", "=q2=Schematic: Hyper-Radiant Flame Reflector", "=ds=#p5# (290)", "", "6%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Solakar Flamewreath"],
+		module = moduleName,
+		instance = "BlackrockSpireUpper",
+	},
+};
+
+AtlasLoot_Data["UpperBlackrockSpireGoralukAnvilcrack"] = {
+	["Normal"] = {
+		{
+			{ 1, 18047, "", "=q3=Flame Walkers", "=ds=#s12#, #a3#", "", "22%" },
+			{ 2, 13502, "", "=q3=Handcrafted Mastersmith Girdle", "=ds=#s10#, #a4#", "", "22%" },
+			{ 3, 13498, "", "=q3=Handcrafted Mastersmith Leggings", "=ds=#s11#, #a4#", "", "22%" },
+			{ 4, 18048, "", "=q3=Mastersmith's Hammer", "=ds=#h3#, #w6#", "", "22%" },
+			{ 6, 12834, "", "=q3=Plans: Arcanite Champion", "=ds=#p2# (300)", "", "5%" },
+			{ 8, 12728, "", "=q4=Plans: Invulnerable Mail", "=ds=#p2# (300)", "", "2%" },
+			{ 7, 12837, "", "=q3=Plans: Masterwork Stormhammer", "=ds=#p2# (300)", "", "5%" },
+			{ 10, 18779, "", "=q3=Bottom Half of Advanced Armorsmithing: Volume I", "=ds=#m3#", "", "15%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Goraluk Anvilcrack"],
+		module = moduleName,
+		instance = "BlackrockSpireUpper",
+	},
+};
+
+AtlasLoot_Data["UpperBlackrockSpireWarchiefRendBlackhand"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Warchief Rend Blackhand"], "" },
+			{ 2, 18103, "", "=q3=Band of Rumination", "=ds=#s13#", "", "15.38%" },
+			{ 3, 12936, "", "=q3=Battleborn Armbraces", "=ds=#s8#, #a4#", "", "16.96%" },
+			{ 4, 18102, "", "=q3=Dragonrider Boots", "=ds=#s12#, #a1#", "", "14.35%" },
+			{ 5, 12587, "", "=q3=Eye of Rend", "=ds=#s1#, #a2#", "", "14.50%" },
+			{ 6, 22247, "", "=q3=Faith Healer's Boots", "=ds=#s12#, #a1#", "", "12.71%" },
+			{ 7, 18104, "", "=q3=Feralsurge Girdle", "=ds=#s10#, #a3#", "", "15.30%" },
+			{ 8, 16733, "", "=q3=Spaulders of Valor", "=ds=#s3#, #a4# =q1=(#j6#)", "", "20%" },
+			{ 9, 12935, "", "=q3=Warmaster Legguards", "=ds=#s11#, #a4#", "", "15.05%" },
+			{ 10, 12583, "", "=q3=Blackhand Doomsaw", "=ds=#w7#", "", "7.44%" },
+			{ 11, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "", "6.79%" },
+			{ 12, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#", "", "7.61%" },
+			{ 13, 12590, "", "=q4=Felstriker", "=ds=#h1#, #w4#", "", "1.06%" },
+			{ 15, 12630, "", "=q1=Head of Rend Blackhand", "=ds=#m3#", "", "100%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Gyth"], "" },
+			{ 17, 12953, "", "=q3=Dragoneye Coif", "=ds=#s1#, #a3#", "", "20%" },
+			{ 18, 22225, "", "=q3=Dragonskin Cowl", "=ds=#s1#, #a1#", "", "20%" },
+			{ 19, 12952, "", "=q3=Gyth's Skull", "=ds=#s1#, #a4#", "", "20%" },
+			{ 20, 16669, "", "=q3=Pauldrons of Elements", "=ds=#s3#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 21, 12960, "", "=q3=Tribal War Feathers", "=ds=#s1#, #a2#", "", "20%" },
+			{ 23, 13522, "", "=q2=Recipe: Flask of Chromatic Resistance", "=ds=#p1# (300)", "", "3%" },
+			{ 25, 12871, "", "=q4=Chromatic Carapace", "=ds=#m3#", "", "4%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Warchief Rend Blackhand"] .. " & " .. BabbleBoss["Gyth"],
+		module = moduleName,
+		instance = "BlackrockSpireUpper",
+	},
+};
+
+AtlasLoot_Data["UpperBlackrockSpireTheBeast"] = {
+	["Normal"] = {
+		{
+			{ 1, 12967, "", "=q3=Bloodmoon Cloak",       "=ds=#s4#",       	    "", "20%" },
+			{ 2, 12964, "", "=q3=Tristam Legguards",     "=ds=#s11#, #a3#",	    "", "20%" },
+			{ 3, 12966, "", "=q3=Blackmist Armguards",   "=ds=#s8#, #a2#",  	    "", "7.5%" },
+			{ 4, 12963, "", "=q3=Blademaster Leggings",  "=ds=#s11#, #a2#", 	    "", "7.5%" },
+			{ 5, 12709, "", "=q3=Finkle's Skinner",      "=ds=#h1#, #w4# =q1=(#e18#)",  "", "7.5%" },
+			{ 6, 12968, "", "=q3=Frostweaver Cape",      "=ds=#s4#",       	    "", "7.5%" },
+			{ 7, 22311, "", "=q3=Ironweave Boots",       "=ds=#s12#, #a1#", 	    "", "7.5%" },
+			{ 8, 16729, "", "=q3=Lightforge Spaulders", "=ds=#s3#, #a4# =q1=(#j6#)", "", "7.5%" },
+			{ 9, 12969, "", "=q3=Seeping Willow",        "=ds=#h2#, #w6#", 	    "", "7.5%" },
+			{ 10, 12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", 	    "", "7.5%" },
+			{ 12, 24101, "", "=q3=Book of Ferocious Bite V", "=ds=#e10#", "", "13%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["The Beast"],
+		module = moduleName,
+		instance = "BlackrockSpireUpper",
+	},
+};
+
+AtlasLoot_Data["UpperBlackrockSpireGeneralDrakkisath"] = {
+	["Normal"] = {
+		{
+			{ 1, 13142, "", "=q3=Brigam Girdle", "=ds=#s10#, #a4#", "", "18%" },
+			{ 2, 12602, "", "=q3=Draconian Deflector", "=ds=#w8#", "", "18%" },
+			{ 3, 13098, "", "=q3=Painweaver Band", "=ds=#s13#", "", "18%" },
+			{ 4, 22269, "", "=q3=Shadow Prowler's Cloak", "=ds=#s4#", "", "18%" },
+			{ 5, 22268, "", "=q3=Draconic Infused Emblem", "=ds=#s14#", "", "8%" },
+			{ 6, 22267, "", "=q3=Spellweaver's Turban", "=ds=#s1#, #a1#", "", "6%" },
+			{ 7, 22253, "", "=q3=Tome of the Lost", "=ds=#s15#", "", "6%" },
+			{ 8, 13141, "", "=q3=Tooth of Gnarr", "=ds=#s2#", "", "6%" },
+			{ 9, 12592, "", "=q4=Blackblade of Shahram", "=ds=#h2#, #w10#", "", "2%" },
+			{ 11, 15730, "", "=q3=Pattern: Red Dragonscale Breastplate", "=ds=#p7# (300)", "", "4%" },
+			{ 12, 13519, "", "=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)", "", "3%" },
+			{ 14, 16663, "", "=q1=Blood of the Black Dragon Champion", "=ds=#m3#", "", "100%" },
+			{ 16, 16674, "", "=q3=Beaststalker's Tunic", "=ds=#s5#, #a3# =q1=(#j6#)", "", "11.1%" },
+			{ 17, 16730, "", "=q3=Breastplate of Valor", "=ds=#s5#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 18, 16690, "", "=q3=Devout Robe", "=ds=#s5#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 19, 16700, "", "=q3=Dreadmist Robe", "=ds=#s5#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 20, 16726, "", "=q3=Lightforge Breastplate", "=ds=#s5#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 21, 16688, "", "=q3=Magister's Robes", "=ds=#s5#, #a1# =q1=(#j6#)", "", "11.1%" },
+			{ 22, 16721, "", "=q3=Shadowcraft Tunic", "=ds=#s5#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 23, 16666, "", "=q3=Vest of Elements", "=ds=#s5#, #a3# =q1=(#j6#)", "", "11.1%" },
+			{ 24, 16706, "", "=q3=Wildheart Vest", "=ds=#s5#, #a2# =q1=(#j6#)", "", "11.1%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["General Drakkisath"],
+		module = moduleName,
+		instance = "BlackrockSpireUpper",
+	},
+};
+
+AtlasLoot_Data["UpperBlackrockSpireJedRunewatcher"] = {
+	["Normal"] = {
+		{
+			{ 1, 12930, "", "=q3=Briarwood Reed", "=ds=#s14#", "", "33.3%" },
+			{ 2, 12605, "", "=q3=Serpentine Skuller", "=ds=#w12#", "", "33.3%" },
+			{ 3, 12604, "", "=q3=Starfire Tiara", "=ds=#s1#, #a1#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1766,12 +1772,16 @@ AtlasLoot_Data["UBRSRunewatcher"] = {
 	},
 };
 
-AtlasLoot_Data["UBRSTrash"] = {
+AtlasLoot_Data["UpperBlackrockSpireTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 13260, "", "=q3=Wind Dancer Boots",                            "=ds=#s12#, #a3#",                            "", "0.01%" },
-			{ 3, 16247, "", "=q2=Formula: Enchant 2H Weapon - Superior Impact", "=ds=#p4# (295) =q1=" .. AL["Blackhand Elite"], "", "1.54%" },
-			{ 5, 12607, "", "=q3=Brilliant Chromatic Scale",                    "#e8#" },
+			{ 1, 13260, "", "=q3=Wind Dancer Boots", "=ds=#s12#, #a3#", "", "~0.05%" },
+			{ 3, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=(#j6#) Blackhand Summoner", "", "7.6%" },
+			{ 4, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=(#j6#) " .. AL["Blackhand Assassin"], "", "7%" },
+			{ 5, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=(#j6#) Blackhand Iron Guard", "", "6.7%" },
+			{ 6, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=(#j6#) Blackhand Dreadweaver", "", "3.4%" },
+			{ 8, 16247, "", "=q2=Formula: Enchant 2H Weapon - Superior Impact", "=ds=#p4# (295) =q1=" .. AL["Blackhand Elite"], "", "10%" },
+			{ 10, 24102, "", "=q3=Manual of Eviscerate IX", "=ds=#e10# =q1=" .. AL["Blackhand Assassin"], "", "10%" },
 		},
 	},
 	info = {
