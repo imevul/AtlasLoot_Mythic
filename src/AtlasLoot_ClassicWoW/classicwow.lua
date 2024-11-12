@@ -5773,27 +5773,31 @@ AtlasLoot_Data["ZulFarrakTrash"] = {
 ------------------
 --- Zul'Gurub ---
 ------------------
-AtlasLoot_Data["ZGJeklik"] = {
+AtlasLoot_Data["ZulGurubHighPriestessJeklik"] = {
 	["Normal"] = {
 		{
-			{ 1, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "11.41%"};
-			{ 2, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "11.02%"};
-			{ 3, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "10.84%"};
-			{ 4, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "5.89%"};
-			{ 5, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "5.80%"};
-			{ 6, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "5.56%"};
-			{ 7, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.33%"};
-			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.32%"};
-			{ 9, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.17%"};
-			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "8.8%"};
-			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
-			{ 16, 19918, "", "=q4=Jeklik's Crusher", "=ds=#h2#, #w6#", "", "3.96%"};
-			{ 18, 19928, "", "=q3=Animist's Spaulders", "=ds=#s3#, #a2#", "", "3.39%"};
-			{ 19, 20262, "", "=q3=Seafury Boots", "=ds=#s12#, #a3#", "", "4.31%"};
-			{ 20, 20265, "", "=q3=Peacekeeper Boots", "=ds=#s12#, #a4#", "", "6.99%"};
-			{ 21, 19923, "", "=q3=Jeklik's Opaline Talisman", "=ds=#s2#", "", "12.22%"};
-			{ 22, 19920, "", "=q3=Primalist's Band", "=ds=#s13#", "", "11.89%"};
-			{ 23, 19915, "", "=q3=Zulian Defender", "=ds=#w8#", "", " 11.36%"};
+			{ 1, 19928, "", "=q3=Animist's Spaulders", "=ds=#s3#, #a2#", "", "14.3%"};
+			{ 2, 19918, "", "=q4=Jeklik's Crusher", "=ds=#h2#, #w6#", "", "14.3%"};
+			{ 3, 19923, "", "=q3=Jeklik's Opaline Talisman", "=ds=#s2#", "", "14.3%"};
+			{ 4, 20265, "", "=q3=Peacekeeper Boots", "=ds=#s12#, #a4#", "", "14.3%"};
+			{ 5, 19920, "", "=q3=Primalist's Band", "=ds=#s13#", "", "14.3%"};
+			{ 6, 20262, "", "=q3=Seafury Boots", "=ds=#s12#, #a3#", "", "14.3%"};
+			{ 7, 19915, "", "=q3=Zulian Defender", "=ds=#w8#", "", "14.3%"};
+			
+			{ 9, 19767, "", "=q1=Primal Bat Leather", "=ds=#e6#", "", "24%"};
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "15.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "15.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "15.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "15.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "15.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "3%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "3%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "3%"};
+			
+			{ 27, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
 		}
 	},
 	info = {
@@ -5803,27 +5807,29 @@ AtlasLoot_Data["ZGJeklik"] = {
 	},
 };
 
-AtlasLoot_Data["ZGVenoxis"] = {
+AtlasLoot_Data["ZulGurubHighPriestVenoxis"] = {
 	["Normal"] = {
 		{
-			{ 1, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "11.01%"};
-			{ 2, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "10.55%"};
-			{ 3, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "10.18%"};
-			{ 4, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "5.93%"};
-			{ 5, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "5.67%"};
-			{ 6, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "5.52%"};
-			{ 7, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.18%"};
-			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.02%"};
-			{ 9, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.00%"};
-			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "6.0%"};
-			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
-			{ 13, 22216, "", "=q1=Venoxis's Venom Sac", "=ds=#m3#", "", "100%"};
-			{ 16, 19904, "", "=q4=Runed Bloodstained Hauberk", "=ds=#s5#, #a3#", "", "3.70%"};
-			{ 17, 19903, "", "=q4=Fang of Venoxis", "=ds=#h3#, #w4#", "", "3.68%"};
-			{ 19, 19907, "", "=q3=Zulian Tigerhide Cloak", "=ds=#s4#", "", "12.09%"};
-			{ 20, 19906, "", "=q3=Blooddrenched Footpads", "=ds=#s12#, #a2#", "", "11.36%"};
-			{ 21, 19905, "", "=q3=Zanzil's Band", "=ds=#s13#", "", "6.99%"};
-			{ 22, 19900, "", "=q3=Zulian Stone Axe", "=ds=#h2#, #w1#", "", "11.89%"};
+			{ 1, 19906, "", "=q3=Blooddrenched Footpads", "=ds=#s12#, #a2#", "", "16.7%"};
+			{ 2, 19903, "", "=q4=Fang of Venoxis", "=ds=#h3#, #w4#", "", "16.7%"};
+			{ 3, 19904, "", "=q4=Runed Bloodstained Hauberk", "=ds=#s5#, #a3#", "", "16.7%"};
+			{ 4, 19905, "", "=q3=Zanzil's Band", "=ds=#s13#", "", "16.7%"};
+			{ 5, 19900, "", "=q3=Zulian Stone Axe", "=ds=#h2#, #w1#", "", "16.7%"};
+			{ 6, 19907, "", "=q3=Zulian Tigerhide Cloak", "=ds=#s4#", "", "16.7%"};
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "15.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "15.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "15.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "15.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "15.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "3%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "3%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "3%"};
+			
+			{ 27, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
+			{ 28, 22216, "", "=q1=Venoxis's Venom Sac", "=ds=#m3#", "", "100%"};
 		}
 	},
 	info = {
@@ -5834,26 +5840,28 @@ AtlasLoot_Data["ZGVenoxis"] = {
 };
 
 
-AtlasLoot_Data["ZGMarli"] = {
+AtlasLoot_Data["ZulGurubHighPriestessMarli"] = {
 	["Normal"] = {
 		{
-			{ 1, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "13.69%"};
-			{ 2, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "13.69%"};
-			{ 3, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "13.64%"};
-			{ 4, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "6.55%"};
-			{ 5, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "6.49%"};
-			{ 6, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "6.31%"};
-			{ 7, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.56%"};
-			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.55%"};
-			{ 9, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.30%"};
-			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "7.4%"};
-			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
-			{ 16, 20032, "", "=q4=Flowing Ritual Robes", "=ds=#s5#, #a1#", "", "4.46%"};
-			{ 17, 19927, "", "=q4=Mar'li's Touch", "=ds=#w12#", "", "4.35%"};
-			{ 19, 19919, "", "=q3=Bloodstained Greaves", "=ds=#s12#, #a3#", "", "11.89%"};
-			{ 20, 19871, "", "=q3=Talisman of Protection", "=ds=#s2#", "", "11.36%"};
-			{ 21, 19925, "", "=q3=Band of Jin", "=ds=#s13#", "", " 6.99%"};
-			{ 22, 19930, "", "=q3=Mar'li's Eye", "=ds=#s14#", "", "12.09%"};
+			{ 1, 19925, "", "=q3=Band of Jin", "=ds=#s13#", "", "16.7%"};
+			{ 2, 19919, "", "=q3=Bloodstained Greaves", "=ds=#s12#, #a3#", "", "16.7%"};
+			{ 3, 20032, "", "=q4=Flowing Ritual Robes", "=ds=#s5#, #a1#", "", "16.7%"};
+			{ 4, 19930, "", "=q3=Mar'li's Eye", "=ds=#s14#", "", "16.7%"};
+			{ 5, 19927, "", "=q4=Mar'li's Touch", "=ds=#w12#", "", "16.7%"};
+			{ 6, 19871, "", "=q3=Talisman of Protection", "=ds=#s2#", "", "16.7%"};			
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "15.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "15.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "15.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "15.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "15.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "3%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "3%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "3%"};
+			
+			{ 27, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
 		}
 	},
 	info = {
@@ -5863,33 +5871,36 @@ AtlasLoot_Data["ZGMarli"] = {
 	},
 };
 
-AtlasLoot_Data["ZGMandokir"] = {
+AtlasLoot_Data["ZulGurubBloodlordMandokir"] = {
 	["Normal"] = {
 		{
-			{ 1, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "12.94%"};
-			{ 2, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "12.07%"};
-			{ 3, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "11.56%"};
-			{ 4, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "6.65%"};
-			{ 5, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "6.55%"};
-			{ 6, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "6.52%"};
-			{ 7, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "2.98%"};
-			{ 8, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "2.65%"};
-			{ 9, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "2.48%"};
-			{ 11, 22637, "", "=q3=Primal Hakkari Idol", "=ds=#m3#"};
-			{ 12, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "9.4%"};
-			{ 16, 19867, "", "=q4=Bloodlord's Defender", "=ds=#h1#, #w10#", "", "5.83%"};
-			{ 17, 19866, "", "=q4=Warblade of the Hakkari", "=ds=#h4#, #w10#", "", "3.96%"};
-			{ 18, 19874, "", "=q4=Halberd of Smiting", "=ds=#w7#", "", "6.35%"};
-			{ 19, 20038, "", "=q4=Mandokir's Sting", "=ds=#w2#", "", "5.96%"};
-			{ 20, 19872, "", "=q4=Swift Razzashi Raptor", "=ds=#e12#", "", "0.43%"};
-			{ 22, 19870, "", "=q3=Hakkari Loa Cloak", "=ds=#s4#", "", "12.54%"};
-			{ 23, 19895, "", "=q3=Bloodtinged Kilt", "=ds=#s11#, #a1#", "", "13.50%"};
-			{ 24, 19869, "", "=q3=Blooddrenched Grips", "=ds=#s9#, #a2#", "", "12.87%"};
-			{ 25, 19877, "", "=q3=Animist's Leggings", "=ds=#s11#, #a2#", "", "12.14%"};
-			{ 26, 19878, "", "=q3=Bloodsoaked Pauldrons", "=ds=#s9#, #a4#", "", "12.31%"};
-			{ 27, 19873, "", "=q3=Overlord's Crimson Band", "=ds=#s13#", "", "12.28%"};
-			{ 28, 19893, "", "=q3=Zanzil's Seal", "=ds=#s13#", "", "13.11%"};
-			{ 29, 19863, "", "=q3=Primalist's Seal", "=ds=#s13#", "", "12.32%"};
+			{ 1, 19877, "", "=q3=Animist's Leggings", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 2, 19869, "", "=q3=Blooddrenched Grips", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 3, 19867, "", "=q4=Bloodlord's Defender", "=ds=#h1#, #w10#", "", "8.3%"};
+			{ 4, 19878, "", "=q3=Bloodsoaked Pauldrons", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 5, 19895, "", "=q3=Bloodtinged Kilt", "=ds=#s11#, #a1#", "", "8.3%"};
+			{ 6, 19870, "", "=q3=Hakkari Loa Cloak", "=ds=#s4#", "", "8.3%"};
+			{ 7, 19874, "", "=q4=Halberd of Smiting", "=ds=#w7#", "", "8.3%"};
+			{ 8, 20038, "", "=q4=Mandokir's Sting", "=ds=#w2#", "", "8.3%"};
+			{ 9, 19873, "", "=q3=Overlord's Crimson Band", "=ds=#s13#", "", "8.3%"};
+			{ 10, 19863, "", "=q3=Primalist's Seal", "=ds=#s13#", "", "8.3%"};
+			{ 11, 19866, "", "=q4=Warblade of the Hakkari", "=ds=#h4#, #w10#", "", "8.3%"};
+			{ 12, 19893, "", "=q3=Zanzil's Seal", "=ds=#s13#", "", "8.3%"};
+			
+			{ 14, 19872, "", "=q4=Swift Razzashi Raptor", "=ds=#e12#", "", "2%"};
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "9.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "9.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "9.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "9.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "9.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "9.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "15%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "15%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "15%"};
+			
+			{ 27, 22637, "", "=q3=Primal Hakkari Idol", "=ds=#m3#", "", "100%"};
 		}
 	},
 	info = {
@@ -5899,25 +5910,28 @@ AtlasLoot_Data["ZGMandokir"] = {
 	},
 };
 
-AtlasLoot_Data["ZGEdgeofMadness"] = {
+AtlasLoot_Data["ZulGurubEdgeOfMadness"] = {
 	["Normal"] = {
 		{
 			{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Gri'lek"], ""};
-			{ 2, 19961, "", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "", "43.90%"};
-			{ 3, 19962, "", "=q3=Gri'lek's Carver", "=ds=#h2#, #w1#", "", "41.99%"};
-			{ 4, 19939, "", "=q2=Gri'lek's Blood", "=ds=#m3#", "", "100%"};
-			{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
-			{ 7, 19968, "", "=q3=Fiery Retributer", "=ds=#h1#, #w10#", "", "38.37%"};
-			{ 8, 19967, "", "=q3=Thoughtblighter", "=ds=#w12#", "", "45.49%"};
-			{ 9, 19942, "", "=q2=Hazza'rah's Dream Thread", "=ds=#m3#", "", "100%"};
+			{ 2, 19962, "", "=q3=Gri'lek's Carver", "=ds=#h2#, #w1#", "", "50%"};
+			{ 3, 19961, "", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "", "50%"};
+			{ 5, 19939, "", "=q2=Gri'lek's Blood", "=ds=#m3# =q1=(x1-2)", "", "100%"};
+			
+			{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Hazza'rah"], ""};
+			{ 8, 19968, "", "=q3=Fiery Retributer", "=ds=#h1#, #w10#", "", "50%"};
+			{ 9, 19967, "", "=q3=Thoughtblighter", "=ds=#w12#", "", "50%"};
+			{ 11, 19942, "", "=q2=Hazza'rah's Dream Thread", "=ds=#m3# =q1=(x1-2)", "", "100%"};
+			
 			{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Renataki"], ""};
-			{ 17, 19964, "", "=q3=Renataki's Soul Conduit", "=ds=#h3#, #w10#", "", "40.06%"};
-			{ 18, 19963, "", "=q3=Pitchfork of Madness", "=ds=#w7#", "", "45.51%"};
-			{ 19, 19940, "", "=q2=Renataki's Tooth", "=ds=#m3#", "", "100%"};
-			{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
-			{ 22, 19965, "", "=q3=Wushoolay's Poker", "=ds=#h3#, #w4#", "", "45.21%"};
-			{ 23, 19993, "", "=q3=Hoodoo Hunting Bow", "=ds=#w2#", "", "40.96%"};
-			{ 24, 19941, "", "=q2=Wushoolay's Mane", "=ds=#m3#", "", "100%"};
+			{ 17, 19963, "", "=q3=Pitchfork of Madness", "=ds=#w7#", "", "50%"};
+			{ 18, 19964, "", "=q3=Renataki's Soul Conduit", "=ds=#h3#, #w10#", "", "50%"};
+			{ 20, 19940, "", "=q2=Renataki's Tooth", "=ds=#m3# =q1=(x1-2)", "", "100%"};
+			
+			{ 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Wushoolay"], ""};
+			{ 23, 19993, "", "=q3=Hoodoo Hunting Bow", "=ds=#w2#", "", "50%"};
+			{ 24, 19965, "", "=q3=Wushoolay's Poker", "=ds=#h3#, #w4#", "", "50%"};
+			{ 26, 19941, "", "=q2=Wushoolay's Mane", "=ds=#m3# =q1=(x1-2)", "", "100%"};
 		}
 	},
 	info = {
@@ -5927,14 +5941,21 @@ AtlasLoot_Data["ZGEdgeofMadness"] = {
 	},
 };
 
-AtlasLoot_Data["ZGGahzranka"] = {
+AtlasLoot_Data["ZulGurubGahzranka"] = {
 	["Normal"] = {
 		{
-			{ 1, 19945, "", "=q4=Foror's Eyepatch", "=ds=#s1#, #a2#", "", "8,82%"};
-			{ 2, 19944, "", "=q4=Nat Pagle's Fish Terminator", "=ds=#w9#", "", "2.39%"};
-			{ 4, 19947, "", "=q3=Nat Pagle's Broken Reel", "=ds=#s14#", "", "28.20%"};
-			{ 5, 19946, "", "=q3=Tigule's Harpoon", "=ds=#w7#", "", "29.22%"};
-			{ 7, 22739, "", "=q3=Tome of Polymorph: Turtle", "=ds=#e10#, =q1=#m1# =ds=#c3#"};
+			{ 1, 19947, "", "=q3=Nat Pagle's Broken Reel", "=ds=#s14#", "", "40%"};
+			{ 2, 19946, "", "=q3=Tigule's Harpoon", "=ds=#w7#", "", "40%"};
+			{ 3, 19945, "", "=q4=Foror's Eyepatch", "=ds=#s1#, #a2#", "", "10%"};
+			{ 4, 19944, "", "=q4=Nat Pagle's Fish Terminator", "=ds=#w9#", "", "10%"};
+			
+			{ 6, 22739, "", "=q3=Tome of Polymorph: Turtle", "=ds=#e10#, =q1=#m1# =ds=#c3#", "", "15%"};
+			
+			{ 16, 17962, "", "=q2=Blue Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 17, 17964, "", "=q2=Gray Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 18, 17963, "", "=q2=Green Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 19, 17969, "", "=q2=Red Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 20, 17965, "", "=q2=Yellow Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
 		}
 	},
 	info = {
@@ -5944,25 +5965,32 @@ AtlasLoot_Data["ZGGahzranka"] = {
 	},
 };
 
-AtlasLoot_Data["ZGThekal"] = {
+AtlasLoot_Data["ZulGurubHighPriestThekal"] = {
 	["Normal"] = {
 		{
-			{ 1, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", " 14.95%"};
-			{ 2, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", " 13.74%"};
-			{ 3, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", " 12.95%"};
-			{ 4, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", " 6.60%"};
-			{ 5, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", " 6.56%"};
-			{ 6, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", " 6.45%"};
-			{ 8, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "8.3%"};
-			{ 9, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
-			{ 16, 19897, "", "=q4=Betrayer's Boots", "=ds=#s12#, #a1#", "", "5.83%"};
-			{ 17, 19896, "", "=q4=Thekal's Grasp", "=ds=#h3#, #w13#", "", "4.23%"};
-			{ 18, 19902, "", "=q4=Swift Zulian Tiger", "=ds=#e12#", "", "0.70%"};
-			{ 20, 19898, "", "=q3=Seal of Jin", "=ds=#s13#", "", "13.65%"};
-			{ 21, 19899, "", "=q3=Ritualistic Legguards", "=ds=#s11#, #a1#", "", "13.41%"};
-			{ 22, 20260, "", "=q3=Seafury Leggings", "=ds=#s11#, #a3#", "", "4.30%"};
-			{ 23, 20266, "", "=q3=Peacekeeper Leggings", "=ds=#s11#, #a4#", "", "8.69%"};
-			{ 24, 19901, "", "=q3=Zulian Slicer", "=ds=#h1#, #w10#, =q1=#e18#", "", "13.36%"};
+			{ 1, 19897, "", "=q4=Betrayer's Boots", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 2, 20266, "", "=q3=Peacekeeper Leggings", "=ds=#s11#, #a4#", "", "14.3%"};
+			{ 3, 19899, "", "=q3=Ritualistic Legguards", "=ds=#s11#, #a1#", "", "14.3%"};
+			{ 4, 20260, "", "=q3=Seafury Leggings", "=ds=#s11#, #a3#", "", "14.3%"};
+			{ 5, 19898, "", "=q3=Seal of Jin", "=ds=#s13#", "", "14.3%"};
+			{ 6, 19896, "", "=q4=Thekal's Grasp", "=ds=#h3#, #w13#", "", "14.3%"};
+			{ 7, 19901, "", "=q3=Zulian Slicer", "=ds=#h1#, #w10#, =q1=#e18#", "", "14.3%"};
+			
+			{ 9, 19768, "", "=q1=Primal Tiger Leather", "=ds=#e6#", "", "24%"};
+			{ 10, 19902, "", "=q4=Swift Zulian Tiger", "=ds=#e12#", "", "2%"};
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "15.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "15.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "15.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "15.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "15.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "3%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "3%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "3%"};
+			
+			{ 27, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
 		}
 	},
 	info = {
@@ -5972,26 +6000,29 @@ AtlasLoot_Data["ZGThekal"] = {
 	},
 };
 
-AtlasLoot_Data["ZGArlokk"] = {
+AtlasLoot_Data["ZulGurubHighPriestessArlokk"] = {
 	["Normal"] = {
 		{
-			{ 1, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.49%"};
-			{ 2, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "12.52%"};
-			{ 3, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "13.17%"};
-			{ 4, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "6.94%"};
-			{ 5, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "6.65%"};
-			{ 6, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "6.21%"};
-			{ 7, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "2.75%"};
-			{ 8, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "2.60%"};
-			{ 9, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "2.41%"};
-			{ 11, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "5.6%"};
-			{ 12, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
-			{ 16, 19910, "", "=q4=Arlokk's Grasp", "=ds=#h4#, #w13#", "", "3.62%"};
-			{ 17, 19909, "", "=q4=Will of Arlokk", "=ds=#w9#", "", "5.14%"};
-			{ 19, 19913, "", "=q3=Bloodsoaked Greaves", "=ds=#s12#, #a4#", "", "13.29%"};
-			{ 20, 19912, "", "=q3=Overlord's Onyx Band", "=ds=#s13#", "", "13.95%"};
-			{ 21, 19922, "", "=q3=Arlokk's Hoodoo Stick", "=ds=#s15#", "", "13.66%"};
-			{ 22, 19914, "", "=q3=Panther Hide Sack", "=ds=#e1#", "", "14.03%"};
+			{ 1, 19910, "", "=q4=Arlokk's Grasp", "=ds=#h4#, #w13#", "", "16.7%"};
+			{ 2, 19922, "", "=q3=Arlokk's Hoodoo Stick", "=ds=#s15#", "", "16.7%"};
+			{ 3, 19913, "", "=q3=Bloodsoaked Greaves", "=ds=#s12#, #a4#", "", "16.7%"};
+			{ 4, 19912, "", "=q3=Overlord's Onyx Band", "=ds=#s13#", "", "16.7%"};
+			{ 5, 19909, "", "=q4=Will of Arlokk", "=ds=#w9#", "", "16.7%"};
+			
+			{ 7, 19914, "", "=q3=Panther Hide Sack", "=ds=#e1#", "", "16.7%"};
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "15.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "15.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "15.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "15.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "15.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "15.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "3%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "3%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "3%"};
+			
+			{ 27, 19881, "", "=q1=Channeler's Head", "=ds=#m3#", "", "100%"};
 		}
 	},
 	info = {
@@ -6001,32 +6032,33 @@ AtlasLoot_Data["ZGArlokk"] = {
 	},
 };
 
-AtlasLoot_Data["ZGJindo"] = {
+AtlasLoot_Data["ZulGurubJindoTheHexxer"] = {
 	["Normal"] = {
 		{
-			{ 1, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "13.56%"};
-			{ 2, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "13.48%"};
-			{ 3, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "12.09%"};
-			{ 4, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "7.30%"};
-			{ 5, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "6.37%"};
-			{ 6, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "6.10%"};
-			{ 7, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "2.85%"};
-			{ 8, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "2.70%"};
-			{ 9, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "2.36%"};
-			{ 11, 22637, "", "=q3=Primal Hakkari Idol", "=ds=#m3#"};
-			{ 12, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "8.4%"};
-			{ 16, 19885, "", "=q4=Jin'do's Evil Eye", "=ds=#s2#", "", "6.82%"};
-			{ 17, 19891, "", "=q4=Jin'do's Bag of Whammies", "=ds=#s15#", "", "7.70%"};
-			{ 18, 19890, "", "=q4=Jin'do's Hexxer", "=ds=#h3#, #w6#", "", "8.08%"};
-			{ 19, 19884, "", "=q4=Jin'do's Judgement", "=ds=#w9#", "", "8.36%"};
-			{ 21, 19888, "", "=q3=Overlord's Embrace", "=ds=#s4#", "", "12.72%"};
-			{ 22, 19886, "", "=q3=The Hexxer's Cover", "=ds=#s1#, #a1#", "", "12.11%"};
-			{ 23, 19929, "", "=q3=Bloodtinged Gloves", "=ds=#s9#, #a1#", "", "11.75%"};
-			{ 24, 19889, "", "=q3=Blooddrenched Leggings", "=ds=#s11#, #a2#", "", "11.97%"};
-			{ 25, 19892, "", "=q3=Animist's Boots", "=ds=#s12#, #a2#", "", "12.28%"};
-			{ 26, 19875, "", "=q3=Bloodstained Coif", "=ds=#s1#, #a3#", "", "13.73%"};
-			{ 27, 19887, "", "=q3=Bloodstained Legplates", "=ds=#s11#, #a3#", "", "11.11%"};
-			{ 28, 19894, "", "=q3=Bloodsoaked Gauntlets", "=ds=#s9#, #a4#", "", "12.93%"};
+			{ 1, 19892, "", "=q3=Animist's Boots", "=ds=#s12#, #a2#", "", "9.1%"};
+			{ 2, 19889, "", "=q3=Blooddrenched Leggings", "=ds=#s11#, #a2#", "", "9.1%"};
+			{ 3, 19894, "", "=q3=Bloodsoaked Gauntlets", "=ds=#s9#, #a4#", "", "9.1%"};
+			{ 4, 19887, "", "=q3=Bloodstained Legplates", "=ds=#s11#, #a3#", "", "9.1%"};
+			{ 5, 19929, "", "=q3=Bloodtinged Gloves", "=ds=#s9#, #a1#", "", "9.1%"};
+			{ 6, 19891, "", "=q4=Jin'do's Bag of Whammies", "=ds=#s15#", "", "9.1%"};
+			{ 7, 19885, "", "=q4=Jin'do's Evil Eye", "=ds=#s2#", "", "9.1%"};
+			{ 8, 19890, "", "=q4=Jin'do's Hexxer", "=ds=#h3#, #w6#", "", "9.1%"};
+			{ 9, 19884, "", "=q4=Jin'do's Judgement", "=ds=#w9#", "", "9.1%"};
+			{ 10, 19888, "", "=q3=Overlord's Embrace", "=ds=#s4#", "", "9.1%"};
+			{ 11, 19886, "", "=q3=The Hexxer's Cover", "=ds=#s1#, #a1#", "", "9.1%"};
+			
+			{ 16, 19717, "", "=q4=Primal Hakkari Armsplint", "=ds=#m3#", "", "9.2%"};
+			{ 17, 19716, "", "=q4=Primal Hakkari Bindings", "=ds=#m3#", "", "9.2%"};
+			{ 18, 19719, "", "=q4=Primal Hakkari Girdle", "=ds=#m3#", "", "9.2%"};
+			{ 19, 19720, "", "=q4=Primal Hakkari Sash", "=ds=#m3#", "", "9.2%"};
+			{ 20, 19721, "", "=q4=Primal Hakkari Shawl", "=ds=#m3#", "", "9.2%"};
+			{ 21, 19718, "", "=q4=Primal Hakkari Stanchion", "=ds=#m3#", "", "9.2%"};
+			
+			{ 23, 19724, "", "=q4=Primal Hakkari Aegis", "=ds=#m3#", "", "15%"};
+			{ 24, 19723, "", "=q4=Primal Hakkari Kossack", "=ds=#m3#", "", "15%"};
+			{ 25, 19722, "", "=q4=Primal Hakkari Tabard", "=ds=#m3#", "", "15%"};
+			
+			{ 27, 22637, "", "=q3=Primal Hakkari Idol", "=ds=#m3#"};
 		}
 	},
 	info = {
@@ -6036,28 +6068,25 @@ AtlasLoot_Data["ZGJindo"] = {
 	},
 };
 
-AtlasLoot_Data["ZGHakkar"] = {
+AtlasLoot_Data["ZulGurubHakkar"] = {
 	["Normal"] = {
 		{
-			{ 1, 19857, "", "=q4=Cloak of Consumption", "=ds=#s4#", "", "11.65%"};
-			{ 2, 20257, "", "=q4=Seafury Gauntlets", "=ds=#s9#, #a3#", "", "4.11%"};
-			{ 3, 20264, "", "=q4=Peacekeeper Gauntlets", "=ds=#s9#, #a4#", "", "7.37%"};
-			{ 4, 19855, "", "=q4=Bloodsoaked Legplates", "=ds=#s11#, #a4#", "", "10.52%"};
-			{ 5, 19876, "", "=q4=Soul Corrupter's Necklace", "=ds=#s2#", "", "10.11%"};
-			{ 6, 19856, "", "=q4=The Eye of Hakkar", "=ds=#s2#", "", "12.02%"};
-			{ 8, 19859, "", "=q4=Fang of the Faceless", "=ds=#h1#, #w4#", "", "7.33%"};
-			{ 9, 19864, "", "=q4=Bloodcaller", "=ds=#h3#, #w10#", "", "7.69%"};
-			{ 10, 19865, "", "=q4=Warblade of the Hakkari", "=ds=#h3#, #w10#", "", "3.67%"};
-			{ 11, 19854, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#h2#, #w10#", "", "6.78%"};
-			{ 12, 19852, "", "=q4=Ancient Hakkari Manslayer", "=ds=#h1#, #w1#", "", "6.62%"};
-			{ 13, 19862, "", "=q4=Aegis of the Blood God", "=ds=#w8#", "", "9.99%"};
-			{ 14, 19853, "", "=q4=Gurubashi Dwarf Destroyer", "=ds=#w5#", "", "6.12%"};
-			{ 15, 19861, "", "=q4=Touch of Chaos", "=ds=#w12#", "", "7.24%"};
+			{ 1, 19862, "", "=q4=Aegis of the Blood God", "=ds=#w8#", "", "14.3%"};
+			{ 2, 19852, "", "=q4=Ancient Hakkari Manslayer", "=ds=#h1#, #w1#", "", "14.3%"};
+			{ 3, 19864, "", "=q4=Bloodcaller", "=ds=#h3#, #w10#", "", "14.3%"};
+			{ 4, 19855, "", "=q4=Bloodsoaked Legplates", "=ds=#s11#, #a4#", "", "14.3%"};
+			{ 5, 19857, "", "=q4=Cloak of Consumption", "=ds=#s4#", "", "14.3%"};
+			{ 6, 19859, "", "=q4=Fang of the Faceless", "=ds=#h1#, #w4#", "", "14.3%"};
+			{ 7, 19853, "", "=q4=Gurubashi Dwarf Destroyer", "=ds=#w5#", "", "14.3%"};
+			{ 8, 20264, "", "=q4=Peacekeeper Gauntlets", "=ds=#s9#, #a4#", "", "14.3%"};
+			{ 9, 20257, "", "=q4=Seafury Gauntlets", "=ds=#s9#, #a3#", "", "14.3%"};
+			{ 10, 19876, "", "=q4=Soul Corrupter's Necklace", "=ds=#s2#", "", "14.3%"};
+			{ 11, 19856, "", "=q4=The Eye of Hakkar", "=ds=#s2#", "", "14.3%"};
+			{ 12, 19861, "", "=q4=Touch of Chaos", "=ds=#w12#", "", "14.3%"};
+			{ 13, 19865, "", "=q4=Warblade of the Hakkari", "=ds=#h3#, #w10#", "", "14.3%"};
+			{ 14, 19854, "", "=q4=Zin'rokh, Destroyer of Worlds", "=ds=#h2#, #w10#", "", "14.3%"};
+			
 			{ 16, 19802, "", "=q4=Heart of Hakkar", "=ds=#m2#", "", "100%"};
-			{ 17, 19950, "", "=q4=Zandalarian Hero Charm", "=q1=#m4#: =ds=#s14#"};
-			{ 18, 19949, "", "=q4=Zandalarian Hero Medallion", "=q1=#m4#: =ds=#s14#"};
-			{ 19, 19948, "", "=q4=Zandalarian Hero Badge", "=q1=#m4#: =ds=#s14#"};
-			{ 21, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "34.3%"};
 		}
 	},
 	info = {
@@ -6067,23 +6096,21 @@ AtlasLoot_Data["ZGHakkar"] = {
 	},
 };
 
-	--AtlasLoot_Data["ZGMuddyChurningWaters"] = {
-	--	{ 1, 19975, "", "=q1=Zulian Mudskunk", "=ds=#e21#"};
-	--};
---
-AtlasLoot_Data["ZGShared"] = {
+AtlasLoot_Data["ZulGurubShared"] = {
 	["Normal"] = {
 		{
-			{ 1, 22721, "", "=q4=Band of Servitude", "=ds=#s13#"};
-			{ 2, 22722, "", "=q4=Seal of the Gurubashi Berserker", "=ds=#s13#"};
-			{ 4, 22711, "", "=q3=Cloak of the Hakkari Worshipers", "=ds=#s4#"};
-			{ 5, 22712, "", "=q3=Might of the Tribe", "=ds=#s4#"};
-			{ 6, 22720, "", "=q3=Zulian Headdress", "=ds=#s1#, #a1#"};
-			{ 7, 22716, "", "=q3=Belt of Untapped Power", "=ds=#s10#, #a1#"};
-			{ 8, 22718, "", "=q3=Blooddrenched Mask", "=ds=#s1#, #a2#"};
-			{ 9, 22715, "", "=q3=Gloves of the Tormented", "=ds=#s9#, #a3#"};
-			{ 10, 22714, "", "=q3=Sacrificial Gauntlets", "=ds=#s9#, #a4#"};
-			{ 11, 22713, "", "=q3=Zulian Scepter of Rites", "=ds=#h3#, #w6#"};
+			
+			{ 1, 22721, "", "=q4=Band of Servitude", "=ds=#s13#", "", "10%"};
+			{ 2, 22716, "", "=q3=Belt of Untapped Power", "=ds=#s10#, #a1#", "", "10%"};
+			{ 3, 22718, "", "=q3=Blooddrenched Mask", "=ds=#s1#, #a2#", "", "10%"};
+			{ 4, 22711, "", "=q3=Cloak of the Hakkari Worshipers", "=ds=#s4#", "", "10%"};
+			{ 5, 22715, "", "=q3=Gloves of the Tormented", "=ds=#s9#, #a3#", "", "10%"};
+			{ 6, 22712, "", "=q3=Might of the Tribe", "=ds=#s4#", "", "10%"};
+			{ 7, 22714, "", "=q3=Sacrificial Gauntlets", "=ds=#s9#, #a4#", "", "10%"};
+			{ 8, 22722, "", "=q4=Seal of the Gurubashi Berserker", "=ds=#s13#", "", "10%"};
+			{ 9, 22720, "", "=q3=Zulian Headdress", "=ds=#s1#, #a1#", "", "10%"};
+			{ 10, 22713, "", "=q3=Zulian Scepter of Rites", "=ds=#h3#, #w6#", "", "10%"};
+			{ 12, 19943, "", "=q1=Massive Mojo", "=ds=#e8#", "", "9%/100% Hakkar"};
 		}
 	},
 	info = {
@@ -6093,50 +6120,55 @@ AtlasLoot_Data["ZGShared"] = {
 	},
 };
 
-AtlasLoot_Data["ZGTrash"] = {
+AtlasLoot_Data["ZulGurubTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 20259, "", "=q3=Shadow Panther Hide Gloves", "=ds=#s9#, #a2#"};
-			{ 2, 20261, "", "=q3=Shadow Panther Hide Belt", "=ds=#s10#, #a2#"};
-			{ 3, 20263, "", "=q3=Gurubashi Helm", "=ds=#s1#, #a4#"};
-			{ 4, 19908, "", "=q3=Sceptre of Smiting", "=ds=#h1#, #w6#"};
-			{ 5, 19921, "", "=q3=Zulian Hacker", "=ds=#h1#, #w1#"};
-			{ 6, 20258, "", "=q3=Zulian Ceremonial Staff", "=ds=#w9#"};
-			{ 7, 19727, "", "=q3=Blood Scythe", "=ds=#e19#", "", "0.02%"};
-			{ 8, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13#"};
-			{ 10, 19726, "", "=q2=Bloodvine", "=ds=#e8#", "", ""};
-			{ 11, 19774, "", "=q2=Souldarite", "=ds=#e8#", "", ""};
-			{ 12, 19767, "", "=q1=Primal Bat Leather", "=ds=#e8#", "", ""};
-			{ 13, 19768, "", "=q1=Primal Tiger Leather", "=ds=#e8#", "", ""};
-			{ 16, 19821, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c1#", "", "0.01%"};
-			{ 17, 19816, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c2#", "", "0.01%"};
-			{ 18, 19818, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c3#", "", "0.01%"};
-			{ 19, 19815, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c4#", "", "0.01%"};
-			{ 20, 19820, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c5#", "", "0.01%"};
-			{ 21, 19814, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c6#", "", "0.01%"};
-			{ 22, 19817, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c7#", "", "0.01%"};
-			{ 23, 19819, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c8#", "", "0.01%"};
-			{ 24, 19813, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c9#", "", "0.01%"};
+			{ 1, 20263, "", "=q3=Gurubashi Helm", "=ds=#s1#, #a4#", "", "~0.05%"};
+			{ 2, 20261, "", "=q3=Shadow Panther Hide Belt", "=ds=#s10#, #a2#", "", "~0.05%"};
+			{ 3, 20259, "", "=q3=Shadow Panther Hide Gloves", "=ds=#s9#, #a2#", "", "~0.05%"};
+			{ 4, 19908, "", "=q3=Sceptre of Smiting", "=ds=#h1#, #w6#", "", "~0.07%"};
+			{ 5, 20258, "", "=q3=Zulian Ceremonial Staff", "=ds=#w9#", "", "~0.05%"};
+			{ 6, 19921, "", "=q3=Zulian Hacker", "=ds=#h1#, #w1#", "", "~0.05%"};
+			
+			{ 8, 19727, "", "=q3=Blood Scythe", "=ds=#e19#", "", "~0.1%"};
+			
+			{ 10, 48126, "", "=q1=Razzashi Hatchling", "=ds=#e13# =q1=" .. AL["Razzashi Raptor"], "", "0.2%"};
+			
+			{ 12, 19726, "", "=q2=Bloodvine", "=ds=#e6#", "", "~1.11%/Gather: 15%"};
+			{ 13, 19774, "", "=q2=Souldarite", "=ds=#e6#", "", "~0.1%/Mine: 40%"};
+			{ 14, 19767, "", "=q1=Primal Bat Leather", "=ds=#e6# =q1=Bloodseeker Bat", "", "Skin: 9.9%"};
+			{ 15, 19768, "", "=q1=Primal Tiger Leather", "=ds=#e6#", "", "Skin: ~18.95%"};
+			
+			{ 16, 19821, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c1#", "", "6.9%"};
+			{ 17, 19816, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c2#", "", "7.6%"};
+			{ 18, 19818, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c3#", "", "10%"};
+			{ 19, 19815, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c4#", "", "5.2%"};
+			{ 20, 19820, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c5#", "", "10.8%"};
+			{ 21, 19814, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c6#", "", "10%"};
+			{ 22, 19817, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c7#", "", "2.8%"};
+			{ 23, 19819, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c8#", "", "8.6%"};
+			{ 24, 19813, "", "=q2=Punctured Voodoo Doll", "=q1=#m1# =ds=#c9#", "", "7.9%"};
 		},
 		{
-			{ 1, 19708, "", "=q3=Blue Hakkari Bijou", "=ds=#e15#", "", "1.48%"};
-			{ 2, 19713, "", "=q3=Bronze Hakkari Bijou", "=ds=#e15#", "", "1.57%"};
-			{ 3, 19715, "", "=q3=Gold Hakkari Bijou", "=ds=#e15#", "", "1.63%"};
-			{ 4, 19711, "", "=q3=Green Hakkari Bijou", "=ds=#e15#", "", "1.67%"};
-			{ 5, 19710, "", "=q3=Orange Hakkari Bijou", "=ds=#e15#", "", "1.76%"};
-			{ 6, 19712, "", "=q3=Purple Hakkari Bijou", "=ds=#e15#", "", "1.67%"};
-			{ 7, 19707, "", "=q3=Red Hakkari Bijou", "=ds=#e15#", "", "1.63%"};
-			{ 8, 19714, "", "=q3=Silver Hakkari Bijou", "=ds=#e15#", "", "1.59%"};
-			{ 9, 19709, "", "=q3=Yellow Hakkari Bijou", "=ds=#e15#", "", "1.50%"};
-			{ 16, 19706, "", "=q2=Bloodscalp Coin", "=ds=#e15#", "", "3.01%"};
-			{ 17, 19701, "", "=q2=Gurubashi Coin", "=ds=#e15#", "", "3.12%"};
-			{ 18, 19700, "", "=q2=Hakkari Coin", "=ds=#e15#", "", "3.19%"};
-			{ 19, 19699, "", "=q2=Razzashi Coin", "=ds=#e15#", "", "3.36%"};
-			{ 20, 19704, "", "=q2=Sandfury Coin", "=ds=#e15#", "", "3.47%"};
-			{ 21, 19705, "", "=q2=Skullsplitter Coin", "=ds=#e15#", "", "3.32%"};
-			{ 22, 19702, "", "=q2=Vilebranch Coin", "=ds=#e15#", "", "3.27%"};
-			{ 23, 19703, "", "=q2=Witherbark Coin", "=ds=#e15#", "", "3.27%"};
-			{ 24, 19698, "", "=q2=Zulian Coin", "=ds=#e15#", "", "3.01%"};
+			{ 1, 19708, "", "=q3=Blue Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 2, 19713, "", "=q3=Bronze Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 3, 19715, "", "=q3=Gold Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 4, 19711, "", "=q3=Green Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 5, 19710, "", "=q3=Orange Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 6, 19712, "", "=q3=Purple Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 7, 19707, "", "=q3=Red Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 8, 19714, "", "=q3=Silver Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			{ 9, 19709, "", "=q3=Yellow Hakkari Bijou", "=ds=#e15#", "", "2%"};
+			
+			{ 16, 19706, "", "=q2=Bloodscalp Coin", "=ds=#e15#", "", "5%"};
+			{ 17, 19701, "", "=q2=Gurubashi Coin", "=ds=#e15#", "", "5%"};
+			{ 18, 19700, "", "=q2=Hakkari Coin", "=ds=#e15#", "", "5%"};
+			{ 19, 19699, "", "=q2=Razzashi Coin", "=ds=#e15#", "", "5%"};
+			{ 20, 19704, "", "=q2=Sandfury Coin", "=ds=#e15#", "", "5%"};
+			{ 21, 19705, "", "=q2=Skullsplitter Coin", "=ds=#e15#", "", "5%"};
+			{ 22, 19702, "", "=q2=Vilebranch Coin", "=ds=#e15#", "", "5%"};
+			{ 23, 19703, "", "=q2=Witherbark Coin", "=ds=#e15#", "", "5%"};
+			{ 24, 19698, "", "=q2=Zulian Coin", "=ds=#e15#", "", "5%"};
 		}
 	},
 	info = {
@@ -6146,7 +6178,7 @@ AtlasLoot_Data["ZGTrash"] = {
 	},
 };
 
-AtlasLoot_Data["ZGEnchants"] = {
+AtlasLoot_Data["ZulGurubEnchants"] = {
 	["Normal"] = {
 		{
 			{ 1, 19790, "", "=q3=Animist's Caress", "=q1=#m1# =ds=#c1#"};
