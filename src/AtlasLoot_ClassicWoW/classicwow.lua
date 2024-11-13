@@ -875,8 +875,9 @@ AtlasLoot_Data["BlackrockDepthsLordIncendius"] = {
 			{ 2, 11767, "", "=q3=Emberplate Armguards", "=ds=#s8#, #a4#", "", "25%" },
 			{ 3, 11766, "", "=q3=Flameweave Cuffs", "=ds=#s8#, #a1#", "", "25%" },
 			{ 4, 11765, "", "=q3=Pyremail Wristguards", "=ds=#s8#, #a3#", "", "25%" },
-			{ 6, 21987, "", "=q1=Incendicite of Incendius", "=ds=#m3#", "", "100%" },
-			{ 7, 11126, "", "=q1=Tablet of Kurniya", "=ds=#m3#", "", "100%" },
+			{ 6, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "2%" },
+			{ 8, 21987, "", "=q1=Incendicite of Incendius", "=ds=#m3#", "", "100%" },
+			{ 9, 11126, "", "=q1=Tablet of Kurniya", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1049,6 +1050,25 @@ AtlasLoot_Data["BlackrockDepthsArena"] = {
 	},
 	info = {
 		name = AL["Ring of Law"],
+		module = moduleName,
+		instance = "BlackrockDepths",
+	},
+};
+
+AtlasLoot_Data["BlackrockDepthsTheldren"] = {
+	["Normal"] = {
+		{
+			{ 1, 22047, "", "=q1=Top Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+
+			{ 3, 0, "INV_Box_01", "=q6=Arena Spoils", "" },
+			{ 4, 22305, "", "=q3=Ironweave Mantle", "=ds=#s3#, #a1#", "", "25%" },
+			{ 5, 22317, "", "=q3=Lefty's Brass Knuckles", "=ds=#h1#, #w13#", "", "25%" },
+			{ 6, 22318, "", "=q3=Malgen's Long Bow", "=ds=#w2#", "", "25%" },
+			{ 7, 22330, "", "=q3=Shroud of Arcane Mastery", "=ds=#s4#", "", "25%" },
+		},
+	},
+	info = {
+		name = AL["Theldren"] .. " (" .. AL["Summon"] .. ")",
 		module = moduleName,
 		instance = "BlackrockDepths",
 	},
@@ -1300,7 +1320,7 @@ AtlasLoot_Data["LowerBlackrockSpireHighlordOmokk"] = {
 			{ 3, 13170, "", "=q3=Skyshroud Leggings", "=ds=#s11#, #a1#", "", "16.7%" },
 			{ 4, 13166, "", "=q3=Slamshot Shoulders", "=ds=#s3#, #a4#", "", "16.7%" },
 			{ 5, 13169, "", "=q3=Tressermane Leggings", "=ds=#s11#, #a2#", "", "16.7%" },
-			{ 7, 16670, "", "=q3=Boots of Elements", "=ds=#s12#, #a3# =q1=(#j6#)", "", "16.7%" },
+			{ 7, 16670, "", "=q3=Boots of Elements", "=ds=#s12#, #a3# =q1=#j6#", "", "16.7%" },
 			{ 9, 12336, "", "=q2=Gemstone of Spirestone", "=ds=#m3#", "", "100%" },
 			{ 10, 12534, "", "=q1=Omokk's Head", "=ds=#m3#", "", "100%" },
 		},
@@ -1321,7 +1341,7 @@ AtlasLoot_Data["LowerBlackrockSpireShadowHunterVoshgajin"] = {
 			{ 4, 13255, "", "=q3=Trueaim Gauntlets", "=ds=#s9#, #a3#", "", "21%" },
 			{ 5, 12651, "", "=q3=Blackcrow", "=ds=#w3#", "", "8%" },
 			{ 6, 12653, "", "=q3=Riphook", "=ds=#w2#", "", "8%" },
-			{ 8, 16712, "", "=q3=Shadowcraft Gloves", "=ds=#s9#, #a2# =q1=(#j6#)", "", "21%" },
+			{ 8, 16712, "", "=q3=Shadowcraft Gloves", "=ds=#s9#, #a2# =q1=#j6#", "", "21%" },
 			{ 10, 13352, "", "=q1=Vosh'gajin's Snakestone", "=ds=#m3#", "", "100%" },
 		},
 	},
@@ -1340,7 +1360,7 @@ AtlasLoot_Data["LowerBlackrockSpireWarMasterVoone"] = {
 			{ 3, 22231, "", "=q3=Kayser's Boots of Precision", "=ds=#s12#, #a1#", "", "20%" },
 			{ 4, 12582, "", "=q3=Keris of Zul'Serak", "=ds=#h1#, #w4#", "", "20%" },
 			{ 5, 13177, "", "=q3=Talisman of Evasion", "=ds=#s2#", "", "20%" },
-			{ 7, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#s9#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 7, 16676, "", "=q3=Beaststalker's Gloves", "=ds=#s9#, #a3# =q1=#j6#", "", "20%" },
 			{ 9, 12335, "", "=q2=Gemstone of Smolderthorn", "=ds=#m3#", "", "100%" },
 		},
 	},
@@ -1351,13 +1371,32 @@ AtlasLoot_Data["LowerBlackrockSpireWarMasterVoone"] = {
 	},
 };
 
+AtlasLoot_Data["LowerBlackrockSpireMorGrayhoof"] = {
+	["Normal"] = {
+		{
+			{ 1, 22325, "", "=q3=Belt of the Trickster", "=ds=#s10#, #a2#", "", "20%" },
+			{ 2, 22398, "", "=q3=Idol of Rejuvenation", "=ds=#w14#", "", "20%" },
+			{ 3, 22306, "", "=q3=Ironweave Belt", "=ds=#s10#, #a1#", "", "20%" },
+			{ 4, 22322, "", "=q3=The Jaw Breaker", "=ds=#h1#, #w6#", "", "20%" },
+			{ 5, 22319, "", "=q3=Tome of Divine Right", "=ds=#s15#", "", "20%" },
+			{ 7, 21984, "", "=q1=Left Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+			{ 8, 22046, "", "=q1=Right Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Mor Grayhoof"] .. " (" .. AL["Summon"] .. ")",
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
 AtlasLoot_Data["LowerBlackrockSpireMotherSmolderweb"] = {
 	["Normal"] = {
 		{
 			{ 1, 13244, "", "=q3=Gilded Gauntlets", "=ds=#s9#, #a3#", "", "35%" },
 			{ 2, 13213, "", "=q3=Smolderweb's Eye", "=ds=#s14#", "", "35%" },
 			{ 3, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "", "15%" },
-			{ 5, 16715, "", "=q3=Wildheart Boots", "=ds=#s12#, #a2# =q1=(#j6#)", "", "15%" },
+			{ 5, 16715, "", "=q3=Wildheart Boots", "=ds=#s12#, #a2# =q1=#j6#", "", "15%" },
 		},
 	},
 	info = {
@@ -1423,7 +1462,7 @@ AtlasLoot_Data["LowerBlackrockSpireGizrulTheSlavener"] = {
 			{ 1, 13208, "", "=q3=Bleak Howler Armguards", "=ds=#s8#, #a2#", "", "28.3%" },
 			{ 2, 13205, "", "=q3=Rhombeard Protector", "=ds=#w8#", "", "28.3%" },
 			{ 3, 13206, "", "=q3=Wolfshear Leggings", "=ds=#s11#, #a1#", "", "28.3%" },
-			{ 5, 16718, "", "=q3=Wildheart Spaulders", "=ds=#s3#, #a2# =q1=(#j6#)", "", "15%" },
+			{ 5, 16718, "", "=q3=Wildheart Spaulders", "=ds=#s3#, #a2# =q1=#j6#", "", "15%" },
 		},
 	},
 	info = {
@@ -1441,7 +1480,7 @@ AtlasLoot_Data["LowerBlackrockSpireOverlordWyrmthalak"] = {
 			{ 3, 13163, "", "=q3=Relentless Scythe", "=ds=#h2#, #w10#", "", "20%" },
 			{ 4, 13161, "", "=q3=Trindlehaven Staff", "=ds=#w9#", "", "20%" },
 			{ 5, 13143, "", "=q4=Mark of the Dragon Lord", "=ds=#s13#", "", "2%" },
-			{ 7, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#s3#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 7, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#s3#, #a3# =q1=#j6#", "", "20%" },
 			{ 9, 12337, "", "=q2=Gemstone of Bloodaxe", "=ds=#m3#", "", "100%" },
 			{ 10, 12780, "", "=q1=General Drakkisath's Command", "=ds=#m2# (#m7#)", "", "100%" },
 		},
@@ -1560,13 +1599,13 @@ AtlasLoot_Data["LowerBlackrockSpireTrash"] = {
 	["Normal"] = {
 		{
 			{ 1, 13260, "", "=q3=Wind Dancer Boots", "=ds=#s12#, #a3#", "", "~0.025%" },
-			{ 3, 16680, "", "=q3=Beaststalker's Belt", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.78%" },
-			{ 4, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=(#j6#)", "", "~3.04%" },
-			{ 5, 16673, "", "=q3=Cord of Elements", "=ds=#s10#, #a3# =q1=(#j6#)", "", "~2.21%" },
-			{ 6, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=(#j6#)", "", "~3.12%" },
-			{ 7, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~1.435%" },
-			{ 8, 16683, "", "=q3=Magister's Bindings", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.25%" },
-			{ 9, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "~1.56%" },
+			{ 3, 16680, "", "=q3=Beaststalker's Belt", "=ds=#s10#, #a3# =q1=#j6#", "", "~2.78%" },
+			{ 4, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=#j6#", "", "~3.04%" },
+			{ 5, 16673, "", "=q3=Cord of Elements", "=ds=#s10#, #a3# =q1=#j6#", "", "~2.21%" },
+			{ 6, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=#j6#", "", "~3.12%" },
+			{ 7, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=#j6#", "", "~1.435%" },
+			{ 8, 16683, "", "=q3=Magister's Bindings", "=ds=#s8#, #a1# =q1=#j6#", "", "~2.25%" },
+			{ 9, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=#j6#", "", "~1.56%" },
 			{ 16, 16244, "", "=q2=Formula: Enchant Gloves - Greater Strength",  "=ds=#p4# (295) =q1=" .. AL["Spirestone Mystic"], "", "10.1%" },
 			{ 17, 16250, "", "=q2=Formula: Enchant Weapon - Superior Striking", "=ds=#p4# (300) =q1=" .. AL["Spirestone Warlord"], "", "7%" },
 			{ 18, 14513, "", "=q4=Pattern: Robe of the Archmage", "=ds=#p8# (300) =q1=#m1# =ds=#c3# =q1=" .. AL["Firebrand Pyromancer"], "", "18%" },
@@ -1595,7 +1634,7 @@ AtlasLoot_Data["UpperBlackrockSpirePyroguardEmberseer"] = {
 			{ 2, 12926, "", "=q3=Flaming Band", "=ds=#s13#", "", "20%" },
 			{ 3, 12927, "", "=q3=Truestrike Shoulders", "=ds=#s3#, #a2#", "", "20%" },
 			{ 4, 12905, "", "=q3=Wildfire Cape", "=ds=#s4#", "", "20%" },
-			{ 6, 16672, "", "=q3=Gauntlets of Elements", "=ds=#s9#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 6, 16672, "", "=q3=Gauntlets of Elements", "=ds=#s9#, #a3# =q1=#j6#", "", "20%" },
 			{ 8, 23320, "", "=q3=Tablet of Flame Shock VI", "=ds=#e10#", "", "8%" },
 			{ 10, 21988, "", "=q1=Ember of Emberseer", "=ds=#m3#", "", "100%" },
 			{ 11, 17322, "", "=q1=Eye of the Emberseer", "=ds=#m3#", "", "100%" },
@@ -1628,7 +1667,7 @@ AtlasLoot_Data["UpperBlackrockSpireSolakarFlamewreath"] = {
 			{ 2, 12589, "", "=q3=Dustfeather Sash", "=ds=#s10#, #a1#", "", "20%" },
 			{ 3, 12603, "", "=q3=Nightbrace Tunic", "=ds=#s5#, #a2#", "", "20%" },
 			{ 4, 12609, "", "=q3=Polychromatic Visionwrap", "=ds=#s5#, #a1#", "", "20%" },
-			{ 6, 16695, "", "=q3=Devout Mantle", "=ds=#s3#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 6, 16695, "", "=q3=Devout Mantle", "=ds=#s3#, #a1# =q1=#j6#", "", "20%" },
 			{ 8, 18657, "", "=q2=Schematic: Hyper-Radiant Flame Reflector", "=ds=#p5# (290)", "", "6%" },
 		},
 	},
@@ -1674,14 +1713,14 @@ AtlasLoot_Data["UpperBlackrockSpireWarchiefRendBlackhand"] = {
 			{ 10, 12940, "", "=q3=Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "", "6.79%" },
 			{ 11, 12939, "", "=q3=Dal'Rend's Tribal Guardian", "=ds=#h4#, #w10#", "", "7.61%" },
 			{ 12, 12590, "", "=q4=Felstriker", "=ds=#h1#, #w4#", "", "1.06%" },
-			{ 14, 16733, "", "=q3=Spaulders of Valor", "=ds=#s3#, #a4# =q1=(#j6#)", "", "20%" },
+			{ 14, 16733, "", "=q3=Spaulders of Valor", "=ds=#s3#, #a4# =q1=#j6#", "", "20%" },
 			{ 16, 12630, "", "=q1=Head of Rend Blackhand", "=ds=#m3#", "", "100%" },
 			{ 18, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Gyth"], "" },
 			{ 19, 12953, "", "=q3=Dragoneye Coif", "=ds=#s1#, #a3#", "", "20%" },
 			{ 20, 22225, "", "=q3=Dragonskin Cowl", "=ds=#s1#, #a1#", "", "20%" },
 			{ 21, 12952, "", "=q3=Gyth's Skull", "=ds=#s1#, #a4#", "", "20%" },
 			{ 22, 12960, "", "=q3=Tribal War Feathers", "=ds=#s1#, #a2#", "", "20%" },
-			{ 24, 16669, "", "=q3=Pauldrons of Elements", "=ds=#s3#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 24, 16669, "", "=q3=Pauldrons of Elements", "=ds=#s3#, #a3# =q1=#j6#", "", "20%" },
 			{ 26, 13522, "", "=q2=Recipe: Flask of Chromatic Resistance", "=ds=#p1# (300)", "", "3%" },
 			{ 28, 12871, "", "=q4=Chromatic Carapace", "=ds=#m3#", "", "4%" },
 		},
@@ -1705,12 +1744,33 @@ AtlasLoot_Data["UpperBlackrockSpireTheBeast"] = {
 			{ 7, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#, #a1#", "", "7.5%" },
 			{ 8, 12969, "", "=q3=Seeping Willow", "=ds=#h2#, #w6#", "", "7.5%" },
 			{ 9, 12965, "", "=q3=Spiritshroud Leggings", "=ds=#s11#, #a1#", "", "7.5%" },
-			{ 11, 16729, "", "=q3=Lightforge Spaulders", "=ds=#s3#, #a4# =q1=(#j6#)", "", "7.5%" },
+			{ 11, 16729, "", "=q3=Lightforge Spaulders", "=ds=#s3#, #a4# =q1=#j6#", "", "7.5%" },
 			{ 13, 24101, "", "=q3=Book of Ferocious Bite V", "=ds=#e10#", "", "13%" },
+			{ 15, 19227, "", "=q3=Ace of Beasts", "=ds=#e16#", "", "5%" },
 		},
 	},
 	info = {
 		name = BabbleBoss["The Beast"],
+		module = moduleName,
+		instance = "BlackrockSpireUpper",
+	},
+};
+
+AtlasLoot_Data["UpperBlackrockSpireLordValthalak"] = {
+	["Normal"] = {
+		{
+			{ 1, 22336, "", "=q3=Draconian Aegis of the Legion", "=ds=#w8#", "", "12.5%" },
+			{ 2, 22343, "", "=q3=Handguards of Savagery", "=ds=#s9#, #a3#", "", "12.5%" },
+			{ 3, 22302, "", "=q3=Ironweave Cowl", "=ds=#s1#, #a1#", "", "12.5%" },
+			{ 4, 22342, "", "=q3=Leggings of Torment", "=ds=#s11#, #a1#", "", "12.5%" },
+			{ 5, 22335, "", "=q3=Lord Valthalak's Staff of Command", "=ds=#w9#", "", "12.5%" },
+			{ 6, 22340, "", "=q3=Pendant of Celerity", "=ds=#s2#", "", "12.5%" },
+			{ 7, 22339, "", "=q3=Rune Band of Wizardry", "=ds=#s13#", "", "12.5%" },
+			{ 8, 22337, "", "=q3=Shroud of Domination", "=ds=#s4#", "", "12.5%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Lord Valthalak"] .. " (" .. AL["Summon"] .. ")",
 		module = moduleName,
 		instance = "BlackrockSpireUpper",
 	},
@@ -1731,15 +1791,15 @@ AtlasLoot_Data["UpperBlackrockSpireGeneralDrakkisath"] = {
 			{ 11, 15730, "", "=q3=Pattern: Red Dragonscale Breastplate", "=ds=#p7# (300)", "", "4%" },
 			{ 12, 13519, "", "=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)", "", "3%" },
 			{ 14, 16663, "", "=q1=Blood of the Black Dragon Champion", "=ds=#m3#", "", "100%" },
-			{ 16, 16674, "", "=q3=Beaststalker's Tunic", "=ds=#s5#, #a3# =q1=(#j6#)", "", "11.1%" },
-			{ 17, 16730, "", "=q3=Breastplate of Valor", "=ds=#s5#, #a4# =q1=(#j6#)", "", "11.1%" },
-			{ 18, 16690, "", "=q3=Devout Robe", "=ds=#s5#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 19, 16700, "", "=q3=Dreadmist Robe", "=ds=#s5#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 20, 16726, "", "=q3=Lightforge Breastplate", "=ds=#s5#, #a4# =q1=(#j6#)", "", "11.1%" },
-			{ 21, 16688, "", "=q3=Magister's Robes", "=ds=#s5#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 22, 16721, "", "=q3=Shadowcraft Tunic", "=ds=#s5#, #a2# =q1=(#j6#)", "", "11.1%" },
-			{ 23, 16666, "", "=q3=Vest of Elements", "=ds=#s5#, #a3# =q1=(#j6#)", "", "11.1%" },
-			{ 24, 16706, "", "=q3=Wildheart Vest", "=ds=#s5#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 16, 16674, "", "=q3=Beaststalker's Tunic", "=ds=#s5#, #a3# =q1=#j6#", "", "11.1%" },
+			{ 17, 16730, "", "=q3=Breastplate of Valor", "=ds=#s5#, #a4# =q1=#j6#", "", "11.1%" },
+			{ 18, 16690, "", "=q3=Devout Robe", "=ds=#s5#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 19, 16700, "", "=q3=Dreadmist Robe", "=ds=#s5#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 20, 16726, "", "=q3=Lightforge Breastplate", "=ds=#s5#, #a4# =q1=#j6#", "", "11.1%" },
+			{ 21, 16688, "", "=q3=Magister's Robes", "=ds=#s5#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 22, 16721, "", "=q3=Shadowcraft Tunic", "=ds=#s5#, #a2# =q1=#j6#", "", "11.1%" },
+			{ 23, 16666, "", "=q3=Vest of Elements", "=ds=#s5#, #a3# =q1=#j6#", "", "11.1%" },
+			{ 24, 16706, "", "=q3=Wildheart Vest", "=ds=#s5#, #a2# =q1=#j6#", "", "11.1%" },
 		},
 	},
 	info = {
@@ -1768,10 +1828,10 @@ AtlasLoot_Data["UpperBlackrockSpireTrash"] = {
 	["Normal"] = {
 		{
 			{ 1, 13260, "", "=q3=Wind Dancer Boots", "=ds=#s12#, #a3#", "", "~0.05%" },
-			{ 3, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=(#j6#) Blackhand Iron Guard", "", "6.7%" },
-			{ 4, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=(#j6#) Blackhand Summoner", "", "7.6%" },
-			{ 5, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=(#j6#) Blackhand Dreadweaver", "", "3.4%" },
-			{ 6, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=(#j6#) " .. AL["Blackhand Assassin"], "", "7%" },
+			{ 3, 16735, "", "=q3=Bracers of Valor", "=ds=#s8#, #a4# =q1=#j6# Blackhand Iron Guard", "", "6.7%" },
+			{ 4, 16696, "", "=q3=Devout Belt", "=ds=#s10#, #a1# =q1=#j6# Blackhand Summoner", "", "7.6%" },
+			{ 5, 16703, "", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# =q1=#j6# Blackhand Dreadweaver", "", "3.4%" },
+			{ 6, 16713, "", "=q3=Shadowcraft Belt", "=ds=#s10#, #a2# =q1=#j6# " .. AL["Blackhand Assassin"], "", "7%" },
 			{ 8, 16247, "", "=q2=Formula: Enchant 2H Weapon - Superior Impact", "=ds=#p4# (295) =q1=" .. AL["Blackhand Elite"], "", "10%" },
 			{ 10, 24102, "", "=q3=Manual of Eviscerate IX", "=ds=#e10# =q1=" .. AL["Blackhand Assassin"], "", "10%" },
 		},
@@ -2536,7 +2596,8 @@ AtlasLoot_Data["DireMaulEastHydrospawn"] = {
 			{ 3, 18317, "", "=q3=Tempest Talisman", "=ds=#s2#", "", "20%" },
 			{ 4, 18322, "", "=q3=Waterspout Boots", "=ds=#s12#, #a2#", "", "20%" },
 			{ 5, 18324, "", "=q3=Waveslicer", "=ds=#h2#, #w1#", "", "10%" },
-			{ 7, 18299, "", "=q1=Hydrospawn Essence", "=ds=#m3#", "", "100%" },
+			{ 7, 19268, "", "=q3=Ace of Elementals", "=ds=#e16#", "", "2%" },
+			{ 9, 18299, "", "=q1=Hydrospawn Essence", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -2582,6 +2643,26 @@ AtlasLoot_Data["DireMaulEastAlzzinTheWildshaper"] = {
 	},
 	info = {
 		name = BabbleBoss["Alzzin the Wildshaper"],
+		module = moduleName,
+		instance = "DireMaulEast",
+	},
+};
+
+AtlasLoot_Data["DireMaulEastIsalien"] = {
+	["Normal"] = {
+		{
+			{ 1, 22472, "", "=q3=Boots of Ferocity", "=ds=#s12#, #a2#", "", "16.7%" },
+			{ 2, 22315, "", "=q3=Hammer of Revitalization", "=ds=#h3#, #w6#", "", "16.7%" },
+			{ 3, 22314, "", "=q3=Huntsman's Harpoon", "=ds=#w7#", "", "16.7%" },
+			{ 4, 22304, "", "=q3=Ironweave Gloves", "=ds=#s9#, #a1#", "", "16.7%" },
+			{ 5, 22401, "", "=q3=Libram of Hope", "=ds=#w16#", "", "16.7%" },
+			{ 6, 22345, "", "=q3=Totem of Rebirth", "=ds=#w15#", "", "16.7%" },
+			{ 8, 21984, "", "=q1=Left Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+			{ 9, 22046, "", "=q1=Right Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Isalien"] .. " (" .. AL["Summon"] .. ")",
 		module = moduleName,
 		instance = "DireMaulEast",
 	},
@@ -2746,6 +2827,7 @@ AtlasLoot_Data["DireMaulNorthKingGordok"] = {
 			{ 7, 18527, "", "=q3=Harmonious Gauntlets", "=ds=#s9#, #a3#", "", "12.5%" },
 			{ 8, 18524, "", "=q3=Leggings of Destruction", "=ds=#s11#, #a3#", "", "12.5%" },
 			{ 10, 18780, "", "=q3=Top Half of Advanced Armorsmithing: Volume I", "=ds=#m3#", "", "9%" },
+			{ 12, 19258, "", "=q3=Ace of Warlords", "=ds=#e16#", "", "7%" },
 		},
 	},
 	info = {
@@ -3832,7 +3914,7 @@ AtlasLoot_Data["ScholomanceKirtonosTheHerald"] = {
 			{ 6, 13969, "", "=q3=Loomguard Armbraces", "=ds=#s8#, #a3#", "", "11.1%" },
 			{ 7, 13955, "", "=q3=Stoneform Shoulders", "=ds=#s3#, #a4#", "", "11.1%" },
 			{ 8, 13967, "", "=q3=Windreaver Greaves", "=ds=#s12#, #a3#", "", "11.1%" },
-			{ 10, 16734, "", "=q3=Boots of Valor", "=ds=#s12#, #a4# =q1=(#j6#)", "", "11.1%" },
+			{ 10, 16734, "", "=q3=Boots of Valor", "=ds=#s12#, #a4# =q1=#j6#", "", "11.1%" },
 		}
 	},
 	info = {
@@ -3851,7 +3933,7 @@ AtlasLoot_Data["ScholomanceJandiceBarov"] = {
 			{ 4, 14548, "", "=q3=Royal Cap Spaulders", "=ds=#s3#, #a3#", "", "13.8%" },
 			{ 5, 22394, "", "=q3=Staff of Metanoia", "=ds=#w9#", "", "13.8%" },
 			{ 6, 18690, "", "=q3=Wraithplate Leggings", "=ds=#s11#, #a4#", "", "13.8%" },
-			{ 8, 16701, "", "=q3=Dreadmist Mantle", "=ds=#s3#, #a1# =q1=(#j6#)", "", "17%" },
+			{ 8, 16701, "", "=q3=Dreadmist Mantle", "=ds=#s3#, #a1# =q1=#j6#", "", "17%" },
 			{ 10, 13725, "", "=q1=Krastinov's Bag of Horrors", "=ds=#m3#", "", "100%" },
 			{ 11, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "100%" },
 		}
@@ -3872,7 +3954,7 @@ AtlasLoot_Data["ScholomanceRattlegore"] = {
 			{ 4, 14538, "", "=q3=Deadwalker Mantle", "=ds=#s3#, #a1#", "", "14%" },
 			{ 5, 14531, "", "=q3=Frightskull Shaft", "=ds=#h2#, #w6#", "", "14%" },
 			{ 6, 14528, "", "=q3=Rattlecage Buckler", "=ds=#w8#", "", "14%" },
-			{ 8, 16711, "", "=q3=Shadowcraft Boots", "=ds=#s12#, #a2# =q1=(#j6#)", "", "16%" },
+			{ 8, 16711, "", "=q3=Shadowcraft Boots", "=ds=#s12#, #a2# =q1=#j6#", "", "16%" },
 			{ 10, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "40%" },
 			{ 12, 13873, "", "=q1=Viewing Room Key", "=ds=#e9#", "", "100%" },
 		}
@@ -3936,13 +4018,32 @@ AtlasLoot_Data["ScholomanceRasFrostwhisper"] = {
 			{ 10, 18693, "", "=q3=Shivery Handwraps", "=ds=#s9#, #a1#", "", "8.3%" },
 			{ 11, 18695, "", "=q3=Spellbound Tome", "=ds=#s15#", "", "8.3%" },
 			{ 12, 13314, "", "=q4=Alanna's Embrace", "=ds=#s5#, #a1#", "", "0.36%" },
-			{ 14, 16689, "", "=q3=Magister's Mantle", "=ds=#s3#, #a1# =q1=(#j6#)", "", "8.3%" },
+			{ 14, 16689, "", "=q3=Magister's Mantle", "=ds=#s3#, #a1# =q1=#j6#", "", "8.3%" },
 			{ 16, 13521, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)", "", "4%" },
 			{ 18, 13626, "", "=q1=Human Head of Ras Frostwhisper", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
 		name = BabbleBoss["Ras Frostwhisper"],
+		module = moduleName,
+		instance = "Scholomance",
+	},
+};
+
+AtlasLoot_Data["ScholomanceKormok"] = {
+	["Normal"] = {
+		{
+			{ 1, 22326, "", "=q3=Amalgam's Band", "=ds=#s13#", "", "20%" },
+			{ 2, 22331, "", "=q3=Band of the Steadfast Hero", "=ds=#s13#", "", "20%" },
+			{ 3, 22332, "", "=q3=Blade of Necromancy", "=ds=#h1#, #w10#", "", "20%" },
+			{ 4, 22333, "", "=q3=Hammer of Divine Might", "=ds=#h2#, #w6#", "", "20%" },
+			{ 5, 22303, "", "=q3=Ironweave Pants", "=ds=#s11#, #a1#", "", "20%" },
+			{ 7, 21984, "", "=q1=Left Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+			{ 8, 22046, "", "=q1=Right Piece of Lord Valthalak's Amulet", "=ds=#m3#", "", "100%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Kormok"] .. " (" .. AL["Summon"] .. ")",
 		module = moduleName,
 		instance = "Scholomance",
 	},
@@ -3963,7 +4064,7 @@ AtlasLoot_Data["ScholomanceLorekeeperPolkelt"] = {
 			{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
 			{ 11, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
 			{ 12, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
-			{ 14, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# =q1=(#j6#)", "", "17%" },
+			{ 14, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# =q1=#j6#", "", "17%" },
 			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
 			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
 			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
@@ -4003,7 +4104,7 @@ AtlasLoot_Data["ScholomanceDoctorTheolenKrastinov"] = {
 			{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
 			{ 11, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
 			{ 12, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
-			{ 14, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# =q1=(#j6#)", "", "14%" },
+			{ 14, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# =q1=#j6#", "", "14%" },
 			{ 15, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%" },
 			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
 			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
@@ -4044,7 +4145,7 @@ AtlasLoot_Data["ScholomanceInstructorMalicia"] = {
 			{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
 			{ 11, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
 			{ 12, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
-			{ 14, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2# =q1=(#j6#)", "", "5%" },
+			{ 14, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2# =q1=#j6#", "", "5%" },
 			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
 			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
 			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
@@ -4123,7 +4224,7 @@ AtlasLoot_Data["ScholomanceLordAlexeiBarov"] = {
 			{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "2.2%" },
 			{ 11, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "2.2%" },
 			{ 12, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "2.2%" },
-			{ 14, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# =q1=(#j6#)", "", "5%" },
+			{ 14, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# =q1=#j6#", "", "5%" },
 			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "2.2%" },
 			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "2.2%" },
 			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "2.2%" },
@@ -4163,7 +4264,7 @@ AtlasLoot_Data["ScholomanceTheRavenian"] = {
 			{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "1.11%" },
 			{ 11, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.11%" },
 			{ 12, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "1.11%" },
-			{ 14, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# =q1=(#j6#)", "", "4%" },
+			{ 14, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# =q1=#j6#", "", "4%" },
 			{ 16, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "1.11%" },
 			{ 17, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "1.11%" },
 			{ 18, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "1.11%" },
@@ -4201,15 +4302,16 @@ AtlasLoot_Data["ScholomanceDarkmasterGandling"] = {
 			{ 8, 13937, "", "=q4=Headmaster's Charge", "=ds=#w9#", "", "2%" },
 			{ 10, 14514, "", "=q4=Pattern: Robe of the Void", "=ds=#p8# (300)", "", "7%" },
 			{ 11, 13501, "", "=q2=Recipe: Major Mana Potion", "=ds=#p1# (295)", "", "10%" },
-			{ 16, 16677, "", "=q3=Beaststalker's Cap", "=ds=#s1#, #a3# =q1=(#j6#)", "", "11.1%" },
-			{ 17, 16667, "", "=q3=Coif of Elements", "=ds=#s1#, #a3# =q1=(#j6#)", "", "11.1%" },
-			{ 18, 16693, "", "=q3=Devout Crown", "=ds=#s1#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 19, 16698, "", "=q3=Dreadmist Mask", "=ds=#s1#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 20, 16731, "", "=q3=Helm of Valor", "=ds=#s1#, #a4# =q1=(#j6#)", "", "11.1%" },
-			{ 21, 16727, "", "=q3=Lightforge Helm", "=ds=#s1#, #a4# =q1=(#j6#)", "", "11.1%" },
-			{ 22, 16686, "", "=q3=Magister's Crown", "=ds=#s1#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 23, 16707, "", "=q3=Shadowcraft Cap", "=ds=#s1#, #a2# =q1=(#j6#)", "", "11.1%" },
-			{ 24, 16720, "", "=q3=Wildheart Cowl", "=ds=#s1#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 13, 19276, "", "=q3=Ace of Portals", "=ds=#e16#", "", "3%" },
+			{ 16, 16677, "", "=q3=Beaststalker's Cap", "=ds=#s1#, #a3# =q1=#j6#", "", "11.1%" },
+			{ 17, 16667, "", "=q3=Coif of Elements", "=ds=#s1#, #a3# =q1=#j6#", "", "11.1%" },
+			{ 18, 16693, "", "=q3=Devout Crown", "=ds=#s1#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 19, 16698, "", "=q3=Dreadmist Mask", "=ds=#s1#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 20, 16731, "", "=q3=Helm of Valor", "=ds=#s1#, #a4# =q1=#j6#", "", "11.1%" },
+			{ 21, 16727, "", "=q3=Lightforge Helm", "=ds=#s1#, #a4# =q1=#j6#", "", "11.1%" },
+			{ 22, 16686, "", "=q3=Magister's Crown", "=ds=#s1#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 23, 16707, "", "=q3=Shadowcraft Cap", "=ds=#s1#, #a2# =q1=#j6#", "", "11.1%" },
+			{ 24, 16720, "", "=q3=Wildheart Cowl", "=ds=#s1#, #a2# =q1=#j6#", "", "11.1%" },
 		}
 	},
 	info = {
@@ -4229,9 +4331,9 @@ AtlasLoot_Data["ScholomanceTrash"] = {
 			{ 5, 18701, "", "=q3=Innervating Band", "=ds=#s13#", "", "~0.04%" },
 			{ 6, 18700, "", "=q3=Malefic Bracers", "=ds=#s8#, #a2#", "", "~0.255%" },
 			{ 7, 18698, "", "=q3=Tattered Leather Hood", "=ds=#s1#, #a2#", "", "~0.145%" },
-			{ 9, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# =q1=(#j6#)", "", "0.02%" },
-			{ 10, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# =q1=(#j6#)", "", "~2.15%" },
-			{ 11, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# =q1=(#j6#)", "", "4.6%" },
+			{ 9, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# =q1=#j6#", "", "0.02%" },
+			{ 10, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# =q1=#j6#", "", "~2.15%" },
+			{ 11, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# =q1=#j6#", "", "4.6%" },
 			{ 16, 16255, "", "=q2=Formula: Enchant 2H Weapon - Major Spirit", "=ds=#p4# (300) =q1=" .. AL["Scholomance Adept"], "", "2.2%" },
 			{ 17, 16254, "", "=q3=Formula: Enchant Weapon - Lifestealing", "=ds=#p4# (300) =q1=" .. AL["Spectral Researcher"], "", "0.88%" },
 			{ 18, 15776, "", "=q2=Pattern: Runic Leather Armor", "=ds=#p7# (300) =q1=" .. AL["Scholomance Dark Summoner"], "", "3.7%" },
@@ -4245,9 +4347,9 @@ AtlasLoot_Data["ScholomanceTrash"] = {
 	},
 };
 
--------------------------
------ Shadowfang Keep  ---
--------------------------
+------------------------
+--- Shadowfang Keep  ---
+------------------------
 
 AtlasLoot_Data["ShadowfangKeepRethilgore"] = {
 	["Normal"] = {
@@ -4430,7 +4532,7 @@ AtlasLoot_Data["LiveStratholmeTheUnforgiven"] = {
 			{ 2, 13408, "", "=q3=Soul Breaker", "=ds=#h1#, #w1#", "", "20%" },
 			{ 3, 13409, "", "=q3=Tearfall Bracers", "=ds=#s8#, #a1#", "", "20%" },
 			{ 4, 13405, "", "=q3=Wailing Nightbane Pauldrons", "=ds=#s3#, #a4#", "", "20%" },
-			{ 6, 16717, "", "=q3=Wildheart Gloves", "=ds=#s9#, #a2# =q1=(#j6#)", "", "20%" },
+			{ 6, 16717, "", "=q3=Wildheart Gloves", "=ds=#s9#, #a2# =q1=#j6#", "", "20%" },
 		}
 	},
 	info = {
@@ -4447,7 +4549,7 @@ AtlasLoot_Data["LiveStratholmeHearthsingerForresten"] = {
 			{ 2, 13384, "", "=q3=Rainbow Girdle", "=ds=#s10#, #a4#", "", "20%" },
 			{ 3, 13378, "", "=q3=Songbird Blouse", "=ds=#s5#, #a2#", "", "20%" },
 			{ 4, 13383, "", "=q3=Woollies of the Prancing Minstrel", "=ds=#s11#, #a3#", "", "20%" },
-			{ 6, 16682, "", "=q3=Magister's Boots", "=ds=#s12#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 6, 16682, "", "=q3=Magister's Boots", "=ds=#s12#, #a1# =q1=#j6#", "", "20%" },
 		}
 	},
 	info = {
@@ -4464,7 +4566,7 @@ AtlasLoot_Data["LiveStratholmeTimmyTheCruel"] = {
 			{ 2, 13401, "", "=q3=The Cruel Hand of Timmy", "=ds=#h1#, #w6#", "", "20%" },
 			{ 3, 13402, "", "=q3=Timmy's Galoshes", "=ds=#s12#, #a3#", "", "20%" },
 			{ 4, 13400, "", "=q3=Vambraces of the Sadist", "=ds=#s8#, #a4#", "", "20%" },
-			{ 6, 16724, "", "=q3=Lightforge Gauntlets", "=ds=#s9#, #a4# =q1=(#j6#)", "", "20%" },
+			{ 6, 16724, "", "=q3=Lightforge Gauntlets", "=ds=#s9#, #a4# =q1=#j6#", "", "20%" },
 		}
 	},
 	info = {
@@ -4517,7 +4619,7 @@ AtlasLoot_Data["LiveStratholmeCannonMasterWilley"] = {
 			{ 8, 22406, "", "=q3=Redemption", "=ds=#w9#", "", "10%" },
 			{ 9, 22404, "", "=q3=Willey's Back Scratcher", "=ds=#h3#, #w13#", "", "10%" },
 			{ 10, 13380, "", "=q3=Willey's Portable Howitzer", "=ds=#w5#", "", "10%" },
-			{ 12, 16708, "", "=q3=Shadowcraft Spaulders", "=ds=#s3#, #a2# =q1=(#j6#)", "", "10%" },
+			{ 12, 16708, "", "=q3=Shadowcraft Spaulders", "=ds=#s3#, #a2# =q1=#j6#", "", "10%" },
 			{ 14, 12839, "", "=q3=Plans: Heartseeker", "=ds=#p2# (300)", "", "6%" },
 		}
 	},
@@ -4535,7 +4637,7 @@ AtlasLoot_Data["LiveStratholmeArchivistGalford"] = {
 			{ 2, 18716, "", "=q3=Ash Covered Boots", "=ds=#s12#, #a2#", "", "22%" },
 			{ 3, 13387, "", "=q3=Foresight Girdle", "=ds=#s10#, #a3#", "", "22%" },
 			{ 4, 13385, "", "=q3=Tome of Knowledge", "=ds=#s15#", "", "12%" },
-			{ 6, 16692, "", "=q3=Devout Gloves", "=ds=#s9#, #a1# =q1=(#j6#)", "", "22%" },
+			{ 6, 16692, "", "=q3=Devout Gloves", "=ds=#s9#, #a1# =q1=#j6#", "", "22%" },
 			{ 8, 22897, "", "=q3=Tome of Conjure Food VII", "=ds=#e10#", "", "14%" },
 			{ 10, 12811, "", "=q2=Righteous Orb", "=ds=#e8#", "", "66%" },
 			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Unfinished Painting"], "" },
@@ -4562,13 +4664,34 @@ AtlasLoot_Data["LiveStratholmeBalnazzar"] = {
 			{ 8, 12103, "", "=q3=Star of Mystaria", "=ds=#s2#", "", "9.8%" },
 			{ 9, 13358, "", "=q3=Wyrmtongue Shoulders", "=ds=#s3#, #a2#", "", "9.8%" },
 			{ 10, 13353, "", "=q4=Book of the Dead", "=ds=#s15#", "", "2%" },
-			{ 12, 16725, "", "=q3=Lightforge Boots", "=ds=#s12#, #a4# =q1=(#j6#)", "", "9.8%" },
+			{ 12, 16725, "", "=q3=Lightforge Boots", "=ds=#s12#, #a4# =q1=#j6#", "", "9.8%" },
 			{ 14, 14512, "", "=q4=Pattern: Truefaith Vestments", "=ds=#p8# (300) =q1=#m1# =ds=#c5#", "", "6%" },
 			{ 15, 13520, "", "=q2=Recipe: Flask of Distilled Wisdom", "=ds=#p1# (300)", "", "3%" },
+			{ 16, 13250, "", "=q1=Head of Balnazzar", "=ds=#m3#", "", "100%" },
 		}
 	},
 	info = {
 		name = BabbleBoss["Balnazzar"],
+		module = moduleName,
+		instance = "StratholmeCrusader",
+	},
+};
+
+AtlasLoot_Data["LiveStratholmeSothosJarien"] = {
+	["Normal"] = {
+		{
+			{ 1, 21984, "", "=q1=Left Piece of Lord Valthalak's Amulet", "=ds=#m3# =q2=#m5#", "", "100%" },
+			{ 2, 22046, "", "=q1=Right Piece of Lord Valthalak's Amulet", "=ds=#m3# =q2=#m5#", "", "100%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Sothos and Jarien"] .. "'s Heirlooms", "" },
+			{ 17, 22327, "", "=q3=Amulet of the Redeemed", "=ds=#s2#", "", "20%" },
+			{ 18, 22334, "", "=q3=Band of Mending", "=ds=#s13#", "", "20%" },
+			{ 19, 22301, "", "=q3=Ironweave Robe", "=ds=#s5#, #a1#", "", "20%" },
+			{ 20, 22328, "", "=q3=Legplates of Vigilance", "=ds=#s11#, #a4#", "", "20%" },
+			{ 21, 22329, "", "=q3=Scepter of Interminable Focus", "=ds=#s15#", "", "20%" },
+		}
+	},
+	info = {
+		name = AL["Sothos and Jarien"] .. " (" .. AL["Summon"] .. ")",
 		module = moduleName,
 		instance = "StratholmeCrusader",
 	},
@@ -4599,7 +4722,7 @@ AtlasLoot_Data["StratholmeTrash"] = {
 			{ 5, 18736, "", "=q3=Plaguehound Leggings", "=ds=#s11#, #a2#", "", "~0.03%" },
 			{ 6, 18745, "", "=q3=Sacred Cloth Leggings", "=ds=#s11#, #a1#", "", "~0.045%" },
 			{ 7, 18742, "", "=q3=Stratholme Militia Shoulderguard", "=ds=#s3#, #a3#", "", "~0.025%" },
-			{ 9, 16697, "", "=q3=Devout Bracers", "=ds=#s8#, #a1# =q1=(#j6#)", "", "~2.325%" },
+			{ 9, 16697, "", "=q3=Devout Bracers", "=ds=#s8#, #a1# =q1=#j6#", "", "~2.325%" },
 			{ 11, 12811, "", "=q2=Righteous Orb", "=ds=#e8#", "", "~3.45%" },
 			{ 16, 16249, "", "=q2=Formula: Enchant 2H Weapon - Major Intellect", "=ds=#p4# (300) =q1=" .. AL["Crimson Sorcerer"], "", "2.3%" },
 			{ 17, 16248, "", "=q2=Formula: Enchant Weapon - Unholy", "=ds=#p4# (295) =q1=" .. AL["Thuzadin Shadowcaster"], "", "0.88%" },
@@ -4667,7 +4790,7 @@ AtlasLoot_Data["UndeadStratholmeBaronessAnastari"] = {
 			{ 7, 13535, "", "=q3=Coldtouch Phantom Wraps", "=ds=#s5#, #a1#", "", "20%" },
 			{ 8, 13514, "", "=q2=Wail of the Banshee", "=ds=#m20#", "", "20%" },
 			{ 9, 13538, "", "=q3=Windshrieker Pauldrons",  "=ds=#s3#, #a3#", "", "20%" },
-			{ 11, 16704, "", "=q3=Dreadmist Sandals", "=ds=#s12#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 11, 16704, "", "=q3=Dreadmist Sandals", "=ds=#s12#, #a1# =q1=#j6#", "", "20%" },
 		}
 	},
 	info = {
@@ -4689,7 +4812,7 @@ AtlasLoot_Data["UndeadStratholmeNerubenkan"] = {
 			{ 7, 13532, "", "=q2=Darkspinner Claws", "=ds=#s9#, #a3#", "", "20%" },
 			{ 8, 13508, "", "=q2=Eye of Arachnida", "=ds=#m20#", "", "20%" },
 			{ 9, 13530, "", "=q2=Fangdrip Runners", "=ds=#s12#, #a1#", "", "20%" },
-			{ 11, 16675, "", "=q3=Beaststalker's Boots", "=ds=#s12#, #a3# =q1=(#j6#)", "", "20%" },
+			{ 11, 16675, "", "=q3=Beaststalker's Boots", "=ds=#s12#, #a3# =q1=#j6#", "", "20%" },
 		}
 	},
 	info = {
@@ -4711,7 +4834,7 @@ AtlasLoot_Data["UndeadStratholmeMalekiThePallid"] = {
 			{ 7, 13526, "", "=q3=Flamescarred Girdle", "=ds=#s10#, #a2#", "", "20%" },
 			{ 8, 13527, "", "=q3=Lavawalker Greaves", "=ds=#s12#, #a4#", "", "20%" },
 			{ 9, 13528, "", "=q3=Twilight Void Bracers", "=ds=#s8#, #a3#", "", "20%" },
-			{ 11, 16691, "", "=q3=Devout Sandals", "=ds=#s12#, #a1# =q1=(#j6#)", "", "20%" },
+			{ 11, 16691, "", "=q3=Devout Sandals", "=ds=#s12#, #a1# =q1=#j6#", "", "20%" },
 			{ 13, 12833, "", "=q3=Plans: Hammer of the Titans", "=ds=#p2# (300)", "", "6%" },
 		}
 	},
@@ -4731,7 +4854,7 @@ AtlasLoot_Data["UndeadStratholmeRamsteinTheGorger"] = {
 			{ 4, 13515, "", "=q3=Ramstein's Lightning Bolts", "=ds=#s14#", "", "14.7%" },
 			{ 5, 13372, "", "=q3=Slavedriver's Cane", "=ds=#w9#", "", "14.7%" },
 			{ 6, 13374, "", "=q3=Soulstealer Mantle", "=ds=#s3#, #a1#", "", "14.7%" },
-			{ 8, 16737, "", "=q3=Gauntlets of Valor", "=ds=#s9#, #a4# =q1=(#j6#)", "", "12%" },
+			{ 8, 16737, "", "=q3=Gauntlets of Valor", "=ds=#s9#, #a4# =q1=#j6#", "", "12%" },
 			{ 10, 15880, "", "=q1=Head of Ramstein the Gorger", "=ds=#m3#", "", "100%" },
 		}
 	},
@@ -4759,15 +4882,15 @@ AtlasLoot_Data["UndeadStratholmeBaronRivendare"] = {
 			{ 12, 13361, "", "=q3=Skullforge Reaver", "=ds=#h1#, #w10#", "", "6%" },
 			{ 13, 13505, "", "=q4=Runeblade of Baron Rivendare", "=ds=#h2#, #w10#", "", "1%" },
 			{ 15, 13335, "", "=q4=Deathcharger's Reins", "=ds=#e26#", "", "1%" },
-			{ 16, 16678, "", "=q3=Beaststalker's Pants", "=ds=#s11#, #a3# =q1=(#j6#)", "", "11.1%" },
-			{ 17, 16694, "", "=q3=Devout Skirt", "=ds=#s11#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 18, 16699, "", "=q3=Dreadmist Leggings", "=ds=#s11#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 19, 16668, "", "=q3=Kilt of Elements", "=ds=#s11#, #a3# =q1=(#j6#)", "", "11.1%" },
-			{ 20, 16732, "", "=q3=Legplates of Valor", "=ds=#s11#, #a4# =q1=(#j6#)", "", "11.1%" },
-			{ 21, 16728, "", "=q3=Lightforge Legplates", "=ds=#s11#, #a4# =q1=(#j6#)", "", "11.1%" },
-			{ 22, 16687, "", "=q3=Magister's Leggings", "=ds=#s11#, #a1# =q1=(#j6#)", "", "11.1%" },
-			{ 23, 16709, "", "=q3=Shadowcraft Pants", "=ds=#s11#, #a2# =q1=(#j6#)", "", "11.1%" },
-			{ 24, 16719, "", "=q3=Wildheart Kilt", "=ds=#s11#, #a2# =q1=(#j6#)", "", "11.1%" },
+			{ 16, 16678, "", "=q3=Beaststalker's Pants", "=ds=#s11#, #a3# =q1=#j6#", "", "11.1%" },
+			{ 17, 16694, "", "=q3=Devout Skirt", "=ds=#s11#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 18, 16699, "", "=q3=Dreadmist Leggings", "=ds=#s11#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 19, 16668, "", "=q3=Kilt of Elements", "=ds=#s11#, #a3# =q1=#j6#", "", "11.1%" },
+			{ 20, 16732, "", "=q3=Legplates of Valor", "=ds=#s11#, #a4# =q1=#j6#", "", "11.1%" },
+			{ 21, 16728, "", "=q3=Lightforge Legplates", "=ds=#s11#, #a4# =q1=#j6#", "", "11.1%" },
+			{ 22, 16687, "", "=q3=Magister's Leggings", "=ds=#s11#, #a1# =q1=#j6#", "", "11.1%" },
+			{ 23, 16709, "", "=q3=Shadowcraft Pants", "=ds=#s11#, #a2# =q1=#j6#", "", "11.1%" },
+			{ 24, 16719, "", "=q3=Wildheart Kilt", "=ds=#s11#, #a2# =q1=#j6#", "", "11.1%" },
 			{ 26, 13251, "", "=q1=Head of Baron Rivendare", "=ds=#m3#", "", "100%" },
 		}
 	},
@@ -5068,13 +5191,10 @@ AtlasLoot_Data["SunkenTempleTrolls"] = {
 			{ 5, 10785, "", "=q3=Atal'ai Leggings", "=ds=#s11#, #a2#", "", "5%"},
 			{ 6, 10783, "", "=q3=Atal'ai Spaulders", "=ds=#s3#, #a2#", "", "4%"},
 			{ 7, 10784, "", "=q3=Atal'ai Breastplate", "=ds=#s5#, #a3#", "", "3%"},
-			--hukku & mijan
 			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Hukku"] ..	" & " .. BabbleBoss["Mijan"], "" },
 			{ 17, 20607, "", "=q1=Blue Voodoo Feather", "=ds=#m3#", "", "100%"},
-			--zul'lor & gasher
 			{ 19, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Zul'Lor"] ..	" & " .. BabbleBoss["Gasher"], "" },
 			{ 20, 20606, "", "=q1=Amber Voodoo Feather", "=ds=#m3#", "", "100%"},
-			--zolo & loro
 			{ 22, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Zolo"] ..	" & " .. BabbleBoss["Loro"], "" },
 			{ 23, 20608, "", "=q1=Green Voodoo Feather", "=ds=#m3#", "", "100%"},
 		},
