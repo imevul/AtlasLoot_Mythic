@@ -80,25 +80,27 @@ local moduleName = "AtlasLootBurningCrusade"
 --- Auchindoun: Auchenai Crypts ---
 -----------------------------------
 
-AtlasLoot_Data["AuchCryptsShirrak"] = {
+AtlasLoot_Data["AuchenaiCryptsShirrakTheDeadWatcher"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=#j1#",                                    "" },
-			{ 2,  27410, "",           "=q3=Collar of Command",                       "=ds=#s1#, #a1#",  "", "13.00%" },
-			{ 3,  27409, "",           "=q3=Raven-Heart Headdress",                   "=ds=#s1#, #a2#",  "", "11.18%" },
-			{ 4,  27408, "",           "=q3=Hope Bearer Helm",                        "=ds=#s1#, #a4#",  "", "15.16%" },
-			{ 5,  26055, "",           "=q3=Oculus of the Hidden Eye",                "=ds=#s14#",       "", "15.16%" },
-			{ 6,  25964, "",           "=q3=Shaarde the Lesser",                      "=ds=#h1#, #w10#", "", "11.59%" },
-			{ 16, 0,     "inv_box_04", "=q6=#j3#",                                    "" },
-			{ 17, 30587, "",           "=q4=Champion's Fire Opal",                    "=ds=#e7#",        "", "11.67%" },
-			{ 18, 30588, "",           "=q4=Potent Fire Opal",                        "=ds=#e7#",        "", "1.67%" },
-			{ 19, 30586, "",           "=q4=Purified Tanzanite",                      "=ds=#e7#",        "", "11.67%" },
-			{ 21, 27866, "",           "=q3=Scintillating Headdress of Second Sight", "=ds=#s1#, #a1#",  "", "15.00%" },
-			{ 22, 27493, "",           "=q3=Gloves of the Deadwatcher",               "=ds=#s9#, #a1#",  "", "10.87%" },
-			{ 23, 27865, "",           "=q3=Bracers of Shirrak",                      "=ds=#s8#, #a3#",  "", "21.74%" },
-			{ 24, 27845, "",           "=q3=Magma Plume Boots",                       "=ds=#s12#, #a3#", "", "23.91%" },
-			{ 25, 27847, "",           "=q3=Fanblade Pauldrons",                      "=ds=#s3#, #a4#",  "", "6.52%" },
-			{ 26, 27846, "",           "=q3=Claw of the Watcher",                     "=ds=#h3#, #w13#", "", "6.52%" },
+			{ 1,  27410, "", "=q3=Collar of Command", "=ds=#s1#, #a1#", "", "20%" },
+			{ 2,  27408, "", "=q3=Hope Bearer Helm", "=ds=#s1#, #a4#", "", "20%" },
+			{ 3,  26055, "", "=q3=Oculus of the Hidden Eye", "=ds=#s14#", "", "20%" },
+			{ 4,  27409, "", "=q3=Raven-Heart Headdress", "=ds=#s1#, #a2#", "", "20%" },
+			{ 5,  25964, "", "=q3=Shaarde the Lesser", "=ds=#h1#, #w10#", "", "20%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 27865, "", "=q3=Bracers of Shirrak", "=ds=#s8#, #a3#", "", "16.7%" },
+			{ 2, 27846, "", "=q3=Claw of the Watcher", "=ds=#h3#, #w13#", "", "16.7%" },
+			{ 3, 27847, "", "=q3=Fanblade Pauldrons", "=ds=#s3#, #a4#", "", "16.7%" },
+			{ 4, 27493, "", "=q3=Gloves of the Deadwatcher", "=ds=#s9#, #a1#", "", "16.7%" },
+			{ 5, 27845, "", "=q3=Magma Plume Boots", "=ds=#s12#, #a3#", "", "16.7%" },
+			{ 6, 27866, "", "=q3=Scintillating Headdress of Second Sight", "=ds=#s1#, #a1#", "", "16.7%" },
+			{ 8, 30587, "", "=q4=Champion's Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 9, 30588, "", "=q4=Potent Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 10, 30586, "", "=q4=Seer's Chrysoprase", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -108,30 +110,36 @@ AtlasLoot_Data["AuchCryptsShirrak"] = {
 	},
 };
 
-AtlasLoot_Data["AuchCryptsExarch"] = {
+AtlasLoot_Data["AuchenaiCryptsExarchMaladaar"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "inv_box_04", "=q6=#j3#",                            "" },
-			{ 2,  29354, "",           "=q4=Light-Touched Stole of Altruism", "=ds=#s4#",             "", "6.67%" },
-			{ 3,  29257, "",           "=q4=Sash of Arcane Visions",          "=ds=#s10#, #a1#",      "", "6.67%" },
-			{ 4,  29244, "",           "=q4=Wave-Song Girdle",                "=ds=#s10#, #a3#",      "", "20.00%" },
-			{ 6,  27867, "",           "=q3=Boots of the Unjust",             "=ds=#s12#, #a2#",      "", "3.33%" },
-			{ 7,  27871, "",           "=q3=Maladaar's Blessed Chaplet",      "=ds=#s2#",             "", "18.33%" },
-			{ 8,  27869, "",           "=q3=Soulpriest's Ring of Resolve",    "=ds=#s13#",            "", "18.33%" },
-			{ 9,  27523, "",           "=q3=Exarch's Diamond Band",           "=ds=#s13#",            "", "13.33%" },
-			{ 10, 27872, "",           "=q3=The Harvester of Souls",          "=ds=#h1#, #w1#",       "", "11.67%" },
-			{ 12, 33836, "",           "=q1=The Exarch's Soul Gem",           "=ds=#m3#",             "", "100%" },
-			{ 17, 30587, "",           "=q4=Champion's Fire Opal",            "=ds=#e7#",             "", "11.67%" },
-			{ 18, 30588, "",           "=q4=Potent Fire Opal",                "=ds=#e7#",             "", "1.67%" },
-			{ 19, 30586, "",           "=q4=Purified Tanzanite",              "=ds=#e7#",             "", "11.67%" },
-			{ 21, 27870, "",           "=q3=Doomplate Legguards",             "=ds=#s11#, #a4# (D3)", "", "3.33%" },
-			{ 23, 0,     "INV_Box_01", "=q6=#j1#",                            "" },
-			{ 24, 27411, "",           "=q3=Slippers of Serenity",            "=ds=#s12#, #a1#",      "", "8.14%" },
-			{ 25, 27415, "",           "=q3=Darkguard Face Mask",             "=ds=#s1#, #a2#",       "", "11.44%" },
-			{ 26, 27414, "",           "=q3=Mok'Nathal Beast-Mask",           "=ds=#s1#, #a3#",       "", "11.27%" },
-			{ 27, 27413, "",           "=q3=Ring of the Exarchs",             "=ds=#s13#",            "", "10.42%" },
-			{ 28, 27416, "",           "=q3=Fetish of the Fallen",            "=ds=#s14#",            "", "12.81%" },
-			{ 29, 27412, "",           "=q3=Ironstaff of Regeneration",       "=ds=#w9#",             "", "11.95%" },
+			{ 1, 27415, "", "=q3=Darkguard Face Mask", "=ds=#s1#, #a2#", "", "16.7%" },
+			{ 2, 27416, "", "=q3=Fetish of the Fallen", "=ds=#s14#", "", "16.7%" },
+			{ 3, 27412, "", "=q3=Ironstaff of Regeneration", "=ds=#w9#", "", "16.7%" },
+			{ 4, 27414, "", "=q3=Mok'Nathal Beast-Mask", "=ds=#s1#, #a3#", "", "16.7%" },
+			{ 5, 27413, "", "=q3=Ring of the Exarchs", "=ds=#s13#", "", "16.7%" },
+			{ 6, 27411, "", "=q3=Slippers of Serenity", "=ds=#s12#, #a1#", "", "16.7%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 29354, "", "=q4=Light-Touched Stole of Altruism", "=ds=#s4#", "", "33.3%" },
+			{ 2, 29257, "", "=q4=Sash of Arcane Visions", "=ds=#s10#, #a1#", "", "33.3%" },
+			{ 3, 29244, "", "=q4=Wave-Song Girdle", "=ds=#s10#, #a3#", "", "33.3%" },
+			{ 4, 27867, "", "=q3=Boots of the Unjust", "=ds=#s12#, #a2#", "", "16.7%" },
+			{ 5, 27523, "", "=q3=Exarch's Diamond Band", "=ds=#s13#", "", "16.7%" },
+			{ 6, 27871, "", "=q3=Maladaar's Blessed Chaplet", "=ds=#s2#", "", "16.7%" },
+			{ 7, 27869, "", "=q3=Soulpriest's Ring of Resolve", "=ds=#s13#", "", "16.7%" },
+			{ 8, 27872, "", "=q3=The Harvester of Souls", "=ds=#h1#, #w1#", "", "16.7%" },
+			{ 10, 27870, "", "=q3=Doomplate Legguards", "=ds=#s11#, #a4# =q1=#j10#", "", "16.7%" },
+			{ 12, 33836, "", "=q1=The Exarch's Soul Gem", "=ds=#m3#", "", "100%" },
+			{ 16, 30587, "", "=q4=Champion's Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 17, 30588, "", "=q4=Potent Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 18, 30586, "", "=q4=Seer's Chrysoprase", "=ds=#e7#", "", "15.3%" },
+			{ 20, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "2.5%" },
+			{ 21, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "2.5%" },
+			{ 22, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "2.5%" },
+			{ 23, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "2.5%" },
 		},
 	},
 	info = {
@@ -141,15 +149,15 @@ AtlasLoot_Data["AuchCryptsExarch"] = {
 	},
 };
 
-AtlasLoot_Data["AuchCryptsAvatar"] = {
+AtlasLoot_Data["AuchenaiCryptsAvatarOfTheMartyred"] = {
 	["Heroic"] = {
 		{
-			{ 1, 27878, "", "=q3=Auchenai Death Shroud",     "=ds=#s4#",            "", "4.41%" },
-			{ 2, 28268, "", "=q3=Natural Mender's Wraps",    "=ds=#s9#, #a2#",      "", "3.94%" },
-			{ 3, 27876, "", "=q3=Will of the Fallen Exarch", "=ds=#h3#, #w6#",      "", "5.10%" },
-			{ 4, 27937, "", "=q3=Sky Breaker",               "=ds=#h3#, #w6#",      "", "3.48%" },
-			{ 5, 27877, "", "=q3=Draenic Wildstaff",         "=ds=#w9#",            "", "4.87%" },
-			{ 7, 27797, "", "=q3=Wastewalker Shoulderpads",  "=ds=#s3#, #a2# (D3)", "", "3.94%" },
+			{ 1, 27878, "", "=q3=Auchenai Death Shroud", "=ds=#s4#", "", "16.7%" },
+			{ 2, 27877, "", "=q3=Draenic Wildstaff", "=ds=#w9#", "", "16.7%" },
+			{ 3, 28268, "", "=q3=Natural Mender's Wraps", "=ds=#s9#, #a2#", "", "16.7%" },
+			{ 4, 27937, "", "=q3=Sky Breaker", "=ds=#h3#, #w6#", "", "16.7%" },
+			{ 5, 27876, "", "=q3=Will of the Fallen Exarch", "=ds=#h3#, #w6#", "", "16.7%" },
+			{ 7, 27797, "", "=q3=Wastewalker Shoulderpads", "=ds=#s3#, #a2# =q1=#j10#", "", "16.7%" },
 		},
 	},
 	info = {
@@ -482,24 +490,29 @@ AtlasLoot_Data["AuchShadowMurmur"] = {
 	},
 };
 
-AtlasLoot_Data["AuchTrash"] = {
+AtlasLoot_Data["AuchindounTrash"] = {
 	["Normal"] = {
-		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Mana-Tombs"] },
-			{ 2,  23615, "",           "=q3=Plans: Swiftsteel Gloves",           "=ds=#p2# (370), =q1=" .. AL["Nexus Stalker"],     "", "0.52%" },
-			{ 3,  22543, "",           "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1=" .. AL["Ethereal Priest"],    "", "0.52%" },
-			{ 5,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Sethekk Halls"] },
-			{ 6,  25731, "",           "=q3=Pattern: Stylin' Crimson Hat",       "=ds=#p7# (350) =q1=" .. AL["Sethekk Ravenguard"], "", "0.46%" },
-			{ 7,  29669, "",           "=q2=Pattern: Shadow Armor Kit",          "=ds=#p7# (340) =q1=" .. AL["Time-Lost Shadowmage"], "", "0.39%" },
-			{ 9,  0,     "INV_Box_01", "=q6=" .. AL["The Saga of Terokk"],       "=q5=" .. BabbleZone["Sethekk Halls"] },
-			{ 10, 27634, "",           "=q1=The Saga of Terokk",                 "=ds=#m3#" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Auchenai Crypts"] },
-			{ 17, 23605, "",           "=q3=Plans: Felsteel Gloves",             "=ds=#p2# (360), =q1=" .. AL["Auchenai Monk"],     "", "0.69%" },
-			{ 18, 22544, "",           "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1=" .. AL["Raging Skeleton"],    "", "0.60%" },
-			{ 20, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Shadow Labyrinth"] },
-			{ 21, 23607, "",           "=q3=Plans: Felsteel Helm",               "=ds=#p2# (365), =q1=" .. AL["Cabal Fanatic"],     "", "0.61%" },
-			{ 23, 0,     "INV_Box_01", "=q6=" .. AL["First Fragment Guardian"],  "=q5=" .. BabbleZone["Shadow Labyrinth"] },
-			{ 24, 24514, "",           "=q1=First Key Fragment",                 "=ds=#m3#",                                        "", "100%" },
+		{			
+			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Auchenai Crypts"] },
+			{ 2, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1=" .. AL["Raging Skeleton"], "", "2%" },
+			{ 3, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360) =q1=" .. AL["Auchenai Monk"], "", "8.6%" },
+
+			{ 5,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Mana-Tombs"] },
+			{ 6,  23615, "",           "=q3=Plans: Swiftsteel Gloves",           "=ds=#p2# (370) =q1=" .. AL["Nexus Stalker"],     "", "0.52%" },
+			{ 7,  22543, "",           "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1=" .. AL["Ethereal Priest"],    "", "0.52%" },
+
+			{ 9,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Sethekk Halls"] },
+			{ 10,  25731, "",           "=q3=Pattern: Stylin' Crimson Hat",       "=ds=#p7# (350) =q1=" .. AL["Sethekk Ravenguard"], "", "0.46%" },
+			{ 11,  29669, "",           "=q2=Pattern: Shadow Armor Kit",          "=ds=#p7# (340) =q1=" .. AL["Time-Lost Shadowmage"], "", "0.39%" },
+
+			{ 13, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Shadow Labyrinth"] },
+			{ 14, 23607, "",           "=q3=Plans: Felsteel Helm",               "=ds=#p2# (365) =q1=" .. AL["Cabal Fanatic"],     "", "0.61%" },
+
+			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["First Fragment Guardian"],  "=q5=" .. BabbleZone["Shadow Labyrinth"] },
+			{ 17, 24514, "",           "=q1=First Key Fragment",                 "=ds=#m3#",                                        "", "100%" },
+
+			{ 19,  0,     "INV_Box_01", "=q6=" .. AL["The Saga of Terokk"],       "=q5=" .. BabbleZone["Sethekk Halls"] },
+			{ 20, 27634, "",           "=q1=The Saga of Terokk",                 "=ds=#m3#" },
 		},
 	},
 	info = {
