@@ -502,11 +502,9 @@ AtlasLoot_LootTableRegister = {
 
 		["HCHellfireRamparts"] = {
 			["Bosses"] = {
-				{ "HonorHold",         1,       hide = true },
-				{ "Thrallmar",         2,       hide = true },
-				{ "HCRampWatchkeeper", 4 },
-				{ "HCRampOmor",        5 },
-				{ "HCRampVazruden",    { 6, 8 } },
+				{ "HellfireRampartsWatchkeeperGargolmar", 1 },
+				{ "HellfireRampartsOmorTheUnscarred", 2 },
+				{ "HellfireRampartsVazrudenNazan", 3 },
 			},
 			["Info"] = { BabbleZone["Hellfire Ramparts"], "AtlasLootBurningCrusade" },
 		},
