@@ -121,7 +121,7 @@ AtlasLoot_Data["AhnQirajEnchants"] = {
 	info = {
 		name = AL["AQ Enchants"],
 		module = moduleName,
-		NextPrevDisable = true,
+		instance = "TheRuinsofAhnQiraj",
 	},
 };
 
@@ -681,7 +681,7 @@ AtlasLoot_Data["BlackfathomDeepsGhamoora"] = {
 	info = {
 		name = BabbleBoss["Ghamoo-ra"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -696,7 +696,7 @@ AtlasLoot_Data["BlackfathomDeepsLadySarevess"] = {
 	info = {
 		name = BabbleBoss["Lady Sarevess"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -711,20 +711,20 @@ AtlasLoot_Data["BlackfathomDeepsGelihast"] = {
 	info = {
 		name = BabbleBoss["Gelihast"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
 AtlasLoot_Data["BlackfathomDeepsBaronAquanis"] = {
 	["Normal"] = {
 		{
-			{ 1, 16782, "", "=q2=Strange Water Globe", "=ds=#m2# (#m6#)", "", "100%"},
+			{ 1, 16782, "", "=q2=Strange Water Globe", "=ds=#m2# =q1=(#m6#)", "", "100%"},
 		},
 	},
 	info = {
 		name = BabbleBoss["Baron Aquanis"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -739,7 +739,7 @@ AtlasLoot_Data["BlackfathomDeepsOldSerrakis"] = {
 	info = {
 		name = BabbleBoss["Old Serra'kis"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -754,7 +754,7 @@ AtlasLoot_Data["BlackfathomDeepsTwilightLordKelris"] = {
 	info = {
 		name = BabbleBoss["Twilight Lord Kelris"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -769,7 +769,7 @@ AtlasLoot_Data["BlackfathomDeepsAkumai"] = {
 	info = {
 		name = BabbleBoss["Aku'mai"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -793,7 +793,7 @@ AtlasLoot_Data["BlackfathomDeepsTrash"] = {
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		instance = "BlackFathomDeeps",
+		instance = "BlackfathomDeeps",
 	},
 };
 
@@ -1296,9 +1296,9 @@ AtlasLoot_Data["BlackrockMountainEntLoot"] = {
 			{ 1, 0,     "INV_Box_01", "=q6=" .. AL["Scarshield Quartermaster"], "" },
 			{ 2, 18987, "",           "=q1=Blackhand's Command",              "=ds=#m2#",        "", "100%" },
 			{ 4, 0,     "INV_Box_01", "=q6=" .. AL["The Behemoth"],           "" },
-			{ 5, 11603, "",           "=q3=Vilerend Slicer",                  "=ds=#h3#, #w13#", "", "95%" },
+			{ 5, 11603, "",           "=q3=Vilerend Slicer",                  "=ds=#h3#, #w13#", "", "50%" },
 			{ 7, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Overmaster Pyron"], "" },
-			{ 8, 14486, "",           "=q3=Pattern: Cloak of Fire",           "=ds=#p8# (275)",  "", "17.95%" },
+			{ 8, 14486, "",           "=q3=Pattern: Cloak of Fire",           "=ds=#p8# (275)",  "", "100%" },
 		},
 	},
 	info = {
@@ -1386,7 +1386,7 @@ AtlasLoot_Data["LowerBlackrockSpireMorGrayhoof"] = {
 	info = {
 		name = BabbleBoss["Mor Grayhoof"] .. " (" .. AL["Summon"] .. ")",
 		module = moduleName,
-		instance = "StratholmeCrusader",
+		instance = "BlackrockSpireLower",
 	},
 };
 
@@ -1482,7 +1482,7 @@ AtlasLoot_Data["LowerBlackrockSpireOverlordWyrmthalak"] = {
 			{ 5, 13143, "", "=q4=Mark of the Dragon Lord", "=ds=#s13#", "", "2%" },
 			{ 7, 16679, "", "=q3=Beaststalker's Mantle", "=ds=#s3#, #a3# =q1=#j6#", "", "20%" },
 			{ 9, 12337, "", "=q2=Gemstone of Bloodaxe", "=ds=#m3#", "", "100%" },
-			{ 10, 12780, "", "=q1=General Drakkisath's Command", "=ds=#m2# (#m7#)", "", "100%" },
+			{ 10, 12780, "", "=q1=General Drakkisath's Command", "=ds=#m2# =q1=(#m7#)", "", "100%" },
 		},
 	},
 	info = {
@@ -1739,7 +1739,7 @@ AtlasLoot_Data["UpperBlackrockSpireTheBeast"] = {
 			{ 2, 12964, "", "=q3=Tristam Legguards", "=ds=#s11#, #a3#", "", "20%" },
 			{ 3, 12966, "", "=q3=Blackmist Armguards", "=ds=#s8#, #a2#", "", "7.5%" },
 			{ 4, 12963, "", "=q3=Blademaster Leggings", "=ds=#s11#, #a2#", "", "7.5%" },
-			{ 5, 12709, "", "=q3=Finkle's Skinner", "=ds=#h1#, #w4# =q1=(#e18#)", "", "7.5%" },
+			{ 5, 12709, "", "=q3=Finkle's Skinner", "=ds=#h1#, #w4# =q1=#e18#", "", "7.5%" },
 			{ 6, 12968, "", "=q3=Frostweaver Cape", "=ds=#s4#", "", "7.5%" },
 			{ 7, 22311, "", "=q3=Ironweave Boots", "=ds=#s12#, #a1#", "", "7.5%" },
 			{ 8, 12969, "", "=q3=Seeping Willow", "=ds=#h2#, #w6#", "", "7.5%" },
@@ -2519,33 +2519,33 @@ AtlasLoot_Data["MoltenCoreTrash"] = {
 AtlasLoot_Data["DireMaulBooks"] = {
 	["Normal"] = {
 		{
-			{ 1, 18364, "", "=q3=The Emerald Dream", "=ds=#e10#, =q1=#m1# =ds=#c1#", "", "~5.1%" },
-			{ 2, 18361, "", "=q3=The Greatest Race of Hunters", "=ds=#e10#, =q1=#m1# =ds=#c2#", "", "~5.1%" },
-			{ 3, 18358, "", "=q3=The Arcanist's Cookbook", "=ds=#e10#, =q1=#m1# =ds=#c3#", "", "~5.01%" },
-			{ 4, 18359, "", "=q3=The Light and How to Swing It", "=ds=#e10#, =q1=#m1# =ds=#c4#", "", "~5.1%" },
-			{ 5, 18362, "", "=q3=Holy Bologna: What the Light Won't Tell You", "=ds=#e10#, =q1=#m1# =ds=#c5#", "", "~5.01%" },
-			{ 6, 18356, "", "=q3=Garona: A Study on Stealth and Treachery", "=ds=#e10#, =q1=#m1# =ds=#c6#", "", "~5.1%" },
-			{ 7, 18363, "", "=q3=Frost Shock and You", "=ds=#e10#, =q1=#m1# =ds=#c7#", "", "~5.1%" },
-			{ 8, 18360, "", "=q3=Harnessing Shadows", "=ds=#e10#, =q1=#m1# =ds=#c8#", "", "~5.01%" },
-			{ 9, 18357, "", "=q3=Codex of Defense", "=ds=#e10#, =q1=#m1# =ds=#c9#", "", "~5.01%" },
+			{ 1, 18364, "", "=q3=The Emerald Dream", "=ds=#e10# =q1=#m1# =ds=#c1#", "", "~5.1%" },
+			{ 2, 18361, "", "=q3=The Greatest Race of Hunters", "=ds=#e10# =q1=#m1# =ds=#c2#", "", "~5.1%" },
+			{ 3, 18358, "", "=q3=The Arcanist's Cookbook", "=ds=#e10# =q1=#m1# =ds=#c3#", "", "~5.01%" },
+			{ 4, 18359, "", "=q3=The Light and How to Swing It", "=ds=#e10# =q1=#m1# =ds=#c4#", "", "~5.1%" },
+			{ 5, 18362, "", "=q3=Holy Bologna: What the Light Won't Tell You", "=ds=#e10# =q1=#m1# =ds=#c5#", "", "~5.01%" },
+			{ 6, 18356, "", "=q3=Garona: A Study on Stealth and Treachery", "=ds=#e10# =q1=#m1# =ds=#c6#", "", "~5.1%" },
+			{ 7, 18363, "", "=q3=Frost Shock and You", "=ds=#e10# =q1=#m1# =ds=#c7#", "", "~5.1%" },
+			{ 8, 18360, "", "=q3=Harnessing Shadows", "=ds=#e10# =q1=#m1# =ds=#c8#", "", "~5.01%" },
+			{ 9, 18357, "", "=q3=Codex of Defense", "=ds=#e10# =q1=#m1# =ds=#c9#", "", "~5.01%" },
 			{ 11, 18333, "", "=q2=Libram of Focus", "=ds=#e10#", "", "~1.025%" },
 			{ 12, 18334, "", "=q2=Libram of Protection", "=ds=#e10#", "", "~1.015%" },
 			{ 13, 18332, "", "=q2=Libram of Rapidity", "=ds=#e10#", "", "~1.04%" },
-			{ 16, 18470, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c1#" },
-			{ 17, 18473, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c2#" },
-			{ 18, 18468, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c3#" },
-			{ 19, 18472, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c4#" },
-			{ 20, 18469, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c5#" },
-			{ 21, 18465, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c6#" },
-			{ 22, 18471, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c7#" },
-			{ 23, 18467, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c8#" },
-			{ 24, 18466, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14#, =q1=#m1# =ds=#c9#" },
+			{ 16, 18470, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c1#" },
+			{ 17, 18473, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c2#" },
+			{ 18, 18468, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c3#" },
+			{ 19, 18472, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c4#" },
+			{ 20, 18469, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c5#" },
+			{ 21, 18465, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c6#" },
+			{ 22, 18471, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c7#" },
+			{ 23, 18467, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c8#" },
+			{ 24, 18466, "", "=q3=Royal Seal of Eldre'Thalas", "=ds=#s14# =q1=#m1# =ds=#c9#" },
 		},
 	},
 	info = {
 		name = AL["Dire Maul Books"],
 		module = moduleName,
-		NextPrevDisable = true,
+		instance = "DireMaulEast",
 	},
 };
 
@@ -2578,7 +2578,7 @@ AtlasLoot_Data["DireMaulEastLethtendris"] = {
 			{ 5, 18311, "", "=q3=Quel'dorei Channeling Rod", "=ds=#w9#", "", "10%" },
 			{ 7, 18426, "", "=q1=Lethtendris' Web", "=ds=#m3#", "", "100%" },
 			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Pimgib"], "" },
-			{ 17, 18354, "", "=q3=Pimgib's Collar", "=ds=#s14#, =q1=#m1# =ds=#c8#", "", "14%" },
+			{ 17, 18354, "", "=q3=Pimgib's Collar", "=ds=#s14# =q1=#m1# =ds=#c8#", "", "14%" },
 		},
 	},
 	info = {
@@ -3434,7 +3434,7 @@ AtlasLoot_Data["RazorfenDownsPlaguemawTheRotting"] = {
 	["Normal"] = {
 		{
 			{ 1, 10760, "", "=q3=Swine Fists", "=ds=#s9#, #a2#", "", "60%"},
-			{ 2, 10766, "", "=q3=Plaguerot Sprig", "=ds=#w12#, =q1=#m1# =ds=#c3#", "", "40%"},
+			{ 2, 10766, "", "=q3=Plaguerot Sprig", "=ds=#w12# =q1=#m1# =ds=#c3#", "", "40%"},
 		},
 	},
 	info = {
@@ -3499,7 +3499,7 @@ AtlasLoot_Data["RazorfenDownsTrash"] = {
 			{ 3, 10574, "", "=q3=Corpseshroud", "=ds=#s1#, #a1#", "", "~0.045%"},
 			{ 4, 10581, "", "=q3=Death's Head Vestment", "=ds=#s5#, #a1#", "", "~0.05%"},
 			{ 5, 10571, "", "=q3=Ebony Boneclub", "=ds=#h1#, #w6#", "", "~0.07%"},
-			{ 6, 10572, "", "=q3=Freezing Shard", "=ds=#w12#, =q1=#m1# =q2=#c3#", "", "~0.03%"},
+			{ 6, 10572, "", "=q3=Freezing Shard", "=ds=#w12# =q1=#m1# =q2=#c3#", "", "~0.03%"},
 			{ 7, 10570, "", "=q3=Manslayer", "=ds=#h2#, #w1#", "", "~0.04%"},
 			{ 8, 10567, "", "=q3=Quillshooter", "=ds=#w2#", "", "~0.05%"},
 			{ 9, 10583, "", "=q3=Quillward Harness", "=ds=#s5#, #a2#", "", "~0.045%"},
@@ -3595,7 +3595,7 @@ AtlasLoot_Data["RazorfenKraulCharlgaRazorflank"] = {
 			{ 3, 6692, "", "=q3=Pronged Reaver", "=ds=#h1#, #w1#", "", "20%"},
 			{ 5, 5793, "", "=q1=Razorflank's Heart", "=ds=#m3#", "", "100%"},
 			{ 6, 5792, "", "=q1=Razorflank's Medallion", "=ds=#m3#", "", "100%"},
-			{ 7, 49205, "", "=q1=Small Scroll", "=ds=#m2# (#m6#)", "", "100%"},
+			{ 7, 49205, "", "=q1=Small Scroll", "=ds=#m2# =q1=(#m6#)", "", "100%"},
 		},
 	},
 	info = {
@@ -3728,7 +3728,7 @@ AtlasLoot_Data["SMTrash"] = {
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		--instance = "SMArmory",
+		instance = "SMArmory",
 	},
 };
 
@@ -3973,7 +3973,7 @@ AtlasLoot_Data["ScholomanceDeathKnightDarkreaver"] = {
 			{ 2, 18760, "", "=q3=Necromantic Band", "=ds=#s13#", "", "25%" },
 			{ 3, 18761, "", "=q3=Oblivion's Touch", "=ds=#w12#", "", "25%" },
 			{ 4, 18758, "", "=q3=Specter's Blade", "=ds=#h1#, #w4#", "", "25%" },
-			{ 6, 18749, "", "=q1=Charger's Lost Soul", "=ds=#m3#, =q1=#m1# =ds=#c4#", "", "100%" },
+			{ 6, 18749, "", "=q1=Charger's Lost Soul", "=ds=#m3# =q1=#m1# =ds=#c4#", "", "100%" },
 			{ 7, 18880, "", "=q1=Darkreaver's Head", "=ds=#m3#", "", "100%" },
 		}
 	},
@@ -4736,7 +4736,7 @@ AtlasLoot_Data["StratholmeTrash"] = {
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		NextPrevDisable = true,
+		instance = "StratholmeCrusader",
 	},
 };
 
@@ -5028,7 +5028,7 @@ AtlasLoot_Data["DeadminesVanCleef"] = {
 			{ 2, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "", "30%"};
 			{ 3, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "20%"};
 			{ 4, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "20%"};
-			{ 6, 2874, "", "=q1=An Unsent Letter", "=ds=#m2# (#m7#)", "", "100%"};
+			{ 6, 2874, "", "=q1=An Unsent Letter", "=ds=#m2# =q1=(#m7#)", "", "100%"};
 			{ 7, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#", "", "100%"};
 		},
 	},
@@ -5177,7 +5177,7 @@ AtlasLoot_Data["SunkenTempleAtalalarion"] = {
 	info = {
 		name = BabbleBoss["Atal'alarion"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5202,7 +5202,7 @@ AtlasLoot_Data["SunkenTempleTrolls"] = {
 	info = {
 		name = BabbleBoss["Hukku"] ..	", " .. BabbleBoss["Mijan"] ..	", " .. BabbleBoss["Zul'Lor"] ..	", " .. BabbleBoss["Zolo"] ..	", " .. BabbleBoss["Gasher"] ..	" & " .. BabbleBoss["Loro"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5224,7 +5224,7 @@ AtlasLoot_Data["SunkenTempleJammalanTheProphet"] = {
 	info = {
 		name = BabbleBoss["Jammal'an the Prophet"] .. " & " .. BabbleBoss["Ogom the Wretched"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5251,7 +5251,7 @@ AtlasLoot_Data["SunkenTempleDragons"] = {
 	info = {
 		name = BabbleBoss["Dreamscythe"] ..	", " .. BabbleBoss["Weaver"] .. ", " .. BabbleBoss["Hazzas"] .. " & " .. BabbleBoss["Morphaz"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5271,7 +5271,7 @@ AtlasLoot_Data["SunkenTempleAvatarOfHakkar"] = {
 	info = {
 		name = BabbleBoss["Avatar of Hakkar"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5291,7 +5291,7 @@ AtlasLoot_Data["SunkenTempleShadeOfEranikus"] = {
 	info = {
 		name = BabbleBoss["Shade of Eranikus"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5305,7 +5305,7 @@ AtlasLoot_Data["SunkenTempleSpawnOfHakkar"] = {
 	info = {
 		name = "Spawn of Hakkar (" .. AL["Rare"] .. ")",
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
@@ -5331,7 +5331,7 @@ AtlasLoot_Data["SunkenTempleTrash"] = {
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		instance = "TempleOfAtalHakkar",
+		instance = "TheSunkenTemple",
 	},
 };
 
