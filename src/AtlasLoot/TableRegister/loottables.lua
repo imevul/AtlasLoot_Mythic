@@ -408,37 +408,32 @@ AtlasLoot_LootTableRegister = {
 
 		["AuchManaTombs"] = {
 			["Bosses"] = {
-				{ "Consortium",          1, hide = true },
-				{ "AuchManaPandemonius", 4 },
-				{ "AuchManaTavarok",     6 },
-				{ "AuchManaNexusPrince", 7 },
-				{ "AuchManaYor",         8 },
-				{ "AuchTrash",           13 },
+				{ "ManaTombsPandemonius", 1 },
+				{ "ManaTombsTavarok", 2 },
+				{ "ManaTombsNexusPrinceShaffar", 3 },
+				{ "ManaTombsYor", 4 },
+				{ "AuchindounTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Mana-Tombs"], "AtlasLootBurningCrusade", mapname = "ManaTombs1" },
 		},
 
 		["AuchSethekkHalls"] = {
 			["Bosses"] = {
-				{ "LowerCity",             1, hide = true },
 				{ "AuchSethekkDarkweaver", 3 },
 				{ "AuchSethekkRavenGod",   5 },
-				{ "AuchTrash",             6, hide = true },
 				{ "AuchSethekkTalonKing",  7 },
-				{ "AuchTrash",             9 },
+				{ "AuchindounTrash",             9 },
 			},
 			["Info"] = { BabbleZone["Sethekk Halls"], "AtlasLootBurningCrusade" },
 		},
 
 		["AuchShadowLabyrinth"] = {
 			["Bosses"] = {
-				{ "LowerCity",             1, hide = true },
 				{ "AuchShadowHellmaw",     3 },
 				{ "AuchShadowBlackheart",  4 },
 				{ "AuchShadowGrandmaster", 5 },
 				{ "AuchShadowMurmur",      7 },
-				{ "AuchTrash",             9, hide = true },
-				{ "AuchTrash",             12 },
+				{ "AuchindounTrash",             12 },
 			},
 			["Info"] = { BabbleZone["Shadow Labyrinth"], "AtlasLootBurningCrusade", mapname = "ShadowLabyrinth1" },
 		},
@@ -536,12 +531,11 @@ AtlasLoot_LootTableRegister = {
 
 		["MagistersTerrace"] = {
 			["Bosses"] = {
-				{ "SunOffensive", 1, hide = true },
-				{ "SMTFireheart", 4 },
-				{ "SMTVexallus",  6 },
-				{ "SMTDelrissa",  7 },
-				{ "SMTKaelthas",  18 },
-				{ "SMTTrash",     23 },
+				{ "MagistersTerraceSelinFireheart", 1 },
+				{ "MagistersTerraceVexallus", 2 },
+				{ "MagistersTerracePriestessDelrissa", 3 },
+				{ "MagistersTerraceKaelthasSunstrider", 4 },
+				{ "MagistersTerraceTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Magisters' Terrace"], "AtlasLootBurningCrusade" },
 		},
