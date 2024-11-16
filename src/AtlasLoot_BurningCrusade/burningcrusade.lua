@@ -827,25 +827,27 @@ AtlasLoot_Data["BTPatterns"] = {
 --- Caverns of Time: Old Hillsbrad Foothills ---
 ------------------------------------------------
 
-AtlasLoot_Data["CoTHillsbradDrake"] = {
+AtlasLoot_Data["OldHillsbradLieutenantDrake"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=#j1#",                             "" },
-			{ 2,  27423, "",           "=q3=Cloak of Impulsiveness",           "=ds=#s4#",        "", "19.68%" },
-			{ 3,  27418, "",           "=q3=Stormreaver Shadow-Kilt",          "=ds=#s11#, #a1#", "", "18.16%" },
-			{ 4,  27417, "",           "=q3=Ravenwing Pauldrons",              "=ds=#s3#, #a2#",  "", "18.33%" },
-			{ 5,  27420, "",           "=q3=Uther's Ceremonial Warboots",      "=ds=#s12#, #a4#", "", "17.14%" },
-			{ 6,  27436, "",           "=q3=Iron Band of the Unbreakable",     "=ds=#s13#",       "", "15.09%" },
-			{ 16, 0,     "inv_box_04", "=q6=#j3#",                             "" },
-			{ 17, 30589, "",           "=q4=Purified Tanzanite",               "=ds=#e7#",        "", "0.66%" },
-			{ 18, 30591, "",           "=q4=Lucent Fire Opal",                 "=ds=#e7#",        "", "0.24%" },
-			{ 19, 30590, "",           "=q4=Regal Chrysoprase",                "=ds=#e7#",        "", "0.10%" },
-			{ 21, 28212, "",           "=q3=Aran's Sorcerous Slacks",          "=ds=#s11#, #a1#", "", "11.43%" },
-			{ 22, 28214, "",           "=q3=Grips of the Lunar Eclipse",       "=ds=#s9#, #a2#",  "", "2.86%" },
-			{ 23, 28215, "",           "=q3=Mok'Nathal Mask of Battle",        "=ds=#s1#, #a3#",  "", "11.43%" },
-			{ 24, 28211, "",           "=q3=Lieutenant's Signet of Lordaeron", "=ds=#s13#",       "", "5.71%" },
-			{ 25, 28213, "",           "=q3=Lordaeron Medical Guide",          "=ds=#s15#",       "", "8.57%" },
-			{ 26, 28210, "",           "=q3=Bloodskull Destroyer",             "=ds=#h1#, #w6#",  "", "5.71%" },
+			{ 1, 27423, "", "=q3=Cloak of Impulsiveness", "=ds=#s4#", "", "20%" },
+			{ 2, 27436, "", "=q3=Iron Band of the Unbreakable", "=ds=#s13#", "", "20%" },
+			{ 3, 27417, "", "=q3=Ravenwing Pauldrons", "=ds=#s3#, #a2#", "", "20%" },
+			{ 4, 27418, "", "=q3=Stormreaver Shadow-Kilt", "=ds=#s11#, #a1#", "", "20%" },
+			{ 5, 27420, "", "=q3=Uther's Ceremonial Warboots", "=ds=#s12#, #a4#", "", "20%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28212, "", "=q3=Aran's Sorcerous Slacks", "=ds=#s11#, #a1#", "", "16.7%" },
+			{ 2, 28210, "", "=q3=Bloodskull Destroyer", "=ds=#h1#, #w6#", "", "16.7%" },
+			{ 3, 28214, "", "=q3=Grips of the Lunar Eclipse", "=ds=#s9#, #a2#", "", "16.7%" },
+			{ 4, 28211, "", "=q3=Lieutenant's Signet of Lordaeron", "=ds=#s13#", "", "16.7%" },
+			{ 5, 28213, "", "=q3=Lordaeron Medical Guide", "=ds=#s15#", "", "16.7%" },
+			{ 6, 28215, "", "=q3=Mok'Nathal Mask of Battle", "=ds=#s1#, #a3#", "", "16.7%" },
+			{ 16, 30589, "", "=q4=Dazzling Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30591, "", "=q4=Empowered Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30590, "", "=q4=Enduring Chrysoprase", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -855,26 +857,29 @@ AtlasLoot_Data["CoTHillsbradDrake"] = {
 	},
 };
 
-AtlasLoot_Data["CoTHillsbradSkarloc"] = {
+AtlasLoot_Data["OldHillsbradCaptainSkarloc"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=#j1#",                             "" },
-			{ 2,  27428, "",           "=q3=Stormfront Gauntlets",             "=ds=#s9#, #a3#",  "", "19.04%" },
-			{ 3,  27430, "",           "=q3=Scaled Greaves of Patience",       "=ds=#s11#, #a3#", "", "19.22%" },
-			{ 4,  27427, "",           "=q3=Durotan's Battle Harness",         "=ds=#s5#, #a4#",  "", "14.83%" },
-			{ 5,  27424, "",           "=q3=Amani Venom-Axe",                  "=ds=#h1#, #w1#",  "", "18.50%" },
-			{ 6,  27426, "",           "=q3=Northshire Battlemace",            "=ds=#h3#, #w6#",  "", "15.37%" },
-			{ 8,  22927, "",           "=q2=Recipe: Ironshield Potion",        "=ds=#p1# (365)",  "", "1.03%" },
-			{ 16, 0,     "inv_box_04", "=q6=#j3#",                             "" },
-			{ 17, 30589, "",           "=q4=Purified Tanzanite",               "=ds=#e7#",        "", "0.66%" },
-			{ 18, 30591, "",           "=q4=Lucent Fire Opal",                 "=ds=#e7#",        "", "0.24%" },
-			{ 19, 30590, "",           "=q4=Regal Chrysoprase",                "=ds=#e7#",        "", "0.10%" },
-			{ 21, 28218, "",           "=q3=Pontiff's Pantaloons of Prophecy", "=ds=#s11#, #a1#", "", "18.18%" },
-			{ 22, 28220, "",           "=q3=Moon-Crown Antlers",               "=ds=#s1#, #a2#",  "", "0.14%" },
-			{ 23, 28219, "",           "=q3=Emerald-Scale Greaves",            "=ds=#s11#, #a3#", "", "3.03%" },
-			{ 24, 28221, "",           "=q3=Boots of the Watchful Heart",      "=ds=#s12#, #a4#", "", "0.52%" },
-			{ 25, 28217, "",           "=q3=Tarren Mill Vitality Locket",      "=ds=#s2#",        "", "9.09%" },
-			{ 26, 28216, "",           "=q3=Dathrohan's Ceremonial Hammer",    "=ds=#h3#, #w6#",  "", "6.06%" },
+			{ 1, 27424, "", "=q3=Amani Venom-Axe", "=ds=#h1#, #w1#", "", "20%" },
+			{ 2, 27427, "", "=q3=Durotan's Battle Harness", "=ds=#s5#, #a4#", "", "20%" },
+			{ 3, 27426, "", "=q3=Northshire Battlemace", "=ds=#h3#, #w6#", "", "20%" },
+			{ 4, 27430, "", "=q3=Scaled Greaves of Patience", "=ds=#s11#, #a3#", "", "20%" },
+			{ 5, 27428, "", "=q3=Stormfront Gauntlets", "=ds=#s9#, #a3#", "", "20%" },
+			{ 16, 22927, "", "=q2=Recipe: Ironshield Potion", "=ds=#p1# (365)", "", "10%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28221, "", "=q3=Boots of the Watchful Heart", "=ds=#s12#, #a4#", "", "16.7%" },
+			{ 2, 28216, "", "=q3=Dathrohan's Ceremonial Hammer", "=ds=#h3#, #w6#", "", "16.7%" },
+			{ 3, 28219, "", "=q3=Emerald-Scale Greaves", "=ds=#s11#, #a3#", "", "16.7%" },
+			{ 4, 28220, "", "=q3=Moon-Crown Antlers", "=ds=#s1#, #a2#", "", "16.7%" },
+			{ 5, 28218, "", "=q3=Pontiff's Pantaloons of Prophecy", "=ds=#s11#, #a1#", "", "16.7%" },
+			{ 6, 28217, "", "=q3=Tarren Mill Vitality Locket", "=ds=#s2#", "", "16.7%" },
+			{ 16, 30589, "", "=q4=Dazzling Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30591, "", "=q4=Empowered Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30590, "", "=q4=Enduring Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 20, 22927, "", "=q2=Recipe: Ironshield Potion", "=ds=#p1# (365)", "", "10%" },
 		},
 	},
 	info = {
@@ -885,41 +890,46 @@ AtlasLoot_Data["CoTHillsbradSkarloc"] = {
 };
 
 
-AtlasLoot_Data["CoTHillsbradHunter"] = {
+AtlasLoot_Data["OldHillsbradEpochHunter"] = {
 	["Normal"] = {
 		{
-			{ 1, 24173, "", "=q4=Design: Circlet of Arcane Might", "=ds=#p12# (370)", "", "0.10%" },
-			{ 3, 27433, "", "=q3=Pauldrons of Sufferance",         "=ds=#s3#, #a1#",  "", "19.11%" },
-			{ 4, 27434, "", "=q3=Mantle of Perenolde",             "=ds=#s3#, #a2#",  "", "16.26%" },
-			{ 5, 27440, "", "=q3=Diamond Prism of Recurrence",     "=ds=#s2#",        "", "16.12%" },
-			{ 6, 27432, "", "=q3=Broxigar's Ring of Valor",        "=ds=#s13#",       "", "16.35%" },
-			{ 7, 27431, "", "=q3=Time-Shifted Dagger",             "=ds=#h3#, #w4#",  "", "14.09%" },
+			{ 1, 27432, "", "=q3=Broxigar's Ring of Valor", "=ds=#s13#", "", "20%" },
+			{ 2, 27440, "", "=q3=Diamond Prism of Recurrence", "=ds=#s2#", "", "20%" },
+			{ 3, 27434, "", "=q3=Mantle of Perenolde", "=ds=#s3#, #a2#", "", "20%" },
+			{ 4, 27433, "", "=q3=Pauldrons of Sufferance", "=ds=#s3#, #a1#", "", "20%" },
+			{ 5, 27431, "", "=q3=Time-Shifted Dagger", "=ds=#h3#, #w4#", "", "20%" },
 		},
 	},
 	["Heroic"] = {
 		{
-			{ 1,  29250, "", "=q4=Cord of Sanctification",          "=ds=#s10#, #a1#" },
-			{ 2,  29246, "", "=q4=Nightfall Wristguards",           "=ds=#s8#, #a2#" },
-			{ 3,  29357, "", "=q4=Master Thief's Gloves",           "=ds=#s9#, #a2#",      "", "10.00%" },
-			{ 4,  30534, "", "=q4=Wyrmscale Greaves",               "=ds=#s11#, #a3#" },
-			{ 5,  30536, "", "=q4=Greaves of the Martyr",           "=ds=#s11#, #a4#",     "", "15.00%" },
-			{ 7,  27911, "", "=q3=Epoch's Whispering Cinch",        "=ds=#s10#, #a2#",     "", "10.00%" },
-			{ 8,  28344, "", "=q3=Wyrmfury Pauldrons",              "=ds=#s3#, #a3#",      "", "0.24%" },
-			{ 9,  28233, "", "=q3=Necklace of Resplendent Hope",    "=ds=#s2#",            "", "15.00%" },
-			{ 10, 27904, "", "=q3=Resounding Ring of Glory",        "=ds=#s13#",           "", "0.17%" },
-			{ 11, 28227, "", "=q3=Sparking Arcanite Ring",          "=ds=#s13#",           "", "0.24%" },
-			{ 12, 28223, "", "=q3=Arcanist's Stone",                "=ds=#s14#",           "", "10.00%" },
-			{ 13, 28226, "", "=q3=Timeslicer",                      "=ds=#h1#, #w4#",      "", "5.00%" },
-			{ 14, 28222, "", "=q3=Reaver of the Infinites",         "=ds=#h2#, #w1#",      "", "0.48%" },
-			{ 16, 30589, "", "=q4=Purified Tanzanite",              "=ds=#e7#",            "", "0.66%" },
-			{ 17, 30591, "", "=q4=Lucent Fire Opal",                "=ds=#e7#",            "", "0.24%" },
-			{ 18, 30590, "", "=q4=Regal Chrysoprase",               "=ds=#e7#",            "", "0.10%" },
-			{ 19, 24173, "", "=q4=Design: Circlet of Arcane Might", "=ds=#p12# (370)",     "", "0.10%" },
-			{ 21, 28191, "", "=q3=Mana-Etched Vestments",           "=ds=#s5#, #a1# (D3)", "", "0.24%" },
-			{ 22, 28224, "", "=q3=Wastewalker Helm",                "=ds=#s1#, #a2# (D3)", "", "0.24%" },
-			{ 23, 28401, "", "=q3=Hauberk of Desolation",           "=ds=#s5#, #a3# (D3)", "", "0.14%" },
-			{ 24, 28225, "", "=q3=Doomplate Warhelm",               "=ds=#s1#, #a4# (D3)", "", "0.14%" },
-			{ 26, 33847, "", "=q1=Epoch Hunter's Head",             "=ds=#m3#",            "", "100%" },
+			{ 1, 29250, "", "=q4=Cord of Sanctification", "=ds=#s10#, #a1#", "", "25%" },
+			{ 2, 30536, "", "=q4=Greaves of the Martyr", "=ds=#s11#, #a4#", "", "25%" },
+			{ 3, 29246, "", "=q4=Nightfall Wristguards", "=ds=#s8#, #a2#", "", "25%" },
+			{ 4, 30534, "", "=q4=Wyrmscale Greaves", "=ds=#s11#, #a3#", "", "25%" },
+			{ 5, 28223, "", "=q3=Arcanist's Stone", "=ds=#s14#", "", "16.7%" },
+			{ 6, 27911, "", "=q3=Epoch's Whispering Cinch", "=ds=#s10#, #a2#", "", "16.7%" },
+			{ 7, 28233, "", "=q3=Necklace of Resplendent Hope", "=ds=#s2#", "", "16.7%" },
+			{ 8, 28222, "", "=q3=Reaver of the Infinites", "=ds=#h2#, #w1#", "", "16.7%" },
+			{ 9, 27904, "", "=q3=Resounding Ring of Glory", "=ds=#s13#", "", "16.7%" },
+			{ 10, 28227, "", "=q3=Sparking Arcanite Ring", "=ds=#s13#", "", "16.7%" },
+			{ 11, 28226, "", "=q3=Timeslicer", "=ds=#h1#, #w4#", "", "16.7%" },
+			{ 12, 28344, "", "=q3=Wyrmfury Pauldrons", "=ds=#s3#, #a3#", "", "16.7%" },
+			{ 14, 33847, "", "=q1=Epoch Hunter's Head", "=ds=#m3#", "", "100%" },
+			{ 16, 28225, "", "=q3=Doomplate Warhelm", "=ds=#s1#, #a4# =q1=#j10#", "", "16.7%" },
+			{ 17, 28401, "", "=q3=Hauberk of Desolation", "=ds=#s5#, #a3# =q1=#j10#", "", "16.7%" },
+			{ 18, 28191, "", "=q3=Mana-Etched Vestments", "=ds=#s5#, #a1# =q1=#j10#", "", "16.7%" },
+			{ 19, 28224, "", "=q3=Wastewalker Helm", "=ds=#s1#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 21, 30589, "", "=q4=Dazzling Chrysoprase", "=ds=#e7#", "", "15.3%" },
+			{ 22, 30591, "", "=q4=Empowered Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 23, 30590, "", "=q4=Enduring Chrysoprase", "=ds=#e7#", "", "15.3%" },
+			{ 25, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.75%" },
+			{ 26, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.75%" },
+			{ 27, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.75%" },
+			{ 28, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "0.75%" },
+			{ 30, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
+		},
+		{
+			{ 1, 24173, "", "=q4=Design: Circlet of Arcane Might", "=ds=#p12# (370)", "", "10%" },
 		},
 	},
 	info = {
@@ -929,21 +939,24 @@ AtlasLoot_Data["CoTHillsbradHunter"] = {
 	},
 };
 
-AtlasLoot_Data["CoTTrash"] = {
+AtlasLoot_Data["CavernsOfTimeTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],                "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
-			{ 2,  25729, "",           "=q3=Pattern: Stylin' Adventure Hat",      "=ds=#p7# (350) =q1=" .. AL["Durnholde Rifleman"],  "", "0.25%" },
-			{ 4,  0,     "INV_Box_01", "=q6=" .. AL["Don Carlos"],                "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
-			{ 5,  38506, "",           "=q3=Don Carlos' Famous Hat",              "=ds=#s1#, #a1# =q2=#j3#" },
-			{ 6,  38329, "",           "=q1=Don Carlos' Hat",                     "=q1=#m3#" },
-			{ 7,  38276, "",           "=q1=Haliscan Brimmed Hat",                "=q1=#m4#: =ds=#s1#, #a1#" },
-			{ 9,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],                "=q5=" .. BabbleZone["The Black Morass"] },
-			{ 10, 25730, "",           "=q3=Pattern: Stylin' Jungle Hat",         "=ds=#p7# (350) =q1=" .. AL["Rift Keeper/Rift Lord"], "", "0.29%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Thomas Yance"],              "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
-			{ 17, 25725, "",           "=q1=Pattern: Riding Crop",                "=ds=#p7# (350)" },
-			{ 19, 0,     "INV_Box_01", "=q6=" .. AL["Aged Dalaran Wizard"],       "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
-			{ 20, 22539, "",           "=q1=Formula: Enchant Shield - Intellect", "=ds=#p4# (325)" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
+			{ 2, 25729, "", "=q3=Pattern: Stylin' Adventure Hat", "=ds=#p7# (350) =q1=" .. AL["Durnholde Rifleman"], "", "2.2%" },
+			
+			{ 4, 0, "INV_Box_01", "=q6=" .. AL["Don Carlos"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
+			{ 5, 38506, "", "=q3=Don Carlos' Famous Hat", "=ds=#s1#, #a1# =q2=#j3#", "", "100%" },
+			{ 6, 38329, "", "=q1=Don Carlos' Hat", "=q1=#m3#", "", "100%" },
+			
+			{ 8, 0, "INV_Box_01", "=q6=" .. AL["Thomas Yance"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
+			{ 9, 25725, "", "=q1=Pattern: Riding Crop", "=ds=#p7# (350) - 5 #gold#"},
+			
+			{ 11, 0, "INV_Box_01", "=q6=" .. AL["Aged Dalaran Wizard"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
+			{ 12, 22539, "", "=q1=Formula: Enchant Shield - Intellect", "=ds=#p4# (325) - 6 #gold#"},
+			
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["The Black Morass"] },
+			{ 17, 25730, "", "=q3=Pattern: Stylin' Jungle Hat", "=ds=#p7# (350) =q1=" .. AL["Rift Keeper/Rift Lord"], "", "0.29%" },
 		},
 	},
 	info = {
@@ -1831,11 +1844,11 @@ AtlasLoot_Data["HellfireRampartsOmorTheUnscarred"] = {
 			{ 14, 23886, "", "=q1=Omor's Hoof", "=ds=#m3#", "", "100%" },
 			{ 16, 30594, "", "=q4=Effulgent Chrysoprase", "=ds=#e7#", "", "10%" },
 			{ 17, 30593, "", "=q4=Iridescent Fire Opal", "=ds=#e7#", "", "10%" },
-			{ 20, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "2.5%" },
-			{ 21, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "2.5%" },
-			{ 22, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "2.5%" },
-			{ 23, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "2.5%" },
-			{ 25, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
+			{ 19, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "2.5%" },
+			{ 20, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "2.5%" },
+			{ 21, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "2.5%" },
+			{ 22, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "2.5%" },
+			{ 24, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
 		},
 	},
 	info = {
@@ -1859,11 +1872,9 @@ AtlasLoot_Data["HellfireRampartsVazrudenNazan"] = {
 			{ 9, 24063, "", "=q3=Shifting Sash of Midnight", "=ds=#s10#, #a2#", "", "10%" },
 			{ 10, 24155, "", "=q3=Ursol's Claw", "=ds=#w9#", "", "10%" },
 			{ 11, 24154, "", "=q3=Witching Band", "=ds=#s13#", "", "10%" },
-			
 			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Vazruden"], "" },
 			{ 17, 23892, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m6#)", "", "100%" },
 			{ 18, 23890, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m7#)", "", "100%" },
-			
 			{ 20, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Nazan"],   "" },
 			{ 21, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
 		},
@@ -1885,15 +1896,12 @@ AtlasLoot_Data["HellfireRampartsVazrudenNazan"] = {
 			{ 13, 27460, "", "=q3=Reavers' Ring", "=ds=#s13#", "", "20%" },
 			{ 14, 27459, "", "=q3=Vambraces of Daring", "=ds=#s8#, #a4#", "", "20%" },
 			{ 15, 27454, "", "=q3=Volcanic Pauldrons", "=ds=#s3#, #a3#", "", "20%" },
-			
 			{ 16, 30594, "", "=q4=Effulgent Chrysoprase", "=ds=#e7#", "", "10%" },
 			{ 17, 30593, "", "=q4=Iridescent Fire Opal", "=ds=#e7#", "", "10%" },
 			{ 18, 30592, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "10%" },
-			
 			{ 20, 0, "inv_box_04", "=q6=" .. BabbleBoss["Vazruden"], "" },
 			{ 21, 23892, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m6#)", "", "100%" },
 			{ 22, 23890, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m7#)", "", "100%" },
-			
 			{ 24, 0, "inv_box_04", "=q6=" .. BabbleBoss["Nazan"], "" },
 			{ 25, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
 			{ 26, 33833, "", "=q1=Nazan's Riding Crop", "=ds=#m3#", "", "100%" },
