@@ -440,12 +440,10 @@ AtlasLoot_LootTableRegister = {
 
 		["CoTOldHillsbrad"] = {
 			["Bosses"] = {
-				{ "KeepersofTime",       3,              hide = true },
-				{ "CoTHillsbradDrake",   10 },
-				{ "CoTHillsbradSkarloc", 12 },
-				{ "CoTHillsbradHunter",  15 },
-				{ "CoTTrash",            { 18, 20, 21 }, hide = true },
-				{ "CoTTrash",            25 },
+				{ "OldHillsbradLieutenantDrake", 1 },
+				{ "OldHillsbradCaptainSkarloc", 2 },
+				{ "OldHillsbradEpochHunter", 3 },
+				{ "CavernsOfTimeTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Old Hillsbrad Foothills"], "AtlasLootBurningCrusade" },
 		},
@@ -456,7 +454,7 @@ AtlasLoot_LootTableRegister = {
 				{ "CoTMorassDeja",     7 },
 				{ "CoTMorassTemporus", 8 },
 				{ "CoTMorassAeonus",   9 },
-				{ "CoTTrash",          13 },
+				{ "CavernsOfTimeTrash",          13 },
 			},
 			["Info"] = { BabbleZone["The Black Morass"], "AtlasLootBurningCrusade" },
 		},
