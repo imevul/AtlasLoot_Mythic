@@ -316,22 +316,34 @@ AtlasLoot_Data["ManaTombsYor"] = {
 --- Auchindoun: Sethekk Halls ---
 ---------------------------------
 
-AtlasLoot_Data["AuchSethekkDarkweaver"] = {
+AtlasLoot_Data["SethekkHallsDarkweaverSyth"] = {
 	["Normal"] = {
 		{
-			{ 1,  27919, "",           "=q3=Light-Woven Slippers",         "=ds=#s12#, #a1#", "", "13.90%" },
-			{ 2,  27914, "",           "=q3=Moonstrider Boots",            "=ds=#s12#, #a2#", "", "12.26%" },
-			{ 3,  27915, "",           "=q3=Sky-Hunter Swift Boots",       "=ds=#s12#, #a3#", "", "11.74%" },
-			{ 4,  27918, "",           "=q3=Bands of Syth",                "=ds=#s8#, #a4#",  "", "11.81%" },
-			{ 5,  27917, "",           "=q3=Libram of the Eternal Rest",   "=ds=#w16#",       "", "14.12%" },
-			{ 6,  27916, "",           "=q3=Sethekk Feather-Darts",        "=ds=#w11#",       "", "11.34%" },
-			{ 8,  24160, "",           "=q3=Design: Khorium Inferno Band", "=ds=#p12# (355)", "", "0.29%" },
-			{ 10, 27633, "",           "=q1=Terokk's Mask",                "=ds=#m3#",        "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                        "" },
-			{ 17, 30553, "",           "=q4=Glinting Tanzanite",           "=ds=#e7#",        "", "15.73%" },
-			{ 18, 30554, "",           "=q4=Stalwart Fire Opal",           "=ds=#e7#",        "", "10.11%" },
-			{ 19, 30552, "",           "=q4=Timeless Tanzanite",           "=ds=#e7#",        "", "0.18%" },
-			{ 21, 25461, "",           "=q1=Book of Forgotten Names",      "=ds=#m3#",        "", "100%" },
+			{ 1, 27918, "", "=q3=Bands of Syth", "=ds=#s8#, #a4#", "", "16.7%" },
+			{ 2, 27917, "", "=q3=Libram of the Eternal Rest", "=ds=#w16#", "", "16.7%" },
+			{ 3, 27919, "", "=q3=Light-Woven Slippers", "=ds=#s12#, #a1#", "", "16.7%" }, 
+			{ 4, 27914, "", "=q3=Moonstrider Boots", "=ds=#s12#, #a2#", "", "16.7%" },
+			{ 5, 27916, "", "=q3=Sethekk Feather-Darts", "=ds=#w11#", "", "16.7%" },
+			{ 6, 27915, "", "=q3=Sky-Hunter Swift Boots", "=ds=#s12#, #a3#", "", "16.7%" },
+			{ 8, 27633, "", "=q1=Terokk's Mask", "=ds=#m3#", "", "100%" },
+			{ 16, 24160, "", "=q3=Design: Khorium Inferno Band", "=ds=#p12# (355)", "", "10%" },
+			
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 27918, "", "=q3=Bands of Syth", "=ds=#s8#, #a4#", "", "16.7%" },
+			{ 2, 27917, "", "=q3=Libram of the Eternal Rest", "=ds=#w16#", "", "16.7%" },
+			{ 3, 27919, "", "=q3=Light-Woven Slippers", "=ds=#s12#, #a1#", "", "16.7%" }, 
+			{ 4, 27914, "", "=q3=Moonstrider Boots", "=ds=#s12#, #a2#", "", "16.7%" },
+			{ 5, 27916, "", "=q3=Sethekk Feather-Darts", "=ds=#w11#", "", "16.7%" },
+			{ 6, 27915, "", "=q3=Sky-Hunter Swift Boots", "=ds=#s12#, #a3#", "", "16.7%" },
+			{ 8, 27633, "", "=q1=Terokk's Mask", "=ds=#m3#", "", "100%" },
+			{ 9, 25461, "", "=q1=Book of Forgotten Names", "=ds=#m3#", "", "100%" },
+			{ 16, 30552, "", "=q4=Blessed Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30553, "", "=q4=Pristine Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30554, "", "=q4=Stalwart Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 20, 24160, "", "=q3=Design: Khorium Inferno Band", "=ds=#p12# (355)", "", "10%" },
 		},
 	},
 	info = {
@@ -341,18 +353,20 @@ AtlasLoot_Data["AuchSethekkDarkweaver"] = {
 	},
 };
 
-AtlasLoot_Data["AuchSethekkRavenGod"] = {
+AtlasLoot_Data["SethekkHallsAnzu"] = {
 	["Heroic"] = {
 		{
-			{ 1,  32768, "", "=q4=Reins of the Raven Lord",      "=ds=#e26#" },
-			{ 2,  30553, "", "=q4=Pristine Fire Opal",           "=ds=#e7#",       "", "15.73%" },
-			{ 3,  30554, "", "=q4=Stalwart Fire Opal",           "=ds=#e7#",       "", "10.11%" },
-			{ 4,  30552, "", "=q4=Blessed Tanzanite",            "=ds=#e7#",       "", "0.18%" },
-			{ 6,  32769, "", "=q3=Belt of the Raven Lord",       "=ds=#s10#, #a2#" },
-			{ 7,  32778, "", "=q3=Boots of Righteous Fortitude", "=ds=#s12#, #a4#" },
-			{ 8,  32779, "", "=q3=Band of Frigid Elements",      "=ds=#s13#" },
-			{ 9,  32781, "", "=q3=Talon of Anzu",                "=ds=#h1#, #w4#" },
-			{ 10, 32780, "", "=q3=The Boomstick",                "=ds=#w5#" },
+			{ 1, 32779, "", "=q3=Band of Frigid Elements", "=ds=#s13#", "", "20%" },
+			{ 2, 32769, "", "=q3=Belt of the Raven Lord", "=ds=#s10#, #a2#", "", "20%" },
+			{ 3, 32778, "", "=q3=Boots of Righteous Fortitude", "=ds=#s12#, #a4#", "", "20%" },
+			{ 4, 32781, "", "=q3=Talon of Anzu", "=ds=#h1#, #w4#", "", "20%" },
+			{ 5, 32780, "", "=q3=The Boomstick", "=ds=#w5#", "", "20%" },
+			{ 7, 32768, "", "=q4=Reins of the Raven Lord", "=ds=#e26#", "", "0.93%" },
+			{ 16, 30552, "", "=q4=Blessed Tanzanite", "=ds=#e7#", "", "15.3%" },
+			{ 17, 30553, "", "=q4=Pristine Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 18, 30554, "", "=q4=Stalwart Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 20, 0, "INV_Box_01", "=q6=" .. AL["The Saga of Terokk"] },
+			{ 21, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -362,30 +376,51 @@ AtlasLoot_Data["AuchSethekkRavenGod"] = {
 	},
 };
 
-AtlasLoot_Data["AuchSethekkTalonKing"] = {
+AtlasLoot_Data["SethekkHallsTalonKingIkiss"] = {
 	["Normal"] = {
 		{
-			{ 1,  27948, "",           "=q3=Trousers of Oblivion",          "=ds=#s11#, #a1# (D3)", "", "8.89%" },
-			{ 2,  27838, "",           "=q3=Incanter's Trousers",           "=ds=#s11#, #a1# (D3)", "", "9.54%" },
-			{ 3,  27875, "",           "=q3=Hallowed Trousers",             "=ds=#s11#, #a1# (D3)", "", "10.28%" },
-			{ 4,  27776, "",           "=q3=Shoulderpads of Assassination", "#s3#, #a2# (D3)",      "", "10.21%" },
-			{ 5,  27936, "",           "=q3=Greaves of Desolation",         "=ds=#s11#, #a3# (D3)", "", "12.00%" },
-			{ 7,  27946, "",           "=q3=Avian Cloak of Feathers",       "=ds=#s4#",             "", "10.21%" },
-			{ 8,  27981, "",           "=q3=Sethekk Oracle Cloak",          "=ds=#s4#",             "", "10.00%" },
-			{ 9,  27985, "",           "=q3=Deathforge Girdle",             "=ds=#s10#, #a4#",      "", "9.24%" },
-			{ 10, 27925, "",           "=q3=Ravenclaw Band",                "=ds=#s13#",            "", "12.79%" },
-			{ 11, 27980, "",           "=q3=Terokk's Nightmace",            "=ds=#h1#, #w6#",       "", "11.18%" },
-			{ 12, 27986, "",           "=q3=Crow Wing Reaper",              "=ds=#h2#, #w1#",       "", "8.50%" },
-			{ 14, 27632, "",           "=q1=Terokk's Quill",                "=ds=#m3#",             "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                         "" },
-			{ 17, 30553, "",           "=q4=Glinting Tanzanite",            "=ds=#e7#",             "", "15.73%" },
-			{ 18, 30554, "",           "=q4=Stalwart Fire Opal",            "=ds=#e7#",             "", "10.11%" },
-			{ 19, 30552, "",           "=q4=Timeless Tanzanite",            "=ds=#e7#",             "", "0.18%" },
-			{ 21, 29249, "",           "=q4=Bands of the Benevolent",       "=ds=#s8#, #a1#",       "", "4.49%" },
-			{ 22, 29259, "",           "=q4=Bracers of the Hunt",           "=ds=#s8#, #a3#",       "", "7.87%" },
-			{ 23, 32073, "",           "=q4=Spaulders of Dementia",         "=ds=#s3#, #a4#" },
-			{ 24, 29355, "",           "=q4=Terokk's Shadowstaff",          "=ds=#w9#",             "", "0.16%" },
-			{ 26, 33834, "",           "=q1=The Headfeathers of Ikiss",     "=ds=#m3#",             "", "100%" },
+			{ 1, 27936, "", "=q3=Greaves of Desolation", "=ds=#s11#, #a3# =q1=#j10#", "", "20%" },
+			{ 2, 27875, "", "=q3=Hallowed Trousers", "=ds=#s11#, #a1# =q1=#j10#", "", "20%" },
+			{ 3, 27838, "", "=q3=Incanter's Trousers", "=ds=#s11#, #a1# =q1=#j10#", "", "20%" },
+			{ 4, 27776, "", "=q3=Shoulderpads of Assassination", "#s3#, #a2# =q1=#j10#", "", "20%" },
+			{ 5, 27948, "", "=q3=Trousers of Oblivion", "=ds=#s11#, #a1# =q1=#j10#", "", "20%" },
+			{ 7, 27946, "", "=q3=Avian Cloak of Feathers", "=ds=#s4#", "", "16.7%" },
+			{ 8, 27986, "", "=q3=Crow Wing Reaper", "=ds=#h2#, #w1#", "", "16.7%" },
+			{ 9, 27985, "", "=q3=Deathforge Girdle", "=ds=#s10#, #a4#", "", "16.7%" },
+			{ 10, 27925, "", "=q3=Ravenclaw Band", "=ds=#s13#", "", "16.7%" },
+			{ 11, 27981, "", "=q3=Sethekk Oracle Cloak", "=ds=#s4#", "", "16.7%" },
+			{ 12, 27980, "", "=q3=Terokk's Nightmace", "=ds=#h1#, #w6#", "", "16.7%" },
+			{ 14, 27632, "", "=q1=Terokk's Quill", "=ds=#m3#", "", "100%" },
+			{ 16, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "2.5%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 29249, "", "=q4=Bands of the Benevolent", "=ds=#s8#, #a1#", "", "25%" },
+			{ 2, 29259, "", "=q4=Bracers of the Hunt", "=ds=#s8#, #a3#", "", "25%" },
+			{ 3, 32073, "", "=q4=Spaulders of Dementia", "=ds=#s3#, #a4#", "", "25%" },
+			{ 4, 29355, "", "=q4=Terokk's Shadowstaff", "=ds=#w9#", "", "25%" },
+			{ 5, 27946, "", "=q3=Avian Cloak of Feathers", "=ds=#s4#", "", "9.1%" },
+			{ 6, 27986, "", "=q3=Crow Wing Reaper", "=ds=#h2#, #w1#", "", "9.1%" },
+			{ 7, 27985, "", "=q3=Deathforge Girdle", "=ds=#s10#, #a4#", "", "9.1%" },
+			{ 8, 27925, "", "=q3=Ravenclaw Band", "=ds=#s13#", "", "9.1%" },
+			{ 9, 27981, "", "=q3=Sethekk Oracle Cloak", "=ds=#s4#", "", "9.1%" },
+			{ 10, 27980, "", "=q3=Terokk's Nightmace", "=ds=#h1#, #w6#", "", "9.1%" },
+			{ 12, 27936, "", "=q3=Greaves of Desolation", "=ds=#s11#, #a3# =q1=#j10#", "", "9.1%" },
+			{ 13, 27875, "", "=q3=Hallowed Trousers", "=ds=#s11#, #a1# =q1=#j10#", "", "9.1%" },
+			{ 14, 27838, "", "=q3=Incanter's Trousers", "=ds=#s11#, #a1# =q1=#j10#", "", "9.1%" },
+			{ 15, 27776, "", "=q3=Shoulderpads of Assassination", "#s3#, #a2# =q1=#j10#", "", "9.1%" },
+			{ 16, 27948, "", "=q3=Trousers of Oblivion", "=ds=#s11#, #a1# =q1=#j10#", "", "9.1%" },
+			{ 18, 27632, "", "=q1=Terokk's Quill", "=ds=#m3#", "", "100%" },
+			{ 19, 33834, "", "=q1=The Headfeathers of Ikiss", "=ds=#m3#", "", "100%" },
+			{ 21, 30552, "", "=q4=Blessed Tanzanite", "=ds=#e7#", "", "15.3%" },
+			{ 22, 30553, "", "=q4=Pristine Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 23, 30554, "", "=q4=Stalwart Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 25, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.5%" },
+			{ 26, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.5%" },
+			{ 27, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.5%" },
+			{ 28, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "0.5%" },
+			{ 30, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
 		},
 	},
 	info = {
@@ -513,24 +548,21 @@ AtlasLoot_Data["AuchindounTrash"] = {
 			{ 6, 22543, "", "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1=" .. AL["Ethereal Priest"], "", "2%" },
 			{ 7, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370) =q1=" .. AL["Nexus Stalker"], "", "3.9%" },
 
-			{ 9,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Sethekk Halls"] },
-			{ 10,  25731, "",           "=q3=Pattern: Stylin' Crimson Hat",       "=ds=#p7# (350) =q1=" .. AL["Sethekk Ravenguard"], "", "0.46%" },
-			{ 11,  29669, "",           "=q2=Pattern: Shadow Armor Kit",          "=ds=#p7# (340) =q1=" .. AL["Time-Lost Shadowmage"], "", "0.39%" },
+			{ 9,  0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Sethekk Halls"] },
+			{ 11, 29669, "", "=q2=Pattern: Shadow Armor Kit", "=ds=#p7# (340) =q1=" .. AL["Time-Lost Shadowmage"], "", "6%" },
+			{ 10, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1=" .. AL["Sethekk Ravenguard"], "", "5%" },
 
 			{ 13, 0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],               "=q5=" .. BabbleZone["Shadow Labyrinth"] },
 			{ 14, 23607, "",           "=q3=Plans: Felsteel Helm",               "=ds=#p2# (365) =q1=" .. AL["Cabal Fanatic"],     "", "0.61%" },
 
 			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["First Fragment Guardian"],  "=q5=" .. BabbleZone["Shadow Labyrinth"] },
 			{ 17, 24514, "",           "=q1=First Key Fragment",                 "=ds=#m3#",                                        "", "100%" },
-
-			{ 19,  0,     "INV_Box_01", "=q6=" .. AL["The Saga of Terokk"],       "=q5=" .. BabbleZone["Sethekk Halls"] },
-			{ 20, 27634, "",           "=q1=The Saga of Terokk",                 "=ds=#m3#" },
 		},
 	},
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		NextPrevDisable = true,
+		instance = "AuchShadowLabyrinth",
 	},
 };
 
