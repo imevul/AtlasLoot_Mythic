@@ -419,10 +419,10 @@ AtlasLoot_LootTableRegister = {
 
 		["AuchSethekkHalls"] = {
 			["Bosses"] = {
-				{ "AuchSethekkDarkweaver", 3 },
-				{ "AuchSethekkRavenGod",   5 },
-				{ "AuchSethekkTalonKing",  7 },
-				{ "AuchindounTrash",             9 },
+				{ "SethekkHallsDarkweaverSyth", 1 },
+				{ "SethekkHallsAnzu", 2 },
+				{ "SethekkHallsTalonKingIkiss", 3 },
+				{ "AuchindounTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Sethekk Halls"], "AtlasLootBurningCrusade" },
 		},
