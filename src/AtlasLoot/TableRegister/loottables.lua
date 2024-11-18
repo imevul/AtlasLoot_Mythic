@@ -429,11 +429,11 @@ AtlasLoot_LootTableRegister = {
 
 		["AuchShadowLabyrinth"] = {
 			["Bosses"] = {
-				{ "AuchShadowHellmaw",     3 },
-				{ "AuchShadowBlackheart",  4 },
-				{ "AuchShadowGrandmaster", 5 },
-				{ "AuchShadowMurmur",      7 },
-				{ "AuchindounTrash",             12 },
+				{ "ShadowLabyrinthAmbassadorHellmaw", 1 },
+				{ "ShadowLabyrinthBlackheartTheInciter", 2 },
+				{ "ShadowLabyrinthGrandmasterVorpil", 3 },
+				{ "ShadowLabyrinthMurmur", 4 },
+				{ "AuchindounTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Shadow Labyrinth"], "AtlasLootBurningCrusade", mapname = "ShadowLabyrinth1" },
 		},
@@ -540,13 +540,11 @@ AtlasLoot_LootTableRegister = {
 
 		["TempestKeepArcatraz"] = {
 			["Bosses"] = {
-				{ "Shatar",         1,  hide = true },
-				{ "TKArcUnbound",   3 },
-				{ "TKArcDalliah",   4 },
-				{ "TKArcScryer",    5 },
-				{ "TKArcHarbinger", 6 },
-				{ "TKTrash",        10, hide = true },
-				{ "TKTrash",        13 },
+				{ "ArcatrazZerekethTheUnbound", 1 },
+				{ "ArcatrazDalliahTheDoomsayer", 2 },
+				{ "ArcatrazWrathScryerSoccothrates", 3 },
+				{ "ArcatrazHarbingerSkyriss", 4 },
+				{ "TempestKeepTrash", 5 },
 			},
 			["Info"] = { BabbleZone["The Arcatraz"], "AtlasLootBurningCrusade" },
 		},
