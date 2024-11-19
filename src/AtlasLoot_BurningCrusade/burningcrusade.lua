@@ -365,8 +365,6 @@ AtlasLoot_Data["SethekkHallsAnzu"] = {
 			{ 16, 30552, "", "=q4=Blessed Tanzanite", "=ds=#e7#", "", "15.3%" },
 			{ 17, 30553, "", "=q4=Pristine Fire Opal", "=ds=#e7#", "", "15.3%" },
 			{ 18, 30554, "", "=q4=Stalwart Fire Opal", "=ds=#e7#", "", "15.3%" },
-			{ 20, 0, "INV_Box_01", "=q6=" .. AL["The Saga of Terokk"] },
-			{ 21, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -589,9 +587,6 @@ AtlasLoot_Data["ShadowLabyrinthMurmur"] = {
 		{
 			{ 1, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
 			{ 3, 24309, "", "=q4=Pattern: Spellstrike Pants", "=ds=#p8# (375)", "", "10%" },
-			
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["First Fragment Guardian"] },
-			{ 17, 24514, "", "=q1=First Key Fragment", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -607,19 +602,18 @@ AtlasLoot_Data["AuchindounTrash"] = {
 			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Auchenai Crypts"] },
 			{ 2, 22544, "", "=q2=Formula: Enchant Boots - Dexterity", "=ds=#p4# (340) =q1=" .. AL["Raging Skeleton"], "", "2%" },
 			{ 3, 23605, "", "=q3=Plans: Felsteel Gloves", "=ds=#p2# (360) =q1=" .. AL["Auchenai Monk"], "", "8.6%" },
-
 			{ 5, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Mana-Tombs"] },
 			{ 6, 22543, "", "=q2=Formula: Enchant Boots - Fortitude", "=ds=#p4# (320) =q1=" .. AL["Ethereal Priest"], "", "2%" },
 			{ 7, 23615, "", "=q3=Plans: Swiftsteel Gloves", "=ds=#p2# (370) =q1=" .. AL["Nexus Stalker"], "", "3.9%" },
-
 			{ 9,  0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Sethekk Halls"] },
 			{ 11, 29669, "", "=q2=Pattern: Shadow Armor Kit", "=ds=#p7# (340) =q1=" .. AL["Time-Lost Shadowmage"], "", "6%" },
 			{ 10, 25731, "", "=q3=Pattern: Stylin' Crimson Hat", "=ds=#p7# (350) =q1=" .. AL["Sethekk Ravenguard"], "", "5%" },
-
 			{ 13, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Shadow Labyrinth"] },
 			{ 14, 23607, "", "=q3=Plans: Felsteel Helm", "=ds=#p2# (365) =q1=" .. AL["Cabal Fanatic"], "", "7.5%" },
-
-
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["The Saga of Terokk"], "=q5=" .. BabbleZone["Sethekk Halls"] },
+			{ 17, 27634, "", "=q1=The Saga of Terokk", "=ds=#m3#", "", "100%" },
+			{ 19, 0, "INV_Box_01", "=q6=" .. AL["First Fragment Guardian"], "=q5=" .. BabbleZone["Shadow Labyrinth"] },
+			{ 20, 24514, "", "=q1=First Key Fragment", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -3332,20 +3326,15 @@ AtlasLoot_Data["TempestKeepTrash"] = {
 			{ 3, 21905, "", "=q2=Pattern: Arcanoweave Bracers", "=ds=#p8# (350) =q1=" .. AL["Arcatraz Sentinel"], "", "14.3%" },
 			{ 4, 29672, "", "=q2=Pattern: Flame Armor Kit", "=ds=#p7# (340) =q1=" .. AL["Gargantuan Abyssal"], "", "25.7%" },
 			{ 5, 23606, "", "=q3=Plans: Felsteel Leggings", "=ds=#p2# (360), =q1=" .. AL["Unchained Doombringer"], "", "42.6%" },
-
-			{ 7,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],                       "=q5=" .. BabbleZone["The Botanica"] },
-			{ 8,  24172, "",           "=q4=Design: Coronet of Verdant Flame",           "=ds=#p12# (370) =q1=" .. AL["Sunseeker Botanist"],  "", "0.27%" },
-
-			{ 10,  0,     "INV_Box_01", "=q6=" .. AL["Trash Mobs"],                       "=q5=" .. BabbleZone["The Mechanar"] },
-			{ 11,  22920, "",           "=q2=Recipe: Major Fire Protection Potion",       "=ds=#p1# (360) =q1=" .. AL["Sunseeker Astromage"],  "", "0.30%" },
-			{ 12,  21906, "",           "=q2=Pattern: Arcanoweave Boots",                 "=ds=#p8# (360) =q1=" .. AL["Sunseeker Astromage"],  "", "0.57%" },
-
-
-			{ 16, 0,     "INV_Box_01", "=q6=" .. AL["Third Fragment Guardian"],          "=q5=" .. BabbleZone["The Arcatraz"] },
-			{ 17, 24488, "",           "=q1=Third Key Fragment",                         "=ds=#m3#",                                          "", "100%" },
-
-			{ 19,  0,     "INV_Box_01", "=q6=" .. AL["Overcharged Manacell"],             "=q5=" .. BabbleZone["The Mechanar"] },
-			{ 20,  30824, "",           "=q1=Overcharged Manacell",                       "=ds=#m3#" },
+			{ 7, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["The Botanica"] },
+			{ 8, 24172, "", "=q4=Design: Coronet of Verdant Flame", "=ds=#p12# (370) =q1=" .. AL["Sunseeker Botanist"],  "", "4.9%" },
+			{ 10, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["The Mechanar"] },
+			{ 11, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1=" .. AL["Sunseeker Astromage"], "", "1.9%" },
+			{ 12, 21906, "", "=q2=Pattern: Arcanoweave Boots", "=ds=#p8# (360) =q1=" .. AL["Sunseeker Astromage"], "", "8.3%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Third Fragment Guardian"], "=q5=" .. BabbleZone["The Arcatraz"] },
+			{ 17, 24488, "", "=q1=Third Key Fragment", "=ds=#m3#", "", "100%" },
+			{ 19, 0, "INV_Box_01", "=q6=" .. AL["Overcharged Manacell"], "=q5=" .. BabbleZone["The Mechanar"] },
+			{ 20, 30824, "", "=q1=Overcharged Manacell", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -3359,19 +3348,28 @@ AtlasLoot_Data["TempestKeepTrash"] = {
 --- Tempest Keep: The Botanica ---
 ----------------------------------
 
-AtlasLoot_Data["TKBotSarannis"] = {
+AtlasLoot_Data["BotanicaCommanderSarannis"] = {
 	["Normal"] = {
 		{
-			{ 1,  28301, "",           "=q3=Syrannis' Mystic Sheen",       "=ds=#s4#",        "", "28.54%" },
-			{ 2,  28304, "",           "=q3=Prismatic Mittens of Mending", "=ds=#s9#, #a1#",  "", "32.46%" },
-			{ 3,  28306, "",           "=q3=Towering Mantle of the Hunt",  "=ds=#s3#, #a3#",  "", "30.68%" },
-			{ 4,  28296, "",           "=q3=Libram of the Lightbringer",   "=ds=#w16#",       "", "34.10%" },
-			{ 5,  28311, "",           "=q3=Revenger",                     "=ds=#h1#, #w10#", "", "26.25%" },
-			{ 7,  28769, "",           "=q1=The Keystone",                 "=ds=#m3#",        "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                        "" },
-			{ 17, 30574, "",           "=q4=Shifting Tanzanite",           "=ds=#e7#",        "", "8.00%" },
-			{ 18, 30572, "",           "=q4=Purified Tanzanite",           "=ds=#e7#",        "", "8.00%" },
-			{ 19, 30573, "",           "=q4=Mysterious Tanzanite",         "=ds=#e7#",        "", "8.00%" },
+			{ 1, 28296, "", "=q3=Libram of the Lightbringer", "=ds=#w16#", "", "20%" },
+			{ 2, 28304, "", "=q3=Prismatic Mittens of Mending", "=ds=#s9#, #a1#", "", "20%" },
+			{ 3, 28311, "", "=q3=Revenger", "=ds=#h1#, #w10#", "", "20%" },
+			{ 4, 28301, "", "=q3=Syrannis' Mystic Sheen", "=ds=#s4#", "", "20%" },
+			{ 5, 28306, "", "=q3=Towering Mantle of the Hunt", "=ds=#s3#, #a3#", "", "20%" },
+			{ 7, 28769, "", "=q1=The Keystone", "=ds=#m3#", "", "100%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28296, "", "=q3=Libram of the Lightbringer", "=ds=#w16#", "", "20%" },
+			{ 2, 28304, "", "=q3=Prismatic Mittens of Mending", "=ds=#s9#, #a1#", "", "20%" },
+			{ 3, 28311, "", "=q3=Revenger", "=ds=#h1#, #w10#", "", "20%" },
+			{ 4, 28301, "", "=q3=Syrannis' Mystic Sheen", "=ds=#s4#", "", "20%" },
+			{ 5, 28306, "", "=q3=Towering Mantle of the Hunt", "=ds=#s3#, #a3#", "", "20%" },
+			{ 7, 28769, "", "=q1=The Keystone", "=ds=#m3#", "", "100%" },
+			{ 16, 30574, "", "=q4=Brutal Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30572, "", "=q4=Imperial Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30573, "", "=q4=Mysterious Fire Opal", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -3381,20 +3379,30 @@ AtlasLoot_Data["TKBotSarannis"] = {
 	},
 };
 
-AtlasLoot_Data["TKBotFreywinn"] = {
+AtlasLoot_Data["BotanicaHighBotanistFreywinn"] = {
 	["Normal"] = {
 		{
-			{ 1,  28317, "",           "=q3=Energis Armwraps",              "=ds=#s9#, #a1#",  "", "17.60%" },
-			{ 2,  28318, "",           "=q3=Obsidian Clodstompers",         "=ds=#s12#, #a4#", "", "16.48%" },
-			{ 3,  28321, "",           "=q3=Enchanted Thorium Torque",      "=ds=#s2#",        "", "18.09%" },
-			{ 4,  28315, "",           "=q3=Stormreaver Warblades",         "=ds=#h4#, #w13#", "", "16.75%" },
-			{ 5,  28316, "",           "=q3=Aegis of the Sunbird",          "=ds=#w8#",        "", "14.60%" },
-			{ 7,  23617, "",           "=q3=Plans: Earthpeace Breastplate", "=ds=#p2# (370)",  "", "1.07%" },
-			{ 9,  31744, "",           "=q1=Botanist's Field Guide",        "=ds=#m3#",        "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                         "" },
-			{ 17, 30574, "",           "=q4=Shifting Tanzanite",            "=ds=#e7#",        "", "8.00%" },
-			{ 18, 30572, "",           "=q4=Purified Tanzanite",            "=ds=#e7#",        "", "8.00%" },
-			{ 19, 30573, "",           "=q4=Mysterious Tanzanite",          "=ds=#e7#",        "", "8.00%" },
+			{ 1, 28316, "", "=q3=Aegis of the Sunbird", "=ds=#w8#", "", "20%" },
+			{ 2, 28321, "", "=q3=Enchanted Thorium Torque", "=ds=#s2#", "", "20%" },
+			{ 3, 28317, "", "=q3=Energis Armwraps", "=ds=#s9#, #a1#", "", "20%" },
+			{ 4, 28318, "", "=q3=Obsidian Clodstompers", "=ds=#s12#, #a4#", "", "20%" },
+			{ 5, 28315, "", "=q3=Stormreaver Warblades", "=ds=#h4#, #w13#", "", "20%" },
+			{ 7, 31744, "", "=q1=Botanist's Field Guide", "=ds=#m3#", "", "100%" },
+			{ 16, 23617, "", "=q3=Plans: Earthpeace Breastplate", "=ds=#p2# (370)", "", "10%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28316, "", "=q3=Aegis of the Sunbird", "=ds=#w8#", "", "20%" },
+			{ 2, 28321, "", "=q3=Enchanted Thorium Torque", "=ds=#s2#", "", "20%" },
+			{ 3, 28317, "", "=q3=Energis Armwraps", "=ds=#s9#, #a1#", "", "20%" },
+			{ 4, 28318, "", "=q3=Obsidian Clodstompers", "=ds=#s12#, #a4#", "", "20%" },
+			{ 5, 28315, "", "=q3=Stormreaver Warblades", "=ds=#h4#, #w13#", "", "20%" },
+			{ 7, 31744, "", "=q1=Botanist's Field Guide", "=ds=#m3#", "", "100%" },
+			{ 16, 30574, "", "=q4=Brutal Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30572, "", "=q4=Imperial Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30573, "", "=q4=Mysterious Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 20, 23617, "", "=q3=Plans: Earthpeace Breastplate", "=ds=#p2# (370)", "", "14%" },
 		},
 	},
 	info = {
@@ -3404,19 +3412,28 @@ AtlasLoot_Data["TKBotFreywinn"] = {
 	},
 };
 
-AtlasLoot_Data["TKBotThorngrin"] = {
+AtlasLoot_Data["BotanicaThorngrinTheTender"] = {
 	["Normal"] = {
 		{
-			{ 1,  24310, "",           "=q4=Pattern: Battlecast Pants",    "=ds=#p8# (375)", "", "0.44%" },
-			{ 3,  28324, "",           "=q3=Gauntlets of Cruel Intention", "=ds=#s9#, #a4#", "", "15.56%" },
-			{ 4,  28327, "",           "=q3=Arcane Netherband",            "=ds=#s13#",      "", "17.77%" },
-			{ 5,  28323, "",           "=q3=Ring of Umbral Doom",          "=ds=#s13#",      "", "16.25%" },
-			{ 6,  28322, "",           "=q3=Runed Dagger of Solace",       "=ds=#h3#, #w4#", "", "18.16%" },
-			{ 7,  28325, "",           "=q3=Dreamer's Dragonstaff",        "=ds=#w9#",       "", "15.46%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                        "" },
-			{ 17, 30574, "",           "=q4=Shifting Tanzanite",           "=ds=#e7#",       "", "8.00%" },
-			{ 18, 30572, "",           "=q4=Purified Tanzanite",           "=ds=#e7#",       "", "8.00%" },
-			{ 19, 30573, "",           "=q4=Mysterious Tanzanite",         "=ds=#e7#",       "", "8.00%" },
+			{ 1, 28327, "", "=q3=Arcane Netherband", "=ds=#s13#", "", "20%" },
+			{ 2, 28325, "", "=q3=Dreamer's Dragonstaff", "=ds=#w9#", "", "20%" },
+			{ 3, 28324, "", "=q3=Gauntlets of Cruel Intention", "=ds=#s9#, #a4#", "", "20%" },
+			{ 4, 28323, "", "=q3=Ring of Umbral Doom", "=ds=#s13#", "", "20%" },
+			{ 5, 28322, "", "=q3=Runed Dagger of Solace", "=ds=#h3#, #w4#", "", "20%" },
+			{ 16, 24310, "", "=q4=Pattern: Battlecast Pants", "=ds=#p8# (375)", "", "10%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28327, "", "=q3=Arcane Netherband", "=ds=#s13#", "", "20%" },
+			{ 2, 28325, "", "=q3=Dreamer's Dragonstaff", "=ds=#w9#", "", "20%" },
+			{ 3, 28324, "", "=q3=Gauntlets of Cruel Intention", "=ds=#s9#, #a4#", "", "20%" },
+			{ 4, 28323, "", "=q3=Ring of Umbral Doom", "=ds=#s13#", "", "20%" },
+			{ 5, 28322, "", "=q3=Runed Dagger of Solace", "=ds=#h3#, #w4#", "", "20%" },
+			{ 16, 30574, "", "=q4=Brutal Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30572, "", "=q4=Imperial Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30573, "", "=q4=Mysterious Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 20, 24310, "", "=q4=Pattern: Battlecast Pants", "=ds=#p8# (375)", "", "10%" },
 		},
 	},
 	info = {
@@ -3426,18 +3443,26 @@ AtlasLoot_Data["TKBotThorngrin"] = {
 	},
 };
 
-AtlasLoot_Data["TKBotLaj"] = {
+AtlasLoot_Data["BotanicaLaj"] = {
 	["Normal"] = {
 		{
-			{ 1,  27739, "",           "=q3=Spaulders of the Righteous",  "=ds=#s3#, #a4# (D3)", "", "18.13%" },
-			{ 3,  28328, "",           "=q3=Mithril-Bark Cloak",          "=ds=#s4#",            "", "20.88%" },
-			{ 4,  28338, "",           "=q3=Devil-Stitched Leggings",     "=ds=#s11#, #a1#",     "", "18.71%" },
-			{ 5,  28340, "",           "=q3=Mantle of Autumn",            "=ds=#s3#, #a2#",      "", "17.19%" },
-			{ 6,  28339, "",           "=q3=Boots of the Shifting Sands", "=ds=#s12#, #a2#",     "", "19.07%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                       "" },
-			{ 17, 30574, "",           "=q4=Shifting Tanzanite",          "=ds=#e7#",            "", "8.00%" },
-			{ 18, 30572, "",           "=q4=Purified Tanzanite",          "=ds=#e7#",            "", "8.00%" },
-			{ 19, 30573, "",           "=q4=Mysterious Tanzanite",        "=ds=#e7#",            "", "8.00%" },
+			{ 1, 28339, "", "=q3=Boots of the Shifting Sands", "=ds=#s12#, #a2#", "", "20%" },
+			{ 2, 28338, "", "=q3=Devil-Stitched Leggings", "=ds=#s11#, #a1#", "", "20%" },
+			{ 3, 28340, "", "=q3=Mantle of Autumn", "=ds=#s3#, #a2#", "", "20%" },
+			{ 4, 28328, "", "=q3=Mithril-Bark Cloak", "=ds=#s4#", "", "20%" },
+			{ 6, 27739, "", "=q3=Spaulders of the Righteous", "=ds=#s3#, #a4# =q1=#j10#", "", "20%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28339, "", "=q3=Boots of the Shifting Sands", "=ds=#s12#, #a2#", "", "20%" },
+			{ 2, 28338, "", "=q3=Devil-Stitched Leggings", "=ds=#s11#, #a1#", "", "20%" },
+			{ 3, 28340, "", "=q3=Mantle of Autumn", "=ds=#s3#, #a2#", "", "20%" },
+			{ 4, 28328, "", "=q3=Mithril-Bark Cloak", "=ds=#s4#", "", "20%" },
+			{ 6, 27739, "", "=q3=Spaulders of the Righteous", "=ds=#s3#, #a4# =q1=#j10#", "", "20%" },
+			{ 16, 30574, "", "=q4=Brutal Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30572, "", "=q4=Imperial Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30573, "", "=q4=Mysterious Fire Opal", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -3447,51 +3472,63 @@ AtlasLoot_Data["TKBotLaj"] = {
 	},
 };
 
-AtlasLoot_Data["TKBotSplinter"] = {
+AtlasLoot_Data["BotanicaWarpSplinter"] = {
 	["Normal"] = {
 		{
-			{ 1,  24311, "", "=q4=Pattern: Whitemend Hood",       "=ds=#p8# (375)",      "", "0.30%" },
-			{ 3,  28371, "", "=q3=Netherfury Cape",               "=ds=#s4#",            "", "13.52%" },
-			{ 4,  28342, "", "=q3=Warp Infused Drape",            "=ds=#s5#, #a1#",      "", "10.27%" },
-			{ 5,  28347, "", "=q3=Warpscale Leggings",            "=ds=#s11#, #a2#",     "", "11.74%" },
-			{ 6,  28343, "", "=q3=Jagged Bark Pendant",           "=ds=#s2#",            "", "12.34%" },
-			{ 7,  28370, "", "=q3=Bangle of Endless Blessings",   "=ds=#s14#",           "", "12.38%" },
-			{ 8,  28345, "", "=q3=Warp Splinter's Thorn",         "=ds=#h1#, #w4#",      "", "10.37%" },
-			{ 9,  28367, "", "=q3=Greatsword of Forlorn Visions", "=ds=#h2#, #w10#",     "", "11.64%" },
-			{ 10, 28341, "", "=q3=Warpstaff of Arcanum",          "=ds=#w9#",            "", "10.47%" },
-			{ 12, 31085, "", "=q1=Top Shard of the Arcatraz Key", "=ds=#m3#",            "", "100%" },
-			{ 16, 28229, "", "=q3=Incanter's Robe",               "=ds=#s5#, #a1# (D3)", "", "8.42%" },
-			{ 17, 28348, "", "=q3=Moonglade Cowl",                "=ds=#s1#, #a2# (D3)", "", "11.17%" },
-			{ 18, 28349, "", "=q3=Tidefury Helm",                 "=ds=#s1#, #a3# (D3)", "", "13.85%" },
-			{ 19, 28228, "", "=q3=Beast Lord Curiass",            "=ds=#s5#, #a3# (D3)", "", "9.59%" },
-			{ 20, 28350, "", "=q3=Warhelm of the Bold",           "=ds=#s1#, #a4# (D3)", "", "8.96%" },
+			{ 1, 28370, "", "=q3=Bangle of Endless Blessings", "=ds=#s14#", "", "16.7%" },
+			{ 2, 28367, "", "=q3=Greatsword of Forlorn Visions", "=ds=#h2#, #w10#", "", "16.7%" },
+			{ 3, 28371, "", "=q3=Netherfury Cape", "=ds=#s4#", "", "16.7%" },
+			{ 4, 28343, "", "=q3=Jagged Bark Pendant", "=ds=#s2#", "", "14.3%" },
+			{ 5, 28342, "", "=q3=Warp Infused Drape", "=ds=#s5#, #a1#", "", "14.3%" },
+			{ 6, 28345, "", "=q3=Warp Splinter's Thorn", "=ds=#h1#, #w4#", "", "14.3%" },
+			{ 7, 28347, "", "=q3=Warpscale Leggings", "=ds=#s11#, #a2#", "", "14.3%" },
+			{ 8, 28341, "", "=q3=Warpstaff of Arcanum", "=ds=#w9#", "", "14.3%" },
+			{ 10, 28348, "", "=q3=Moonglade Cowl", "=ds=#s1#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 11, 28349, "", "=q3=Tidefury Helm", "=ds=#s1#, #a3# =q1=#j10#", "", "16.7%" },
+			{ 12, 28350, "", "=q3=Warhelm of the Bold", "=ds=#s1#, #a4# =q1=#j10#", "", "16.7%" },
+			{ 13, 28228, "", "=q3=Beast Lord Curiass", "=ds=#s5#, #a3# =q1=#j10#", "", "14.3%" },
+			{ 14, 28229, "", "=q3=Incanter's Robe", "=ds=#s5#, #a1# =q1=#j10#", "", "14.3%" },
+			{ 16, 31085, "", "=q1=Top Shard of the Arcatraz Key", "=ds=#m3#", "", "100%" },
+			{ 18, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "2%" },
+			{ 19, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "2%" },
+			{ 20, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "2%" },
+			{ 21, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "2%" },
+			{ 23, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "5%" },
+			{ 25, 24311, "", "=q4=Pattern: Whitemend Hood", "=ds=#p8# (375)", "", "10%" },
 		},
 	},
 	["Heroic"] = {
 		{
-			{ 1,  29258, "", "=q4=Boots of Ethereal Manipulation", "=ds=#s12#, #a1#" },
-			{ 2,  29262, "", "=q4=Boots of the Endless Hunt",      "=ds=#s12#, #a3#",     "", "4.00%" },
-			{ 3,  32072, "", "=q4=Gauntlets of Dissension",        "=ds=#s9#, #a4#" },
-			{ 4,  29359, "", "=q4=Feral Staff of Lashing",         "=ds=#w9#" },
-			{ 5,  24311, "", "=q4=Pattern: Whitemend Hood",        "=ds=#p8# (375)",      "", "0.30%" },
-			{ 7,  28371, "", "=q3=Netherfury Cape",                "=ds=#s4#",            "", "4.00%" },
-			{ 8,  28342, "", "=q3=Warp Infused Drape",             "=ds=#s5#, #a1#",      "", "8.00%" },
-			{ 9,  28347, "", "=q3=Warpscale Leggings",             "=ds=#s11#, #a2#",     "", "12.00%" },
-			{ 10, 28343, "", "=q3=Jagged Bark Pendant",            "=ds=#s2#",            "", "4.00%" },
-			{ 11, 28370, "", "=q3=Bangle of Endless Blessings",    "=ds=#s14#",           "", "28.00%" },
-			{ 12, 28345, "", "=q3=Warp Splinter's Thorn",          "=ds=#h1#, #w4#",      "", "28.00%" },
-			{ 13, 28367, "", "=q3=Greatsword of Forlorn Visions",  "=ds=#h2#, #w10#",     "", "8.00%" },
-			{ 14, 28341, "", "=q3=Warpstaff of Arcanum",           "=ds=#w9#",            "", "4.00%" },
-			{ 16, 30574, "", "=q4=Shifting Tanzanite",             "=ds=#e7#",            "", "8.00%" },
-			{ 17, 30572, "", "=q4=Purified Tanzanite",             "=ds=#e7#",            "", "8.00%" },
-			{ 18, 30573, "", "=q4=Mysterious Tanzanite",           "=ds=#e7#",            "", "8.00%" },
-			{ 20, 28229, "", "=q3=Incanter's Robe",                "=ds=#s5#, #a1# (D3)", "", "4.00%" },
-			{ 21, 28348, "", "=q3=Moonglade Cowl",                 "=ds=#s1#, #a2# (D3)", "", "12.00%" },
-			{ 22, 28349, "", "=q3=Tidefury Helm",                  "=ds=#s1#, #a3# (D3)", "", "12.00%" },
-			{ 23, 28228, "", "=q3=Beast Lord Curiass",             "=ds=#s5#, #a3# (D3)", "", "20.00%" },
-			{ 24, 28350, "", "=q3=Warhelm of the Bold",            "=ds=#s1#, #a4# (D3)", "", "16.00%" },
-			{ 26, 31085, "", "=q1=Top Shard of the Arcatraz Key",  "=ds=#m3#",            "", "100%" },
-			{ 27, 33859, "", "=q1=Warp Splinter Clipping",         "=ds=#m3#",            "", "100%" },
+			{ 1, 29258, "", "=q4=Boots of Ethereal Manipulation", "=ds=#s12#, #a1#", "", "25%" },
+			{ 2, 29262, "", "=q4=Boots of the Endless Hunt", "=ds=#s12#, #a3#", "", "25%" },
+			{ 3, 29359, "", "=q4=Feral Staff of Lashing", "=ds=#w9#", "", "25%" },
+			{ 4, 32072, "", "=q4=Gauntlets of Dissension", "=ds=#s9#, #a4#", "", "25%" },
+			{ 5, 28370, "", "=q3=Bangle of Endless Blessings", "=ds=#s14#", "", "16.7%" },
+			{ 6, 28367, "", "=q3=Greatsword of Forlorn Visions", "=ds=#h2#, #w10#", "", "16.7%" },
+			{ 7, 28371, "", "=q3=Netherfury Cape", "=ds=#s4#", "", "16.7%" },
+			{ 8, 28343, "", "=q3=Jagged Bark Pendant", "=ds=#s2#", "", "14.3%" },
+			{ 9, 28342, "", "=q3=Warp Infused Drape", "=ds=#s5#, #a1#", "", "14.3%" },
+			{ 10, 28345, "", "=q3=Warp Splinter's Thorn", "=ds=#h1#, #w4#", "", "14.3%" },
+			{ 11, 28347, "", "=q3=Warpscale Leggings", "=ds=#s11#, #a2#", "", "14.3%" },
+			{ 12, 28341, "", "=q3=Warpstaff of Arcanum", "=ds=#w9#", "", "14.3%" },
+			{ 14, 28348, "", "=q3=Moonglade Cowl", "=ds=#s1#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 15, 28349, "", "=q3=Tidefury Helm", "=ds=#s1#, #a3# =q1=#j10#", "", "16.7%" },
+			{ 16, 28350, "", "=q3=Warhelm of the Bold", "=ds=#s1#, #a4# =q1=#j10#", "", "16.7%" },
+			{ 17, 28228, "", "=q3=Beast Lord Curiass", "=ds=#s5#, #a3# =q1=#j10#", "", "14.3%" },
+			{ 18, 28229, "", "=q3=Incanter's Robe", "=ds=#s5#, #a1# =q1=#j10#", "", "14.3%" },
+			{ 20, 31085, "", "=q1=Top Shard of the Arcatraz Key", "=ds=#m3#", "", "100%" },
+			{ 21, 33859, "", "=q1=Warp Splinter Clipping", "=ds=#m3#", "", "100%" },
+			{ 23, 30574, "", "=q4=Brutal Tanzanite", "=ds=#e7#", "", "15.3%" },
+			{ 24, 30572, "", "=q4=Imperial Tanzanite", "=ds=#e7#", "", "15.3%" },
+			{ 25, 30573, "", "=q4=Mysterious Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 27, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.5%" },
+			{ 28, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.5%" },
+			{ 29, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.5%" },
+			{ 30, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "0.5%" },
+		},
+		{
+			{ 1, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
+			{ 3, 24311, "", "=q4=Pattern: Whitemend Hood", "=ds=#p8# (375)", "", "10%" },
 		},
 	},
 	info = {
@@ -3505,37 +3542,41 @@ AtlasLoot_Data["TKBotSplinter"] = {
 --- Tempest Keep: The Mechanar ---
 ----------------------------------
 
-AtlasLoot_Data["TKMechCacheoftheLegion"] = {
+AtlasLoot_Data["MechanarGatewatcherIronHand"] = {
 	["Normal"] = {
 		{
-			{ 1, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Cache of the Legion"], "" },
-			{ 2, 28249, "",           "=q3=Capacitus' Cloak of Calibration",     "=ds=#s4#",        "", "21.16%" },
-			{ 3, 28250, "",           "=q3=Vestia's Pauldrons of Inner Grace",   "=ds=#s3#, #a1#",  "", "17.89%" },
-			{ 4, 28252, "",           "=q3=Bloodfyre Robes of Annihilation",     "=ds=#s5#, #a1#",  "", "22.53%" },
-			{ 5, 28251, "",           "=q3=Boots of the Glade-Keeper",           "=ds=#s12#, #a2#", "", "18.74%" },
-			{ 6, 28248, "",           "=q3=Totem of the Void",                   "=ds=#w15#",       "", "19.58%" },
+			{ 1, 30437, "", "=q1=Jagged Red Crystal", "=ds=#e9#", "", "100%" },
 		},
 	},
 	info = {
-		name = BabbleBoss["Cache of the Legion"],
+		name = BabbleBoss["Gatewatcher Iron-Hand"],
 		module = moduleName,
 		instance = "TempestKeepMechanar",
 	},
 };
 
-AtlasLoot_Data["TKMechCapacitus"] = {
+AtlasLoot_Data["MechanarMechanoLordCapacitus"] = {
 	["Normal"] = {
 		{
-			{ 1,  28256, "",           "=q3=Thoriumweave Cloak",                  "=ds=#s4#",       "", "14.81%" },
-			{ 2,  28255, "",           "=q3=Lunar-Claw Pauldrons",                "=ds=#s3#, #a2#", "", "16.98%" },
-			{ 3,  28254, "",           "=q3=Warp Engineer's Prismatic Chain",     "=ds=#s2#",       "", "16.81%" },
-			{ 4,  28257, "",           "=q3=Hammer of the Penitent",              "=ds=#h3#, #w6#", "", "14.36%" },
-			{ 5,  28253, "",           "=q3=Plasma Rat's Hyper-Scythe",           "=ds=#w7#",       "", "17.69%" },
-			{ 7,  35582, "",           "=q3=Schematic: Rocket Boots Xtreme Lite", "=ds=#p5# (355)" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                               "" },
-			{ 17, 30565, "",           "=q4=Jagged Chrysoprase",                  "=ds=#e7#",       "", "18.72%" },
-			{ 18, 30566, "",           "=q4=Defender's Tanzanite",                "=ds=#e7#",       "", "8.87%" },
-			{ 19, 30564, "",           "=q4=Veiled Tanzanite",                    "=ds=#e7#",       "", "3.45%" },
+			{ 1, 28257, "", "=q3=Hammer of the Penitent", "=ds=#h3#, #w6#", "", "20%" },
+			{ 2, 28255, "", "=q3=Lunar-Claw Pauldrons", "=ds=#s3#, #a2#", "", "20%" },
+			{ 3, 28253, "", "=q3=Plasma Rat's Hyper-Scythe", "=ds=#w7#", "", "20%" },
+			{ 4, 28256, "", "=q3=Thoriumweave Cloak", "=ds=#s4#", "", "20%" },
+			{ 5, 28254, "", "=q3=Warp Engineer's Prismatic Chain", "=ds=#s2#", "", "20%" },
+			{ 16, 35582, "", "=q3=Schematic: Rocket Boots Xtreme Lite", "=ds=#p5# (355)", "", "20%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28257, "", "=q3=Hammer of the Penitent", "=ds=#h3#, #w6#", "", "20%" },
+			{ 2, 28255, "", "=q3=Lunar-Claw Pauldrons", "=ds=#s3#, #a2#", "", "20%" },
+			{ 3, 28253, "", "=q3=Plasma Rat's Hyper-Scythe", "=ds=#w7#", "", "20%" },
+			{ 4, 28256, "", "=q3=Thoriumweave Cloak", "=ds=#s4#", "", "20%" },
+			{ 5, 28254, "", "=q3=Warp Engineer's Prismatic Chain", "=ds=#s2#", "", "20%" },
+			{ 16, 30565, "", "=q4=Assassin's Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30566, "", "=q4=Defender's Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30564, "", "=q4=Shining Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 20, 35582, "", "=q3=Schematic: Rocket Boots Xtreme Lite", "=ds=#p5# (355)", "", "38%" },
 		},
 	},
 	info = {
@@ -3545,19 +3586,58 @@ AtlasLoot_Data["TKMechCapacitus"] = {
 	},
 };
 
-AtlasLoot_Data["TKMechSepethrea"] = {
+AtlasLoot_Data["MechanarGatewatcherGyroKill"] = {
 	["Normal"] = {
 		{
-			{ 1,  28262, "",           "=q3=Jade-Skull Breastplate",               "=ds=#s5#, #a4#",          "", "15.37%" },
-			{ 2,  28259, "",           "=q3=Cosmic Lifeband",                      "=ds=#s13#",               "", "18.06%" },
-			{ 3,  28260, "",           "=q3=Manual of the Nethermancer",           "=ds=#s15#",               "", "15.61%" },
-			{ 4,  28263, "",           "=q3=Stellaris",                            "=ds=#h1#, #w1#",          "", "15.58%" },
-			{ 5,  28258, "",           "=q3=Nethershrike",                         "=ds=#w11#",               "", "15.88%" },
-			{ 7,  22920, "",           "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360) =q1=#n93#" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                                "" },
-			{ 17, 30565, "",           "=q4=Jagged Chrysoprase",                   "=ds=#e7#",                "", "18.72%" },
-			{ 18, 30566, "",           "=q4=Defender's Tanzanite",                 "=ds=#e7#",                "", "8.87%" },
-			{ 19, 30564, "",           "=q4=Veiled Tanzanite",                     "=ds=#e7#",                "", "3.45%" },
+			{ 1, 30436, "", "=q1=Jagged Blue Crystal", "=ds=#e9#", "", "100%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Gatewatcher Gyro-Kill"],
+		module = moduleName,
+		instance = "TempestKeepMechanar",
+	},
+};
+
+AtlasLoot_Data["MechanarCacheOfTheLegion"] = {
+	["Normal"] = {
+		{
+			{ 1, 28252, "", "=q3=Bloodfyre Robes of Annihilation", "=ds=#s5#, #a1#", "", "20%" },
+			{ 2, 28251, "", "=q3=Boots of the Glade-Keeper", "=ds=#s12#, #a2#", "", "20%" },
+			{ 3, 28249, "", "=q3=Capacitus' Cloak of Calibration", "=ds=#s4#", "", "20%" },
+			{ 4, 28248, "", "=q3=Totem of the Void", "=ds=#w15#", "", "20%" },
+			{ 5, 28250, "", "=q3=Vestia's Pauldrons of Inner Grace", "=ds=#s3#, #a1#", "", "20%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Cache of the Legion"],
+		module = moduleName,
+		instance = "TempestKeepMechanar",
+	},
+};
+
+AtlasLoot_Data["MechanarNethermancerSepethrea"] = {
+	["Normal"] = {
+		{
+			{ 1, 28259, "", "=q3=Cosmic Lifeband", "=ds=#s13#", "", "20%" },
+			{ 2, 28262, "", "=q3=Jade-Skull Breastplate", "=ds=#s5#, #a4#", "", "20%" },
+			{ 3, 28260, "", "=q3=Manual of the Nethermancer", "=ds=#s15#", "", "20%" },
+			{ 4, 28258, "", "=q3=Nethershrike", "=ds=#w11#", "", "20%" },
+			{ 5, 28263, "", "=q3=Stellaris", "=ds=#h1#, #w1#", "", "20%" },
+			{ 16, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360)", "", "10%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 28259, "", "=q3=Cosmic Lifeband", "=ds=#s13#", "", "20%" },
+			{ 2, 28262, "", "=q3=Jade-Skull Breastplate", "=ds=#s5#, #a4#", "", "20%" },
+			{ 3, 28260, "", "=q3=Manual of the Nethermancer", "=ds=#s15#", "", "20%" },
+			{ 4, 28258, "", "=q3=Nethershrike", "=ds=#w11#", "", "20%" },
+			{ 5, 28263, "", "=q3=Stellaris", "=ds=#h1#, #w1#", "", "20%" },
+			{ 16, 30565, "", "=q4=Assassin's Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30566, "", "=q4=Defender's Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30564, "", "=q4=Shining Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 20, 22920, "", "=q2=Recipe: Major Fire Protection Potion", "=ds=#p1# (360)", "", "10%" },
 		},
 	},
 	info = {
@@ -3567,49 +3647,61 @@ AtlasLoot_Data["TKMechSepethrea"] = {
 	},
 };
 
-AtlasLoot_Data["TKMechCalc"] = {
+AtlasLoot_Data["MechanarPathaleonTheCalculator"] = {
 	["Normal"] = {
 		{
-			{ 1,  28269, "", "=q3=Baba's Cloak of Arcanistry",       "=ds=#s4#",            "", "11.78%" },
-			{ 2,  28266, "", "=q3=Molten Earth Kilt",                "=ds=#s11#, #a3#",     "", "12.26%" },
-			{ 3,  28265, "", "=q3=Dath'Remar's Ring of Defense",     "=ds=#s13#",           "", "10.61%" },
-			{ 4,  28288, "", "=q3=Abacus of Violent Odds",           "=ds=#s14#",           "", "10.54%" },
-			{ 5,  27899, "", "=q3=Mana Wrath",                       "=ds=#h3#, #w10#",     "", "11.38%" },
-			{ 6,  28267, "", "=q3=Edge of the Cosmos",               "=ds=#h1#, #w10#",     "", "11.13%" },
-			{ 7,  28286, "", "=q3=Telescopic Sharprifle",            "=ds=#w5#",            "", "12.28%" },
-			{ 9,  21907, "", "=q2=Pattern: Arcanoweave Robe",        "=ds=#p8# (370)",      "", "1.11%" },
-			{ 11, 31086, "", "=q1=Bottom Shard of the Arcatraz Key", "=ds=#m3#",            "", "100%" },
-			{ 16, 28278, "", "=q3=Incanter's Cowl",                  "=ds=#s1#, #a1# (D3)", "", "13.39%" },
-			{ 17, 28202, "", "=q3=Moonglade Robe",                   "=ds=#s5#, #a2# (D3)", "", "11.92%" },
-			{ 18, 28204, "", "=q3=Tunic of Assassination",           "=ds=#s5#, #a2# (D3)", "", "12.44%" },
-			{ 19, 28275, "", "=q3=Beast Lord Helm",                  "=ds=#s1#, #a3# (D3)", "", "12.37%" },
-			{ 20, 28285, "", "=q3=Helm of the Righteous",            "=ds=#s1#, #a4# (D3)", "", "10.88%" },
+			{ 1, 28288, "", "=q3=Abacus of Violent Odds", "=ds=#s14#", "", "16.7%" },
+			{ 2, 28269, "", "=q3=Baba's Cloak of Arcanistry", "=ds=#s4#", "", "16.7%" },
+			{ 3, 28265, "", "=q3=Dath'Remar's Ring of Defense", "=ds=#s13#", "", "16.7%" },
+			{ 4, 28267, "", "=q3=Edge of the Cosmos", "=ds=#h1#, #w10#", "", "16.7%" },
+			{ 5, 27899, "", "=q3=Mana Wrath", "=ds=#h3#, #w10#", "", "16.7%" },
+			{ 6, 28266, "", "=q3=Molten Earth Kilt", "=ds=#s11#, #a3#", "", "16.7%" },
+			{ 7, 28286, "", "=q3=Telescopic Sharprifle", "=ds=#w5#", "", "16.7%" },
+			{ 9, 28275, "", "=q3=Beast Lord Helm", "=ds=#s1#, #a3# =q1=#j10#", "", "16.7%" },
+			{ 10, 28285, "", "=q3=Helm of the Righteous", "=ds=#s1#, #a4# =q1=#j10#", "", "16.7%" },
+			{ 11, 28278, "", "=q3=Incanter's Cowl", "=ds=#s1#, #a1# =q1=#j10#", "", "16.7%" },
+			{ 12, 28202, "", "=q3=Moonglade Robe", "=ds=#s5#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 13, 28204, "", "=q3=Tunic of Assassination", "=ds=#s5#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 15, 31086, "", "=q1=Bottom Shard of the Arcatraz Key", "=ds=#m3#", "", "100%" },
+			{ 16, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.5%" },
+			{ 17, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.5%" },
+			{ 18, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.5%" },
+			{ 19, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "0.5%" },
+			{ 21, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "5%" },
+			{ 23, 21907, "", "=q2=Pattern: Arcanoweave Robe", "=ds=#p8# (370)", "", "10%" },
 		},
 	},
 	["Heroic"] = {
 		{
-			{ 1,  29251, "", "=q4=Boots of the Pious",               "=ds=#s12#, #a1#",     "", "7.88%" },
-			{ 2,  32076, "", "=q4=Handguards of the Steady",         "=ds=#s9#, #a3#" },
-			{ 3,  30533, "", "=q4=Vanquisher's Legplates",           "=ds=#s11#, #a4#",     "", "6.90%" },
-			{ 4,  29362, "", "=q4=The Sun Eater",                    "=ds=#h1#, #w10#",     "", "1.48%" },
-			{ 6,  28269, "", "=q3=Baba's Cloak of Arcanistry",       "=ds=#s4#",            "", "11.82%" },
-			{ 7,  28266, "", "=q3=Molten Earth Kilt",                "=ds=#s11#, #a3#",     "", "14.29%" },
-			{ 8,  28265, "", "=q3=Dath'Remar's Ring of Defense",     "=ds=#s13#",           "", "8.87%" },
-			{ 9,  28288, "", "=q3=Abacus of Violent Odds",           "=ds=#s14#",           "", "8.37%" },
-			{ 10, 27899, "", "=q3=Mana Wrath",                       "=ds=#h3#, #w10#",     "", "9.36%" },
-			{ 11, 28267, "", "=q3=Edge of the Cosmos",               "=ds=#h1#, #w10#",     "", "11.82%" },
-			{ 12, 28286, "", "=q3=Telescopic Sharprifle",            "=ds=#w5#",            "", "9.85%" },
-			{ 15, 21907, "", "=q2=Pattern: Arcanoweave Robe",        "=ds=#p8# (370)",      "", "1.11%" },
-			{ 16, 30565, "", "=q4=Jagged Chrysoprase",               "=ds=#e7#",            "", "18.72%" },
-			{ 17, 30566, "", "=q4=Defender's Tanzanite",             "=ds=#e7#",            "", "8.87%" },
-			{ 18, 30564, "", "=q4=Veiled Tanzanite",                 "=ds=#e7#",            "", "3.45%" },
-			{ 20, 28278, "", "=q3=Incanter's Cowl",                  "=ds=#s1#, #a1# (D3)", "", "14.29%" },
-			{ 21, 28202, "", "=q3=Moonglade Robe",                   "=ds=#s5#, #a2# (D3)", "", "11.33%" },
-			{ 22, 28204, "", "=q3=Tunic of Assassination",           "=ds=#s5#, #a2# (D3)", "", "8.87%" },
-			{ 23, 28275, "", "=q3=Beast Lord Helm",                  "=ds=#s1#, #a3# (D3)", "", "14.78%" },
-			{ 24, 28285, "", "=q3=Helm of the Righteous",            "=ds=#s1#, #a4# (D3)", "", "10.34%" },
-			{ 26, 33860, "", "=q1=Pathaleon's Projector",            "=ds=#m3#",            "", "100%" },
-			{ 27, 31086, "", "=q1=Bottom Shard of the Arcatraz Key", "=ds=#m3#",            "", "100%" },
+			{ 1, 29251, "", "=q4=Boots of the Pious", "=ds=#s12#, #a1#", "", "25%" },
+			{ 2, 32076, "", "=q4=Handguards of the Steady", "=ds=#s9#, #a3#", "", "25%" },
+			{ 3, 29362, "", "=q4=The Sun Eater", "=ds=#h1#, #w10#", "", "25%" },
+			{ 4, 30533, "", "=q4=Vanquisher's Legplates", "=ds=#s11#, #a4#", "", "25%" },
+			{ 5, 28288, "", "=q3=Abacus of Violent Odds", "=ds=#s14#", "", "16.7%" },
+			{ 6, 28269, "", "=q3=Baba's Cloak of Arcanistry", "=ds=#s4#", "", "16.7%" },
+			{ 7, 28265, "", "=q3=Dath'Remar's Ring of Defense", "=ds=#s13#", "", "16.7%" },
+			{ 8, 28267, "", "=q3=Edge of the Cosmos", "=ds=#h1#, #w10#", "", "16.7%" },
+			{ 9, 27899, "", "=q3=Mana Wrath", "=ds=#h3#, #w10#", "", "16.7%" },
+			{ 10, 28266, "", "=q3=Molten Earth Kilt", "=ds=#s11#, #a3#", "", "16.7%" },
+			{ 11, 28286, "", "=q3=Telescopic Sharprifle", "=ds=#w5#", "", "16.7%" },
+			{ 13, 28275, "", "=q3=Beast Lord Helm", "=ds=#s1#, #a3# =q1=#j10#", "", "16.7%" },
+			{ 14, 28285, "", "=q3=Helm of the Righteous", "=ds=#s1#, #a4# =q1=#j10#", "", "16.7%" },
+			{ 15, 28278, "", "=q3=Incanter's Cowl", "=ds=#s1#, #a1# =q1=#j10#", "", "16.7%" },
+			{ 16, 28202, "", "=q3=Moonglade Robe", "=ds=#s5#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 17, 28204, "", "=q3=Tunic of Assassination", "=ds=#s5#, #a2# =q1=#j10#", "", "16.7%" },
+			{ 19, 31086, "", "=q1=Bottom Shard of the Arcatraz Key", "=ds=#m3#", "", "100%" },
+			{ 20, 33860, "", "=q1=Pathaleon's Projector", "=ds=#m3#", "", "100%" },
+			{ 22, 30565, "", "=q4=Assassin's Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 23, 30566, "", "=q4=Defender's Tanzanite", "=ds=#e7#", "", "15.3%" },
+			{ 24, 30564, "", "=q4=Shining Fire Opal", "=ds=#e7#", "", "15.3%" },
+			{ 26, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.5%" },
+			{ 27, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.5%" },
+			{ 28, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.5%" },
+			{ 29, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "0.5%" },
+		},
+		{
+			{ 1, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
+			{ 3, 21910, "", "=q1=Pattern: Spellfire Robe", "=ds=#p8# (375)", "", "10%" },
 		},
 	},
 	info = {
