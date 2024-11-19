@@ -450,11 +450,10 @@ AtlasLoot_LootTableRegister = {
 
 		["CoTBlackMorass"] = {
 			["Bosses"] = {
-				{ "KeepersofTime",     3, hide = true },
-				{ "CoTMorassDeja",     7 },
-				{ "CoTMorassTemporus", 8 },
-				{ "CoTMorassAeonus",   9 },
-				{ "CavernsOfTimeTrash",          13 },
+				{ "BlackMorassChronoLordDeja", 1 },
+				{ "BlackMorassTemporus", 2 },
+				{ "BlackMorassAeonus", 3 },
+				{ "CavernsOfTimeTrash", 4 },
 			},
 			["Info"] = { BabbleZone["The Black Morass"], "AtlasLootBurningCrusade" },
 		},
@@ -504,11 +503,9 @@ AtlasLoot_LootTableRegister = {
 
 		["HCBloodFurnace"] = {
 			["Bosses"] = {
-				{ "HonorHold",        1, hide = true },
-				{ "Thrallmar",        2, hide = true },
-				{ "HCFurnaceMaker",   4 },
-				{ "HCFurnaceBroggok", 5 },
-				{ "HCFurnaceBreaker", 6 },
+				{ "BloodFurnaceTheMaker", 1 },
+				{ "BloodFurnaceBroggok", 2 },
+				{ "BloodFurnaceKelidanTheBreaker", 3 },
 			},
 			["Info"] = { BabbleZone["The Blood Furnace"], "AtlasLootBurningCrusade" },
 		},
