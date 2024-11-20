@@ -1350,27 +1350,29 @@ AtlasLoot_Data["MountHyjalTrash"] = {
 --- Coilfang Reservoir: The Slave Pens ---
 ------------------------------------------
 
-AtlasLoot_Data["CFRSlaveMennu"] = {
+AtlasLoot_Data["SlavePensMennuTheBetrayer"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=#j1#",                          "" },
-			{ 2,  24359, "",           "=q3=Princely Reign Leggings",       "=ds=#s11#, #a1#", "", "10.20%" },
-			{ 3,  24357, "",           "=q3=Vest of Living Lightning",      "=ds=#s5#, #a3#",  "", "11.94%" },
-			{ 4,  24360, "",           "=q3=Tracker's Belt",                "=ds=#s10#, #a3#", "", "11.07%" },
-			{ 5,  24356, "",           "=q3=Wastewalker Shiv",              "=ds=#h1#, #w4#",  "", "12.47%" },
-			{ 6,  24361, "",           "=q3=Spellfire Longsword",           "=ds=#h3#, #w10#", "", "11.07%" },
-			{ 8,  29674, "",           "=q2=Pattern: Nature Armor Kit",     "=ds=#p7# (340)",  "", "0.80%" },
-			{ 16, 0,     "inv_box_04", "=q6=#j3#",                          "" },
-			{ 17, 30604, "",           "=q4=Resplendent Fire Opal",         "=ds=#e7#",        "", "22.49%" },
-			{ 18, 30605, "",           "=q4=Nimble Chrysoprase",            "=ds=#e7#",        "", "9.39%" },
-			{ 19, 30603, "",           "=q4=Purified Tanzanite",            "=ds=#e7#",        "", "10.48%" },
-			{ 21, 27542, "",           "=q3=Cord of Belief",                "=ds=#s10#, #a1#", "", "16.50%" },
-			{ 22, 27545, "",           "=q3=Mennu's Scaled Leggings",       "=ds=#s11#, #a2#", "", "8.50%" },
-			{ 23, 27541, "",           "=q3=Archery Belt of the Broken",    "=ds=#s10#, #a3#", "", "12.75%" },
-			{ 24, 27546, "",           "=q3=Traitor's Noose",               "=ds=#s2#",        "", "13.75%" },
-			{ 25, 27544, "",           "=q3=Totem of Spontaneous Regrowth", "=ds=#w15#",       "", "12.25%" },
-			{ 26, 27543, "",           "=q3=Starlight Dagger",              "=ds=#h3#, #w4#",  "", "20.00%" },
-			{ 28, 29674, "",           "=q2=Pattern: Nature Armor Kit",     "=ds=#p7# (340)",  "", "0.80%" },
+			{ 1, 24359, "", "=q3=Princely Reign Leggings", "=ds=#s11#, #a1#", "", "20%" },
+			{ 2, 24361, "", "=q3=Spellfire Longsword", "=ds=#h3#, #w10#", "", "20%" },
+			{ 3, 24360, "", "=q3=Tracker's Belt", "=ds=#s10#, #a3#", "", "20%" },
+			{ 4, 24357, "", "=q3=Vest of Living Lightning", "=ds=#s5#, #a3#", "", "20%" },
+			{ 5, 24356, "", "=q3=Wastewalker Shiv", "=ds=#h1#, #w4#", "", "20%" },
+			{ 16, 29674, "", "=q2=Pattern: Nature Armor Kit", "=ds=#p7# (340)", "", "10%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 27541, "", "=q3=Archery Belt of the Broken", "=ds=#s10#, #a3#", "", "16.7%" },
+			{ 2, 27542, "", "=q3=Cord of Belief", "=ds=#s10#, #a1#", "", "16.7%" },
+			{ 3, 27545, "", "=q3=Mennu's Scaled Leggings", "=ds=#s11#, #a2#", "", "16.7%" },
+			{ 4, 27543, "", "=q3=Starlight Dagger", "=ds=#h3#, #w4#", "", "16.7%" },
+			{ 5, 27544, "", "=q3=Totem of Spontaneous Regrowth", "=ds=#w15#", "", "16.7%" },
+			{ 6, 27546, "", "=q3=Traitor's Noose", "=ds=#s2#", "", "16.7%" },
+			{ 16, 30604, "", "=q4=Resplendent Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30603, "", "=q4=Royal Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30605, "", "=q4=Vivid Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 20, 29674, "", "=q2=Pattern: Nature Armor Kit", "=ds=#p7# (340)",  "", "10%" },
 		},
 	},
 	info = {
@@ -1380,25 +1382,27 @@ AtlasLoot_Data["CFRSlaveMennu"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSlaveRokmar"] = {
+AtlasLoot_Data["SlavePensRokmarTheCrackler"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=#j1#",                            "" },
-			{ 2,  24379, "",           "=q3=Bogstrok Scale Cloak",            "=ds=#s4#",        "", "10.05%" },
-			{ 3,  24376, "",           "=q3=Runed Fungalcap",                 "=ds=#s14#",       "", "11.45%" },
-			{ 4,  24378, "",           "=q3=Coilfang Hammer of Renewal",      "=ds=#h3#, #w6#",  "", "9.66%" },
-			{ 5,  24380, "",           "=q3=Calming Spore Reed",              "=ds=#w12#",       "", "10.26%" },
-			{ 6,  24381, "",           "=q3=Coilfang Needler",                "=ds=#w3#",        "", "10.05%" },
-			{ 16, 0,     "inv_box_04", "=q6=#j3#",                            "" },
-			{ 17, 30604, "",           "=q4=Resplendent Fire Opal",           "=ds=#e7#",        "", "22.49%" },
-			{ 18, 30605, "",           "=q4=Nimble Chrysoprase",              "=ds=#e7#",        "", "9.39%" },
-			{ 19, 30603, "",           "=q4=Purified Tanzanite",              "=ds=#e7#",        "", "10.48%" },
-			{ 21, 27550, "",           "=q3=Ironscale War Cloak",             "=ds=#s4#",        "", "11.48%" },
-			{ 22, 27547, "",           "=q3=Coldwhisper Cord",                "=ds=#s10#, #a1#", "", "14.85%" },
-			{ 23, 28124, "",           "=q3=Liar's Cord",                     "=ds=#s10#, #a2#", "", "8.96%" },
-			{ 24, 27549, "",           "=q3=Wavefury Boots",                  "=ds=#s12#, #a3#", "", "9.80%" },
-			{ 25, 27548, "",           "=q3=Girdle of Many Blessings",        "=ds=#s10#, #a4#", "", "14.85%" },
-			{ 26, 27551, "",           "=q3=Skeletal Necklace of Battlerage", "=ds=#s2#",        "", "16.25%" },
+			{ 1, 24379, "", "=q3=Bogstrok Scale Cloak", "=ds=#s4#", "", "20%" },
+			{ 2, 24380, "", "=q3=Calming Spore Reed", "=ds=#w12#", "", "20%" },
+			{ 3, 24378, "", "=q3=Coilfang Hammer of Renewal", "=ds=#h3#, #w6#", "", "20%" },
+			{ 4, 24381, "", "=q3=Coilfang Needler", "=ds=#w3#", "", "20%" },
+			{ 5, 24376, "", "=q3=Runed Fungalcap", "=ds=#s14#", "", "20%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 27547, "", "=q3=Coldwhisper Cord", "=ds=#s10#, #a1#", "", "16.7%" },
+			{ 2, 27548, "", "=q3=Girdle of Many Blessings", "=ds=#s10#, #a4#", "", "16.7%" },
+			{ 3, 27550, "", "=q3=Ironscale War Cloak", "=ds=#s4#", "", "16.7%" },
+			{ 4, 28124, "", "=q3=Liar's Cord", "=ds=#s10#, #a2#", "", "16.7%" },
+			{ 5, 27551, "", "=q3=Skeletal Necklace of Battlerage", "=ds=#s2#", "", "16.7%" },
+			{ 6, 27549, "", "=q3=Wavefury Boots", "=ds=#s12#, #a3#", "", "16.7%" },
+			{ 16, 30604, "", "=q4=Resplendent Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30603, "", "=q4=Royal Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30605, "", "=q4=Vivid Chrysoprase", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -1408,39 +1412,43 @@ AtlasLoot_Data["CFRSlaveRokmar"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSlaveQuagmirran"] = {
+AtlasLoot_Data["SlavePensQuagmirran"] = {
 	["Normal"] = {
 		{
-			{ 1, 24362, "", "=q3=Spore-Soaked Vaneer",   "=ds=#s4#",        "", "10.63%" },
-			{ 2, 24365, "", "=q3=Deft Handguards",       "=ds=#s9#, #a2#",  "", "10.89%" },
-			{ 3, 24366, "", "=q3=Scorpid-Sting Mantle",  "=ds=#s3#, #a3#",  "", "11.72%" },
-			{ 4, 24363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#",  "", "9.54%" },
-			{ 5, 24364, "", "=q3=Azureplate Greaves",    "=ds=#s11#, #a4#", "", "9.98%" },
+			{ 1, 24364, "", "=q3=Azureplate Greaves", "=ds=#s11#, #a4#", "", "20%" },
+			{ 2, 24365, "", "=q3=Deft Handguards", "=ds=#s9#, #a2#", "", "20%" },
+			{ 3, 24366, "", "=q3=Scorpid-Sting Mantle", "=ds=#s3#, #a3#", "", "20%" },
+			{ 4, 24362, "", "=q3=Spore-Soaked Vaneer", "=ds=#s4#", "", "20%" },
+			{ 5, 24363, "", "=q3=Unscarred Breastplate", "=ds=#s5#, #a4#", "", "20%" },
 		},
 	},
 	["Heroic"] = {
 		{
-			{ 1,  30604, "", "=q4=Resplendent Fire Opal",            "=ds=#e7#",            "", "22.49%" },
-			{ 2,  30605, "", "=q4=Nimble Chrysoprase",               "=ds=#e7#",            "", "9.39%" },
-			{ 3,  30603, "", "=q4=Purified Tanzanite",               "=ds=#e7#",            "", "10.48%" },
-			{ 4,  29242, "", "=q4=Boots of Blasphemy",               "=ds=#s12#, #a1#",     "", "10.04%" },
-			{ 5,  30538, "", "=q4=Midnight Legguards",               "=ds=#s11#, #a2#",     "", "8.95%" },
-			{ 6,  32078, "", "=q4=Pauldrons of Wild Magic",          "=ds=#s3#, #a3#" },
-			{ 7,  29349, "", "=q4=Adamantine Chain of the Unbroken", "=ds=#s2#",            "", "1.53%" },
-			{ 9,  27742, "", "=q3=Mage-Fury Girdle",                 "=ds=#s10#, #a1#",     "", "12.00%" },
-			{ 10, 27712, "", "=q3=Shackles of Quagmirran",           "=ds=#s8#, #a2#" },
-			{ 11, 27800, "", "=q3=Earthsoul Britches",               "=ds=#s11#, #a2#",     "", "13.76%" },
-			{ 12, 28337, "", "=q3=Breastplate of Righteous Fury",    "=ds=#s5#, #a4#",      "", "8.73%" },
-			{ 13, 27672, "", "=q3=Girdle of the Immovable",          "=ds=#s10#, #a4#",     "", "7.64%" },
-			{ 16, 27796, "", "=q3=Mana-Etched Spaulders",            "=ds=#s3#, #a1# (D3)", "", "5.24%" },
-			{ 17, 27713, "", "=q3=Pauldrons of Desolation",          "=ds=#s3#, #a3# (D3)", "", "10.70%" },
-			{ 19, 27740, "", "=q3=Band of Ursol",                    "=ds=#s13#",           "", "12.23%" },
-			{ 20, 27683, "", "=q3=Quagmirran's Eye",                 "=ds=#s14#",           "", "7.86%" },
-			{ 21, 27714, "", "=q3=Swamplight Lantern",               "=ds=#s15#",           "", "10.92%" },
-			{ 22, 27673, "", "=q3=Phosphorescent Blade",             "=ds=#h1#, #w10#" },
-			{ 23, 27741, "", "=q3=Bleeding Hollow Warhammer",        "=ds=#h3#, #w6#",      "", "9.83%" },
-			{ 25, 33821, "", "=q1=The Heart of Quagmirran",          "=ds=#m3#",            "", "100%" },
-
+			{ 1, 29349, "", "=q4=Adamantine Chain of the Unbroken", "=ds=#s2#", "", "25%" },
+			{ 2, 29242, "", "=q4=Boots of Blasphemy", "=ds=#s12#, #a1#", "", "25%" },
+			{ 3, 30538, "", "=q4=Midnight Legguards", "=ds=#s11#, #a2#", "", "25%" },
+			{ 4, 32078, "", "=q4=Pauldrons of Wild Magic", "=ds=#s3#, #a3#", "", "25%" },
+			{ 5, 27740, "", "=q3=Band of Ursol", "=ds=#s13#", "", "16.7%" },
+			{ 6, 27741, "", "=q3=Bleeding Hollow Warhammer", "=ds=#h3#, #w6#", "", "16.7%" },
+			{ 7, 28337, "", "=q3=Breastplate of Righteous Fury", "=ds=#s5#, #a4#", "", "16.7%" },
+			{ 8, 27800, "", "=q3=Earthsoul Britches", "=ds=#s11#, #a2#", "", "16.7%" },
+			{ 9, 27672, "", "=q3=Girdle of the Immovable", "=ds=#s10#, #a4#", "", "16.7%" },
+			{ 10, 27742, "", "=q3=Mage-Fury Girdle", "=ds=#s10#, #a1#", "", "16.7%" },
+			{ 11, 27673, "", "=q3=Phosphorescent Blade", "=ds=#h1#, #w10#", "", "16.7%" },
+			{ 12, 27683, "", "=q3=Quagmirran's Eye", "=ds=#s14#", "", "16.7%" },
+			{ 13, 27712, "", "=q3=Shackles of Quagmirran", "=ds=#s8#, #a2#", "", "16.7%" },
+			{ 14, 27714, "", "=q3=Swamplight Lantern", "=ds=#s15#", "", "16.7%" },
+			{ 16, 27796, "", "=q3=Mana-Etched Spaulders", "=ds=#s3#, #a1# =q1=#j10#", "", "5.24%" },
+			{ 17, 27713, "", "=q3=Pauldrons of Desolation", "=ds=#s3#, #a3# =q1=#j10#", "", "10.70%" },
+			{ 19, 33821, "", "=q1=The Heart of Quagmirran", "=ds=#m3#", "", "100%" },
+			{ 21, 30604, "", "=q4=Resplendent Fire Opal", "=ds=#e7#", "", "13.3%" },
+			{ 22, 30603, "", "=q4=Royal Tanzanite", "=ds=#e7#", "", "13.3%" },
+			{ 23, 30605, "", "=q4=Vivid Chrysoprase", "=ds=#e7#", "", "13.3%" },
+			{ 25, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "2.5%" },
+			{ 26, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "2.5%" },
+			{ 27, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "2.5%" },
+			{ 28, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "2.5%" },
+			{ 30, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
 		},
 	},
 	info = {
@@ -2167,22 +2175,31 @@ AtlasLoot_Data["BloodFurnaceKelidanTheBreaker"] = {
 --- Hellfire Citadel: The Shattered Halls ---
 ---------------------------------------------
 
-AtlasLoot_Data["HCHallsNethekurse"] = {
+AtlasLoot_Data["ShatteredHallsGrandWarlockNethekurse"] = {
 	["Normal"] = {
 		{
-			{ 1,  24312, "",           "=q4=Pattern: Spellstrike Hood",     "=ds=#p8# (375)",  "", "0.47%" },
-			{ 3,  27519, "",           "=q3=Cloak of Malice",               "=ds=#s4#",        "", "17.44%" },
-			{ 4,  27517, "",           "=q3=Bands of Nethekurse",           "=ds=#s8#, #a1#",  "", "17.52%" },
-			{ 5,  27521, "",           "=q3=Telaari Hunting Girdle",        "=ds=#s10#, #a3#", "", "16.50%" },
-			{ 6,  27520, "",           "=q3=Greathelm of the Unbreakable",  "=ds=#s1#, #a4#",  "", "16.47%" },
-			{ 7,  27518, "",           "=q3=Ivory Idol of the Moongoddess", "=ds=#w14#",       "", "17.42%" },
-			{ 9,  23735, "",           "=q1=Grand Warlock's Amulet",        "=ds=#m3#",        "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                         "" },
-			{ 17, 24312, "",           "=q4=Pattern: Spellstrike Hood",     "=ds=#p8# (375)",  "", "0.47%" },
-			{ 18, 30548, "",           "=q4=Jagged Chrysoprase",            "=ds=#e7#",        "", "0.16%" },
-			{ 19, 30547, "",           "=q4=Reckless Fire Opal",            "=ds=#e7#",        "", "0.19%" },
-			{ 20, 30546, "",           "=q4=Sovereign Tanzanite",           "=ds=#e7#",        "", "3.39%" },
-			{ 22, 25462, "",           "=q1=Tome of Dusk",                  "=ds=#m3#",        "", "100%" },
+			{ 1, 27517, "", "=q3=Bands of Nethekurse", "=ds=#s8#, #a1#", "", "20%" },
+			{ 2, 27519, "", "=q3=Cloak of Malice", "=ds=#s4#", "", "20%" },
+			{ 3, 27520, "", "=q3=Greathelm of the Unbreakable", "=ds=#s1#, #a4#", "", "20%" },
+			{ 4, 27518, "", "=q3=Ivory Idol of the Moongoddess", "=ds=#w14#", "", "20%" },
+			{ 5, 27521, "", "=q3=Telaari Hunting Girdle", "=ds=#s10#, #a3#", "", "20%" },
+			{ 7, 23735, "", "=q1=Grand Warlock's Amulet", "=ds=#m3#", "", "100%" },
+			{ 16, 24312, "", "=q4=Pattern: Spellstrike Hood", "=ds=#p8# (375)", "", "10%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 27517, "", "=q3=Bands of Nethekurse", "=ds=#s8#, #a1#", "", "20%" },
+			{ 2, 27519, "", "=q3=Cloak of Malice", "=ds=#s4#", "", "20%" },
+			{ 3, 27520, "", "=q3=Greathelm of the Unbreakable", "=ds=#s1#, #a4#", "", "20%" },
+			{ 4, 27518, "", "=q3=Ivory Idol of the Moongoddess", "=ds=#w14#", "", "20%" },
+			{ 5, 27521, "", "=q3=Telaari Hunting Girdle", "=ds=#s10#, #a3#", "", "20%" },
+			{ 7, 23735, "", "=q1=Grand Warlock's Amulet", "=ds=#m3#", "", "100%" },
+			{ 8, 25462, "", "=q1=Tome of Dusk", "=ds=#m3#", "", "100%" },
+			{ 16, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30548, "", "=q4=Polished Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 20, 24312, "", "=q4=Pattern: Spellstrike Hood", "=ds=#p8# (375)", "", "10%" },
 		},
 	},
 	info = {
@@ -2192,17 +2209,17 @@ AtlasLoot_Data["HCHallsNethekurse"] = {
 	},
 };
 
-AtlasLoot_Data["HCHallsPorung"] = {
+AtlasLoot_Data["ShatteredHallsBloodGuardPorung"] = {
 	["Heroic"] = {
 		{
-			{ 1, 30548, "", "=q4=Polished Chrysoprase",               "=ds=#e7#",        "", "0.16%" },
-			{ 2, 30547, "", "=q4=Luminous Fire Opal",                 "=ds=#e7#",        "", "0.19%" },
-			{ 3, 30546, "", "=q4=Sovereign Tanzanite",                "=ds=#e7#",        "", "3.39%" },
-			{ 5, 30709, "", "=q3=Pantaloons of Flaming Wrath",        "=ds=#s11#, #a1#", "", "14.58%" },
-			{ 6, 30707, "", "=q3=Nimble-Foot Treads",                 "=ds=#s12#, #a2#", "", "10.42%" },
-			{ 7, 30708, "", "=q3=Belt of Flowing Thought",            "=ds=#s10#, #a3#", "", "12.50%" },
-			{ 8, 30705, "", "=q3=Spaulders of Slaughter",             "=ds=#s3#, #a4#",  "", "21.88%" },
-			{ 9, 30710, "", "=q3=Blood Guard's Necklace of Ferocity", "=ds=#s2#",        "", "10.42%" },
+			{ 1, 30708, "", "=q3=Belt of Flowing Thought", "=ds=#s10#, #a3#", "", "20%" },
+			{ 2, 30710, "", "=q3=Blood Guard's Necklace of Ferocity", "=ds=#s2#", "", "20%" },
+			{ 3, 30707, "", "=q3=Nimble-Foot Treads", "=ds=#s12#, #a2#", "", "20%" },
+			{ 4, 30709, "", "=q3=Pantaloons of Flaming Wrath", "=ds=#s11#, #a1#", "", "20%" },
+			{ 5, 30705, "", "=q3=Spaulders of Slaughter", "=ds=#s3#, #a4#", "", "20%" },
+			{ 16, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30548, "", "=q4=Polished Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -2212,19 +2229,28 @@ AtlasLoot_Data["HCHallsPorung"] = {
 	},
 };
 
-AtlasLoot_Data["HCHallsOmrogg"] = {
+AtlasLoot_Data["ShatteredHallsWarbringerOmrogg"] = {
 	["Normal"] = {
 		{
-			{ 1,  27802, "",           "=q3=Tidefury Shoulderguards",         "=ds=#s3#, #a3# (D3)", "", "17.02%" },
-			{ 3,  27525, "",           "=q3=Jeweled Boots of Sanctification", "=ds=#s12#, #a1#",     "", "18.26%" },
-			{ 4,  27868, "",           "=q3=Runesong Dagger",                 "=ds=#h3#, #w4#",      "", "15.32%" },
-			{ 5,  27524, "",           "=q3=Firemaul of Destruction",         "=ds=#h2#, #w6#",      "", "17.95%" },
-			{ 6,  27526, "",           "=q3=Skyfire Hawk-Bow",                "=ds=#w2#",            "", "17.31%" },
-			{ 8,  30829, "",           "=q1=Tear of the Earthmother",         "=ds=#m3#",            "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                           "" },
-			{ 17, 30548, "",           "=q4=Jagged Chrysoprase",              "=ds=#e7#",            "", "0.16%" },
-			{ 18, 30547, "",           "=q4=Reckless Fire Opal",              "=ds=#e7#",            "", "0.19%" },
-			{ 19, 30546, "",           "=q4=Sovereign Tanzanite",             "=ds=#e7#",            "", "3.39%" },
+			{ 1, 27524, "", "=q3=Firemaul of Destruction", "=ds=#h2#, #w6#", "", "20%" },
+			{ 2, 27525, "", "=q3=Jeweled Boots of Sanctification", "=ds=#s12#, #a1#", "", "20%" },
+			{ 3, 27868, "", "=q3=Runesong Dagger", "=ds=#h3#, #w4#", "", "20%" },
+			{ 4, 27526, "", "=q3=Skyfire Hawk-Bow", "=ds=#w2#", "", "20%" },
+			{ 6, 27802, "", "=q3=Tidefury Shoulderguards", "=ds=#s3#, #a3# =q1=#j10#", "", "20%" },
+			{ 8, 30829, "", "=q1=Tear of the Earthmother", "=ds=#m3#", "", "100%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 27524, "", "=q3=Firemaul of Destruction", "=ds=#h2#, #w6#", "", "20%" },
+			{ 2, 27525, "", "=q3=Jeweled Boots of Sanctification", "=ds=#s12#, #a1#", "", "20%" },
+			{ 3, 27868, "", "=q3=Runesong Dagger", "=ds=#h3#, #w4#", "", "20%" },
+			{ 4, 27526, "", "=q3=Skyfire Hawk-Bow", "=ds=#w2#", "", "20%" },
+			{ 6, 27802, "", "=q3=Tidefury Shoulderguards", "=ds=#s3#, #a3# =q1=#j10#", "", "20%" },
+			{ 8, 30829, "", "=q1=Tear of the Earthmother", "=ds=#m3#", "", "100%" },
+			{ 16, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 17, 30548, "", "=q4=Polished Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 18, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "6.7%" },
 		},
 	},
 	info = {
@@ -2234,31 +2260,59 @@ AtlasLoot_Data["HCHallsOmrogg"] = {
 	},
 };
 
-AtlasLoot_Data["HCHallsKargath"] = {
+AtlasLoot_Data["ShatteredHallsWarchiefKargathBladefist"] = {
 	["Normal"] = {
 		{
-			{ 1,  27536, "",           "=q3=Hallowed Handwraps",          "=ds=#s9#, #a1# (D3)", "", "12.63%" },
-			{ 2,  27537, "",           "=q3=Gloves of Oblivion",          "=ds=#s9#, #a1# (D3)", "", "12.54%" },
-			{ 3,  27531, "",           "=q3=Wastewalker Gloves",          "=ds=#s9#, #a2# (D3)", "", "11.03%" },
-			{ 4,  27474, "",           "=q3=Beast Lord Handguards",       "=ds=#s9#, #a3# (D3)", "", "10.73%" },
-			{ 5,  27528, "",           "=q3=Gauntlets of Desolation",     "=ds=#s9#, #a3# (D3)", "", "13.86%" },
-			{ 6,  27535, "",           "=q3=Gauntlets of the Righteous",  "=ds=#s9#, #a4# (D3)", "", "11.24%" },
-			{ 8,  27527, "",           "=q3=Greaves of the Shatterer",    "=ds=#s11#, #a4#",     "", "12.89%" },
-			{ 9,  27529, "",           "=q3=Figurine of the Colossus",    "=ds=#s14#",           "", "10.41%" },
-			{ 10, 27534, "",           "=q3=Hortus' Seal of Brilliance",  "=ds=#s15#",           "", "12.98%" },
-			{ 11, 27533, "",           "=q3=Demonblood Eviscerator",      "=ds=#h3#, #w13#",     "", "12.70%" },
-			{ 12, 27538, "",           "=q3=Lightsworn Hammer",           "=ds=#h3#, #w6#",      "", "10.6%" },
-			{ 13, 27540, "",           "=q3=Nexus Torch",                 "=ds=#w12#",           "", "13.02%" },
-			{ 15, 23723, "",           "=q1=Warchief Kargath's Fist",     "=ds=#m3#",            "", "100%" },
-			{ 16, 0,     "INV_Box_01", "=q6=#j27#",                       "" },
-			{ 17, 30548, "",           "=q4=Jagged Chrysoprase",          "=ds=#e7#",            "", "0.16%" },
-			{ 18, 30547, "",           "=q4=Reckless Fire Opal",          "=ds=#e7#",            "", "0.19%" },
-			{ 19, 30546, "",           "=q4=Sovereign Tanzanite",         "=ds=#e7#",            "", "3.39%" },
-			{ 21, 29255, "",           "=q4=Bands of Rarefied Magic",     "=ds=#s8#, #a1#",      "", "0.58%" },
-			{ 22, 29263, "",           "=q4=Forestheart Bracers",         "=ds=#s8#, #a2#",      "", "0.28%" },
-			{ 23, 29254, "",           "=q4=Boots of the Righteous Path", "=ds=#s12#, #a4#" },
-			{ 24, 29348, "",           "=q4=The Bladefist",               "=ds=#h3#, #w13#",     "", "3.39%" },
-			{ 26, 33815, "",           "=q1=Bladefist's Seal",            "=ds=#m3#",            "", "100%" },
+			{ 1, 27533, "", "=q3=Demonblood Eviscerator", "=ds=#h3#, #w13#", "", "8.3%" },
+			{ 2, 27529, "", "=q3=Figurine of the Colossus", "=ds=#s14#", "", "8.3%" },
+			{ 3, 27527, "", "=q3=Greaves of the Shatterer", "=ds=#s11#, #a4#", "", "8.3%" },
+			{ 4, 27534, "", "=q3=Hortus' Seal of Brilliance", "=ds=#s15#", "", "8.3%" },
+			{ 5, 27538, "", "=q3=Lightsworn Hammer", "=ds=#h3#, #w6#", "", "8.3%" },
+			{ 6, 27540, "", "=q3=Nexus Torch", "=ds=#w12#", "", "8.3%" },
+			{ 8, 27474, "", "=q3=Beast Lord Handguards", "=ds=#s9#, #a3# =q1=#j10#", "", "8.3%" },
+			{ 9, 27528, "", "=q3=Gauntlets of Desolation", "=ds=#s9#, #a3# =q1=#j10#", "", "8.3%" },
+			{ 10, 27535, "", "=q3=Gauntlets of the Righteous", "=ds=#s9#, #a4# =q1=#j10#", "", "8.3%" },
+			{ 11, 27537, "", "=q3=Gloves of Oblivion", "=ds=#s9#, #a1# =q1=#j10#", "", "8.3%" },
+			{ 12, 27536, "", "=q3=Hallowed Handwraps", "=ds=#s9#, #a1# =q1=#j10#", "", "8.3%" },
+			{ 13, 27531, "", "=q3=Wastewalker Gloves", "=ds=#s9#, #a2# =q1=#j10#", "", "8.3%" },
+			{ 15, 23723, "", "=q1=Warchief Kargath's Fist", "=ds=#m3#", "", "100%" },
+			{ 16, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "2%" },
+			{ 17, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "2%" },
+			{ 18, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "2%" },
+			{ 19, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "2%" },
+			{ 21, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "5%" },
+		},
+	},
+	["Heroic"] = {
+		{
+			{ 1, 29255, "", "=q4=Bands of Rarefied Magic", "=ds=#s8#, #a1#", "", "25%" },
+			{ 2, 29254, "", "=q4=Boots of the Righteous Path", "=ds=#s12#, #a4#", "", "25%" },
+			{ 3, 29263, "", "=q4=Forestheart Bracers", "=ds=#s8#, #a2#", "", "25%" },
+			{ 4, 29348, "", "=q4=The Bladefist", "=ds=#h3#, #w13#", "", "25%" },
+			{ 5, 27533, "", "=q3=Demonblood Eviscerator", "=ds=#h3#, #w13#", "", "8.3%" },
+			{ 6, 27529, "", "=q3=Figurine of the Colossus", "=ds=#s14#", "", "8.3%" },
+			{ 7, 27527, "", "=q3=Greaves of the Shatterer", "=ds=#s11#, #a4#", "", "8.3%" },
+			{ 8, 27534, "", "=q3=Hortus' Seal of Brilliance", "=ds=#s15#", "", "8.3%" },
+			{ 9, 27538, "", "=q3=Lightsworn Hammer", "=ds=#h3#, #w6#", "", "8.3%" },
+			{ 10, 27540, "", "=q3=Nexus Torch", "=ds=#w12#", "", "8.3%" },
+			{ 12, 27474, "", "=q3=Beast Lord Handguards", "=ds=#s9#, #a3# =q1=#j10#", "", "8.3%" },
+			{ 13, 27528, "", "=q3=Gauntlets of Desolation", "=ds=#s9#, #a3# =q1=#j10#", "", "8.3%" },
+			{ 14, 27535, "", "=q3=Gauntlets of the Righteous", "=ds=#s9#, #a4# =q1=#j10#", "", "8.3%" },
+			{ 15, 27537, "", "=q3=Gloves of Oblivion", "=ds=#s9#, #a1# =q1=#j10#", "", "8.3%" },
+			{ 16, 27536, "", "=q3=Hallowed Handwraps", "=ds=#s9#, #a1# =q1=#j10#", "", "8.3%" },
+			{ 17, 27531, "", "=q3=Wastewalker Gloves", "=ds=#s9#, #a2# =q1=#j10#", "", "8.3%" },
+			{ 19, 23723, "", "=q1=Warchief Kargath's Fist", "=ds=#m3#", "", "100%" },
+			{ 20, 33815, "", "=q1=Bladefist's Seal", "=ds=#m3#", "", "100%" },
+			{ 22, 30547, "", "=q4=Luminous Fire Opal", "=ds=#e7#", "", "6.7%" },
+			{ 23, 30548, "", "=q4=Polished Chrysoprase", "=ds=#e7#", "", "6.7%" },
+			{ 24, 30546, "", "=q4=Sovereign Tanzanite", "=ds=#e7#", "", "6.7%" },
+			{ 26, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "1.25%" },
+			{ 27, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "1.25%" },
+			{ 28, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "1.25%" },
+			{ 29, 31892, "", "=q3=Ace of Storms", "=ds=#e16#", "", "1.25%" },
+		},
+		{
+			{ 1, 23572, "", "=q3=Primal Nether", "=ds=#e6#", "", "100%" },
 		},
 	},
 	info = {
@@ -2268,12 +2322,12 @@ AtlasLoot_Data["HCHallsKargath"] = {
 	},
 };
 
-AtlasLoot_Data["HCHallsTrash"] = {
+AtlasLoot_Data["ShatteredHallsTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 22554, "",           "=q2=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (350) =q1=" .. AL["Shattered Hand Centurion"], "", "1.65%" },
-			{ 3, 0,     "INV_Box_01", "=q6=" .. AL["Shattered Hand Executioner"],  "" },
-			{ 4, 31716, "",           "=q1=Unused Axe of the Executioner",         "=ds=#m3#",                                            "", "100%" },
+			{ 1, 22554, "", "=q2=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (350) =q1=" .. AL["Shattered Hand Centurion"], "", "15%" },
+			{ 3, 0, "INV_Box_01", "=q6=" .. AL["Shattered Hand Executioner"], "" },
+			{ 4, 31716, "", "=q1=Unused Axe of the Executioner", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
