@@ -460,11 +460,9 @@ AtlasLoot_LootTableRegister = {
 
 		["CFRTheSlavePens"] = {
 			["Bosses"] = {
-				{ "CExpedition",        1, hide = true },
-				{ "CFRSlaveMennu",      3 },
-				{ "CFRSlaveRokmar",     4 },
-				{ "CFRSlaveQuagmirran", 5 },
-				{ "LordAhune",          6, hide = true },
+				{ "SlavePensMennuTheBetrayer", 1 },
+				{ "SlavePensRokmarTheCrackler", 2 },
+				{ "SlavePensQuagmirran", 3 },
 			},
 			["Info"] = { BabbleZone["The Slave Pens"], "AtlasLootBurningCrusade" },
 		},
@@ -512,14 +510,11 @@ AtlasLoot_LootTableRegister = {
 
 		["HCTheShatteredHalls"] = {
 			["Bosses"] = {
-				{ "HonorHold",         1, hide = true },
-				{ "Thrallmar",         2, hide = true },
-				{ "HCHallsNethekurse", 4 },
-				{ "HCHallsPorung",     5 },
-				{ "HCHallsOmrogg",     6 },
-				{ "HCHallsKargath",    7 },
-				{ "HCHallsTrash",      8, hide = true },
-				{ "HCHallsTrash",      18 },
+				{ "ShatteredHallsGrandWarlockNethekurse", 1 },
+				{ "ShatteredHallsBloodGuardPorung", 2 },
+				{ "ShatteredHallsWarbringerOmrogg", 3 },
+				{ "ShatteredHallsWarchiefKargathBladefist", 4 },
+				{ "ShatteredHallsTrash", 5 },
 			},
 			["Info"] = { BabbleZone["The Shattered Halls"], "AtlasLootBurningCrusade" },
 		},
