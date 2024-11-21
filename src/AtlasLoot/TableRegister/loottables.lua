@@ -469,23 +469,20 @@ AtlasLoot_LootTableRegister = {
 
 		["CFRTheSteamvault"] = {
 			["Bosses"] = {
-				{ "CExpedition",         1, hide = true },
-				{ "CFRSteamThespia",     3 },
-				{ "CFRSteamSteamrigger", 5 },
-				{ "CFRSteamWarlord",     7 },
-				{ "CFRSteamTrash",       9, hide = true },
-				{ "CFRSteamTrash",       11 },
+				{ "SteamvaultHydromancerThespia", 1 },
+				{ "SteamvaultMekgineerSteamrigger", 2 },
+				{ "SteamvaultWarlordKalithresh", 3 },
+				{ "SteamvaultTrash", 4 },
 			},
 			["Info"] = { BabbleZone["The Steamvault"], "AtlasLootBurningCrusade" },
 		},
 
 		["CFRTheUnderbog"] = {
 			["Bosses"] = {
-				{ "CExpedition",       1, hide = true },
-				{ "CFRUnderHungarfen", 3 },
-				{ "CFRUnderGhazan",    5 },
-				{ "CFRUnderSwamplord", 6 },
-				{ "CFRUnderStalker",   8 },
+				{ "UnderbogHungarfen", 1 },
+				{ "UnderbogGhazan", 2 },
+				{ "UnderbogSwamplordMuselek", 3 },
+				{ "UnderbogTheBlackStalker", 4 },
 			},
 			["Info"] = { BabbleZone["The Underbog"], "AtlasLootBurningCrusade" },
 		},
