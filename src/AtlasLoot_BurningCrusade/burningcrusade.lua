@@ -627,23 +627,23 @@ AtlasLoot_Data["AuchindounTrash"] = {
 --- Black Temple ---
 --------------------
 
-AtlasLoot_Data["BTNajentus"] = {
+AtlasLoot_Data["BlackTempleHighWarlordNajentus"] = {
 	["Normal"] = {
 		{
-			{ 1,  32239, "", "=q4=Slippers of the Seacaller", "=ds=#s12#, #a1#", "", "15%" },
-			{ 2,  32240, "", "=q4=Guise of the Tidal Lurker", "=ds=#s1#, #a2#",  "", "16%" },
-			{ 3,  32377, "", "=q4=Mantle of Darkness",        "=ds=#s3#, #a2#",  "", "15%" },
-			{ 4,  32241, "", "=q4=Helm of Soothing Currents", "=ds=#s1#, #a3#",  "", "10%" },
-			{ 5,  32234, "", "=q4=Fists of Mukoa",            "=ds=#s9#, #a3#",  "", "16%" },
-			{ 6,  32242, "", "=q4=Boots of Oceanic Fury",     "=ds=#s12#, #a3#", "", "6%" },
-			{ 7,  32232, "", "=q4=Eternium Shell Bracers",    "=ds=#s8#, #a4#",  "", "16%" },
-			{ 8,  32243, "", "=q4=Pearl Inlaid Boots",        "=ds=#s12#, #a4#", "", "10%" },
-			{ 9,  32245, "", "=q4=Tide-Stomper's Greaves",    "=ds=#s12#, #a4#", "", "7%" },
-			{ 16, 32238, "", "=q4=Ring of Calming Waves",     "=ds=#s13#",       "", "16%" },
-			{ 17, 32247, "", "=q4=Ring of Captured Storms",   "=ds=#s13#",       "", "16%" },
-			{ 19, 32237, "", "=q4=The Maelstrom's Fury",      "=ds=#h3#, #w4#",  "", "15%" },
-			{ 20, 32236, "", "=q4=Rising Tide",               "=ds=#h1#, #w1#",  "", "16%" },
-			{ 21, 32248, "", "=q4=Halberd of Desolation",     "=ds=#w7#",        "", "16%" },
+			{ 1, 32242, "", "=q4=Boots of Oceanic Fury", "=ds=#s12#, #a3#", "", "7.1%" },
+			{ 2, 32232, "", "=q4=Eternium Shell Bracers", "=ds=#s8#, #a4#", "", "7.1%" },
+			{ 3, 32234, "", "=q4=Fists of Mukoa", "=ds=#s9#, #a3#", "", "7.1%" },
+			{ 4, 32240, "", "=q4=Guise of the Tidal Lurker", "=ds=#s1#, #a2#", "", "7.1%" },
+			{ 5, 32248, "", "=q4=Halberd of Desolation", "=ds=#w7#", "", "7.1%" },
+			{ 6, 32241, "", "=q4=Helm of Soothing Currents", "=ds=#s1#, #a3#", "", "7.1%" },
+			{ 7, 32377, "", "=q4=Mantle of Darkness", "=ds=#s3#, #a2#", "", "7.1%" },
+			{ 8, 32243, "", "=q4=Pearl Inlaid Boots", "=ds=#s12#, #a4#", "", "7.1%" },
+			{ 9, 32238, "", "=q4=Ring of Calming Waves", "=ds=#s13#", "", "7.1%" },
+			{ 10, 32247, "", "=q4=Ring of Captured Storms", "=ds=#s13#", "", "7.1%" },
+			{ 11, 32236, "", "=q4=Rising Tide", "=ds=#h1#, #w1#", "", "7.1%" },
+			{ 12, 32239, "", "=q4=Slippers of the Seacaller", "=ds=#s12#, #a1#", "", "7.1%" },
+			{ 13, 32237, "", "=q4=The Maelstrom's Fury", "=ds=#h3#, #w4#", "", "7.1%" },
+			{ 14, 32245, "", "=q4=Tide-Stomper's Greaves", "=ds=#s12#, #a4#", "", "7.1%" },
 		},
 	},
 	info = {
@@ -653,22 +653,22 @@ AtlasLoot_Data["BTNajentus"] = {
 	},
 };
 
-AtlasLoot_Data["BTSupremus"] = {
+AtlasLoot_Data["BlackTempleSupremus"] = {
 	["Normal"] = {
 		{
-			{ 1,  32256, "", "=q4=Waistwrap of Infinity",         "=ds=#s10#, #a1#", "", "16%" },
-			{ 2,  32252, "", "=q4=Nether Shadow Tunic",           "=ds=#s5#, #a2#",  "", "14%" },
-			{ 3,  32259, "", "=q4=Bands of the Coming Storm",     "=ds=#s8#, #a3#",  "", "6%" },
-			{ 4,  32251, "", "=q4=Wraps of Precise Flight",       "=ds=#s8#, #a3#",  "", "15%" },
-			{ 5,  32258, "", "=q4=Naturalist's Preserving Cinch", "=ds=#s10#, #a3#", "", "9%" },
-			{ 6,  32250, "", "=q4=Pauldrons of Abyssal Fury",     "=ds=#s3#, #a4#",  "", "16%" },
-			{ 8,  32260, "", "=q4=Choker of Endless Nightmares",  "=ds=#s2#",        "", "17%" },
-			{ 9,  32261, "", "=q4=Band of the Abyssal Lord",      "=ds=#s13#",       "", "14%" },
-			{ 10, 32257, "", "=q4=Idol of the White Stag",        "=ds=#w14#",       "", "15%" },
-			{ 16, 32254, "", "=q4=The Brutalizer",                "=ds=#h1#, #w1#",  "", "15%" },
-			{ 17, 32262, "", "=q4=Syphon of the Nathrezim",       "=ds=#h1#, #w6#",  "", "16%" },
-			{ 18, 32255, "", "=q4=Felstone Bulwark",              "=ds=#w8#",        "", "15%" },
-			{ 19, 32253, "", "=q4=Legionkiller",                  "=ds=#w3#",        "", "16%" },
+			{ 1, 32261, "", "=q4=Band of the Abyssal Lord", "=ds=#s13#", "", "7.7%" },
+			{ 2, 32259, "", "=q4=Bands of the Coming Storm", "=ds=#s8#, #a3#", "", "7.7%" },
+			{ 3, 32260, "", "=q4=Choker of Endless Nightmares", "=ds=#s2#", "", "7.7%" },
+			{ 4, 32255, "", "=q4=Felstone Bulwark", "=ds=#w8#", "", "7.7%" },
+			{ 5, 32257, "", "=q4=Idol of the White Stag", "=ds=#w14#", "", "7.7%" },
+			{ 6, 32253, "", "=q4=Legionkiller", "=ds=#w3#", "", "7.7%" },
+			{ 7, 32258, "", "=q4=Naturalist's Preserving Cinch", "=ds=#s10#, #a3#", "", "7.7%" },
+			{ 8, 32252, "", "=q4=Nether Shadow Tunic", "=ds=#s5#, #a2#", "", "7.7%" },
+			{ 9, 32250, "", "=q4=Pauldrons of Abyssal Fury", "=ds=#s3#, #a4#", "", "7.7%" },
+			{ 10, 32262, "", "=q4=Syphon of the Nathrezim", "=ds=#h1#, #w6#", "", "7.7%" },
+			{ 11, 32254, "", "=q4=The Brutalizer", "=ds=#h1#, #w1#", "", "7.7%" },			
+			{ 12, 32256, "", "=q4=Waistwrap of Infinity", "=ds=#s10#, #a1#", "", "7.7%" },
+			{ 13, 32251, "", "=q4=Wraps of Precise Flight", "=ds=#s8#, #a3#", "", "7.7%" },
 		},
 	},
 	info = {
@@ -678,23 +678,23 @@ AtlasLoot_Data["BTSupremus"] = {
 	},
 };
 
-AtlasLoot_Data["BTAkama"] = {
+AtlasLoot_Data["BlackTempleShadeOfAkama"] = {
 	["Normal"] = {
 		{
-			{ 1,  32273, "", "=q4=Amice of Brilliant Light",         "=ds=#s3#, #a1#",  "", "16%" },
-			{ 2,  32270, "", "=q4=Focused Mana Bindings",            "=ds=#s8#, #a1#",  "", "15%" },
-			{ 3,  32513, "", "=q4=Wristbands of Divine Influence",   "=ds=#s8#, #a1#",  "", "16%" },
-			{ 4,  32265, "", "=q4=Shadow-Walker's Cord",             "=ds=#s10#, #a2#", "", "16%" },
-			{ 5,  32271, "", "=q4=Kilt of Immortal Nature",          "=ds=#s11#, #a2#", "", "14%" },
-			{ 6,  32264, "", "=q4=Shoulders of the Hidden Predator", "=ds=#s3#, #a3#",  "", "16%" },
-			{ 7,  32275, "", "=q4=Spiritwalker Gauntlets",           "=ds=#s9#, #a3#",  "", "9%" },
-			{ 8,  32276, "", "=q4=Flashfire Girdle",                 "=ds=#s10#, #a3#", "", "5%" },
-			{ 9,  32279, "", "=q4=The Seeker's Wristguards",         "=ds=#s8#, #a4#",  "", "8%" },
-			{ 10, 32278, "", "=q4=Grips of Silent Justice",          "=ds=#s9#, #a4#",  "", "15%" },
-			{ 11, 32263, "", "=q4=Praetorian's Legguards",           "=ds=#s11#, #a4#", "", "14%" },
-			{ 12, 32268, "", "=q4=Myrmidon's Treads",                "=ds=#s12#, #a4#", "", "16%" },
-			{ 16, 32266, "", "=q4=Ring of Deceitful Intent",         "=ds=#s13#",       "", "16%" },
-			{ 17, 32361, "", "=q4=Blind-Seers Icon",                 "=ds=#s15#",       "", "15%" },
+			{ 1, 32273, "", "=q4=Amice of Brilliant Light", "=ds=#s3#, #a1#", "", "7.1%" },
+			{ 2, 32361, "", "=q4=Blind-Seers Icon", "=ds=#s15#", "", "7.1%" },
+			{ 3, 32276, "", "=q4=Flashfire Girdle", "=ds=#s10#, #a3#", "", "7.1%" },
+			{ 4, 32270, "", "=q4=Focused Mana Bindings", "=ds=#s8#, #a1#", "", "7.1%" },
+			{ 5, 32278, "", "=q4=Grips of Silent Justice", "=ds=#s9#, #a4#", "", "7.1%" },
+			{ 6, 32271, "", "=q4=Kilt of Immortal Nature", "=ds=#s11#, #a2#", "", "7.1%" },
+			{ 7, 32268, "", "=q4=Myrmidon's Treads", "=ds=#s12#, #a4#", "", "7.1%" },
+			{ 8, 32263, "", "=q4=Praetorian's Legguards", "=ds=#s11#, #a4#", "", "7.1%" },
+			{ 9, 32266, "", "=q4=Ring of Deceitful Intent", "=ds=#s13#", "", "7.1%" },
+			{ 10, 32265, "", "=q4=Shadow-Walker's Cord", "=ds=#s10#, #a2#", "", "7.1%" },
+			{ 11, 32264, "", "=q4=Shoulders of the Hidden Predator", "=ds=#s3#, #a3#", "", "7.1%" },
+			{ 12, 32275, "", "=q4=Spiritwalker Gauntlets", "=ds=#s9#, #a3#", "", "7.1%" },
+			{ 13, 32279, "", "=q4=The Seeker's Wristguards", "=ds=#s8#, #a4#", "", "7.1%" },			
+			{ 14, 32513, "", "=q4=Wristbands of Divine Influence", "=ds=#s8#, #a1#", "", "7.1%" },
 		},
 	},
 	info = {
@@ -704,21 +704,21 @@ AtlasLoot_Data["BTAkama"] = {
 	},
 };
 
-AtlasLoot_Data["BTGorefiend"] = {
+AtlasLoot_Data["BlackTempleTeronGorefiend"] = {
 	["Normal"] = {
 		{
-			{ 1,  32323, "", "=q4=Shadowmoon Destroyer's Drape", "=ds=#s4#",        "", "17%" },
-			{ 2,  32329, "", "=q4=Cowl of Benevolence",          "=ds=#s1#, #a1#",  "", "17%" },
-			{ 3,  32327, "", "=q4=Robe of the Shadow Council",   "=ds=#s5#, #a1#",  "", "15%" },
-			{ 4,  32324, "", "=q4=Insidious Bands",              "=ds=#s8#, #a2#",  "", "17%" },
-			{ 5,  32328, "", "=q4=Botanist's Gloves of Growth",  "=ds=#s9#, #a2#",  "", "17%" },
-			{ 6,  32510, "", "=q4=Softstep Boots of Tracking",   "=ds=#s12#, #a3#", "", "15%" },
-			{ 7,  32280, "", "=q4=Gauntlets of Enforcement",     "=ds=#s9#, #a4#",  "", "15%" },
-			{ 8,  32512, "", "=q4=Girdle of Lordaeron's Fallen", "=ds=#s10#, #a4#", "", "19%" },
-			{ 16, 32330, "", "=q4=Totem of Ancestral Guidance",  "=ds=#w15#",       "", "13%" },
-			{ 18, 32348, "", "=q4=Soul Cleaver",                 "=ds=#h2#, #w1#",  "", "19%" },
-			{ 19, 32326, "", "=q4=Twisted Blades of Zarak",      "=ds=#w11#",       "", "11%" },
-			{ 20, 32325, "", "=q4=Rifle of the Stoic Guardian",  "=ds=#w5#",        "", "14%" },
+			{ 1, 32328, "", "=q4=Botanist's Gloves of Growth", "=ds=#s9#, #a2#", "", "8.3%" },
+			{ 2, 32329, "", "=q4=Cowl of Benevolence", "=ds=#s1#, #a1#", "", "8.3%" },
+			{ 3, 32280, "", "=q4=Gauntlets of Enforcement", "=ds=#s9#, #a4#", "", "8.3%" },
+			{ 4, 32512, "", "=q4=Girdle of Lordaeron's Fallen", "=ds=#s10#, #a4#", "", "8.3%" },
+			{ 5, 32324, "", "=q4=Insidious Bands", "=ds=#s8#, #a2#", "", "8.3%" },
+			{ 6, 32325, "", "=q4=Rifle of the Stoic Guardian", "=ds=#w5#", "", "8.3%" },
+			{ 7, 32327, "", "=q4=Robe of the Shadow Council", "=ds=#s5#, #a1#", "", "8.3%" },
+			{ 8, 32323, "", "=q4=Shadowmoon Destroyer's Drape", "=ds=#s4#", "", "8.3%" },
+			{ 9, 32510, "", "=q4=Softstep Boots of Tracking", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 10, 32348, "", "=q4=Soul Cleaver", "=ds=#h2#, #w1#", "", "8.3%" },
+			{ 11, 32330, "", "=q4=Totem of Ancestral Guidance", "=ds=#w15#", "", "8.3%" },
+			{ 12, 32326, "", "=q4=Twisted Blades of Zarak", "=ds=#w11#", "", "8.3%" },
 		},
 	},
 	info = {
@@ -728,22 +728,22 @@ AtlasLoot_Data["BTGorefiend"] = {
 	},
 };
 
-AtlasLoot_Data["BTBloodboil"] = {
+AtlasLoot_Data["BlackTempleGurtoggBloodboil"] = {
 	["Normal"] = {
 		{
-			{ 1,  32337, "", "=q4=Shroud of Forgiveness",          "=ds=#s4#",        "", "16%" },
-			{ 2,  32338, "", "=q4=Blood-Cursed Shoulderpads",      "=ds=#s3#, #a1#",  "", "15%" },
-			{ 3,  32340, "", "=q4=Garments of Temperance",         "=ds=#s5#, #a1#",  "", "15%" },
-			{ 4,  32339, "", "=q4=Belt of Primal Majesty",         "=ds=#s10#, #a2#", "", "14%" },
-			{ 5,  32334, "", "=q4=Vest of Mounting Assault",       "=ds=#s5#, #a3#",  "", "15%" },
-			{ 6,  32342, "", "=q4=Girdle of Mighty Resolve",       "=ds=#s10#, #a4#", "", "8%" },
-			{ 7,  32333, "", "=q4=Girdle of Stability",            "=ds=#s10#, #a4#", "", "16%" },
-			{ 8,  32341, "", "=q4=Leggings of Divine Retribution", "=ds=#s11#, #a4#", "", "14%" },
-			{ 16, 32335, "", "=q4=Unstoppable Aggressor's Ring",   "=ds=#s13#",       "", "16%" },
-			{ 17, 32501, "", "=q4=Shadowmoon Insignia",            "=ds=#s14#",       "", "15%" },
-			{ 19, 32269, "", "=q4=Messenger of Fate",              "=ds=#h1#, #w4#",  "", "16%" },
-			{ 20, 32344, "", "=q4=Staff of Immaculate Recovery",   "=ds=#w9#",        "", "15%" },
-			{ 21, 32343, "", "=q4=Wand of Prismatic Focus",        "=ds=#w12#",       "", "14%" },
+			{ 1, 32339, "", "=q4=Belt of Primal Majesty", "=ds=#s10#, #a2#", "", "7.7%" },
+			{ 2, 32338, "", "=q4=Blood-Cursed Shoulderpads", "=ds=#s3#, #a1#", "", "7.7%" },
+			{ 3, 32340, "", "=q4=Garments of Temperance", "=ds=#s5#, #a1#", "", "7.7%" },
+			{ 4, 32342, "", "=q4=Girdle of Mighty Resolve", "=ds=#s10#, #a4#", "", "7.7%" },
+			{ 5, 32333, "", "=q4=Girdle of Stability", "=ds=#s10#, #a4#", "", "7.7%" },
+			{ 6, 32341, "", "=q4=Leggings of Divine Retribution", "=ds=#s11#, #a4#", "", "7.7%" },
+			{ 7, 32269, "", "=q4=Messenger of Fate", "=ds=#h1#, #w4#", "", "7.7%" },
+			{ 8, 32501, "", "=q4=Shadowmoon Insignia", "=ds=#s14#", "", "7.7%" },
+			{ 9, 32337, "", "=q4=Shroud of Forgiveness", "=ds=#s4#", "", "7.7%" },
+			{ 10, 32344, "", "=q4=Staff of Immaculate Recovery", "=ds=#w9#", "", "7.7%" },
+			{ 11, 32335, "", "=q4=Unstoppable Aggressor's Ring", "=ds=#s13#", "", "7.7%" },
+			{ 12, 32334, "", "=q4=Vest of Mounting Assault", "=ds=#s5#, #a3#", "", "7.7%" },
+			{ 13, 32343, "", "=q4=Wand of Prismatic Focus", "=ds=#w12#", "", "7.7%" },
 		},
 	},
 	info = {
@@ -753,22 +753,22 @@ AtlasLoot_Data["BTBloodboil"] = {
 	},
 };
 
-AtlasLoot_Data["BTReliquaryofSouls"] = {
+AtlasLoot_Data["BlackTempleReliquaryOfSouls"] = {
 	["Normal"] = {
 		{
-			{ 1,  32353, "", "=q4=Gloves of Unfailing Faith",        "=ds=#s9#, #a1#",  "", "17%" },
-			{ 2,  32351, "", "=q4=Elunite Empowered Bracers",        "=ds=#s8#, #a2#",  "", "8%" },
-			{ 3,  32347, "", "=q4=Grips of Damnation",               "=ds=#s9#, #a2#",  "", "16%" },
-			{ 4,  32352, "", "=q4=Naturewarden's Treads",            "=ds=#s12#, #a2#", "", "9%" },
-			{ 5,  32517, "", "=q4=The Wavemender's Mantle",          "=ds=#s3#, #a3#",  "", "17%" },
-			{ 6,  32346, "", "=q4=Boneweave Girdle",                 "=ds=#s10#, #a3#", "", "16%" },
-			{ 7,  32354, "", "=q4=Crown of Empowered Fate",          "=ds=#s1#, #a4#",  "", "16%" },
-			{ 8,  32345, "", "=q4=Dreadboots of the Legion",         "=ds=#s12#, #a4#", "", "15%" },
-			{ 16, 32349, "", "=q4=Translucent Spellthread Necklace", "=ds=#s2#",        "", "16%" },
-			{ 17, 32362, "", "=q4=Pendant of Titans",                "=ds=#s2#",        "", "15%" },
-			{ 18, 32350, "", "=q4=Touch of Inspiration",             "=ds=#s15#",       "", "16%" },
-			{ 20, 32332, "", "=q4=Torch of the Damned",              "=ds=#h2#, #w6#",  "", "17%" },
-			{ 21, 32363, "", "=q4=Naaru-Blessed Life Rod",           "=ds=#w12#",       "", "14%" },
+			{ 1, 32346, "", "=q4=Boneweave Girdle", "=ds=#s10#, #a3#", "", "7.7%" },
+			{ 2, 32354, "", "=q4=Crown of Empowered Fate", "=ds=#s1#, #a4#", "", "7.7%" },
+			{ 3, 32345, "", "=q4=Dreadboots of the Legion", "=ds=#s12#, #a4#", "", "7.7%" },
+			{ 4, 32351, "", "=q4=Elunite Empowered Bracers", "=ds=#s8#, #a2#", "", "7.7%" },
+			{ 5, 32353, "", "=q4=Gloves of Unfailing Faith", "=ds=#s9#, #a1#", "", "7.7%" },
+			{ 6, 32347, "", "=q4=Grips of Damnation", "=ds=#s9#, #a2#", "", "7.7%" },
+			{ 7, 32363, "", "=q4=Naaru-Blessed Life Rod", "=ds=#w12#", "", "7.7%" },
+			{ 8, 32352, "", "=q4=Naturewarden's Treads", "=ds=#s12#, #a2#", "", "7.7%" },
+			{ 9, 32362, "", "=q4=Pendant of Titans", "=ds=#s2#", "", "7.7%" },
+			{ 10, 32517, "", "=q4=The Wavemender's Mantle", "=ds=#s3#, #a3#", "", "7.7%" },
+			{ 11, 32332, "", "=q4=Torch of the Damned", "=ds=#h2#, #w6#", "", "7.7%" },
+			{ 12, 32350, "", "=q4=Touch of Inspiration", "=ds=#s15#", "", "7.7%" },
+			{ 13, 32349, "", "=q4=Translucent Spellthread Necklace", "=ds=#s2#", "", "7.7%" },
 		},
 	},
 	info = {
@@ -778,18 +778,18 @@ AtlasLoot_Data["BTReliquaryofSouls"] = {
 	},
 };
 
-AtlasLoot_Data["BTShahraz"] = {
+AtlasLoot_Data["BlackTempleMotherShahraz"] = {
 	["Normal"] = {
 		{
-			{ 1,  32367, "", "=q4=Leggings of Devastation",               "=ds=#s11#, #a1#", "", "16%" },
-			{ 2,  32366, "", "=q4=Shadowmaster's Boots",                  "=ds=#s12#, #a2#", "", "15%" },
-			{ 3,  32365, "", "=q4=Heartshatter Breastplate",              "=ds=#s5#, #a4#",  "", "15%" },
-			{ 4,  32370, "", "=q4=Nadina's Pendant of Purity",            "=ds=#s2#",        "", "15%" },
-			{ 5,  32368, "", "=q4=Tome of the Lightbringer",              "=ds=#w16#",       "", "15%" },
-			{ 6,  32369, "", "=q4=Blade of Savagery",                     "=ds=#h1#, #w10#", "", "15%" },
-			{ 16, 31101, "", "=q4=Pauldrons of the Forgotten Conqueror",  "=ds=#m23# #e15#", "", "76%" },
-			{ 17, 31103, "", "=q4=Pauldrons of the Forgotten Protector",  "=ds=#m23# #e15#", "", "80%" },
-			{ 18, 31102, "", "=q4=Pauldrons of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "77%" },
+			{ 1, 32369, "", "=q4=Blade of Savagery", "=ds=#h1#, #w10#", "", "16.7%" },
+			{ 2, 32365, "", "=q4=Heartshatter Breastplate", "=ds=#s5#, #a4#", "", "16.7%" },
+			{ 3, 32367, "", "=q4=Leggings of Devastation", "=ds=#s11#, #a1#", "", "16.7%" },
+			{ 4, 32370, "", "=q4=Nadina's Pendant of Purity", "=ds=#s2#", "", "16.7%" },
+			{ 5, 32366, "", "=q4=Shadowmaster's Boots", "=ds=#s12#, #a2#", "", "16.7%" },
+			{ 6, 32368, "", "=q4=Tome of the Lightbringer", "=ds=#w16#", "", "16.7%" },
+			{ 16, 31101, "", "=q4=Pauldrons of the Forgotten Conqueror", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 17, 31103, "", "=q4=Pauldrons of the Forgotten Protector", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 18, 31102, "", "=q4=Pauldrons of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -799,18 +799,24 @@ AtlasLoot_Data["BTShahraz"] = {
 	},
 };
 
-AtlasLoot_Data["BTCouncil"] = {
+AtlasLoot_Data["BlackTempleTheIllidariCouncil"] = {
 	["Normal"] = {
 		{
-			{ 1,  32331, "", "=q4=Cloak of the Illidari Council",        "=ds=#s4#",        "", "16%" },
-			{ 2,  32519, "", "=q4=Belt of Divine Guidance",              "=ds=#s10#, #a1#", "", "16%" },
-			{ 3,  32518, "", "=q4=Veil of Turning Leaves",               "=ds=#s3#, #a2#",  "", "12%" },
-			{ 4,  32376, "", "=q4=Forest Prowler's Helm",                "=ds=#s1#, #a3#",  "", "17%" },
-			{ 5,  32373, "", "=q4=Helm of the Illidari Shatterer",       "=ds=#s1#, #a4#",  "", "17%" },
-			{ 6,  32505, "", "=q4=Madness of the Betrayer",              "=ds=#s14#",       "", "16%" },
-			{ 16, 31098, "", "=q4=Leggings of the Forgotten Conqueror",  "=ds=#m23# #e15#", "", "34%" },
-			{ 17, 31100, "", "=q4=Leggings of the Forgotten Protector",  "=ds=#m23# #e15#", "", "33%" },
-			{ 18, 31099, "", "=q4=Leggings of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "34%" },
+			{ 1, 32519, "", "=q4=Belt of Divine Guidance", "=ds=#s10#, #a1#", "", "16.7%" },
+			{ 2, 32331, "", "=q4=Cloak of the Illidari Council", "=ds=#s4#", "", "16.7%" },
+			{ 3, 32376, "", "=q4=Forest Prowler's Helm", "=ds=#s1#, #a3#", "", "16.7%" },
+			{ 4, 32373, "", "=q4=Helm of the Illidari Shatterer", "=ds=#s1#, #a4#", "", "16.7%" },
+			{ 5, 32505, "", "=q4=Madness of the Betrayer", "=ds=#s14#", "", "16.7%" },
+			{ 6, 32518, "", "=q4=Veil of Turning Leaves", "=ds=#s3#, #a2#", "", "16.7%" },
+			{ 16, 31098, "", "=q4=Leggings of the Forgotten Conqueror", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 17, 31100, "", "=q4=Leggings of the Forgotten Protector", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 18, 31099, "", "=q4=Leggings of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 20, 32227, "", "=q4=Crimson Spinel", "=ds=#e6#", "", "16.7%" },
+			{ 21, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e6#", "", "16.7%" },
+			{ 22, 32229, "", "=q4=Lionseye", "=ds=#e6#", "", "16.7%" },
+			{ 23, 32231, "", "=q4=Pyrestone", "=ds=#e6#", "", "16.7%" },
+			{ 24, 32249, "", "=q4=Seaspray Emerald", "=ds=#e6#", "", "16.7%" },
+			{ 25, 32230, "", "=q4=Shadowsong Amethyst", "=ds=#e6#", "", "16.7%" },
 		},
 	},
 	info = {
@@ -820,26 +826,26 @@ AtlasLoot_Data["BTCouncil"] = {
 	},
 };
 
-AtlasLoot_Data["BTIllidanStormrage"] = {
+AtlasLoot_Data["BlackTempleIllidanStormrage"] = {
 	["Normal"] = {
 		{
-			{ 1,  32524, "", "=q4=Shroud of the Highborne",                "=ds=#s4#",                                 "", "16%" },
-			{ 2,  32525, "", "=q4=Cowl of the Illidari High Lord",         "=ds=#s1#, #a1#",                           "", "15%" },
-			{ 3,  32235, "", "=q4=Cursed Vision of Sargeras",              "=ds=#s1#, #a2#",                           "", "16%" },
-			{ 4,  32521, "", "=q4=Faceplate of the Impenetrable",          "=ds=#s1#, #a4#",                           "", "14%" },
-			{ 6,  32497, "", "=q4=Stormrage Signet Ring",                  "=ds=#s13#",                                "", "15%" },
-			{ 7,  32483, "", "=q4=The Skull of Gul'dan",                   "=ds=#s14#",                                "", "16%" },
-			{ 8,  32496, "", "=q4=Memento of Tyrande",                     "=ds=#s14#",                                "", "15%" },
-			{ 10, 32837, "", "=q5=Warglaive of Azzinoth",                  "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#", "", "4%" },
-			{ 11, 32838, "", "=q5=Warglaive of Azzinoth",                  "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#", "", "4%" },
-			{ 16, 31089, "", "=q4=Chestguard of the Forgotten Conqueror",  "=ds=#m23# #e15#",                          "", "78%" },
-			{ 17, 31091, "", "=q4=Chestguard of the Forgotten Protector",  "=ds=#m23# #e15#",                          "", "79%" },
-			{ 18, 31090, "", "=q4=Chestguard of the Forgotten Vanquisher", "=ds=#m23# #e15#",                          "", "78%" },
-			{ 20, 32471, "", "=q4=Shard of Azzinoth",                      "=ds=#h1#, #w4#",                           "", "16%" },
-			{ 21, 32500, "", "=q4=Crystal Spire of Karabor",               "=ds=#h3#, #w6#",                           "", "15%" },
-			{ 22, 32374, "", "=q4=Zhar'doom, Greatstaff of the Devourer",  "=ds=#w9#",                                 "", "14%" },
-			{ 23, 32375, "", "=q4=Bulwark of Azzinoth",                    "=ds=#w8#",                                 "", "14%" },
-			{ 24, 32336, "", "=q4=Black Bow of the Betrayer",              "=ds=#w2#",                                 "", "16%" },
+			{ 1, 32336, "", "=q4=Black Bow of the Betrayer", "=ds=#w2#", "", "8.3%" },
+			{ 2, 32375, "", "=q4=Bulwark of Azzinoth", "=ds=#w8#", "", "8.3%" },
+			{ 3, 32525, "", "=q4=Cowl of the Illidari High Lord", "=ds=#s1#, #a1#", "", "8.3%" },
+			{ 4, 32500, "", "=q4=Crystal Spire of Karabor", "=ds=#h3#, #w6#", "", "8.3%" },
+			{ 5, 32235, "", "=q4=Cursed Vision of Sargeras", "=ds=#s1#, #a2#", "", "8.3%" },
+			{ 6, 32521, "", "=q4=Faceplate of the Impenetrable", "=ds=#s1#, #a4#", "", "8.3%" },
+			{ 7, 32496, "", "=q4=Memento of Tyrande", "=ds=#s14#", "", "8.3%" },
+			{ 8, 32471, "", "=q4=Shard of Azzinoth", "=ds=#h1#, #w4#", "", "8.3%" },
+			{ 9, 32524, "", "=q4=Shroud of the Highborne", "=ds=#s4#", "", "8.3%" },
+			{ 10, 32497, "", "=q4=Stormrage Signet Ring", "=ds=#s13#", "", "8.3%" },
+			{ 11, 32483, "", "=q4=The Skull of Gul'dan", "=ds=#s14#", "", "8.3%" },
+			{ 12, 32374, "", "=q4=Zhar'doom, Greatstaff of the Devourer", "=ds=#w9#", "", "8.3%" },
+			{ 13, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10# =q1=#m1# =ds=#c9#, #c6#", "", "4%" },
+			{ 14, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10# =q1=#m1# =ds=#c9#, #c6#", "", "4%" },
+			{ 16, 31089, "", "=q4=Chestguard of the Forgotten Conqueror",  "=ds=#m23# #e15#", "", "33.3%" },
+			{ 17, 31091, "", "=q4=Chestguard of the Forgotten Protector",  "=ds=#m23# #e15#", "", "33.3%" },
+			{ 18, 31090, "", "=q4=Chestguard of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -849,32 +855,31 @@ AtlasLoot_Data["BTIllidanStormrage"] = {
 	},
 };
 
-AtlasLoot_Data["BTTrash"] = {
+AtlasLoot_Data["BlackTempleTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  32590, "", "=q4=Nethervoid Cloak",                "=ds=#s4#",        "", "1%" },
-			{ 2,  34012, "", "=q4=Shroud of the Final Stand",       "=ds=#s4#",        "", "1%" },
-			{ 3,  32609, "", "=q4=Boots of the Divine Light",       "=ds=#s12#, #a1#", "", "1%" },
-			{ 4,  32593, "", "=q4=Treads of the Den Mother",        "=ds=#s12#, #a2#", "", "1%" },
-			{ 5,  32592, "", "=q4=Chestguard of Relentless Storms", "=ds=#s5#, #a3#",  "", "1%" },
-			{ 6,  32608, "", "=q4=Pillager's Gauntlets",            "=ds=#s9#, #a4#",  "", "1%" },
-			{ 7,  32606, "", "=q4=Girdle of the Lightbearer",       "=ds=#s10#, #a4#", "", "1%" },
-			{ 8,  32591, "", "=q4=Choker of Serrated Blades",       "=ds=#s2#",        "", "1%" },
-			{ 9,  32589, "", "=q4=Hellfire-Encased Pendant",        "=ds=#s2#",        "", "1%" },
-			{ 10, 32526, "", "=q4=Band of Devastation",             "=ds=#s13#",       "", "1%" },
-			{ 11, 32528, "", "=q4=Blessed Band of Karabor",         "=ds=#s13#",       "", "1%" },
-			{ 12, 32527, "", "=q4=Ring of Ancient Knowledge",       "=ds=#s13#",       "", "2%" },
-			{ 16, 34009, "", "=q4=Hammer of Judgement",             "=ds=#h3#, #w6#",  "", "1%" },
-			{ 17, 32943, "", "=q4=Swiftsteel Bludgeon",             "=ds=#h1#, #w6#",  "", "2%" },
-			{ 18, 34011, "", "=q4=Illidari Runeshield",             "=ds=#w8#",        "", "1%" },
-			{ 20, 32228, "", "=q4=Empyrean Sapphire",               "=ds=#e7#",        "", "12%" },
-			{ 21, 32231, "", "=q4=Pyrestone",                       "=ds=#e7#",        "", "8%" },
-			{ 22, 32229, "", "=q4=Lionseye",                        "=ds=#e7#",        "", "6%" },
-			{ 23, 32249, "", "=q4=Seaspray Emerald",                "=ds=#e7#",        "", "9%" },
-			{ 24, 32230, "", "=q4=Shadowsong Amethyst",             "=ds=#e7#",        "", "6%" },
-			{ 25, 32227, "", "=q4=Crimson Spinel",                  "=ds=#e7#",        "", "8%" },
-			{ 27, 32428, "", "=q3=Heart of Darkness",               "=ds=#e8#",        "", "16%" },
-			{ 28, 32897, "", "=q2=Mark of the Illidari",            "=ds=#m20#",       "", "27%" },
+			{ 1, 32526, "", "=q4=Band of Devastation", "=ds=#s13#", "", "~2.555%" },
+			{ 2, 32528, "", "=q4=Blessed Band of Karabor", "=ds=#s13#", "", "~0.845%" },
+			{ 3, 32609, "", "=q4=Boots of the Divine Light", "=ds=#s12#, #a1#", "", "~1.055%" },
+			{ 4, 32592, "", "=q4=Chestguard of Relentless Storms", "=ds=#s5#, #a3#", "", "~2.55%" },
+			{ 5, 32591, "", "=q4=Choker of Serrated Blades", "=ds=#s2#", "", "~2.1%" },
+			{ 6, 32606, "", "=q4=Girdle of the Lightbearer", "=ds=#s10#, #a4#", "", "~0.795%" },
+			{ 7, 32589, "", "=q4=Hellfire-Encased Pendant", "=ds=#s2#", "", "~2.705%" },
+			{ 8, 34011, "", "=q4=Illidari Runeshield", "=ds=#w8#", "", "0.19%" },
+			{ 9, 32590, "", "=q4=Nethervoid Cloak", "=ds=#s4#", "", "~5.03%" },
+			{ 10, 32608, "", "=q4=Pillager's Gauntlets", "=ds=#s9#, #a4#", "", "~1.545%" },
+			{ 11, 32527, "", "=q4=Ring of Ancient Knowledge", "=ds=#s13#", "", "~1.745%" },
+			{ 12, 34012, "", "=q4=Shroud of the Final Stand", "=ds=#s4#", "", "0.19%" },
+			{ 13, 32943, "", "=q4=Swiftsteel Bludgeon", "=ds=#h1#, #w6#", "", "~1.295%" },
+			{ 14, 32593, "", "=q4=Treads of the Den Mother", "=ds=#s12#, #a2#", "", "~1.395%" },
+			{ 16, 32227, "", "=q4=Crimson Spinel", "=ds=#e6#", "", "~2.755%" },
+			{ 17, 32228, "", "=q4=Empyrean Sapphire", "=ds=#e6#", "", "~5.405%" },
+			{ 18, 32229, "", "=q4=Lionseye", "=ds=#e6#", "", "~3.6%" },
+			{ 19, 32231, "", "=q4=Pyrestone", "=ds=#e6#", "", "~3.95%" },
+			{ 20, 32249, "", "=q4=Seaspray Emerald", "=ds=#e6#", "", "~5.96%" },
+			{ 21, 32230, "", "=q4=Shadowsong Amethyst", "=ds=#e6#", "", "~2.55%" },
+			{ 23, 32428, "", "=q3=Heart of Darkness", "=ds=#e8#", "", "~11.6%" },
+			{ 24, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "~16.56%" },
 		},
 	},
 	info = {
@@ -884,25 +889,26 @@ AtlasLoot_Data["BTTrash"] = {
 	},
 };
 
-AtlasLoot_Data["BTPatterns"] = {
+AtlasLoot_Data["BlackTemplePatterns"] = {
 	["Normal"] = {
 		{
-			{ 1,  32738, "", "=q4=Plans: Dawnsteel Bracers",                 "=ds=#p2# (375)" },
-			{ 2,  32739, "", "=q4=Plans: Dawnsteel Shoulders",               "=ds=#p2# (375)" },
-			{ 3,  32736, "", "=q4=Plans: Swiftsteel Bracers",                "=ds=#p2# (375)" },
-			{ 4,  32737, "", "=q4=Plans: Swiftsteel Shoulders",              "=ds=#p2# (375)" },
-			{ 5,  32748, "", "=q4=Pattern: Bindings of Lightning Reflexes",  "=ds=#p7# (375)" },
-			{ 6,  32744, "", "=q4=Pattern: Bracers of Renewed Life",         "=ds=#p7# (375)" },
-			{ 7,  32750, "", "=q4=Pattern: Living Earth Bindings",           "=ds=#p7# (375)" },
-			{ 8,  32751, "", "=q4=Pattern: Living Earth Shoulders",          "=ds=#p7# (375)" },
-			{ 9,  32749, "", "=q4=Pattern: Shoulders of Lightning Reflexes", "=ds=#p7# (375)" },
-			{ 10, 32745, "", "=q4=Pattern: Shoulderpads of Renewed Life",    "=ds=#p7# (375)" },
-			{ 11, 32746, "", "=q4=Pattern: Swiftstrike Bracers",             "=ds=#p7# (375)" },
-			{ 12, 32747, "", "=q4=Pattern: Swiftstrike Shoulders",           "=ds=#p7# (375)" },
-			{ 16, 32754, "", "=q4=Pattern: Bracers of Nimble Thought",       "=ds=#p8# (375)" },
-			{ 17, 32755, "", "=q4=Pattern: Mantle of Nimble Thought",        "=ds=#p8# (375)" },
-			{ 18, 32753, "", "=q4=Pattern: Swiftheal Mantle",                "=ds=#p8# (375)" },
-			{ 19, 32752, "", "=q4=Pattern: Swiftheal Wraps",                 "=ds=#p8# (375)" },
+			
+			{ 1, 32748, "", "=q4=Pattern: Bindings of Lightning Reflexes", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 2, 32754, "", "=q4=Pattern: Bracers of Nimble Thought", "=ds=#p8# (375)", "", "0.25%-1.25%" },
+			{ 3, 32744, "", "=q4=Pattern: Bracers of Renewed Life", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 4, 32750, "", "=q4=Pattern: Living Earth Bindings", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 5, 32751, "", "=q4=Pattern: Living Earth Shoulders", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 6, 32755, "", "=q4=Pattern: Mantle of Nimble Thought", "=ds=#p8# (375)", "", "0.25%-1.25%" },
+			{ 7, 32745, "", "=q4=Pattern: Shoulderpads of Renewed Life", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 8, 32749, "", "=q4=Pattern: Shoulders of Lightning Reflexes", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 9, 32753, "", "=q4=Pattern: Swiftheal Mantle", "=ds=#p8# (375)", "", "0.25%-1.25%" },
+			{ 10, 32752, "", "=q4=Pattern: Swiftheal Wraps", "=ds=#p8# (375)", "", "0.25%-1.25%" },
+			{ 11, 32746, "", "=q4=Pattern: Swiftstrike Bracers", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 12, 32747, "", "=q4=Pattern: Swiftstrike Shoulders", "=ds=#p7# (375)", "", "0.25%-1.25%" },
+			{ 16, 32738, "", "=q4=Plans: Dawnsteel Bracers", "=ds=#p2# (375)", "", "0.25%-1.25%" },
+			{ 17, 32739, "", "=q4=Plans: Dawnsteel Shoulders", "=ds=#p2# (375)", "", "0.25%-1.25%" },
+			{ 18, 32736, "", "=q4=Plans: Swiftsteel Bracers", "=ds=#p2# (375)", "", "0.25%-1.25%" },
+			{ 19, 32737, "", "=q4=Plans: Swiftsteel Shoulders", "=ds=#p2# (375)", "", "0.25%-1.25%" },
 		},
 	},
 	info = {
