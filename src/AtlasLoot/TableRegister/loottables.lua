@@ -593,16 +593,15 @@ AtlasLoot_LootTableRegister = {
 		["CoTHyjal"] = "CoTHyjalEaI",
 		["CoTHyjalEaI"] = {
 			["CoTHyjalEnt"] = {
-				{ "ScaleSands", 2, hide = true },
+				{ "ScaleSands", 1, hide = true },
 			},
 			["CoTHyjal"] = {
-				{ "ScaleSands",            2, hide = true },
-				{ "MountHyjalWinterchill", 9 },
-				{ "MountHyjalAnetheron",   10 },
-				{ "MountHyjalKazrogal",    11 },
-				{ "MountHyjalAzgalor",     12 },
-				{ "MountHyjalArchimonde",  13 },
-				{ "MountHyjalTrash",       15 },
+				{ "HyjalRageWinterchill", 1 },
+				{ "HyjalAnetheron", 2 },
+				{ "HyjalKazrogal", 3 },
+				{ "HyjalAzgalor", 4 },
+				{ "HyjalArchimonde", 5 },
+				{ "HyjalTrash", 6 },
 			},
 			["Info"] = { BabbleZone["Hyjal"], "AtlasLootBurningCrusade", sortOrder = { "CoTHyjalEnt", "CoTHyjal" }, raid = true },
 		},
@@ -623,8 +622,8 @@ AtlasLoot_LootTableRegister = {
 
 		["GruulsLair"] = {
 			["Bosses"] = {
-				{ "GruulsLairHighKingMaulgar", 2 },
-				{ "GruulGruul",                7 },
+				{ "GruulsLairHighKingMaulgar", 1 },
+				{ "GruulsLairGruulTheDragonkiller", 1 },
 			},
 			["Info"] = { BabbleZone["Gruul's Lair"], "AtlasLootBurningCrusade", raid = true },
 		},
