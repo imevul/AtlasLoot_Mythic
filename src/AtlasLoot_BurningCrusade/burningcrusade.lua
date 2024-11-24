@@ -564,21 +564,17 @@ AtlasLoot_Data["ShadowLabyrinthMurmur"] = {
 			{ 8, 27910, "", "=q3=Silvermoon Crest Shield", "=ds=#w8#", "", "8.3%" },
 			{ 9, 27903, "", "=q3=Sonic Spear", "=ds=#w7#", "", "8.3%" },
 			{ 10, 27913, "", "=q3=Whispering Blade of Slaying", "=ds=#h1#, #w4#", "", "8.3%" },
-			
 			{ 12, 28230, "", "=q3=Hallowed Garments", "=ds=#s5#, #a1# =q1=#j10#", "", "8.3%" },
 			{ 13, 27908, "", "=q3=Leggings of Assassination", "=ds=#s11#, #a2# =q1=#j10#", "", "8.3%" },
 			{ 14, 28232, "", "=q3=Robe of Oblivion", "=ds=#s5#, #a1# =q1=#j10#", "", "8.3%" },
 			{ 15, 27803, "", "=q3=Shoulderguards of the Bold", "=ds=#s3#, #a4# =q1=#j10#", "", "8.3%" },
 			{ 16, 27778, "", "=q3=Spaulders of Oblivion", "=ds=#s3#, #a1# =q1=#j10#", "", "8.3%" },
 			{ 17, 27909, "", "=q3=Tidefury Kilt", "=ds=#s11#, #a3# =q1=#j10#", "", "8.3%" },
-			
 			{ 19, 31722, "", "=q1=Murmur's Essence", "=ds=#m3#", "", "100%" },
 			{ 20, 33840, "", "=q1=Murmur's Whisper", "=ds=#m3#", "", "100%" },
-			
 			{ 22, 30559, "", "=q4=Etched Fire Opal", "=ds=#e7#", "", "15.3%" },
 			{ 23, 30563, "", "=q4=Regal Tanzanite", "=ds=#e7#", "", "15.3%" },
 			{ 24, 30560, "", "=q4=Rune Covered Chrysoprase", "=ds=#e7#", "", "15.3%" },
-			
 			{ 26, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "1.25%" },
 			{ 27, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "1.25%" },
 			{ 28, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "1.25%" },
@@ -1039,17 +1035,13 @@ AtlasLoot_Data["CavernsOfTimeTrash"] = {
 		{
 			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
 			{ 2, 25729, "", "=q3=Pattern: Stylin' Adventure Hat", "=ds=#p7# (350) =q1=" .. AL["Durnholde Rifleman"], "", "2.2%" },
-			
 			{ 4, 0, "INV_Box_01", "=q6=" .. AL["Don Carlos"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
 			{ 5, 38506, "", "=q3=Don Carlos' Famous Hat", "=ds=#s1#, #a1# =q2=#j3#", "", "100%" },
 			{ 6, 38329, "", "=q1=Don Carlos' Hat", "=q1=#m3#", "", "100%" },
-			
 			{ 8, 0, "INV_Box_01", "=q6=" .. AL["Thomas Yance"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
 			{ 9, 25725, "", "=q1=Pattern: Riding Crop", "=ds=#p7# (350) - 5 #gold#"},
-			
 			{ 11, 0, "INV_Box_01", "=q6=" .. AL["Aged Dalaran Wizard"], "=q5=" .. BabbleZone["Old Hillsbrad Foothills"] },
 			{ 12, 22539, "", "=q1=Formula: Enchant Shield - Intellect", "=ds=#p4# (325) - 6 #gold#"},
-			
 			{ 16, 0, "INV_Box_01", "=q6=" .. AL["Trash Mobs"], "=q5=" .. BabbleZone["The Black Morass"] },
 			{ 17, 25730, "", "=q3=Pattern: Stylin' Jungle Hat", "=ds=#p7# (350) =q1=" .. AL["Rift Keeper/Rift Lord"], "", "3.2%/2.7%" },
 		},
@@ -1137,14 +1129,12 @@ AtlasLoot_Data["BlackMorassAeonus"] = {
 			{ 4, 28207, "", "=q3=Pauldrons of the Crimson Flight", "=ds=#s3#, #a4#", "", "16.7%" },
 			{ 5, 28194, "", "=q3=Primal Surge Bracers", "=ds=#s8#, #a3#", "", "16.7%" },
 			{ 6, 28190, "", "=q3=Scarab of the Infinite Cycle", "=ds=#s14#", "", "16.7%" },
-			
 			{ 8, 27509, "", "=q3=Handgrips of Assassination", "=ds=#s9#, #a2# =q1=#j10#", "", "16.7%" },
 			{ 9, 28192, "", "=q3=Helm of Desolation", "=ds=#s1#, #a3# =q1=#j10#", "", "16.7%" },
 			{ 10, 27977, "", "=q3=Legplates of the Bold", "=ds=#s11#, #a4# =q1=#j10#", "", "16.7%" },
 			{ 11, 27839, "", "=q3=Legplates of the Righteous", "=ds=#s11#, #a4# =q1=#j10#", "", "16.7%" },
 			{ 12, 28193, "", "=q3=Mana-Etched Crown", "=ds=#s1#, #a1# =q1=#j10#", "", "16.7%" },
 			{ 13, 27873, "", "=q3=Moonglade Pants", "=ds=#s11#, #a2# =q1=#j10#", "", "16.7%" },
-			
 			{ 16, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.5%" },
 			{ 17, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.5%" },
 			{ 18, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.5%" },
@@ -1158,27 +1148,22 @@ AtlasLoot_Data["BlackMorassAeonus"] = {
 			{ 2, 29247, "", "=q4=Girdle of the Deathdealer", "=ds=#s10#, #a2#", "", "25%" },
 			{ 3, 29253, "", "=q4=Girdle of Valorous Deeds", "=ds=#s10#, #a4#", "", "25%" },
 			{ 4, 29356, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#", "", "25%" },
-			
 			{ 6, 28188, "", "=q3=Bloodfire Greatstaff", "=ds=#w9#", "", "16.7%" },
 			{ 7, 28206, "", "=q3=Cowl of the Guiltless", "=ds=#s1#, #a2#", "", "16.7%" },
 			{ 8, 28189, "", "=q3=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "16.7%" },
 			{ 9, 28207, "", "=q3=Pauldrons of the Crimson Flight", "=ds=#s3#, #a4#", "", "16.7%" },
 			{ 10, 28194, "", "=q3=Primal Surge Bracers", "=ds=#s8#, #a3#", "", "16.7%" },
 			{ 11, 28190, "", "=q3=Scarab of the Infinite Cycle", "=ds=#s14#", "", "16.7%" },
-			
 			{ 13, 27509, "", "=q3=Handgrips of Assassination", "=ds=#s9#, #a2# =q1=#j10#", "", "16.7%" },
 			{ 14, 28192, "", "=q3=Helm of Desolation", "=ds=#s1#, #a3# =q1=#j10#", "", "16.7%" },
 			{ 15, 27977, "", "=q3=Legplates of the Bold", "=ds=#s11#, #a4# =q1=#j10#", "", "16.7%" },
 			{ 16, 27839, "", "=q3=Legplates of the Righteous", "=ds=#s11#, #a4# =q1=#j10#", "", "16.7%" },
 			{ 17, 28193, "", "=q3=Mana-Etched Crown", "=ds=#s1#, #a1# =q1=#j10#", "", "16.7%" },
 			{ 18, 27873, "", "=q3=Moonglade Pants", "=ds=#s11#, #a2# =q1=#j10#", "", "16.7%" },
-			
 			{ 20, 33858, "", "=q1=Aeonus' Hourglass", "=ds=#m3#", "", "100%" },
-			
 			{ 22, 30558, "", "=q4=Glimmering Fire Opal", "=ds=#e7#", "", "13.3%" },
 			{ 23, 30556, "", "=q4=Glinting Fire Opal", "=ds=#e7#", "", "13.3%" },
 			{ 24, 30555, "", "=q4=Glowing Tanzanite", "=ds=#e7#", "", "13.3%" },
-
 			{ 26, 31882, "", "=q3=Ace of Blessings", "=ds=#e16#", "", "0.5%" },
 			{ 27, 31901, "", "=q3=Ace of Furies", "=ds=#e16#", "", "0.5%" },
 			{ 28, 31910, "", "=q3=Ace of Lunacy", "=ds=#e16#", "", "0.5%" },
@@ -1199,22 +1184,22 @@ AtlasLoot_Data["BlackMorassAeonus"] = {
 --- Caverns of Time: Hyjal Summit ---
 -------------------------------------
 
-AtlasLoot_Data["MountHyjalWinterchill"] = {
+AtlasLoot_Data["HyjalRageWinterchill"] = {
 	["Normal"] = {
 		{
-			{ 1,  30871, "", "=q4=Bracers of Martyrdom",       "=ds=#s8#, #a1#",  "", "17%" },
-			{ 2,  30870, "", "=q4=Cuffs of Devastation",       "=ds=#s8#, #a1#",  "", "16%" },
-			{ 3,  30863, "", "=q4=Deadly Cuffs",               "=ds=#s8#, #a2#",  "", "15%" },
-			{ 4,  30868, "", "=q4=Rejuvenating Bracers",       "=ds=#s8#, #a2#",  "", "16%" },
-			{ 5,  30864, "", "=q4=Bracers of the Pathfinder",  "=ds=#s8#, #a3#",  "", "15%" },
-			{ 6,  30869, "", "=q4=Howling Wind Bracers",       "=ds=#s8#, #a3#",  "", "12%" },
-			{ 7,  30873, "", "=q4=Stillwater Boots",           "=ds=#s12#, #a3#", "", "14%" },
-			{ 8,  30866, "", "=q4=Blood-stained Pauldrons",    "=ds=#s3#, #a4#",  "", "15%" },
-			{ 9,  30862, "", "=q4=Blessed Adamantite Bracers", "=ds=#s8#, #a4#",  "", "15%" },
-			{ 10, 30861, "", "=q4=Furious Shackles",           "=ds=#s8#, #a4#",  "", "15%" },
-			{ 16, 30865, "", "=q4=Tracker's Blade",            "=ds=#h1#, #w4#",  "", "15%" },
-			{ 17, 30872, "", "=q4=Chronicle of Dark Secrets",  "=ds=#s15#",       "", "16%" },
-			{ 19, 32459, "", "=q1=Time-Phased Phylactery",     "=ds=#m3#",        "", "8%" },
+			{ 1, 30862, "", "=q4=Blessed Adamantite Bracers", "=ds=#s8#, #a4#", "", "8.3%" },
+			{ 2, 30866, "", "=q4=Blood-stained Pauldrons", "=ds=#s3#, #a4#", "", "8.3%" },
+			{ 3, 30871, "", "=q4=Bracers of Martyrdom", "=ds=#s8#, #a1#", "", "8.3%" },
+			{ 4, 30864, "", "=q4=Bracers of the Pathfinder", "=ds=#s8#, #a3#", "", "8.3%" },
+			{ 5, 30872, "", "=q4=Chronicle of Dark Secrets", "=ds=#s15#", "", "8.3%" },
+			{ 6, 30870, "", "=q4=Cuffs of Devastation", "=ds=#s8#, #a1#", "", "8.3%" },
+			{ 7, 30863, "", "=q4=Deadly Cuffs", "=ds=#s8#, #a2#", "", "8.3%" },
+			{ 8, 30861, "", "=q4=Furious Shackles", "=ds=#s8#, #a4#", "", "8.3%" },
+			{ 9, 30869, "", "=q4=Howling Wind Bracers", "=ds=#s8#, #a3#", "", "8.3%" },
+			{ 10, 30868, "", "=q4=Rejuvenating Bracers", "=ds=#s8#, #a2#", "", "8.3%" },
+			{ 11, 30873, "", "=q4=Stillwater Boots", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 12, 30865, "", "=q4=Tracker's Blade", "=ds=#h1#, #w4#", "", "8.3%" },
+			{ 14, 32459, "", "=q1=Time-Phased Phylactery", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -1224,21 +1209,21 @@ AtlasLoot_Data["MountHyjalWinterchill"] = {
 	},
 };
 
-AtlasLoot_Data["MountHyjalAnetheron"] = {
+AtlasLoot_Data["HyjalAnetheron"] = {
 	["Normal"] = {
 		{
-			{ 1,  30884, "", "=q4=Hatefury Mantle",             "=ds=#s3#, #a1#",  "", "16%" },
-			{ 2,  30888, "", "=q4=Anetheron's Noose",           "=ds=#s10#, #a1#", "", "16%" },
-			{ 3,  30885, "", "=q4=Archbishop's Slippers",       "=ds=#s12#, #a1#", "", "17%" },
-			{ 4,  30879, "", "=q4=Don Alejandro's Money Belt",  "=ds=#s10#, #a2#", "", "16%" },
-			{ 5,  30886, "", "=q4=Enchanted Leather Sandals",   "=ds=#s12#, #a2#", "", "15%" },
-			{ 6,  30887, "", "=q4=Golden Links of Restoration", "=ds=#s5#, #a3#",  "", "16%" },
-			{ 7,  30880, "", "=q4=Quickstrider Moccasins",      "=ds=#s12#, #a3#", "", "16%" },
-			{ 8,  30878, "", "=q4=Glimmering Steel Mantle",     "=ds=#s3#, #a4#",  "", "16%" },
-			{ 16, 30874, "", "=q4=The Unbreakable Will",        "=ds=#h1#, #w10#", "", "16%" },
-			{ 17, 30881, "", "=q4=Blade of Infamy",             "=ds=#h1#, #w10#", "", "15%" },
-			{ 18, 30883, "", "=q4=Pillar of Ferocity",          "=ds=#w9#",        "", "16%" },
-			{ 19, 30882, "", "=q4=Bastion of Light",            "=ds=#w8#",        "", "15%" },
+			{ 1, 30888, "", "=q4=Anetheron's Noose", "=ds=#s10#, #a1#", "", "8.3%" },
+			{ 2, 30885, "", "=q4=Archbishop's Slippers", "=ds=#s12#, #a1#", "", "8.3%" },
+			{ 3, 30882, "", "=q4=Bastion of Light", "=ds=#w8#", "", "8.3%" },
+			{ 4, 30881, "", "=q4=Blade of Infamy", "=ds=#h1#, #w10#", "", "8.3%" },
+			{ 5, 30879, "", "=q4=Don Alejandro's Money Belt", "=ds=#s10#, #a2#", "", "8.3%" },
+			{ 6, 30886, "", "=q4=Enchanted Leather Sandals", "=ds=#s12#, #a2#", "", "8.3%" },
+			{ 7, 30878, "", "=q4=Glimmering Steel Mantle", "=ds=#s3#, #a4#", "", "8.3%" },
+			{ 8, 30887, "", "=q4=Golden Links of Restoration", "=ds=#s5#, #a3#", "", "8.3%" },
+			{ 9, 30884, "", "=q4=Hatefury Mantle", "=ds=#s3#, #a1#", "", "8.3%" },
+			{ 10, 30883, "", "=q4=Pillar of Ferocity", "=ds=#w9#", "", "8.3%" },
+			{ 11, 30880, "", "=q4=Quickstrider Moccasins", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 12, 30874, "", "=q4=The Unbreakable Will", "=ds=#h1#, #w10#", "", "8.3%" },
 		},
 	},
 	info = {
@@ -1248,21 +1233,21 @@ AtlasLoot_Data["MountHyjalAnetheron"] = {
 	},
 };
 
-AtlasLoot_Data["MountHyjalKazrogal"] = {
+AtlasLoot_Data["HyjalKazrogal"] = {
 	["Normal"] = {
 		{
-			{ 1,  30895, "", "=q4=Angelista's Sash",               "=ds=#s10#, #a1#", "", "16%" },
-			{ 2,  30916, "", "=q4=Leggings of Channeled Elements", "=ds=#s11#, #a1#", "", "17%" },
-			{ 3,  30894, "", "=q4=Blue Suede Shoes",               "=ds=#s12#, #a1#", "", "16%" },
-			{ 4,  30917, "", "=q4=Razorfury Mantle",               "=ds=#s3#, #a2#",  "", "17%" },
-			{ 5,  30914, "", "=q4=Belt of the Crescent Moon",      "=ds=#s10#, #a2#", "", "9%" },
-			{ 6,  30891, "", "=q4=Black Featherlight Boots",       "=ds=#s12#, #a2#", "", "14%" },
-			{ 7,  30892, "", "=q4=Beast-Tamer's Shoulders",        "=ds=#s3#, #a3#",  "", "15%" },
-			{ 8,  30919, "", "=q4=Valestalker Girdle",             "=ds=#s10#, #a3#", "", "15%" },
-			{ 9,  30893, "", "=q4=Sun-Touched Chain Leggings",     "=ds=#s11#, #a3#", "", "15%" },
-			{ 10, 30915, "", "=q4=Belt of Seething Fury",          "=ds=#s10#, #a4#", "", "17%" },
-			{ 16, 30918, "", "=q4=Hammer of Atonement",            "=ds=#h3#, #w6#",  "", "17%" },
-			{ 17, 30889, "", "=q4=Kaz'rogal's Hardened Heart",     "=ds=#w8#",        "", "16%" },
+			{ 1, 30895, "", "=q4=Angelista's Sash", "=ds=#s10#, #a1#", "", "8.3%" },
+			{ 2, 30892, "", "=q4=Beast-Tamer's Shoulders", "=ds=#s3#, #a3#", "", "8.3%" },
+			{ 3, 30915, "", "=q4=Belt of Seething Fury", "=ds=#s10#, #a4#", "", "8.3%" },
+			{ 4, 30914, "", "=q4=Belt of the Crescent Moon", "=ds=#s10#, #a2#", "", "8.3%" },
+			{ 5, 30891, "", "=q4=Black Featherlight Boots", "=ds=#s12#, #a2#", "", "8.3%" },
+			{ 6, 30894, "", "=q4=Blue Suede Shoes", "=ds=#s12#, #a1#", "", "8.3%" },
+			{ 7, 30918, "", "=q4=Hammer of Atonement", "=ds=#h3#, #w6#", "", "8.3%" },
+			{ 8, 30889, "", "=q4=Kaz'rogal's Hardened Heart", "=ds=#w8#", "", "8.3%" },
+			{ 9, 30916, "", "=q4=Leggings of Channeled Elements", "=ds=#s11#, #a1#", "", "8.3%" },
+			{ 10, 30917, "", "=q4=Razorfury Mantle", "=ds=#s3#, #a2#", "", "8.3%" },
+			{ 11, 30893, "", "=q4=Sun-Touched Chain Leggings", "=ds=#s11#, #a3#", "", "8.3%" },
+			{ 12, 30919, "", "=q4=Valestalker Girdle", "=ds=#s10#, #a3#", "", "8.3%" },
 		},
 	},
 	info = {
@@ -1273,18 +1258,18 @@ AtlasLoot_Data["MountHyjalKazrogal"] = {
 };
 
 
-AtlasLoot_Data["MountHyjalAzgalor"] = {
+AtlasLoot_Data["HyjalAzgalor"] = {
 	["Normal"] = {
 		{
-			{ 1,  30899, "", "=q4=Don Rodrigo's Poncho",               "=ds=#s5#, #a2#",  "", "15%" },
-			{ 2,  30898, "", "=q4=Shady Dealer's Pantaloons",          "=ds=#s11#, #a2#", "", "16%" },
-			{ 3,  30900, "", "=q4=Bow-Stitched Leggings",              "=ds=#s11#, #a3#", "", "15%" },
-			{ 4,  30896, "", "=q4=Glory of the Defender",              "=ds=#s5#, #a4#",  "", "15%" },
-			{ 5,  30897, "", "=q4=Girdle of Hope",                     "=ds=#s10#, #a4#", "", "15%" },
-			{ 6,  30901, "", "=q4=Boundless Agony",                    "=ds=#h1#, #w4#",  "", "16%" },
-			{ 16, 31092, "", "=q4=Gloves of the Forgotten Conqueror",  "=ds=#m23# #e15#", "", "74%" },
-			{ 17, 31094, "", "=q4=Gloves of the Forgotten Protector",  "=ds=#m23# #e15#", "", "73%" },
-			{ 18, 31093, "", "=q4=Gloves of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "73%" },
+			{ 1, 30901, "", "=q4=Boundless Agony", "=ds=#h1#, #w4#",  "", "16.7%" },
+			{ 2, 30900, "", "=q4=Bow-Stitched Leggings", "=ds=#s11#, #a3#", "", "16.7%" },
+			{ 3, 30899, "", "=q4=Don Rodrigo's Poncho", "=ds=#s5#, #a2#",  "", "16.7%" },
+			{ 4, 30897, "", "=q4=Girdle of Hope", "=ds=#s10#, #a4#", "", "16.7%" },
+			{ 5, 30896, "", "=q4=Glory of the Defender", "=ds=#s5#, #a4#",  "", "16.7%" },
+			{ 6, 30898, "", "=q4=Shady Dealer's Pantaloons", "=ds=#s11#, #a2#", "", "16.7%" },
+			{ 16, 31092, "", "=q4=Gloves of the Forgotten Conqueror", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 17, 31094, "", "=q4=Gloves of the Forgotten Protector", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 18, 31093, "", "=q4=Gloves of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1294,24 +1279,24 @@ AtlasLoot_Data["MountHyjalAzgalor"] = {
 	},
 };
 
-AtlasLoot_Data["MountHyjalArchimonde"] = {
+AtlasLoot_Data["HyjalArchimonde"] = {
 	["Normal"] = {
 		{
-			{ 1,  30913, "", "=q4=Robes of Rhonin",                        "=ds=#s5#, #a1#",  "", "15%" },
-			{ 2,  30912, "", "=q4=Leggings of Eternity",                   "=ds=#s11#, #a1#", "", "15%" },
-			{ 3,  30905, "", "=q4=Midnight Chestguard",                    "=ds=#s5#, #a2#",  "", "14%" },
-			{ 4,  30907, "", "=q4=Mail of Fevered Pursuit",                "=ds=#s5#, #a3#",  "", "15%" },
-			{ 5,  30904, "", "=q4=Savior's Grasp",                         "=ds=#s5#, #a4#",  "", "14%" },
-			{ 6,  30903, "", "=q4=Legguards of Endless Rage",              "=ds=#s11#, #a4#", "", "15%" },
-			{ 7,  30911, "", "=q4=Scepter of Purification",                "=ds=#s15#",       "", "15%" },
-			{ 9,  30910, "", "=q4=Tempest of Chaos",                       "=ds=#h3#, #w10#", "", "14%" },
-			{ 10, 30902, "", "=q4=Cataclysm's Edge",                       "=ds=#h2#, #w10#", "", "15%" },
-			{ 11, 30908, "", "=q4=Apostle of Argus",                       "=ds=#w9#",        "", "15%" },
-			{ 12, 30909, "", "=q4=Antonidas' Aegis of Rapt Concentration", "=ds=#w8#",        "", "15%" },
-			{ 13, 30906, "", "=q4=Bristleblitz Striker",                   "=ds=#w2#",        "", "16%" },
-			{ 16, 31097, "", "=q4=Helm of the Forgotten Conqueror",        "=ds=#m23# #e15#", "", "70%" },
-			{ 17, 31095, "", "=q4=Helm of the Forgotten Protector",        "=ds=#m23# #e15#", "", "72%" },
-			{ 18, 31096, "", "=q4=Helm of the Forgotten Vanquisher",       "=ds=#m23# #e15#", "", "73%" },
+			{ 1, 30909, "", "=q4=Antonidas' Aegis of Rapt Concentration", "=ds=#w8#", "", "8.3%" },
+			{ 2, 30908, "", "=q4=Apostle of Argus", "=ds=#w9#", "", "8.3%" },
+			{ 3, 30906, "", "=q4=Bristleblitz Striker", "=ds=#w2#", "", "8.3%" },
+			{ 4, 30902, "", "=q4=Cataclysm's Edge", "=ds=#h2#, #w10#", "", "8.3%" },
+			{ 5, 30912, "", "=q4=Leggings of Eternity", "=ds=#s11#, #a1#", "", "8.3%" },
+			{ 6, 30903, "", "=q4=Legguards of Endless Rage", "=ds=#s11#, #a4#", "", "8.3%" },
+			{ 7, 30907, "", "=q4=Mail of Fevered Pursuit", "=ds=#s5#, #a3#", "", "8.3%" },
+			{ 8, 30905, "", "=q4=Midnight Chestguard", "=ds=#s5#, #a2#", "", "8.3%" },
+			{ 9, 30913, "", "=q4=Robes of Rhonin", "=ds=#s5#, #a1#", "", "8.3%" },
+			{ 10, 30904, "", "=q4=Savior's Grasp", "=ds=#s5#, #a4#", "", "8.3%" },
+			{ 11, 30911, "", "=q4=Scepter of Purification", "=ds=#s15#", "", "8.3%" },
+			{ 12, 30910, "", "=q4=Tempest of Chaos", "=ds=#h3#, #w10#", "", "8.3%" },
+			{ 16, 31097, "", "=q4=Helm of the Forgotten Conqueror", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 17, 31095, "", "=q4=Helm of the Forgotten Protector", "=ds=#m23# #e15#", "", "33.3%" },
+			{ 18, 31096, "", "=q4=Helm of the Forgotten Vanquisher", "=ds=#m23# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1321,28 +1306,28 @@ AtlasLoot_Data["MountHyjalArchimonde"] = {
 	},
 };
 
-AtlasLoot_Data["MountHyjalTrash"] = {
+AtlasLoot_Data["HyjalTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  32590, "", "=q4=Nethervoid Cloak",                      "=ds=#s4#",        "", "1%" },
-			{ 2,  34010, "", "=q4=Pepe's Shroud of Pacification",         "=ds=#s4#",        "", "1%" },
-			{ 3,  32609, "", "=q4=Boots of the Divine Light",             "=ds=#s12#, #a1#", "", "1%" },
-			{ 4,  32592, "", "=q4=Chestguard of Relentless Storms",       "=ds=#s5#, #a3#",  "", "1%" },
-			{ 5,  32591, "", "=q4=Choker of Serrated Blades",             "=ds=#s2#",        "", "1%" },
-			{ 6,  32589, "", "=q4=Hellfire-Encased Pendant",              "=ds=#s2#",        "", "1%" },
-			{ 7,  34009, "", "=q4=Hammer of Judgement",                   "=ds=#h3#, #w6#",  "", "1%" },
-			{ 8,  32946, "", "=q4=Claw of Molten Fury",                   "=ds=#h3#, #w13#", "", "0.46%" },
-			{ 9,  32945, "", "=q4=Fist of Molten Fury",                   "=ds=#h4#, #w13#", "", "0.42%" },
-			{ 11, 32428, "", "=q3=Heart of Darkness",                     "=ds=#e8#",        "", "16%" },
-			{ 12, 32897, "", "=q2=Mark of the Illidari",                  "=ds=#m20#",       "", "27%" },
-			{ 16, 32285, "", "=q4=Design: Flashing Crimson Spinel",       "=ds=#p12# (375)", "", "4%" },
-			{ 17, 32296, "", "=q4=Design: Rigid Empyrean Sapphire",       "=ds=#p12# (375)", "", "3%" },
-			{ 18, 32289, "", "=q4=Design: Stormy Empyrean Sapphire",      "=ds=#p12# (375)", "", "4%" },
-			{ 19, 32295, "", "=q4=Design: Mystic Lionseye",               "=ds=#p12# (375)", "", "4%" },
-			{ 20, 32303, "", "=q4=Design: Inscribed Pyrestone",           "=ds=#p12# (375)", "", "3%" },
-			{ 21, 32298, "", "=q4=Design: Shifting Shadowsong Amethyst",  "=ds=#p12# (375)", "", "4%" },
-			{ 22, 32297, "", "=q4=Design: Sovereign Shadowsong Amethyst", "=ds=#p12# (375)", "", "4%" },
-			{ 23, 32307, "", "=q4=Design: Veiled Shadowsong Amethyst",    "=ds=#p12# (375)", "", "3%" },
+			{ 1, 32609, "", "=q4=Boots of the Divine Light", "=ds=#s12#, #a1#", "", "0.12%" },
+			{ 2, 32592, "", "=q4=Chestguard of Relentless Storms", "=ds=#s5#, #a3#", "", "0.12%" },
+			{ 3, 32591, "", "=q4=Choker of Serrated Blades", "=ds=#s2#", "", "0.12%" },
+			{ 4, 32946, "", "=q4=Claw of Molten Fury", "=ds=#h3#, #w13#", "", "0.12%" },
+			{ 5, 32945, "", "=q4=Fist of Molten Fury", "=ds=#h4#, #w13#", "", "0.12%" },
+			{ 6, 34009, "", "=q4=Hammer of Judgement", "=ds=#h3#, #w6#", "", "~0.21%" },
+			{ 7, 32589, "", "=q4=Hellfire-Encased Pendant", "=ds=#s2#", "", "0.12%" },
+			{ 8, 32590, "", "=q4=Nethervoid Cloak", "=ds=#s4#", "", "0.12%" },
+			{ 9, 34010, "", "=q4=Pepe's Shroud of Pacification", "=ds=#s4#", "", "~0.46%" },
+			{ 16, 32285, "", "=q4=Design: Flashing Crimson Spinel", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 17, 32296, "", "=q4=Design: Rigid Empyrean Sapphire", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 18, 32289, "", "=q4=Design: Stormy Empyrean Sapphire", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 19, 32295, "", "=q4=Design: Mystic Lionseye", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 20, 32303, "", "=q4=Design: Inscribed Pyrestone", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 21, 32298, "", "=q4=Design: Shifting Shadowsong Amethyst", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 22, 32297, "", "=q4=Design: Sovereign Shadowsong Amethyst", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 23, 32307, "", "=q4=Design: Veiled Shadowsong Amethyst", "=ds=#p12# (375)", "", "Bosses: 0.25%-1.88%" },
+			{ 25, 32428, "", "=q3=Heart of Darkness", "=ds=#e8#", "", "~4%" },
+			{ 26, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "~10.5%" },
 		},
 	},
 	info = {
@@ -1950,15 +1935,15 @@ AtlasLoot_Data["CFRSerpentTrash"] = {
 AtlasLoot_Data["GruulsLairHighKingMaulgar"] = {
 	["Normal"] = {
 		{
-			{ 1,  28797, "", "=q4=Brute Cloak of the Ogre-Magi",     "#s4#",            "", "8.39%" },
-			{ 2,  28799, "", "=q4=Belt of Divine Inspiration",       "#s10#, #a1#",     "", "9.98%" },
-			{ 3,  28796, "", "=q4=Malefic Mask of the Shadows",      "=ds=#s1#, #a2#",  "", "12.93%" },
-			{ 4,  28801, "", "=q4=Maulgar's Warhelm",                "=ds=#s1#, #a3#",  "", "21.32%" },
-			{ 5,  28795, "", "=q4=Bladespire Warbands",              "=ds=#s8#, #a4#",  "", "12.02%" },
-			{ 6,  28800, "", "=q4=Hammer of the Naaru",              "=ds=#h2#, #w6#",  "", "15.87%" },
-			{ 16, 29763, "", "=q4=Pauldrons of the Fallen Champion", "=ds=#m21# #e15#", "", "22.68%" },
-			{ 17, 29764, "", "=q4=Pauldrons of the Fallen Defender", "=ds=#m21# #e15#", "", "34.69%" },
-			{ 18, 29762, "", "=q4=Pauldrons of the Fallen Hero",     "=ds=#m21# #e15#", "", "25.62%" },
+			{ 1, 28799, "", "=q4=Belt of Divine Inspiration", "#s10#, #a1#", "", "16.7%" },
+			{ 2, 28795, "", "=q4=Bladespire Warbands", "=ds=#s8#, #a4#", "", "16.7%" },
+			{ 3, 28797, "", "=q4=Brute Cloak of the Ogre-Magi", "#s4#", "", "16.7%" },
+			{ 4, 28800, "", "=q4=Hammer of the Naaru", "=ds=#h2#, #w6#", "", "16.7%" },
+			{ 5, 28796, "", "=q4=Malefic Mask of the Shadows", "=ds=#s1#, #a2#", "", "16.7%" },
+			{ 6, 28801, "", "=q4=Maulgar's Warhelm", "=ds=#s1#, #a3#", "", "16.7%" },
+			{ 16, 29763, "", "=q4=Pauldrons of the Fallen Champion", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 17, 29764, "", "=q4=Pauldrons of the Fallen Defender", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 18, 29762, "", "=q4=Pauldrons of the Fallen Hero", "=ds=#m21# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1968,25 +1953,26 @@ AtlasLoot_Data["GruulsLairHighKingMaulgar"] = {
 	},
 };
 
-AtlasLoot_Data["GruulGruul"] = {
+AtlasLoot_Data["GruulsLairGruulTheDragonkiller"] = {
 	["Normal"] = {
 		{
-			{ 1,  28804, "", "=q4=Collar of Cho'gall",              "=ds=#s1#, #a1#",  "", "14.96%" },
-			{ 2,  28803, "", "=q4=Cowl of Nature's Breath",         "=ds=#s1#, #a2#",  "", "14.21%" },
-			{ 3,  28828, "", "=q4=Gronn-Stitched Girdle",           "=ds=#s10#, #a2#", "", "11.22%" },
-			{ 4,  28827, "", "=q4=Gauntlets of the Dragonslayer",   "=ds=#s9#, #a3#",  "", "7.48%" },
-			{ 5,  28810, "", "=q4=Windshear Boots",                 "=ds=#s12#, #a3#", "", "10.22%" },
-			{ 6,  28824, "", "=q4=Gauntlets of Martial Perfection", "=ds=#s9#, #a4#",  "", "12.22%" },
-			{ 7,  28822, "", "=q4=Teeth of Gruul",                  "=ds=#s2#",        "", "11.47%" },
-			{ 8,  28823, "", "=q4=Eye of Gruul",                    "=ds=#s14#",       "", "6.73%" },
-			{ 9,  28830, "", "=q4=Dragonspine Trophy",              "=ds=#s14#",       "", "11.72%" },
-			{ 16, 29766, "", "=q4=Leggings of the Fallen Champion", "=ds=#m21# #e15#", "", "23.69%" },
-			{ 17, 29767, "", "=q4=Leggings of the Fallen Defender", "=ds=#m21# #e15#", "", "17.46%" },
-			{ 18, 29765, "", "=q4=Leggings of the Fallen Hero",     "=ds=#m21# #e15#", "", "30.17%" },
-			{ 20, 28802, "", "=q4=Bloodmaw Magus-Blade",            "=ds=#h3#, #w10#", "", "9.23%" },
-			{ 21, 28794, "", "=q4=Axe of the Gronn Lords",          "=ds=#h2#, #w1#",  "", "6.73%" },
-			{ 22, 28825, "", "=q4=Aldori Legacy Defender",          "=ds=#w8#",        "", "2.99%" },
-			{ 23, 28826, "", "=q4=Shuriken of Negation",            "=ds=#w11#",       "", "16.21%" },
+			{ 1, 28825, "", "=q4=Aldori Legacy Defender", "=ds=#w8#", "", "7.7%" },
+			{ 2, 28794, "", "=q4=Axe of the Gronn Lords", "=ds=#h2#, #w1#", "", "7.7%" },
+			{ 3, 28802, "", "=q4=Bloodmaw Magus-Blade", "=ds=#h3#, #w10#", "", "7.7%" },
+			{ 4, 28804, "", "=q4=Collar of Cho'gall", "=ds=#s1#, #a1#", "", "7.7%" },
+			{ 5, 28803, "", "=q4=Cowl of Nature's Breath", "=ds=#s1#, #a2#", "", "7.7%" },
+			{ 6, 28830, "", "=q4=Dragonspine Trophy", "=ds=#s14#", "", "7.7%" },
+			{ 7, 28823, "", "=q4=Eye of Gruul", "=ds=#s14#", "", "7.7%" },
+			{ 8, 28824, "", "=q4=Gauntlets of Martial Perfection", "=ds=#s9#, #a4#", "", "7.7%" },
+			{ 9, 28827, "", "=q4=Gauntlets of the Dragonslayer", "=ds=#s9#, #a3#", "", "7.7%" },
+			{ 10, 28828, "", "=q4=Gronn-Stitched Girdle", "=ds=#s10#, #a2#", "", "7.7%" },
+			{ 11, 28826, "", "=q4=Shuriken of Negation", "=ds=#w11#", "", "7.7%" },
+			{ 12, 28822, "", "=q4=Teeth of Gruul", "=ds=#s2#", "", "7.7%" },
+			{ 13, 28810, "", "=q4=Windshear Boots", "=ds=#s12#, #a3#", "", "7.7%" },
+			{ 15, 31750, "", "=q1=Earthen Signet", "=ds=#m3#", "", "100%" },
+			{ 16, 29766, "", "=q4=Leggings of the Fallen Champion", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 17, 29767, "", "=q4=Leggings of the Fallen Defender", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 18, 29765, "", "=q4=Leggings of the Fallen Hero", "=ds=#m21# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
