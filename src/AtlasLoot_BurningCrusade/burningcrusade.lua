@@ -2444,24 +2444,26 @@ AtlasLoot_Data["KaraCharredBoneFragment"] = {
 	},
 };
 
-AtlasLoot_Data["KaraNamed"] = {
+AtlasLoot_Data["KarazhanServantsQuarters"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "Ability_Hunter_Pet_Spider", "=q6=" .. BabbleBoss["Hyakiss the Lurker"], "=q5=" .. AL["Spider"] },
-			{ 2,  30675, "",                          "=q4=Lurker's Cord",                        "=ds=#s10#, #a1#",      "", "32.81%" },
-			{ 3,  30676, "",                          "=q4=Lurker's Grasp",                       "=ds=#s10#, #a2#",      "", "9.38%" },
-			{ 4,  30677, "",                          "=q4=Lurker's Belt",                        "=ds=#s10#, #a3#",      "", "23.44%" },
-			{ 5,  30678, "",                          "=q4=Lurker's Girdle",                      "=ds=#s10#, #a4#",      "", "15.62%" },
-			{ 7,  0,     "Ability_Hunter_Pet_Hyena",  "=q6=" .. BabbleBoss["Rokad the Ravager"],  "=q5=" .. AL["Darkhound"] },
-			{ 8,  30684, "",                          "=q4=Ravager's Cuffs",                      "=ds=#s8#, #a1#",       "", "27.78%" },
-			{ 9,  30685, "",                          "=q4=Ravager's Wrist-Wraps",                "=ds=#s8#, #a2#",       "", "11.11%" },
-			{ 10, 30686, "",                          "=q4=Ravager's Bands",                      "=ds=#s8#, #a3#",       "", "23.33%" },
-			{ 11, 30687, "",                          "=q4=Ravager's Bracers",                    "=ds=#s8#, #a4#",       "", "8.89%" },
-			{ 16, 0,     "Ability_Hunter_Pet_Bat",    "=q6=" .. BabbleBoss["Shadikith the Glider"], "=q5=" .. AL["Bat"] },
-			{ 17, 30680, "",                          "=q4=Glider's Foot-Wraps",                  "=ds=#s12#, #a1#",      "", "9.68%" },
-			{ 18, 30681, "",                          "=q4=Glider's Boots",                       "=ds=#s12#, #a2#",      "", "22.58%" },
-			{ 19, 30682, "",                          "=q4=Glider's Sabatons",                    "=ds=#s12#, #a3#",      "", "9.68%" },
-			{ 20, 30683, "",                          "=q4=Glider's Greaves",                     "=ds=#s12#, #a4#",      "", "8.60%" },
+			{ 1, 0, "Ability_Hunter_Pet_Spider", "=q6=" .. BabbleBoss["Hyakiss the Lurker"], "=q5=" .. AL["Spider"] },
+			{ 2, 30677, "", "=q4=Lurker's Belt", "=ds=#s10#, #a3#", "", "25%" },
+			{ 3, 30675, "", "=q4=Lurker's Cord", "=ds=#s10#, #a1#", "", "25%" },
+			{ 4, 30678, "", "=q4=Lurker's Girdle", "=ds=#s10#, #a4#", "", "25%" },
+			{ 5, 30676, "", "=q4=Lurker's Grasp", "=ds=#s10#, #a2#", "", "25%" },
+			
+			{ 7, 0, "Ability_Hunter_Pet_Hyena", "=q6=" .. BabbleBoss["Rokad the Ravager"], "=q5=" .. AL["Darkhound"] },
+			{ 8, 30686, "", "=q4=Ravager's Bands", "=ds=#s8#, #a3#", "", "25%" },
+			{ 9, 30687, "", "=q4=Ravager's Bracers", "=ds=#s8#, #a4#", "", "25%" },
+			{ 10, 30684, "", "=q4=Ravager's Cuffs", "=ds=#s8#, #a1#", "", "25%" },
+			{ 11, 30685, "", "=q4=Ravager's Wrist-Wraps", "=ds=#s8#, #a2#", "", "25%" },
+			
+			{ 16, 0, "Ability_Hunter_Pet_Bat", "=q6=" .. BabbleBoss["Shadikith the Glider"], "=q5=" .. AL["Bat"] },
+			{ 17, 30681, "", "=q4=Glider's Boots", "=ds=#s12#, #a2#", "", "25%" },
+			{ 18, 30680, "", "=q4=Glider's Foot-Wraps", "=ds=#s12#, #a1#", "", "25%" },
+			{ 19, 30683, "", "=q4=Glider's Greaves", "=ds=#s12#, #a4#", "", "25%" },
+			{ 20, 30682, "", "=q4=Glider's Sabatons", "=ds=#s12#, #a3#", "", "25%" },
 		},
 	},
 	info = {
@@ -2471,23 +2473,23 @@ AtlasLoot_Data["KaraNamed"] = {
 	},
 };
 
-AtlasLoot_Data["KaraAttumen"] = {
+AtlasLoot_Data["KarazhanAttumenTheHuntsman"] = {
 	["Normal"] = {
 		{
-			{ 1,  28477, "", "=q4=Harbinger Bands",                      "=ds=#s8#, #a1#", "", "14.68%" },
-			{ 2,  28507, "", "=q4=Handwraps of Flowing Thought",         "=ds=#s9#, #a1#", "", "12.44%" },
-			{ 3,  28508, "", "=q4=Gloves of Saintly Blessings",          "=ds=#s9#, #a1#", "", "11.69%" },
-			{ 4,  28453, "", "=q4=Bracers of the White Stag",            "=ds=#s8#, #a2#", "", "12.19%" },
-			{ 5,  28506, "", "=q4=Gloves of Dexterous Manipulation",     "=ds=#s9#, #a2#", "", "14.68%" },
-			{ 6,  28503, "", "=q4=Whirlwind Bracers",                    "=ds=#s8#, #a3#", "", "9.20%" },
-			{ 7,  28454, "", "=q4=Stalker's War Bands",                  "=ds=#s8#, #a3#", "", "16.17%" },
-			{ 8,  28502, "", "=q4=Vambraces of Courage",                 "=ds=#s8#, #a4#", "", "10.70%" },
-			{ 9,  28505, "", "=q4=Gauntlets of Renewed Hope",            "=ds=#s9#, #a4#", "", "10.95%" },
-			{ 16, 28509, "", "=q4=Worgen Claw Necklace",                 "=ds=#s2#",       "", "17.16%" },
-			{ 17, 28510, "", "=q4=Spectral Band of Innervation",         "=ds=#s13#",      "", "10.70%" },
-			{ 18, 28504, "", "=q4=Steelhawk Crossbow",                   "=ds=#w3#",       "", "12.44%" },
-			{ 19, 30480, "", "=q4=Fiery Warhorse's Reins",               "=ds=#e12#",      "", "0.25%" },
-			{ 21, 23809, "", "=q3=Schematic: Stabilized Eternium Scope", "=ds=#p5# (375)", "", "1.00%" },
+			{ 1, 28453, "", "=q4=Bracers of the White Stag", "=ds=#s8#, #a2#", "", "8.3%" },
+			{ 2, 28505, "", "=q4=Gauntlets of Renewed Hope", "=ds=#s9#, #a4#", "", "8.3%" },
+			{ 3, 28506, "", "=q4=Gloves of Dexterous Manipulation", "=ds=#s9#, #a2#", "", "8.3%" },
+			{ 4, 28508, "", "=q4=Gloves of Saintly Blessings", "=ds=#s9#, #a1#", "", "8.3%" },
+			{ 5, 28507, "", "=q4=Handwraps of Flowing Thought", "=ds=#s9#, #a1#", "", "8.3%" },
+			{ 6, 28477, "", "=q4=Harbinger Bands", "=ds=#s8#, #a1#", "", "8.3%" },
+			{ 7, 28510, "", "=q4=Spectral Band of Innervation", "=ds=#s13#", "", "8.3%" },
+			{ 8, 28454, "", "=q4=Stalker's War Bands", "=ds=#s8#, #a3#", "", "8.3%" },
+			{ 9, 28504, "", "=q4=Steelhawk Crossbow", "=ds=#w3#", "", "8.3%" },
+			{ 10, 28502, "", "=q4=Vambraces of Courage", "=ds=#s8#, #a4#", "", "8.3%" },
+			{ 11, 28503, "", "=q4=Whirlwind Bracers", "=ds=#s8#, #a3#", "", "8.3%" },
+			{ 12, 28509, "", "=q4=Worgen Claw Necklace", "=ds=#s2#", "", "8.3%" },
+			{ 14, 30480, "", "=q4=Fiery Warhorse's Reins", "=ds=#e12#", "", "1%" },
+			{ 16, 23809, "", "=q3=Schematic: Stabilized Eternium Scope", "=ds=#p5# (375)", "", "8%" },
 		},
 	},
 	info = {
@@ -2497,22 +2499,22 @@ AtlasLoot_Data["KaraAttumen"] = {
 	},
 };
 
-AtlasLoot_Data["KaraMoroes"] = {
+AtlasLoot_Data["KarazhanMoroes"] = {
 	["Normal"] = {
 		{
-			{ 1,  28529, "", "=q4=Royal Cloak of Arathi Kings",        "=ds=#s4#",        "", "15.91%" },
-			{ 2,  28570, "", "=q4=Shadow-Cloak of Dalaran",            "=ds=#s4#",        "", "12.18%" },
-			{ 3,  28565, "", "=q4=Nethershard Girdle",                 "=ds=#s10#, #a1#", "", "14.08%" },
-			{ 4,  28545, "", "=q4=Edgewalker Longboots",               "=ds=#s12#, #a2#", "", "11.07%" },
-			{ 5,  28567, "", "=q4=Belt of Gale Force",                 "=ds=#s10#, #a3#", "", "12.05%" },
-			{ 6,  28566, "", "=q4=Crimson Girdle of the Indomitable",  "=ds=#s10#, #a4#", "", "10.81%" },
-			{ 7,  28569, "", "=q4=Boots of Valiance",                  "=ds=#s12#, #a4#", "", "11.33%" },
-			{ 16, 28530, "", "=q4=Brooch of Unquenchable Fury",        "=ds=#s2#",        "", "12.25%" },
-			{ 17, 28528, "", "=q4=Moroes' Lucky Pocket Watch",         "=ds=#s14#",       "", "12.05%" },
-			{ 18, 28525, "", "=q4=Signet of Unshakable Faith",         "=ds=#s15#",       "", "14.54%" },
-			{ 19, 28568, "", "=q4=Idol of the Avian Heart",            "=ds=#w14#",       "", "14.08%" },
-			{ 20, 28524, "", "=q4=Emerald Ripper",                     "=ds=#h1#, #w4#",  "", "12.90%" },
-			{ 22, 22559, "", "=q3=Formula: Enchant Weapon - Mongoose", "=ds=#p4# (375)",  "", "1.05%" },
+			{ 1, 28567, "", "=q4=Belt of Gale Force", "=ds=#s10#, #a3#", "", "8.3%" },
+			{ 2, 28569, "", "=q4=Boots of Valiance", "=ds=#s12#, #a4#", "", "8.3%" },
+			{ 3, 28530, "", "=q4=Brooch of Unquenchable Fury", "=ds=#s2#", "", "8.3%" },
+			{ 4, 28566, "", "=q4=Crimson Girdle of the Indomitable", "=ds=#s10#, #a4#", "", "8.3%" },
+			{ 5, 28545, "", "=q4=Edgewalker Longboots", "=ds=#s12#, #a2#", "", "8.3%" },
+			{ 6, 28524, "", "=q4=Emerald Ripper", "=ds=#h1#, #w4#", "", "8.3%" },
+			{ 7, 28568, "", "=q4=Idol of the Avian Heart", "=ds=#w14#", "", "8.3%" },
+			{ 8, 28528, "", "=q4=Moroes' Lucky Pocket Watch", "=ds=#s14#", "", "8.3%" },
+			{ 9, 28565, "", "=q4=Nethershard Girdle", "=ds=#s10#, #a1#", "", "8.3%" },
+			{ 10, 28529, "", "=q4=Royal Cloak of Arathi Kings", "=ds=#s4#", "", "8.3%" },
+			{ 11, 28570, "", "=q4=Shadow-Cloak of Dalaran", "=ds=#s4#", "", "8.3%" },
+			{ 12, 28525, "", "=q4=Signet of Unshakable Faith", "=ds=#s15#", "", "8.3%" },
+			{ 16, 22559, "", "=q3=Formula: Enchant Weapon - Mongoose", "=ds=#p4# (375)", "", "100%" },
 		},
 	},
 	info = {
@@ -2522,21 +2524,21 @@ AtlasLoot_Data["KaraMoroes"] = {
 	},
 };
 
-AtlasLoot_Data["KaraMaiden"] = {
+AtlasLoot_Data["KarazhanMaidenOfVirtue"] = {
 	["Normal"] = {
 		{
-			{ 1,  28511, "", "=q4=Bands of Indwelling",          "=ds=#s8#, #a1#",  "", "12.46%" },
-			{ 2,  28515, "", "=q4=Bands of Nefarious Deeds",     "=ds=#s8#, #a1#",  "", "13.87%" },
-			{ 3,  28517, "", "=q4=Boots of Foretelling",         "=ds=#s12#, #a1#", "", "16.96%" },
-			{ 4,  28514, "", "=q4=Bracers of Maliciousness",     "=ds=#s8#, #a2#",  "", "15.90%" },
-			{ 5,  28521, "", "=q4=Mitts of the Treemender",      "=ds=#s9#, #a2#",  "", "13.16%" },
-			{ 6,  28520, "", "=q4=Gloves of Centering",          "=ds=#s9#, #a3#",  "", "13.16%" },
-			{ 7,  28519, "", "=q4=Gloves of Quickening",         "=ds=#s9#, #a3#",  "", "14.22%" },
-			{ 8,  28512, "", "=q4=Bracers of Justice",           "=ds=#s8#, #a4#",  "", "15%" },
-			{ 9,  28518, "", "=q4=Iron Gauntlets of the Maiden", "=ds=#s9#, #a4#",  "", "12.63%" },
-			{ 16, 28516, "", "=q4=Barbed Choker of Discipline",  "=ds=#s2#",        "", "11.48%" },
-			{ 17, 28523, "", "=q4=Totem of Healing Rains",       "=ds=#w15#",       "", "14.58%" },
-			{ 18, 28522, "", "=q4=Shard of the Virtuous",        "=ds=#h3#, #w6#",  "", "10.69%" },
+			{ 1, 28511, "", "=q4=Bands of Indwelling", "=ds=#s8#, #a1#", "", "8.3%" },
+			{ 2, 28515, "", "=q4=Bands of Nefarious Deeds", "=ds=#s8#, #a1#", "", "8.3%" },
+			{ 3, 28516, "", "=q4=Barbed Choker of Discipline", "=ds=#s2#", "", "8.3%" },
+			{ 4, 28517, "", "=q4=Boots of Foretelling", "=ds=#s12#, #a1#", "", "8.3%" },
+			{ 5, 28512, "", "=q4=Bracers of Justice", "=ds=#s8#, #a4#", "", "8.3%" },
+			{ 6, 28514, "", "=q4=Bracers of Maliciousness", "=ds=#s8#, #a2#", "", "8.3%" },
+			{ 7, 28520, "", "=q4=Gloves of Centering", "=ds=#s9#, #a3#", "", "8.3%" },
+			{ 8, 28519, "", "=q4=Gloves of Quickening", "=ds=#s9#, #a3#", "", "8.3%" },
+			{ 9, 28518, "", "=q4=Iron Gauntlets of the Maiden", "=ds=#s9#, #a4#", "", "8.3%" },
+			{ 10, 28521, "", "=q4=Mitts of the Treemender", "=ds=#s9#, #a2#", "", "8.3%" },
+			{ 11, 28522, "", "=q4=Shard of the Virtuous", "=ds=#h3#, #w6#", "", "8.3%" },
+			{ 12, 28523, "", "=q4=Totem of Healing Rains", "=ds=#w15#", "", "8.3%" },
 		},
 	},
 	info = {
@@ -2546,31 +2548,31 @@ AtlasLoot_Data["KaraMaiden"] = {
 	},
 };
 
-AtlasLoot_Data["KaraOperaEvent"] = {
+AtlasLoot_Data["KarazhanOpera"] = {
 	["Normal"] = {
 		{
-			{ 1,  0,     "INV_Box_01", "=q6=" .. AL["Shared"],                  "" },
-			{ 2,  28594, "",           "=q4=Trial-Fire Trousers",               "=ds=#s11#, #a1#",                      "", "15.96%" },
-			{ 3,  28591, "",           "=q4=Earthsoul Leggings",                "=ds=#s11#, #a2#",                      "", "12.45%" },
-			{ 4,  28589, "",           "=q4=Beastmaw Pauldrons",                "=ds=#s3#, #a3#",                       "", "12.54%" },
-			{ 5,  28593, "",           "=q4=Eternium Greathelm",                "=ds=#s1#, #a4#",                       "", "11.53%" },
-			{ 6,  28590, "",           "=q4=Ribbon of Sacrifice",               "=ds=#s14#",                            "", "18.41%" },
-			{ 7,  28592, "",           "=q4=Libram of Souls Redeemed",          "=ds=#w16#",                            "", "8.38%" },
-			{ 9,  0,     "INV_Box_01", "=q6=" .. BabbleBoss["The Crone"],       "=q5=" .. AL["Wizard of Oz"] },
-			{ 10, 28586, "",           "=q4=Wicked Witch's Hat",                "=ds=#s1#, #a1#",                       "", "20.12%" },
-			{ 11, 28585, "",           "=q4=Ruby Slippers",                     "=ds=#s12#, #a1#",                      "", "25.39%" },
-			{ 12, 28587, "",           "=q4=Legacy",                            "=ds=#h2#, #w1#",                       "", "20.43%" },
-			{ 13, 28588, "",           "=q4=Blue Diamond Witchwand",            "=ds=#w12#",                            "", "17.96%" },
-			{ 16, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["Romulo & Julianne"], "=q5=" .. BabbleBoss["Romulo & Julianne"] },
-			{ 17, 28578, "",           "=q4=Masquerade Gown",                   "=ds=#s5#, #a1#",                       "", "22.73%" },
-			{ 18, 28579, "",           "=q4=Romulo's Poison Vial",              "=ds=#s14#",                            "", "29.54%" },
-			{ 19, 28572, "",           "=q4=Blade of the Unrequited",           "=ds=#h1#, #w4#",                       "", "13.52%" },
-			{ 20, 28573, "",           "=q4=Despair",                           "=ds=#h2#, #w10#",                      "", "30.07%" },
-			{ 24, 0,     "INV_Box_01", "=q6=" .. BabbleBoss["The Big Bad Wolf"], "=q5=" .. AL["Red Riding Hood"] },
-			{ 25, 28582, "",           "=q4=Red Riding Hood's Cloak",           "=ds=#s4#",                             "", "12.85%" },
-			{ 26, 28583, "",           "=q4=Big Bad Wolf's Head",               "=ds=#s1#, #a3#",                       "", "16.37%" },
-			{ 27, 28584, "",           "=q4=Big Bad Wolf's Paw",                "=ds=#h3#, #w13#",                      "", "16.12%" },
-			{ 28, 28581, "",           "=q4=Wolfslayer Sniper Rifle",           "=ds=#w5#",                             "", "22.42%" },
+			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Shared"], "" },
+			{ 2, 28589, "", "=q4=Beastmaw Pauldrons", "=ds=#s3#, #a3#", "", "16.7%" },
+			{ 3, 28591, "", "=q4=Earthsoul Leggings", "=ds=#s11#, #a2#", "", "16.7%" },
+			{ 4, 28593, "", "=q4=Eternium Greathelm", "=ds=#s1#, #a4#", "", "16.7%" },
+			{ 5, 28592, "", "=q4=Libram of Souls Redeemed", "=ds=#w16#", "", "16.7%" },
+			{ 6, 28590, "", "=q4=Ribbon of Sacrifice", "=ds=#s14#", "", "16.7%" },
+			{ 7, 28594, "", "=q4=Trial-Fire Trousers", "=ds=#s11#, #a1#", "", "16.7%" },
+			{ 9, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Romulo & Julianne"], "=q5=" .. BabbleBoss["Romulo & Julianne"] },
+			{ 10, 28572, "", "=q4=Blade of the Unrequited", "=ds=#h1#, #w4#", "", "25%" },
+			{ 11, 28573, "", "=q4=Despair", "=ds=#h2#, #w10#", "", "25%" },
+			{ 12, 28578, "", "=q4=Masquerade Gown", "=ds=#s5#, #a1#", "", "25%" },
+			{ 13, 28579, "", "=q4=Romulo's Poison Vial", "=ds=#s14#", "", "25%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["The Big Bad Wolf"], "=q5=" .. AL["Red Riding Hood"] },
+			{ 17, 28583, "", "=q4=Big Bad Wolf's Head", "=ds=#s1#, #a3#", "", "25%" },
+			{ 18, 28584, "", "=q4=Big Bad Wolf's Paw", "=ds=#h3#, #w13#", "", "25%" },
+			{ 19, 28582, "", "=q4=Red Riding Hood's Cloak", "=ds=#s4#", "", "25%" },
+			{ 20, 28581, "", "=q4=Wolfslayer Sniper Rifle", "=ds=#w5#", "", "25%" },
+			{ 22, 0, "INV_Box_01", "=q6=" .. BabbleBoss["The Crone"], "=q5=" .. AL["Wizard of Oz"] },
+			{ 23, 28588, "", "=q4=Blue Diamond Witchwand", "=ds=#w12#", "", "25%" },
+			{ 24, 28587, "", "=q4=Legacy", "=ds=#h2#, #w1#", "", "25%" },
+			{ 25, 28585, "", "=q4=Ruby Slippers", "=ds=#s12#, #a1#", "", "25%" },
+			{ 26, 28586, "", "=q4=Wicked Witch's Hat", "=ds=#s1#, #a1#", "", "25%" },
 		},
 	},
 	info = {
@@ -2580,142 +2582,23 @@ AtlasLoot_Data["KaraOperaEvent"] = {
 	},
 };
 
-AtlasLoot_Data["KaraCurator"] = {
+AtlasLoot_Data["KarazhanNightbane"] = {
 	["Normal"] = {
 		{
-			{ 1,  28612, "", "=q4=Pauldrons of the Solace-Giver", "=ds=#s3#, #a1#",  "", "15.19%" },
-			{ 2,  28647, "", "=q4=Forest Wind Shoulderpads",      "=ds=#s3#, #a2#",  "", "10.56%" },
-			{ 3,  28631, "", "=q4=Dragon-Quake Shoulderguards",   "=ds=#s3#, #a3#",  "", "13.47%" },
-			{ 4,  28621, "", "=q4=Wrynn Dynasty Greaves",         "=ds=#s11#, #a4#", "", "11.85%" },
-			{ 5,  28649, "", "=q4=Garona's Signet Ring",          "=ds=#s13#",       "", "12.07%" },
-			{ 6,  28633, "", "=q4=Staff of Infinite Mysteries",   "=ds=#w9#",        "", "12.28%" },
-			{ 16, 29757, "", "=q4=Gloves of the Fallen Champion", "=ds=#m21# #e15#", "", "29.42%" },
-			{ 17, 29758, "", "=q4=Gloves of the Fallen Defender", "=ds=#m21# #e15#", "", "23.60%" },
-			{ 18, 29756, "", "=q4=Gloves of the Fallen Hero",     "=ds=#m21# #e15#", "", "21.66%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["The Curator"],
-		module = moduleName,
-		instance = "KarazhanEaI",
-	},
-};
-
-AtlasLoot_Data["KaraIllhoof"] = {
-	["Normal"] = {
-		{
-			{ 1,  28660, "", "=q4=Gilded Thorium Cloak",                "=ds=#s4#",        "", "14.63%" },
-			{ 2,  28653, "", "=q4=Shadowvine Cloak of Infusion",        "=ds=#s4#",        "", "10.45%" },
-			{ 3,  28652, "", "=q4=Cincture of Will",                    "=ds=#s10#, #a1#", "", "10.75%" },
-			{ 4,  28654, "", "=q4=Malefic Girdle",                      "=ds=#s10#, #a1#", "", "11.04%" },
-			{ 5,  28655, "", "=q4=Cord of Nature's Sustenance",         "=ds=#s10#, #a2#", "", "14.93%" },
-			{ 6,  28656, "", "=q4=Girdle of the Prowler",               "=ds=#s10#, #a3#", "", "17.91%" },
-			{ 7,  28662, "", "=q4=Breastplate of the Lightbinder",      "=ds=#s5#, #a4#",  "", "17.31%" },
-			{ 16, 28661, "", "=q4=Mender's Heart-Ring",                 "=ds=#s13#",       "", "11.64%" },
-			{ 17, 28785, "", "=q4=The Lightning Capacitor",             "=ds=#s14#",       "", "10.75%" },
-			{ 18, 28657, "", "=q4=Fool's Bane",                         "=ds=#h1#, #w6#",  "", "14.63%" },
-			{ 19, 28658, "", "=q4=Terestian's Stranglestaff",           "=ds=#w9#",        "", "7.46%" },
-			{ 20, 28659, "", "=q4=Xavian Stiletto",                     "=ds=#w11#",       "", "13.43%" },
-			{ 22, 22561, "", "=q3=Formula: Enchant Weapon - Soulfrost", "=ds=#p4# (375)",  "", "0.30%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Terestian Illhoof"],
-		module = moduleName,
-		instance = "KarazhanEaI",
-	},
-};
-
-AtlasLoot_Data["KaraAran"] = {
-	["Normal"] = {
-		{
-			{ 1,  28672, "", "=q4=Drape of the Dark Reavers",         "=ds=#s4#",        "", "11.70%" },
-			{ 2,  28726, "", "=q4=Mantle of the Mind Flayer",         "=ds=#s3#, #a1#",  "", "16.03%" },
-			{ 3,  28670, "", "=q4=Boots of the Infernal Coven",       "=ds=#s12#, #a1#", "", "9.29%" },
-			{ 4,  28663, "", "=q4=Boots of the Incorrupt",            "=ds=#s12#, #a1#", "", "12.72%" },
-			{ 5,  28669, "", "=q4=Rapscallion Boots",                 "=ds=#s12#, #a2#", "", "11.32%" },
-			{ 6,  28671, "", "=q4=Steelspine Faceguard",              "=ds=#s1#, #a3#",  "", "12.21%" },
-			{ 7,  28666, "", "=q4=Pauldrons of the Justice-Seeker",   "=ds=#s3#, #a4#",  "", "11.58%" },
-			{ 9,  23933, "", "=q1=Medivh's Journal",                  "=ds=#m3#",        "", "100%" },
-			{ 16, 28674, "", "=q4=Saberclaw Talisman",                "=ds=#s2#",        "", "11.20%" },
-			{ 17, 28675, "", "=q4=Shermanar Great-Ring",              "=ds=#s13#",       "", "10.43%" },
-			{ 18, 28727, "", "=q4=Pendant of the Violet Eye",         "=ds=#s14#",       "", "15.39%" },
-			{ 19, 28728, "", "=q4=Aran's Soothing Sapphire",          "=ds=#s15#",       "", "12.72%" },
-			{ 20, 28673, "", "=q4=Tirisfal Wand of Ascendancy",       "=ds=#w12#",       "", "7.25%" },
-			{ 22, 22560, "", "=q3=Formula: Enchant Weapon - Sunfire", "=ds=#p4# (375)",  "", "0.76%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Shade of Aran"],
-		module = moduleName,
-		instance = "KarazhanEaI",
-	},
-};
-
-AtlasLoot_Data["KaraNetherspite"] = {
-	["Normal"] = {
-		{
-			{ 1,  28744, "", "=q4=Uni-Mind Headdress",              "=ds=#s1#, #a1#",  "", "12.91%" },
-			{ 2,  28742, "", "=q4=Pantaloons of Repentence",        "=ds=#s11#, #a1#", "", "10.99%" },
-			{ 3,  28732, "", "=q4=Cowl of Defiance",                "=ds=#s1#, #a2#",  "", "17.31%" },
-			{ 4,  28741, "", "=q4=Skulker's Greaves",               "=ds=#s11#, #a2#", "", "15.38%" },
-			{ 5,  28735, "", "=q4=Earthblood Chestguard",           "=ds=#s5#, #a3#",  "", "15.93%" },
-			{ 6,  28740, "", "=q4=Rip-Flayer Leggings",             "=ds=#s11#, #a3#", "", "10.16%" },
-			{ 7,  28743, "", "=q4=Mantle of Abrahmis",              "=ds=#s3#, #a4#",  "", "9.34%" },
-			{ 8,  28733, "", "=q4=Girdle of Truth",                 "=ds=#s10#, #a4#", "", "10.44%" },
-			{ 16, 28731, "", "=q4=Shining Chain of the Afterworld", "=ds=#s2#",        "", "15.11%" },
-			{ 17, 28730, "", "=q4=Mithril Band of the Unscarred",   "=ds=#s13#",       "", "10.99%" },
-			{ 18, 28734, "", "=q4=Jewel of Infinite Possibilities", "=ds=#s15#",       "", "11.64%" },
-			{ 19, 28729, "", "=q4=Spiteblade",                      "=ds=#h1#, #w10#", "", "6.32%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Netherspite"],
-		module = moduleName,
-		instance = "KarazhanEaI",
-	},
-};
-
-AtlasLoot_Data["KaraChess"] = {
-	["Normal"] = {
-		{
-			{ 1,  28756, "", "=q4=Headdress of the High Potentate",      "=ds=#s1#, #a1#",  "", "17.98%" },
-			{ 2,  28755, "", "=q4=Bladed Shoulderpads of the Merciless", "=ds=#s3#, #a2#",  "", "13.55%" },
-			{ 3,  28750, "", "=q4=Girdle of Treachery",                  "=ds=#s10#, #a2#", "", "15.02%" },
-			{ 4,  28752, "", "=q4=Forestlord Striders",                  "=ds=#s12#, #a2#", "", "14.04%" },
-			{ 5,  28751, "", "=q4=Heart-Flame Leggings",                 "=ds=#s11#, #a3#", "", "12.56%" },
-			{ 6,  28746, "", "=q4=Fiend Slayer Boots",                   "=ds=#s12#, #a3#", "", "16.26%" },
-			{ 7,  28748, "", "=q4=Legplates of the Innocent",            "=ds=#s11#, #a4#", "", "13.79%" },
-			{ 8,  28747, "", "=q4=Battlescar Boots",                     "=ds=#s12#, #a4#", "", "13.79%" },
-			{ 16, 28745, "", "=q4=Mithril Chain of Heroism",             "=ds=#s2#",        "", "12.81%" },
-			{ 17, 28753, "", "=q4=Ring of Recurrence",                   "=ds=#s13#",       "", "12.56%" },
-			{ 18, 28749, "", "=q4=King's Defender",                      "=ds=#h1#, #w10#", "", "12.07%" },
-			{ 19, 28754, "", "=q4=Triptych Shield of the Ancients",      "=ds=#w8#",        "", "13.30%" },
-		},
-	},
-	info = {
-		name = BabbleBoss["Chess Event"],
-		module = moduleName,
-		instance = "KarazhanEaI",
-	},
-};
-
-AtlasLoot_Data["KaraNightbane"] = {
-	["Normal"] = {
-		{
-			{ 1,  28602, "", "=q4=Robe of the Elder Scribes",       "=ds=#s5#, #a1#",  "", "17.38%" },
-			{ 2,  28600, "", "=q4=Stonebough Jerkin",               "=ds=#s5#, #a2#",  "", "13.33%" },
-			{ 3,  28601, "", "=q4=Chestguard of the Conniver",      "=ds=#s5#, #a2#",  "", "10.24%" },
-			{ 4,  28599, "", "=q4=Scaled Breastplate of Carnage",   "=ds=#s5#, #a3#",  "", "11.67%" },
-			{ 5,  28610, "", "=q4=Ferocious Swift-Kickers",         "=ds=#s12#, #a3#", "", "15.71%" },
-			{ 6,  28597, "", "=q4=Panzar'Thar Breastplate",         "=ds=#s5#, #a4#",  "", "10.00%" },
-			{ 7,  28608, "", "=q4=Ironstriders of Urgency",         "=ds=#s12#, #a4#", "", "9.05%" },
-			{ 9,  24139, "", "=q1=Faint Arcane Essence",            "=ds=#m3#",        "", "100%" },
-			{ 16, 28609, "", "=q4=Emberspur Talisman",              "=ds=#s2#",        "", "13.33%" },
-			{ 17, 28603, "", "=q4=Talisman of Nightbane",           "=ds=#s15#",       "", "12.62%" },
-			{ 18, 28604, "", "=q4=Nightstaff of the Everliving",    "=ds=#w9#",        "", "16.67%" },
-			{ 19, 28611, "", "=q4=Dragonheart Flameshield",         "=ds=#w8#",        "", "13.57%" },
-			{ 20, 28606, "", "=q4=Shield of Impenetrable Darkness", "=ds=#w8#",        "", "12.14%" },
+			{ 1, 28601, "", "=q4=Chestguard of the Conniver", "=ds=#s5#, #a2#", "", "8.3%" },
+			{ 2, 28611, "", "=q4=Dragonheart Flameshield", "=ds=#w8#", "", "8.3%" },
+			{ 3, 28609, "", "=q4=Emberspur Talisman", "=ds=#s2#", "", "8.3%" },
+			{ 4, 28610, "", "=q4=Ferocious Swift-Kickers", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 5, 28608, "", "=q4=Ironstriders of Urgency", "=ds=#s12#, #a4#", "", "8.3%" },
+			{ 6, 28604, "", "=q4=Nightstaff of the Everliving", "=ds=#w9#", "", "8.3%" },
+			{ 7, 28597, "", "=q4=Panzar'Thar Breastplate", "=ds=#s5#, #a4#", "", "8.3%" },
+			{ 8, 28602, "", "=q4=Robe of the Elder Scribes", "=ds=#s5#, #a1#", "", "8.3%" },
+			{ 9, 28599, "", "=q4=Scaled Breastplate of Carnage", "=ds=#s5#, #a3#", "", "8.3%" },
+			{ 10, 28606, "", "=q4=Shield of Impenetrable Darkness", "=ds=#w8#", "", "8.3%" },
+			{ 11, 28600, "", "=q4=Stonebough Jerkin", "=ds=#s5#, #a2#", "", "8.3%" },
+			{ 12, 28603, "", "=q4=Talisman of Nightbane", "=ds=#s15#", "", "8.3%" },
+			{ 14, 31751, "", "=q1=Blazing Signet", "=ds=#m3#", "", "100%" },
+			{ 15, 24139, "", "=q1=Faint Arcane Essence", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -2725,24 +2608,144 @@ AtlasLoot_Data["KaraNightbane"] = {
 	},
 };
 
-AtlasLoot_Data["KaraPrince"] = {
+AtlasLoot_Data["KarazhanTheCurator"] = {
 	["Normal"] = {
 		{
-			{ 1,  28765, "", "=q4=Stainless Cloak of the Pure Hearted", "=ds=#s4#",        "", "10.37%" },
-			{ 2,  28766, "", "=q4=Ruby Drape of the Mysticant",         "=ds=#s4#",        "", "12.50%" },
-			{ 3,  28764, "", "=q4=Farstrider Wildercloak",              "=ds=#s4#",        "", "15.96%" },
-			{ 4,  28762, "", "=q4=Adornment of Stolen Souls",           "=ds=#s2#",        "", "9.57%" },
-			{ 5,  28763, "", "=q4=Jade Ring of the Everliving",         "=ds=#s13#",       "", "11.84%" },
-			{ 6,  28757, "", "=q4=Ring of a Thousand Marks",            "=ds=#s13#",       "", "12.90%" },
-			{ 8,  28770, "", "=q4=Nathrezim Mindblade",                 "=ds=#h3#, #w4#",  "", "10.64%" },
-			{ 9,  28768, "", "=q4=Malchazeen",                          "=ds=#h1#, #w4#",  "", "9.84%" },
-			{ 10, 28767, "", "=q4=The Decapitator",                     "=ds=#h1#, #w1#",  "", "15.43%" },
-			{ 11, 28773, "", "=q4=Gorehowl",                            "=ds=#h2#, #w1#",  "", "12.63%" },
-			{ 12, 28771, "", "=q4=Light's Justice",                     "=ds=#h3#, #w6#",  "", "11.17%" },
-			{ 13, 28772, "", "=q4=Sunfury Bow of the Phoenix",          "=ds=#w2#",        "", "9.97%" },
-			{ 16, 29760, "", "=q4=Helm of the Fallen Champion",         "=ds=#m21# #e15#", "", "23.01%" },
-			{ 17, 29761, "", "=q4=Helm of the Fallen Defender",         "=ds=#m21# #e15#", "", "26.73%" },
-			{ 18, 29759, "", "=q4=Helm of the Fallen Hero",             "=ds=#m21# #e15#", "", "20.48%" },
+			{ 1, 28631, "", "=q4=Dragon-Quake Shoulderguards", "=ds=#s3#, #a3#", "", "16.7%" },
+			{ 2, 28647, "", "=q4=Forest Wind Shoulderpads", "=ds=#s3#, #a2#", "", "16.7%" },
+			{ 3, 28649, "", "=q4=Garona's Signet Ring", "=ds=#s13#", "", "16.7%" },
+			{ 4, 28612, "", "=q4=Pauldrons of the Solace-Giver", "=ds=#s3#, #a1#", "", "16.7%" },
+			{ 5, 28633, "", "=q4=Staff of Infinite Mysteries", "=ds=#w9#", "", "16.7%" },
+			{ 6, 28621, "", "=q4=Wrynn Dynasty Greaves", "=ds=#s11#, #a4#", "", "16.7%" },
+			{ 16, 29757, "", "=q4=Gloves of the Fallen Champion", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 17, 29758, "", "=q4=Gloves of the Fallen Defender", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 18, 29756, "", "=q4=Gloves of the Fallen Hero", "=ds=#m21# #e15#", "", "33.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["The Curator"],
+		module = moduleName,
+		instance = "KarazhanEaI",
+	},
+};
+
+AtlasLoot_Data["KarazhanTerestianIllhoof"] = {
+	["Normal"] = {
+		{
+			{ 1, 28662, "", "=q4=Breastplate of the Lightbinder", "=ds=#s5#, #a4#", "", "8.3%" },
+			{ 2, 28652, "", "=q4=Cincture of Will", "=ds=#s10#, #a1#", "", "8.3%" },
+			{ 3, 28655, "", "=q4=Cord of Nature's Sustenance", "=ds=#s10#, #a2#", "", "8.3%" },
+			{ 4, 28657, "", "=q4=Fool's Bane", "=ds=#h1#, #w6#", "", "8.3%" },
+			{ 5, 28660, "", "=q4=Gilded Thorium Cloak", "=ds=#s4#", "", "8.3%" },
+			{ 6, 28656, "", "=q4=Girdle of the Prowler", "=ds=#s10#, #a3#", "", "8.3%" },
+			{ 7, 28654, "", "=q4=Malefic Girdle", "=ds=#s10#, #a1#", "", "8.3%" },
+			{ 8, 28661, "", "=q4=Mender's Heart-Ring", "=ds=#s13#", "", "8.3%" },
+			{ 9, 28653, "", "=q4=Shadowvine Cloak of Infusion", "=ds=#s4#", "", "8.3%" },
+			{ 10, 28658, "", "=q4=Terestian's Stranglestaff", "=ds=#w9#", "", "8.3%" },
+			{ 11, 28785, "", "=q4=The Lightning Capacitor", "=ds=#s14#", "", "8.3%" },
+			{ 12, 28659, "", "=q4=Xavian Stiletto", "=ds=#w11#", "", "8.3%" },
+			{ 16, 22561, "", "=q3=Formula: Enchant Weapon - Soulfrost", "=ds=#p4# (375)", "", "100%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Terestian Illhoof"],
+		module = moduleName,
+		instance = "KarazhanEaI",
+	},
+};
+
+AtlasLoot_Data["KarazhanShadeOfAran"] = {
+	["Normal"] = {
+		{
+			{ 1, 28728, "", "=q4=Aran's Soothing Sapphire", "=ds=#s15#", "", "8.3%" },
+			{ 2, 28663, "", "=q4=Boots of the Incorrupt", "=ds=#s12#, #a1#", "", "8.3%" },
+			{ 3, 28670, "", "=q4=Boots of the Infernal Coven", "=ds=#s12#, #a1#", "", "8.3%" },
+			{ 4, 28672, "", "=q4=Drape of the Dark Reavers", "=ds=#s4#", "", "8.3%" },
+			{ 5, 28726, "", "=q4=Mantle of the Mind Flayer", "=ds=#s3#, #a1#", "", "8.3%" },
+			{ 6, 28666, "", "=q4=Pauldrons of the Justice-Seeker", "=ds=#s3#, #a4#", "", "8.3%" },
+			{ 7, 28727, "", "=q4=Pendant of the Violet Eye", "=ds=#s14#", "", "8.3%" },
+			{ 8, 28669, "", "=q4=Rapscallion Boots", "=ds=#s12#, #a2#", "", "8.3%" },
+			{ 9, 28674, "", "=q4=Saberclaw Talisman", "=ds=#s2#", "", "8.3%" },
+			{ 10, 28675, "", "=q4=Shermanar Great-Ring", "=ds=#s13#", "", "8.3%" },
+			{ 11, 28671, "", "=q4=Steelspine Faceguard", "=ds=#s1#, #a3#", "", "8.3%" },
+			{ 12, 28673, "", "=q4=Tirisfal Wand of Ascendancy", "=ds=#w12#", "", "8.3%" },
+			{ 14, 23933, "", "=q1=Medivh's Journal", "=ds=#m3#", "", "100%" },
+			{ 16, 22560, "", "=q3=Formula: Enchant Weapon - Sunfire", "=ds=#p4# (375)", "", "100%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Shade of Aran"],
+		module = moduleName,
+		instance = "KarazhanEaI",
+	},
+};
+
+AtlasLoot_Data["KarazhanNetherspite"] = {
+	["Normal"] = {
+		{
+			{ 1, 28732, "", "=q4=Cowl of Defiance", "=ds=#s1#, #a2#", "", "8.3%" },
+			{ 2, 28735, "", "=q4=Earthblood Chestguard", "=ds=#s5#, #a3#", "", "8.3%" },
+			{ 3, 28733, "", "=q4=Girdle of Truth", "=ds=#s10#, #a4#", "", "8.3%" },
+			{ 4, 28734, "", "=q4=Jewel of Infinite Possibilities", "=ds=#s15#", "", "8.3%" },
+			{ 5, 28743, "", "=q4=Mantle of Abrahmis", "=ds=#s3#, #a4#", "", "8.3%" },
+			{ 6, 28730, "", "=q4=Mithril Band of the Unscarred", "=ds=#s13#", "", "8.3%" },
+			{ 7, 28742, "", "=q4=Pantaloons of Repentence", "=ds=#s11#, #a1#", "", "8.3%" },
+			{ 8, 28740, "", "=q4=Rip-Flayer Leggings", "=ds=#s11#, #a3#", "", "8.3%" },
+			{ 9, 28731, "", "=q4=Shining Chain of the Afterworld", "=ds=#s2#", "", "8.3%" },
+			{ 10, 28741, "", "=q4=Skulker's Greaves", "=ds=#s11#, #a2#", "", "8.3%" },
+			{ 11, 28729, "", "=q4=Spiteblade", "=ds=#h1#, #w10#", "", "8.3%" },
+			{ 12, 28744, "", "=q4=Uni-Mind Headdress", "=ds=#s1#, #a1#", "", "8.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Netherspite"],
+		module = moduleName,
+		instance = "KarazhanEaI",
+	},
+};
+
+AtlasLoot_Data["KarazhanChess"] = {
+	["Normal"] = {
+		{
+			{ 1, 28747, "", "=q4=Battlescar Boots", "=ds=#s12#, #a4#", "", "8.3%" },
+			{ 2, 28755, "", "=q4=Bladed Shoulderpads of the Merciless", "=ds=#s3#, #a2#", "", "8.3%" },
+			{ 3, 28746, "", "=q4=Fiend Slayer Boots", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 4, 28752, "", "=q4=Forestlord Striders", "=ds=#s12#, #a2#", "", "8.3%" },
+			{ 5, 28750, "", "=q4=Girdle of Treachery", "=ds=#s10#, #a2#", "", "8.3%" },
+			{ 6, 28756, "", "=q4=Headdress of the High Potentate", "=ds=#s1#, #a1#", "", "8.3%" },
+			{ 7, 28751, "", "=q4=Heart-Flame Leggings", "=ds=#s11#, #a3#", "", "8.3%" },
+			{ 8, 28749, "", "=q4=King's Defender", "=ds=#h1#, #w10#", "", "8.3%" },
+			{ 9, 28748, "", "=q4=Legplates of the Innocent", "=ds=#s11#, #a4#", "", "8.3%" },
+			{ 10, 28745, "", "=q4=Mithril Chain of Heroism", "=ds=#s2#", "", "8.3%" },
+			{ 11, 28753, "", "=q4=Ring of Recurrence", "=ds=#s13#", "", "8.3%" },
+			{ 12, 28754, "", "=q4=Triptych Shield of the Ancients", "=ds=#w8#", "", "8.3%" },
+		},
+	},
+	info = {
+		name = BabbleBoss["Chess Event"],
+		module = moduleName,
+		instance = "KarazhanEaI",
+	},
+};
+
+AtlasLoot_Data["KarazhanPrinceMalchezaar"] = {
+	["Normal"] = {
+		{
+			{ 1, 28762, "", "=q4=Adornment of Stolen Souls", "=ds=#s2#", "", "16.7%" },
+			{ 2, 28764, "", "=q4=Farstrider Wildercloak", "=ds=#s4#", "", "16.7%" },
+			{ 3, 28773, "", "=q4=Gorehowl", "=ds=#h2#, #w1#", "", "16.7%" },
+			{ 4, 28763, "", "=q4=Jade Ring of the Everliving", "=ds=#s13#", "", "16.7%" },
+			{ 5, 28771, "", "=q4=Light's Justice", "=ds=#h3#, #w6#", "", "16.7%" },
+			{ 6, 28768, "", "=q4=Malchazeen", "=ds=#h1#, #w4#", "", "16.7%" },
+			{ 7, 28770, "", "=q4=Nathrezim Mindblade", "=ds=#h3#, #w4#", "", "16.7%" },
+			{ 8, 28757, "", "=q4=Ring of a Thousand Marks", "=ds=#s13#", "", "16.7%" },
+			{ 9, 28766, "", "=q4=Ruby Drape of the Mysticant", "=ds=#s4#", "", "16.7%" },
+			{ 10, 28765, "", "=q4=Stainless Cloak of the Pure Hearted", "=ds=#s4#", "", "16.7%" },
+			{ 11, 28772, "", "=q4=Sunfury Bow of the Phoenix", "=ds=#w2#", "", "16.7%" },
+			{ 12, 28767, "", "=q4=The Decapitator", "=ds=#h1#, #w1#", "", "16.7%" },
+			{ 16, 29760, "", "=q4=Helm of the Fallen Champion", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 17, 29761, "", "=q4=Helm of the Fallen Defender", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 18, 29759, "", "=q4=Helm of the Fallen Hero", "=ds=#m21# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -2752,27 +2755,22 @@ AtlasLoot_Data["KaraPrince"] = {
 	},
 };
 
-AtlasLoot_Data["KaraTrash"] = {
+AtlasLoot_Data["KarazhanTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  30642, "", "=q4=Drape of the Righteous",              "=ds=#s4#",        "", "0.22%" },
-			{ 2,  30668, "", "=q4=Grasp of the Dead",                   "=ds=#s9#, #a1#",  "", "0.17%" },
-			{ 3,  30673, "", "=q4=Inferno Waist Cord",                  "=ds=#s10#, #a1#", "", "0.21%" },
-			{ 4,  30644, "", "=q4=Grips of Deftness",                   "=ds=#s9#, #a2#",  "", "0.23%" },
-			{ 5,  30674, "", "=q4=Zierhut's Lost Treads",               "=ds=#s12#, #a2#", "", "0.17%" },
-			{ 6,  30643, "", "=q4=Belt of the Tracker",                 "=ds=#s10#, #a3#", "", "0.19%" },
-			{ 7,  30641, "", "=q4=Boots of Elusion",                    "=ds=#s12#, #a4#", "", "0.13%" },
-			{ 9,  23857, "", "=q1=Legacy of the Mountain King",         "=ds=" },
-			{ 10, 23864, "", "=q1=Torment of the Worgen",               "=ds=" },
-			{ 11, 23862, "", "=q1=Redemption of the Fallen",            "=ds=" },
-			{ 12, 23865, "", "=q1=Wrath of the Titans",                 "=ds=" },
-			{ 14, 21882, "", "=q1=Soul Essence",                        "=ds=#e8#" },
-			{ 16, 30666, "", "=q4=Ritssyn's Lost Pendant",              "=ds=#s2#",        "", "0.18%" },
-			{ 17, 30667, "", "=q4=Ring of Unrelenting Storms",          "=ds=#s13#",       "", "0.17%" },
-			{ 19, 21903, "", "=q4=Pattern: Soulcloth Shoulders",        "=ds=#p8# (375)",  "", "0.74%" },
-			{ 20, 21904, "", "=q4=Pattern: Soulcloth Vest",             "=ds=#p8# (375)",  "", "1.07%" },
-			{ 21, 22545, "", "=q2=Formula: Enchant Boots - Surefooted", "=ds=#p4# (370)",  "", "0.66%" },
-			{ 23, 24492, "", "=q1=Keanna's Log",                        "=ds=#m3#" },
+			{ 1, 30643, "", "=q4=Belt of the Tracker", "=ds=#s10#, #a3#", "", "~0.315%" },
+			{ 2, 30641, "", "=q4=Boots of Elusion", "=ds=#s12#, #a4#", "", "~0.225%" },
+			{ 3, 30642, "", "=q4=Drape of the Righteous", "=ds=#s4#", "", "~0.325%" },
+			{ 4, 30668, "", "=q4=Grasp of the Dead", "=ds=#s9#, #a1#", "", "~0.27%" },
+			{ 5, 30644, "", "=q4=Grips of Deftness", "=ds=#s9#, #a2#", "", "~0.46%" },
+			{ 6, 30673, "", "=q4=Inferno Waist Cord", "=ds=#s10#, #a1#", "", "~0.32%" },
+			{ 7, 30667, "", "=q4=Ring of Unrelenting Storms", "=ds=#s13#", "", "~0.445%" },
+			{ 8, 30666, "", "=q4=Ritssyn's Lost Pendant", "=ds=#s2#", "", "~0.46%" },
+			{ 9, 30674, "", "=q4=Zierhut's Lost Treads", "=ds=#s12#, #a2#", "", "~0.9%" },
+			{ 16, 21903, "", "=q4=Pattern: Soulcloth Shoulders", "=ds=#p8# (375) =q1=Phantom Attendant", "", "10.7%" },
+			{ 17, 21904, "", "=q4=Pattern: Soulcloth Vest", "=ds=#p8# (375) =q1=Phantom Valet", "", "27.6%" },
+			{ 18, 22545, "", "=q2=Formula: Enchant Boots - Surefooted", "=ds=#p4# (370) =q1=Phantom Stagehand", "", "100%" },
+			{ 20, 21882, "", "=q1=Soul Essence", "=ds=#e6#", "", "~17.8%" },
 		},
 	},
 	info = {
