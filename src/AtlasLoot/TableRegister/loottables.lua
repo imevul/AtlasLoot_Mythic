@@ -630,7 +630,7 @@ AtlasLoot_LootTableRegister = {
 
 		["HCMagtheridonsLair"] = {
 			["Bosses"] = {
-				{ "HCMagtheridon", 2 },
+				{ "MagtheridonsLairMagtheridon", 1 },
 			},
 			["Info"] = { BabbleZone["Magtheridon's Lair"], "AtlasLootBurningCrusade", raid = true },
 		},
