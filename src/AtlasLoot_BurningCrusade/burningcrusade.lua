@@ -889,22 +889,22 @@ AtlasLoot_Data["BlackTemplePatterns"] = {
 	["Normal"] = {
 		{
 			
-			{ 1, 32748, "", "=q4=Pattern: Bindings of Lightning Reflexes", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 2, 32754, "", "=q4=Pattern: Bracers of Nimble Thought", "=ds=#p8# (375)", "", "0.25%-1.25%" },
-			{ 3, 32744, "", "=q4=Pattern: Bracers of Renewed Life", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 4, 32750, "", "=q4=Pattern: Living Earth Bindings", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 5, 32751, "", "=q4=Pattern: Living Earth Shoulders", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 6, 32755, "", "=q4=Pattern: Mantle of Nimble Thought", "=ds=#p8# (375)", "", "0.25%-1.25%" },
-			{ 7, 32745, "", "=q4=Pattern: Shoulderpads of Renewed Life", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 8, 32749, "", "=q4=Pattern: Shoulders of Lightning Reflexes", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 9, 32753, "", "=q4=Pattern: Swiftheal Mantle", "=ds=#p8# (375)", "", "0.25%-1.25%" },
-			{ 10, 32752, "", "=q4=Pattern: Swiftheal Wraps", "=ds=#p8# (375)", "", "0.25%-1.25%" },
-			{ 11, 32746, "", "=q4=Pattern: Swiftstrike Bracers", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 12, 32747, "", "=q4=Pattern: Swiftstrike Shoulders", "=ds=#p7# (375)", "", "0.25%-1.25%" },
-			{ 16, 32738, "", "=q4=Plans: Dawnsteel Bracers", "=ds=#p2# (375)", "", "0.25%-1.25%" },
-			{ 17, 32739, "", "=q4=Plans: Dawnsteel Shoulders", "=ds=#p2# (375)", "", "0.25%-1.25%" },
-			{ 18, 32736, "", "=q4=Plans: Swiftsteel Bracers", "=ds=#p2# (375)", "", "0.25%-1.25%" },
-			{ 19, 32737, "", "=q4=Plans: Swiftsteel Shoulders", "=ds=#p2# (375)", "", "0.25%-1.25%" },
+			{ 1, 32748, "", "=q4=Pattern: Bindings of Lightning Reflexes", "=ds=#p7# (375)", "", "~3.975" },
+			{ 2, 32754, "", "=q4=Pattern: Bracers of Nimble Thought", "=ds=#p8# (375)", "", "~3.975" },
+			{ 3, 32744, "", "=q4=Pattern: Bracers of Renewed Life", "=ds=#p7# (375)", "", "~5.775" },
+			{ 4, 32750, "", "=q4=Pattern: Living Earth Bindings", "=ds=#p7# (375)", "", "~7.075" },
+			{ 5, 32751, "", "=q4=Pattern: Living Earth Shoulders", "=ds=#p7# (375)", "", "~0.675" },
+			{ 6, 32755, "", "=q4=Pattern: Mantle of Nimble Thought", "=ds=#p8# (375)", "", "~0.65" },
+			{ 7, 32745, "", "=q4=Pattern: Shoulderpads of Renewed Life", "=ds=#p7# (375)", "", "~0.705" },
+			{ 8, 32749, "", "=q4=Pattern: Shoulders of Lightning Reflexes", "=ds=#p7# (375)", "", "~1.02" },
+			{ 9, 32753, "", "=q4=Pattern: Swiftheal Mantle", "=ds=#p8# (375)", "", "~0.72" },
+			{ 10, 32752, "", "=q4=Pattern: Swiftheal Wraps", "=ds=#p8# (375)", "", "~3.925" },
+			{ 11, 32746, "", "=q4=Pattern: Swiftstrike Bracers", "=ds=#p7# (375)", "", "~1.125" },
+			{ 12, 32747, "", "=q4=Pattern: Swiftstrike Shoulders", "=ds=#p7# (375)", "", "~0.725" },
+			{ 16, 32738, "", "=q4=Plans: Dawnsteel Bracers", "=ds=#p2# (375)", "", "~5.375" },
+			{ 17, 32739, "", "=q4=Plans: Dawnsteel Shoulders", "=ds=#p2# (375)", "", "~0.68" },
+			{ 18, 32736, "", "=q4=Plans: Swiftsteel Bracers", "=ds=#p2# (375)", "", "~5.125" },
+			{ 19, 32737, "", "=q4=Plans: Swiftsteel Shoulders", "=ds=#p2# (375)", "", "~0.68" },
 		},
 	},
 	info = {
@@ -1746,23 +1746,23 @@ AtlasLoot_Data["UnderbogTheBlackStalker"] = {
 --- Coilfang Reservoir: Serpentshrine Cavern ---
 ------------------------------------------------
 
-AtlasLoot_Data["CFRSerpentHydross"] = {
+AtlasLoot_Data["SerpentshrineCavernHydrossTheUnstable"] = {
 	["Normal"] = {
 		{
-			{ 1,  30056, "", "=q4=Robe of Hateful Echoes",          "=ds=#s5#, #a1#",               "", "18%" },
-			{ 2,  32516, "", "=q4=Wraps of Purification",           "=ds=#s8#, #a1#",               "", "18%" },
-			{ 3,  30050, "", "=q4=Boots of the Shifting Nightmare", "=ds=#s12#, #a1#",              "", "17%" },
-			{ 4,  30055, "", "=q4=Shoulderpads of the Stranger",    "=ds=#s3#, #a2#",               "", "16%" },
-			{ 5,  30047, "", "=q4=Blackfathom Warbands",            "=ds=#s8#, #a3#",               "", "19%" },
-			{ 6,  30054, "", "=q4=Ranger-General's Chestguard",     "=ds=#s5#, #a3#",               "", "18%" },
-			{ 7,  30048, "", "=q4=Brighthelm of Justice",           "=ds=#s1#, #a4#",               "", "21%" },
-			{ 8,  30053, "", "=q4=Pauldrons of the Wardancer",      "=ds=#s3#, #a4#",               "", "16%" },
-			{ 16, 30052, "", "=q4=Ring of Lethality",               "=ds=#s13#",                    "", "20%" },
-			{ 17, 33055, "", "=q4=Band of Vile Aggression",         "=ds=#s13#",                    "", "14%" },
-			{ 18, 30664, "", "=q4=Living Root of the Wildheart",    "=ds=#s14#, =q1=#m1# =ds=#c1#", "", "18%" },
-			{ 19, 30629, "", "=q4=Scarab of Displacement",          "=ds=#s14#",                    "", "21%" },
-			{ 20, 30049, "", "=q4=Fathomstone",                     "=ds=#s15#",                    "", "19%" },
-			{ 21, 30051, "", "=q4=Idol of the Crescent Goddess",    "=ds=#w14#",                    "", "11%" },
+			{ 1, 33055, "", "=q4=Band of Vile Aggression", "=ds=#s13#", "", "7.1%" },
+			{ 2, 30047, "", "=q4=Blackfathom Warbands", "=ds=#s8#, #a3#", "", "7.1%" },
+			{ 3, 30050, "", "=q4=Boots of the Shifting Nightmare", "=ds=#s12#, #a1#", "", "7.1%" },
+			{ 4, 30048, "", "=q4=Brighthelm of Justice", "=ds=#s1#, #a4#", "", "7.1%" },
+			{ 5, 30049, "", "=q4=Fathomstone", "=ds=#s15#", "", "7.1%" },
+			{ 6, 30051, "", "=q4=Idol of the Crescent Goddess", "=ds=#w14#", "", "7.1%" },
+			{ 7, 30664, "", "=q4=Living Root of the Wildheart", "=ds=#s14# =q1=#m1# =ds=#c1#", "", "7.1%" },
+			{ 8, 30053, "", "=q4=Pauldrons of the Wardancer", "=ds=#s3#, #a4#", "", "7.1%" },
+			{ 9, 30054, "", "=q4=Ranger-General's Chestguard", "=ds=#s5#, #a3#", "", "7.1%" },
+			{ 10, 30052, "", "=q4=Ring of Lethality", "=ds=#s13#", "", "7.1%" },
+			{ 11, 30056, "", "=q4=Robe of Hateful Echoes", "=ds=#s5#, #a1#", "", "7.1%" },
+			{ 12, 30629, "", "=q4=Scarab of Displacement", "=ds=#s14#", "", "7.1%" },
+			{ 13, 30055, "", "=q4=Shoulderpads of the Stranger", "=ds=#s3#, #a2#", "", "7.1%" },
+			{ 14, 32516, "", "=q4=Wraps of Purification", "=ds=#s8#, #a1#", "", "7.1%" },
 		},
 	},
 	info = {
@@ -1772,22 +1772,23 @@ AtlasLoot_Data["CFRSerpentHydross"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSerpentLurker"] = {
+AtlasLoot_Data["SerpentshrineCavernTheLurkerBelow"] = {
 	["Normal"] = {
 		{
-			{ 1,  30064, "", "=q4=Cord of Screaming Terrors",     "=ds=#s10#, #a1#",              "", "17%" },
-			{ 2,  30067, "", "=q4=Velvet Boots of the Guardian",  "=ds=#s12#, #a1#",              "", "17%" },
-			{ 3,  30062, "", "=q4=Grove-Bands of Remulos",        "=ds=#s8#, #a2#",               "", "21%" },
-			{ 4,  30060, "", "=q4=Boots of Effortless Striking",  "=ds=#s12#, #a2#",              "", "21%" },
-			{ 5,  30066, "", "=q4=Tempest-Strider Boots",         "=ds=#s12#, #a3#",              "", "21%" },
-			{ 6,  30065, "", "=q4=Glowing Breastplate of Truth",  "=ds=#s5#, #a4#",               "", "20%" },
-			{ 7,  30057, "", "=q4=Bracers of Eradication",        "=ds=#s8#, #a4#",               "", "19%" },
-			{ 16, 30059, "", "=q4=Choker of Animalistic Fury",    "=ds=#s2#",                     "", "21%" },
-			{ 17, 30061, "", "=q4=Ancestral Ring of Conquest",    "=ds=#s13#",                    "", "20%" },
-			{ 18, 33054, "", "=q4=The Seal of Danzalar",          "=ds=#s13#",                    "", "14%" },
-			{ 19, 30665, "", "=q4=Earring of Soulful Meditation", "=ds=#s14#, =q1=#m1# =ds=#c5#", "", "18%" },
-			{ 20, 30063, "", "=q4=Libram of Absolute Truth",      "=ds=#w16#",                    "", "17%" },
-			{ 21, 30058, "", "=q4=Mallet of the Tides",           "=ds=#h1#, #w6#",               "", "20%" },
+			{ 1, 30061, "", "=q4=Ancestral Ring of Conquest", "=ds=#s13#", "", "7.7%" },
+			{ 2, 30060, "", "=q4=Boots of Effortless Striking", "=ds=#s12#, #a2#", "", "7.7%" },
+			{ 3, 30057, "", "=q4=Bracers of Eradication", "=ds=#s8#, #a4#", "", "7.7%" },
+			{ 4, 30059, "", "=q4=Choker of Animalistic Fury", "=ds=#s2#", "", "7.7%" },
+			{ 5, 30064, "", "=q4=Cord of Screaming Terrors", "=ds=#s10#, #a1#", "", "7.7%" },
+			{ 6, 30665, "", "=q4=Earring of Soulful Meditation", "=ds=#s14# =q1=#m1# =ds=#c5#", "", "7.7%" },
+			{ 7, 30065, "", "=q4=Glowing Breastplate of Truth", "=ds=#s5#, #a4#", "", "7.7%" },
+			{ 8, 30062, "", "=q4=Grove-Bands of Remulos", "=ds=#s8#, #a2#", "", "7.7%" },
+			{ 9, 30063, "", "=q4=Libram of Absolute Truth", "=ds=#w16#", "", "7.7%" },
+			{ 10, 30058, "", "=q4=Mallet of the Tides", "=ds=#h1#, #w6#", "", "7.7%" },
+			{ 11, 30066, "", "=q4=Tempest-Strider Boots", "=ds=#s12#, #a3#", "", "7.7%" },
+			{ 12, 33054, "", "=q4=The Seal of Danzalar", "=ds=#s13#", "", "7.7%" },
+			{ 13, 30067, "", "=q4=Velvet Boots of the Guardian", "=ds=#s12#, #a1#", "", "7.7%" },
+			
 		},
 	},
 	info = {
@@ -1797,18 +1798,18 @@ AtlasLoot_Data["CFRSerpentLurker"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSerpentLeotheras"] = {
+AtlasLoot_Data["SerpentshrineCavernLeotherasTheBlind"] = {
 	["Normal"] = {
 		{
-			{ 1,  30092, "", "=q4=Orca-Hide Boots",                   "=ds=#s12#, #a2#", "", "13%" },
-			{ 2,  30097, "", "=q4=Coral-Barbed Shoulderpads",         "=ds=#s3#, #a3#",  "", "15%" },
-			{ 3,  30091, "", "=q4=True-Aim Stalker Bands",            "=ds=#s8#, #a3#",  "", "17%" },
-			{ 4,  30096, "", "=q4=Girdle of the Invulnerable",        "=ds=#s10#, #a4#", "", "14%" },
-			{ 5,  30627, "", "=q4=Tsunami Talisman",                  "=ds=#s14#",       "", "15%" },
-			{ 6,  30095, "", "=q4=Fang of the Leviathan",             "=ds=#h3#, #w10#", "", "14%" },
-			{ 16, 30239, "", "=q4=Gloves of the Vanquished Champion", "=ds=#m22# #e15#", "", "63%" },
-			{ 17, 30240, "", "=q4=Gloves of the Vanquished Defender", "=ds=#m22# #e15#", "", "67%" },
-			{ 18, 30241, "", "=q4=Gloves of the Vanquished Hero",     "=ds=#m22# #e15#", "", "65%" },
+			{ 1, 30097, "", "=q4=Coral-Barbed Shoulderpads", "=ds=#s3#, #a3#", "", "16.7%" },
+			{ 2, 30095, "", "=q4=Fang of the Leviathan", "=ds=#h3#, #w10#", "", "16.7%" },
+			{ 3, 30096, "", "=q4=Girdle of the Invulnerable", "=ds=#s10#, #a4#", "", "16.7%" },
+			{ 4, 30092, "", "=q4=Orca-Hide Boots", "=ds=#s12#, #a2#", "", "16.7%" },
+			{ 5, 30091, "", "=q4=True-Aim Stalker Bands", "=ds=#s8#, #a3#", "", "16.7%" },
+			{ 6, 30627, "", "=q4=Tsunami Talisman", "=ds=#s14#", "", "16.7%" },
+			{ 16, 30239, "", "=q4=Gloves of the Vanquished Champion", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 17, 30240, "", "=q4=Gloves of the Vanquished Defender", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 18, 30241, "", "=q4=Gloves of the Vanquished Hero", "=ds=#m22# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1818,18 +1819,18 @@ AtlasLoot_Data["CFRSerpentLeotheras"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSerpentKarathress"] = {
+AtlasLoot_Data["SerpentshrineCavernFathomLordKarathress"] = {
 	["Normal"] = {
 		{
-			{ 1,  30100, "", "=q4=Soul-Strider Boots",                  "=ds=#s12#, #a1#",              "", "15%" },
-			{ 2,  30101, "", "=q4=Bloodsea Brigand's Vest",             "=ds=#s5#, #a2#",               "", "15%" },
-			{ 3,  30099, "", "=q4=Frayed Tether of the Drowned",        "=ds=#s2#",                     "", "15%" },
-			{ 4,  30663, "", "=q4=Fathom-Brooch of the Tidewalker",     "=ds=#s14#, =q1=#m1# =ds=#c7#", "", "15%" },
-			{ 5,  30626, "", "=q4=Sextant of Unstable Currents",        "=ds=#s14#",                    "", "14%" },
-			{ 6,  30090, "", "=q4=World Breaker",                       "=ds=#h2#, #w6#",               "", "15%" },
-			{ 16, 30245, "", "=q4=Leggings of the Vanquished Champion", "=ds=#m22# #e15#",              "", "62%" },
-			{ 17, 30246, "", "=q4=Leggings of the Vanquished Defender", "=ds=#m22# #e15#",              "", "61%" },
-			{ 18, 30247, "", "=q4=Leggings of the Vanquished Hero",     "=ds=#m22# #e15#",              "", "62%" },
+			{ 1, 30101, "", "=q4=Bloodsea Brigand's Vest", "=ds=#s5#, #a2#", "", "16.7%" },
+			{ 2, 30663, "", "=q4=Fathom-Brooch of the Tidewalker", "=ds=#s14# =q1=#m1# =ds=#c7#", "", "16.7%" },
+			{ 3, 30099, "", "=q4=Frayed Tether of the Drowned", "=ds=#s2#", "", "16.7%" },
+			{ 4, 30626, "", "=q4=Sextant of Unstable Currents", "=ds=#s14#", "", "16.7%" },
+			{ 5, 30100, "", "=q4=Soul-Strider Boots", "=ds=#s12#, #a1#", "", "16.7%" },
+			{ 6, 30090, "", "=q4=World Breaker", "=ds=#h2#, #w6#", "", "16.7%" },
+			{ 16, 30245, "", "=q4=Leggings of the Vanquished Champion", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 17, 30246, "", "=q4=Leggings of the Vanquished Defender", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 18, 30247, "", "=q4=Leggings of the Vanquished Hero", "=ds=#m22# #e15#", "", "33.3%" },
 		},
 	},
 	info = {
@@ -1839,22 +1840,22 @@ AtlasLoot_Data["CFRSerpentKarathress"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSerpentMorogrim"] = {
+AtlasLoot_Data["SerpentshrineCavernMorogrimTidewalker"] = {
 	["Normal"] = {
 		{
-			{ 1,  30098, "", "=q4=Razor-Scale Battlecloak",            "=ds=#s4#",                     "", "22%" },
-			{ 2,  30079, "", "=q4=Illidari Shoulderpads",              "=ds=#s3#, #a1#",               "", "15%" },
-			{ 3,  30075, "", "=q4=Gnarled Chestpiece of the Ancients", "=ds=#s5#, #a2#",               "", "19%" },
-			{ 4,  30085, "", "=q4=Mantle of the Tireless Tracker",     "=ds=#s3#, #a3#",               "", "20%" },
-			{ 5,  30068, "", "=q4=Girdle of the Tidal Call",           "=ds=#s10#, #a3#",              "", "17%" },
-			{ 6,  30084, "", "=q4=Pauldrons of the Argent Sentinel",   "=ds=#s3#, #a4#",               "", "21%" },
-			{ 7,  30081, "", "=q4=Warboots of Obliteration",           "=ds=#s12#, #a4#",              "", "21%" },
-			{ 16, 30008, "", "=q4=Pendant of the Lost Ages",           "=ds=#s2#",                     "", "18%" },
-			{ 17, 30083, "", "=q4=Ring of Sundered Souls",             "=ds=#s13#",                    "", "21%" },
-			{ 18, 33058, "", "=q4=Band of the Vigilant",               "=ds=#s13#",                    "", "19%" },
-			{ 19, 30720, "", "=q4=Serpent-Coil Braid",                 "=ds=#s14#, =q1=#m1# =ds=#c3#", "", "20%" },
-			{ 20, 30082, "", "=q4=Talon of Azshara",                   "=ds=#h1#, #w10#",              "", "20%" },
-			{ 21, 30080, "", "=q4=Luminescent Rod of the Naaru",       "=ds=#w12#",                    "", "15%" },
+			{ 1, 33058, "", "=q4=Band of the Vigilant", "=ds=#s13#", "", "7.7%" },
+			{ 2, 30068, "", "=q4=Girdle of the Tidal Call", "=ds=#s10#, #a3#", "", "7.7%" },
+			{ 3, 30075, "", "=q4=Gnarled Chestpiece of the Ancients", "=ds=#s5#, #a2#", "", "7.7%" },
+			{ 4, 30079, "", "=q4=Illidari Shoulderpads", "=ds=#s3#, #a1#", "", "7.7%" },
+			{ 5, 30080, "", "=q4=Luminescent Rod of the Naaru", "=ds=#w12#", "", "7.7%" },
+			{ 6, 30085, "", "=q4=Mantle of the Tireless Tracker", "=ds=#s3#, #a3#", "", "7.7%" },
+			{ 7, 30084, "", "=q4=Pauldrons of the Argent Sentinel", "=ds=#s3#, #a4#", "", "7.7%" },
+			{ 8, 30008, "", "=q4=Pendant of the Lost Ages", "=ds=#s2#", "", "7.7%" },
+			{ 9, 30098, "", "=q4=Razor-Scale Battlecloak", "=ds=#s4#", "", "7.7%" },
+			{ 10, 30083, "", "=q4=Ring of Sundered Souls", "=ds=#s13#", "", "7.7%" },
+			{ 11, 30720, "", "=q4=Serpent-Coil Braid", "=ds=#s14# =q1=#m1# =ds=#c3#", "", "7.7%" },
+			{ 12, 30082, "", "=q4=Talon of Azshara", "=ds=#h1#, #w10#", "", "7.7%" },
+			{ 13, 30081, "", "=q4=Warboots of Obliteration", "=ds=#s12#, #a4#", "", "7.7%" },
 		},
 	},
 	info = {
@@ -1864,25 +1865,26 @@ AtlasLoot_Data["CFRSerpentMorogrim"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSerpentVashj"] = {
+AtlasLoot_Data["SerpentshrineCavernLadyVashj"] = {
 	["Normal"] = {
 		{
-			{ 1,  30107, "", "=q4=Vestments of the Sea-Witch",      "=ds=#s5#, #a1#",  "", "13%" },
-			{ 2,  30111, "", "=q4=Runetotem's Mantle",              "=ds=#s3#, #a2#",  "", "14%" },
-			{ 3,  30106, "", "=q4=Belt of One-Hundred Deaths",      "=ds=#s10#, #a2#", "", "12%" },
-			{ 4,  30104, "", "=q4=Cobra-Lash Boots",                "=ds=#s12#, #a3#", "", "13%" },
-			{ 5,  30102, "", "=q4=Krakken-Heart Breastplate",       "=ds=#s5#, #a4#",  "", "15%" },
-			{ 6,  30112, "", "=q4=Glorious Gauntlets of Crestfall", "=ds=#s9#, #a4#",  "", "14%" },
-			{ 7,  30109, "", "=q4=Ring of Endless Coils",           "=ds=#s13#",       "", "13%" },
-			{ 8,  30110, "", "=q4=Coral Band of the Revived",       "=ds=#s13#",       "", "16%" },
-			{ 9,  30621, "", "=q4=Prism of Inner Calm",             "=ds=#s14#",       "", "13%" },
-			{ 10, 30103, "", "=q4=Fang of Vashj",                   "=ds=#h1#, #w4#",  "", "14%" },
-			{ 11, 30108, "", "=q4=Lightfathom Scepter",             "=ds=#h3#, #w6#",  "", "14%" },
-			{ 12, 30105, "", "=q4=Serpent Spine Longbow",           "=ds=#w2#",        "", "13%" },
-			{ 16, 30242, "", "=q4=Helm of the Vanquished Champion", "=ds=#m22# #e15#", "", "61%" },
-			{ 17, 30243, "", "=q4=Helm of the Vanquished Defender", "=ds=#m22# #e15#", "", "62%" },
-			{ 18, 30244, "", "=q4=Helm of the Vanquished Hero",     "=ds=#m22# #e15#", "", "63%" },
-			{ 20, 29906, "", "=q1=Vashj's Vial Remnant",            "=ds=#m3#",        "", "35%" },
+			{ 1, 30106, "", "=q4=Belt of One-Hundred Deaths", "=ds=#s10#, #a2#", "", "8.3%" },
+			{ 2, 30104, "", "=q4=Cobra-Lash Boots", "=ds=#s12#, #a3#", "", "8.3%" },
+			{ 3, 30110, "", "=q4=Coral Band of the Revived", "=ds=#s13#", "", "8.3%" },
+			{ 4, 30103, "", "=q4=Fang of Vashj", "=ds=#h1#, #w4#", "", "8.3%" },
+			{ 5, 30112, "", "=q4=Glorious Gauntlets of Crestfall", "=ds=#s9#, #a4#", "", "8.3%" },
+			{ 6, 30102, "", "=q4=Krakken-Heart Breastplate", "=ds=#s5#, #a4#", "", "8.3%" },
+			{ 7, 30108, "", "=q4=Lightfathom Scepter", "=ds=#h3#, #w6#", "", "8.3%" },
+			{ 8, 30621, "", "=q4=Prism of Inner Calm", "=ds=#s14#", "", "8.3%" },
+			{ 9, 30109, "", "=q4=Ring of Endless Coils", "=ds=#s13#", "", "8.3%" },
+			{ 10, 30111, "", "=q4=Runetotem's Mantle", "=ds=#s3#, #a2#", "", "8.3%" },
+			{ 11, 30105, "", "=q4=Serpent Spine Longbow", "=ds=#w2#", "", "8.3%" },
+			{ 12, 30107, "", "=q4=Vestments of the Sea-Witch", "=ds=#s5#, #a1#", "", "8.3%" },
+			{ 14, 29906, "", "=q1=Vashj's Vial Remnant", "=ds=#m3#", "", "100%" },
+			{ 16, 30242, "", "=q4=Helm of the Vanquished Champion", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 17, 30243, "", "=q4=Helm of the Vanquished Defender", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 18, 30244, "", "=q4=Helm of the Vanquished Hero", "=ds=#m22# #e15#", "", "33.3%" },
+			{ 20, 30183, "", "=q4=Nether Vortex", "=ds=#e6# =q1=(x2)", "", "100%" },
 		},
 	},
 	info = {
@@ -1892,33 +1894,33 @@ AtlasLoot_Data["CFRSerpentVashj"] = {
 	},
 };
 
-AtlasLoot_Data["CFRSerpentTrash"] = {
+AtlasLoot_Data["SerpentshrineCavernTrash"] = {
 	["Normal"] = {
 		{
-			{ 1,  30027, "", "=q4=Boots of Courage Unending",          "=ds=#s12#, #a4#", "", "3%" },
-			{ 2,  30022, "", "=q4=Pendant of the Perilous",            "=ds=#s2#",        "", "3%" },
-			{ 3,  30620, "", "=q4=Spyglass of the Hidden Fleet",       "=ds=#s14#",       "", "4%" },
-			{ 4,  30023, "", "=q4=Totem of the Maelstrom",             "=ds=#w15#",       "", "3%" },
-			{ 5,  30021, "", "=q4=Wildfury Greatstaff",                "=ds=#w9#",        "", "3%" },
-			{ 6,  30025, "", "=q4=Serpentshrine Shuriken",             "=ds=#w11#",       "", "3%" },
-			{ 8,  30324, "", "=q4=Plans: Red Havoc Boots",             "=ds=#p2# (375)",  "", "1%" },
-			{ 9,  30322, "", "=q4=Plans: Red Belt of Battle",          "=ds=#p2# (375)",  "", "2%" },
-			{ 10, 30323, "", "=q4=Plans: Boots of the Protector",      "=ds=#p2# (375)",  "", "2%" },
-			{ 11, 30321, "", "=q4=Plans: Belt of the Guardian",        "=ds=#p2# (375)",  "", "2%" },
-			{ 12, 30280, "", "=q4=Pattern: Belt of Blasting",          "=ds=#p8# (375)",  "", "1%" },
-			{ 13, 30282, "", "=q4=Pattern: Boots of Blasting",         "=ds=#p8# (375)",  "", "1%" },
-			{ 14, 30283, "", "=q4=Pattern: Boots of the Long Road",    "=ds=#p8# (375)",  "", "2%" },
-			{ 15, 30281, "", "=q4=Pattern: Belt of the Long Road",     "=ds=#p8# (375)",  "", "1%" },
-			{ 16, 30308, "", "=q4=Pattern: Hurricane Boots",           "=ds=#p7# (375)",  "", "1%" },
-			{ 17, 30304, "", "=q4=Pattern: Monsoon Belt",              "=ds=#p7# (375)",  "", "1%" },
-			{ 18, 30305, "", "=q4=Pattern: Boots of Natural Grace",    "=ds=#p7# (375)",  "", "2%" },
-			{ 19, 30307, "", "=q4=Pattern: Boots of the Crimson Hawk", "=ds=#p7# (375)",  "", "1%" },
-			{ 20, 30306, "", "=q4=Pattern: Boots of Utter Darkness",   "=ds=#p7# (375)",  "", "2%" },
-			{ 21, 30301, "", "=q4=Pattern: Belt of Natural Power",     "=ds=#p7# (375)",  "", "1%" },
-			{ 22, 30303, "", "=q4=Pattern: Belt of the Black Eagle",   "=ds=#p7# (375)",  "", "1%" },
-			{ 23, 30302, "", "=q4=Pattern: Belt of Deep Shadow",       "=ds=#p7# (375)",  "", "1%" },
-			{ 25, 30183, "", "=q4=Nether Vortex",                      "=ds=#e8#",        "", "75%" },
-			{ 27, 32897, "", "=q2=Mark of the Illidari",               "=ds=#m20#",       "", "27%" },
+			{ 1, 30027, "", "=q4=Boots of Courage Unending", "=ds=#s12#, #a4#", "", "~1.08%" },
+			{ 2, 30022, "", "=q4=Pendant of the Perilous", "=ds=#s2#", "", "~0.855%" },
+			{ 3, 30025, "", "=q4=Serpentshrine Shuriken", "=ds=#w11#", "", "~1.55%" },
+			{ 4, 30620, "", "=q4=Spyglass of the Hidden Fleet", "=ds=#s14#", "", "~1.865%" },
+			{ 5, 30023, "", "=q4=Totem of the Maelstrom", "=ds=#w15#", "", "~1.83%" },
+			{ 6, 30021, "", "=q4=Wildfury Greatstaff", "=ds=#w9#", "", "~0.905%" },
+			{ 8, 30280, "", "=q4=Pattern: Belt of Blasting", "=ds=#p8# (375)", "", "~1.59%" },
+			{ 9, 30302, "", "=q4=Pattern: Belt of Deep Shadow", "=ds=#p7# (375)", "", "~3.045%" },
+			{ 10, 30301, "", "=q4=Pattern: Belt of Natural Power", "=ds=#p7# (375)", "", "~1.545%" },
+			{ 11, 30303, "", "=q4=Pattern: Belt of the Black Eagle", "=ds=#p7# (375)", "", "~1.825%" },
+			{ 12, 30281, "", "=q4=Pattern: Belt of the Long Road", "=ds=#p8# (375)", "", "~2.135%" },
+			{ 13, 30282, "", "=q4=Pattern: Boots of Blasting", "=ds=#p8# (375)", "", "1.25%" },
+			{ 14, 30305, "", "=q4=Pattern: Boots of Natural Grace", "=ds=#p7# (375)", "", "1.25%" },
+			{ 15, 30307, "", "=q4=Pattern: Boots of the Crimson Hawk", "=ds=#p7# (375)", "", "1.25%" },
+			{ 16, 30283, "", "=q4=Pattern: Boots of the Long Road", "=ds=#p8# (375)", "", "1.25%" },
+			{ 17, 30306, "", "=q4=Pattern: Boots of Utter Darkness", "=ds=#p7# (375)", "", "1.25%" },
+			{ 18, 30308, "", "=q4=Pattern: Hurricane Boots", "=ds=#p7# (375)", "", "1.25%" },
+			{ 19, 30304, "", "=q4=Pattern: Monsoon Belt", "=ds=#p7# (375)", "", "~1.26%" },
+			{ 20, 30321, "", "=q4=Plans: Belt of the Guardian", "=ds=#p2# (375)", "", "~5.06%" },
+			{ 21, 30323, "", "=q4=Plans: Boots of the Protector", "=ds=#p2# (375)", "", "1.25%" },
+			{ 22, 30322, "", "=q4=Plans: Red Belt of Battle", "=ds=#p2# (375)", "", "~4.245%" },
+			{ 23, 30324, "", "=q4=Plans: Red Havoc Boots", "=ds=#p2# (375)", "", "1.25%" },
+			{ 25, 30183, "", "=q4=Nether Vortex", "=ds=#e6#", "", "~5.6%" },
+			{ 27, 32897, "", "=q2=Mark of the Illidari", "=ds=#m20#", "", "~11.5%" },
 		},
 	},
 	info = {
