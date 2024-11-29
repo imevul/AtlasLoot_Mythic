@@ -608,14 +608,13 @@ AtlasLoot_LootTableRegister = {
 
 		["CFRSerpentshrineCavern"] = {
 			["Bosses"] = {
-				{ "CExpedition",          1, hide = true },
-				{ "CFRSerpentHydross",    3 },
-				{ "CFRSerpentLurker",     4 },
-				{ "CFRSerpentLeotheras",  5 },
-				{ "CFRSerpentKarathress", 6 },
-				{ "CFRSerpentMorogrim",   8 },
-				{ "CFRSerpentVashj",      9 },
-				{ "CFRSerpentTrash",      11 },
+				{ "SerpentshrineCavernHydrossTheUnstable", 1 },
+				{ "SerpentshrineCavernTheLurkerBelow", 2 },
+				{ "SerpentshrineCavernLeotherasTheBlind", 3 },
+				{ "SerpentshrineCavernFathomLordKarathress", 4 },
+				{ "SerpentshrineCavernMorogrimTidewalker", 5 },
+				{ "SerpentshrineCavernLadyVashj", 6 },
+				{ "SerpentshrineCavernTrash", 7 },
 			},
 			["Info"] = { BabbleZone["Serpentshrine Cavern"], "AtlasLootBurningCrusade", raid = true },
 		},
