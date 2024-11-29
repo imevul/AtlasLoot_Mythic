@@ -663,14 +663,14 @@ AtlasLoot_LootTableRegister = {
 
 		["SunwellPlateau"] = {
 			["Bosses"] = {
-				{ "SPKalecgos",    2 },
-				{ "SPBrutallus",   4 },
-				{ "SPFelmyst",     5 },
-				{ "SPEredarTwins", 7 },
-				{ "SPMuru",        10 },
-				{ "SPKiljaeden",   12 },
-				{ "SPTrash",       14 },
-				{ "SPPatterns",    15 },
+				{ "SunwellPlateauKalecgos", 1 },
+				{ "SunwellPlateauBrutallus", 2 },
+				{ "SunwellPlateauFelmyst", 3 },
+				{ "SunwellPlateauEredarTwins", 4 },
+				{ "SunwellPlateauMuru", 5 },
+				{ "SunwellPlateauKiljaeden", 6 },
+				{ "SunwellPlateauTrash", 7 },
+				{ "SunwellPlateauPatterns", 8 },
 			},
 			["Info"] = { BabbleZone["Sunwell Plateau"], "AtlasLootBurningCrusade", raid = true },
 		},
