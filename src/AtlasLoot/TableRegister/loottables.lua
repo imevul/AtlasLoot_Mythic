@@ -677,12 +677,11 @@ AtlasLoot_LootTableRegister = {
 
 		["TempestKeepTheEye"] = {
 			["Bosses"] = {
-				{ "Shatar",          1, hide = true },
-				{ "TKEyeAlar",       3 },
-				{ "TKEyeVoidReaver", 4 },
-				{ "TKEyeSolarian",   5 },
-				{ "TKEyeKaelthas",   6 },
-				{ "TKEyeTrash",      12 },
+				{ "TheEyeAlar", 1 },
+				{ "TheEyeVoidReaver", 2 },
+				{ "TheEyeHighAstromancerSolarian", 3 },
+				{ "TheEyeKaelthasSunstrider", 4 },
+				{ "TheEyeTrash", 5 },
 			},
 			["Info"] = { BabbleZone["The Eye"], "AtlasLootBurningCrusade", raid = true },
 		},
