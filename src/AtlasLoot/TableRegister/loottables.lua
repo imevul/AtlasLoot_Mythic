@@ -688,14 +688,14 @@ AtlasLoot_LootTableRegister = {
 		
 		["ZulAman"] = {
 			["Bosses"] = {
-				{ "ZAAkilZon", 		1 },
-				{ "ZANalorakk", 	2 },
-				{ "ZAJanAlai", 		3 },
-				{ "ZAHalazzi", 		4 },
-				{ "ZAMalacrass", 	5 },
-				{ "ZAZuljin", 		6 },
-				{ "ZATimedChest", 	7 },
-				{ "ZATrash", 		8 },
+				{ "ZulAmanAkilzon", 1 },
+				{ "ZulAmanNalorakk", 2 },
+				{ "ZulAmanJanalai", 3 },
+				{ "ZulAmanHalazzi", 4 },
+				{ "ZulAmanHexLordMalacrass", 5 },
+				{ "ZulAmanZuljin", 6 },
+				{ "ZulAmanTimedChests", 7 },
+				{ "ZulAmanTrash", 8 },
 			},
 			["Info"] = { BabbleZone["Zul'Aman"], "AtlasLootBurningCrusade", mapname = "ZulAman", raid = true },
 		},
