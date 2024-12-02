@@ -2062,7 +2062,7 @@ AtlasLoot_Data["HellfireRampartsOmorTheUnscarred"] = {
 };
 
 AtlasLoot_Data["HellfireRampartsVazrudenNazan"] = {
-	["Normal"] = {
+	["Normal_H"] = {
 		{
 			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Reinforced Fel Iron Chest"], "" },
 			{ 2, 24045, "", "=q3=Band of Renewal", "=ds=#s13#", "", "10%" },
@@ -2076,13 +2076,31 @@ AtlasLoot_Data["HellfireRampartsVazrudenNazan"] = {
 			{ 10, 24155, "", "=q3=Ursol's Claw", "=ds=#w9#", "", "10%" },
 			{ 11, 24154, "", "=q3=Witching Band", "=ds=#s13#", "", "10%" },
 			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Vazruden"], "" },
-			{ 17, 23892, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m6#)", "", "100%" },
-			{ 18, 23890, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m7#)", "", "100%" },
-			{ 20, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Nazan"],   "" },
-			{ 21, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
+			{ 17, 23892, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%" },
+			{ 19, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Nazan"],   "" },
+			{ 20, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
 		},
 	},
-	["Heroic"] = {
+	["Normal_A"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6=" .. AL["Reinforced Fel Iron Chest"], "" },
+			{ 2, 24045, "", "=q3=Band of Renewal", "=ds=#s13#", "", "10%" },
+			{ 3, 24044, "", "=q3=Hellreaver", "=ds=#w7#", "", "10%" },
+			{ 4, 24064, "", "=q3=Ironsole Clompers", "=ds=#s12#, #a4#", "", "10%" },
+			{ 5, 24046, "", "=q3=Kilt of Rolling Thunders", "=ds=#s11#, #a3# =q1=#m1# =ds=#c7#", "", "10%" },
+			{ 6, 24083, "", "=q3=Lifegiver Britches", "=ds=#s11#, #a1#", "", "10%" },
+			{ 7, 24151, "", "=q3=Mok'Nathal Clan Ring", "=ds=#s13#", "", "10%" },
+			{ 8, 24150, "", "=q3=Mok'Nathal Wildercloak", "=ds=#s4#", "", "10%" },
+			{ 9, 24063, "", "=q3=Shifting Sash of Midnight", "=ds=#s10#, #a2#", "", "10%" },
+			{ 10, 24155, "", "=q3=Ursol's Claw", "=ds=#w9#", "", "10%" },
+			{ 11, 24154, "", "=q3=Witching Band", "=ds=#s13#", "", "10%" },
+			{ 16, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Vazruden"], "" },
+			{ 17, 23890, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%" },
+			{ 19, 0, "INV_Box_01", "=q6=" .. BabbleBoss["Nazan"],   "" },
+			{ 20, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
+		},
+	},
+	["Heroic_H"] = {
 		{
 			{ 1, 0, "inv_box_04", "=q6=" .. AL["Reinforced Fel Iron Chest"], "" },
 			{ 2, 29346, "", "=q4=Feltooth Eviscerator", "=ds=#h1#, #w4#", "", "25%" },
@@ -2103,11 +2121,37 @@ AtlasLoot_Data["HellfireRampartsVazrudenNazan"] = {
 			{ 17, 30593, "", "=q4=Iridescent Fire Opal", "=ds=#e7#", "", "10%" },
 			{ 18, 30592, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "10%" },
 			{ 20, 0, "inv_box_04", "=q6=" .. BabbleBoss["Vazruden"], "" },
-			{ 21, 23892, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m6#)", "", "100%" },
-			{ 22, 23890, "", "=q1=Ominous Letter", "=ds=#m2# =q1=(#m7#)", "", "100%" },
-			{ 24, 0, "inv_box_04", "=q6=" .. BabbleBoss["Nazan"], "" },
-			{ 25, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
-			{ 26, 33833, "", "=q1=Nazan's Riding Crop", "=ds=#m3#", "", "100%" },
+			{ 21, 23892, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%" },
+			{ 23, 0, "inv_box_04", "=q6=" .. BabbleBoss["Nazan"], "" },
+			{ 24, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
+			{ 25, 33833, "", "=q1=Nazan's Riding Crop", "=ds=#m3#", "", "100%" },
+		},
+	},
+	["Heroic_A"] = {
+		{
+			{ 1, 0, "inv_box_04", "=q6=" .. AL["Reinforced Fel Iron Chest"], "" },
+			{ 2, 29346, "", "=q4=Feltooth Eviscerator", "=ds=#h1#, #w4#", "", "25%" },
+			{ 3, 29238, "", "=q4=Lion's Heart Girdle", "=ds=#s10#, #a4#", "", "25%" },
+			{ 4, 29264, "", "=q4=Tree-Mender's Belt", "=ds=#s10#, #a2#", "", "25%" },
+			{ 5, 32077, "", "=q4=Wrath Infused Gauntlets", "=ds=#s9#, #a3#", "", "25%" },
+			{ 6, 27453, "", "=q3=Averinn's Ring of Slaying", "=ds=#s13#", "", "20%" },
+			{ 7, 27461, "", "=q3=Chestguard of the Prowler", "=ds=#s5#, #a2#", "", "20%" },
+			{ 8, 27455, "", "=q3=Irondrake Faceguard", "=ds=#s1#, #a4#", "", "20%" },
+			{ 9, 27457, "", "=q3=Life Bearer's Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
+			{ 10, 27452, "", "=q3=Light Scribe Bands", "=ds=#s8#, #a1#", "", "20%" },
+			{ 11, 27458, "", "=q3=Oceansong Kilt", "=ds=#s11#, #a3#", "", "20%" },
+			{ 12, 27456, "", "=q3=Raiments of Nature's Breath", "=ds=#s5#, #a2#", "", "20%" },
+			{ 13, 27460, "", "=q3=Reavers' Ring", "=ds=#s13#", "", "20%" },
+			{ 14, 27459, "", "=q3=Vambraces of Daring", "=ds=#s8#, #a4#", "", "20%" },
+			{ 15, 27454, "", "=q3=Volcanic Pauldrons", "=ds=#s3#, #a3#", "", "20%" },
+			{ 16, 30594, "", "=q4=Effulgent Chrysoprase", "=ds=#e7#", "", "10%" },
+			{ 17, 30593, "", "=q4=Iridescent Fire Opal", "=ds=#e7#", "", "10%" },
+			{ 18, 30592, "", "=q4=Steady Chrysoprase", "=ds=#e7#", "", "10%" },
+			{ 20, 0, "inv_box_04", "=q6=" .. BabbleBoss["Vazruden"], "" },
+			{ 21, 23890, "", "=q1=Ominous Letter", "=ds=#m2#", "", "100%" },
+			{ 23, 0, "inv_box_04", "=q6=" .. BabbleBoss["Nazan"], "" },
+			{ 24, 23901, "", "=q1=Nazan's Head", "=ds=#m3#", "", "100%" },
+			{ 25, 33833, "", "=q1=Nazan's Riding Crop", "=ds=#m3#", "", "100%" },
 		},
 	},
 	info = {
@@ -2396,7 +2440,7 @@ AtlasLoot_Data["ShatteredHallsTrash"] = {
 --------------------------------------------
 
 AtlasLoot_Data["MagtheridonsLairMagtheridon"] = {
-	["Normal"] = {
+	["Normal_H"] = {
 		{
 			{ 1, 29458, "", "=q4=Aegis of the Vindicator", "=ds=#w8#", "", "8.3%" },
 			{ 2, 28777, "", "=q4=Cloak of the Pit Stalker", "=ds=#s4#", "", "8.3%" },
@@ -2410,8 +2454,29 @@ AtlasLoot_Data["MagtheridonsLairMagtheridon"] = {
 			{ 10, 28780, "", "=q4=Soul-Eater's Handwraps", "=ds=#s9#, #a1#", "", "8.3%" },
 			{ 11, 28778, "", "=q4=Terror Pit Girdle", "=ds=#s10#, #a3#", "", "8.3%" },
 			{ 12, 28775, "", "=q4=Thundering Greathelm", "=ds=#s1#, #a4#", "", "8.3%" },
-			{ 14, 32386, "", "=q4=Magtheridon's Head", "=ds=#m2# =q1=(#m6#)", "", "100%" },
-			{ 15, 32385, "", "=q4=Magtheridon's Head", "=ds=#m2# =q1=(#m7#)", "", "100%" },
+			{ 14, 32386, "", "=q4=Magtheridon's Head", "=ds=#m2#", "", "100%" },
+			{ 16, 29754, "", "=q4=Chestguard of the Fallen Champion", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 17, 29753, "", "=q4=Chestguard of the Fallen Defender", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 18, 29755, "", "=q4=Chestguard of the Fallen Hero", "=ds=#m21# #e15#", "", "33.3%" },
+			{ 20, 34845, "", "=q4=Pit Lord's Satchel", "=ds=#e1#", "", "100%" },
+			{ 22, 34846, "", "=q2=Black Sack of Gems", "=ds=#e1#", "", "100%" },
+		},
+	},
+	["Normal_A"] = {
+		{
+			{ 1, 29458, "", "=q4=Aegis of the Vindicator", "=ds=#w8#", "", "8.3%" },
+			{ 2, 28777, "", "=q4=Cloak of the Pit Stalker", "=ds=#s4#", "", "8.3%" },
+			{ 3, 28782, "", "=q4=Crystalheart Pulse-Staff", "=ds=#w9#", "", "8.3%" },
+			{ 4, 28783, "", "=q4=Eredar Wand of Obliteration", "=ds=#w12#", "", "8.3%" },
+			{ 5, 28789, "", "=q4=Eye of Magtheridon", "=ds=#s14#", "", "8.3%" },
+			{ 6, 28779, "", "=q4=Girdle of the Endless Pit", "=ds=#s10#, #a4#", "", "8.3%" },
+			{ 7, 28774, "", "=q4=Glaive of the Pit", "=ds=#w7#", "", "8.3%" },
+			{ 8, 28781, "", "=q4=Karaborian Talisman", "=ds=#s15#", "", "8.3%" },
+			{ 9, 28776, "", "=q4=Liar's Tongue Gloves", "=ds=#s9#, #a2#", "", "8.3%" },
+			{ 10, 28780, "", "=q4=Soul-Eater's Handwraps", "=ds=#s9#, #a1#", "", "8.3%" },
+			{ 11, 28778, "", "=q4=Terror Pit Girdle", "=ds=#s10#, #a3#", "", "8.3%" },
+			{ 12, 28775, "", "=q4=Thundering Greathelm", "=ds=#s1#, #a4#", "", "8.3%" },
+			{ 14, 32385, "", "=q4=Magtheridon's Head", "=ds=#m2#", "", "100%" },
 			{ 16, 29754, "", "=q4=Chestguard of the Fallen Champion", "=ds=#m21# #e15#", "", "33.3%" },
 			{ 17, 29753, "", "=q4=Chestguard of the Fallen Defender", "=ds=#m21# #e15#", "", "33.3%" },
 			{ 18, 29755, "", "=q4=Chestguard of the Fallen Hero", "=ds=#m21# #e15#", "", "33.3%" },
