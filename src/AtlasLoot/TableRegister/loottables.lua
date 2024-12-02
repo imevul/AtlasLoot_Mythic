@@ -55,12 +55,12 @@ AtlasLoot_LootTableRegister = {
 
 		["AhnKahet"] = {
 			["Bosses"] = {
-				{ "AhnkahetNadox",    3 },
-				{ "AhnkahetTaldaram", 4 },
-				{ "AhnkahetAmanitar", 5 },
-				{ "AhnkahetJedoga",   6 },
-				{ "AhnkahetVolazj",   7 },
-				{ "AhnkahetTrash",    10 },
+				{ "AhnkahetElderNadox", 1 },
+				{ "AhnkahetPrinceTaldaram", 2 },
+				{ "AhnkahetAmanitar", 3 },
+				{ "AhnkahetJedogaShadowseeker", 4 },
+				{ "AhnkahetHeraldVolazj", 5 },
+				{ "AhnkahetTrash", 6 },
 			},
 			["Info"] = { BabbleZone["Ahn'kahet: The Old Kingdom"], "AtlasLootWotLK", mapname = "Ahnkahet" },
 		},
