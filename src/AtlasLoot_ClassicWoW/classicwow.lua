@@ -2065,7 +2065,7 @@ AtlasLoot_Data["BlackwingLairChromaggus"] = {
 };
 
 AtlasLoot_Data["BlackwingLairNefarian"] = {
-	["Normal"] = {
+	["Normal_H"] = {
 		{
 			{ 1, 19376, "", "=q4=Archimtiros' Ring of Reckoning", "=ds=#s13#", "", "20%" },
 			{ 2, 19381, "", "=q4=Boots of the Shadow Flame", "=ds=#s12#, #a2#", "", "20%" },
@@ -2099,10 +2099,53 @@ AtlasLoot_Data["BlackwingLairNefarian"] = {
 			{ 7, 16916, "", "=q4=Netherwind Robes", "=q1=#m1# =ds=#c3#", "", "11.1%" },
 			{ 8, 16923, "", "=q4=Robes of Transcendence", "=q1=#m1# =ds=#c5#", "", "11.1%" },
 			{ 9, 16897, "", "=q4=Stormrage Chestguard", "=q1=#m1# =ds=#c1#", "", "11.1%" },
-			{ 11, 19002, "", "=q4=Head of Nefarian", "=ds=#m2# =q1=(#m6#)", "", "100%" },
-			{ 12, 19003, "", "=q4=Head of Nefarian", "=ds=#m2# =q1=(#m7#)", "", "100%" },
-			{ 13, 21142, "", "=q1=From the Desk of Lord Victor Nefarius", "=ds=#m3#", "", "100%" },
-			{ 14, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%" },
+			{ 11, 19002, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%" },
+			{ 12, 21142, "", "=q1=From the Desk of Lord Victor Nefarius", "=ds=#m3#", "", "100%" },
+			{ 13, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%" },
+			{ 16, 17962, "", "=q2=Blue Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 17, 17964, "", "=q2=Gray Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 18, 17963, "", "=q2=Green Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 19, 17969, "", "=q2=Red Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+			{ 20, 17965, "", "=q2=Yellow Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
+		},
+	},
+	["Normal_A"] = {
+		{
+			{ 1, 19376, "", "=q4=Archimtiros' Ring of Reckoning", "=ds=#s13#", "", "20%" },
+			{ 2, 19381, "", "=q4=Boots of the Shadow Flame", "=ds=#s12#, #a2#", "", "20%" },
+			{ 3, 19378, "", "=q4=Cloak of the Brood Lord", "=ds=#s4#", "", "20%" },
+			{ 4, 19375, "", "=q4=Mish'undare, Circlet of the Mind Flayer", "=ds=#s1#, #a1#", "", "20%" },
+			{ 5, 19379, "", "=q4=Neltharion's Tear", "=ds=#s14#", "", "20%" },
+			{ 6, 19377, "", "=q4=Prestor's Talisman of Connivery", "=ds=#s2#", "", "20%" },
+			{ 7, 19382, "", "=q4=Pure Elementium Band", "=ds=#s13#", "", "20%" },
+			{ 8, 19380, "", "=q4=Therazane's Link", "=ds=#s10#, #a3#", "", "20%" },
+			{ 9, 19364, "", "=q4=Ashkandi, Greatsword of the Brotherhood", "=ds=#h2#, #w10#", "", "10%" },
+			{ 10, 19363, "", "=q4=Crul'shorukh, Edge of Chaos", "=ds=#h1#, #w1#", "", "10%" },
+			{ 11, 19360, "", "=q4=Lok'amir il Romathis", "=ds=#h3#, #w6#", "", "10%" },
+			{ 12, 19356, "", "=q4=Staff of the Shadow Flame", "=ds=#w9#", "", "10%" },
+			{ 16, 16908, "", "=q4=Bloodfang Hood", "=q1=#m1# =ds=#c6#", "", "11.1%" },
+			{ 17, 16939, "", "=q4=Dragonstalker's Helm", "=q1=#m1# =ds=#c2#", "", "11.1%" },
+			{ 18, 16921, "", "=q4=Halo of Transcendence", "=q1=#m1# =ds=#c5#", "", "11.1%" },
+			{ 19, 16963, "", "=q4=Helm of Wrath", "=q1=#m1# =ds=#c9#", "", "11.1%" },
+			{ 20, 16947, "", "=q4=Helmet of Ten Storms", "=q1=#m1# =ds=#c7#", "", "11.1%" },
+			{ 21, 16955, "", "=q4=Judgement Crown", "=q1=#m1# =ds=#c4#", "", "11.1%" },
+			{ 22, 16929, "", "=q4=Nemesis Skullcap", "=q1=#m1# =ds=#c8#", "", "11.1%" },
+			{ 23, 16914, "", "=q4=Netherwind Crown", "=q1=#m1# =ds=#c3#", "", "11.1%" },
+			{ 24, 16900, "", "=q4=Stormrage Cover", "=q1=#m1# =ds=#c1#", "", "11.1%" },
+		},
+		{
+			{ 1, 16905, "", "=q4=Bloodfang Chestpiece", "=q1=#m1# =ds=#c6#", "", "11.1%" },
+			{ 2, 16950, "", "=q4=Breastplate of Ten Storms", "=q1=#m1# =ds=#c7#", "", "11.1%" },
+			{ 3, 16966, "", "=q4=Breastplate of Wrath", "=q1=#m1# =ds=#c9#", "", "11.1%" },
+			{ 4, 16942, "", "=q4=Dragonstalker's Breastplate", "=q1=#m1# =ds=#c2#", "", "11.1%" },
+			{ 5, 16958, "", "=q4=Judgement Breastplate", "=q1=#m1# =ds=#c4#", "", "11.1%" },
+			{ 6, 16931, "", "=q4=Nemesis Robes", "=q1=#m1# =ds=#c8#", "", "11.1%" },
+			{ 7, 16916, "", "=q4=Netherwind Robes", "=q1=#m1# =ds=#c3#", "", "11.1%" },
+			{ 8, 16923, "", "=q4=Robes of Transcendence", "=q1=#m1# =ds=#c5#", "", "11.1%" },
+			{ 9, 16897, "", "=q4=Stormrage Chestguard", "=q1=#m1# =ds=#c1#", "", "11.1%" },
+			{ 11, 19003, "", "=q4=Head of Nefarian", "=ds=#m2#", "", "100%" },
+			{ 12, 21142, "", "=q1=From the Desk of Lord Victor Nefarius", "=ds=#m3#", "", "100%" },
+			{ 13, 21138, "", "=q1=Red Scepter Shard", "=ds=#m3#", "", "100%" },
 			{ 16, 17962, "", "=q2=Blue Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
 			{ 17, 17964, "", "=q2=Gray Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
 			{ 18, 17963, "", "=q2=Green Sack of Gems", "=ds=#s10#, #a4#", "", "20%"},
@@ -3147,7 +3190,27 @@ AtlasLoot_Data["GnomereganDarkIronAmbassador"] = {
 };
 
 AtlasLoot_Data["GnomereganTrash"] = {
-	["Normal"] = {
+	["Normal_H"] = {
+		{
+			{1, 9510, "", "=q3=Caverndeep Trudgers", "=ds=#s12#, #a3#", "", "~0.035%"},
+			{2, 9490, "", "=q3=Gizmotron Megachopper", "=ds=#h2#, #w10#", "", "~0.15%"},
+			{3, 9489, "", "=q2=Gyromatic Icemaker", "=ds=#w12#", "", "~0.04%"},
+			{4, 9487, "", "=q3=Hi-tech Supergun", "=ds=#w5#", "", "~0.07%"},
+			{5, 9491, "", "=q3=Hotshot Pilot's Gloves", "=ds=#s9#, #a1#", "", "~0.09%"},
+			{6, 9508, "", "=q3=Mechbuilder's Overalls", "=ds=#s5#, #a1#", "", "~0.31%"},
+			{7, 9488, "", "=q3=Oscillating Power Hammer", "=ds=#h1#, #w6#", "", "~0.08%"},
+			{8, 9509, "", "=q3=Petrolspill Leggings", "=ds=#s11#, #a2#", "", "~0.05%"},
+			{9, 9486, "", "=q3=Supercharger Battle Axe", "=ds=#h2#, #w1#", "", "~0.07%"},
+			{10, 9485, "", "=q3=Vibroblade", "=ds=#h1#, #w1#", "", "~0.08%"},
+			{12, 11827, "", "=q2=Schematic: Lil' Smoky", "=ds=#p5# (205) =q1=Arcane Nullifier/Peacekeeper Security", "", "10%"},
+			{14, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#, =ds=#p5# (1)", "", "3%"},
+			{16, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2# =q1=Dark Iron Agent", "", "8%"},
+			{17, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#", "", ""},
+			{18, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13# =q1=(#m7#)", "", ""},
+			{19, 9588, "", "=q3=Nogg's Gold Ring", "=q1=#m4#: =ds=#s13# =q1=(#m6#)", "", ""},
+		},
+	},
+	["Normal_A"] = {
 		{
 			{1, 9510, "", "=q3=Caverndeep Trudgers", "=ds=#s12#, #a3#", "", "~0.035%"},
 			{2, 9490, "", "=q3=Gizmotron Megachopper", "=ds=#h2#, #w10#", "", "~0.15%"},
