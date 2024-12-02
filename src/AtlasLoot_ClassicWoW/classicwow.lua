@@ -3190,27 +3190,7 @@ AtlasLoot_Data["GnomereganDarkIronAmbassador"] = {
 };
 
 AtlasLoot_Data["GnomereganTrash"] = {
-	["Normal_H"] = {
-		{
-			{1, 9510, "", "=q3=Caverndeep Trudgers", "=ds=#s12#, #a3#", "", "~0.035%"},
-			{2, 9490, "", "=q3=Gizmotron Megachopper", "=ds=#h2#, #w10#", "", "~0.15%"},
-			{3, 9489, "", "=q2=Gyromatic Icemaker", "=ds=#w12#", "", "~0.04%"},
-			{4, 9487, "", "=q3=Hi-tech Supergun", "=ds=#w5#", "", "~0.07%"},
-			{5, 9491, "", "=q3=Hotshot Pilot's Gloves", "=ds=#s9#, #a1#", "", "~0.09%"},
-			{6, 9508, "", "=q3=Mechbuilder's Overalls", "=ds=#s5#, #a1#", "", "~0.31%"},
-			{7, 9488, "", "=q3=Oscillating Power Hammer", "=ds=#h1#, #w6#", "", "~0.08%"},
-			{8, 9509, "", "=q3=Petrolspill Leggings", "=ds=#s11#, #a2#", "", "~0.05%"},
-			{9, 9486, "", "=q3=Supercharger Battle Axe", "=ds=#h2#, #w1#", "", "~0.07%"},
-			{10, 9485, "", "=q3=Vibroblade", "=ds=#h1#, #w1#", "", "~0.08%"},
-			{12, 11827, "", "=q2=Schematic: Lil' Smoky", "=ds=#p5# (205) =q1=Arcane Nullifier/Peacekeeper Security", "", "10%"},
-			{14, 9327, "", "=q2=Security DELTA Data Access Card", "=ds=#m20#, =ds=#p5# (1)", "", "3%"},
-			{16, 9326, "", "=q1=Grime-Encrusted Ring", "=ds=#m2# =q1=Dark Iron Agent", "", "8%"},
-			{17, 9362, "", "=q2=Brilliant Gold Ring", "=q1=#m4#: =ds=#s13#", "", ""},
-			{18, 9538, "", "=q3=Talvash's Gold Ring", "=q1=#m4#: =ds=#s13# =q1=(#m7#)", "", ""},
-			{19, 9588, "", "=q3=Nogg's Gold Ring", "=q1=#m4#: =ds=#s13# =q1=(#m6#)", "", ""},
-		},
-	},
-	["Normal_A"] = {
+	["Normal"] = {
 		{
 			{1, 9510, "", "=q3=Caverndeep Trudgers", "=ds=#s12#, #a3#", "", "~0.035%"},
 			{2, 9490, "", "=q3=Gizmotron Megachopper", "=ds=#h2#, #w10#", "", "~0.15%"},
