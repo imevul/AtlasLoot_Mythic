@@ -67,11 +67,10 @@ AtlasLoot_LootTableRegister = {
 
 		["AzjolNerub"] = {
 			["Bosses"] = {
-				{ "AzjolNerubKrikthir", 4 },
-				{ "AzjolNerubHadronox", 8 },
-				{ "AzjolNerubAnubarak", 9 },
-				{ "LunarFestival",      10, hide = true },
-				{ "AzjolNerubTrash",    12 },
+				{ "AzjolNerubKrikthirTheGatewatcher", 1 },
+				{ "AzjolNerubHadronox", 2 },
+				{ "AzjolNerubAnubarak", 3 },
+				{ "AzjolNerubTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK", mapname = "AzjolNerub" },
 		},
@@ -90,12 +89,11 @@ AtlasLoot_LootTableRegister = {
 
 		["DrakTharonKeep"] = {
 			["Bosses"] = {
-				{ "DrakTharonKeepTrollgore", 3 },
-				{ "DrakTharonKeepNovos",     4 },
-				{ "DrakTharonKeepKingDred",  5 },
-				{ "DrakTharonKeepTharonja",  6 },
-				{ "LunarFestival",           8, hide = true },
-				{ "DrakTharonKeepTrash",     11 },
+				{ "DrakTharonKeepTrollgore", 1 },
+				{ "DrakTharonKeepNovosTheSummoner", 2 },
+				{ "DrakTharonKeepKingDred", 3 },
+				{ "DrakTharonKeepTheProphetTharonja", 4 },
+				{ "DrakTharonKeepTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Drak'Tharon Keep"], "AtlasLootWotLK", mapname = "DrakTharonKeep" },
 		},
