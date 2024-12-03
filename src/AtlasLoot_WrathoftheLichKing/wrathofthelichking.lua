@@ -286,18 +286,20 @@ AtlasLoot_Data["TheNexusKeristrasza"] = {
 --- Azjol-Nerub ---
 -------------------
 
-AtlasLoot_Data["AzjolNerubKrikthir"] = {
+AtlasLoot_Data["AzjolNerubKrikthirTheGatewatcher"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#", "", "30%"};
-			{ 3, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#", "", "32%"};
-			{ 4, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#", "", "30%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#", "", "21%"};
-			{ 18, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#", "", "21%"};
-			{ 19, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#", "", "22%"};
-			{ 20, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#", "", "22%"};
+			{ 1, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#", "", "33.3%"};
+			{ 2, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#", "", "33.3%"};
+			{ 3, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#", "", "25%"};
+			{ 2, 37216, "", "=q3=Facade Shield of Glyphs", "=ds=#w8#", "", "25%"};
+			{ 3, 37217, "", "=q3=Golden Limb Bands", "=ds=#s8#, #a4#", "", "25%"};
+			{ 4, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#", "", "25%"};
 		};
 	};
 	info = {
@@ -310,15 +312,17 @@ AtlasLoot_Data["AzjolNerubKrikthir"] = {
 AtlasLoot_Data["AzjolNerubHadronox"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#", "", "30%"};
-			{ 3, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#", "", "30%"};
-			{ 4, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#", "", "29%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#", "", "21%"};
-			{ 18, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#", "", "21%"};
-			{ 19, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#", "", "20%"};
-			{ 20, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#", "", "20%"};
+			{ 1, 35658, "", "=q3=Life-Staff of the Web Lair", "=ds=#w9#", "", "33.3%"};
+			{ 2, 35660, "", "=q3=Spinneret Epaulets", "=ds=#s3#, #a2#", "", "33.3%"};
+			{ 3, 35659, "", "=q3=Treads of Aspiring Heights", "=ds=#s12#, #a2#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37222, "", "=q3=Egg Sac Robes", "=ds=#s5#, #a1#", "", "25%"};
+			{ 2, 37220, "", "=q3=Essence of Gossamer", "=ds=#s14#", "", "25%"};
+			{ 3, 37230, "", "=q3=Grotto Mist Gloves", "=ds=#s9#, #a2#", "", "25%"};
+			{ 4, 37221, "", "=q3=Hollowed Mandible Legplates", "=ds=#s11#, #a3#", "", "25%"};
 		};
 	};
 	info = {
@@ -331,21 +335,25 @@ AtlasLoot_Data["AzjolNerubHadronox"] = {
 AtlasLoot_Data["AzjolNerubAnubarak"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#", "", "29%"};
-			{ 3, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#", "", "29%"};
-			{ 4, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#", "", "28%"};
-			{ 6, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#", "", "19%"};
-			{ 18, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#", "", "19%"};
-			{ 19, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#", "", "19%"};
-			{ 20, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#", "", "19%"};
-			{ 22, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#", "", "20%"};
-			{ 23, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#", "", "20%"};
-			{ 24, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "19%"};
-			{ 25, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "21%"};
-			{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+			{ 1, 35663, "", "=q3=Charmed Silken Cord", "=ds=#s10#, #a1#", "", "33.3%"};
+			{ 2, 35661, "", "=q3=Signet of Arachnathid Command", "=ds=#s13#", "", "33.3%"};
+			{ 3, 35662, "", "=q3=Wing Cover Girdle", "=ds=#s10#, #a3#", "", "33.3%"};
+			{ 5, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#", "", "100%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37241, "", "=q4=Ancient Aligned Girdle", "=ds=#s10#, #a4#", "", "25%"};
+			{ 2, 37237, "", "=q3=Chitin Shell Greathelm", "=ds=#s1#, #a4#", "", "25%"};
+			{ 3, 37235, "", "=q3=Crypt Lord's Deft Blade", "=ds=#h1#, #w10#", "", "25%"};
+			{ 4, 37240, "", "=q4=Flamebeard's Bracers", "=ds=#s8#, #a4#", "", "25%"};
+			{ 5, 37236, "", "=q3=Insect Vestments", "=ds=#s5#, #a2#", "", "25%"};
+			{ 6, 37232, "", "=q3=Ring of the Traitor King", "=ds=#s13#", "", "25%"};
+			{ 7, 37238, "", "=q4=Rod of the Fallen Monarch", "=ds=#w12#", "", "25%"};
+			{ 8, 37242, "", "=q4=Sash of the Servant", "=ds=#s10#, #a1#", "", "25%"};
+			{ 10, 43411, "", "=q1=Anub'arak's Broken Husk", "=ds=#m3#", "", "100%"};
+			{ 11, 43726, "", "=q1=The Idle Crown of Anub'arak", "=ds=#m3#", "", "100%"};
+			{ 16, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -358,10 +366,9 @@ AtlasLoot_Data["AzjolNerubAnubarak"] = {
 AtlasLoot_Data["AzjolNerubTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#", "", "1%"};
-			{ 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#", "", "1%"};
-			{ 4, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#", "", "1%"};
+			{ 1, 37624, "", "=q3=Stained-Glass Shard Ring", "=ds=#s13#", "", "0.1%"};
+			{ 2, 37243, "", "=q3=Treasure Seeker's Belt", "=ds=#s10#, #a2#", "", "0.1%"};
+			{ 3, 37625, "", "=q3=Web Winder Gloves", "=ds=#s9#, #a4#", "", "0.1%"};
 		};
 	};
 	info = {
@@ -478,12 +485,12 @@ AtlasLoot_Data["AhnkahetHeraldVolazj"] = {
 		{
 			{ 1, 37620, "", "=q4=Bracers of the Herald", "=ds=#s8#, #a4#", "", "25%"};
 			{ 2, 37623, "", "=q4=Fiery Obelisk Handguards", "=ds=#s9#, #a3#", "", "25%"};
-			{ 3, 37622, "", "=q4=Skirt of the Old Kingdom", "=ds=#s11#, #a1#", "", "25%"};
-			{ 4, 37619, "", "=q4=Wand of Ahn'kahet", "=ds=#w12#", "", "25%"};
-			{ 5, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#", "", "25%"};
-			{ 6, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#", "", "25%"};
-			{ 7, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#", "", "25%"};
-			{ 8, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#", "", "25%"};
+			{ 3, 37618, "", "=q3=Greaves of Ancient Evil", "=ds=#s12#, #a4#", "", "25%"};
+			{ 4, 37616, "", "=q3=Kilt of the Forgotten One", "=ds=#s11#, #a2#", "", "25%"};
+			{ 5, 37622, "", "=q4=Skirt of the Old Kingdom", "=ds=#s11#, #a1#", "", "25%"};
+			{ 6, 37617, "", "=q3=Staff of Sinister Claws", "=ds=#w9#", "", "25%"};
+			{ 7, 37615, "", "=q3=Titanium Compound Bow", "=ds=#w2#", "", "25%"};
+			{ 8, 37619, "", "=q4=Wand of Ahn'kahet", "=ds=#w12#", "", "25%"};
 			{ 10, 43821, "", "=q1=Faceless One's Withered Brain", "=ds=#m3#", "", "100%"};
 			{ 16, 41790, "", "=q3=Design: Precise Scarlet Ruby", "=ds=#p12# (390)", "", "100%"};
 			{ 18, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
@@ -519,15 +526,17 @@ AtlasLoot_Data["AhnkahetTrash"] = {
 AtlasLoot_Data["DrakTharonKeepTrollgore"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35620, "", "=q3=Berserker's Horns", "=ds=#s1#, #a2#", "", "33%"};
-			{ 3, 35619, "", "=q3=Infection Resistant Legguards", "=ds=#s11#, #a3#", "", "28%"};
-			{ 4, 35618, "", "=q3=Troll Butcherer", "=ds=#h2#, #w10#", "", "30%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37715, "", "=q3=Cowl of the Dire Troll", "=ds=#s1#, #a1#", "", "21%"};
-			{ 18, 37714, "", "=q3=Batrider's Cord", "=ds=#s10#, #a2#", "", "22%"};
-			{ 19, 37717, "", "=q3=Legs of Physical Regeneration", "=ds=#s11#, #a4#", "", "22%"};
-			{ 20, 37712, "", "=q3=Terrace Defence Boots", "=ds=#s12#, #a4#", "", "22%"};
+			{ 1, 35620, "", "=q3=Berserker's Horns", "=ds=#s1#, #a2#", "", "33.3%"};
+			{ 2, 35619, "", "=q3=Infection Resistant Legguards", "=ds=#s11#, #a3#", "", "33.3%"};
+			{ 3, 35618, "", "=q3=Troll Butcherer", "=ds=#h2#, #w10#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37714, "", "=q3=Batrider's Cord", "=ds=#s10#, #a2#", "", "25%"};
+			{ 2, 37715, "", "=q3=Cowl of the Dire Troll", "=ds=#s1#, #a1#", "", "25%"};
+			{ 3, 37717, "", "=q3=Legs of Physical Regeneration", "=ds=#s11#, #a4#", "", "25%"};
+			{ 4, 37712, "", "=q3=Terrace Defence Boots", "=ds=#s12#, #a4#", "", "25%"};
 		};
 	};
 	info = {
@@ -537,17 +546,20 @@ AtlasLoot_Data["DrakTharonKeepTrollgore"] = {
 	};
 };
 
-AtlasLoot_Data["DrakTharonKeepNovos"] = {
+AtlasLoot_Data["DrakTharonKeepNovosTheSummoner"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35632, "", "=q3=Robes of Novos", "=ds=#s5#, #a1#", "", "32%"};
-			{ 3, 35631, "", "=q3=Crystal Pendant of Warding", "=ds=#s2#", "", "28%"};
-			{ 4, 35630, "", "=q3=Summoner's Stone Gavel", "=ds=#h1#, #w6#", "", "30%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37722, "", "=q3=Breastplate of Undeath", "=ds=#s5#, #a4#", "", "22%"};
-			{ 18, 37718, "", "=q3=Temple Crystal Fragment", "=ds=#s15#", "", "21%"};
-			{ 19, 37721, "", "=q3=Cursed Lich Blade", "=ds=#h3#, #w10#", "", "22%"};
+			{ 1, 35631, "", "=q3=Crystal Pendant of Warding", "=ds=#s2#", "", "33.3%"};
+			{ 2, 35632, "", "=q3=Robes of Novos", "=ds=#s5#, #a1#", "", "33.3%"};
+			{ 3, 35630, "", "=q3=Summoner's Stone Gavel", "=ds=#h1#, #w6#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37722, "", "=q3=Breastplate of Undeath", "=ds=#s5#, #a4#", "", "25%"};
+			{ 2, 37721, "", "=q3=Cursed Lich Blade", "=ds=#h3#, #w10#", "", "25%"};
+			{ 3, 40490, "", "=q3=Necromantic Wristguards", "=ds=#s8#, #a3#", "", "25%"};
+			{ 4, 37718, "", "=q3=Temple Crystal Fragment", "=ds=#s15#", "", "25%"};
 		};
 	};
 	info = {
@@ -560,16 +572,17 @@ AtlasLoot_Data["DrakTharonKeepNovos"] = {
 AtlasLoot_Data["DrakTharonKeepKingDred"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35635, "", "=q3=Stable Master's Breeches", "=ds=#s11#, #a1#", "", "28%"};
-			{ 3, 35634, "", "=q3=Scabrous-Hide Helm", "=ds=#s1#, #a2#", "", "28%"};
-			{ 4, 35633, "", "=q3=Staff of the Great Reptile", "=ds=#w9#", "", "31%"};
-			{ 6, 35633, "", "=q1=King Dred's Tooth", "=ds=#m3#", "", "100%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37725, "", "=q3=Savage Wound Wrap", "=ds=#s8#, #a1#", "", "21%"};
-			{ 18, 37724, "", "=q3=Handler's Arm Strap", "=ds=#s8#, #a2#", "", "21%"};
-			{ 19, 37726, "", "=q3=King Dred's Helm", "=ds=#s1#, #a3#", "", "21%"};
-			{ 20, 37723, "", "=q3=Incisor Fragment", "=ds=#s14#", "", "21%"};
+			{ 1, 35634, "", "=q3=Scabrous-Hide Helm", "=ds=#s1#, #a2#", "", "33.3%"};
+			{ 2, 35635, "", "=q3=Stable Master's Breeches", "=ds=#s11#, #a1#", "", "33.3%"};
+			{ 3, 35633, "", "=q3=Staff of the Great Reptile", "=ds=#w9#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37724, "", "=q3=Handler's Arm Strap", "=ds=#s8#, #a2#", "", "25%"};
+			{ 2, 37723, "", "=q3=Incisor Fragment", "=ds=#s14#", "", "25%"};
+			{ 3, 37726, "", "=q3=King Dred's Helm", "=ds=#s1#, #a3#", "", "25%"};
+			{ 4, 37725, "", "=q3=Savage Wound Wrap", "=ds=#s8#, #a1#", "", "25%"};
 		};
 	};
 	info = {
@@ -579,24 +592,27 @@ AtlasLoot_Data["DrakTharonKeepKingDred"] = {
 	};
 };
 
-AtlasLoot_Data["DrakTharonKeepTharonja"] = {
+AtlasLoot_Data["DrakTharonKeepTheProphetTharonja"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35638, "", "=q3=Helmet of Living Flesh", "=ds=#s1#, #a3#", "", "33%"};
-			{ 3, 35637, "", "=q3=Muradin's Lost Greaves", "=ds=#s11#, #a4#", "", "28%"};
-			{ 4, 35636, "", "=q3=Tharon'ja's Aegis", "=ds=#w8#", "", "30%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37798, "", "=q4=Overlook Handguards", "=ds=#s9#, #a1#", "", "19%"};
-			{ 18, 37791, "", "=q4=Leggings of the Winged Serpent", "=ds=#s11#, #a2#", "", "20%"};
-			{ 19, 37788, "", "=q4=Limb Regeneration Bracers", "=ds=#s8#, #a3#", "", "21%"};
-			{ 20, 37784, "", "=q4=Keystone Great-Ring", "=ds=#s13#", "", "19%"};
-			{ 22, 37735, "", "=q3=Ziggurat Imprinted Chestguard", "=ds=#s5#, #a4#", "", "21%"};
-			{ 23, 37732, "", "=q3=Spectral Seal of the Prophet", "=ds=#s13#", "", "20%"};
-			{ 24, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#", "", "21%"};
-			{ 25, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#", "", "21%"};
-			{ 26, 41795, "", "=q3=Design: Timeless Twilight Opal", "=ds=#p12# (390)", "", "14%"};
-			{ 27, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+			{ 1, 35638, "", "=q3=Helmet of Living Flesh", "=ds=#s1#, #a3#", "", "33.3%"};
+			{ 2, 35637, "", "=q3=Muradin's Lost Greaves", "=ds=#s11#, #a4#", "", "33.3%"};
+			{ 3, 35636, "", "=q3=Tharon'ja's Aegis", "=ds=#w8#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37784, "", "=q4=Keystone Great-Ring", "=ds=#s13#", "", "25%"};
+			{ 2, 37791, "", "=q4=Leggings of the Winged Serpent", "=ds=#s11#, #a2#", "", "25%"};
+			{ 3, 37788, "", "=q4=Limb Regeneration Bracers", "=ds=#s8#, #a3#", "", "25%"};
+			{ 4, 37733, "", "=q3=Mojo Masked Crusher", "=ds=#h2#, #w6#", "", "25%"};
+			{ 5, 37798, "", "=q4=Overlook Handguards", "=ds=#s9#, #a1#", "", "25%"};
+			{ 6, 37732, "", "=q3=Spectral Seal of the Prophet", "=ds=#s13#", "", "25%"};
+			{ 7, 37734, "", "=q3=Talisman of Troll Divinity", "=ds=#s14#", "", "25%"};
+			{ 8, 37735, "", "=q3=Ziggurat Imprinted Chestguard", "=ds=#s5#, #a4#", "", "25%"};
+			{ 10, 43670, "", "=q1=Prophet's Enchanted Tiki", "=ds=#m3#", "", "100%"};
+			{ 16, 41795, "", "=q3=Design: Timeless Twilight Opal", "=ds=#p12# (390)", "", "100%"};
+			{ 18, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -609,14 +625,12 @@ AtlasLoot_Data["DrakTharonKeepTharonja"] = {
 AtlasLoot_Data["DrakTharonKeepTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a2#", "", "1%"};
-			{ 3, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#", "", "1%"};
-			{ 4, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#", "", "1%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37799, "", "=q3=Reanimator's Cloak", "=ds=#s4#", "", "1%"};
-			{ 18, 37800, "", "=q3=Aviary Guardsman's Hauberk", "=ds=#s5#, #a3#", "", "1%"};
-			{ 19, 37801, "", "=q3=Waistguard of the Risen Knight", "=ds=#s10#, #a4#", "", "1%"};
+			{ 1, 37800, "", "=q3=Aviary Guardsman's Hauberk", "=ds=#s5#, #a3#", "", "0.1%"};
+			{ 2, 35639, "", "=q3=Brighthelm of Guarding", "=ds=#s1#, #a4#", "", "~1.8%"};
+			{ 3, 35640, "", "=q3=Darkweb Bindings", "=ds=#s8#, #a3#", "", "~1.6%"};
+			{ 4, 37799, "", "=q3=Reanimator's Cloak", "=ds=#s4#", "", "0.1%"};
+			{ 5, 35641, "", "=q3=Scytheclaw Boots", "=ds=#s12#, #a2#", "", "~1.4%"};
+			{ 6, 37801, "", "=q3=Waistguard of the Risen Knight", "=ds=#s10#, #a4#", "", "0.1%"};
 		};
 	};
 	info = {
