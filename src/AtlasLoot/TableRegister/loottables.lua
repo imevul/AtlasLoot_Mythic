@@ -102,17 +102,17 @@ AtlasLoot_LootTableRegister = {
 			["Bosses"] = {
 				{ "FoSBronjahm", 3 },
 				{ "FoSDevourer", 4 },
-				{ "FHTrashMobs", 12 },
+				{ "FrozenHallsTrash", 12 },
 			},
 			["Info"] = { BabbleZone["The Forge of Souls"], "AtlasLootWotLK", mapname = "TheForgeofSouls" },
 		},
 
 		["FHHallsOfReflection"] = {
 			["Bosses"] = {
-				{ "HoRFalric",   4 },
-				{ "HoRMarwyn",   5 },
-				{ "HoRLichKing", { 6, 7 } },
-				{ "FHTrashMobs", 13 },
+				{ "HallsOfReflectionFalric", 1 },
+				{ "HallsOfReflectionMarwyn", 2 },
+				{ "HallsOfReflectionTheLichKing", 3 },
+				{ "FrozenHallsTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Halls of Reflection"], "AtlasLootWotLK", mapname = "HallsofReflection" },
 		},
@@ -122,20 +122,19 @@ AtlasLoot_LootTableRegister = {
 				{ "PoSGarfrost", 4 },
 				{ "PoSKrickIck", 7 },
 				{ "PoSTyrannus", 8 },
-				{ "FHTrashMobs", 17 },
+				{ "FrozenHallsTrash", 17 },
 			},
 			["Info"] = { BabbleZone["Pit of Saron"], "AtlasLootWotLK", mapname = "PitofSaron" },
 		},
 
 		["Gundrak"] = {
 			["Bosses"] = {
-				{ "GundrakSladran",  3 },
-				{ "GundrakColossus", 4 },
-				{ "GundrakMoorabi",  5 },
-				{ "GundrakEck",      6 },
-				{ "GundrakGaldarah", 7 },
-				{ "LunarFestival",   8, hide = true },
-				{ "GundrakTrash",    10 },
+				{ "GundrakMoorabi", 1 },
+				{ "GundrakEckTheFerocious", 2 },
+				{ "GundrakDrakkariColossus", 3 },
+				{ "GundrakSladran", 4 },
+				{ "GundrakGaldarah", 5 },
+				{ "GundrakTrash", 6 },
 			},
 			["Info"] = { BabbleZone["Gundrak"], "AtlasLootWotLK", mapname = "Gundrak" },
 		},
@@ -187,11 +186,11 @@ AtlasLoot_LootTableRegister = {
 
 		["UlduarHallsofLightning"] = {
 			["Bosses"] = {
-				{ "HallsofLightningBjarngrim", 2 },
-				{ "HallsofLightningVolkhan",   3 },
-				{ "HallsofLightningIonar",     4 },
-				{ "HallsofLightningLoken",     5 },
-				{ "HallsofLightningTrash",     7 },
+				{ "HallsOfLightningGeneralBjarngrim", 1 },
+				{ "HallsOfLightningVolkhan", 2 },
+				{ "HallsOfLightningIonar", 3 },
+				{ "HallsOfLightningLoken", 4 },
+				{ "HallsOfLightningTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Halls of Lightning"], "AtlasLootWotLK", mapname = "HallsofLightning" },
 		},
