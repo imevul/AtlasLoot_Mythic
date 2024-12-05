@@ -119,10 +119,10 @@ AtlasLoot_LootTableRegister = {
 
 		["FHPitOfSaron"] = {
 			["Bosses"] = {
-				{ "PoSGarfrost", 4 },
-				{ "PoSKrickIck", 7 },
-				{ "PoSTyrannus", 8 },
-				{ "FrozenHallsTrash", 17 },
+				{ "PitOfSaronForgemasterGarfrost", 1 },
+				{ "PitOfSaronKrickAndIck", 1 },
+				{ "PitOfSaronScourgelordTyrannus", 1 },
+				{ "FrozenHallsTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Pit of Saron"], "AtlasLootWotLK", mapname = "PitofSaron" },
 		},
@@ -174,12 +174,11 @@ AtlasLoot_LootTableRegister = {
 
 		["UlduarHallsofStone"] = {
 			["Bosses"] = {
-				{ "HallsofStoneKrystallus", 2 },
-				{ "HallsofStoneMaiden",     3 },
-				{ "HallsofStoneTribunal",   { 4, 5 } },
-				{ "HallsofStoneSjonnir",    6 },
-				{ "LunarFestival",          7,       hide = true },
-				{ "HallsofStoneTrash",      10 },
+				{ "HallsOfStoneKrystallus", 1 },
+				{ "HallsOfStoneMaidenOfGrief", 2 },
+				{ "HallsOfStoneTribunalOfTheAges", 3 },
+				{ "HallsOfStoneSjonnirTheIronshaper", 4 },
+				{ "HallsOfStoneTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Halls of Stone"], "AtlasLootWotLK", mapname = "Ulduar77" },
 		},
