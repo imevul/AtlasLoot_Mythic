@@ -18,7 +18,7 @@ local moduleName = "AtlasLootWotLK"
 ---- Gundrak
 ---- Halls of Stone
 ---- Halls of Lightning
----- Caverns of Time: Old Stratholme
+---- Caverns of Time: The Culling of Stratholme
 ---- Utgarde Pinnacle
 ---- The Oculus
 ---- Vault of Archavon
@@ -1201,114 +1201,122 @@ AtlasLoot_Data["HallsOfLightningTrash"] = {
 	};
 };
 
----------------------------------------
---- Caverns of Time: Old Stratholme ---
----------------------------------------
+--------------------------------------------------
+--- Caverns of Time: The Culling of Stratholme ---
+--------------------------------------------------
 
-AtlasLoot_Data["CoTStratholmeMeathook"] = {
+AtlasLoot_Data["TheCullingOfStratholmeMeathook"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 37083, "", "=q3=Kilt of Sewn Flesh", "=ds=#s11#, #a2#", "", "23%"};
-			{ 3, 37082, "", "=q3=Slaughterhouse Sabatons", "=ds=#s12#, #a4#", "", "22%"};
-			{ 4, 37079, "", "=q3=Enchanted Wire Stitching", "=ds=#s13#", "", "23%"};
-			{ 5, 37081, "", "=q3=Meathook's Slicer", "=ds=#h1#, #w10#", "", "22%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37680, "", "=q3=Belt of Unified Souls", "=ds=#s10#, #a1#", "", "22%"};
-			{ 18, 37678, "", "=q3=Bile-Cured Gloves", "=ds=#s9#, #a2#", "", "22%"};
-			{ 19, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#", "", "21%"};
-			{ 20, 37675, "", "=q3=Legplates of Steel Implants", "=ds=#s11#, #a4#", "", "23%"};
+			{ 1, 37079, "", "=q3=Enchanted Wire Stitching", "=ds=#s13#", "", "25%"};
+			{ 2, 37083, "", "=q3=Kilt of Sewn Flesh", "=ds=#s11#, #a2#", "", "25%"};
+			{ 3, 37081, "", "=q3=Meathook's Slicer", "=ds=#h1#, #w10#", "", "25%"};
+			{ 4, 37082, "", "=q3=Slaughterhouse Sabatons", "=ds=#s12#, #a4#", "", "25%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37680, "", "=q3=Belt of Unified Souls", "=ds=#s10#, #a1#", "", "25%"};
+			{ 2, 37678, "", "=q3=Bile-Cured Gloves", "=ds=#s9#, #a2#", "", "25%"};
+			{ 3, 37675, "", "=q3=Legplates of Steel Implants", "=ds=#s11#, #a4#", "", "25%"};
+			{ 4, 37679, "", "=q3=Spaulders of the Abomination", "=ds=#s3#, #a3#", "", "25%"};
 		};
 	};
 	info = {
 		name = BabbleBoss["Meathook"],
 		module = moduleName,
-		instance = "CoTOldStratholme",
+		instance = "CoTCullingOfStratholme",
 	};
 };
 
-AtlasLoot_Data["CoTStratholmeSalramm"] = {
+AtlasLoot_Data["TheCullingOfStratholmeSalrammTheFleshcrafter"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 37084, "", "=q3=Flowing Cloak of Command", "=ds=#s4#", "", "22%"};
-			{ 3, 37095, "", "=q3=Waistband of the Thuzadin", "=ds=#s10#, #a3#", "", "23%"};
-			{ 4, 37088, "", "=q3=Spiked Metal Cilice", "=ds=#s10#, #a4#", "", "22%"};
-			{ 5, 37086, "", "=q3=Tome of Salramm", "=ds=#s15#", "", "23%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37684, "", "=q3=Forgotten Shadow Hood", "=ds=#s1#, #a1#", "", "22%"};
-			{ 18, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a4#", "", "22%"};
-			{ 19, 37683, "", "=q3=Necromancer's Amulet", "=ds=#s2#", "", "22%"};
-			{ 20, 37681, "", "=q3=Gavel of the Fleshcrafter", "=ds=#h3#, #w6#", "", "22%"};
+			{ 1, 37084, "", "=q3=Flowing Cloak of Command", "=ds=#s4#", "", "25%"};
+			{ 2, 37088, "", "=q3=Spiked Metal Cilice", "=ds=#s10#, #a4#", "", "25%"};
+			{ 3, 37086, "", "=q3=Tome of Salramm", "=ds=#s15#", "", "25%"};
+			{ 4, 37095, "", "=q3=Waistband of the Thuzadin", "=ds=#s10#, #a3#", "", "25%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37682, "", "=q3=Bindings of Dark Will", "=ds=#s8#, #a4#", "", "25%"};
+			{ 2, 37684, "", "=q3=Forgotten Shadow Hood", "=ds=#s1#, #a1#", "", "25%"};
+			{ 3, 37681, "", "=q3=Gavel of the Fleshcrafter", "=ds=#h3#, #w6#", "", "25%"};
+			{ 4, 37683, "", "=q3=Necromancer's Amulet", "=ds=#s2#", "", "25%"};
 		};
 	};
 	info = {
 		name = BabbleBoss["Salramm the Fleshcrafter"],
 		module = moduleName,
-		instance = "CoTOldStratholme",
+		instance = "CoTCullingOfStratholme",
 	};
 };
 
-AtlasLoot_Data["CoTStratholmeEpoch"] = {
+AtlasLoot_Data["TheCullingOfStratholmeChronoLordEpoch"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 37106, "", "=q3=Ouroboros Belt", "=ds=#s10#, #a2#", "", "23%"};
-			{ 3, 37105, "", "=q3=Treads of Altered History", "=ds=#s12#, #a3#", "", "24%"};
-			{ 4, 37096, "", "=q3=Necklace of the Chrono-Lord", "=ds=#s2#", "", "22%"};
-			{ 5, 37099, "", "=q3=Sempiternal Staff", "=ds=#w9#", "", "22%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37687, "", "=q3=Gloves of Distorted Time", "=ds=#s9#, #a1#", "", "23%"};
-			{ 18, 37686, "", "=q3=Cracked Epoch Grasps", "=ds=#s9#, #a3#", "", "23%"};
-			{ 19, 37688, "", "=q3=Legplates of the Infinite Drakonid", "=ds=#s11#, #a4#", "", "23%"};
-			{ 20, 37685, "", "=q3=Mobius Band", "=ds=#s13#", "", "23%"};
+			{ 1, 37096, "", "=q3=Necklace of the Chrono-Lord", "=ds=#s2#", "", "25%"};
+			{ 2, 37106, "", "=q3=Ouroboros Belt", "=ds=#s10#, #a2#", "", "25%"};
+			{ 3, 37099, "", "=q3=Sempiternal Staff", "=ds=#w9#", "", "25%"};
+			{ 4, 37105, "", "=q3=Treads of Altered History", "=ds=#s12#, #a3#", "", "25%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37686, "", "=q3=Cracked Epoch Grasps", "=ds=#s9#, #a3#", "", "25%"};
+			{ 2, 37687, "", "=q3=Gloves of Distorted Time", "=ds=#s9#, #a1#", "", "25%"};
+			{ 3, 37688, "", "=q3=Legplates of the Infinite Drakonid", "=ds=#s11#, #a4#", "", "25%"};
+			{ 4, 37685, "", "=q3=Mobius Band", "=ds=#s13#", "", "25%"};
 		};
 	};
 	info = {
 		name = BabbleBoss["Chrono-Lord Epoch"],
 		module = moduleName,
-		instance = "CoTOldStratholme",
+		instance = "CoTCullingOfStratholme",
 	};
 };
 
-AtlasLoot_Data["CoTStratholmeMalGanis"] = {
+AtlasLoot_Data["TheCullingOfStratholmeMalGanis"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 37113, "", "=q3=Demonic Fabric Bands", "=ds=#s8#, #a1#", "", "16%"};
-			{ 3, 37114, "", "=q3=Gloves of Northern Lordaeron", "=ds=#s9#, #a2#", "", "19%"};
-			{ 4, 37110, "", "=q3=Gauntlets of Dark Conversion", "=ds=#s9#, #a3#", "", "18%"};
-			{ 5, 37109, "", "=q3=Discarded Silver Hand Spaulders", "=ds=#s3#, #a4#", "", "18%"};
-			{ 6, 37111, "", "=q3=Soul Preserver", "=ds=#s14#", "", "14%"};
-			{ 7, 37108, "", "=q3=Dreadlord's Blade", "=ds=#h2#, #w10#", "", "16%"};
-			{ 8, 37112, "", "=q3=Beguiling Scepter", "=ds=#h3#, #w6#", "", "19%"};
-			{ 9, 37107, "", "=q3=Leeka's Shield", "=ds=#w8#", "", "18%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37696, "", "=q4=Plague-Infected Bracers", "=ds=#s8#, #a2#", "", "11%"};
-			{ 18, 37695, "", "=q4=Legguards of Nature's Power", "=ds=#s11#, #a3#", "", "11%"};
-			{ 19, 37694, "", "=q4=Band of Guile", "=ds=#s13#", "", "11%"};
-			{ 20, 37693, "", "=q4=Greed", "=ds=#h3#, #w13#", "", "11%"};
-			{ 21, 43085, "", "=q4=Royal Crest of Lordaeron", "=ds=#w8#", "", "10%"};
-			{ 22, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#", "", "14%"};
-			{ 23, 37690, "", "=q3=Pauldrons of Destiny", "=ds=#s3#, #a4#", "", "14%"};
-			{ 24, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#", "", "14%"};
-			{ 25, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#", "", "14%"};
-			{ 26, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+			{ 1, 37112, "", "=q3=Beguiling Scepter", "=ds=#h3#, #w6#", "", "12.5%"};
+			{ 2, 37113, "", "=q3=Demonic Fabric Bands", "=ds=#s8#, #a1#", "", "12.5%"};
+			{ 3, 37108, "", "=q3=Dreadlord's Blade", "=ds=#h2#, #w10#", "", "12.5%"};
+			{ 4, 37110, "", "=q3=Gauntlets of Dark Conversion", "=ds=#s9#, #a3#", "", "12.5%"};
+			{ 5, 37114, "", "=q3=Gloves of Northern Lordaeron", "=ds=#s9#, #a2#", "", "12.5%"};
+			{ 6, 37107, "", "=q3=Leeka's Shield", "=ds=#w8#", "", "12.5%"};
+			{ 7, 37111, "", "=q3=Soul Preserver", "=ds=#s14#", "", "12.5%"};
+		}
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37691, "", "=q3=Mantle of Deceit", "=ds=#s3#, #a1#", "", "25%"};
+			{ 2, 37690, "", "=q3=Pauldrons of Destiny", "=ds=#s3#, #a4#", "", "25%"};
+			{ 3, 37689, "", "=q3=Pendant of the Nathrezim", "=ds=#s2#", "", "25%"};
+			{ 4, 37692, "", "=q3=Pierce's Pistol", "=ds=#w5#", "", "25%"};
+			{ 5, 37694, "", "=q4=Band of Guile", "=ds=#s13#", "", "20%"};
+			{ 6, 37693, "", "=q4=Greed", "=ds=#h3#, #w13#", "", "20%"};
+			{ 7, 37695, "", "=q4=Legguards of Nature's Power", "=ds=#s11#, #a3#", "", "20%"};
+			{ 8, 37696, "", "=q4=Plague-Infected Bracers", "=ds=#s8#, #a2#", "", "20%"};
+			{ 9, 43085, "", "=q4=Royal Crest of Lordaeron", "=ds=#w8#", "", "20%"};
+			{ 11, 43697, "", "=q1=Artifact from the Nathrezim Homeworld", "=ds=#m3#", "", "100%"};
+			{ 16, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		}
 	};
 	info = {
 		name = BabbleBoss["Mal'Ganis"],
 		module = moduleName,
-		instance = "CoTOldStratholme",
+		instance = "CoTCullingOfStratholme",
 	};
 };
 
-AtlasLoot_Data["CoTStratholmeTrash"] = {
+AtlasLoot_Data["TheCullingOfStratholmeTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 37117, "", "=q3=King's Square Bracers", "=ds=#s8#, #a2#", "", "1%"};
-			{ 2, 37116, "", "=q3=Epaulets of Market Row", "=ds=#s3#, #a3#", "", "1%"};
-			{ 3, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#", "", "1%"};
+			{ 1, 37115, "", "=q3=Crusader's Square Pauldrons", "=ds=#s3#, #a4#", "", "~1.6%"};
+			{ 2, 37116, "", "=q3=Epaulets of Market Row", "=ds=#s3#, #a3#", "", "~1.45%"};
+			{ 3, 37117, "", "=q3=King's Square Bracers", "=ds=#s8#, #a2#", "", "~1.7%"};
 			{ 16, 0, "inv_box_04", "=q6="..BabbleBoss["Infinite Corruptor"], "#ACHIEVEMENTID:1817#"};
 			{ 17, 43951, "", "=q4=Reins of the Bronze Drake", "=ds=#e27#", "", "100%"};
 		}
@@ -1316,7 +1324,7 @@ AtlasLoot_Data["CoTStratholmeTrash"] = {
 	info = {
 		name = AL["Trash Mobs"],
 		module = moduleName,
-		instance = "CoTOldStratholme",
+		instance = "CoTCullingOfStratholme",
 	};
 };
 
@@ -6293,27 +6301,29 @@ AtlasLoot_Data["Onyxia"] = {
 --- The Forge of Souls ---
 --------------------------
 
-AtlasLoot_Data["FoSBronjahm"] = {
+AtlasLoot_Data["ForgeOfSoulsBronjahm"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 49788, "", "=q4=Cold Sweat Grips", "=ds=#s9#, #a1#"};
-			{ 3, 49785, "", "=q4=Bewildering Shoulderpads", "=ds=#s3#, #a2#"};
-			{ 4, 49786, "", "=q4=Robes of the Cheating Heart", "=ds=#s5#, #a2#"};
-			{ 5, 49787, "", "=q4=Seven Stormy Mornings", "=ds=#s8#, #a3#"};
-			{ 6, 49784, "", "=q4=Minister's Number One Legplates", "=ds=#s11#, #a4#"};
-			{ 7, 49783, "", "=q4=Lucky Old Sun", "=ds=#h1#, #w6#"};
-			{ 9, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#"};
-			{ 10, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 50193, "", "=q4=Very Fashionable Shoulders", "=ds=#s3#, #a1#"};
-			{ 18, 50197, "", "=q4=Eyes of Bewilderment", "=ds=#s1#, #a3#"};
-			{ 19, 50194, "", "=q4=Weeping Gauntlets", "=ds=#s9#, #a4#"};
-			{ 20, 50196, "", "=q4=Love's Prisoner", "=ds=#s2#"};
-			{ 21, 50191, "", "=q4=Nighttime", "=ds=#h1#, #w1#"};
-			{ 22, 50169, "", "=q4=Papa's Brand New Knife", "=ds=#w11#"};
-			{ 24, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#"};
-			{ 25, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#"};
+			{ 1, 49785, "", "=q4=Bewildering Shoulderpads", "=ds=#s3#, #a2#", "", "16.7%"};
+			{ 2, 49788, "", "=q4=Cold Sweat Grips", "=ds=#s9#, #a1#", "", "16.7%"};
+			{ 3, 49783, "", "=q4=Lucky Old Sun", "=ds=#h1#, #w6#", "", "16.7%"};
+			{ 4, 49784, "", "=q4=Minister's Number One Legplates", "=ds=#s11#, #a4#", "", "16.7%"};
+			{ 5, 49786, "", "=q4=Robes of the Cheating Heart", "=ds=#s5#, #a2#", "", "16.7%"};
+			{ 6, 49787, "", "=q4=Seven Stormy Mornings", "=ds=#s8#, #a3#", "", "16.7%"};
+			{ 16, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#", "", "38.5%"};
+			{ 17, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#", "", "8.5%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 50197, "", "=q4=Eyes of Bewilderment", "=ds=#s1#, #a3#", "", "16.7%"};
+			{ 2, 50196, "", "=q4=Love's Prisoner", "=ds=#s2#", "", "16.7%"};
+			{ 3, 50191, "", "=q4=Nighttime", "=ds=#h1#, #w1#", "", "16.7%"};
+			{ 4, 50169, "", "=q4=Papa's Brand New Knife", "=ds=#w11#", "", "16.7%"};
+			{ 5, 50193, "", "=q4=Very Fashionable Shoulders", "=ds=#s3#, #a1#", "", "16.7%"};
+			{ 6, 50194, "", "=q4=Weeping Gauntlets", "=ds=#s9#, #a4#", "", "16.7%"};
+			{ 16, 50317, "", "=q4=Papa's New Bag", "=ds=#e1#", "", "38.5%"};
+			{ 17, 50316, "", "=q4=Papa's Brand New Bag", "=ds=#e1#", "", "8.5%"};
 		};
 	};
 	info = {
@@ -6323,37 +6333,38 @@ AtlasLoot_Data["FoSBronjahm"] = {
 	};
 }
 
-AtlasLoot_Data["FoSDevourer"] = {
+AtlasLoot_Data["ForgeOfSoulsDevourerOfSouls"] = {
 	["Normal"] = {
 		{
-			{ 1, 49792, "", "=q4=Accursed Crawling Cape", "=ds=#s4#"};
-			{ 2, 49796, "", "=q4=Essence of Anger", "=ds=#s10#, #a1#"};
-			{ 3, 49798, "", "=q4=Soul Screaming Boots", "=ds=#s12#, #a3#"};
-			{ 4, 49791, "", "=q4=Lost Reliquary Chestguard", "=ds=#s5#, #a4#"};
-			{ 5, 49797, "", "=q4=Brace Guards of the Starless Night", "=ds=#s8#, #a4#"};
-			{ 6, 49794, "", "=q4=Legplates of Frozen Granite", "=ds=#s11#, #a4#"};
-			{ 7, 49795, "", "=q4=Sollerets of Suffering", "=ds=#s12#, #a4#"};
-			{ 16, 49799, "", "=q4=Coil of Missing Gems", "=ds=#s2#"};
-			{ 17, 49800, "", "=q4=Spiteful Signet", "=ds=#s13#"};
-			{ 19, 49789, "", "=q4=Heartshiver", "=ds=#h1#, #w4#"};
-			{ 20, 49790, "", "=q4=Blood Boil Lancet", "=ds=#w9#"};
-			{ 21, 49793, "", "=q4=Tower of the Mouldering Corpse", "=ds=#w9#"};
+			{ 1, 49792, "", "=q4=Accursed Crawling Cape", "=ds=#s4#", "", "8.3%"};
+			{ 2, 49790, "", "=q4=Blood Boil Lancet", "=ds=#w9#", "", "8.3%"};
+			{ 3, 49797, "", "=q4=Brace Guards of the Starless Night", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 4, 49799, "", "=q4=Coil of Missing Gems", "=ds=#s2#", "", "8.3%"};
+			{ 5, 49796, "", "=q4=Essence of Anger", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 6, 49789, "", "=q4=Heartshiver", "=ds=#h1#, #w4#", "", "8.3%"};
+			{ 7, 49794, "", "=q4=Legplates of Frozen Granite", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 8, 49791, "", "=q4=Lost Reliquary Chestguard", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 9, 49795, "", "=q4=Sollerets of Suffering", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 10, 49798, "", "=q4=Soul Screaming Boots", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 11, 49800, "", "=q4=Spiteful Signet", "=ds=#s13#", "", "8.3%"};
+			{ 12, 49793, "", "=q4=Tower of the Mouldering Corpse", "=ds=#w9#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 50213, "", "=q4=Mord'rethar Robes", "=ds=#s5#, #a1#"};
-			{ 2, 50206, "", "=q4=Frayed Scoundrel's Cap", "=ds=#s1#, #a2#"};
-			{ 3, 50212, "", "=q4=Essence of Desire", "=ds=#s9#, #a2#"};
-			{ 4, 50214, "", "=q4=Helm of the Spirit Shock", "=ds=#s1#, #a3#"};
-			{ 5, 50209, "", "=q4=Essence of Suffering", "=ds=#s8#, #a3#"};
-			{ 6, 50208, "", "=q4=Pauldrons of the Devourer", "=ds=#s3#, #a4#"};
-			{ 7, 50207, "", "=q4=Black Spire Sabatons", "=ds=#s12#, #a4#"};
-			{ 8, 50215, "", "=q4=Recovered Reliquary Boots", "=ds=#s12#, #a4#"};
-			{ 16, 50211, "", "=q4=Arcane Loops of Anger", "=ds=#s2#"};
-			{ 17, 50198, "", "=q4=Needle-Encrusted Scorpion", "=ds=#s14#"};
-			{ 19, 50203, "", "=q4=Blood Weeper", "=ds=#h1#, #w4#"};
-			{ 20, 50210, "", "=q4=Seethe", "=ds=#h3#, #w10#"};
+			{ 1, 50211, "", "=q4=Arcane Loops of Anger", "=ds=#s2#", "", "8.3%"};
+			{ 2, 50207, "", "=q4=Black Spire Sabatons", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 3, 50203, "", "=q4=Blood Weeper", "=ds=#h1#, #w4#", "", "8.3%"};
+			{ 4, 50212, "", "=q4=Essence of Desire", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 5, 50209, "", "=q4=Essence of Suffering", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 6, 50206, "", "=q4=Frayed Scoundrel's Cap", "=ds=#s1#, #a2#", "", "8.3%"};
+			{ 7, 50214, "", "=q4=Helm of the Spirit Shock", "=ds=#s1#, #a3#", "", "8.3%"};
+			{ 8, 50213, "", "=q4=Mord'rethar Robes", "=ds=#s5#, #a1#", "", "8.3%"};
+			{ 9, 50198, "", "=q4=Needle-Encrusted Scorpion", "=ds=#s14#", "", "8.3%"};
+			{ 10, 50208, "", "=q4=Pauldrons of the Devourer", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 11, 50215, "", "=q4=Recovered Reliquary Boots", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 12, 50210, "", "=q4=Seethe", "=ds=#h3#, #w10#", "", "8.3%"};
+			{ 16, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
