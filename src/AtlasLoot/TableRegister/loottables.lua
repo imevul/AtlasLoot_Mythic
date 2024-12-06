@@ -75,14 +75,13 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["Azjol-Nerub"], "AtlasLootWotLK", mapname = "AzjolNerub" },
 		},
 
-		["CoTOldStratholme"] = {
+		["CoTCullingOfStratholme"] = {
 			["Bosses"] = {
-				{ "CoTStratholmeMeathook", 5 },
-				{ "CoTStratholmeSalramm",  6 },
-				{ "CoTStratholmeEpoch",    7 },
-				{ "CoTStratholmeTrash",    8, hide = true },
-				{ "CoTStratholmeMalGanis", 10 },
-				{ "CoTStratholmeTrash",    14 },
+				{ "TheCullingOfStratholmeMeathook", 1 },
+				{ "TheCullingOfStratholmeSalrammTheFleshcrafter", 2 },
+				{ "TheCullingOfStratholmeChronoLordEpoch", 3 },
+				{ "TheCullingOfStratholmeMalGanis", 4 },
+				{ "TheCullingOfStratholmeTrash", 5 },
 			},
 			["Info"] = { BabbleZone["The Culling of Stratholme"], "AtlasLootWotLK", mapname = "CoTStratholme" },
 		},
@@ -100,9 +99,9 @@ AtlasLoot_LootTableRegister = {
 
 		["FHTheForgeOfSouls"] = {
 			["Bosses"] = {
-				{ "FoSBronjahm", 3 },
-				{ "FoSDevourer", 4 },
-				{ "FrozenHallsTrash", 12 },
+				{ "ForgeOfSoulsBronjahm", 1 },
+				{ "ForgeOfSoulsDevourerOfSouls", 2 },
+				{ "FrozenHallsTrash", 3 },
 			},
 			["Info"] = { BabbleZone["The Forge of Souls"], "AtlasLootWotLK", mapname = "TheForgeofSouls" },
 		},
