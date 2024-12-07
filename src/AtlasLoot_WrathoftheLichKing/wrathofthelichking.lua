@@ -177,76 +177,13 @@ AtlasLoot_Data["UtgardeKeepTrash"] = {
 --- The Nexus ---
 -----------------
 
-AtlasLoot_Data["TheNexusOrmorok"] = {
-	["Normal"] = {
-		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#", "", "30%"};
-			{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#", "", "32%"};
-			{ 4, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#", "", "33%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#", "", "21%"};
-			{ 18, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#", "", "22%"};
-			{ 19, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#", "", "22%"};
-			{ 20, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#", "", "22%"};
-		};
-	};
-	info = {
-		name = BabbleBoss["Ormorok the Tree-Shaper"],
-		module = moduleName,
-		instance = "TheNexus",
-	};
-};
-
-AtlasLoot_Data["TheNexusAnomalus"] = {
-	["Normal"] = {
-		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#", "", "31%"};
-			{ 3, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#", "", "29%" };
-			{ 4, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#", "", "29%" };
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#", "", "21%"};
-			{ 18, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#", "", "22%"};
-			{ 19, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#", "", "22%"};
-			{ 20, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#", "", "21%"};
-		};
-	};
-	info = {
-		name = BabbleBoss["Anomalus"],
-		module = moduleName,
-		instance = "TheNexus",
-	};
-};
-
-AtlasLoot_Data["TheNexusTelestra"] = {
-	["Normal"] = {
-		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#", "", "29%" };
-			{ 3, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#", "", "29%" };
-			{ 4, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#", "", "28%" };
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#", "", "21%"};
-			{ 18, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#", "", "21%" };
-			{ 19, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#", "", "21%" };
-			{ 20, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "20%" };
-		};
-	};
-	info = {
-		name = BabbleBoss["Grand Magus Telestra"],
-		module = moduleName,
-		instance = "TheNexus",
-	};
-};
-
-AtlasLoot_Data["TheNexusKolurgStoutbeard"] = {
+AtlasLoot_Data["TheNexusCommander"] = {
 	["Heroic"] = {
 		{
-			{ 1, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#", "", "20%"};
-			{ 2, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#", "", "20%"};
-			{ 3, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#", "", "19%"};
-			{ 4, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#", "", "20%"};
+			{ 1, 37730, "", "=q3=Cleric's Linen Shoes", "=ds=#s12#, #a1#", "", "25%"};
+			{ 2, 37728, "", "=q3=Cloak of the Enemy", "=ds=#s4#", "", "25%"};
+			{ 3, 37729, "", "=q3=Grips of Sculptured Icicles", "=ds=#s9#, #a4#", "", "25%"};
+			{ 4, 37731, "", "=q3=Opposed Stasis Leggings", "=ds=#s11#, #a1#", "", "25%"};
 		};
 	};
 	info = {
@@ -256,27 +193,117 @@ AtlasLoot_Data["TheNexusKolurgStoutbeard"] = {
 	};
 };
 
+AtlasLoot_Data["TheNexusGrandMagusTelestra"] = {
+	["Normal"] = {
+		{
+			{ 1, 35605, "", "=q3=Belt of Draconic Runes", "=ds=#s10#, #a2#", "", "33.3%" };
+			{ 2, 35604, "", "=q3=Insulating Bindings", "=ds=#s8#, #a4#", "", "33.3%" };
+			{ 3, 35617, "", "=q3=Wand of Shimmering Scales", "=ds=#w12#", "", "33.3%" };
+			{ 5, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q1=" .. AL["Feast of Winter Veil"], "", "100%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37135, "", "=q3=Arcane-Shielded Helm", "=ds=#s1#, #a4#", "", "25%" };
+			{ 2, 37138, "", "=q3=Bands of Channeled Energy", "=ds=#s8#, #a3#", "", "25%" };
+			{ 3, 37139, "", "=q3=Spaulders of the Careless Thief", "=ds=#s3#, #a2#", "", "25%"};
+			{ 4, 37134, "", "=q3=Telestra's Journal", "=ds=#s15#", "", "25%" };
+			{ 6, 21524, "", "=q2=Red Winter Hat", "=ds=#s1#, #a1# =q1=" .. AL["Feast of Winter Veil"], "", "100%"};
+		};
+	};
+	info = {
+		name = BabbleBoss["Grand Magus Telestra"],
+		module = moduleName,
+		instance = "TheNexus",
+	};
+};
+
+AtlasLoot_Data["TheNexusAnomalus"] = {
+	["Normal"] = {
+		{
+			{ 1, 35600, "", "=q3=Cleated Ice Boots", "=ds=#s12#, #a3#", "", "33.3%" };
+			{ 2, 35599, "", "=q3=Gauntlets of Serpent Scales", "=ds=#s9#, #a3#", "", "33.3%"};
+			{ 3, 35598, "", "=q3=Tome of the Lore Keepers", "=ds=#s15#", "", "33.3%" };
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37141, "", "=q3=Amulet of Dazzling Light", "=ds=#s2#", "", "25%"};
+			{ 2, 37144, "", "=q3=Hauberk of the Arcane Wraith", "=ds=#s5#, #a3#", "", "25%"};
+			{ 3, 37149, "", "=q3=Helm of Anomalus", "=ds=#s1#, #a2#", "", "25%"};
+			{ 4, 37150, "", "=q3=Rift Striders", "=ds=#s12#, #a4#", "", "25%"};
+		};
+	};
+	info = {
+		name = BabbleBoss["Anomalus"],
+		module = moduleName,
+		instance = "TheNexus",
+	};
+};
+
+AtlasLoot_Data["TheNexusOrmorokTheTreeShaper"] = {
+	["Normal"] = {
+		{
+			{ 1, 35602, "", "=q3=Chiseled Stalagmite Pauldrons", "=ds=#s3#, #a4#", "", "33.3%"};
+			{ 2, 35601, "", "=q3=Drakonid Arm Blade", "=ds=#h4#, #w13#", "", "33.3%"};
+			{ 3, 35603, "", "=q3=Greaves of the Blue Flight", "=ds=#s12#, #a4#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37151, "", "=q3=Band of Frosted Thorns", "=ds=#s13#", "", "25%"};
+			{ 2, 37155, "", "=q3=Frozen Forest Kilt", "=ds=#s11#, #a3#", "", "25%"};
+			{ 3, 37152, "", "=q3=Girdle of Ice", "=ds=#s10#, #a4#", "", "25%"};
+			{ 4, 37153, "", "=q3=Gloves of the Crystal Gardener", "=ds=#s9#, #a1#", "", "25%"};
+		};
+	};
+	info = {
+		name = BabbleBoss["Ormorok the Tree-Shaper"],
+		module = moduleName,
+		instance = "TheNexus",
+	};
+};
+
 AtlasLoot_Data["TheNexusKeristrasza"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#", "", "29%"};
-			{ 3, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#", "", "30%"};
-			{ 4, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s13#", "", "30%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#", "", "19%"};
-			{ 18, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#", "", "20%"};
-			{ 19, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#", "", "19%"};
-			{ 20, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#", "", "18%"};
-			{ 21, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#", "", "20%"};
-			{ 22, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#", "", "20%"};
-			{ 23, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#", "", "20%"};
-			{ 24, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "20%"};
-			{ 25, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+			{ 1, 35596, "", "=q3=Attuned Crystalline Boots", "=ds=#s12#, #a1#", "", "33.3%"};
+			{ 2, 35597, "", "=q3=Band of Glittering Permafrost", "=ds=#s13#", "", "33.3%"};
+			{ 3, 35595, "", "=q3=Glacier Sharpened Vileblade", "=ds=#h1#, #w4#", "", "33.3%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37162, "", "=q3=Bulwark of the Noble Protector", "=ds=#w8#", "", "25%"};
+			{ 2, 37165, "", "=q3=Crystal-Infused Tunic", "=ds=#s5#, #a2#", "", "25%"};
+			{ 3, 37167, "", "=q3=Dragon Slayer's Sabatons", "=ds=#s12#, #a3#", "", "25%"};
+			{ 4, 37171, "", "=q4=Flame-Bathed Steel Girdle", "=ds=#s10#, #a4#", "", "25%"};
+			{ 5, 37172, "", "=q4=Gloves of Glistening Runes", "=ds=#s9#, #a1#", "", "25%"};
+			{ 6, 37170, "", "=q4=Interwoven Scale Bracers", "=ds=#s8#, #a3#", "", "25%"};
+			{ 7, 37166, "", "=q3=Sphere of Red Dragon's Blood", "=ds=#s14#", "", "25%"};
+			{ 8, 37169, "", "=q4=War Mace of Unrequited Love", "=ds=#h3#, #w6#", "", "25%"};
+			{ 10, 43665, "", "=q1=Keristrasza's Broken Heart", "=ds=#m3#", "", "100%"};
+			{ 16, 41794, "", "=q3=Design: Deadly Monarch Topaz", "=ds=#p12# (390)", "", "100%"};
+			{ 18, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
 		name = BabbleBoss["Keristrasza"],
+		module = moduleName,
+		instance = "TheNexus",
+	};
+};
+
+AtlasLoot_Data["TheNexusTrash"] = {
+	["Normal"] = {
+		{
+			{ 1, 37365, "", "=q3=Bands of the Sky Ring", "=ds=#s8#, #a3#", "", "0.1%"};
+			{ 2, 37366, "", "=q3=Drake-Champion's Bracers", "=ds=#s8#, #a2#", "", "0.1%"};
+			{ 3, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#", "", "0.1%"};
+		};
+	};
+	info = {
+		name = AL["Trash Mobs"],
 		module = moduleName,
 		instance = "TheNexus",
 	};
@@ -1456,19 +1483,21 @@ AtlasLoot_Data["UPTrash"] = {
 --- The Oculus ---
 ------------------
 
-AtlasLoot_Data["OcuDrakos"] = {
+AtlasLoot_Data["TheOculusDrakosTheInterrogator"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 36945, "", "=q3=Verdisa's Cuffs of Dreaming", "=ds=#s8#, #a1#", "", "21%"};
-			{ 3, 36946, "", "=q3=Runic Cage Chestpiece", "=ds=#s5#, #a3#", "", "23%"};
-			{ 4, 36943, "", "=q3=Timeless Beads of Eternos", "=ds=#s2#", "", "21%"};
-			{ 5, 36944, "", "=q3=Lifeblade of Belgaristrasz", "=ds=#h1#, #w4#", "", "25%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37258, "", "=q3=Drakewing Raiments", "=ds=#s5#, #a1#", "", "22%"};
-			{ 18, 37256, "", "=q3=Scaled Armor of Drakos", "=ds=#s5#, #a3#", "", "23%"};
-			{ 19, 37257, "", "=q3=Band of Torture", "=ds=#s13#", "", "23%"};
-			{ 20, 37255, "", "=q3=The Interrogator", "=ds=#h1#, #w10#", "", "23%"};
+			{ 1, 36944, "", "=q3=Lifeblade of Belgaristrasz", "=ds=#h1#, #w4#", "", "25%"};
+			{ 2, 36946, "", "=q3=Runic Cage Chestpiece", "=ds=#s5#, #a3#", "", "25%"};
+			{ 3, 36943, "", "=q3=Timeless Beads of Eternos", "=ds=#s2#", "", "25%"};
+			{ 4, 36945, "", "=q3=Verdisa's Cuffs of Dreaming", "=ds=#s8#, #a1#", "", "25%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37257, "", "=q3=Band of Torture", "=ds=#s13#", "", "25%"};
+			{ 2, 37258, "", "=q3=Drakewing Raiments", "=ds=#s5#, #a1#", "", "25%"};
+			{ 3, 37256, "", "=q3=Scaled Armor of Drakos", "=ds=#s5#, #a3#", "", "25%"};
+			{ 4, 37255, "", "=q3=The Interrogator", "=ds=#h1#, #w10#", "", "25%"};
 		};
 	};
 	info = {
@@ -1478,19 +1507,21 @@ AtlasLoot_Data["OcuDrakos"] = {
 	};
 };
 
-AtlasLoot_Data["OcuCloudstrider"] = {
+AtlasLoot_Data["TheOculusVarosCloudstrider"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 36947, "", "=q3=Centrifuge Core Cloak", "=ds=#s4#", "", "21%"};
-			{ 3, 36949, "", "=q3=Gloves of the Azure-Lord", "=ds=#s9#, #a1#", "", "21%"};
-			{ 4, 36948, "", "=q3=Horned Helm of Varos", "=ds=#s1#, #a2#", "", "22%"};
-			{ 5, 36950, "", "=q3=Wing Commander's Breastplate", "=ds=#s5#, #a4#", "", "23%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37261, "", "=q3=Gloves of Radiant Light", "=ds=#s9#, #a2#", "", "22%"};
-			{ 18, 37262, "", "=q3=Azure Ringmail Leggings", "=ds=#s11#, #a3#", "", "21%"};
-			{ 19, 37263, "", "=q3=Legplates of the Oculus Guardian", "=ds=#s11#, #a4#", "", "21%"};
-			{ 20, 37260, "", "=q3=Cloudstrider's Waraxe", "=ds=#h1#, #w1#", "", "21%"};
+			{ 1, 36947, "", "=q3=Centrifuge Core Cloak", "=ds=#s4#", "", "25%"};
+			{ 2, 36949, "", "=q3=Gloves of the Azure-Lord", "=ds=#s9#, #a1#", "", "25%"};
+			{ 3, 36948, "", "=q3=Horned Helm of Varos", "=ds=#s1#, #a2#", "", "25%"};
+			{ 4, 36950, "", "=q3=Wing Commander's Breastplate", "=ds=#s5#, #a4#", "", "25%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37262, "", "=q3=Azure Ringmail Leggings", "=ds=#s11#, #a3#", "", "25%"};
+			{ 2, 37260, "", "=q3=Cloudstrider's Waraxe", "=ds=#h1#, #w1#", "", "25%"};
+			{ 3, 37261, "", "=q3=Gloves of Radiant Light", "=ds=#s9#, #a2#", "", "25%"};
+			{ 4, 37263, "", "=q3=Legplates of the Oculus Guardian", "=ds=#s11#, #a4#", "", "25%"};
 		};
 	};
 	info = {
@@ -1500,19 +1531,23 @@ AtlasLoot_Data["OcuCloudstrider"] = {
 	};
 };
 
-AtlasLoot_Data["OcuUrom"] = {
+AtlasLoot_Data["TheOculusMageLordUrom"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 36954, "", "=q3=The Conjurer's Slippers", "=ds=#s12#, #a1#", "", "21%"};
-			{ 3, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a2#", "", "20%"};
-			{ 4, 36953, "", "=q3=Spaulders of Skillful Maneuvers", "=ds=#s3#, #a3#", "", "21%"};
-			{ 5, 36952, "", "=q3=Girdle of Obscuring", "=ds=#s10#, #a4#", "", "18%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37289, "", "=q3=Sash of Phantasmal Images", "=ds=#s10#, #a1#", "", "18%"};
-			{ 18, 37288, "", "=q3=Catalytic Bands", "=ds=#s8#, #a4#", "", "18%"};
-			{ 19, 37195, "", "=q3=Band of Enchanted Growth", "=ds=#s13#", "", "20%"};
-			{ 20, 37264, "", "=q3=Pendulum of Telluric Currents", "=ds=#s14#", "", "20%"};
+			{ 1, 36952, "", "=q3=Girdle of Obscuring", "=ds=#s10#, #a4#", "", "25%"};
+			{ 2, 36951, "", "=q3=Sidestepping Handguards", "=ds=#s9#, #a2#", "", "25%"};
+			{ 3, 36953, "", "=q3=Spaulders of Skillful Maneuvers", "=ds=#s3#, #a3#", "", "25%"};
+			{ 4, 36954, "", "=q3=The Conjurer's Slippers", "=ds=#s12#, #a1#", "", "25%"};
+			{ 6, 21525, "", "=q2=Green Winter Hat", "=ds=#s1#, #a1# =q1=" .. AL["Feast of Winter Veil"], "", "100%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37195, "", "=q3=Band of Enchanted Growth", "=ds=#s13#", "", "25%"};
+			{ 2, 37288, "", "=q3=Catalytic Bands", "=ds=#s8#, #a4#", "", "25%"};
+			{ 3, 37264, "", "=q3=Pendulum of Telluric Currents", "=ds=#s14#", "", "25%"};
+			{ 4, 37289, "", "=q3=Sash of Phantasmal Images", "=ds=#s10#, #a1#", "", "25%"};
+			{ 6, 21525, "", "=q2=Green Winter Hat", "=ds=#s1#, #a1# =q1=" .. AL["Feast of Winter Veil"], "", "100%"};
 		};
 	};
 	info = {
@@ -1522,30 +1557,34 @@ AtlasLoot_Data["OcuUrom"] = {
 	};
 };
 
-AtlasLoot_Data["OcuEregos"] = {
+AtlasLoot_Data["TheOculusLeyGuardianEregos"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 36973, "", "=q3=Vestments of the Scholar", "=ds=#s5#, #a1#", "", "18%"};
-			{ 3, 36971, "", "=q3=Headguard of Westrift", "=ds=#s1#, #a3#", "", "17%"};
-			{ 4, 36969, "", "=q3=Helm of the Ley-Guardian", "=ds=#s1#, #a4#", "", "14%"};
-			{ 5, 36974, "", "=q3=Eredormu's Ornamented Chestguard", "=ds=#s5#, #a4#", "", "18%"};
-			{ 6, 36961, "", "=q3=Dragonflight Great-Ring", "=ds=#s13#", "", "17%"};
-			{ 7, 36972, "", "=q3=Tome of Arcane Phenomena", "=ds=#s14#", "", "15%"};
-			{ 8, 36962, "", "=q3=Wyrmclaw Battleaxe", "=ds=#h2#, #w1#", "", "17%"};
-			{ 9, 36975, "", "=q3=Malygos's Favor", "=ds=#w9#", "", "17%"};
-			{ 10, 41798, "", "=q3=Design: Bracing Earthsiege Diamond", "=ds=#p12# (420)", "", "7%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37361, "", "=q4=Cuffs of Winged Levitation", "=ds=#s8#, #a1#", "", "14%"};
-			{ 18, 37363, "", "=q4=Gauntlets of Dragon Wrath", "=ds=#s9#, #a4#", "", "13%"};
-			{ 19, 37362, "", "=q4=Leggings of Protective Auras", "=ds=#s11#, #a4#", "", "13%"};
-			{ 20, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#", "", "14%"};
-			{ 21, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#", "", "14%"};
-			{ 22, 37294, "", "=q3=Crown of Unbridled Magic", "=ds=#s1#, #a1#", "", "14%"};
-			{ 23, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#", "", "15%"};
-			{ 24, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#", "", "15%"};
-			{ 25, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
-			{ 27, 52676, "", "=q2=Cache of the Ley-Guardian", "=ds="..AL["Random Heroic Reward"]};
+			{ 1, 36961, "", "=q3=Dragonflight Great-Ring", "=ds=#s13#", "", "12.5%"};
+			{ 2, 36974, "", "=q3=Eregos' Ornamented Chestguard", "=ds=#s5#, #a4#", "", "12.5%"};
+			{ 3, 36971, "", "=q3=Headguard of Westrift", "=ds=#s1#, #a3#", "", "12.5%"};
+			{ 4, 36969, "", "=q3=Helm of the Ley-Guardian", "=ds=#s1#, #a4#", "", "12.5%"};
+			{ 5, 36975, "", "=q3=Malygos's Favor", "=ds=#w9#", "", "12.5%"};
+			{ 6, 36972, "", "=q3=Tome of Arcane Phenomena", "=ds=#s14#", "", "12.5%"};
+			{ 7, 36973, "", "=q3=Vestments of the Scholar", "=ds=#s5#, #a1#", "", "12.5%"};
+			{ 8, 36962, "", "=q3=Wyrmclaw Battleaxe", "=ds=#h2#, #w1#", "", "12.5%"};
+			{ 16, 41798, "", "=q3=Design: Bracing Earthsiege Diamond", "=ds=#p12# (420)", "", "100%"};
+		};
+	};
+	["Heroic"] = {
+		{
+			{ 1, 37291, "", "=q3=Ancient Dragon Spirit Cape", "=ds=#s4#", "", "25%"};
+			{ 2, 37294, "", "=q3=Crown of Unbridled Magic", "=ds=#s1#, #a1#", "", "25%"};
+			{ 3, 37361, "", "=q4=Cuffs of Winged Levitation", "=ds=#s8#, #a1#", "", "25%"};
+			{ 4, 37363, "", "=q4=Gauntlets of Dragon Wrath", "=ds=#s9#, #a4#", "", "25%"};
+			{ 5, 37362, "", "=q4=Leggings of Protective Auras", "=ds=#s11#, #a4#", "", "25%"};
+			{ 6, 37292, "", "=q3=Ley-Guardian's Legguards", "=ds=#s11#, #a4#", "", "25%"};
+			{ 7, 37293, "", "=q3=Mask of the Watcher", "=ds=#s1#, #a2#", "", "25%"};
+			{ 8, 37360, "", "=q4=Staff of Draconic Combat", "=ds=#w9#", "", "25%"};
+			{ 10, 43668, "", "=q1=Ley Line Tuner", "=ds=#m3#", "", "100%"};
+			{ 16, 41798, "", "=q3=Design: Bracing Earthsiege Diamond", "=ds=#p12# (420)", "", "100%"};
+			{ 18, 43102, "", "=q3=Frozen Orb", "=ds=#e6#", "", "100%"};
+			{ 20, 52676, "", "=q2=Cache of the Ley-Guardian", "=ds="..AL["Random Heroic Reward"], "", "100%"};
 		};
 	};
 	info = {
@@ -1555,18 +1594,15 @@ AtlasLoot_Data["OcuEregos"] = {
 	};
 };
 
-AtlasLoot_Data["OcuTrash"] = {
+AtlasLoot_Data["TheOculusTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
-			{ 2, 36978, "", "=q3=Ley-Whelphide Belt", "=ds=#s10#, #a2#", "", "0.45%"};
-			{ 3, 36977, "", "=q3=Bindings of the Construct", "=ds=#s8#, #a4#", "", "1%"};
-			{ 4, 36976, "", "=q3=Ring-Lord's Leggings", "=ds=#s11#, #a1#", "", "1%"};
-			{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-			{ 17, 37366, "", "=q3=Drake-Champion's Bracers", "=ds=#s8#, #a2#", "", "1%"};
-			{ 18, 37365, "", "=q3=Bands of the Sky Ring", "=ds=#s8#, #a3#", "", "1%"};
-			{ 19, 37290, "", "=q3=Dragon Prow Amulet", "=ds=#s2#", "", "1%"};
-			{ 20, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#", "", "1%"};
+			{ 1, 37365, "", "=q3=Bands of the Sky Ring", "=ds=#s8#, #a3#", "", "0.1%"};
+			{ 2, 36977, "", "=q3=Bindings of the Construct", "=ds=#s8#, #a4#", "", "~1.8%"};
+			{ 3, 37366, "", "=q3=Drake-Champion's Bracers", "=ds=#s8#, #a2#", "", "0.1%"};
+			{ 4, 37364, "", "=q3=Frostbridge Orb", "=ds=#s15#", "", "0.1%"};
+			{ 5, 36978, "", "=q3=Ley-Whelphide Belt", "=ds=#s10#, #a2#", "", "~1.35%"};
+			{ 6, 36976, "", "=q3=Ring-Lord's Leggings", "=ds=#s11#, #a1#", "", "~1.55%"};
 		};
 	};
 	info = {
