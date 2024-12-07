@@ -140,23 +140,23 @@ AtlasLoot_LootTableRegister = {
 
 		["TheNexus"] = {
 			["Bosses"] = {
-				{ "TheNexusKolurgStoutbeard", { 2, 3 } },
-				{ "TheNexusTelestra",         5 },
-				{ "TheNexusAnomalus",         6 },
-				{ "TheNexusOrmorok",          7 },
-				{ "TheNexusKeristrasza",      8 },
-				{ "LunarFestival",            9,       hide = true },
+				{ "TheNexusCommander", 1 },
+				{ "TheNexusGrandMagusTelestra", 2 },
+				{ "TheNexusAnomalus", 3 },
+				{ "TheNexusOrmorokTheTreeShaper", 4 },
+				{ "TheNexusKeristrasza", 5 },
+				{ "TheNexusTrash", 5 },
 			},
 			["Info"] = { BabbleZone["The Nexus"], "AtlasLootWotLK", mapname = "TheNexus" },
 		},
 
 		["TheOculus"] = {
 			["Bosses"] = {
-				{ "OcuDrakos",       3 },
-				{ "OcuCloudstrider", 4 },
-				{ "OcuUrom",         5 },
-				{ "OcuEregos",       { 6, 8 } },
-				{ "OcuTrash",        10 },
+				{ "TheOculusDrakosTheInterrogator", 1 },
+				{ "TheOculusVarosCloudstrider", 2 },
+				{ "TheOculusMageLordUrom", 3 },
+				{ "TheOculusLeyGuardianEregos", 4 },
+				{ "TheOculusTrash", 5 },
 			},
 			["Info"] = { BabbleZone["The Oculus"], "AtlasLootWotLK", mapname = "Nexus80" },
 		},
