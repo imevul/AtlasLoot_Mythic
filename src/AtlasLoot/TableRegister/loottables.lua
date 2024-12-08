@@ -163,10 +163,10 @@ AtlasLoot_LootTableRegister = {
 
 		["TrialOfTheChampion"] = {
 			["Bosses"] = {
-				{ "TrialoftheChampionChampions",          2 },
-				{ "TrialoftheChampionEadricthePure",      15 },
-				{ "TrialoftheChampionConfessorPaletress", 16 },
-				{ "TrialoftheChampionBlackKnight",        17 },
+				{ "TrialOfTheChampionGrandChampions", 1 },
+				{ "TrialOfTheChampionArgentConfessorPaletress", 2 },
+				{ "TrialOfTheChampionEadricThePure", 3 },
+				{ "TrialOfTheChampionTheBlackKnight", 4 },
 			},
 			["Info"] = { BabbleZone["Trial of the Champion"], "AtlasLootWotLK", mapname = "TheArgentColiseum" },
 		},
@@ -218,14 +218,14 @@ AtlasLoot_LootTableRegister = {
 
 		["VioletHold"] = {
 			["Bosses"] = {
-				{ "VioletHoldErekem",    2 },
-				{ "VioletHoldZuramat",   3 },
-				{ "VioletHoldXevozz",    4 },
-				{ "VioletHoldIchoron",   5 },
-				{ "VioletHoldMoragg",    6 },
-				{ "VioletHoldLavanthor", 7 },
-				{ "VioletHoldCyanigosa", 8 },
-				{ "VioletHoldTrash",     10 },
+				{ "TheVioletHoldErekem", 1 },
+				{ "TheVioletHoldIchoron", 2 },
+				{ "TheVioletHoldLavanthor", 3 },
+				{ "TheVioletHoldMoragg", 4 },
+				{ "TheVioletHoldXevozz", 5 },
+				{ "TheVioletHoldZuramatTheObliterator", 6 },
+				{ "TheVioletHoldCyanigosa", 7 },
+				{ "TheVioletHoldTrash", 8 },
 			},
 			["Info"] = { BabbleZone["The Violet Hold"], "AtlasLootWotLK", mapname = "VioletHold" },
 		},
