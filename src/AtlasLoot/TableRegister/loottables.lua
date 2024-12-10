@@ -195,23 +195,21 @@ AtlasLoot_LootTableRegister = {
 
 		["UtgardeKeep"] = {
 			["Bosses"] = {
-				{ "UtgardeKeepKeleseth", 4 },
-				{ "UtgardeKeepSkarvald", { 5, 6 } },
-				{ "UtgardeKeepIngvar",   7 },
-				{ "LunarFestival",       8,       hide = true },
-				{ "UtgardeKeepTrash",    10 },
+				{ "UtgardeKeepPrinceKeleseth", 1 },
+				{ "UtgardeKeepSkarvaldAndDalronn", 2 },
+				{ "UtgardeKeepIngvarThePlunderer", 3 },
+				{ "UtgardeKeepTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Utgarde Keep"], "AtlasLootWotLK", mapname = "UtgardeKeep" },
 		},
 
 		["UtgardePinnacle"] = {
 			["Bosses"] = {
-				{ "UPSorrowgrave", 3 },
-				{ "UPPalehoof",    4 },
-				{ "UPSkadi",       5 },
-				{ "UPYmiron",      6 },
-				{ "LunarFestival", 7, hide = true },
-				{ "UPTrash",       9 },
+				{ "UtgardePinnacleSvalaSorrowgrave", 1 },
+				{ "UtgardePinnacleGortokPalehoof", 2 },
+				{ "UtgardePinnacleSkadiTheRuthless", 3 },
+				{ "UtgardePinnacleKingYmiron", 4 },
+				{ "UtgardePinnacleTrash", 5 },
 			},
 			["Info"] = { BabbleZone["Utgarde Pinnacle"], "AtlasLootWotLK", mapname = "UtgardePinnacle" },
 		},
