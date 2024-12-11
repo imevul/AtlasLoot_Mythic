@@ -3418,45 +3418,48 @@ AtlasLoot_Data["VoAToravon"] = {
 --- Construct Quarter ---
 -------------------------
 
-AtlasLoot_Data["Naxx80Patchwerk"] = {
+AtlasLoot_Data["NaxxramasPatchwerk"] = {
 	["Normal"] = {
 		{
-			{ 1, 39272, "", "=q4=Drape of Surgery", "=ds=#s4#", "", "10%"};
-			{ 2, 39273, "", "=q4=Sullen Cloth Boots", "=ds=#s12#, #a1#", "", "10%"};
-			{ 3, 39275, "", "=q4=Contagion Gloves", "=ds=#s9#, #a2#", "", "10%"};
-			{ 4, 39274, "", "=q4=Retcher's Shoulderpads", "=ds=#s3#, #a3#", "", "10%"};
-			{ 5, 39267, "", "=q4=Abomination Shoulderblades", "=ds=#s3#, #a4#", "", "13%"};
-			{ 6, 39262, "", "=q4=Gauntlets of Combined Strength", "=ds=#s9#, #a4#", "", "24%"};
-			{ 7, 39261, "", "=q4=Tainted Girdle of Mending", "=ds=#s10#, #a4#", "", "13%"};
-			{ 16, 39271, "", "=q4=Blade of Dormant Memories", "=ds=#h3#, #w4#", "", "10%"};
-			{ 17, 39270, "", "=q4=Hatestrike", "=ds=#h1#, #w10#", "", "13%"};
+			{ 1, 39267, "", "=q4=Abomination Shoulderblades", "=ds=#s3#, #a4#", "", "11.1%"};
+			{ 2, 39271, "", "=q4=Blade of Dormant Memories", "=ds=#h3#, #w4#", "", "11.1%"};
+			{ 3, 39275, "", "=q4=Contagion Gloves", "=ds=#s9#, #a2#", "", "11.1%"};
+			{ 4, 39262, "", "=q4=Gauntlets of Combined Strength", "=ds=#s9#, #a4#", "", "11.1%"};
+			{ 5, 39270, "", "=q4=Hatestrike", "=ds=#h1#, #w10#", "", "11.1%"};
+			{ 6, 39274, "", "=q4=Retcher's Shoulderpads", "=ds=#s3#, #a3#", "", "11.1%"};
+			{ 7, 39273, "", "=q4=Sullen Cloth Boots", "=ds=#s12#, #a1#", "", "11.1%"};
+			{ 8, 39261, "", "=q4=Tainted Girdle of Mending", "=ds=#s10#, #a4#", "", "11.1%"};
+			{ 10, 0, "INV_Box_01", "=q6=#m5#", "=ds=" .. BabbleBoss["Gluth"]};
+			{ 11, 39272, "", "=q4=Drape of Surgery", "=ds=#s4#", "", "11.1%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40271, "", "=q4=Sash of Solitude", "=ds=#s10#, #a1#", "", "19%"};
-			{ 2, 40269, "", "=q4=Boots of Persuasion", "=ds=#s12#, #a1#", "", "9%"};
-			{ 3, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#", "", "9%"};
-			{ 4, 40270, "", "=q4=Boots of Septic Wounds", "=ds=#s12#, #a2#", "", "9%"};
-			{ 5, 40262, "", "=q4=Gloves of Calculated Risk", "=ds=#s9#, #a3#", "", "9%"};
-			{ 6, 40272, "", "=q4=Girdle of the Gambit", "=ds=#s10#, #a3#", "", "9%"};
-			{ 7, 40261, "", "=q4=Crude Discolored Battlegrips", "=ds=#s9#, #a4#", "", "9%"};
-			{ 8, 40263, "", "=q4=Fleshless Girdle", "=ds=#s10#. #a4#", "", "19%"};
-			{ 9, 40259, "", "=q4=Waistguard of Divine Grace", "=ds=#s10#, #a4#", "", "9%"};
-			{ 11, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#", "", "9%"};
-			{ 12, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#", "", "9%"};
-			{ 13, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "19%"};
-			{ 16, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#", "", "11%"};
-			{ 17, 40065, "", "=q4=Fool's Trial", "=ds=#s2#", "", "11%"};
-			{ 18, 40069, "", "=q4=Heritage", "=ds=#s2#", "", "11%"};
-			{ 19, 40064, "", "=q4=Thunderstorm Amulet", "=ds=#s2#", "", "11%"};
-			{ 20, 40080, "", "=q4=Lost Jewel", "=ds=#s13#", "", "11%"};
-			{ 21, 40075, "", "=q4=Ruthlessness", "=ds=#s13#", "", "11%"};
-			{ 22, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "11%"};
-			{ 23, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "12%"};
-			{ 24, 40273, "", "=q4=Surplus Limb", "=ds=#s15#", "", "9%"};
-			{ 25, 40267, "", "=q4=Totem of Hex", "=ds=#w15#", "", "9%"};
-			{ 26, 40268, "", "=q4=Libram of Tolerance", "=ds=#w16#", "", "19%"};
+			{ 1, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "4.2%"};
+			{ 2, 40269, "", "=q4=Boots of Persuasion", "=ds=#s12#, #a1#", "", "4.2%"};
+			{ 3, 40261, "", "=q4=Crude Discolored Battlegrips", "=ds=#s9#, #a4#", "", "4.2%"};
+			{ 4, 40263, "", "=q4=Fleshless Girdle", "=ds=#s10#. #a4#", "", "4.2%"};
+			{ 5, 40272, "", "=q4=Girdle of the Gambit", "=ds=#s10#, #a3#", "", "4.2%"};
+			{ 6, 40262, "", "=q4=Gloves of Calculated Risk", "=ds=#s9#, #a3#", "", "4.2%"};
+			{ 7, 40266, "", "=q4=Hero's Surrender", "=ds=#w8#", "", "4.2%"};
+			{ 8, 40268, "", "=q4=Libram of Tolerance", "=ds=#w16#", "", "4.2%"};
+			{ 9, 40271, "", "=q4=Sash of Solitude", "=ds=#s10#, #a1#", "", "4.2%"};
+			{ 10, 40264, "", "=q4=Split Greathammer", "=ds=#h1#, #w6#", "", "4.2%"};
+			{ 11, 40273, "", "=q4=Surplus Limb", "=ds=#s15#", "", "4.2%"};
+			{ 12, 40267, "", "=q4=Totem of Hex", "=ds=#w15#", "", "4.2%"};
+			{ 16, 0, "INV_Box_01", "=q6=#m5#", "=ds=Various"};
+			{ 17, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#", "", "4.2%"};
+			{ 18, 40270, "", "=q4=Boots of Septic Wounds", "=ds=#s12#, #a2#", "", "4.2%"};
+			{ 19, 40071, "", "=q4=Chains of Adoration", "=ds=#s2#", "", "4.2%"};
+			{ 20, 40065, "", "=q4=Fool's Trial", "=ds=#s2#", "", "4.2%"};
+			{ 21, 40069, "", "=q4=Heritage", "=ds=#s2#", "", "4.2%"};
+			{ 22, 40080, "", "=q4=Lost Jewel", "=ds=#s13#", "", "4.2%"};
+			{ 23, 40075, "", "=q4=Ruthlessness", "=ds=#s13#", "", "4.2%"};
+			{ 24, 40107, "", "=q4=Sand-Worn Band", "=ds=#s13#", "", "4.2%"};
+			{ 25, 40108, "", "=q4=Seized Beauty", "=ds=#s13#", "", "4.2%"};
+			{ 26, 40074, "", "=q4=Strong-Handed Ring", "=ds=#s13#", "", "4.2%"};
+			{ 27, 40064, "", "=q4=Thunderstorm Amulet", "=ds=#s2#", "", "4.2%"};
+			{ 28, 40259, "", "=q4=Waistguard of Divine Grace", "=ds=#s10#, #a4#", "", "4.2%"};
 		};
 	};
 	info = {
@@ -3466,48 +3469,49 @@ AtlasLoot_Data["Naxx80Patchwerk"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Grobbulus"] = {
+AtlasLoot_Data["NaxxramasGrobbulus"] = {
 	["Normal"] = {
 		{
-			{ 1, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#", "", "18%"};
-			{ 2, 39285, "", "=q4=Handgrips of Turmoil", "=ds=#s9#, #a1#", "", "10%"};
-			{ 3, 39283, "", "=q4=Putrescent Bands", "=ds=#s8#, #a2#", "", "10%"};
-			{ 4, 39279, "", "=q4=Blistered Belt of Decay", "=ds=#s10#, #a2#", "", "9%"};
-			{ 5, 39278, "", "=q4=Bands of Anxiety", "=ds=#s8#, #a3#", "", "9%"};
-			{ 6, 39280, "", "=q4=Leggings of Innumerable Barbs", "=ds=#s11#, #a4#", "", "10%"};
-			{ 8, 39282, "", "=q4=Bone-Linked Amulet", "=ds=#s2#", "", "10%"};
-			{ 9, 39277, "", "=q4=Sealing Ring of Grobbulus", "=ds=#s13#", "", "9%"};
-			{ 16, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#", "", "19%"};
-			{ 17, 39276, "", "=q4=The Skull of Ruin", "=ds=#w8#", "", "9%"};
+			{ 1, 39278, "", "=q4=Bands of Anxiety", "=ds=#s8#, #a3#", "", "10%"};
+			{ 2, 39282, "", "=q4=Bone-Linked Amulet", "=ds=#s2#", "", "10%"};
+			{ 3, 39280, "", "=q4=Leggings of Innumerable Barbs", "=ds=#s11#, #a4#", "", "10%"};
+			{ 4, 39283, "", "=q4=Putrescent Bands", "=ds=#s8#, #a2#", "", "10%"};
+			{ 5, 39277, "", "=q4=Sealing Ring of Grobbulus", "=ds=#s13#", "", "10%"};
+			{ 6, 39276, "", "=q4=The Skull of Ruin", "=ds=#w8#", "", "10%"};
+			{ 8, 0, "INV_Box_01", "=q6=#m5#", "=ds=" .. BabbleBoss["Gluth"]};
+			{ 9, 39279, "", "=q4=Blistered Belt of Decay", "=ds=#s10#, #a2#", "", "10%"};
+			{ 10, 39285, "", "=q4=Handgrips of Turmoil", "=ds=#s9#, #a1#", "", "10%"};
+			{ 11, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#", "", "10%"};
+			{ 12, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#", "", "10%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40250, "", "=q4=Aged Winter Cloak", "=ds=#s4#", "", "11%"};
-			{ 2, 40254, "", "=q4=Cloak of Averted Crisis", "=ds=#s4#", "", "11%"};
-			{ 3, 40252, "", "=q4=Cloak of the Shadowed Sun", "=ds=#s4#", "", "11%"};
-			{ 4, 40253, "", "=q4=Shawl of the Old Maid", "=ds=#s4#", "", "11%"};
-			{ 5, 40251, "", "=q4=Shroud of Luminosity", "=ds=#s4#", "", "11%"};
-			{ 6, 40287, "", "=q4=Cowl of Vanity", "=ds=#s1#, #a1#", "", "19%"};
-			{ 7, 40286, "", "=q4=Mantle of the Corrupted", "=ds=#s3#, #a1#", "", "1%"};
-			{ 8, 40351, "", "=q4=Mantle of the Fatigued Sage", "=ds=#s3#, #a1#", "", "19%"};
-			{ 9, 40289, "", "=q4=Sympathetic Amice", "=ds=#s3#, #a1#", "", "9%"};
-			{ 10, 40277, "", "=q4=Tunic of Indulgence", "=ds=#s5#, #a2#", "", "18%"};
-			{ 11, 40285, "", "=q4=Desecrated Past", "=ds=#s11#, #a2#", "", "9%"};
-			{ 12, 40288, "", "=q4=Spaulders of Incoherence", "=ds=#s3#, #a3#", "", "19%"};
-			{ 13, 40283, "", "=q4=Fallout Impervious Tunic", "=ds=#s5#, #a3#", "", "9%"};
-			{ 14, 40282, "", "=q4=Slime Stream Bands", "=ds=#s8#, #a3#", "", "9%"};
-			{ 15, 40275, "", "=q4=Depraved Linked Belt", "=ds=#s10#, #a3#", "", "9%"};
-			{ 16, 40279, "", "=q4=Chestguard of the Exhausted", "=ds=#s5#, #a4#", "", "9%"};
-			{ 17, 40274, "", "=q4=Bracers of Liberation", "=ds=#s8#, #a4#", "", "18%"};
-			{ 18, 40278, "", "=q4=Girdle of Chivalry", "=ds=#s10#, #a4#", "", "9%"};
-			{ 20, 40257, "", "=q4=Defender's Code", "=ds=#s14#", "", "11%"};
-			{ 21, 40255, "", "=q4=Dying Curse", "=ds=#s14#", "", "11%"};
-			{ 22, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#", "", "11%"};
-			{ 23, 40256, "", "=q4=Grim Toll", "=ds=#s14#", "", "11%"};
-			{ 25, 40281, "", "=q4=Twilight Mist", "=ds=#h1#, #w4#", "", "19%"};
-			{ 26, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#", "", "9%"};
-			{ 27, 40284, "", "=q4=Plague Igniter", "=ds=#w12#", "", "9%"};
+			{ 1, 40274, "", "=q4=Bracers of Liberation", "=ds=#s8#, #a4#", "", "4.2%"};
+			{ 2, 40279, "", "=q4=Chestguard of the Exhausted", "=ds=#s5#, #a4#", "", "4.2%"};
+			{ 3, 40287, "", "=q4=Cowl of Vanity", "=ds=#s1#, #a1#", "", "4.2%"};
+			{ 4, 40275, "", "=q4=Depraved Linked Belt", "=ds=#s10#, #a3#", "", "4.2%"};
+			{ 5, 40285, "", "=q4=Desecrated Past", "=ds=#s11#, #a2#", "", "4.2%"};
+			{ 6, 40283, "", "=q4=Fallout Impervious Tunic", "=ds=#s5#, #a3#", "", "4.2%"};
+			{ 7, 40278, "", "=q4=Girdle of Chivalry", "=ds=#s10#, #a4#", "", "4.2%"};
+			{ 8, 40351, "", "=q4=Mantle of the Fatigued Sage", "=ds=#s3#, #a1#", "", "4.2%"};
+			{ 9, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#", "", "4.2%"};
+			{ 10, 40284, "", "=q4=Plague Igniter", "=ds=#w12#", "", "4.2%"};
+			{ 11, 40282, "", "=q4=Slime Stream Bands", "=ds=#s8#, #a3#", "", "4.2%"};
+			{ 12, 40288, "", "=q4=Spaulders of Incoherence", "=ds=#s3#, #a3#", "", "4.2%"};
+			{ 13, 40277, "", "=q4=Tunic of Indulgence", "=ds=#s5#, #a2#", "", "4.2%"};
+			{ 14, 40281, "", "=q4=Twilight Mist", "=ds=#h1#, #w4#", "", "4.2%"};
+			{ 16, 0, "INV_Box_01", "=q6=#m5#", "=ds=Various"};
+			{ 17, 40250, "", "=q4=Aged Winter Cloak", "=ds=#s4#", "", "4.2%"};
+			{ 18, 40254, "", "=q4=Cloak of Averted Crisis", "=ds=#s4#", "", "4.2%"};
+			{ 19, 40252, "", "=q4=Cloak of the Shadowed Sun", "=ds=#s4#", "", "4.2%"};
+			{ 20, 40257, "", "=q4=Defender's Code", "=ds=#s14#", "", "4.2%"};
+			{ 21, 40255, "", "=q4=Dying Curse", "=ds=#s14#", "", "4.2%"};
+			{ 22, 40258, "", "=q4=Forethought Talisman", "=ds=#s14#", "", "4.2%"};
+			{ 23, 40256, "", "=q4=Grim Toll", "=ds=#s14#", "", "4.2%"};
+			{ 24, 40253, "", "=q4=Shawl of the Old Maid", "=ds=#s4#", "", "4.2%"};
+			{ 25, 40251, "", "=q4=Shroud of Luminosity", "=ds=#s4#", "", "4.2%"};
+			{ 26, 40289, "", "=q4=Sympathetic Amice", "=ds=#s3#, #a1#", "", "4.2%"};
 		};
 	};
 	info = {
@@ -3517,96 +3521,89 @@ AtlasLoot_Data["Naxx80Grobbulus"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Gluth"] = {
+AtlasLoot_Data["NaxxramasGluth"] = {
 	["Normal"] = {
 		{
-			{ 1, 39272, "", "=q4=Drape of Surgery", "=ds=#s4#", "", "10%"};
-			{ 2, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#", "", "18%"};
-			{ 3, 39396, "", "=q4=Gown of Blaumeux", "=ds=#s5#, #a1#", "", "0.43%"};
-			{ 4, 39309, "", "=q4=Leggings of the Instructor", "=ds=#s11#, #a1#", "", "10%"};
-			{ 5, 39237, "", "=q4=Spaulders of Resumed Battle", "=ds=#s3#, #a2#", "", "10%"};
-			{ 6, 39279, "", "=q4=Blistered Belt of Decay", "=ds=#s10#, #a2#", "", "9%"};
-			{ 7, 39191, "", "=q4=Splint-Bound Leggings", "=ds=#s11#, #a2#", "", "11%"};
-			{ 8, 39215, "", "=q4=Boots of the Follower", "=ds=#s12#, #a2#", "", "11%"};
-			{ 9, 39294, "", "=q4=Arc-Scorched Helmet", "=ds=#s1#, #a3#", "", "9%"};
-			{ 10, 39248, "", "=q4=Tunic of the Lost Pack", "=ds=#s5#, #a3#", "", "10%"};
-			{ 11, 39194, "", "=q4=Rusted-Link Spiked Gauntlets", "=ds=#s9#, #a3#", "", "10%"};
-			{ 12, 39251, "", "=q4=Necrogenic Belt", "=ds=#s10#, #a3#", "", "10%"};
-			{ 13, 39379, "", "=q4=Spectral Rider's Girdle", "=ds=#s10#, #a3#", "", "10%"};
-			{ 14, 39188, "", "=q4=Chivalric Chestguard", "=ds=#s5#, #a4#", "", "10%"};
-			{ 15, 39345, "", "=q4=Girdle of the Ascended Phantom", "=ds=#s10#, #a4#", "", "20%"};
-			{ 16, 39146, "", "=q4=Collar of Dissolution", "=ds=#s2#", "", "10%"};
-			{ 17, 39232, "", "=q4=Pendant of Lost Vocations", "=ds=#s2#", "", "10%"};
-			{ 18, 39193, "", "=q4=Band of Neglected Pleas", "=ds=#s13#", "", "11%"};
-			{ 19, 39388, "", "=q4=Spirit-World Glass", "=ds=#s14#", "", "10%"};
-			{ 21, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#", "", "11%"};
-			{ 22, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#", "", "19%"};
-			{ 23, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#", "", "10%"};
-			{ 24, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#", "", "0.44%"};
+			{ 1, 39394, "", "=q4=Charmed Cierge", "=ds=#w9#", "", "4.3%"};
+			{ 2, 39396, "", "=q4=Gown of Blaumeux", "=ds=#s5#, #a1#", "", "4.3%"};
+			{ 4, 0, "INV_Box_01", "=q6=#m5#", "=ds=Various"};
+			{ 5, 39294, "", "=q4=Arc-Scorched Helmet", "=ds=#s1#, #a3#", "", "4.3%"};
+			{ 6, 39193, "", "=q4=Band of Neglected Pleas", "=ds=#s13#", "", "4.3%"};
+			{ 7, 39279, "", "=q4=Blistered Belt of Decay", "=ds=#s10#, #a2#", "", "4.3%"};
+			{ 8, 39215, "", "=q4=Boots of the Follower", "=ds=#s12#, #a2#", "", "4.3%"};
+			{ 9, 39188, "", "=q4=Chivalric Chestguard", "=ds=#s5#, #a4#", "", "4.3%"};
+			{ 10, 39146, "", "=q4=Collar of Dissolution", "=ds=#s2#", "", "4.3%"};
+			{ 11, 39272, "", "=q4=Drape of Surgery", "=ds=#s4#", "", "4.3%"};
+			{ 12, 39345, "", "=q4=Girdle of the Ascended Phantom", "=ds=#s10#, #a4#", "", "4.3%"};
+			{ 13, 39200, "", "=q4=Grieving Spellblade", "=ds=#h3#, #w10#", "", "4.3%"};
+			{ 14, 39281, "", "=q4=Infection Repulser", "=ds=#h3#, #w6#", "", "4.3%"};
+			{ 15, 39309, "", "=q4=Leggings of the Instructor", "=ds=#s11#, #a1#", "", "4.3%"};
+			{ 16, 39284, "", "=q4=Miasma Mantle", "=ds=#s3#, #a1#", "", "4.3%"};
+			{ 17, 39251, "", "=q4=Necrogenic Belt", "=ds=#s10#, #a3#", "", "4.3%"};
+			{ 18, 39232, "", "=q4=Pendant of Lost Vocations", "=ds=#s2#", "", "4.3%"};
+			{ 19, 39194, "", "=q4=Rusted-Link Spiked Gauntlets", "=ds=#s9#, #a3#", "", "4.3%"};
+			{ 20, 39344, "", "=q4=Slayer of the Lifeless", "=ds=#h1#, #w10#", "", "4.3%"};
+			{ 21, 39237, "", "=q4=Spaulders of Resumed Battle", "=ds=#s3#, #a2#", "", "4.3%"};
+			{ 22, 39379, "", "=q4=Spectral Rider's Girdle", "=ds=#s10#, #a3#", "", "4.3%"};
+			{ 23, 39388, "", "=q4=Spirit-World Glass", "=ds=#s14#", "", "4.3%"};
+			{ 24, 39191, "", "=q4=Splint-Bound Leggings", "=ds=#s11#, #a2#", "", "4.3%"};
+			{ 25, 39248, "", "=q4=Tunic of the Lost Pack", "=ds=#s5#, #a3#", "", "4.3%"};
 		};
 		{
-			{ 1, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#e15#", "", "29%"};
-			{ 2, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#e15#", "", "30%"};
-			{ 3, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#e15#", "", "38%"};
-			{ 5, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#e15#", "", "9%"};
-			{ 6, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#e15#", "", "9%"};
-			{ 7, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#e15#", "", "12%"};
-			{ 16, 40619, "", "=q4=Leggings of the Lost Conqueror", "=ds=#e15#", "", "27%"};
-			{ 17, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#e15#", "", "28%"};
-			{ 18, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#e15#", "", "36%"};
+			{ 1, 40610, "", "=q4=Chestguard of the Lost Conqueror", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 2, 40611, "", "=q4=Chestguard of the Lost Protector", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 3, 40612, "", "=q4=Chestguard of the Lost Vanquisher", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 5, 40619, "", "=q4=Leggings of the Lost Conqueror", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 6, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 7, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 9, 40622, "", "=q4=Spaulders of the Lost Conqueror", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 10, 40623, "", "=q4=Spaulders of the Lost Protector", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 11, 40624, "", "=q4=Spaulders of the Lost Vanquisher", "=ds=#m40# #e15#", "", "11.1%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40247, "", "=q4=Cowl of Innocent Delight", "=ds=#s1#, #a1#", "", "9%"};
-			{ 2, 40289, "", "=q4=Sympathetic Amice", "=ds=#s3#, #a1#", "", "9%"};
-			{ 3, 40602, "", "=q4=Robes of Mutation", "=ds=#s5#, #a1#", "", "19%"};
-			{ 4, 39733, "", "=q4=Gloves of Token Respect", "=ds=#s9#, #a1#", "", "19%"};
-			{ 5, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#", "", "9%"};
-			{ 6, 40326, "", "=q4=Boots of Forlorn Wishes", "=ds=#s12#, #a1#", "", "20%"};
-			{ 7, 40296, "", "=q4=Cover of Silence", "=ds=#s1#, #a2#", "", "8%"};
-			{ 8, 39768, "", "=q4=Cowl of the Perished", "=ds=#s1#, #a2#", "", "9%"};
-			{ 9, 40319, "", "=q4=Chestpiece of Suspicion", "=ds=#s5#, #a2#", "", "9%"};
-			{ 10, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#", "", "9%"};
-			{ 11, 40205, "", "=q4=Stalk-Skin Belt", "=ds=#s10#, #a2#", "", "9%"};
-			{ 12, 40270, "", "=q4=Boots of Septic Wounds", "=ds=#s12#, #a2#", "", "9%"};
-			{ 13, 40193, "", "=q4=Tunic of Masked Suffering", "=ds=#s5#, #a3#", "", "20%"};
-			{ 14, 40209, "", "=q4=Bindings of the Decrepit", "=ds=#s8#, #a3#", "", "9%"};
-			{ 15, 40302, "", "=q4=Benefactor's Gauntlets", "=ds=#s9#, #a3#", "", "8%"};
-			{ 16, 39718, "", "=q4=Corpse Scarab Handguards", "=ds=#s9#, #a3#", "", "9%"};
-			{ 17, 40242, "", "=q4=Grotesque Handgrips", "=ds=#s9#, #a3#", "", "19%"};
-			{ 18, 39760, "", "=q4=Helm of Diminished Pride", "=ds=#s1#, #a4#", "", "18%"};
-			{ 19, 40185, "", "=q4=Shoulderguards of Opportunity", "=ds=#s3#, #a4#", "", "9%"};
-			{ 20, 40203, "", "=q4=Breastplate of Tormented Rage", "=ds=#s5#, #a4#", "", "18%"};
-			{ 21, 40332, "", "=q4=Abetment Bracers", "=ds=#s8#, #a4#", "", "19%"};
-			{ 22, 40188, "", "=q4=Gauntlets of the Disobediant", "=ds=#s9#, #a4#", "", "9%"};
-			{ 23, 40259, "", "=q4=Waistguard of Divine Grace", "=ds=#s10#, #a4#", "", "9%"};
-			{ 24, 40204, "", "=q4=Legguards of the Apostle", "=ds=#s11#, #a4#", "", "9%"};
-			{ 25, 39717, "", "=q4=Inexorable Sabatons", "=ds=#s12#, #a4#", "", "23%"};
-			{ 26, 40206, "", "=q4=Iron-Spring Jumpers", "=ds=#s12#, #a4#", "", "9%"};
-			{ 27, 40297, "", "=q4=Sabatons of Endurance", "=ds=#s12#, #a4#", "", "17%"};
+			{ 1, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#", "", "3.4%"};
+			{ 3, 0, "INV_Box_01", "=q6=#m5#", "=ds=Various"};
+			{ 4, 40332, "", "=q4=Abetment Bracers", "=ds=#s8#, #a4#", "", "3.4%"};
+			{ 5, 40260, "", "=q4=Belt of the Tortured", "=ds=#s10#, #a2#", "", "3.4%"};
+			{ 6, 40302, "", "=q4=Benefactor's Gauntlets", "=ds=#s9#, #a3#", "", "3.4%"};
+			{ 7, 40209, "", "=q4=Bindings of the Decrepit", "=ds=#s8#, #a3#", "", "3.4%"};
+			{ 8, 40326, "", "=q4=Boots of Forlorn Wishes", "=ds=#s12#, #a1#", "", "3.4%"};
+			{ 9, 40270, "", "=q4=Boots of Septic Wounds", "=ds=#s12#, #a2#", "", "3.4%"};
+			{ 10, 40203, "", "=q4=Breastplate of Tormented Rage", "=ds=#s5#, #a4#", "", "3.4%"};
+			{ 11, 40319, "", "=q4=Chestpiece of Suspicion", "=ds=#s5#, #a2#", "", "3.4%"};
+			{ 12, 39718, "", "=q4=Corpse Scarab Handguards", "=ds=#s9#, #a3#", "", "3.4%"};
+			{ 13, 40296, "", "=q4=Cover of Silence", "=ds=#s1#, #a2#", "", "3.4%"};
+			{ 14, 40247, "", "=q4=Cowl of Innocent Delight", "=ds=#s1#, #a1#", "", "3.4%"};
+			{ 15, 39768, "", "=q4=Cowl of the Perished", "=ds=#s1#, #a2#", "", "3.4%"};
+			{ 16, 40188, "", "=q4=Gauntlets of the Disobediant", "=ds=#s9#, #a4#", "", "3.4%"};
+			{ 17, 39733, "", "=q4=Gloves of Token Respect", "=ds=#s9#, #a1#", "", "3.4%"};
+			{ 18, 40242, "", "=q4=Grotesque Handgrips", "=ds=#s9#, #a3#", "", "3.4%"};
+			{ 19, 39760, "", "=q4=Helm of Diminished Pride", "=ds=#s1#, #a4#", "", "3.4%"};
+			{ 20, 39717, "", "=q4=Inexorable Sabatons", "=ds=#s12#, #a4#", "", "3.4%"};
+			{ 21, 40206, "", "=q4=Iron-Spring Jumpers", "=ds=#s12#, #a4#", "", "3.4%"};
+			{ 22, 40204, "", "=q4=Legguards of the Apostle", "=ds=#s11#, #a4#", "", "3.4%"};
+			{ 23, 40191, "", "=q4=Libram of Radiance", "=ds=#w16#", "", "3.4%"};
+			{ 24, 40602, "", "=q4=Robes of Mutation", "=ds=#s5#, #a1#", "", "3.4%"};
+			{ 25, 40297, "", "=q4=Sabatons of Endurance", "=ds=#s12#, #a4#", "", "3.4%"};
+			{ 26, 40185, "", "=q4=Shoulderguards of Opportunity", "=ds=#s3#, #a4#", "", "3.4%"};
+			{ 27, 40205, "", "=q4=Stalk-Skin Belt", "=ds=#s10#, #a2#", "", "3.4%"};
+			{ 28, 40289, "", "=q4=Sympathetic Amice", "=ds=#s3#, #a1#", "", "3.4%"};
+			{ 29, 40193, "", "=q4=Tunic of Masked Suffering", "=ds=#s5#, #a3#", "", "3.4%"};
+			{ 30, 40259, "", "=q4=Waistguard of Divine Grace", "=ds=#s10#, #a4#", "", "3.4%"};
 		};
 		{
-			{ 1, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#", "", "1%"};
-			{ 2, 40191, "", "=q4=Libram of Radiance", "=ds=#w16#", "", "9%"};
-			{ 4, 40281, "", "=q4=Twilight Mist", "=ds=#h1#, #w4#", "", "19%"};
-			{ 5, 39714, "", "=q4=Webbed Death", "=ds=#h1#, #w4#", "", "24%"};
-			{ 6, 39730, "", "=q4=Widow's Fury", "=ds=#h1#, #w10#", "", "9%"};
-			{ 7, 40343, "", "=q4=Armageddon", "=ds=#h2#, #w10#", "", "1%"};
-			{ 8, 40239, "", "=q4=The Hand of Nerub", "=ds=#h4#, #w13#", "", "19%"};
-			{ 9, 40280, "", "=q4=Origin of Nightmares", "=ds=#w9#", "", "9%"};
-			{ 10, 39716, "", "=q4=Shield of Assimilation", "=ds=#w8#", "", "24%"};
-			{ 11, 40265, "", "=q4=Arrowsong", "=ds=#w2#", "", "19%"};
-			{ 12, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "1%"};
-			{ 16, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#e15#", "", "57%"};
-			{ 17, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#e15#", "", "58%"};
-			{ 18, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
-			{ 20, 40625, "", "=q4=Breastplate of the Lost Conqueror", "=ds=#e15#", "", "17%"};
-			{ 21, 40626, "", "=q4=Breastplate of the Lost Protector", "=ds=#e15#", "", "19%"};
-			{ 22, 40627, "", "=q4=Breastplate of the Lost Vanquisher", "=ds=#e15#", "", "24%"};
-			{ 24, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#e15#", "", "56%"};
-			{ 25, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "", "58%"};
-			{ 26, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
+			{ 1, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#", "", "3.4%"};
+			{ 16, 40625, "", "=q4=Breastplate of the Lost Conqueror", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 17, 40626, "", "=q4=Breastplate of the Lost Protector", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 18, 40627, "", "=q4=Breastplate of the Lost Vanquisher", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 20, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 21, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 22, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 24, 40637, "", "=q4=Mantle of the Lost Conqueror", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 25, 40638, "", "=q4=Mantle of the Lost Protector", "=ds=#m40# #e15#", "", "11.1%"};
+			{ 26, 40639, "", "=q4=Mantle of the Lost Vanquisher", "=ds=#m40# #e15#", "", "11.1%"};
 		};
 	};
 	info = {
@@ -3616,34 +3613,36 @@ AtlasLoot_Data["Naxx80Gluth"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Thaddius"] = {
+AtlasLoot_Data["NaxxramasThaddius"] = {
 	["Normal"] = {
 		{
-			{ 1, 39295, "", "=q4=Cowl of Sheet Lightning", "=ds=#s1#, #a1#", "", "9%"};
-			{ 2, 39294, "", "=q4=Arc-Scorched Helmet", "=ds=#s1#, #a3#", "", "9%"};
-			{ 3, 39293, "", "=q4=Blackened Legplates of Feugen", "=ds=#s11#, #a4#", "", "9%"};
-			{ 4, 39292, "", "=q4=Repelling Charge", "=ds=#s14#", "", "9%"};
-			{ 5, 39291, "", "=q4=Torment of the Banished", "=ds=#h1#, #w10#", "", "9%"};
-			{ 16, 40619, "", "=q4=Leggings of the Lost Conqueror", "=ds=#e15#", "", "27%"};
-			{ 17, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#e15#", "", "28%"};
-			{ 18, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#e15#", "", "36%"};
+			{ 1, 39293, "", "=q4=Blackened Legplates of Feugen", "=ds=#s11#, #a4#", "", "20%"};
+			{ 2, 39295, "", "=q4=Cowl of Sheet Lightning", "=ds=#s1#, #a1#", "", "20%"};
+			{ 3, 39292, "", "=q4=Repelling Charge", "=ds=#s14#", "", "20%"};
+			{ 4, 39291, "", "=q4=Torment of the Banished", "=ds=#h1#, #w10#", "", "20%"};
+			{ 6, 0, "INV_Box_01", "=q6=#m5#", "=ds=" .. BabbleBoss["Gluth"]};
+			{ 7, 39294, "", "=q4=Arc-Scorched Helmet", "=ds=#s1#, #a3#", "", "20%"};
+			{ 16, 40619, "", "=q4=Leggings of the Lost Conqueror", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 17, 40620, "", "=q4=Leggings of the Lost Protector", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 18, 40621, "", "=q4=Leggings of the Lost Vanquisher", "=ds=#m40# #e15#", "", "33.3%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#", "", "9%"};
-			{ 2, 40301, "", "=q4=Cincture of Polarity", "=ds=#s10#, #a1#", "", "9%"};
-			{ 3, 40296, "", "=q4=Cover of Silence", "=ds=#s1#, #a2#", "", "8%"};
-			{ 4, 40304, "", "=q4=Headpiece of Fungal Bloom", "=ds=#s1#, #a2#", "", "9%"};
-			{ 5, 40299, "", "=q4=Pauldrons of the Abandoned", "=ds=#s3#, #a3#", "", "9%"};
-			{ 6, 40302, "", "=q4=Benefactor's Gauntlets", "=ds=#s9#, #a3#", "", "8%"};
-			{ 7, 40298, "", "=q4=Faceguard of the Succumbed", "=ds=#s1#, #a4#", "", "9%"};
-			{ 8, 40294, "", "=q4=Riveted Abomination Leggings", "=ds=#s11#, #a4#", "", "8%"};
-			{ 9, 40297, "", "=q4=Sabatons of Endurance", "=ds=#s12#, #a4#", "", "17%"};
-			{ 16, 40300, "", "=q4=Spire of Sunset", "=ds=#w9#", "", "9%"};
-			{ 18, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#e15#", "", "56%"};
-			{ 19, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#e15#", "", "58%"};
-			{ 20, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#e15#", "", "76%"};
+			{ 1, 40301, "", "=q4=Cincture of Polarity", "=ds=#s10#, #a1#", "", "10%"};
+			{ 2, 40298, "", "=q4=Faceguard of the Succumbed", "=ds=#s1#, #a4#", "", "10%"};
+			{ 3, 40304, "", "=q4=Headpiece of Fungal Bloom", "=ds=#s1#, #a2#", "", "10%"};
+			{ 4, 40299, "", "=q4=Pauldrons of the Abandoned", "=ds=#s3#, #a3#", "", "10%"};
+			{ 5, 40294, "", "=q4=Riveted Abomination Leggings", "=ds=#s11#, #a4#", "", "10%"};
+			{ 6, 40300, "", "=q4=Spire of Sunset", "=ds=#w9#", "", "10%"};
+			{ 8, 0, "INV_Box_01", "=q6=#m5#", "=ds=" .. BabbleBoss["Gluth"]};
+			{ 9, 40302, "", "=q4=Benefactor's Gauntlets", "=ds=#s9#, #a3#", "", "8%"};
+			{ 10, 40296, "", "=q4=Cover of Silence", "=ds=#s1#, #a2#", "", "10%"};
+			{ 11, 40297, "", "=q4=Sabatons of Endurance", "=ds=#s12#, #a4#", "", "10%"};
+			{ 12, 40303, "", "=q4=Wraps of the Persecuted", "=ds=#s9#, #a1#", "", "10%"};
+			{ 16, 40634, "", "=q4=Legplates of the Lost Conqueror", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 17, 40635, "", "=q4=Legplates of the Lost Protector", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 18, 40636, "", "=q4=Legplates of the Lost Vanquisher", "=ds=#m40# #e15#", "", "33.3%"};
 		};
 	};
 	info = {
@@ -3657,7 +3656,7 @@ AtlasLoot_Data["Naxx80Thaddius"] = {
 --- Arachnid Quarter ---
 ------------------------
 
-AtlasLoot_Data["Naxx80AnubRekhan"] = {
+AtlasLoot_Data["NaxxramasAnubRekhan"] = {
 	["Normal"] = {
 		{
 			{ 1, 39192, "", "=q4=Gloves of Dark Gestures", "=ds=#s9#, #a1#", "", "10%"};
@@ -3706,7 +3705,7 @@ AtlasLoot_Data["Naxx80AnubRekhan"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Faerlina"] = {
+AtlasLoot_Data["NaxxramasGrandWidowFaerlina"] = {
 	["Normal"] = {
 		{
 			{ 1, 39216, "", "=q4=Sash of Mortal Desire", "=ds=#s10#, #a1#", "", "10%"};
@@ -3756,7 +3755,7 @@ AtlasLoot_Data["Naxx80Faerlina"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Maexxna"] = {
+AtlasLoot_Data["NaxxramasMaexxna"] = {
 	["Normal"] = {
 		{
 			{ 1, 39225, "", "=q4=Cloak of Armed Strife", "=ds=#s4#", "", "10%"};
@@ -3810,7 +3809,7 @@ AtlasLoot_Data["Naxx80Maexxna"] = {
 --- Military Quarter ---
 ------------------------
 
-AtlasLoot_Data["Naxx80Razuvious"] = {
+AtlasLoot_Data["NaxxramasInstructorRazuvious"] = {
 	["Normal"] = {
 		{
 			{ 1, 39297, "", "=q4=Cloak of Darkening", "=ds=#s4#", "", "10%"};
@@ -3859,7 +3858,7 @@ AtlasLoot_Data["Naxx80Razuvious"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Gothik"] = {
+AtlasLoot_Data["NaxxramasGothikTheHarvester"] = {
 	["Normal"] = {
 		{
 			{ 1, 39390, "", "=q4=Resurgent Phantom Bindings", "=ds=#s8#, #a1#", "", "10%"};
@@ -3909,7 +3908,7 @@ AtlasLoot_Data["Naxx80Gothik"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80FourHorsemen"] = {
+AtlasLoot_Data["NaxxramasFourHorseman"] = {
 	["Normal"] = {
 		{
 			{ 1, 39396, "", "=q4=Gown of Blaumeux", "=ds=#s5#, #a1#", "", "12%"};
@@ -3933,6 +3932,7 @@ AtlasLoot_Data["Naxx80FourHorsemen"] = {
 			{ 7, 40348, "", "=q4=Damnation", "=ds=#w9#", "", "10%"};
 			{ 9, 40346, "", "=q4=Final Voyage", "=ds=#w3#", "", "10%"};
 			{ 16, 40350, "", "=q4=Urn of Lost Memories", "=ds=#s15#", "", "10%"};
+			{ 7, 40286, "", "=q4=Mantle of the Corrupted", "=ds=#s3#, #a1#", "", "1%"};
 			{ 18, 40625, "", "=q4=Breastplate of the Lost Conqueror", "=ds=#e15#", "", "30%"};
 			{ 19, 40626, "", "=q4=Breastplate of the Lost Protector", "=ds=#e15#", "", "30%"};
 			{ 20, 40627, "", "=q4=Breastplate of the Lost Vanquisher", "=ds=#e15#", "", "40%"};
@@ -3949,7 +3949,7 @@ AtlasLoot_Data["Naxx80FourHorsemen"] = {
 --- Plague Quarter ---
 ----------------------
 
-AtlasLoot_Data["Naxx80Noth"] = {
+AtlasLoot_Data["NaxxramasNothThePlaguebringer"] = {
 	["Normal"] = {
 		{
 			{ 1, 39241, "", "=q4=Dark Shroud of the Scourge", "=ds=#s4#", "", "10%"};
@@ -3998,7 +3998,7 @@ AtlasLoot_Data["Naxx80Noth"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Heigan"] = {
+AtlasLoot_Data["NaxxramasHeiganTheUnclean"] = {
 	["Normal"] = {
 		{
 			{ 1, 39252, "", "=q4=Preceptor's Bindings", "=ds=#s8#, #a1#", "", "9%"};
@@ -4048,7 +4048,7 @@ AtlasLoot_Data["Naxx80Heigan"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Loatheb"] = {
+AtlasLoot_Data["NaxxramasLoatheb"] = {
 	["Normal"] = {
 		{
 			{ 1, 39259, "", "=q4=Fungi-Stained Coverings", "=ds=#s5#, #a2#", "", "10%"};
@@ -4089,7 +4089,7 @@ AtlasLoot_Data["Naxx80Loatheb"] = {
 --- Frostwyrm Lair ---
 ----------------------
 
-AtlasLoot_Data["Naxx80Sapphiron"] = {
+AtlasLoot_Data["NaxxramasSapphiron"] = {
 	["Normal"] = {
 		{
 			{ 1, 39415, "", "=q4=Shroud of the Citadel", "=ds=#s4#", "", "19%"};
@@ -4135,7 +4135,7 @@ AtlasLoot_Data["Naxx80Sapphiron"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80KelThuzad"] = {
+AtlasLoot_Data["NaxxramasKelThuzad"] = {
 	["Normal"] = {
 		{
 			{ 1, 39425, "", "=q4=Cloak of the Dying", "=ds=#s4#", "", "19%"};
@@ -4182,26 +4182,26 @@ AtlasLoot_Data["Naxx80KelThuzad"] = {
 	};
 };
 
-AtlasLoot_Data["Naxx80Trash"] = {
+AtlasLoot_Data["NaxxramasTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 39467, "", "=q4=Minion Bracers", "=ds=#s8#, #a4#", "", "1%"};
-			{ 2, 39472, "", "=q4=Chain of Latent Energies", "=ds=#s2#", "", "1%"};
-			{ 3, 39470, "", "=q4=Medallion of the Disgraced", "=ds=#s2#", "", "1%"};
-			{ 4, 39427, "", "=q4=Omen of Ruin", "=ds=#h1#, #w4#", "", "1%"};
-			{ 5, 39468, "", "=q4=The Stray", "=ds=#h4#, #w13#", "", "1%"};
-			{ 6, 39473, "", "=q4=Contortion", "=ds=#w12#", "", "1%"};
+			{ 1, 39472, "", "=q4=Chain of Latent Energies", "=ds=#s2#", "", "0.17%"};
+			{ 2, 39473, "", "=q4=Contortion", "=ds=#w12#", "", "0.17%"};
+			{ 3, 39470, "", "=q4=Medallion of the Disgraced", "=ds=#s2#", "", "0.17%"};
+			{ 4, 39467, "", "=q4=Minion Bracers", "=ds=#s8#, #a4#", "", "0.17%"};
+			{ 5, 39427, "", "=q4=Omen of Ruin", "=ds=#h1#, #w4#", "", "0.17%"};
+			{ 6, 39468, "", "=q4=The Stray", "=ds=#h4#, #w13#", "", "0.17%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40410, "", "=q4=Shadow of the Ghoul", "=ds=#s4#", "", "1%"};
-			{ 2, 40409, "", "=q4=Boots of the Escaped Captive", "=ds=#s12#, #a2#", "", "1%"};
-			{ 3, 40414, "", "=q4=Shoulderguards of the Undaunted", "=ds=#s3#, #a4#", "", "1%"};
-			{ 4, 40412, "", "=q4=Ousted Bead Necklace", "=ds=#s2#", "", "1%"};
-			{ 5, 40408, "", "=q4=Haunting Call", "=ds=#h3#, #w4#", "", "1%"};
-			{ 6, 40407, "", "=q4=Silent Crusader", "=ds=#h1#, #w10#", "", "1%"};
-			{ 7, 40406, "", "=q4=Inevitable Defeat", "=ds=#h2#, #w6#", "", "1%"};
+			{ 1, 40409, "", "=q4=Boots of the Escaped Captive", "=ds=#s12#, #a2#", "", "0.14%"};
+			{ 2, 40408, "", "=q4=Haunting Call", "=ds=#h3#, #w4#", "", "0.14%"};
+			{ 3, 40406, "", "=q4=Inevitable Defeat", "=ds=#h2#, #w6#", "", "0.14%"};
+			{ 4, 40412, "", "=q4=Ousted Bead Necklace", "=ds=#s2#", "", "0.14%"};
+			{ 5, 40410, "", "=q4=Shadow of the Ghoul", "=ds=#s4#", "", "0.14%"};
+			{ 6, 40414, "", "=q4=Shoulderguards of the Undaunted", "=ds=#s3#, #a4#", "", "0.14%"};
+			{ 7, 40407, "", "=q4=Silent Crusader", "=ds=#h1#, #w10#", "", "0.14%"};
 		};
 	};
 	info = {
