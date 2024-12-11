@@ -161,6 +161,10 @@ AtlasLoot_TextParsing = {
 	{ "#m37#", AL["Tier 11"] },
 	{ "#m38#", AL["Tier 12"] },
 	{ "#m39#", AL["Tier 13"] },
+	{ "#m40#", AL["Tier 7"] },
+	{ "#m41#", AL["Tier 8"] },
+	{ "#m42#", AL["Tier 9"] },
+	{ "#m43#", AL["Tier 10"] },
 
 	-- Misc
 	{ "#j1#", AL["Normal Mode"] },
@@ -231,6 +235,7 @@ AtlasLoot_TextParsing = {
 	-- Factions
 	{ "#f1#", BabbleFaction["Lower City"] },
 	{ "#f2#", BabbleFaction["The Sha'tar"] },
+	{ "#f3#", BabbleFaction["Thrallmar"] },
 	{ "#f4#", BabbleFaction["Honor Hold"] },
 	{ "#f5#", BabbleFaction["Keepers of Time"] },
 	{ "#f6#", BabbleFaction["Cenarion Expedition"] },
