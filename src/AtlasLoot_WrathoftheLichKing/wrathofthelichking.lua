@@ -6691,79 +6691,80 @@ AtlasLoot_Data["FrozenHallsTrash"] = {
 --- Lower Spire ---
 -------------------
 
-AtlasLoot_Data["ICCLordMarrowgar"] = {
+AtlasLoot_Data["IcecrownCitadelLordMarrowgar"] = {
 	["Normal"] = {
 		{
-			{ 1, 50764, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#"};
-			{ 2, 50773, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#"};
-			{ 3, 50774, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#"};
-			{ 4, 50762, "", "=q4=Linked Scourge Vertebrae", "=ds=#s10#, #a3#"};
-			{ 5, 50775, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#"};
-			{ 6, 50772, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#"};
-			{ 8, 50763, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#"};
-			{ 9, 50339, "", "=q4=Sliver of Pure Ice", "=ds=#s14#"};
-			{ 16, 50771, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
-			{ 17, 50761, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#"};
-			{ 18, 50759, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
-			{ 19, 50760, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
+			{ 1, 50772, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 2, 50759, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#", "", "8.3%"};
+			{ 3, 50760, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#", "", "8.3%"};
+			{ 4, 50761, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#", "", "8.3%"};
+			{ 5, 50774, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 6, 50773, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 7, 50775, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 8, 50771, "", "=q4=Frost Needle", "=ds=#h3#, #w10#", "", "8.3%"};
+			{ 9, 50762, "", "=q4=Linked Scourge Vertebrae", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 10, 50763, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#", "", "8.3%"};
+			{ 11, 50764, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#", "", "8.3%"};
+			{ 12, 50339, "", "=q4=Sliver of Pure Ice", "=ds=#s14#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51933, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#"};
-			{ 2, 51930, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#"};
-			{ 3, 51929, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#"};
-			{ 4, 51935, "", "=q4=Linked Scourge Vertebrae", "=ds=#s10#, #a3#"};
-			{ 5, 51928, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#"};
-			{ 6, 51931, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#"};
-			{ 8, 51934, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#"};
-			{ 9, 50346, "", "=q4=Sliver of Pure Ice", "=ds=#s14#"};
-			{ 16, 51932, "", "=q4=Frost Needle", "=ds=#h3#, #w10#"};
-			{ 17, 51936, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#"};
-			{ 18, 51938, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#"};
-			{ 19, 51937, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#"};
+			{ 1, 51931, "", "=q4=Ancient Skeletal Boots", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 2, 51938, "", "=q4=Bone Warden's Splitter", "=ds=#h1#, #w1#", "", "8.3%"};
+			{ 3, 51937, "", "=q4=Bonebreaker Scepter", "=ds=#h1#, #w6#", "", "8.3%"};
+			{ 4, 51936, "", "=q4=Citadel Enforcer's Claymore", "=ds=#h2#, #w10#", "", "8.3%"};
+			{ 5, 51929, "", "=q4=Coldwraith Bracers", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 6, 51930, "", "=q4=Cord of the Patronizing Practitioner", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 7, 51928, "", "=q4=Corrupted Silverplate Leggings", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 8, 51932, "", "=q4=Frost Needle", "=ds=#h3#, #w10#", "", "8.3%"};
+			{ 9, 51935, "", "=q4=Linked Scourge Vertebrae", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 10, 51934, "", "=q4=Marrowgar's Scratching Choker", "=ds=#s2#", "", "8.3%"};
+			{ 11, 51933, "", "=q4=Shawl of Nerubian Silk", "=ds=#s4#", "", "8.3%"};
+			{ 12, 50346, "", "=q4=Sliver of Pure Ice", "=ds=#s14#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 49978, "", "=q4=Crushing Coldwraith Belt", "=ds=#s10#, #a1#"};
-			{ 2, 49979, "", "=q4=Handguards of Winter's Respite", "=ds=#s9#, #a2#"};
-			{ 3, 49950, "", "=q4=Frostbitten Fur Boots", "=ds=#s12#, #a2#"};
-			{ 4, 49952, "", "=q4=Snowserpent Mail Helm", "=ds=#s1#, #a3#"};
-			{ 5, 49980, "", "=q4=Rusted Bonespike Pauldrons", "=ds=#s3#, #a4#"};
-			{ 6, 49951, "", "=q4=Gendarme's Cuirass", "=ds=#s5#, #a4#"};
-			{ 7, 49960, "", "=q4=Bracers of Dark Reckoning", "=ds=#s8#, #a4#"};
-			{ 8, 49964, "", "=q4=Legguards of Lost Hope", "=ds=#s11#, #a4#"};
-			{ 10, 49975, "", "=q4=Bone Sentinel's Amulet", "=ds=#s2#"};
-			{ 11, 49949, "", "=q4=Band of the Bone Colossus", "=ds=#s13#"};
-			{ 12, 49977, "", "=q4=Loop of the Endless Labyrinth", "=ds=#s13#"};
-			{ 13, 49967, "", "=q4=Marrowgar's Frigid Eye", "=ds=#s13#"};
-			{ 16, 49968, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#"};
-			{ 17, 50415, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
-			{ 18, 49976, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
-			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 49949, "", "=q4=Band of the Bone Colossus", "=ds=#s13#", "", "6.7%"};
+			{ 2, 49975, "", "=q4=Bone Sentinel's Amulet", "=ds=#s2#", "", "6.7%"};
+			{ 3, 49960, "", "=q4=Bracers of Dark Reckoning", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 4, 50415, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 5, 49976, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#", "", "6.7%"};
+			{ 6, 49978, "", "=q4=Crushing Coldwraith Belt", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 7, 49950, "", "=q4=Frostbitten Fur Boots", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 8, 49968, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#", "", "6.7%"};
+			{ 9, 49951, "", "=q4=Gendarme's Cuirass", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 10, 49979, "", "=q4=Handguards of Winter's Respite", "=ds=#s9#, #a2#", "", "6.7%"};
+			{ 11, 49964, "", "=q4=Legguards of Lost Hope", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 12, 49977, "", "=q4=Loop of the Endless Labyrinth", "=ds=#s13#", "", "6.7%"};
+			{ 13, 49967, "", "=q4=Marrowgar's Frigid Eye", "=ds=#s13#", "", "6.7%"};
+			{ 14, 49980, "", "=q4=Rusted Bonespike Pauldrons", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 15, 49952, "", "=q4=Snowserpent Mail Helm", "=ds=#s1#, #a3#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50613, "", "=q4=Crushing Coldwraith Belt", "=ds=#s10#, #a1#"};
-			{ 2, 50615, "", "=q4=Handguards of Winter's Respite", "=ds=#s9#, #a2#"};
-			{ 3, 50607, "", "=q4=Frostbitten Fur Boots", "=ds=#s12#, #a2#"};
-			{ 4, 50605, "", "=q4=Snowserpent Mail Helm", "=ds=#s1#, #a3#"};
-			{ 5, 50617, "", "=q4=Rusted Bonespike Pauldrons", "=ds=#s3#, #a4#"};
-			{ 6, 50606, "", "=q4=Gendarme's Cuirass", "=ds=#s5#, #a4#"};
-			{ 7, 50611, "", "=q4=Bracers of Dark Reckoning", "=ds=#s8#, #a4#"};
-			{ 8, 50612, "", "=q4=Legguards of Lost Hope", "=ds=#s11#, #a4#"};
-			{ 10, 50609, "", "=q4=Bone Sentinel's Amulet", "=ds=#s2#"};
-			{ 11, 50604, "", "=q4=Band of the Bone Colossus", "=ds=#s13#"};
-			{ 12, 50614, "", "=q4=Loop of the Endless Labyrinth", "=ds=#s13#"};
-			{ 13, 50610, "", "=q4=Marrowgar's Frigid Eye", "=ds=#s13#"};
-			{ 16, 50608, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#"};
-			{ 17, 50709, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#"};
-			{ 18, 50616, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#"};
-			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50604, "", "=q4=Band of the Bone Colossus", "=ds=#s13#", "", "6.7%"};
+			{ 2, 50609, "", "=q4=Bone Sentinel's Amulet", "=ds=#s2#", "", "6.7%"};
+			{ 3, 50611, "", "=q4=Bracers of Dark Reckoning", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 4, 50709, "", "=q4=Bryntroll, the Bone Arbiter", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 5, 50616, "", "=q4=Bulwark of Smouldering Steel", "=ds=#w8#", "", "6.7%"};
+			{ 6, 50613, "", "=q4=Crushing Coldwraith Belt", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 7, 50607, "", "=q4=Frostbitten Fur Boots", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 8, 50608, "", "=q4=Frozen Bonespike", "=ds=#h3#, #w4#", "", "6.7%"};
+			{ 9, 50606, "", "=q4=Gendarme's Cuirass", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 10, 50615, "", "=q4=Handguards of Winter's Respite", "=ds=#s9#, #a2#", "", "6.7%"};
+			{ 11, 50612, "", "=q4=Legguards of Lost Hope", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 12, 50614, "", "=q4=Loop of the Endless Labyrinth", "=ds=#s13#", "", "6.7%"};
+			{ 13, 50610, "", "=q4=Marrowgar's Frigid Eye", "=ds=#s13#", "", "6.7%"};
+			{ 14, 50617, "", "=q4=Rusted Bonespike Pauldrons", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 15, 50605, "", "=q4=Snowserpent Mail Helm", "=ds=#s1#, #a3#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -6773,79 +6774,80 @@ AtlasLoot_Data["ICCLordMarrowgar"] = {
 	};
 }
 
-AtlasLoot_Data["ICCLadyDeathwhisper"] = {
+AtlasLoot_Data["IcecrownCitadelLadyDeathwhisper"] = {
 	["Normal"] = {
 		{
-			{ 1, 50785, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#"};
-			{ 2, 50782, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#"};
-			{ 3, 50780, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#"};
-			{ 4, 50778, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#"};
-			{ 5, 50783, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#"};
-			{ 6, 50777, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#"};
-			{ 7, 50784, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#"};
-			{ 8, 50779, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#"};
-			{ 9, 50786, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
-			{ 16, 50342, "", "=q4=Whispering Fanged Skull", "=ds=#s14#"};
-			{ 17, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
-			{ 19, 50776, "", "=q4=Njorndar Bone Bow", "=ds=#w2#"};
+			{ 1, 50783, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 2, 50785, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 3, 50780, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 4, 50784, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 5, 50779, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#", "", "8.3%"};
+			{ 6, 50786, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 7, 50777, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#", "", "8.3%"};
+			{ 8, 50776, "", "=q4=Njorndar Bone Bow", "=ds=#w2#", "", "8.3%"};
+			{ 9, 50781, "", "=q4=Scourgelord's Baton", "=ds=#s15#", "", "8.3%"};
+			{ 10, 50782, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#", "", "8.3%"};
+			{ 11, 50778, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#", "", "8.3%"};
+			{ 12, 50342, "", "=q4=Whispering Fanged Skull", "=ds=#s14#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51918, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#"};
-			{ 2, 51921, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#"};
-			{ 3, 51923, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#"};
-			{ 4, 51925, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#"};
-			{ 5, 51920, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#"};
-			{ 6, 51926, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#"};
-			{ 7, 51919, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#"};
-			{ 8, 51924, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#"};
-			{ 9, 51917, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#"};
-			{ 16, 50343, "", "=q4=Whispering Fanged Skull", "=ds=#s14#"};
-			{ 17, 51922, "", "=q4=Scourgelord's Baton", "=ds=#s15#"};
-			{ 19, 51927, "", "=q4=Njorndar Bone Bow", "=ds=#w2#"};
+			{ 1, 51920, "", "=q4=Boots of the Frozen Seed", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 2, 51918, "", "=q4=Bracers of Dark Blessings", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 3, 51923, "", "=q4=Chestguard of the Frigid Noose", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 4, 51919, "", "=q4=Deathspeaker Disciple's Belt", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 5, 51924, "", "=q4=Deathspeaker Zealot's Helm", "=ds=#s1#, #a4#", "", "8.3%"};
+			{ 6, 51917, "", "=q4=Ghoul Commander's Cuirass", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 7, 51926, "", "=q4=Handgrips of Frost and Sleet", "=ds=#s9#, #a3#", "", "8.3%"};
+			{ 8, 51927, "", "=q4=Njorndar Bone Bow", "=ds=#w2#", "", "8.3%"};
+			{ 9, 51922, "", "=q4=Scourgelord's Baton", "=ds=#s15#", "", "8.3%"};
+			{ 10, 51921, "", "=q4=Sister's Handshrouds", "=ds=#s9#, #a1#", "", "8.3%"};
+			{ 11, 51925, "", "=q4=Soulthief's Braided Belt", "=ds=#s10#, #a2#", "", "8.3%"};
+			{ 12, 50343, "", "=q4=Whispering Fanged Skull", "=ds=#s14#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 49991, "", "=q4=Shoulders of Mercy Killing", "=ds=#s3#, #a1#"};
-			{ 2, 49994, "", "=q4=The Lady's Brittle Bracers", "=ds=#s8#, #a1#"};
-			{ 3, 49987, "", "=q4=Cultist's Bloodsoaked Spaulders", "=ds=#s3#, #a2#"};
-			{ 4, 49996, "", "=q4=Deathwhisper Chestpiece", "=ds=#s5#, #a2#"};
-			{ 5, 49988, "", "=q4=Leggings of Northern Lights", "=ds=#s11#, #a3#"};
-			{ 6, 49993, "", "=q4=Necrophotic Greaves", "=ds=#s12#, #a3#"};
-			{ 7, 49986, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#"};
-			{ 8, 49995, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#"};
-			{ 9, 49983, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#"};
-			{ 11, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
-			{ 12, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#"};
-			{ 13, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
-			{ 16, 49982, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
-			{ 17, 49992, "", "=q4=Nibelung", "=ds=#w9#"};
-			{ 18, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
-			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 49989, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#", "", "6.7%"};
+			{ 2, 49983, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 3, 49986, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#", "", "6.7%"};
+			{ 4, 49987, "", "=q4=Cultist's Bloodsoaked Spaulders", "=ds=#s3#, #a2#", "", "6.7%"};
+			{ 5, 49996, "", "=q4=Deathwhisper Chestpiece", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 6, 49995, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#", "", "6.7%"};
+			{ 7, 49982, "", "=q4=Heartpierce", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 8, 49985, "", "=q4=Juggernaut Band", "=ds=#s13#", "", "6.7%"};
+			{ 9, 49988, "", "=q4=Leggings of Northern Lights", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 10, 49993, "", "=q4=Necrophotic Greaves", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 11, 49992, "", "=q4=Nibelung", "=ds=#w9#", "", "6.7%"};
+			{ 12, 49990, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#", "", "6.7%"};
+			{ 13, 49991, "", "=q4=Shoulders of Mercy Killing", "=ds=#s3#, #a1#", "", "6.7%"};
+			{ 14, 49994, "", "=q4=The Lady's Brittle Bracers", "=ds=#s8#, #a1#", "", "6.7%"};
+			{ 15, 50034, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50643, "", "=q4=Shoulders of Mercy Killing", "=ds=#s3#, #a1#"};
-			{ 2, 50651, "", "=q4=The Lady's Brittle Bracers", "=ds=#s8#, #a1#"};
-			{ 3, 50646, "", "=q4=Cultist's Bloodsoaked Spaulders", "=ds=#s3#, #a2#"};
-			{ 4, 50649, "", "=q4=Deathwhisper Raiment", "=ds=#s5#, #a2#"};
-			{ 5, 50645, "", "=q4=Leggings of Northern Lights", "=ds=#s11#, #a3#"};
-			{ 6, 50652, "", "=q4=Necrophotic Greaves", "=ds=#s12#, #a3#"};
-			{ 7, 50640, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#"};
-			{ 8, 50650, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#"};
-			{ 9, 50639, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#"};
-			{ 11, 50647, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#"};
-			{ 12, 50642, "", "=q4=Juggernaut Band", "=ds=#s13#"};
-			{ 13, 50644, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#"};
-			{ 16, 50641, "", "=q4=Heartpierce", "=ds=#h1#, #w4#"};
-			{ 17, 50648, "", "=q4=Nibelung", "=ds=#w9#"};
-			{ 18, 50638, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#"};
-			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50647, "", "=q4=Ahn'kahar Onyx Neckguard", "=ds=#s2#", "", "6.7%"};
+			{ 2, 50639, "", "=q4=Blood-Soaked Saronite Stompers", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 3, 50640, "", "=q4=Broken Ram Skull Helm", "=ds=#s1#, #a4#", "", "6.7%"};
+			{ 4, 50646, "", "=q4=Cultist's Bloodsoaked Spaulders", "=ds=#s3#, #a2#", "", "6.7%"};
+			{ 5, 50649, "", "=q4=Deathwhisper Raiment", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 6, 50650, "", "=q4=Fallen Lord's Handguards", "=ds=#s9#, #a4#", "", "6.7%"};
+			{ 7, 50641, "", "=q4=Heartpierce", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 8, 50642, "", "=q4=Juggernaut Band", "=ds=#s13#", "", "6.7%"};
+			{ 9, 50645, "", "=q4=Leggings of Northern Lights", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 10, 50652, "", "=q4=Necrophotic Greaves", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 11, 50648, "", "=q4=Nibelung", "=ds=#w9#", "", "6.7%"};
+			{ 12, 50644, "", "=q4=Ring of Maddening Whispers", "=ds=#s13#", "", "6.7%"};
+			{ 13, 50643, "", "=q4=Shoulders of Mercy Killing", "=ds=#s3#, #a1#", "", "6.7%"};
+			{ 14, 50651, "", "=q4=The Lady's Brittle Bracers", "=ds=#s8#, #a1#", "", "6.7%"};
+			{ 15, 50638, "", "=q4=Zod's Repeating Longbow", "=ds=#w2#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -6855,79 +6857,80 @@ AtlasLoot_Data["ICCLadyDeathwhisper"] = {
 	};
 }
 
-AtlasLoot_Data["ICCGunshipBattle"] = {
+AtlasLoot_Data["IcecrownCitadelGunshipBattle"] = {
 	["Normal"] = {
 		{
-			{ 1, 50791, "", "=q4=Saronite Gargoyle Cloak", "=ds=#s4#"};
-			{ 2, 50795, "", "=q4=Cord of Dark Suffering", "=ds=#s10#, #a2#"};
-			{ 3, 50797, "", "=q4=Ice-Reinforced Vrykul Helm", "=ds=#s1#, #a3#"};
-			{ 4, 50792, "", "=q4=Pauldrons of Lost Hope", "=ds=#s3#, #a3#"};
-			{ 5, 50789, "", "=q4=Icecrown Rampart Bracers", "=ds=#s8#, #a3#"};
-			{ 6, 50796, "", "=q4=Bracers of Pale Illumination", "=ds=#s8#, #a4#"};
-			{ 7, 50788, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#"};
-			{ 9, 50790, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#"};
-			{ 10, 50340, "", "=q4=Muradin's Spyglass", "=ds=#s14#"};
-			{ 16, 50793, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
-			{ 17, 50787, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
-			{ 18, 50794, "", "=q4=Neverending Winter", "=ds=#w8#"};
+			{ 1, 50790, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#", "", "8.3%"};
+			{ 2, 50788, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 3, 50796, "", "=q4=Bracers of Pale Illumination", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 4, 50795, "", "=q4=Cord of Dark Suffering", "=ds=#s10#, #a2#", "", "8.3%"};
+			{ 5, 50787, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#", "", "8.3%"};
+			{ 6, 50797, "", "=q4=Ice-Reinforced Vrykul Helm", "=ds=#s1#, #a3#", "", "8.3%"};
+			{ 7, 50789, "", "=q4=Icecrown Rampart Bracers", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 8, 50793, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#", "", "8.3%"};
+			{ 9, 50340, "", "=q4=Muradin's Spyglass", "=ds=#s14#", "", "8.3%"};
+			{ 10, 50794, "", "=q4=Neverending Winter", "=ds=#w8#", "", "8.3%"};
+			{ 11, 50792, "", "=q4=Pauldrons of Lost Hope", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 50791, "", "=q4=Saronite Gargoyle Cloak", "=ds=#s4#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51912, "", "=q4=Saronite Gargoyle Cloak", "=ds=#s4#"};
-			{ 2, 51908, "", "=q4=Cord of Dark Suffering", "=ds=#s10#, #a2#"};
-			{ 3, 51906, "", "=q4=Ice-Reinforced Vrykul Helm", "=ds=#s1#, #a3#"};
-			{ 4, 51911, "", "=q4=Pauldrons of Lost Hope", "=ds=#s3#, #a3#"};
-			{ 5, 51914, "", "=q4=Icecrown Rampart Bracers", "=ds=#s8#, #a3#"};
-			{ 6, 51907, "", "=q4=Bracers of Pale Illumination", "=ds=#s8#, #a4#"};
-			{ 7, 51915, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#"};
-			{ 9, 51913, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#"};
-			{ 10, 50345, "", "=q4=Muradin's Spyglass", "=ds=#s14#"};
-			{ 16, 51910, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#"};
-			{ 17, 51916, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#"};
-			{ 18, 51909, "", "=q4=Neverending Winter", "=ds=#w8#"};
+			{ 1, 51913, "", "=q4=Abomination's Bloody Ring", "=ds=#s13#", "", "8.3%"};
+			{ 2, 51915, "", "=q4=Bone Drake's Enameled Boots", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 3, 51907, "", "=q4=Bracers of Pale Illumination", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 4, 51908, "", "=q4=Cord of Dark Suffering", "=ds=#s10#, #a2#", "", "8.3%"};
+			{ 5, 51916, "", "=q4=Frost Giant's Cleaver", "=ds=#h1#, #w1#", "", "8.3%"};
+			{ 6, 51906, "", "=q4=Ice-Reinforced Vrykul Helm", "=ds=#s1#, #a3#", "", "8.3%"};
+			{ 7, 51914, "", "=q4=Icecrown Rampart Bracers", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 8, 51910, "", "=q4=Midnight Sun", "=ds=#h3#, #w4#", "", "8.3%"};
+			{ 9, 50345, "", "=q4=Muradin's Spyglass", "=ds=#s14#", "", "8.3%"};
+			{ 10, 51909, "", "=q4=Neverending Winter", "=ds=#w8#", "", "8.3%"};
+			{ 11, 51911, "", "=q4=Pauldrons of Lost Hope", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 51912, "", "=q4=Saronite Gargoyle Cloak", "=ds=#s4#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 49998, "", "=q4=Shadowvault Slayer's Cloak", "=ds=#s4#"};
-			{ 2, 50006, "", "=q4=Corp'rethar Ceremonial Crown", "=ds=#s1#, #a1#"};
-			{ 3, 50011, "", "=q4=Gunship Captain's Mittens", "=ds=#s9#, #a1#"};
-			{ 4, 50001, "", "=q4=Ikfirus' Sack of Wonder", "=ds=#s5#, #a2#"};
-			{ 5, 50009, "", "=q4=Boots of Unnatural Growth", "=ds=#s12#, #a2#"};
-			{ 6, 50000, "", "=q4=Scourge Hunter's Vambraces", "=ds=#s8#, #a3#"};
-			{ 7, 50003, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#"};
-			{ 8, 50002, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
-			{ 9, 50010, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
-			{ 11, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 12, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 50005, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
-			{ 17, 50008, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
-			{ 18, 49999, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
-			{ 19, 50359, "", "=q4=Althor's Abacus", "=ds=#s14#"};
-			{ 20, 50352, "", "=q4=Corpse Tongue Coin", "=ds=#s14#"};
-			{ 22, 50411, "", "=q4=Scourgeborne Waraxe", "=ds=#h1#, #w1#"};
+			{ 1, 50359, "", "=q4=Althor's Abacus", "=ds=#s14#", "", "6.7%"};
+			{ 2, 50005, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#", "", "6.7%"};
+			{ 3, 50003, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 4, 50009, "", "=q4=Boots of Unnatural Growth", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 5, 50006, "", "=q4=Corp'rethar Ceremonial Crown", "=ds=#s1#, #a1#", "", "6.7%"};
+			{ 6, 50352, "", "=q4=Corpse Tongue Coin", "=ds=#s14#", "", "6.7%"};
+			{ 7, 50011, "", "=q4=Gunship Captain's Mittens", "=ds=#s9#, #a1#", "", "6.7%"};
+			{ 8, 50001, "", "=q4=Ikfirus' Sack of Wonder", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 9, 50002, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 10, 50008, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#", "", "6.7%"};
+			{ 11, 50000, "", "=q4=Scourge Hunter's Vambraces", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 12, 50411, "", "=q4=Scourgeborne Waraxe", "=ds=#h1#, #w1#", "", "6.7%"};
+			{ 13, 49998, "", "=q4=Shadowvault Slayer's Cloak", "=ds=#s4#", "", "6.7%"};
+			{ 14, 49999, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#", "", "6.7%"};
+			{ 15, 50010, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "35%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50653, "", "=q4=Shadowvault Slayer's Cloak", "=ds=#s4#"};
-			{ 2, 50661, "", "=q4=Corp'rethar Ceremonial Crown", "=ds=#s1#, #a1#"};
-			{ 3, 50663, "", "=q4=Gunship Captain's Mittens", "=ds=#s9#, #a1#"};
-			{ 4, 50656, "", "=q4=Ikfirus' Sack of Wonder", "=ds=#s5#, #a2#"};
-			{ 5, 50665, "", "=q4=Boots of Unnatural Growth", "=ds=#s12#, #a2#"};
-			{ 6, 50655, "", "=q4=Scourge Hunter's Vambraces", "=ds=#s8#, #a3#"};
-			{ 7, 50660, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#"};
-			{ 8, 50659, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#"};
-			{ 9, 50667, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#"};
-			{ 11, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 12, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 50658, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#"};
-			{ 17, 50664, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#"};
-			{ 18, 50657, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#"};
-			{ 19, 50366, "", "=q4=Althor's Abacus", "=ds=#s14#"};
-			{ 20, 50349, "", "=q4=Corpse Tongue Coin", "=ds=#s14#"};
-			{ 22, 50654, "", "=q4=Scourgeborne Waraxe", "=ds=#h1#, #w1#"};
+			{ 1, 50366, "", "=q4=Althor's Abacus", "=ds=#s14#", "", "6.7%"};
+			{ 2, 50658, "", "=q4=Amulet of the Silent Eulogy", "=ds=#s2#", "", "6.7%"};
+			{ 3, 50660, "", "=q4=Boneguard Commander's Pauldrons", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 4, 50665, "", "=q4=Boots of Unnatural Growth", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 5, 50661, "", "=q4=Corp'rethar Ceremonial Crown", "=ds=#s1#, #a1#", "", "6.7%"};
+			{ 6, 50349, "", "=q4=Corpse Tongue Coin", "=ds=#s14#", "", "6.7%"};
+			{ 7, 50663, "", "=q4=Gunship Captain's Mittens", "=ds=#s9#, #a1#", "", "6.7%"};
+			{ 8, 50656, "", "=q4=Ikfirus' Sack of Wonder", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 9, 50659, "", "=q4=Polar Bear Claw Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 10, 50664, "", "=q4=Ring of Rapid Ascent", "=ds=#s13#", "", "6.7%"};
+			{ 11, 50655, "", "=q4=Scourge Hunter's Vambraces", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 12, 50654, "", "=q4=Scourgeborne Waraxe", "=ds=#h1#, #w1#", "", "6.7%"};
+			{ 13, 50653, "", "=q4=Shadowvault Slayer's Cloak", "=ds=#s4#", "", "6.7%"};
+			{ 14, 50657, "", "=q4=Skeleton Lord's Circle", "=ds=#s13#", "", "6.7%"};
+			{ 15, 50667, "", "=q4=Waistband of Righteous Fury", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "75%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "50%"};
 		};
 	};
 	info = {
@@ -6937,71 +6940,72 @@ AtlasLoot_Data["ICCGunshipBattle"] = {
 	};
 }
 
-AtlasLoot_Data["ICCSaurfang"] = {
+AtlasLoot_Data["IcecrownCitadelDeathbringerSaurfang"] = {
 	["Normal"] = {
 		{
-			{ 1, 50807, "", "=q4=Thaumaturge's Crackling Cowl", "=ds=#s1#, #a1#"};
-			{ 2, 50804, "", "=q4=Icecrown Spire Sandals", "=ds=#s12#, #a1#"};
-			{ 3, 50799, "", "=q4=Scourge Stranglers", "=ds=#s9#, #a2#"};
-			{ 4, 50806, "", "=q4=Leggings of Unrelenting Blood", "=ds=#s11#, #a2#"};
-			{ 5, 50800, "", "=q4=Hauberk of a Thousand Cuts", "=ds=#s5#, #a3#"};
-			{ 6, 50801, "", "=q4=Blade-Scored Carapace", "=ds=#s5#, #a4#"};
-			{ 7, 50802, "", "=q4=Gargoyle Spit Bracers", "=ds=#s8#, #a4#"};
-			{ 8, 50808, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#"};
-			{ 16, 50809, "", "=q4=Soulcleave Pendant", "=ds=#s2#"};
-			{ 17, 50803, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#"};
-			{ 19, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#"};
-			{ 20, 50805, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
+			{ 1, 50801, "", "=q4=Blade-Scored Carapace", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 2, 50808, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 3, 50802, "", "=q4=Gargoyle Spit Bracers", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 4, 50800, "", "=q4=Hauberk of a Thousand Cuts", "=ds=#s5#, #a3#", "", "8.3%"};
+			{ 5, 50804, "", "=q4=Icecrown Spire Sandals", "=ds=#s12#, #a1#", "", "8.3%"};
+			{ 6, 50806, "", "=q4=Leggings of Unrelenting Blood", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 7, 50805, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#", "", "8.3%"};
+			{ 8, 50798, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#", "", "8.3%"};
+			{ 9, 50803, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#", "", "8.3%"};
+			{ 10, 50799, "", "=q4=Scourge Stranglers", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 11, 50809, "", "=q4=Soulcleave Pendant", "=ds=#s2#", "", "8.3%"};
+			{ 12, 50807, "", "=q4=Thaumaturge's Crackling Cowl", "=ds=#s1#, #a1#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51896, "", "=q4=Thaumaturge's Crackling Cowl", "=ds=#s1#, #a1#"};
-			{ 2, 51899, "", "=q4=Icecrown Spire Sandals", "=ds=#s12#, #a1#"};
-			{ 3, 51904, "", "=q4=Scourge Stranglers", "=ds=#s9#, #a2#"};
-			{ 4, 51897, "", "=q4=Leggings of Unrelenting Blood", "=ds=#s11#, #a2#"};
-			{ 5, 51903, "", "=q4=Hauberk of a Thousand Cuts", "=ds=#s5#, #a3#"};
-			{ 6, 51902, "", "=q4=Blade-Scored Carapace", "=ds=#s5#, #a4#"};
-			{ 7, 51901, "", "=q4=Gargoyle Spit Bracers", "=ds=#s8#, #a4#"};
-			{ 8, 51895, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#"};
-			{ 10, 51894, "", "=q4=Soulcleave Pendant", "=ds=#s2#"};
-			{ 11, 51900, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 51905, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#"};
-			{ 21, 51898, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#"};
+			{ 1, 51902, "", "=q4=Blade-Scored Carapace", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 2, 51895, "", "=q4=Deathforged Legplates", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 3, 51901, "", "=q4=Gargoyle Spit Bracers", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 4, 51903, "", "=q4=Hauberk of a Thousand Cuts", "=ds=#s5#, #a3#", "", "8.3%"};
+			{ 5, 51899, "", "=q4=Icecrown Spire Sandals", "=ds=#s12#, #a1#", "", "8.3%"};
+			{ 6, 51897, "", "=q4=Leggings of Unrelenting Blood", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 7, 51898, "", "=q4=Mag'hari Chieftain's Staff", "=ds=#w9#", "", "8.3%"};
+			{ 8, 51905, "", "=q4=Ramaladni's Blade of Culling", "=ds=#h2#, #w1#", "", "8.3%"};
+			{ 9, 51900, "", "=q4=Saurfang's Cold-Forged Band", "=ds=#s13#", "", "8.3%"};
+			{ 10, 51904, "", "=q4=Scourge Stranglers", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 11, 51894, "", "=q4=Soulcleave Pendant", "=ds=#s2#", "", "8.3%"};
+			{ 12, 51896, "", "=q4=Thaumaturge's Crackling Cowl", "=ds=#s1#, #a1#", "", "8.3%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "20%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50014, "", "=q4=Greatcloak of the Turned Champion", "=ds=#s4#"};
-			{ 2, 50333, "", "=q4=Toskk's Maximized Wristguards", "=ds=#s8#, #a2#"};
-			{ 3, 50015, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#"};
-			{ 4, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
-			{ 5, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
-			{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50015, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#", "", "20%"};
+			{ 2, 50412, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#", "", "20%"};
+			{ 3, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#", "", "20%"};
+			{ 4, 50014, "", "=q4=Greatcloak of the Turned Champion", "=ds=#s4#", "", "20%"};
+			{ 5, 50333, "", "=q4=Toskk's Maximized Wristguards", "=ds=#s8#, #a2#", "", "20%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 22, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "20%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50668, "", "=q4=Greatcloak of the Turned Champion", "=ds=#s4#"};
-			{ 2, 50670, "", "=q4=Toskk's Maximized Wristguards", "=ds=#s8#, #a2#"};
-			{ 3, 50671, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#"};
-			{ 4, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
-			{ 5, 50672, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#"};
-			{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50671, "", "=q4=Belt of the Blood Nova", "=ds=#s10#, #a3#", "", "20%"};
+			{ 2, 50672, "", "=q4=Bloodvenom Blade", "=ds=#h1#, #w10#", "", "20%"};
+			{ 3, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#", "", "20%"};
+			{ 4, 50668, "", "=q4=Greatcloak of the Turned Champion", "=ds=#s4#", "", "20%"};
+			{ 5, 50670, "", "=q4=Toskk's Maximized Wristguards", "=ds=#s8#, #a2#", "", "20%"};
+			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 26, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "20%"};
 		};
 	};
 	info = {
@@ -7015,82 +7019,84 @@ AtlasLoot_Data["ICCSaurfang"] = {
 --- The Plagueworks ---
 -----------------------
 
-AtlasLoot_Data["ICCFestergut"] = {
+AtlasLoot_Data["IcecrownCitadelFestergut"] = {
 	["Normal"] = {
 		{
-			{ 1, 50859, "", "=q4=Cloak of Many Skins", "=ds=#s4#"};
-			{ 2, 50988, "", "=q4=Bloodstained Surgeon's Shoulderguards", "=ds=#s3#, #a1#"};
-			{ 3, 50990, "", "=q4=Kilt of Untreated Wounds", "=ds=#s11#, #a1#"};
-			{ 4, 50985, "", "=q4=Wrists of Septic Shock", "=ds=#s8#, #a2#"};
-			{ 5, 50858, "", "=q4=Plague-Soaked Leather Leggings", "=ds=#s11#, #a2#"};
-			{ 6, 50812, "", "=q4=Taldron's Long Neglected Boots", "=ds=#s12#, #a3#"};
-			{ 7, 50967, "", "=q4=Festergut's Gaseous Gloves", "=ds=#s9#, #a4#"};
-			{ 8, 50811, "", "=q4=Festering Fingerguards", "=ds=#s9#, #a4#"};
-			{ 16, 50852, "", "=q4=Precious' Putrid Collar", "=ds=#s2#"};
-			{ 17, 50986, "", "=q4=Signet of Putrefaction", "=ds=#s13#"};
-			{ 19, 50810, "", "=q4=Gutbuster", "=ds=#h1#, #w6#"};
-			{ 20, 50966, "", "=q4=Abracadaver", "=ds=#w9#"};
+			{ 1, 50966, "", "=q4=Abracadaver", "=ds=#w9#", "", "8.3%"};
+			{ 2, 50988, "", "=q4=Bloodstained Surgeon's Shoulderguards", "=ds=#s3#, #a1#", "", "8.3%"};
+			{ 3, 50859, "", "=q4=Cloak of Many Skins", "=ds=#s4#", "", "8.3%"};
+			{ 4, 50967, "", "=q4=Festergut's Gaseous Gloves", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 5, 50811, "", "=q4=Festering Fingerguards", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 6, 50810, "", "=q4=Gutbuster", "=ds=#h1#, #w6#", "", "8.3%"};
+			{ 7, 50990, "", "=q4=Kilt of Untreated Wounds", "=ds=#s11#, #a1#", "", "8.3%"};
+			{ 8, 50858, "", "=q4=Plague-Soaked Leather Leggings", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 9, 50852, "", "=q4=Precious' Putrid Collar", "=ds=#s2#", "", "8.3%"};
+			{ 10, 50986, "", "=q4=Signet of Putrefaction", "=ds=#s13#", "", "8.3%"};
+			{ 11, 50812, "", "=q4=Taldron's Long Neglected Boots", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 50985, "", "=q4=Wrists of Septic Shock", "=ds=#s8#, #a2#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51888, "", "=q4=Cloak of Many Skins", "=ds=#s4#"};
-			{ 2, 51883, "", "=q4=Bloodstained Surgeon's Shoulderguards", "=ds=#s3#, #a1#"};
-			{ 3, 51882, "", "=q4=Kilt of Untreated Wounds", "=ds=#s11#, #a1#"};
-			{ 4, 51885, "", "=q4=Wrists of Septic Shock", "=ds=#s8#, #a2#"};
-			{ 5, 51889, "", "=q4=Plague-Soaked Leather Leggings", "=ds=#s11#, #a2#"};
-			{ 6, 51891, "", "=q4=Taldron's Long Neglected Boots", "=ds=#s12#, #a3#"};
-			{ 7, 51886, "", "=q4=Festergut's Gaseous Gloves", "=ds=#s9#, #a4#"};
-			{ 8, 51892, "", "=q4=Festering Fingerguards", "=ds=#s9#, #a4#"};
-			{ 16, 51890, "", "=q4=Precious' Putrid Collar", "=ds=#s2#"};
-			{ 17, 51884, "", "=q4=Signet of Putrefaction", "=ds=#s13#"};
-			{ 19, 51893, "", "=q4=Gutbuster", "=ds=#h1#, #w6#"};
-			{ 20, 51887, "", "=q4=Abracadaver", "=ds=#w9#"};
+			{ 1, 51887, "", "=q4=Abracadaver", "=ds=#w9#", "", "8.3%"};
+			{ 2, 51883, "", "=q4=Bloodstained Surgeon's Shoulderguards", "=ds=#s3#, #a1#", "", "8.3%"};
+			{ 3, 51888, "", "=q4=Cloak of Many Skins", "=ds=#s4#", "", "8.3%"};
+			{ 4, 51886, "", "=q4=Festergut's Gaseous Gloves", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 5, 51892, "", "=q4=Festering Fingerguards", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 6, 51893, "", "=q4=Gutbuster", "=ds=#h1#, #w6#", "", "8.3%"};
+			{ 7, 51882, "", "=q4=Kilt of Untreated Wounds", "=ds=#s11#, #a1#", "", "8.3%"};
+			{ 8, 51889, "", "=q4=Plague-Soaked Leather Leggings", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 9, 51890, "", "=q4=Precious' Putrid Collar", "=ds=#s2#", "", "8.3%"};
+			{ 10, 51884, "", "=q4=Signet of Putrefaction", "=ds=#s13#", "", "8.3%"};
+			{ 11, 51891, "", "=q4=Taldron's Long Neglected Boots", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 51885, "", "=q4=Wrists of Septic Shock", "=ds=#s8#, #a2#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50063, "", "=q4=Lingering Illness", "=ds=#s10#, #a1#"};
-			{ 2, 50056, "", "=q4=Plaguebringer's Stained Pants", "=ds=#s11#, #a1#"};
-			{ 3, 50062, "", "=q4=Plague Scientist's Boots", "=ds=#s12#, #a1#"};
-			{ 4, 50042, "", "=q4=Gangrenous Leggings", "=ds=#s11#, #a2#"};
-			{ 5, 50041, "", "=q4=Leather of Stitched Scourge Parts", "=ds=#s11#, #a2#"};
-			{ 6, 50059, "", "=q4=Horrific Flesh Epaulets", "=ds=#s3#, #a3#"};
-			{ 7, 50038, "", "=q4=Carapace of Forgotten Kings", "=ds=#s5#, #a3#"};
-			{ 8, 50064, "", "=q4=Unclean Surgical Gloves", "=ds=#s9#, #a3#"};
-			{ 9, 50413, "", "=q4=Nerub'ar Stalker's Cord", "=ds=#s10#, #a3#"};
-			{ 10, 50060, "", "=q4=Faceplate of the Forgotten", "=ds=#s1#, #a4#"};
-			{ 11, 50037, "", "=q4=Fleshrending Gauntlets", "=ds=#s9#, #a4#"};
-			{ 12, 50036, "", "=q4=Belt of Broken Bones", "=ds=#s10#, #a4#"};
-			{ 16, 50061, "", "=q4=Holiday's Grace", "=ds=#s2#"};
-			{ 17, 50414, "", "=q4=Might of Blight", "=ds=#s13#"};
-			{ 19, 50035, "", "=q4=Black Bruise", "=ds=#h3#, #w13#"};
-			{ 20, 50040, "", "=q4=Distant Land", "=ds=#w9#"};
-			{ 22, 50226, "", "=q4=Festergut's Acidic Blood", "=ds=#m3#"};
-			{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 25, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50036, "", "=q4=Belt of Broken Bones", "=ds=#s10#, #a4#", "", "6.3%"};
+			{ 2, 50035, "", "=q4=Black Bruise", "=ds=#h3#, #w13#", "", "6.3%"};
+			{ 3, 50038, "", "=q4=Carapace of Forgotten Kings", "=ds=#s5#, #a3#", "", "6.3%"};
+			{ 4, 50040, "", "=q4=Distant Land", "=ds=#w9#", "", "6.3%"};
+			{ 5, 50060, "", "=q4=Faceplate of the Forgotten", "=ds=#s1#, #a4#", "", "6.3%"};
+			{ 6, 50037, "", "=q4=Fleshrending Gauntlets", "=ds=#s9#, #a4#", "", "6.3%"};
+			{ 7, 50042, "", "=q4=Gangrenous Leggings", "=ds=#s11#, #a2#", "", "6.3%"};
+			{ 8, 50061, "", "=q4=Holiday's Grace", "=ds=#s2#", "", "6.3%"};
+			{ 9, 50059, "", "=q4=Horrific Flesh Epaulets", "=ds=#s3#, #a3#", "", "6.3%"};
+			{ 10, 50041, "", "=q4=Leather of Stitched Scourge Parts", "=ds=#s11#, #a2#", "", "6.3%"};
+			{ 11, 50063, "", "=q4=Lingering Illness", "=ds=#s10#, #a1#", "", "6.3%"};
+			{ 12, 50414, "", "=q4=Might of Blight", "=ds=#s13#", "", "6.3%"};
+			{ 13, 50413, "", "=q4=Nerub'ar Stalker's Cord", "=ds=#s10#, #a3#", "", "6.3%"};
+			{ 14, 50062, "", "=q4=Plague Scientist's Boots", "=ds=#s12#, #a1#", "", "6.3%"};
+			{ 15, 50056, "", "=q4=Plaguebringer's Stained Pants", "=ds=#s11#, #a1#", "", "6.3%"};
+			{ 16, 50064, "", "=q4=Unclean Surgical Gloves", "=ds=#s9#, #a3#", "", "6.3%"};
+			{ 18, 50226, "", "=q4=Festergut's Acidic Blood", "=ds=#m3#", "", "100%"};
+			{ 19, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50702, "", "=q4=Lingering Illness", "=ds=#s10#, #a1#"};
-			{ 2, 50694, "", "=q4=Plaguebringer's Stained Pants", "=ds=#s11#, #a1#"};
-			{ 3, 50699, "", "=q4=Plague Scientist's Boots", "=ds=#s12#, #a1#"};
-			{ 4, 50697, "", "=q4=Gangrenous Leggings", "=ds=#s11#, #a2#"};
-			{ 5, 50696, "", "=q4=Leather of Stitched Scourge Parts", "=ds=#s11#, #a2#"};
-			{ 6, 50698, "", "=q4=Horrific Flesh Epaulets", "=ds=#s3#, #a3#"};
-			{ 7, 50689, "", "=q4=Carapace of Forgotten Kings", "=ds=#s5#, #a3#"};
-			{ 8, 50703, "", "=q4=Unclean Surgical Gloves", "=ds=#s9#, #a3#"};
-			{ 9, 50688, "", "=q4=Nerub'ar Stalker's Cord", "=ds=#s10#, #a3#"};
-			{ 10, 50701, "", "=q4=Faceplate of the Forgotten", "=ds=#s1#, #a4#"};
-			{ 11, 50690, "", "=q4=Fleshrending Gauntlets", "=ds=#s9#, #a4#"};
-			{ 12, 50691, "", "=q4=Belt of Broken Bones", "=ds=#s10#, #a4#"};
-			{ 16, 50700, "", "=q4=Holiday's Grace", "=ds=#s2#"};
-			{ 17, 50693, "", "=q4=Might of Blight", "=ds=#s13#"};
-			{ 19, 50692, "", "=q4=Black Bruise", "=ds=#h3#, #w13#"};
-			{ 20, 50695, "", "=q4=Distant Land", "=ds=#w9#"};
-			{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 23, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50691, "", "=q4=Belt of Broken Bones", "=ds=#s10#, #a4#", "", "6.3%"};
+			{ 2, 50692, "", "=q4=Black Bruise", "=ds=#h3#, #w13#", "", "6.3%"};
+			{ 3, 50689, "", "=q4=Carapace of Forgotten Kings", "=ds=#s5#, #a3#", "", "6.3%"};
+			{ 4, 50695, "", "=q4=Distant Land", "=ds=#w9#", "", "6.3%"};
+			{ 5, 50701, "", "=q4=Faceplate of the Forgotten", "=ds=#s1#, #a4#", "", "6.3%"};
+			{ 6, 50690, "", "=q4=Fleshrending Gauntlets", "=ds=#s9#, #a4#", "", "6.3%"};
+			{ 7, 50697, "", "=q4=Gangrenous Leggings", "=ds=#s11#, #a2#", "", "6.3%"};
+			{ 8, 50700, "", "=q4=Holiday's Grace", "=ds=#s2#", "", "6.3%"};
+			{ 9, 50698, "", "=q4=Horrific Flesh Epaulets", "=ds=#s3#, #a3#", "", "6.3%"};
+			{ 10, 50696, "", "=q4=Leather of Stitched Scourge Parts", "=ds=#s11#, #a2#", "", "6.3%"};
+			{ 11, 50702, "", "=q4=Lingering Illness", "=ds=#s10#, #a1#", "", "6.3%"};
+			{ 12, 50693, "", "=q4=Might of Blight", "=ds=#s13#", "", "6.3%"};
+			{ 13, 50688, "", "=q4=Nerub'ar Stalker's Cord", "=ds=#s10#, #a3#", "", "6.3%"};
+			{ 14, 50699, "", "=q4=Plague Scientist's Boots", "=ds=#s12#, #a1#", "", "6.3%"};
+			{ 15, 50694, "", "=q4=Plaguebringer's Stained Pants", "=ds=#s11#, #a1#", "", "6.3%"};
+			{ 16, 50703, "", "=q4=Unclean Surgical Gloves", "=ds=#s9#, #a3#", "", "6.3%"};
+			{ 18, 50226, "", "=q4=Festergut's Acidic Blood", "=ds=#m3#", "", "100%"};
+			{ 19, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7100,81 +7106,82 @@ AtlasLoot_Data["ICCFestergut"] = {
 	};
 }
 
-AtlasLoot_Data["ICCRotface"] = {
+AtlasLoot_Data["IcecrownCitadelRotface"] = {
 	["Normal"] = {
 		{
-			{ 1, 51007, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#"};
-			{ 2, 51005, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#"};
-			{ 3, 51009, "", "=q4=Chestguard of the Failed Experiment", "=ds=#s5#, #a2#"};
-			{ 4, 51002, "", "=q4=Taldron's Short-Sighted Helm", "=ds=#s1#, #a3#"};
-			{ 5, 51006, "", "=q4=Shuffling Shoes", "=ds=#s12#, #a3#"};
-			{ 6, 51000, "", "=q4=Flesh-Shaper's Gurney Strap", "=ds=#s10#, #a4#"};
-			{ 8, 51008, "", "=q4=Choker of Filthy Diamonds", "=ds=#s2#"};
-			{ 9, 51001, "", "=q4=Rotface's Rupturing Ring", "=ds=#s13#"};
-			{ 16, 51003, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#"};
-			{ 17, 51004, "", "=q4=Lockjaw", "=ds=#h3#, #w6#"};
-			{ 18, 50998, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#"};
-			{ 19, 50999, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#"};
+			{ 1, 51003, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#", "", "8.3%"};
+			{ 2, 51009, "", "=q4=Chestguard of the Failed Experiment", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 3, 51008, "", "=q4=Choker of Filthy Diamonds", "=ds=#s2#", "", "8.3%"};
+			{ 4, 51007, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 5, 51000, "", "=q4=Flesh-Shaper's Gurney Strap", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 6, 51005, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#", "", "8.3%"};
+			{ 7, 50999, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#", "", "8.3%"};
+			{ 8, 51004, "", "=q4=Lockjaw", "=ds=#h3#, #w6#", "", "8.3%"};
+			{ 9, 51001, "", "=q4=Rotface's Rupturing Ring", "=ds=#s13#", "", "8.3%"};
+			{ 10, 50998, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#", "", "8.3%"};
+			{ 11, 51006, "", "=q4=Shuffling Shoes", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 51002, "", "=q4=Taldron's Short-Sighted Helm", "=ds=#s1#, #a3#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51872, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#"};
-			{ 2, 51874, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#"};
-			{ 3, 51870, "", "=q4=Chestguard of the Failed Experiment", "=ds=#s5#, #a2#"};
-			{ 4, 51877, "", "=q4=Taldron's Short-Sighted Helm", "=ds=#s1#, #a3#"};
-			{ 5, 51873, "", "=q4=Shuffling Shoes", "=ds=#s12#, #a3#"};
-			{ 6, 51879, "", "=q4=Flesh-Shaper's Gurney Strap", "=ds=#s10#, #a4#"};
-			{ 8, 51871, "", "=q4=Choker of Filthy Diamonds", "=ds=#s2#"};
-			{ 9, 51878, "", "=q4=Rotface's Rupturing Ring", "=ds=#s13#"};
-			{ 16, 51876, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#"};
-			{ 17, 51875, "", "=q4=Lockjaw", "=ds=#h3#, #w6#"};
-			{ 18, 51881, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#"};
-			{ 19, 51880, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#"};
+			{ 1, 51876, "", "=q4=Abomination Knuckles", "=ds=#h3#, #w13#", "", "8.3%"};
+			{ 2, 51870, "", "=q4=Chestguard of the Failed Experiment", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 3, 51871, "", "=q4=Choker of Filthy Diamonds", "=ds=#s2#", "", "8.3%"};
+			{ 4, 51872, "", "=q4=Ether-Soaked Bracers", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 5, 51879, "", "=q4=Flesh-Shaper's Gurney Strap", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 6, 51874, "", "=q4=Gloves of Broken Fingers", "=ds=#s9#, #a1#", "", "8.3%"};
+			{ 7, 51880, "", "=q4=Gluth's Fetching Knife", "=ds=#w11#", "", "8.3%"};
+			{ 8, 51875, "", "=q4=Lockjaw", "=ds=#h3#, #w6#", "", "8.3%"};
+			{ 9, 51878, "", "=q4=Rotface's Rupturing Ring", "=ds=#s13#", "", "8.3%"};
+			{ 10, 51881, "", "=q4=Shaft of Glacial Ice", "=ds=#w9#", "", "8.3%"};
+			{ 11, 51873, "", "=q4=Shuffling Shoes", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 51877, "", "=q4=Taldron's Short-Sighted Helm", "=ds=#s1#, #a3#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50019, "", "=q4=Winding Sheet", "=ds=#s4#"};
-			{ 2, 50032, "", "=q4=Death Surgeon's Sleeves", "=ds=#s8#, #a1#"};
-			{ 3, 50026, "", "=q4=Helm of the Elder Moon", "=ds=#s1#, #a2#"};
-			{ 4, 50021, "", "=q4=Aldriana's Gloves of Secrecy", "=ds=#s9#, #a2#"};
-			{ 5, 50022, "", "=q4=Dual-Bladed Pauldrons", "=ds=#s3#, #a3#"};
-			{ 6, 50030, "", "=q4=Bloodsunder's Bracers", "=ds=#s8#, #a3#"};
-			{ 7, 50020, "", "=q4=Raging Behemoth's Shoulderplates", "=ds=#s3#, #a4#"};
-			{ 8, 50024, "", "=q4=Blightborne Warplate", "=ds=#s5#, #a4#"};
-			{ 9, 50027, "", "=q4=Rot-Resistant Breastplate", "=ds=#s5#, #a4#"};
-			{ 11, 50023, "", "=q4=Bile-Encrusted Medallion", "=ds=#s2#"};
-			{ 12, 50025, "", "=q4=Seal of Many Mouths", "=ds=#s13#"};
-			{ 13, 50353, "", "=q4=Dislodged Foreign Object", "=ds=#s14#"};
-			{ 16, 50028, "", "=q4=Trauma", "=ds=#h3#, #w6#"};
-			{ 17, 50016, "", "=q4=Rib Spreader", "=ds=#h1#, #w4#"};
-			{ 18, 50033, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#"};
-			{ 20, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#"};
-			{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 23, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50021, "", "=q4=Aldriana's Gloves of Secrecy", "=ds=#s9#, #a2#", "", "6.7%"};
+			{ 2, 50023, "", "=q4=Bile-Encrusted Medallion", "=ds=#s2#", "", "6.7%"};
+			{ 3, 50024, "", "=q4=Blightborne Warplate", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 4, 50030, "", "=q4=Bloodsunder's Bracers", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 5, 50033, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#", "", "6.7%"};
+			{ 6, 50032, "", "=q4=Death Surgeon's Sleeves", "=ds=#s8#, #a1#", "", "6.7%"};
+			{ 7, 50353, "", "=q4=Dislodged Foreign Object", "=ds=#s14#", "", "6.7%"};
+			{ 8, 50022, "", "=q4=Dual-Bladed Pauldrons", "=ds=#s3#, #a3#", "", "6.7%"};
+			{ 9, 50026, "", "=q4=Helm of the Elder Moon", "=ds=#s1#, #a2#", "", "6.7%"};
+			{ 10, 50020, "", "=q4=Raging Behemoth's Shoulderplates", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 11, 50016, "", "=q4=Rib Spreader", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 12, 50027, "", "=q4=Rot-Resistant Breastplate", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 13, 50025, "", "=q4=Seal of Many Mouths", "=ds=#s13#", "", "6.7%"};
+			{ 14, 50028, "", "=q4=Trauma", "=ds=#h3#, #w6#", "", "6.7%"};
+			{ 15, 50019, "", "=q4=Winding Sheet", "=ds=#s4#", "", "6.7%"};
+			{ 16, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#", "", "100%"};
+			{ 17, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 19, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50677, "", "=q4=Winding Sheet", "=ds=#s4#"};
-			{ 2, 50686, "", "=q4=Death Surgeon's Sleeves", "=ds=#s8#, #a1#"};
-			{ 3, 50679, "", "=q4=Helm of the Elder Moon", "=ds=#s1#, #a2#"};
-			{ 4, 50675, "", "=q4=Aldriana's Gloves of Secrecy", "=ds=#s9#, #a2#"};
-			{ 5, 50673, "", "=q4=Dual-Bladed Pauldrons", "=ds=#s3#, #a3#"};
-			{ 6, 50687, "", "=q4=Bloodsunder's Bracers", "=ds=#s8#, #a3#"};
-			{ 7, 50674, "", "=q4=Raging Behemoth's Shoulderplates", "=ds=#s3#, #a4#"};
-			{ 8, 50681, "", "=q4=Blightborne Warplate", "=ds=#s5#, #a4#"};
-			{ 9, 50680, "", "=q4=Rot-Resistant Breastplate", "=ds=#s5#, #a4#"};
-			{ 11, 50682, "", "=q4=Bile-Encrusted Medallion", "=ds=#s2#"};
-			{ 12, 50678, "", "=q4=Seal of Many Mouths", "=ds=#s13#"};
-			{ 13, 50348, "", "=q4=Dislodged Foreign Object", "=ds=#s14#"};
-			{ 16, 50685, "", "=q4=Trauma", "=ds=#h3#, #w6#"};
-			{ 17, 50676, "", "=q4=Rib Spreader", "=ds=#h1#, #w4#"};
-			{ 18, 50684, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#"};
-			{ 20, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#"};
-			{ 22, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 23, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50675, "", "=q4=Aldriana's Gloves of Secrecy", "=ds=#s9#, #a2#", "", "6.7%"};
+			{ 2, 50682, "", "=q4=Bile-Encrusted Medallion", "=ds=#s2#", "", "6.7%"};
+			{ 3, 50681, "", "=q4=Blightborne Warplate", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 4, 50687, "", "=q4=Bloodsunder's Bracers", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 5, 50684, "", "=q4=Corpse-Impaling Spike", "=ds=#w12#", "", "6.7%"};
+			{ 6, 50686, "", "=q4=Death Surgeon's Sleeves", "=ds=#s8#, #a1#", "", "6.7%"};
+			{ 7, 50348, "", "=q4=Dislodged Foreign Object", "=ds=#s14#", "", "6.7%"};
+			{ 8, 50673, "", "=q4=Dual-Bladed Pauldrons", "=ds=#s3#, #a3#", "", "6.7%"};
+			{ 9, 50679, "", "=q4=Helm of the Elder Moon", "=ds=#s1#, #a2#", "", "6.7%"};
+			{ 10, 50674, "", "=q4=Raging Behemoth's Shoulderplates", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 11, 50676, "", "=q4=Rib Spreader", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 12, 50680, "", "=q4=Rot-Resistant Breastplate", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 13, 50678, "", "=q4=Seal of Many Mouths", "=ds=#s13#", "", "6.7%"};
+			{ 14, 50685, "", "=q4=Trauma", "=ds=#h3#, #w6#", "", "6.7%"};
+			{ 15, 50677, "", "=q4=Winding Sheet", "=ds=#s4#", "", "6.7%"};
+			{ 16, 50231, "", "=q4=Rotface's Acidic Blood", "=ds=#m3#", "", "100%"};
+			{ 17, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 19, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7184,71 +7191,72 @@ AtlasLoot_Data["ICCRotface"] = {
 	};
 }
 
-AtlasLoot_Data["ICCPutricide"] = {
+AtlasLoot_Data["IcecrownCitadelProfessorPutricide"] = {
 	["Normal"] = {
 		{
-			{ 1, 51020, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
-			{ 2, 51017, "", "=q4=Cauterized Cord", "=ds=#s10#, #a1#"};
-			{ 3, 51013, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#"};
-			{ 4, 51015, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#"};
-			{ 5, 51019, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#"};
-			{ 6, 51014, "", "=q4=Scalpel-Sharpening Shoulderguards", "=ds=#s3#, #a4#"};
-			{ 7, 51018, "", "=q4=Chestplate of Septic Stitches", "=ds=#s5#, #a4#"};
-			{ 16, 51012, "", "=q4=Infected Choker", "=ds=#s2#"};
-			{ 17, 51016, "", "=q4=Pendant of Split Veins", "=ds=#s2#"};
-			{ 18, 50341, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
-			{ 20, 51011, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
-			{ 21, 51010, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
+			{ 1, 51017, "", "=q4=Cauterized Cord", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 2, 51018, "", "=q4=Chestplate of Septic Stitches", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 3, 51013, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#", "", "8.3%"};
+			{ 4, 51011, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#", "", "8.3%"};
+			{ 5, 51012, "", "=q4=Infected Choker", "=ds=#s2#", "", "8.3%"};
+			{ 6, 51016, "", "=q4=Pendant of Split Veins", "=ds=#s2#", "", "8.3%"};
+			{ 7, 51019, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#", "", "8.3%"};
+			{ 8, 51014, "", "=q4=Scalpel-Sharpening Shoulderguards", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 9, 51015, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 10, 51020, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#", "", "8.3%"};
+			{ 11, 51010, "", "=q4=The Facelifter", "=ds=#h1#, #w10#", "", "8.3%"};
+			{ 12, 50341, "", "=q4=Unidentifiable Organ", "=ds=#s14#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51859, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#"};
-			{ 2, 51862, "", "=q4=Cauterized Cord", "=ds=#s10#, #a1#"};
-			{ 3, 51866, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#"};
-			{ 4, 51864, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#"};
-			{ 5, 51860, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#"};
-			{ 6, 51865, "", "=q4=Scalpel-Sharpening Shoulderguards", "=ds=#s3#, #a4#"};
-			{ 7, 51861, "", "=q4=Chestplate of Septic Stitches", "=ds=#s5#, #a4#"};
-			{ 9, 51867, "", "=q4=Infected Choker", "=ds=#s2#"};
-			{ 10, 51863, "", "=q4=Pendant of Split Veins", "=ds=#s2#"};
-			{ 11, 50344, "", "=q4=Unidentifiable Organ", "=ds=#s14#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 51868, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#"};
-			{ 21, 51869, "", "=q4=The Facelifter", "=ds=#h1#, #w10#"};
+			{ 1, 51862, "", "=q4=Cauterized Cord", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 2, 51861, "", "=q4=Chestplate of Septic Stitches", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 3, 51866, "", "=q4=Discarded Bag of Entrails", "=ds=#s1#, #a2#", "", "8.3%"};
+			{ 4, 51868, "", "=q4=Flesh-Carving Scalpel", "=ds=#h1#, #w4#", "", "8.3%"};
+			{ 5, 51867, "", "=q4=Infected Choker", "=ds=#s2#", "", "8.3%"};
+			{ 6, 51863, "", "=q4=Pendant of Split Veins", "=ds=#s2#", "", "8.3%"};
+			{ 7, 51860, "", "=q4=Rippling Flesh Kilt", "=ds=#s11#, #a3#", "", "8.3%"};
+			{ 8, 51865, "", "=q4=Scalpel-Sharpening Shoulderguards", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 9, 51864, "", "=q4=Shoulderpads of the Morbid Ritual", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 10, 51859, "", "=q4=Shoulders of Ruinous Senility", "=ds=#s3#, #a1#", "", "8.3%"};
+			{ 11, 51869, "", "=q4=The Facelifter", "=ds=#h1#, #w10#", "", "8.3%"};
+			{ 12, 50344, "", "=q4=Unidentifiable Organ", "=ds=#s14#", "", "8.3%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50067, "", "=q4=Astrylian's Sutured Cinch", "=ds=#s10#, #a2#"};
-			{ 2, 50069, "", "=q4=Professor's Bloodied Smock", "=ds=#s10#, #a2#"};
-			{ 3, 50351, "", "=q4=Tiny Abomination in a Jar", "=ds=#s14#"};
-			{ 4, 50179, "", "=q4=Last Word", "=ds=#h1#, #w6#"};
-			{ 5, 50068, "", "=q4=Rigormortis", "=ds=#h1#, #w10#"};
-			{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50067, "", "=q4=Astrylian's Sutured Cinch", "=ds=#s10#, #a2#", "", "20%"};
+			{ 2, 50179, "", "=q4=Last Word", "=ds=#h1#, #w6#", "", "20%"};
+			{ 3, 50069, "", "=q4=Professor's Bloodied Smock", "=ds=#s10#, #a2#", "", "20%"};
+			{ 4, 50068, "", "=q4=Rigormortis", "=ds=#h3#, #w10#", "", "20%"};
+			{ 5, 50351, "", "=q4=Tiny Abomination in a Jar", "=ds=#s14#", "", "20%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 22, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50707, "", "=q4=Astrylian's Sutured Cinch", "=ds=#s10#, #a2#"};
-			{ 2, 50705, "", "=q4=Professor's Bloodied Smock", "=ds=#s10#, #a2#"};
-			{ 3, 50706, "", "=q4=Tiny Abomination in a Jar", "=ds=#s14#"};
-			{ 4, 50708, "", "=q4=Last Word", "=ds=#h1#, #w6#"};
-			{ 5, 50704, "", "=q4=Rigormortis", "=ds=#h1#, #w10#"};
-			{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50707, "", "=q4=Astrylian's Sutured Cinch", "=ds=#s10#, #a2#", "", "20%"};
+			{ 2, 50708, "", "=q4=Last Word", "=ds=#h1#, #w6#", "", "20%"};
+			{ 3, 50705, "", "=q4=Professor's Bloodied Smock", "=ds=#s10#, #a2#", "", "20%"};
+			{ 4, 50704, "", "=q4=Rigormortis", "=ds=#h3#, #w10#", "", "20%"};
+			{ 5, 50706, "", "=q4=Tiny Abomination in a Jar", "=ds=#s14#", "", "20%"};
+			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 26, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7262,79 +7270,80 @@ AtlasLoot_Data["ICCPutricide"] = {
 --- The Crimson Hall ---
 ------------------------
 	
-AtlasLoot_Data["ICCCouncil"] = {
+AtlasLoot_Data["IcecrownCitadelBloodPrinceCouncil"] = {
 	["Normal"] = {
 		{
-			{ 1, 51382, "", "=q4=Heartsick Mender's Cape", "=ds=#s4#"};
-			{ 2, 51379, "", "=q4=Bloodsoul Raiment", "=ds=#s5#, #a1#"};
-			{ 3, 51380, "", "=q4=Pale Corpse Boots", "=ds=#s12#, #a1#"};
-			{ 4, 51023, "", "=q4=Taldaram's Soft Slippers", "=ds=#s12#, #a2#"};
-			{ 5, 51325, "", "=q4=Blood-Drinker's Girdle", "=ds=#s10#, #a3#"};
-			{ 6, 51383, "", "=q4=Spaulders of the Blood Princes", "=ds=#s3#, #a4#"};
-			{ 7, 51025, "", "=q4=Battle-Maiden's Legguards", "=ds=#s11#, #a4#"};
-			{ 9, 51381, "", "=q4=Cerise Coiled Ring", "=ds=#s13#"};
-			{ 10, 51024, "", "=q4=Thrice Fanged Signet", "=ds=#s13#"};
-			{ 16, 51021, "", "=q4=Soulbreaker", "=ds=#h1#, #w10#"};
-			{ 17, 51022, "", "=q4=Hersir's Greatspear", "=ds=#w7#"};
-			{ 18, 51326, "", "=q4=Wand of Ruby Claret", "=ds=#w12#"};
+			{ 1, 51025, "", "=q4=Battle-Maiden's Legguards", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 2, 51325, "", "=q4=Blood-Drinker's Girdle", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 3, 51379, "", "=q4=Bloodsoul Raiment", "=ds=#s5#, #a1#", "", "8.3%"};
+			{ 4, 51381, "", "=q4=Cerise Coiled Ring", "=ds=#s13#", "", "8.3%"};
+			{ 5, 51382, "", "=q4=Heartsick Mender's Cape", "=ds=#s4#", "", "8.3%"};
+			{ 6, 51022, "", "=q4=Hersir's Greatspear", "=ds=#w7#", "", "8.3%"};
+			{ 7, 51380, "", "=q4=Pale Corpse Boots", "=ds=#s12#, #a1#", "", "8.3%"};
+			{ 8, 51021, "", "=q4=Soulbreaker", "=ds=#h1#, #w10#", "", "8.3%"};
+			{ 9, 51383, "", "=q4=Spaulders of the Blood Princes", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 10, 51023, "", "=q4=Taldaram's Soft Slippers", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 11, 51024, "", "=q4=Thrice Fanged Signet", "=ds=#s13#", "", "8.3%"};
+			{ 12, 51326, "", "=q4=Wand of Ruby Claret", "=ds=#w12#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51848, "", "=q4=Heartsick Mender's Cape", "=ds=#s4#"};
-			{ 2, 51851, "", "=q4=Bloodsoul Raiment", "=ds=#s5#, #a1#"};
-			{ 3, 51850, "", "=q4=Pale Corpse Boots", "=ds=#s12#, #a1#"};
-			{ 4, 51856, "", "=q4=Taldaram's Soft Slippers", "=ds=#s12#, #a2#"};
-			{ 5, 51853, "", "=q4=Blood-Drinker's Girdle", "=ds=#s10#, #a3#"};
-			{ 6, 51847, "", "=q4=Spaulders of the Blood Princes", "=ds=#s3#, #a4#"};
-			{ 7, 51854, "", "=q4=Battle-Maiden's Legguards", "=ds=#s11#, #a4#"};
-			{ 9, 51849, "", "=q4=Cerise Coiled Ring", "=ds=#s13#"};
-			{ 10, 51855, "", "=q4=Thrice Fanged Signet", "=ds=#s13#"};
-			{ 16, 51858, "", "=q4=Soulbreaker", "=ds=#h1#, #w10#"};
-			{ 17, 51857, "", "=q4=Hersir's Greatspear", "=ds=#w7#"};
-			{ 18, 51852, "", "=q4=Wand of Ruby Claret", "=ds=#w12#"};
+			{ 1, 51854, "", "=q4=Battle-Maiden's Legguards", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 2, 51853, "", "=q4=Blood-Drinker's Girdle", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 3, 51851, "", "=q4=Bloodsoul Raiment", "=ds=#s5#, #a1#", "", "8.3%"};
+			{ 4, 51849, "", "=q4=Cerise Coiled Ring", "=ds=#s13#", "", "8.3%"};
+			{ 5, 51848, "", "=q4=Heartsick Mender's Cape", "=ds=#s4#", "", "8.3%"};
+			{ 6, 51857, "", "=q4=Hersir's Greatspear", "=ds=#w7#", "", "8.3%"};
+			{ 7, 51850, "", "=q4=Pale Corpse Boots", "=ds=#s12#, #a1#", "", "8.3%"};
+			{ 8, 51858, "", "=q4=Soulbreaker", "=ds=#h1#, #w10#", "", "8.3%"};
+			{ 9, 51847, "", "=q4=Spaulders of the Blood Princes", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 10, 51856, "", "=q4=Taldaram's Soft Slippers", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 11, 51855, "", "=q4=Thrice Fanged Signet", "=ds=#s13#", "", "8.3%"};
+			{ 12, 51852, "", "=q4=Wand of Ruby Claret", "=ds=#w12#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50074, "", "=q4=Royal Crimson Cloak", "=ds=#s4#"};
-			{ 2, 50172, "", "=q4=Sanguine Silk Robes", "=ds=#s5#, #a1#"};
-			{ 3, 50176, "", "=q4=San'layn Ritualist Gloves", "=ds=#s9#, #a1#"};
-			{ 4, 50073, "", "=q4=Geistlord's Punishment Sack", "=ds=#s1#, #a2#"};
-			{ 5, 50171, "", "=q4=Shoulders of Frost-Tipped Thorns", "=ds=#s3#, #a2#"};
-			{ 6, 50177, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#"};
-			{ 7, 50071, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#"};
-			{ 8, 50072, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#"};
-			{ 9, 50075, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
-			{ 10, 50175, "", "=q4=Crypt Keeper's Bracers", "=ds=#s8#, #a4#"};
-			{ 16, 50174, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#"};
-			{ 17, 50170, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#"};
-			{ 18, 50173, "", "=q4=Shadow Silk Spindle", "=ds=#s15#"};
-			{ 20, 50184, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#"};
-			{ 21, 49919, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#"};
-			{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50175, "", "=q4=Crypt Keeper's Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 2, 49919, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#", "", "6.7%"};
+			{ 3, 50073, "", "=q4=Geistlord's Punishment Sack", "=ds=#s1#, #a2#", "", "6.7%"};
+			{ 4, 50174, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#", "", "6.7%"};
+			{ 5, 50184, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#", "", "6.7%"};
+			{ 6, 50072, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#", "", "6.7%"};
+			{ 7, 50177, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 8, 50074, "", "=q4=Royal Crimson Cloak", "=ds=#s4#", "", "6.7%"};
+			{ 9, 50176, "", "=q4=San'layn Ritualist Gloves", "=ds=#s9#, #a1#", "", "6.7%"};
+			{ 10, 50172, "", "=q4=Sanguine Silk Robes", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 11, 50173, "", "=q4=Shadow Silk Spindle", "=ds=#s15#", "", "6.7%"};
+			{ 12, 50171, "", "=q4=Shoulders of Frost-Tipped Thorns", "=ds=#s3#, #a2#", "", "6.7%"};
+			{ 13, 50075, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#", "", "6.7%"};
+			{ 14, 50071, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 15, 50170, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50718, "", "=q4=Royal Crimson Cloak", "=ds=#s4#"};
-			{ 2, 50717, "", "=q4=Sanguine Silk Robes", "=ds=#s5#, #a1#"};
-			{ 3, 50722, "", "=q4=San'layn Ritualist Gloves", "=ds=#s9#, #a1#"};
-			{ 4, 50713, "", "=q4=Geistlord's Punishment Sack", "=ds=#s1#, #a2#"};
-			{ 5, 50715, "", "=q4=Shoulders of Frost-Tipped Thorns", "=ds=#s3#, #a2#"};
-			{ 6, 50723, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#"};
-			{ 7, 50711, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#"};
-			{ 8, 50712, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#"};
-			{ 9, 50721, "", "=q4=Crypt Keeper's Bracers", "=ds=#s8#, #a4#"};
-			{ 10, 50716, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#"};
-			{ 16, 50720, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#"};
-			{ 17, 50714, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#"};
-			{ 18, 50719, "", "=q4=Shadow Silk Spindle", "=ds=#s15#"};
-			{ 20, 50710, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#"};
-			{ 21, 50603, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#"};
-			{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50721, "", "=q4=Crypt Keeper's Bracers", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 2, 50603, "", "=q4=Cryptmaker", "=ds=#h2#, #w6#", "", "6.7%"};
+			{ 3, 50713, "", "=q4=Geistlord's Punishment Sack", "=ds=#s1#, #a2#", "", "6.7%"};
+			{ 4, 50720, "", "=q4=Incarnadine Band of Mending", "=ds=#s13#", "", "6.7%"};
+			{ 5, 50710, "", "=q4=Keleseth's Seducer", "=ds=#h4#, #w13#", "", "6.7%"};
+			{ 6, 50712, "", "=q4=Landsoul's Horned Greathelm", "=ds=#s1#, #a4#", "", "6.7%"};
+			{ 7, 50723, "", "=q4=Mail of Crimson Coins", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 8, 50718, "", "=q4=Royal Crimson Cloak", "=ds=#s4#", "", "6.7%"};
+			{ 9, 50722, "", "=q4=San'layn Ritualist Gloves", "=ds=#s9#, #a1#", "", "6.7%"};
+			{ 10, 50717, "", "=q4=Sanguine Silk Robes", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 11, 50719, "", "=q4=Shadow Silk Spindle", "=ds=#s15#", "", "6.7%"};
+			{ 12, 50715, "", "=q4=Shoulders of Frost-Tipped Thorns", "=ds=#s3#, #a2#", "", "6.7%"};
+			{ 13, 50716, "", "=q4=Taldaram's Plated Fists", "=ds=#s9#, #a4#", "", "6.7%"};
+			{ 14, 50711, "", "=q4=Treads of the Wasteland", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 15, 50714, "", "=q4=Valanar's Other Signet Ring", "=ds=#s13#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7344,73 +7353,74 @@ AtlasLoot_Data["ICCCouncil"] = {
 	};
 }
 
-AtlasLoot_Data["ICCLanathel"] = {
+AtlasLoot_Data["IcecrownCitadelBloodQueenLanathel"] = {
 	["Normal"] = {
 		{
-			{ 1, 51554, "", "=q4=Cowl of Malefic Repose", "=ds=#s1#, #a1#"};
-			{ 2, 51552, "", "=q4=Shoulderpads of the Searing Kiss", "=ds=#s3#, #a2#"};
-			{ 3, 51550, "", "=q4=Ivory-Inlaid Leggings", "=ds=#s11#, #a2#"};
-			{ 4, 51551, "", "=q4=Chestguard of Siphoned Elements", "=ds=#s5#, #a3#"};
-			{ 5, 51386, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#"};
-			{ 6, 51556, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#"};
-			{ 7, 51555, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#"};
-			{ 9, 51548, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#"};
-			{ 10, 51387, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 51384, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#"};
-			{ 21, 51385, "", "=q4=Stakethrower", "=ds=#w5#"};
-			{ 22, 51553, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#"};
+			{ 1, 51384, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#", "", "8.3%"};
+			{ 2, 51551, "", "=q4=Chestguard of Siphoned Elements", "=ds=#s5#, #a3#", "", "8.3%"};
+			{ 3, 51548, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#", "", "8.3%"};
+			{ 4, 51554, "", "=q4=Cowl of Malefic Repose", "=ds=#s1#, #a1#", "", "8.3%"};
+			{ 5, 51550, "", "=q4=Ivory-Inlaid Leggings", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 6, 51553, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#", "", "8.3%"};
+			{ 7, 51387, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#", "", "8.3%"};
+			{ 8, 51552, "", "=q4=Shoulderpads of the Searing Kiss", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 9, 51385, "", "=q4=Stakethrower", "=ds=#w5#", "", "8.3%"};
+			{ 10, 51386, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 11, 51555, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 12, 51556, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51837, "", "=q4=Cowl of Malefic Repose", "=ds=#s1#, #a1#"};
-			{ 2, 51839, "", "=q4=Shoulderpads of the Searing Kiss", "=ds=#s3#, #a2#"};
-			{ 3, 51841, "", "=q4=Ivory-Inlaid Leggings", "=ds=#s11#, #a2#"};
-			{ 4, 51840, "", "=q4=Chestguard of Siphoned Elements", "=ds=#s5#, #a3#"};
-			{ 5, 51844, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#"};
-			{ 6, 51835, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#"};
-			{ 7, 51836, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#"};
-			{ 16, 51842, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#"};
-			{ 17, 51843, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#"};
-			{ 19, 51846, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#"};
-			{ 20, 51845, "", "=q4=Stakethrower", "=ds=#w5#"};
-			{ 21, 51838, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#"};
+			{ 1, 51846, "", "=q4=Bloodsipper", "=ds=#h1#, #w4#", "", "8.3%"};
+			{ 2, 51840, "", "=q4=Chestguard of Siphoned Elements", "=ds=#s5#, #a3#", "", "8.3%"};
+			{ 3, 51842, "", "=q4=Collar of Haughty Disdain", "=ds=#s2#", "", "8.3%"};
+			{ 4, 51837, "", "=q4=Cowl of Malefic Repose", "=ds=#s1#, #a1#", "", "8.3%"};
+			{ 5, 51841, "", "=q4=Ivory-Inlaid Leggings", "=ds=#s11#, #a2#", "", "8.3%"};
+			{ 6, 51838, "", "=q4=Lana'thel's Bloody Nail", "=ds=#w12#", "", "8.3%"};
+			{ 7, 51843, "", "=q4=Seal of the Twilight Queen", "=ds=#s13#", "", "8.3%"};
+			{ 8, 51839, "", "=q4=Shoulderpads of the Searing Kiss", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 9, 51845, "", "=q4=Stakethrower", "=ds=#w5#", "", "8.3%"};
+			{ 10, 51844, "", "=q4=Throatrender Handguards", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 11, 51836, "", "=q4=Tightening Waistband", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 12, 51835, "", "=q4=Veincrusher Gauntlets", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50182, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#"};
-			{ 2, 50180, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#"};
-			{ 3, 50354, "", "=q4=Bauble of True Blood", "=ds=#s14#"};
-			{ 4, 50178, "", "=q4=Bloodfall", "=ds=#w7#"};
-			{ 5, 50181, "", "=q4=Dying Light", "=ds=#w9#"};
-			{ 6, 50065, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
-			{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 9, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50354, "", "=q4=Bauble of True Blood", "=ds=#s14#", "", "16.7%"};
+			{ 2, 50182, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#", "", "16.7%"};
+			{ 3, 50178, "", "=q4=Bloodfall", "=ds=#w7#", "", "16.7%"};
+			{ 4, 50181, "", "=q4=Dying Light", "=ds=#w9#", "", "16.7%"};
+			{ 5, 50065, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#", "", "16.7%"};
+			{ 6, 50180, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#", "", "16.7%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 22, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50724, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#"};
-			{ 2, 50728, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#"};
-			{ 3, 50726, "", "=q4=Bauble of True Blood", "=ds=#s14#"};
-			{ 4, 50727, "", "=q4=Bloodfall", "=ds=#w7#"};
-			{ 5, 50725, "", "=q4=Dying Light", "=ds=#w9#"};
-			{ 6, 50729, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#"};
-			{ 8, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 9, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50726, "", "=q4=Bauble of True Blood", "=ds=#s14#", "", "16.7%"};
+			{ 2, 50724, "", "=q4=Blood Queen's Crimson Choker", "=ds=#s2#", "", "16.7%"};
+			{ 3, 50727, "", "=q4=Bloodfall", "=ds=#w7#", "", "16.7%"};
+			{ 4, 50725, "", "=q4=Dying Light", "=ds=#w9#", "", "16.7%"};
+			{ 5, 50729, "", "=q4=Icecrown Glacial Wall", "=ds=#w8#", "", "16.7%"};
+			{ 6, 50728, "", "=q4=Lana'thel's Chain of Flagellation", "=ds=#s2#", "", "16.7%"};
+			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 26, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7424,79 +7434,80 @@ AtlasLoot_Data["ICCLanathel"] = {
 --- The Frozen Halls ---
 ------------------------
 
-AtlasLoot_Data["ICCValithria"] = {
+AtlasLoot_Data["IcecrownCitadelValithriaDreamwalker"] = {
 	["Normal"] = {
 		{
-			{ 1, 51584, "", "=q4=Lich Wrappings", "=ds=#s4#"};
-			{ 2, 51777, "", "=q4=Leggings of the Refracted Mind", "=ds=#s11#, #a1#"};
-			{ 3, 51585, "", "=q4=Sister Svalna's Spangenhelm", "=ds=#s1#, #a2#"};
-			{ 4, 51565, "", "=q4=Skinned Whelp Shoulders", "=ds=#s3#, #a2#"};
-			{ 5, 51583, "", "=q4=Stormbringer Gloves", "=ds=#s9#, #a3#"};
-			{ 6, 51566, "", "=q4=Legguards of the Twisted Dream", "=ds=#s11#, #a3#"};
-			{ 7, 51586, "", "=q4=Emerald Saint's Spaulders", "=ds=#s3#, #a4#"};
-			{ 8, 51563, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#"};
-			{ 9, 51564, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#"};
-			{ 16, 51562, "", "=q4=Oxheart", "=ds=#h2#, #w6#"};
-			{ 17, 51582, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#"};
-			{ 18, 51561, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#"};
+			{ 1, 51561, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#", "", "8.3%"};
+			{ 2, 51586, "", "=q4=Emerald Saint's Spaulders", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 3, 51564, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 4, 51777, "", "=q4=Leggings of the Refracted Mind", "=ds=#s11#, #a1#", "", "8.3%"};
+			{ 5, 51566, "", "=q4=Legguards of the Twisted Dream", "=ds=#s11#, #a3#", "", "8.3%"};
+			{ 6, 51584, "", "=q4=Lich Wrappings", "=ds=#s4#", "", "8.3%"};
+			{ 7, 51562, "", "=q4=Oxheart", "=ds=#h2#, #w6#", "", "8.3%"};
+			{ 8, 51582, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#", "", "8.3%"};
+			{ 9, 51585, "", "=q4=Sister Svalna's Spangenhelm", "=ds=#s1#, #a2#", "", "8.3%"};
+			{ 10, 51565, "", "=q4=Skinned Whelp Shoulders", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 11, 51583, "", "=q4=Stormbringer Gloves", "=ds=#s9#, #a3#", "", "8.3%"};
+			{ 12, 51563, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51826, "", "=q4=Lich Wrappings", "=ds=#s4#"};
-			{ 2, 51823, "", "=q4=Leggings of the Refracted Mind", "=ds=#s11#, #a1#"};
-			{ 3, 51825, "", "=q4=Sister Svalna's Spangenhelm", "=ds=#s1#, #a2#"};
-			{ 4, 51830, "", "=q4=Skinned Whelp Shoulders", "=ds=#s3#, #a2#"};
-			{ 5, 51827, "", "=q4=Stormbringer Gloves", "=ds=#s9#, #a3#"};
-			{ 6, 51829, "", "=q4=Legguards of the Twisted Dream", "=ds=#s11#, #a3#"};
-			{ 7, 51824, "", "=q4=Emerald Saint's Spaulders", "=ds=#s3#, #a4#"};
-			{ 8, 51832, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#"};
-			{ 9, 51831, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#"};
-			{ 16, 51833, "", "=q4=Oxheart", "=ds=#h2#, #w6#"};
-			{ 17, 51828, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#"};
-			{ 18, 51834, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#"};
+			{ 1, 51834, "", "=q4=Dreamhunter's Carbine", "=ds=#w5#", "", "8.3%"};
+			{ 2, 51824, "", "=q4=Emerald Saint's Spaulders", "=ds=#s3#, #a4#", "", "8.3%"};
+			{ 3, 51831, "", "=q4=Ironrope Belt of Ymirjar", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 4, 51823, "", "=q4=Leggings of the Refracted Mind", "=ds=#s11#, #a1#", "", "8.3%"};
+			{ 5, 51829, "", "=q4=Legguards of the Twisted Dream", "=ds=#s11#, #a3#", "", "8.3%"};
+			{ 6, 51826, "", "=q4=Lich Wrappings", "=ds=#s4#", "", "8.3%"};
+			{ 7, 51833, "", "=q4=Oxheart", "=ds=#h2#, #w6#", "", "8.3%"};
+			{ 8, 51828, "", "=q4=Sister Svalna's Aether Staff", "=ds=#w9#", "", "8.3%"};
+			{ 9, 51825, "", "=q4=Sister Svalna's Spangenhelm", "=ds=#s1#, #a2#", "", "8.3%"};
+			{ 10, 51830, "", "=q4=Skinned Whelp Shoulders", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 11, 51827, "", "=q4=Stormbringer Gloves", "=ds=#s9#, #a3#", "", "8.3%"};
+			{ 12, 51832, "", "=q4=Taiga Bindings", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 16, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "20%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50205, "", "=q4=Frostbinder's Shredded Cape", "=ds=#s4#"};
-			{ 2, 50418, "", "=q4=Robe of the Waking Nightmare", "=ds=#s5#, #a1#"};
-			{ 3, 50417, "", "=q4=Bracers of Eternal Dreaming", "=ds=#s8#, #a2#"};
-			{ 4, 50202, "", "=q4=Snowstorm Helm", "=ds=#s1#, #a3#"};
-			{ 5, 50188, "", "=q4=Anub'ar Stalker's Gloves", "=ds=#s9#, #a3#"};
-			{ 6, 50187, "", "=q4=Coldwraith Links", "=ds=#s10#, #a4#"};
-			{ 7, 50199, "", "=q4=Leggings of Dying Candles", "=ds=#s11#, #a4#"};
-			{ 8, 50192, "", "=q4=Scourge Reaver's Legplates", "=ds=#s11#, #a4#"};
-			{ 9, 50416, "", "=q4=Boots of the Funeral March", "=ds=#s12#, #a4#"};
-			{ 10, 50190, "", "=q4=Grinning Skull Greatboots", "=ds=#s12#, #a4#"};
-			{ 16, 50195, "", "=q4=Noose of Malachite", "=ds=#s2#"};
-			{ 17, 50185, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#"};
-			{ 18, 50186, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#"};
-			{ 20, 50183, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
-			{ 21, 50472, "", "=q4=Nightmare Ender", "=ds=#w12#"};
-			{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50188, "", "=q4=Anub'ar Stalker's Gloves", "=ds=#s9#, #a3#", "", "6.7%"};
+			{ 2, 50416, "", "=q4=Boots of the Funeral March", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 3, 50417, "", "=q4=Bracers of Eternal Dreaming", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 4, 50187, "", "=q4=Coldwraith Links", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 5, 50185, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#", "", "6.7%"};
+			{ 6, 50205, "", "=q4=Frostbinder's Shredded Cape", "=ds=#s4#", "", "6.7%"};
+			{ 7, 50186, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#", "", "6.7%"};
+			{ 8, 50190, "", "=q4=Grinning Skull Greatboots", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 9, 50199, "", "=q4=Leggings of Dying Candles", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 10, 50183, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 11, 50472, "", "=q4=Nightmare Ender", "=ds=#w12#", "", "6.7%"};
+			{ 12, 50195, "", "=q4=Noose of Malachite", "=ds=#s2#", "", "6.7%"};
+			{ 13, 50418, "", "=q4=Robe of the Waking Nightmare", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 14, 50192, "", "=q4=Scourge Reaver's Legplates", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 15, 50202, "", "=q4=Snowstorm Helm", "=ds=#s1#, #a3#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "20%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50628, "", "=q4=Frostbinder's Shredded Cape", "=ds=#s4#"};
-			{ 2, 50629, "", "=q4=Robe of the Waking Nightmare", "=ds=#s5#, #a1#"};
-			{ 3, 50630, "", "=q4=Bracers of Eternal Dreaming", "=ds=#s8#, #a2#"};
-			{ 4, 50626, "", "=q4=Snowstorm Helm", "=ds=#s1#, #a3#"};
-			{ 5, 50619, "", "=q4=Anub'ar Stalker's Gloves", "=ds=#s9#, #a3#"};
-			{ 6, 50620, "", "=q4=Coldwraith Links", "=ds=#s10#, #a4#"};
-			{ 7, 50623, "", "=q4=Leggings of Dying Candles", "=ds=#s11#, #a4#"};
-			{ 8, 50624, "", "=q4=Scourge Reaver's Legplates", "=ds=#s11#, #a4#"};
-			{ 9, 50632, "", "=q4=Boots of the Funeral March", "=ds=#s12#, #a4#"};
-			{ 10, 50625, "", "=q4=Grinning Skull Greatboots", "=ds=#s12#, #a4#"};
-			{ 16, 50627, "", "=q4=Noose of Malachite", "=ds=#s2#"};
-			{ 17, 50622, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#"};
-			{ 18, 50618, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#"};
-			{ 20, 50621, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#"};
-			{ 21, 50631, "", "=q4=Nightmare Ender", "=ds=#w12#"};
-			{ 23, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 24, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50619, "", "=q4=Anub'ar Stalker's Gloves", "=ds=#s9#, #a3#", "", "6.7%"};
+			{ 2, 50632, "", "=q4=Boots of the Funeral March", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 3, 50630, "", "=q4=Bracers of Eternal Dreaming", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 4, 50620, "", "=q4=Coldwraith Links", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 5, 50622, "", "=q4=Devium's Eternally Cold Ring", "=ds=#s13#", "", "6.7%"};
+			{ 6, 50628, "", "=q4=Frostbinder's Shredded Cape", "=ds=#s4#", "", "6.7%"};
+			{ 7, 50618, "", "=q4=Frostbrood Sapphire Ring", "=ds=#s13#", "", "6.7%"};
+			{ 8, 50625, "", "=q4=Grinning Skull Greatboots", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 9, 50623, "", "=q4=Leggings of Dying Candles", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 10, 50621, "", "=q4=Lungbreaker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 11, 50631, "", "=q4=Nightmare Ender", "=ds=#w12#", "", "6.7%"};
+			{ 12, 50627, "", "=q4=Noose of Malachite", "=ds=#s2#", "", "6.7%"};
+			{ 13, 50629, "", "=q4=Robe of the Waking Nightmare", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 14, 50624, "", "=q4=Scourge Reaver's Legplates", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 15, 50626, "", "=q4=Snowstorm Helm", "=ds=#s1#, #a3#", "", "6.7%"};
+			{ 16, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 18, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "20%"};
 		};
 	};
 	info = {
@@ -7506,71 +7517,76 @@ AtlasLoot_Data["ICCValithria"] = {
 	};
 }
 
-AtlasLoot_Data["ICCSindragosa"] = {
+AtlasLoot_Data["IcecrownCitadelSindragosa"] = {
 	["Normal"] = {
 		{
-			{ 1, 51790, "", "=q4=Robes of Azure Downfall", "=ds=#s5#, #a1#"};
-			{ 2, 51783, "", "=q4=Vambraces of the Frost Wyrm Queen", "=ds=#s8#, #a2#"};
-			{ 3, 51789, "", "=q4=Icicle Shapers", "=ds=#s9#, #a2#"};
-			{ 4, 51792, "", "=q4=Shoulderguards of Crystalline Bone", "=ds=#s3#, #a3#"};
-			{ 5, 51785, "", "=q4=Wyrmwing Treads", "=ds=#s12#, #a3#"};
-			{ 6, 51782, "", "=q4=Etched Dragonbone Girdle", "=ds=#s10#, #a4#"};
-			{ 7, 51786, "", "=q4=Legplates of Aetheric Strife", "=ds=#s11#, #a4#"};
-			{ 8, 51787, "", "=q4=Scourge Fanged Stompers", "=ds=#s12#, #a4#"};
-			{ 16, 51779, "", "=q4=Rimetooth Pendant", "=ds=#s2#"};
-			{ 18, 51784, "", "=q4=Splintershard", "=ds=#h4#, #w13#"};
-			{ 19, 51788, "", "=q4=Bleak Coldarra Carver", "=ds=#h3#, #w4#"};
-			{ 20, 51791, "", "=q4=Lost Pavise of the Blue Flight", "=ds=#w8#"};
+			{ 1, 51788, "", "=q4=Bleak Coldarra Carver", "=ds=#h3#, #w4#", "", "8.3%"};
+			{ 2, 51782, "", "=q4=Etched Dragonbone Girdle", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 3, 51789, "", "=q4=Icicle Shapers", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 4, 51786, "", "=q4=Legplates of Aetheric Strife", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 5, 51791, "", "=q4=Lost Pavise of the Blue Flight", "=ds=#w8#", "", "8.3%"};
+			{ 6, 51779, "", "=q4=Rimetooth Pendant", "=ds=#s2#", "", "8.3%"};
+			{ 7, 51790, "", "=q4=Robes of Azure Downfall", "=ds=#s5#, #a1#", "", "8.3%"};
+			{ 8, 51787, "", "=q4=Scourge Fanged Stompers", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 9, 51792, "", "=q4=Shoulderguards of Crystalline Bone", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 10, 51784, "", "=q4=Splintershard", "=ds=#h4#, #w13#", "", "8.3%"};
+			{ 11, 51783, "", "=q4=Vambraces of the Frost Wyrm Queen", "=ds=#s8#, #a2#", "", "8.3%"};
+			{ 12, 51785, "", "=q4=Wyrmwing Treads", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 14, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#", "", "100%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51813, "", "=q4=Robes of Azure Downfall", "=ds=#s5#, #a1#"};
-			{ 2, 51820, "", "=q4=Vambraces of the Frost Wyrm Queen", "=ds=#s8#, #a2#"};
-			{ 3, 51814, "", "=q4=Icicle Shapers", "=ds=#s9#, #a2#"};
-			{ 4, 51811, "", "=q4=Shoulderguards of Crystalline Bone", "=ds=#s3#, #a3#"};
-			{ 5, 51818, "", "=q4=Wyrmwing Treads", "=ds=#s12#, #a3#"};
-			{ 6, 51821, "", "=q4=Etched Dragonbone Girdle", "=ds=#s10#, #a4#"};
-			{ 7, 51817, "", "=q4=Legplates of Aetheric Strife", "=ds=#s11#, #a4#"};
-			{ 8, 51816, "", "=q4=Scourge Fanged Stompers", "=ds=#s12#, #a4#"};
-			{ 10, 51822, "", "=q4=Rimetooth Pendant", "=ds=#s2#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 51819, "", "=q4=Splintershard", "=ds=#h4#, #w13#"};
-			{ 21, 51815, "", "=q4=Bleak Coldarra Carver", "=ds=#h3#, #w4#"};
-			{ 22, 51812, "", "=q4=Lost Pavise of the Blue Flight", "=ds=#w8#"};
+			{ 1, 51815, "", "=q4=Bleak Coldarra Carver", "=ds=#h3#, #w4#", "", "8.3%"};
+			{ 2, 51821, "", "=q4=Etched Dragonbone Girdle", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 3, 51814, "", "=q4=Icicle Shapers", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 4, 51817, "", "=q4=Legplates of Aetheric Strife", "=ds=#s11#, #a4#", "", "8.3%"};
+			{ 5, 51812, "", "=q4=Lost Pavise of the Blue Flight", "=ds=#w8#", "", "8.3%"};
+			{ 6, 51822, "", "=q4=Rimetooth Pendant", "=ds=#s2#", "", "8.3%"};
+			{ 7, 51813, "", "=q4=Robes of Azure Downfall", "=ds=#s5#, #a1#", "", "8.3%"};
+			{ 8, 51816, "", "=q4=Scourge Fanged Stompers", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 9, 51811, "", "=q4=Shoulderguards of Crystalline Bone", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 10, 51819, "", "=q4=Splintershard", "=ds=#h4#, #w13#", "", "8.3%"};
+			{ 11, 51820, "", "=q4=Vambraces of the Frost Wyrm Queen", "=ds=#s8#, #a2#", "", "8.3%"};
+			{ 12, 51818, "", "=q4=Wyrmwing Treads", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 14, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#", "", "100%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50421, "", "=q4=Sindragosa's Cruel Claw", "=ds=#s2#"};
-			{ 2, 50424, "", "=q4=Memory of Malygos", "=ds=#s13#"};
-			{ 3, 50360, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#"};
-			{ 4, 50361, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
-			{ 5, 50423, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
-			{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50424, "", "=q4=Memory of Malygos", "=ds=#s13#", "", "20%"};
+			{ 2, 50360, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#", "", "20%"};
+			{ 3, 50421, "", "=q4=Sindragosa's Cruel Claw", "=ds=#s2#", "", "20%"};
+			{ 4, 50361, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#", "", "20%"};
+			{ 5, 50423, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#", "", "20%"};
+			{ 7, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#", "", "100%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 22, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50633, "", "=q4=Sindragosa's Cruel Claw", "=ds=#s2#"};
-			{ 2, 50636, "", "=q4=Memory of Malygos", "=ds=#s13#"};
-			{ 3, 50365, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#"};
-			{ 4, 50364, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#"};
-			{ 5, 50635, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#"};
-			{ 7, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 8, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50636, "", "=q4=Memory of Malygos", "=ds=#s13#", "", "20%"};
+			{ 2, 50365, "", "=q4=Phylactery of the Nameless Lich", "=ds=#s14#", "", "20%"};
+			{ 3, 50633, "", "=q4=Sindragosa's Cruel Claw", "=ds=#s2#", "", "20%"};
+			{ 4, 50364, "", "=q4=Sindragosa's Flawless Fang", "=ds=#s14#", "", "20%"};
+			{ 5, 50635, "", "=q4=Sundial of Eternal Dusk", "=ds=#s15#", "", "20%"};
+			{ 7, 51026, "", "=q1=Crystalline Essence of Sindragosa", "=ds=#m3#", "", "100%"};
+			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "100%"};
+			{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 26, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7584,75 +7600,79 @@ AtlasLoot_Data["ICCSindragosa"] = {
 --- The Frozen Throne ---
 -------------------------
 
-AtlasLoot_Data["ICCLichKing"] = {
+AtlasLoot_Data["IcecrownCitadelTheLichKing"] = {
 	["Normal"] = {
 		{
-			{ 1, 51801, "", "=q4=Pugius, Fist of Defiance", "=ds=#h3#, #w13#"};
-			{ 2, 51803, "", "=q4=Tel'thas, Dagger of the Blood King", "=ds=#h3#, #w4#"};
-			{ 3, 51800, "", "=q4=Stormfury, Black Blade of the Betrayer", "=ds=#h1#, #w4#"};
-			{ 4, 51795, "", "=q4=Troggbane, Axe of the Frostborne King", "=ds=#h1#, #w1#"};
-			{ 5, 51798, "", "=q4=Valius, Gavel of the Lightbringer", "=ds=#h3#, #w6#"};
-			{ 6, 51796, "", "=q4=Warmace of Menethil", "=ds=#h2#, #w6#"};
-			{ 7, 51799, "", "=q4=Halion, Staff of Forgotten Love", "=ds=#w9#"};
-			{ 8, 51797, "", "=q4=Tainted Twig of Nordrassil", "=ds=#w9#"};
-			{ 9, 51802, "", "=q4=Windrunner's Heartseeker", "=ds=#w3#"};
+			{ 1, 51799, "", "=q4=Halion, Staff of Forgotten Love", "=ds=#w9#", "", "11.1%"};
+			{ 2, 51801, "", "=q4=Pugius, Fist of Defiance", "=ds=#h3#, #w13#", "", "11.1%"};
+			{ 3, 51800, "", "=q4=Stormfury, Black Blade of the Betrayer", "=ds=#h1#, #w4#", "", "11.1%"};
+			{ 4, 51797, "", "=q4=Tainted Twig of Nordrassil", "=ds=#w9#", "", "11.1%"};
+			{ 5, 51803, "", "=q4=Tel'thas, Dagger of the Blood King", "=ds=#h3#, #w4#", "", "11.1%"};
+			{ 6, 51795, "", "=q4=Troggbane, Axe of the Frostborne King", "=ds=#h1#, #w1#", "", "11.1%"};
+			{ 7, 51798, "", "=q4=Valius, Gavel of the Lightbringer", "=ds=#h3#, #w6#", "", "11.1%"};
+			{ 8, 51796, "", "=q4=Warmace of Menethil", "=ds=#h2#, #w6#", "", "11.1%"};
+			{ 9, 51802, "", "=q4=Windrunner's Heartseeker", "=ds=#w3#", "", "11.1%"};
+			{ 11, 51315, "", "=q4=Sealed Chest", "=ds=#m2#", "", "100%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 51941, "", "=q4=Pugius, Fist of Defiance", "=ds=#h3#, #w13#"};
-			{ 2, 51939, "", "=q4=Tel'thas, Dagger of the Blood King", "=ds=#h3#, #w4#"};
-			{ 3, 51942, "", "=q4=Stormfury, Black Blade of the Betrayer", "=ds=#h1#, #w4#"};
-			{ 4, 51947, "", "=q4=Troggbane, Axe of the Frostborne King", "=ds=#h1#, #w1#"};
-			{ 5, 51944, "", "=q4=Valius, Gavel of the Lightbringer", "=ds=#h3#, #w6#"};
-			{ 6, 51946, "", "=q4=Warmace of Menethil", "=ds=#h2#, #w6#"};
-			{ 7, 51943, "", "=q4=Halion, Staff of Forgotten Love", "=ds=#w9#"};
-			{ 8, 51945, "", "=q4=Tainted Twig of Nordrassil", "=ds=#w9#"};
-			{ 9, 51940, "", "=q4=Windrunner's Heartseeker", "=ds=#w3#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 51943, "", "=q4=Halion, Staff of Forgotten Love", "=ds=#w9#", "", "11.1%"};
+			{ 2, 51941, "", "=q4=Pugius, Fist of Defiance", "=ds=#h3#, #w13#", "", "11.1%"};
+			{ 3, 51942, "", "=q4=Stormfury, Black Blade of the Betrayer", "=ds=#h1#, #w4#", "", "11.1%"};
+			{ 4, 51945, "", "=q4=Tainted Twig of Nordrassil", "=ds=#w9#", "", "11.1%"};
+			{ 5, 51939, "", "=q4=Tel'thas, Dagger of the Blood King", "=ds=#h3#, #w4#", "", "11.1%"};
+			{ 6, 51947, "", "=q4=Troggbane, Axe of the Frostborne King", "=ds=#h1#, #w1#", "", "11.1%"};
+			{ 7, 51944, "", "=q4=Valius, Gavel of the Lightbringer", "=ds=#h3#, #w6#", "", "11.1%"};
+			{ 8, 51946, "", "=q4=Warmace of Menethil", "=ds=#h2#, #w6#", "", "11.1%"};
+			{ 9, 51940, "", "=q4=Windrunner's Heartseeker", "=ds=#w3#", "", "11.1%"};
+			{ 11, 51315, "", "=q4=Sealed Chest", "=ds=#m2#", "", "100%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 50426, "", "=q4=Heaven's Fall, Kryss of a Thousand Lies", "=ds=#h1#, #w4#"};
-			{ 2, 50427, "", "=q4=Bloodsurge, Kel'Thuzad's Blade of Agony", "=ds=#h3#, #w10#"};
-			{ 3, 50070, "", "=q4=Glorenzelg, High-Blade of the Silver Hand", "=ds=#h2#, #w10#"};
-			{ 4, 50012, "", "=q4=Havoc's Call, Blade of Lordaeron Kings", "=ds=#h1#, #w1#"};
-			{ 5, 50428, "", "=q4=Royal Scepter of Terenas II", "=ds=#h3#, #w6#"};
-			{ 6, 49997, "", "=q4=Mithrios, Bronzebeard's Legacy", "=ds=#h1#, #w6#"};
-			{ 7, 50425, "", "=q4=Oathbinder, Charge of the Ranger-General", "=ds=#w7#"};
-			{ 8, 50429, "", "=q4=Archus, Greatstaff of Antonidas", "=ds=#w9#"};
-			{ 9, 49981, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#"};
-			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 21, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
+			{ 1, 50429, "", "=q4=Archus, Greatstaff of Antonidas", "=ds=#w9#", "", "11.1%"};
+			{ 2, 50427, "", "=q4=Bloodsurge, Kel'Thuzad's Blade of Agony", "=ds=#h3#, #w10#", "", "11.1%"};
+			{ 3, 49981, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#", "", "11.1%"};
+			{ 4, 50070, "", "=q4=Glorenzelg, High-Blade of the Silver Hand", "=ds=#h2#, #w10#", "", "11.1%"};
+			{ 5, 50012, "", "=q4=Havoc's Call, Blade of Lordaeron Kings", "=ds=#h1#, #w1#", "", "11.1%"};
+			{ 6, 50426, "", "=q4=Heaven's Fall, Kryss of a Thousand Lies", "=ds=#h1#, #w4#", "", "11.1%"};
+			{ 7, 49997, "", "=q4=Mithrios, Bronzebeard's Legacy", "=ds=#h1#, #w6#", "", "11.1%"};
+			{ 8, 50425, "", "=q4=Oathbinder, Charge of the Ranger-General", "=ds=#w7#", "", "11.1%"};
+			{ 9, 50428, "", "=q4=Royal Scepter of Terenas II", "=ds=#h3#, #w6#", "", "11.1%"};
+			{ 11, 51315, "", "=q4=Sealed Chest", "=ds=#m2#", "", "100%"};
+			{ 16, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "38%"};
+			{ 22, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 50736, "", "=q4=Heaven's Fall, Kryss of a Thousand Lies", "=ds=#h1#, #w4#"};
-			{ 2, 50732, "", "=q4=Bloodsurge, Kel'Thuzad's Blade of Agony", "=ds=#h3#, #w10#"};
-			{ 3, 50730, "", "=q4=Glorenzelg, High-Blade of the Silver Hand", "=ds=#h2#, #w10#"};
-			{ 4, 50737, "", "=q4=Havoc's Call, Blade of Lordaeron Kings", "=ds=#h1#, #w1#"};
-			{ 5, 50734, "", "=q4=Royal Scepter of Terenas II", "=ds=#h3#, #w6#"};
-			{ 6, 50738, "", "=q4=Mithrios, Bronzebeard's Legacy", "=ds=#h1#, #w6#"};
-			{ 7, 50735, "", "=q4=Oathbinder, Charge of the Ranger-General", "=ds=#w7#"};
-			{ 8, 50731, "", "=q4=Archus, Greatstaff of Antonidas", "=ds=#w9#"};
-			{ 9, 50733, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#"};
-			{ 10, 50818, "", "=q4=Invincible's Reins", "=ds=#e12#"};
-			{ 12, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#"};
-			{ 13, 49908, "", "=q3=Primordial Saronite", "=ds=#e8#"};
-			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
-			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#e15#"};
-			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#e15#"};
-			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#e15#"};
+			{ 1, 50731, "", "=q4=Archus, Greatstaff of Antonidas", "=ds=#w9#", "", "11.1%"};
+			{ 2, 50732, "", "=q4=Bloodsurge, Kel'Thuzad's Blade of Agony", "=ds=#h3#, #w10#", "", "11.1%"};
+			{ 3, 50733, "", "=q4=Fal'inrush, Defender of Quel'thalas", "=ds=#w3#", "", "11.1%"};
+			{ 4, 50730, "", "=q4=Glorenzelg, High-Blade of the Silver Hand", "=ds=#h2#, #w10#", "", "11.1%"};
+			{ 5, 50737, "", "=q4=Havoc's Call, Blade of Lordaeron Kings", "=ds=#h1#, #w1#", "", "11.1%"};
+			{ 6, 50736, "", "=q4=Heaven's Fall, Kryss of a Thousand Lies", "=ds=#h1#, #w4#", "", "11.1%"};
+			{ 7, 50738, "", "=q4=Mithrios, Bronzebeard's Legacy", "=ds=#h1#, #w6#", "", "11.1%"};
+			{ 8, 50735, "", "=q4=Oathbinder, Charge of the Ranger-General", "=ds=#w7#", "", "11.1%"};
+			{ 9, 50734, "", "=q4=Royal Scepter of Terenas II", "=ds=#h3#, #w6#", "", "11.1%"};
+			{ 11, 51315, "", "=q4=Sealed Chest", "=ds=#m2#", "", "100%"};
+			{ 13, 50818, "", "=q4=Invincible's Reins", "=ds=#e12#", "", "100%"};
+			{ 16, 52030, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 17, 52029, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 18, 52028, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 20, 52027, "", "=q4=Conqueror's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 21, 52026, "", "=q4=Protector's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 22, 52025, "", "=q4=Vanquisher's Mark of Sanctification", "=ds=#m43# #e15#", "", "33.3%"};
+			{ 24, 50274, "", "=q5=Shadowfrost Shard", "=ds=#m3#", "", "68%"};
+			{ 26, 49908, "", "=q3=Primordial Saronite", "=ds=#e6#", "", "38%"};
 		};
 	};
 	info = {
@@ -7662,16 +7682,16 @@ AtlasLoot_Data["ICCLichKing"] = {
 	};
 }
 
-AtlasLoot_Data["ICCTrash"] = {
+AtlasLoot_Data["IcecrownCitadelTrash"] = {
 	["25Man"] = {
 		{
-			{ 1, 50449, "", "=q4=Stiffened Corpse Shoulderpads", "=ds=#s3#, #a1#"};
-			{ 2, 50450, "", "=q4=Leggings of Dubious Charms", "=ds=#s11#, #a3#"};
-			{ 3, 50451, "", "=q4=Belt of the Lonely Noble", "=ds=#s10#, #a4#"};
-			{ 4, 50452, "", "=q4=Wodin's Lucky Necklace", "=ds=#s2#"};
-			{ 5, 50447, "", "=q4=Harbinger's Bone Band", "=ds=#s13#"};
-			{ 6, 50453, "", "=q4=Ring of Rotting Sinew", "=ds=#s13#"};
-			{ 7, 50444, "", "=q4=Rowan's Rifle of Silver Bullets", "=ds=#w5#"};
+			{ 3, 50451, "", "=q4=Belt of the Lonely Noble", "=ds=#s10#, #a4#", "", "0.29%"};
+			{ 5, 50447, "", "=q4=Harbinger's Bone Band", "=ds=#s13#", "", "0.29%"};
+			{ 2, 50450, "", "=q4=Leggings of Dubious Charms", "=ds=#s11#, #a3#", "", "0.29%"};
+			{ 6, 50453, "", "=q4=Ring of Rotting Sinew", "=ds=#s13#", "", "0.29%"};
+			{ 7, 50444, "", "=q4=Rowan's Rifle of Silver Bullets", "=ds=#w5#", "", "0.29%"};
+			{ 1, 50449, "", "=q4=Stiffened Corpse Shoulderpads", "=ds=#s3#, #a1#", "", "0.29%"};
+			{ 4, 50452, "", "=q4=Wodin's Lucky Necklace", "=ds=#s2#", "", "0.29%"};
 		};
 	};
 	info = {
