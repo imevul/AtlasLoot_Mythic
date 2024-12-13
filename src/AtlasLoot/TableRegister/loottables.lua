@@ -287,7 +287,7 @@ AtlasLoot_LootTableRegister = {
 
 		["OnyxiasLair"] = {
 			["Bosses"] = {
-				{ "Onyxia", 2 },
+				{ "OnyxiasLairOnyxia", 1 },
 			},
 			["Info"] = { BabbleZone["Onyxia's Lair"], "AtlasLootWotLK", mapname = "OnyxiasLair", raid = true },
 		},
