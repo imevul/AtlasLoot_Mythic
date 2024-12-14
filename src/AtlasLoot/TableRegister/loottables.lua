@@ -280,7 +280,7 @@ AtlasLoot_LootTableRegister = {
 
 		["ObsidianSanctum"] = {
 			["Bosses"] = {
-				{ "Sartharion", 6 },
+				{ "ObsidianSanctumSartharion", 1 },
 			},
 			["Info"] = { BabbleZone["The Obsidian Sanctum"], "AtlasLootWotLK", mapname = "TheObsidianSanctum", raid = true },
 		},
@@ -294,14 +294,14 @@ AtlasLoot_LootTableRegister = {
 
 		["RubySanctum"] = {
 			["Bosses"] = {
-				{ "Halion", 6 },
+				{ "RubySanctumHalion", 1 },
 			},
 			["Info"] = { BabbleZone["The Ruby Sanctum"], "AtlasLootWotLK", mapname = "TheRubySanctum", raid = true },
 		},
 
 		["TheEyeOfEternity"] = {
 			["Bosses"] = {
-				{ "Malygos", 2 },
+				{ "TheEyeOfEternityMalygos", 1 },
 			},
 			["Info"] = { BabbleZone["The Eye of Eternity"], "AtlasLootWotLK", mapname = "TheEyeOfEternity", raid = true },
 		},
