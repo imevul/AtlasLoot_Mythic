@@ -4235,65 +4235,69 @@ AtlasLoot_Data["NaxxramasTrash"] = {
 --- Obsidian Sanctum ---
 ------------------------
 
-AtlasLoot_Data["Sartharion"] = {
+AtlasLoot_Data["ObsidianSanctumSartharion"] = {
 	["Normal"] = {
 		{
-			{ 1, 40428, "", "=q4=Titan's Outlook", "=ds=#s1#, #a4#", "", "18%"};
-			{ 2, 40427, "", "=q4=Circle of Arcane Streams", "=ds=#s2#", "", "18%"};
-			{ 3, 40426, "", "=q4=Signet of the Accord", "=ds=#s13#", "", "19%"};
-			{ 5, 40430, "", "=q4=Majestic Dragon Figurine", "=ds=#s14#", "", "18%"};
-			{ 6, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#", "", "18%"};
-			{ 7, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#", "", "100%"};
-			{ 8, 43347, "", "=q4=Satchel of Spoils", "", "", "100%"};
-			{ 10, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2049#"};
-			{ 11, 43988, "", "=q4=Gale-Proof Cloak", "=ds=#s4#", "", "1%"};
-			{ 12, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#", "", "2%"};
-			{ 13, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#", "", "1%"};
-			{ 14, 43989, "", "=q4=Remembrance Girdle", "=ds=#s10#, #a4#", "", "2%"};
-			{ 15, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#", "", "2%"};
-			{ 16, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#e15#", "", "28%"};
-			{ 17, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#e15#", "", "29%"};
-			{ 18, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#e15#", "", "37%"};
-			{ 20, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2050#"};
-			{ 21, 43995, "", "=q4=Enamored Cowl", "=ds=#s1#, #a1#", "", "0.00%"};
-			{ 22, 43998, "", "=q4=Chestguard of Flagrant Prowess", "=ds=#s5#, #a3#"};
-			{ 23, 43996, "", "=q4=Sabatons of Firmament", "=ds=#s12#, #a3#"};
-			{ 24, 43994, "", "=q4=Belabored Legplates", "=ds=#s11#, #a4#"};
-			{ 25, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#"};
-			{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2051#"};
-			{ 28, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e27#", "", "100%"};
+			{ 1, 40427, "", "=q4=Circle of Arcane Streams", "=ds=#s2#", "", "20%"};
+			{ 2, 40429, "", "=q4=Crimson Steel", "=ds=#h3#, #w13#", "", "20%"};
+			{ 3, 40430, "", "=q4=Majestic Dragon Figurine", "=ds=#s14#", "", "20%"};
+			{ 4, 40426, "", "=q4=Signet of the Accord", "=ds=#s13#", "", "20%"};			
+			{ 5, 40428, "", "=q4=Titan's Outlook", "=ds=#s1#, #a4#", "", "20%"};
+			{ 7, 40613, "", "=q4=Gloves of the Lost Conqueror", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 8, 40614, "", "=q4=Gloves of the Lost Protector", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 9, 40615, "", "=q4=Gloves of the Lost Vanquisher", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 11, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#", "", "100%"};
+			{ 12, 43347, "", "=q4=Satchel of Spoils", "=ds=#m20#", "", "100%"};
+			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2049#"};
+			{ 17, 43990, "", "=q4=Blade-Scarred Tunic", "=ds=#s5#, #a2#", "", "20%"};
+			{ 18, 43988, "", "=q4=Gale-Proof Cloak", "=ds=#s4#", "", "20%"};
+			{ 19, 43991, "", "=q4=Legguards of Composure", "=ds=#s11#, #a2#", "", "20%"};
+			{ 20, 43989, "", "=q4=Remembrance Girdle", "=ds=#s10#, #a4#", "", "20%"};			
+			{ 21, 43992, "", "=q4=Volitant Amulet", "=ds=#s2#", "", "20%"};
+			{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2050#"};
+			{ 24, 43994, "", "=q4=Belabored Legplates", "=ds=#s11#, #a4#", "", "20%"};
+			{ 25, 43998, "", "=q4=Chestguard of Flagrant Prowess", "=ds=#s5#, #a3#", "", "20%"};
+			{ 26, 43995, "", "=q4=Enamored Cowl", "=ds=#s1#, #a1#", "", "20%"};
+			{ 27, 43993, "", "=q4=Greatring of Collision", "=ds=#s13#", "", "20%"};
+			{ 28, 43996, "", "=q4=Sabatons of Firmament", "=ds=#s12#, #a3#", "", "20%"};			
+		};
+		{
+			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2051#"};
+			{ 2, 43986, "", "=q4=Reins of the Black Drake", "=ds=#e27#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40437, "", "=q4=Concealment Shoulderpads", "=ds=#s3#, #a2#", "", "16%"};
-			{ 2, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#", "", "19%"};
-			{ 3, 40451, "", "=q4=Hyaline Helm of the Sniper", "=ds=#s1#, #a3#", "", "16%"};
-			{ 4, 40438, "", "=q4=Council Chamber Epaulets", "=ds=#s3#, #a3#", "", "19%"};
-			{ 5, 40453, "", "=q4=Chestplate of the Great Aspects", "=ds=#s5#, #a4#", "", "17%"};
-			{ 6, 40446, "", "=q4=Dragon Brood Legguards", "=ds=#s11#, #a4#", "", "17%"};
-			{ 7, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#", "", "7%"};
-			{ 8, 40431, "", "=q4=Fury of the Five Flights", "=ds=#s14#", "", "17%"};
-			{ 9, 40432, "", "=q4=Illustration of the Dragon Soul", "=ds=#s14#", "", "19%"};
-			{ 10, 40455, "", "=q4=Staff of Restraint", "=ds=#w9#", "", "19%"};
-			{ 11, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#", "", "100%"};
-			{ 12, 43346, "", "=q4=Large Satchel of Spoils", "", "", "100%"};
-			{ 13, 40628, "", "=q4=Gauntlets of the Lost Conqueror", "=ds=#e15#", "", "51%"};
-			{ 14, 40629, "", "=q4=Gauntlets of the Lost Protector", "=ds=#e15#", "", "53%"};
-			{ 15, 40630, "", "=q4=Gauntlets of the Lost Vanquisher", "=ds=#e15#", "", "67%"};
-			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2052#"};
-			{ 17, 44002, "", "=q4=The Sanctum's Flowing Vestments", "=ds=#s5#, #a1#", "", "7%"};
-			{ 18, 44003, "", "=q4=Upstanding Spaulders", "=ds=#s3#, #a3#", "", "7%"};
-			{ 19, 44004, "", "=q4=Bountiful Gauntlets", "=ds=#s9#, #a3#", "", "6%"};
-			{ 20, 44000, "", "=q4=Dragonstorm Breastplate", "=ds=#s5#, #a4#", "", "6%"};
-			{ 22, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2053#"};
-			{ 23, 44005, "", "=q4=Pennant Cloak", "=ds=#s4#", "", "3%"};
-			{ 24, 44008, "", "=q4=Unsullied Cuffs", "=ds=#s8#, #a1#", "", "3%"};
-			{ 25, 44007, "", "=q4=Headpiece of Reconciliation", "=ds=#s1#, #a2#", "", "3%"};
-			{ 26, 44011, "", "=q4=Leggings of the Honored", "=ds=#s11#, #a2#", "", "3%"};
-			{ 27, 44006, "", "=q4=Obsidian Greathelm", "=ds=#s1#, #a4#", "", "3%"};
-			{ 29, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2054#"};
-			{ 30, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e27#", "", "100%"};
+			{ 1, 40453, "", "=q4=Chestplate of the Great Aspects", "=ds=#s5#, #a4#", "", "10%"};
+			{ 2, 40437, "", "=q4=Concealment Shoulderpads", "=ds=#s3#, #a2#", "", "10%"};
+			{ 3, 40438, "", "=q4=Council Chamber Epaulets", "=ds=#s3#, #a3#", "", "10%"};
+			{ 4, 40446, "", "=q4=Dragon Brood Legguards", "=ds=#s11#, #a4#", "", "10%"};
+			{ 5, 40431, "", "=q4=Fury of the Five Flights", "=ds=#s14#", "", "10%"};
+			{ 6, 40451, "", "=q4=Hyaline Helm of the Sniper", "=ds=#s1#, #a3#", "", "10%"};
+			{ 7, 40432, "", "=q4=Illustration of the Dragon Soul", "=ds=#s14#", "", "10%"};
+			{ 8, 40439, "", "=q4=Mantle of the Eternal Sentinel", "=ds=#s3#, #a2#", "", "10%"};
+			{ 9, 40455, "", "=q4=Staff of Restraint", "=ds=#w9#", "", "10%"};
+			{ 10, 40433, "", "=q4=Wyrmrest Band", "=ds=#s13#", "", "10%"};
+			{ 12, 40628, "", "=q4=Gauntlets of the Lost Conqueror", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 13, 40629, "", "=q4=Gauntlets of the Lost Protector", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 14, 40630, "", "=q4=Gauntlets of the Lost Vanquisher", "=ds=#m40# #e15#", "", "33.3%"};
+			{ 16, 43345, "", "=q4=Dragon Hide Bag", "=ds=#e1#", "", "100%"};
+			{ 17, 43346, "", "=q4=Large Satchel of Spoils", "=ds=#m20#", "", "100%"};
+			{ 19, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2052#"};
+			{ 20, 44004, "", "=q4=Bountiful Gauntlets", "=ds=#s9#, #a3#", "", "25%"};
+			{ 21, 44000, "", "=q4=Dragonstorm Breastplate", "=ds=#s5#, #a4#", "", "25%"};
+			{ 22, 44002, "", "=q4=The Sanctum's Flowing Vestments", "=ds=#s5#, #a1#", "", "25%"};
+			{ 23, 44003, "", "=q4=Upstanding Spaulders", "=ds=#s3#, #a3#", "", "25%"};
+			{ 25, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2053#"};
+			{ 26, 44007, "", "=q4=Headpiece of Reconciliation", "=ds=#s1#, #a2#", "", "20%"};
+			{ 27, 44011, "", "=q4=Leggings of the Honored", "=ds=#s11#, #a2#", "", "20%"};
+			{ 28, 44006, "", "=q4=Obsidian Greathelm", "=ds=#s1#, #a4#", "", "20%"};
+			{ 29, 44005, "", "=q4=Pennant Cloak", "=ds=#s4#", "", "20%"};
+			{ 30, 44008, "", "=q4=Unsullied Cuffs", "=ds=#s8#, #a1#", "", "20%"};
+		};
+		{			
+			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:2054#"};
+			{ 2, 43954, "", "=q4=Reins of the Twilight Drake", "=ds=#e27#", "", "100%"};
 		};
 	};
 	info = {
@@ -4307,55 +4311,46 @@ AtlasLoot_Data["Sartharion"] = {
 --- The Eye of Eternity ---
 ---------------------------
 
-AtlasLoot_Data["Malygos"] = {
+AtlasLoot_Data["TheEyeOfEternityMalygos"] = {
 	["Normal"] = {
 		{
-			{ 1, 40526, "", "=q4=Gown of the Spell-Weaver", "=ds=#s5#, #a1#", "", "12%"};
-			{ 2, 40519, "", "=q4=Footsteps of Malygos", "=ds=#s12#, #a2#", "", "12%"};
-			{ 3, 40511, "", "=q4=Focusing Energy Epaulets", "=ds=#s3#, #a4#", "", "13%"};
-			{ 4, 40486, "", "=q4=Necklace of the Glittering Chamber", "=ds=#s2#", "", "12%"};
-			{ 5, 40474, "", "=q4=Surge Needle Ring", "=ds=#s13#", "", "10%"};
-			{ 6, 40491, "", "=q4=Hailstorm", "=ds=#h1#, #w10#", "", "11%"};
-			{ 7, 40488, "", "=q4=Ice Spire Scepter", "=ds=#h3#, #w6#", "", "12%"};
-			{ 8, 40489, "", "=q4=Greatstaff of the Nexus", "=ds=#w9#", "", "12%"};
-			{ 9, 40497, "", "=q4=Black Ice", "=ds=#w7#", "", "10%"};
-			{ 10, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#", "", "11%"};
-			{ 11, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e27#", "", "1%"};
-			{ 16, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
-			{ 17, 44658, "", "=q4=Chain of the Ancient Wyrm", "=q1=#m4#: =ds=#s2#"};
-			{ 18, 44660, "", "=q4=Drakescale Collar", "=q1=#m4#: =ds=#s2#"};
-			{ 19, 44659, "", "=q4=Pendant of the Dragonsworn", "=q1=#m4#: =ds=#s2#"};
-			{ 20, 44657, "", "=q4=Torque of the Red Dragonflight", "=q1=#m4#: =ds=#s2#"};
+			{ 1, 40475, "", "=q4=Barricade of Eternity", "=ds=#w8#", "", "10%"};
+			{ 2, 40497, "", "=q4=Black Ice", "=ds=#w7#", "", "10%"};
+			{ 3, 40511, "", "=q4=Focusing Energy Epaulets", "=ds=#s3#, #a4#", "", "10%"};
+			{ 4, 40519, "", "=q4=Footsteps of Malygos", "=ds=#s12#, #a2#", "", "10%"};
+			{ 5, 40526, "", "=q4=Gown of the Spell-Weaver", "=ds=#s5#, #a1#", "", "10%"};
+			{ 6, 40489, "", "=q4=Greatstaff of the Nexus", "=ds=#w9#", "", "10%"};
+			{ 7, 40491, "", "=q4=Hailstorm", "=ds=#h1#, #w10#", "", "10%"};
+			{ 8, 40488, "", "=q4=Ice Spire Scepter", "=ds=#h3#, #w6#", "", "10%"};
+			{ 9, 40486, "", "=q4=Necklace of the Glittering Chamber", "=ds=#s2#", "", "10%"};
+			{ 10, 40474, "", "=q4=Surge Needle Ring", "=ds=#s13#", "", "10%"};
+			{ 12, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
+			{ 14, 43953, "", "=q4=Reins of the Blue Drake", "=ds=#e27#", "", "1%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 40562, "", "=q4=Hood of Rationality", "=ds=#s1#, #a1#", "", "9%"};
-			{ 2, 40555, "", "=q4=Mantle of Dissemination", "=ds=#s3#, #a1#", "", "9%"};
-			{ 3, 40194, "", "=q4=Blanketing Robes of Snow", "=ds=#s5#, #a1#", "", "9%"};
-			{ 4, 40561, "", "=q4=Leash of Heedless Magic", "=ds=#s10#, #a1#", "", "9%"};
-			{ 5, 40560, "", "=q4=Leggings of the Wanton Spellcaster", "=ds=#s11#, #a1#", "", "10%"};
-			{ 6, 40558, "", "=q4=Arcanic Tramplers", "=ds=#s12#, #a1#", "", "7%"};
-			{ 7, 40594, "", "=q4=Spaulders of Catatonia", "=ds=#s3#, #a2#", "", "10%"};
-			{ 8, 40539, "", "=q4=Chestguard of the Recluse", "=ds=#s5#, #a2#", "", "8%"};
-			{ 9, 40541, "", "=q4=Frosted Adroit Handguards", "=ds=#s9#, #a2#", "", "9%"};
-			{ 10, 40566, "", "=q4=Unravelling Strands of Sanity", "=ds=#s10#, #a2#", "", "11%"};
-			{ 11, 40543, "", "=q4=Blue Aspect Helm", "=ds=#s1#, #a3#", "", "9%"};
-			{ 12, 40588, "", "=q4=Tunic of the Artifact Guardian", "=ds=#s5#, #a3#", "", "9%"};
-			{ 13, 40564, "", "=q4=Winter Spectacle Gloves", "=ds=#s9#, #a3#", "", "9%"};
-			{ 14, 40549, "", "=q4=Boots of the Renewed Flight", "=ds=#s12#, #a3#", "", "8%"};
-			{ 15, 40590, "", "=q4=Elevated Lair Pauldrons", "=ds=#s3#, #a4#", "", "9%"};
-			{ 16, 40589, "", "=q4=Legplates of Sovereignty", "=ds=#s11#, #a4#", "", "9%"};
-			{ 17, 40592, "", "=q4=Boots of Healing Energies", "=ds=#s12#, #a4#", "", "10%"};
-			{ 18, 40591, "", "=q4=Melancholy Sabatons", "=ds=#s12#, #a4#", "", "9%"};
-			{ 19, 40532, "", "=q4=Living Ice Crystals", "=ds=#s14#", "", "9%"};
-			{ 20, 40531, "", "=q4=Mark of Norgannon", "=ds=#s14#", "", "8%"};
-			{ 21, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e27#", "", "1%"};
-			{ 23, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
-			{ 24, 44664, "", "=q4=Favor of the Dragon Queen", "=q1=#m4#: =ds=#s2#"};
-			{ 25, 44662, "", "=q4=Life-Binder's Locket", "=q1=#m4#: =ds=#s2#"};
-			{ 26, 44665, "", "=q4=Nexus War Champion Beads", "=q1=#m4#: =ds=#s2#"};
-			{ 27, 44661, "", "=q4=Wyrmrest Necklace of Power", "=q1=#m4#: =ds=#s2#"};
+			{ 1, 40558, "", "=q4=Arcanic Tramplers", "=ds=#s12#, #a1#", "", "5%"};
+			{ 2, 40194, "", "=q4=Blanketing Robes of Snow", "=ds=#s5#, #a1#", "", "5%"};
+			{ 3, 40543, "", "=q4=Blue Aspect Helm", "=ds=#s1#, #a3#", "", "5%"};
+			{ 4, 40592, "", "=q4=Boots of Healing Energies", "=ds=#s12#, #a4#", "", "5%"};			
+			{ 5, 40539, "", "=q4=Chestguard of the Recluse", "=ds=#s5#, #a2#", "", "5%"};
+			{ 6, 40590, "", "=q4=Elevated Lair Pauldrons", "=ds=#s3#, #a4#", "", "5%"};
+			{ 7, 40541, "", "=q4=Frosted Adroit Handguards", "=ds=#s9#, #a2#", "", "5%"};
+			{ 8, 40562, "", "=q4=Hood of Rationality", "=ds=#s1#, #a1#", "", "5%"};
+			{ 9, 40561, "", "=q4=Leash of Heedless Magic", "=ds=#s10#, #a1#", "", "5%"};
+			{ 10, 40560, "", "=q4=Leggings of the Wanton Spellcaster", "=ds=#s11#, #a1#", "", "5%"};
+			{ 11, 40589, "", "=q4=Legplates of Sovereignty", "=ds=#s11#, #a4#", "", "5%"};
+			{ 12, 40532, "", "=q4=Living Ice Crystals", "=ds=#s14#", "", "5%"};
+			{ 13, 40555, "", "=q4=Mantle of Dissemination", "=ds=#s3#, #a1#", "", "5%"};
+			{ 14, 40531, "", "=q4=Mark of Norgannon", "=ds=#s14#", "", "5%"};
+			{ 15, 40591, "", "=q4=Melancholy Sabatons", "=ds=#s12#, #a4#", "", "5%"};
+			{ 16, 40594, "", "=q4=Spaulders of Catatonia", "=ds=#s3#, #a2#", "", "5%"};
+			{ 17, 40588, "", "=q4=Tunic of the Artifact Guardian", "=ds=#s5#, #a3#", "", "5%"};
+			{ 18, 40566, "", "=q4=Unravelling Strands of Sanity", "=ds=#s10#, #a2#", "", "5%"};
+			{ 19, 40564, "", "=q4=Winter Spectacle Gloves", "=ds=#s9#, #a3#", "", "5%"};
+			{ 21, 44650, "", "=q1=Heart of Magic", "=ds=#m3#", "", "100%"};
+			{ 23, 43952, "", "=q4=Reins of the Azure Drake", "=ds=#e27#", "", "1%"};
 		};
 	};
 	info = {
@@ -7819,77 +7814,77 @@ AtlasLoot_Data["IcecrownCitadelTrash"] = {
 --- Ruby Sanctum ---
 --------------------
 
-AtlasLoot_Data["Halion"] = {
+AtlasLoot_Data["RubySanctumHalion"] = {
 	["Normal"] = {
 		{
-			{ 1, 53115, "", "=q4=Abduction's Cover", "=ds=#s4#"};
-			{ 2, 53118, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#"};
-			{ 3, 53114, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
-			{ 4, 53117, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
-			{ 5, 53113, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#"};
-			{ 6, 53119, "", "=q4=Boots of Divided Being", "=ds=#s12#, #a3#"};
-			{ 7, 53112, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
-			{ 8, 53121, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#"};
-			{ 9, 53111, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#"};
-			{ 16, 53103, "", "=q4=Baltharus' Gift", "=ds=#s2#"};
-			{ 17, 53116, "", "=q4=Saviana's Tribute", "=ds=#s13#"};
-			{ 18, 53110, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
+			{ 1, 53115, "", "=q4=Abduction's Cover", "=ds=#s4#", "", "8.3%"};
+			{ 2, 53103, "", "=q4=Baltharus' Gift", "=ds=#s2#", "", "8.3%"};
+			{ 3, 53119, "", "=q4=Boots of Divided Being", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 4, 53112, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 5, 53117, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 6, 53114, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 7, 53118, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 8, 53116, "", "=q4=Saviana's Tribute", "=ds=#s13#", "", "8.3%"};
+			{ 9, 53111, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 10, 53121, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 11, 53113, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 53110, "", "=q4=Zarithrian's Offering", "=ds=#s13#", "", "8.3%"};
 		};
 	};
 	["Heroic"] = {
 		{
-			{ 1, 54556, "", "=q4=Abduction's Cover", "=ds=#s4#"};
-			{ 2, 54562, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#"};
-			{ 3, 54561, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#"};
-			{ 4, 54560, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#"};
-			{ 5, 54566, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#"};
-			{ 6, 54558, "", "=q4=Boots of Divided Being", "=ds=#s12#, #a3#"};
-			{ 7, 54559, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#"};
-			{ 8, 54565, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#"};
-			{ 9, 54564, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#"};
-			{ 16, 54557, "", "=q4=Baltharus' Gift", "=ds=#s2#"};
-			{ 17, 54563, "", "=q4=Saviana's Tribute", "=ds=#s13#"};
-			{ 18, 54567, "", "=q4=Zarithrian's Offering", "=ds=#s13#"};
+			{ 1, 54556, "", "=q4=Abduction's Cover", "=ds=#s4#", "", "8.3%"};
+			{ 2, 54557, "", "=q4=Baltharus' Gift", "=ds=#s2#", "", "8.3%"};
+			{ 3, 54558, "", "=q4=Boots of Divided Being", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 4, 54559, "", "=q4=Bracers of the Heir", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 5, 54560, "", "=q4=Changeling Gloves", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 6, 54561, "", "=q4=Gloaming Sark", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 7, 54562, "", "=q4=Misbegotten Belt", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 8, 54563, "", "=q4=Saviana's Tribute", "=ds=#s13#", "", "8.3%"};
+			{ 9, 54564, "", "=q4=Scion's Treads", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 10, 54565, "", "=q4=Surrogate Belt", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 11, 54566, "", "=q4=Twilight Scale Shoulders", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 54567, "", "=q4=Zarithrian's Offering", "=ds=#s13#", "", "8.3%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 53489, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
-			{ 2, 53486, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#"};
-			{ 3, 53134, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
-			{ 4, 53126, "", "=q4=Umbrage Armbands", "=ds=#s10#, #a2#"};
-			{ 5, 53488, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
-			{ 6, 53127, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#"};
-			{ 7, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
-			{ 8, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
-			{ 9, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
-			{ 16, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
-			{ 17, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
-			{ 18, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#"};
-			{ 19, 54572, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
-			{ 20, 54573, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
-			{ 21, 54571, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
-			{ 22, 54569, "", "=q4=Sharpened Twilight Scale", "=ds=#s14#"};	
+			{ 1, 54572, "", "=q4=Charred Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 2, 54573, "", "=q4=Glowing Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 3, 54571, "", "=q4=Petrified Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 4, 54569, "", "=q4=Sharpened Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 5, 53125, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 6, 53486, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 7, 53489, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#", "", "8.3%"};
+			{ 8, 53487, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 9, 53132, "", "=q4=Penumbra Pendant", "=ds=#s2#", "", "8.3%"};
+			{ 10, 53134, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#", "", "8.3%"};
+			{ 11, 53127, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 53490, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#", "", "8.3%"};
+			{ 13, 53133, "", "=q4=Signet of Twilight", "=ds=#s13#", "", "8.3%"};
+			{ 14, 53488, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 15, 53129, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 16, 53126, "", "=q4=Umbrage Armbands", "=ds=#s8#, #a2#", "", "8.3%"};
 		};
 	};
 	["25ManHeroic"] = {
 		{
-			{ 1, 54583, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#"};
-			{ 2, 54582, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#"};
-			{ 3, 54584, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#"};
-			{ 4, 54580, "", "=q4=Umbrage Armbands", "=ds=#s10#, #a2#"};
-			{ 5, 54587, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#"};
-			{ 6, 54577, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#"};
-			{ 7, 54578, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#"};
-			{ 8, 54586, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#"};
-			{ 9, 54579, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#"};
-			{ 16, 54581, "", "=q4=Penumbra Pendant", "=ds=#s2#"};
-			{ 17, 54585, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#"};
-			{ 18, 54576, "", "=q4=Signet of Twilight", "=ds=#s13#"};
-			{ 19, 54588, "", "=q4=Charred Twilight Scale", "=ds=#s14#"};
-			{ 20, 54589, "", "=q4=Glowing Twilight Scale", "=ds=#s14#"};
-			{ 21, 54591, "", "=q4=Petrified Twilight Scale", "=ds=#s14#"};
-			{ 22, 54590, "", "=q4=Sharpened Twilight Scale", "=ds=#s14#"};
+			{ 1, 54588, "", "=q4=Charred Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 2, 54589, "", "=q4=Glowing Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 3, 54591, "", "=q4=Petrified Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 4, 54590, "", "=q4=Sharpened Twilight Scale", "=ds=#s14#", "", "25%"};
+			{ 5, 54578, "", "=q4=Apocalypse's Advance", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 6, 54582, "", "=q4=Bracers of Fiery Night", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 7, 54583, "", "=q4=Cloak of Burning Dusk", "=ds=#s4#", "", "8.3%"};
+			{ 8, 54586, "", "=q4=Foreshadow Steps", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 9, 54581, "", "=q4=Penumbra Pendant", "=ds=#s2#", "", "8.3%"};
+			{ 10, 54584, "", "=q4=Phaseshifter's Bracers", "=ds=#s8#, #a2#", "", "8.3%"};
+			{ 11, 54577, "", "=q4=Returning Footfalls", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 54585, "", "=q4=Ring of Phased Regeneration", "=ds=#s13#", "", "8.3%"};
+			{ 13, 54576, "", "=q4=Signet of Twilight", "=ds=#s13#", "", "8.3%"};
+			{ 14, 54587, "", "=q4=Split Shape Belt", "=ds=#s10#, #a3#", "", "8.3%"};
+			{ 15, 54579, "", "=q4=Treads of Impending Resurrection", "=ds=#s12#, #a4#", "", "8.3%"};
+			{ 16, 54580, "", "=q4=Umbrage Armbands", "=ds=#s8#, #a2#", "", "8.3%"};
 		};
 	};
 	info = {
