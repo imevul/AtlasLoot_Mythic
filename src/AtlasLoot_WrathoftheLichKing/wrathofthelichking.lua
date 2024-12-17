@@ -5313,149 +5313,156 @@ AtlasLoot_Data["TrialOfTheChampionTheBlackKnight"] = {
 --- Trial of the Crusader ---
 -----------------------------
 
-AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts"] = {
-	["Normal_A"] = {
-		{
-			{ 1, 47617, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
-			{ 2, 47613, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
-			{ 3, 47608, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
-			{ 4, 47616, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#"};
-			{ 5, 47610, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#"};
-			{ 6, 47611, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#"};
-			{ 7, 47609, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#"};
-			{ 8, 47615, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
-			{ 9, 47614, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
-			{ 16, 47607, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
-			{ 17, 47578, "", "=q4=Carnivorous Band", "=ds=#s13#"};
-			{ 19, 47612, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
-		};
-	};
-	["Heroic_A"] = {
-		{
-			{ 1, 47921, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#"};
-			{ 2, 47923, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#"};
-			{ 3, 47919, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#"};
-			{ 4, 47926, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#"};
-			{ 5, 47916, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#"};
-			{ 6, 47918, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#"};
-			{ 7, 47917, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#"};
-			{ 8, 47924, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#"};
-			{ 9, 47925, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#"};
-			{ 16, 47915, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#"};
-			{ 17, 47920, "", "=q4=Gormok's Band", "=ds=#s13#"};
-			{ 19, 47922, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#"};
-		};
-	};
-	["25Man_A"] = {
-		{
-			{ 1, 46970, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#"};
-			{ 2, 46976, "", "=q4=Shawl of the Refreshing Winds", "=ds=#s4#"};
-			{ 3, 46992, "", "=q4=Flowing Vestments of Ascent", "=ds=#s5#, #a1#"};
-			{ 4, 46972, "", "=q4=Cord of the Tenebrous Mist", "=ds=#s10#, #a1#"};
-			{ 5, 46974, "", "=q4=Leggings of the Broken Beast", "=ds=#s11#, #a2#"};
-			{ 6, 46988, "", "=q4=Boots of the Unrelenting Storm", "=ds=#s12#, #a2#"};
-			{ 7, 46960, "", "=q4=Breastplate of Cruel Intent", "=ds=#s5#, #a3#"};
-			{ 8, 46990, "", "=q4=Belt of the Ice Burrower", "=ds=#s10#, #a3#"};
-			{ 9, 46962, "", "=q4=Chestplate of the Towering Monstrosity", "=ds=#s5#, #a4#"};
-			{ 10, 46961, "", "=q4=Boneshatter Armplates", "=ds=#s8#, #a4#"};
-			{ 11, 46985, "", "=q4=Boots of the Courageous", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 46959, "", "=q4=Band of the Violent Temperment", "=ds=#s13#"};
-			{ 20, 46979, "", "=q4=Blade of Tarasque", "=ds=#h3#, #w4#"};
-			{ 21, 46958, "", "=q4=Steel Bladebreaker", "=ds=#h1#, #w4#"};
-			{ 22, 46963, "", "=q4=Crystal Plated Vanguard", "=ds=#w8#"};
-		};
-	};
-	["25ManHeroic_A"] = {
-		{
-			{ 1, 46971, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#"};
-			{ 2, 46977, "", "=q4=Shawl of the Refreshing Winds", "=ds=#s4#"};
-			{ 3, 46993, "", "=q4=Flowing Vestments of Ascent", "=ds=#s5#, #a1#"};
-			{ 4, 46973, "", "=q4=Cord of the Tenebrous Mist", "=ds=#s10#, #a1#"};
-			{ 5, 46975, "", "=q4=Leggings of the Broken Beast", "=ds=#s11#, #a2#"};
-			{ 6, 46989, "", "=q4=Boots of the Unrelenting Storm", "=ds=#s12#, #a2#"};
-			{ 7, 46965, "", "=q4=Breastplate of Cruel Intent", "=ds=#s5#, #a3#"};
-			{ 8, 46991, "", "=q4=Belt of the Ice Burrower", "=ds=#s10#, #a3#"};
-			{ 9, 46968, "", "=q4=Chestplate of the Towering Monstrosity", "=ds=#s5#, #a4#"};
-			{ 10, 46967, "", "=q4=Boneshatter Armplates", "=ds=#s8#, #a4#"};
-			{ 11, 46986, "", "=q4=Boots of the Courageous", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 46966, "", "=q4=Band of the Violent Temperment", "=ds=#s13#"};
-			{ 20, 46980, "", "=q4=Blade of Tarasque", "=ds=#h3#, #w4#"};
-			{ 21, 46969, "", "=q4=Steel Bladebreaker", "=ds=#h1#, #w4#"};
-			{ 22, 46964, "", "=q4=Crystal Plated Vanguard", "=ds=#w8#"};
-		};
-	};
+AtlasLoot_Data["TrialOftheCrusaderNorthrendBeasts"] = {
 	["Normal_H"] = {
 		{
-			{ 1, 47855, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
-			{ 2, 47857, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
-			{ 3, 47853, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
-			{ 4, 47860, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#"};
-			{ 5, 47850, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#"};
-			{ 6, 47852, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#"};
-			{ 7, 47851, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#"};
-			{ 8, 47859, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
-			{ 9, 47858, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
-			{ 16, 47849, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
-			{ 17, 47854, "", "=q4=Gormok's Band", "=ds=#s13#"};
-			{ 19, 47856, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
+			{ 1, 47853, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 2, 47859, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 3, 47850, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 4, 47849, "", "=q4=Collar of Unending Torment", "=ds=#s2#", "", "8.3%"};
+			{ 5, 47852, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 6, 47851, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 7, 47858, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 8, 47854, "", "=q4=Gormok's Band", "=ds=#s13#", "", "8.3%"};
+			{ 9, 47855, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 10, 47857, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 11, 47860, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 47856, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#", "", "8.3%"};
+		};
+	};
+	["Normal_A"] = {
+		{
+			{ 1, 47608, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 2, 47610, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 3, 47615, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 4, 47578, "", "=q4=Carnivorous Band", "=ds=#s13#", "", "8.3%"};
+			{ 5, 47607, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#", "", "8.3%"};
+			{ 6, 47611, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 7, 47609, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 8, 47614, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 9, 47617, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 10, 47612, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#", "", "8.3%"};
+			{ 11, 47616, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 47613, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#", "", "8.3%"};
+			
 		};
 	};
 	["Heroic_H"] = {
 		{
-			{ 1, 47994, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#"};
-			{ 2, 47996, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#"};
-			{ 3, 47992, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#"};
-			{ 4, 47999, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#"};
-			{ 5, 47989, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#"};
-			{ 6, 47991, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#"};
-			{ 7, 47990, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#"};
-			{ 8, 47998, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#"};
-			{ 9, 47997, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#"};
-			{ 16, 47988, "", "=q4=Collar of Unending Torment", "=ds=#s2#"};
-			{ 17, 47993, "", "=q4=Carnivorous Band", "=ds=#s13#"};
-			{ 19, 47995, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#"};
+			{ 1, 47992, "", "=q4=Acidmaw Treads", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 2, 47998, "", "=q4=Belt of the Impaler", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 3, 47989, "", "=q4=Bracers of the Northern Stalker", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 4, 47988, "", "=q4=Collar of Unending Torment", "=ds=#s2#", "", "8.3%"};
+			{ 5, 47991, "", "=q4=Dreadscale Bracers", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 6, 47990, "", "=q4=Gauntlets of Mounting Anger", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 7, 47997, "", "=q4=Girdle of the Frozen Reach", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 8, 47993, "", "=q4=Gormok's Band", "=ds=#s13#", "", "8.3%"};
+			{ 9, 47994, "", "=q4=Icehowl Binding", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 10, 47996, "", "=q4=Pauldrons of the Glacial Wilds", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 11, 47999, "", "=q4=Pauldrons of the Spirit Walker", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 47995, "", "=q4=Scepter of Imprisoned Souls", "=ds=#w12#", "", "8.3%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["Heroic_A"] = {
+		{
+			{ 1, 47919, "", "=q4=Acidmaw Boots", "=ds=#s12#, #a2#", "", "8.3%"};
+			{ 2, 47916, "", "=q4=Armbands of the Northern Stalker", "=ds=#s8#, #a3#", "", "8.3%"};
+			{ 3, 47924, "", "=q4=Belt of the Frozen Reach", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 4, 47920, "", "=q4=Carnivorous Band", "=ds=#s13#", "", "8.3%"};
+			{ 5, 47915, "", "=q4=Collar of Ceaseless Torment", "=ds=#s2#", "", "8.3%"};
+			{ 6, 47918, "", "=q4=Dreadscale Armguards", "=ds=#s8#, #a4#", "", "8.3%"};
+			{ 7, 47917, "", "=q4=Gauntlets of Rising Anger", "=ds=#s9#, #a4#", "", "8.3%"};
+			{ 8, 47925, "", "=q4=Girdle of the Impaler", "=ds=#s10#, #a4#", "", "8.3%"};
+			{ 9, 47921, "", "=q4=Icehowl Cinch", "=ds=#s10#, #a1#", "", "8.3%"};
+			{ 10, 47922, "", "=q4=Rod of Imprisoned Souls", "=ds=#w12#", "", "8.3%"};
+			{ 11, 47926, "", "=q4=Shoulderguards of the Spirit Walker", "=ds=#s3#, #a3#", "", "8.3%"};
+			{ 12, 47923, "", "=q4=Shoulderpads of the Glacial Wilds", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25Man_H"] = {
 		{
-			{ 1, 47257, "", "=q4=Cloak of the Untamed Predator", "=ds=#s4#"};
-			{ 2, 47256, "", "=q4=Drape of the Refreshing Winds", "=ds=#s4#"};
-			{ 3, 47264, "", "=q4=Flowing Robes of Ascent", "=ds=#s5#, #a1#"};
-			{ 4, 47258, "", "=q4=Belt of the Tenebrous Mist", "=ds=#s10#, #a1#"};
-			{ 5, 47259, "", "=q4=Legwraps of the Broken Beast", "=ds=#s11#, #a2#"};
-			{ 6, 47262, "", "=q4=Boots of the Harsh Winter", "=ds=#s12#, #a2#"};
-			{ 7, 47251, "", "=q4=Cuirass of Cruel Intent", "=ds=#s5#, #a3#"};
-			{ 8, 47265, "", "=q4=Binding of the Ice Burrower", "=ds=#s10#, #a3#"};
-			{ 9, 47254, "", "=q4=Hauberk of the Towering Monstrosity", "=ds=#s5#, #a4#"};
-			{ 10, 47253, "", "=q4=Boneshatter Vambraces", "=ds=#s8#, #a4#"};
-			{ 11, 47263, "", "=q4=Sabatons of the Courageous", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47252, "", "=q4=Ring of the Violent Temperament", "=ds=#s13#"};
-			{ 20, 47261, "", "=q4=Barb of Tarasque", "=ds=#h3#, #w4#"};
-			{ 21, 47255, "", "=q4=Stygian Bladebreaker", "=ds=#h1#, #w4#"};
-			{ 22, 47260, "", "=q4=Forlorn Barrier", "=ds=#w8#"};
+			{ 1, 47261, "", "=q4=Barb of Tarasque", "=ds=#h3#, #w4#", "", "6.7%"};
+			{ 2, 47258, "", "=q4=Belt of the Tenebrous Mist", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 3, 47265, "", "=q4=Binding of the Ice Burrower", "=ds=#s10#, #a3#", "", "6.7%"};
+			{ 4, 47253, "", "=q4=Boneshatter Vambraces", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 5, 47262, "", "=q4=Boots of the Harsh Winter", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 6, 47257, "", "=q4=Cloak of the Untamed Predator", "=ds=#s4#", "", "6.7%"};
+			{ 7, 47251, "", "=q4=Cuirass of Cruel Intent", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 8, 47256, "", "=q4=Drape of the Refreshing Winds", "=ds=#s4#", "", "6.7%"};
+			{ 9, 47264, "", "=q4=Flowing Robes of Ascent", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 10, 47260, "", "=q4=Forlorn Barrier", "=ds=#w8#", "", "6.7%"};
+			{ 11, 47254, "", "=q4=Hauberk of the Towering Monstrosity", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 12, 47259, "", "=q4=Legwraps of the Broken Beast", "=ds=#s11#, #a2#", "", "6.7%"};
+			{ 13, 47252, "", "=q4=Ring of the Violent Temperament", "=ds=#s13#", "", "6.7%"};
+			{ 14, 47263, "", "=q4=Sabatons of the Courageous", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 15, 47255, "", "=q4=Stygian Bladebreaker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25Man_A"] = {
+		{
+			{ 1, 46959, "", "=q4=Band of the Violent Temperment", "=ds=#s13#", "", "6.7%"};
+			{ 2, 46990, "", "=q4=Belt of the Ice Burrower", "=ds=#s10#, #a3#", "", "6.7%"};
+			{ 3, 46979, "", "=q4=Blade of Tarasque", "=ds=#h3#, #w4#", "", "6.7%"};
+			{ 4, 46961, "", "=q4=Boneshatter Armplates", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 5, 46985, "", "=q4=Boots of the Courageous", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 6, 46988, "", "=q4=Boots of the Unrelenting Storm", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 7, 46960, "", "=q4=Breastplate of Cruel Intent", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 8, 46962, "", "=q4=Chestplate of the Towering Monstrosity", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 9, 46972, "", "=q4=Cord of the Tenebrous Mist", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 10, 46963, "", "=q4=Crystal Plated Vanguard", "=ds=#w8#", "", "6.7%"};
+			{ 11, 46970, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#", "", "6.7%"};
+			{ 12, 46992, "", "=q4=Flowing Vestments of Ascent", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 13, 46974, "", "=q4=Leggings of the Broken Beast", "=ds=#s11#, #a2#", "", "6.7%"};
+			{ 14, 46976, "", "=q4=Shawl of the Refreshing Winds", "=ds=#s4#", "", "6.7%"};
+			{ 15, 46958, "", "=q4=Steel Bladebreaker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25ManHeroic_H"] = {
 		{
-			{ 1, 47418, "", "=q4=Cloak of the Untamed Predator", "=ds=#s4#"};
-			{ 2, 47417, "", "=q4=Drape of the Refreshing Winds", "=ds=#s4#"};
-			{ 3, 47425, "", "=q4=Flowing Robes of Ascent", "=ds=#s5#, #a1#"};
-			{ 4, 47419, "", "=q4=Belt of the Tenebrous Mist", "=ds=#s10#, #a1#"};
-			{ 5, 47420, "", "=q4=Legwraps of the Broken Beast", "=ds=#s11#, #a2#"};
-			{ 6, 47423, "", "=q4=Boots of the Harsh Winter", "=ds=#s12#, #a2#"};
-			{ 7, 47412, "", "=q4=Cuirass of Cruel Intent", "=ds=#s5#, #a3#"};
-			{ 8, 47426, "", "=q4=Binding of the Ice Burrower", "=ds=#s10#, #a3#"};
-			{ 9, 47415, "", "=q4=Hauberk of the Towering Monstrosity", "=ds=#s5#, #a4#"};
-			{ 10, 47414, "", "=q4=Boneshatter Vambraces", "=ds=#s8#, #a4#"};
-			{ 11, 47424, "", "=q4=Sabatons of the Courageous", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47413, "", "=q4=Ring of the Violent Temperament", "=ds=#s13#"};
-			{ 20, 47422, "", "=q4=Barb of Tarasque", "=ds=#h3#, #w4#"};
-			{ 21, 47416, "", "=q4=Stygian Bladebreaker", "=ds=#h1#, #w4#"};
-			{ 22, 47421, "", "=q4=Forlorn Barrier", "=ds=#w8#"};
+			{ 1, 47422, "", "=q4=Barb of Tarasque", "=ds=#h3#, #w4#", "", "6.7%"};
+			{ 2, 47419, "", "=q4=Belt of the Tenebrous Mist", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 3, 47426, "", "=q4=Binding of the Ice Burrower", "=ds=#s10#, #a3#", "", "6.7%"};
+			{ 4, 47414, "", "=q4=Boneshatter Vambraces", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 5, 47423, "", "=q4=Boots of the Harsh Winter", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 6, 47418, "", "=q4=Cloak of the Untamed Predator", "=ds=#s4#", "", "6.7%"};
+			{ 7, 47412, "", "=q4=Cuirass of Cruel Intent", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 8, 47417, "", "=q4=Drape of the Refreshing Winds", "=ds=#s4#", "", "6.7%"};
+			{ 9, 47425, "", "=q4=Flowing Robes of Ascent", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 10, 47421, "", "=q4=Forlorn Barrier", "=ds=#w8#", "", "6.7%"};
+			{ 11, 47415, "", "=q4=Hauberk of the Towering Monstrosity", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 12, 47420, "", "=q4=Legwraps of the Broken Beast", "=ds=#s11#, #a2#", "", "6.7%"};
+			{ 13, 47413, "", "=q4=Ring of the Violent Temperament", "=ds=#s13#", "", "6.7%"};
+			{ 14, 47424, "", "=q4=Sabatons of the Courageous", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 15, 47416, "", "=q4=Stygian Bladebreaker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25ManHeroic_A"] = {
+		{
+			{ 1, 46966, "", "=q4=Band of the Violent Temperment", "=ds=#s13#", "", "6.7%"};
+			{ 2, 46991, "", "=q4=Belt of the Ice Burrower", "=ds=#s10#, #a3#", "", "6.7%"};
+			{ 3, 46980, "", "=q4=Blade of Tarasque", "=ds=#h3#, #w4#", "", "6.7%"};
+			{ 4, 46967, "", "=q4=Boneshatter Armplates", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 5, 46986, "", "=q4=Boots of the Courageous", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 6, 46989, "", "=q4=Boots of the Unrelenting Storm", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 7, 46965, "", "=q4=Breastplate of Cruel Intent", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 8, 46968, "", "=q4=Chestplate of the Towering Monstrosity", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 9, 46973, "", "=q4=Cord of the Tenebrous Mist", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 10, 46964, "", "=q4=Crystal Plated Vanguard", "=ds=#w8#", "", "6.7%"};
+			{ 11, 46971, "", "=q4=Drape of the Untamed Predator", "=ds=#s4#", "", "6.7%"};
+			{ 12, 46993, "", "=q4=Flowing Vestments of Ascent", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 13, 46975, "", "=q4=Leggings of the Broken Beast", "=ds=#s11#, #a2#", "", "6.7%"};
+			{ 14, 46977, "", "=q4=Shawl of the Refreshing Winds", "=ds=#s4#", "", "6.7%"};
+			{ 15, 46969, "", "=q4=Steel Bladebreaker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -5465,153 +5472,159 @@ AtlasLoot_Data["TrialoftheCrusaderNorthrendBeasts"] = {
 	};
 }
 
-AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus"] = {
-	["Normal_A"] = {
-		{
-			{ 1, 47663, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
-			{ 2, 47620, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
-			{ 3, 47669, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
-			{ 4, 47621, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#"};
-			{ 5, 49235, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#"};
-			{ 6, 47683, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#"};
-			{ 7, 47680, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#"};
-			{ 8, 47711, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#"};
-			{ 16, 47619, "", "=q4=Amulet of Binding Elements", "=ds=#s2#"};
-			{ 17, 47679, "", "=q4=Endurance of the Infernal", "=ds=#s2#"};
-			{ 18, 47618, "", "=q4=Firestorm Ring", "=ds=#s13#"};
-			{ 19, 47703, "", "=q4=Planestalker Signet", "=ds=#s13#"};
-			{ 21, 47676, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
-		};
-	};
-	["Heroic_A"] = {
-		{
-			{ 1, 47927, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#"};
-			{ 2, 47931, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#"};
-			{ 3, 47929, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#"};
-			{ 4, 47932, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#"};
-			{ 5, 49238, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#"};
-			{ 6, 47933, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#"};
-			{ 7, 47935, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#"};
-			{ 8, 47937, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#"};
-			{ 16, 47930, "", "=q4=Amulet of Binding Elements", "=ds=#s2#"};
-			{ 17, 47939, "", "=q4=Endurance of the Infernal", "=ds=#s2#"};
-			{ 18, 47928, "", "=q4=Firestorm Ring", "=ds=#s13#"};
-			{ 19, 47934, "", "=q4=Planestalker Signet", "=ds=#s13#"};
-			{ 21, 47938, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#"};
-		};
-	};
-	["25Man_A"] = {
-		{
-			{ 1, 47042, "", "=q4=Pride of the Eredar", "=ds=#s4#"};
-			{ 2, 47051, "", "=q4=Leggings of the Soothing Touch", "=ds=#s11#, #a1#"};
-			{ 3, 47000, "", "=q4=Cuirass of Calamitous Fate", "=ds=#s5#, #a2#"};
-			{ 4, 47055, "", "=q4=Bracers of the Autumn Willow", "=ds=#s8#, #a2#"};
-			{ 5, 47056, "", "=q4=Bracers of Cloudy Omen", "=ds=#s8#, #a3#"};
-			{ 6, 46999, "", "=q4=Bloodbath Belt", "=ds=#s10#, #a4#"};
-			{ 7, 47057, "", "=q4=Legplates of Failing Light", "=ds=#s11#, #a4#"};
-			{ 8, 47052, "", "=q4=Legguards of Feverish Dedication", "=ds=#s11#, #a4#"};
-			{ 9, 46997, "", "=q4=Dawnbreaker Greaves", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47043, "", "=q4=Charge of the Demon Lord", "=ds=#s2#"};
-			{ 19, 47223, "", "=q4=Ring of the Darkmender", "=ds=#s13#"};
-			{ 20, 47041, "", "=q4=Solace of the Defeated", "=ds=#s14#"};
-			{ 21, 47053, "", "=q4=Symbol of Transgression", "=ds=#s15#"};
-			{ 23, 46996, "", "=q4=Lionhead Slasher", "=ds=#h1#, #w1#"};
-			{ 24, 46994, "", "=q4=Talonstrike", "=ds=#w3#"};
-		};
-	};
-	["25ManHeroic_A"] = {
-		{
-			{ 1, 47063, "", "=q4=Pride of the Eredar", "=ds=#s4#"};
-			{ 2, 47062, "", "=q4=Leggings of the Soothing Touch", "=ds=#s11#, #a1#"};
-			{ 3, 47004, "", "=q4=Cuirass of Calamitous Fate", "=ds=#s5#, #a2#"};
-			{ 4, 47066, "", "=q4=Bracers of the Autumn Willow", "=ds=#s8#, #a2#"};
-			{ 5, 47068, "", "=q4=Bracers of Cloudy Omen", "=ds=#s8#, #a3#"};
-			{ 6, 47002, "", "=q4=Bloodbath Belt", "=ds=#s10#, #a4#"};
-			{ 7, 47067, "", "=q4=Legplates of Failing Light", "=ds=#s11#, #a4#"};
-			{ 8, 47061, "", "=q4=Legguards of Feverish Dedication", "=ds=#s11#, #a4#"};
-			{ 9, 47003, "", "=q4=Dawnbreaker Greaves", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47060, "", "=q4=Charge of the Demon Lord", "=ds=#s2#"};
-			{ 19, 47224, "", "=q4=Ring of the Darkmender", "=ds=#s13#"};
-			{ 20, 47059, "", "=q4=Solace of the Defeated", "=ds=#s14#"};
-			{ 21, 47064, "", "=q4=Symbol of Transgression", "=ds=#s15#"};
-			{ 23, 47001, "", "=q4=Lionhead Slasher", "=ds=#h1#, #w1#"};
-			{ 24, 46995, "", "=q4=Talonstrike", "=ds=#w3#"};
-		};
-	};
+AtlasLoot_Data["TrialOftheCrusaderLordJaraxxus"] = {
 	["Normal_H"] = {
 		{
-			{ 1, 47861, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
-			{ 2, 47865, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
-			{ 3, 47863, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
-			{ 4, 47866, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#"};
-			{ 5, 49236, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#"};
-			{ 6, 47867, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#"};
-			{ 7, 47869, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#"};
-			{ 8, 47870, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#"};
-			{ 16, 47872, "", "=q4=Fortitude of the Infernal", "=ds=#s2#"};
-			{ 17, 47864, "", "=q4=Pendant of Binding Elements", "=ds=#s2#"};
-			{ 18, 47862, "", "=q4=Firestorm Band", "=ds=#s13#"};
-			{ 19, 47868, "", "=q4=Planestalker Band", "=ds=#s13#"};
-			{ 21, 47871, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
+			{ 1, 47869, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#", "", "7.7%"};
+			{ 2, 47863, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#", "", "7.7%"};
+			{ 3, 47870, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#", "", "7.7%"};
+			{ 4, 47866, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#", "", "7.7%"};
+			{ 5, 47861, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#", "", "7.7%"};
+			{ 6, 47862, "", "=q4=Firestorm Band", "=ds=#s13#", "", "7.7%"};
+			{ 7, 47872, "", "=q4=Fortitude of the Infernal", "=ds=#s2#", "", "7.7%"};
+			{ 8, 47865, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#", "", "7.7%"};
+			{ 9, 47871, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#", "", "7.7%"};
+			{ 10, 47864, "", "=q4=Pendant of Binding Elements", "=ds=#s2#", "", "7.7%"};
+			{ 11, 47868, "", "=q4=Planestalker Band", "=ds=#s13#", "", "7.7%"};
+			{ 12, 49236, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 13, 47867, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#", "", "7.7%"};
+		};
+	};
+	["Normal_A"] = {
+		{
+			{ 1, 47619, "", "=q4=Amulet of Binding Elements", "=ds=#s2#", "", "7.7%"};
+			{ 2, 47680, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#", "", "7.7%"};
+			{ 3, 47669, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#", "", "7.7%"};
+			{ 4, 49235, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 5, 47676, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#", "", "7.7%"};
+			{ 6, 47679, "", "=q4=Endurance of the Infernal", "=ds=#s2#", "", "7.7%"};
+			{ 7, 47663, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#", "", "7.7%"};
+			{ 8, 47618, "", "=q4=Firestorm Ring", "=ds=#s13#", "", "7.7%"};
+			{ 9, 47621, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#", "", "7.7%"};
+			{ 10, 47711, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#", "", "7.7%"};
+			{ 11, 47620, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#", "", "7.7%"};
+			{ 12, 47703, "", "=q4=Planestalker Signet", "=ds=#s13#", "", "7.7%"};
+			{ 13, 47683, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#", "", "7.7%"};
 		};
 	};
 	["Heroic_H"] = {
 		{
-			{ 1, 48000, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#"};
-			{ 2, 48004, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#"};
-			{ 3, 48002, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#"};
-			{ 4, 48005, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#"};
-			{ 5, 49237, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#"};
-			{ 6, 48006, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#"};
-			{ 7, 48008, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#"};
-			{ 8, 48009, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#"};
-			{ 16, 48011, "", "=q4=Fortitude of the Infernal", "=ds=#s2#"};
-			{ 17, 48003, "", "=q4=Pendant of Binding Elements", "=ds=#s2#"};
-			{ 18, 48001, "", "=q4=Firestorm Band", "=ds=#s13#"};
-			{ 19, 48007, "", "=q4=Planestalker Band", "=ds=#s13#"};
-			{ 21, 48010, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#"};
+			{ 1, 48008, "", "=q4=Armplates of the Nether Lord", "=ds=#s8#, #a4#", "", "7.7%"};
+			{ 2, 48002, "", "=q4=Belt of the Bloodhoof Emissary", "=ds=#s10#, #a2#", "", "7.7%"};
+			{ 3, 48009, "", "=q4=Belt of the Nether Champion", "=ds=#s10#, #a4#", "", "7.7%"};
+			{ 4, 48005, "", "=q4=Darkspear Ritual Binding", "=ds=#s10#, #a3#", "", "7.7%"};
+			{ 5, 48000, "", "=q4=Felspark Bracers", "=ds=#s8#, #a1#", "", "7.7%"};
+			{ 6, 48001, "", "=q4=Firestorm Band", "=ds=#s13#", "", "7.7%"};
+			{ 7, 48011, "", "=q4=Fortitude of the Infernal", "=ds=#s2#", "", "7.7%"};
+			{ 8, 48004, "", "=q4=Legwraps of the Demonic Messenger", "=ds=#s11#, #a1#", "", "7.7%"};
+			{ 9, 48010, "", "=q4=Orcish Deathblade", "=ds=#h1#, #w4#", "", "7.7%"};
+			{ 10, 48003, "", "=q4=Pendant of Binding Elements", "=ds=#s2#", "", "7.7%"};
+			{ 11, 48007, "", "=q4=Planestalker Band", "=ds=#s13#", "", "7.7%"};
+			{ 12, 49237, "", "=q4=Sabatons of Tortured Space", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 13, 48006, "", "=q4=Warsong Poacher's Greaves", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["Heroic_A"] = {
+		{
+			{ 1, 47930, "", "=q4=Amulet of Binding Elements", "=ds=#s2#", "", "7.7%"};
+			{ 2, 47935, "", "=q4=Armguards of the Nether Lord", "=ds=#s8#, #a4#", "", "7.7%"};
+			{ 3, 47929, "", "=q4=Belt of the Winter Solstice", "=ds=#s10#, #a2#", "", "7.7%"};
+			{ 4, 49238, "", "=q4=Boots of Tortured Space", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 5, 47938, "", "=q4=Dirk of the Night Watch", "=ds=#h1#, #w4#", "", "7.7%"};
+			{ 6, 47939, "", "=q4=Endurance of the Infernal", "=ds=#s2#", "", "7.7%"};
+			{ 7, 47927, "", "=q4=Felspark Bindings", "=ds=#s8#, #a1#", "", "7.7%"};
+			{ 8, 47928, "", "=q4=Firestorm Ring", "=ds=#s13#", "", "7.7%"};
+			{ 9, 47932, "", "=q4=Girdle of the Farseer", "=ds=#s10#, #a3#", "", "7.7%"};
+			{ 10, 47937, "", "=q4=Girdle of the Nether Champion", "=ds=#s10#, #a4#", "", "7.7%"};
+			{ 11, 47931, "", "=q4=Leggings of the Demonic Messenger", "=ds=#s11#, #a1#", "", "7.7%"};
+			{ 12, 47934, "", "=q4=Planestalker Signet", "=ds=#s13#", "", "7.7%"};
+			{ 13, 47933, "", "=q4=Sentinel Scouting Greaves", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25Man_H"] = {
 		{
-			{ 1, 47275, "", "=q4=Pride of the Demon Lord", "=ds=#s4#"};
-			{ 2, 47274, "", "=q4=Pants of the Soothing Touch", "=ds=#s11#, #a1#"};
-			{ 3, 47270, "", "=q4=Vest of Calamitous Fate", "=ds=#s5#, #a2#"};
-			{ 4, 47277, "", "=q4=Bindings of the Autumn Willow", "=ds=#s8#, #a2#"};
-			{ 5, 47280, "", "=q4=Wristwraps of Cloudy Omen", "=ds=#s8#, #a3#"};
-			{ 6, 47268, "", "=q4=Bloodbath Girdle", "=ds=#s10#, #a4#"};
-			{ 7, 47279, "", "=q4=Leggings of Failing Light", "=ds=#s11#, #a4#"};
-			{ 8, 47273, "", "=q4=Legplates of Feverish Dedication", "=ds=#s11#, #a4#"};
-			{ 9, 47269, "", "=q4=Dawnbreaker Sabatons", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47272, "", "=q4=Charge of the Eredar", "=ds=#s2#"};
-			{ 19, 47278, "", "=q4=Circle of the Darkmender", "=ds=#s13#"};
-			{ 20, 47271, "", "=q4=Solace of the Fallen", "=ds=#s14#"};
-			{ 21, 47276, "", "=q4=Talisman of Heedless Sins", "=ds=#s15#"};
-			{ 23, 47266, "", "=q4=Blood Fury", "=ds=#h1#, #w1#"};
-			{ 24, 47267, "", "=q4=Death's Head Crossbow", "=ds=#w3#"};
+			{ 1, 47277, "", "=q4=Bindings of the Autumn Willow", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 2, 47266, "", "=q4=Blood Fury", "=ds=#h1#, #w1#", "", "6.7%"};
+			{ 3, 47268, "", "=q4=Bloodbath Girdle", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 4, 47272, "", "=q4=Charge of the Eredar", "=ds=#s2#", "", "6.7%"};
+			{ 5, 47278, "", "=q4=Circle of the Darkmender", "=ds=#s13#", "", "6.7%"};
+			{ 6, 47269, "", "=q4=Dawnbreaker Sabatons", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 7, 47267, "", "=q4=Death's Head Crossbow", "=ds=#w3#", "", "6.7%"};
+			{ 8, 47279, "", "=q4=Leggings of Failing Light", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 9, 47273, "", "=q4=Legplates of Feverish Dedication", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 10, 47274, "", "=q4=Pants of the Soothing Touch", "=ds=#s11#, #a1#", "", "6.7%"};
+			{ 11, 47275, "", "=q4=Pride of the Demon Lord", "=ds=#s4#", "", "6.7%"};
+			{ 12, 47271, "", "=q4=Solace of the Fallen", "=ds=#s14#", "", "6.7%"};
+			{ 13, 47276, "", "=q4=Talisman of Heedless Sins", "=ds=#s15#", "", "6.7%"};
+			{ 14, 47270, "", "=q4=Vest of Calamitous Fate", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 15, 47280, "", "=q4=Wristwraps of Cloudy Omen", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25Man_A"] = {
+		{
+			{ 1, 46999, "", "=q4=Bloodbath Belt", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 2, 47056, "", "=q4=Bracers of Cloudy Omen", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 3, 47055, "", "=q4=Bracers of the Autumn Willow", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 4, 47043, "", "=q4=Charge of the Demon Lord", "=ds=#s2#", "", "6.7%"};
+			{ 5, 47000, "", "=q4=Cuirass of Calamitous Fate", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 6, 46997, "", "=q4=Dawnbreaker Greaves", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 7, 47051, "", "=q4=Leggings of the Soothing Touch", "=ds=#s11#, #a1#", "", "6.7%"};
+			{ 8, 47052, "", "=q4=Legguards of Feverish Dedication", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 9, 47057, "", "=q4=Legplates of Failing Light", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 10, 46996, "", "=q4=Lionhead Slasher", "=ds=#h1#, #w1#", "", "6.7%"};
+			{ 11, 47042, "", "=q4=Pride of the Eredar", "=ds=#s4#", "", "6.7%"};
+			{ 12, 47223, "", "=q4=Ring of the Darkmender", "=ds=#s13#", "", "6.7%"};
+			{ 13, 47041, "", "=q4=Solace of the Defeated", "=ds=#s14#", "", "6.7%"};
+			{ 14, 47053, "", "=q4=Symbol of Transgression", "=ds=#s15#", "", "6.7%"};
+			{ 15, 46994, "", "=q4=Talonstrike", "=ds=#w3#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25ManHeroic_H"] = {
 		{
-			{ 1, 47436, "", "=q4=Pride of the Demon Lord", "=ds=#s4#"};
-			{ 2, 47435, "", "=q4=Pants of the Soothing Touch", "=ds=#s11#, #a1#"};
-			{ 3, 47431, "", "=q4=Vest of Calamitous Fate", "=ds=#s5#, #a2#"};
-			{ 4, 47438, "", "=q4=Bindings of the Autumn Willow", "=ds=#s8#, #a2#"};
-			{ 5, 47441, "", "=q4=Wristwraps of Cloudy Omen", "=ds=#s8#, #a3#"};
-			{ 6, 47429, "", "=q4=Bloodbath Girdle", "=ds=#s10#, #a4#"};
-			{ 7, 47440, "", "=q4=Leggings of Failing Light", "=ds=#s11#, #a4#"};
-			{ 8, 47434, "", "=q4=Legplates of Feverish Dedication", "=ds=#s11#, #a4#"};
-			{ 9, 47430, "", "=q4=Dawnbreaker Sabatons", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47433, "", "=q4=Charge of the Eredar", "=ds=#s2#"};
-			{ 19, 47439, "", "=q4=Circle of the Darkmender", "=ds=#s13#"};
-			{ 20, 47432, "", "=q4=Solace of the Fallen", "=ds=#s14#"};
-			{ 21, 47437, "", "=q4=Talisman of Heedless Sins", "=ds=#s15#"};
-			{ 23, 47427, "", "=q4=Blood Fury", "=ds=#h1#, #w1#"};
-			{ 24, 47428, "", "=q4=Death's Head Crossbow", "=ds=#w3#"};
+			{ 1, 47438, "", "=q4=Bindings of the Autumn Willow", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 2, 47427, "", "=q4=Blood Fury", "=ds=#h1#, #w1#", "", "6.7%"};
+			{ 3, 47429, "", "=q4=Bloodbath Girdle", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 4, 47433, "", "=q4=Charge of the Eredar", "=ds=#s2#", "", "6.7%"};
+			{ 5, 47439, "", "=q4=Circle of the Darkmender", "=ds=#s13#", "", "6.7%"};
+			{ 6, 47430, "", "=q4=Dawnbreaker Sabatons", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 7, 47428, "", "=q4=Death's Head Crossbow", "=ds=#w3#", "", "6.7%"};
+			{ 8, 47440, "", "=q4=Leggings of Failing Light", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 9, 47434, "", "=q4=Legplates of Feverish Dedication", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 10, 47435, "", "=q4=Pants of the Soothing Touch", "=ds=#s11#, #a1#", "", "6.7%"};
+			{ 11, 47436, "", "=q4=Pride of the Demon Lord", "=ds=#s4#", "", "6.7%"};
+			{ 12, 47432, "", "=q4=Solace of the Fallen", "=ds=#s14#", "", "6.7%"};
+			{ 13, 47437, "", "=q4=Talisman of Heedless Sins", "=ds=#s15#", "", "6.7%"};
+			{ 14, 47431, "", "=q4=Vest of Calamitous Fate", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 15, 47441, "", "=q4=Wristwraps of Cloudy Omen", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25ManHeroic_A"] = {
+		{
+			{ 1, 47002, "", "=q4=Bloodbath Belt", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 2, 47068, "", "=q4=Bracers of Cloudy Omen", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 3, 47066, "", "=q4=Bracers of the Autumn Willow", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 4, 47060, "", "=q4=Charge of the Demon Lord", "=ds=#s2#", "", "6.7%"};
+			{ 5, 47004, "", "=q4=Cuirass of Calamitous Fate", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 6, 47003, "", "=q4=Dawnbreaker Greaves", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 7, 47062, "", "=q4=Leggings of the Soothing Touch", "=ds=#s11#, #a1#", "", "6.7%"};
+			{ 8, 47061, "", "=q4=Legguards of Feverish Dedication", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 9, 47067, "", "=q4=Legplates of Failing Light", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 10, 47001, "", "=q4=Lionhead Slasher", "=ds=#h1#, #w1#", "", "6.7%"};
+			{ 11, 47063, "", "=q4=Pride of the Eredar", "=ds=#s4#", "", "6.7%"};
+			{ 12, 47224, "", "=q4=Ring of the Darkmender", "=ds=#s13#", "", "6.7%"};
+			{ 13, 47059, "", "=q4=Solace of the Defeated", "=ds=#s14#", "", "6.7%"};
+			{ 14, 47064, "", "=q4=Symbol of Transgression", "=ds=#s15#", "", "6.7%"};
+			{ 15, 46995, "", "=q4=Talonstrike", "=ds=#w3#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -5621,141 +5634,147 @@ AtlasLoot_Data["TrialoftheCrusaderLordJaraxxus"] = {
 	};
 }
 
-AtlasLoot_Data["TrialoftheCrusaderFactionChampions"] = {
-	["Normal_A"] = {
-		{
-			{ 1, 47721, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
-			{ 2, 47719, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
-			{ 3, 47718, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
-			{ 4, 47717, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
-			{ 5, 47720, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
-			{ 7, 47728, "", "=q4=Binding Light", "=ds=#s14#"};
-			{ 8, 47727, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
-			{ 9, 47726, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
-			{ 10, 47725, "", "=q4=Victor's Call", "=ds=#s14#"};
-			{ 16, 47724, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		};
-	};
-	["Heroic_A"] = {
-		{
-			{ 1, 47940, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#"};
-			{ 2, 47945, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#"};
-			{ 3, 47942, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#"};
-			{ 4, 47943, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#"};
-			{ 5, 47944, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#"};
-			{ 7, 47947, "", "=q4=Binding Light", "=ds=#s14#"};
-			{ 8, 47949, "", "=q4=Fervor of the Frostborn", "=ds=#s14#"};
-			{ 9, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#"};
-			{ 10, 47948, "", "=q4=Victor's Call", "=ds=#s14#"};
-			{ 16, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h1#, #w4#"};
-		};
-	};
-	["25Man_A"] = {
-		{
-			{ 1, 47089, "", "=q4=Cloak of Displacement", "=ds=#s4#"};
-			{ 2, 47081, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#"};
-			{ 3, 47092, "", "=q4=Boots of the Mourning Widow", "=ds=#s12#, #a1#"};
-			{ 4, 47094, "", "=q4=Vestments of the Shattered Fellowship", "=ds=#s5#, #a2#"};
-			{ 5, 47071, "", "=q4=Treads of the Icewalker", "=ds=#s12#, #a2#"};
-			{ 6, 47073, "", "=q4=Bracers of the Untold Massacre", "=ds=#s8#, #a3#"};
-			{ 7, 47083, "", "=q4=Legguards of Concealed Hatred", "=ds=#s11#, #a3#"};
-			{ 8, 47090, "", "=q4=Boots of Tremoring Earth", "=ds=#s12#, #a3#"};
-			{ 9, 47082, "", "=q4=Chestplate of the Frostborn Hero", "=ds=#s5#, #a4#"};
-			{ 10, 47093, "", "=q4=Vambraces of the Broken Bond", "=ds=#s8#, #a4#"};
-			{ 11, 47072, "", "=q4=Girdle of Bloodied Scars", "=ds=#s10#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47070, "", "=q4=Ring of Callous Aggression", "=ds=#s13#"};
-			{ 19, 47080, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#"};
-			{ 21, 47069, "", "=q4=Justicebringer", "=ds=#h2#, #w1#"};
-			{ 22, 47079, "", "=q4=Bastion of Purity", "=ds=#w8#"};
-		};
-	};
-	["25ManHeroic_A"] = {
-		{
-			{ 1, 47095, "", "=q4=Cloak of Displacement", "=ds=#s4#"};
-			{ 2, 47084, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#"};
-			{ 3, 47097, "", "=q4=Boots of the Mourning Widow", "=ds=#s12#, #a1#"};
-			{ 4, 47096, "", "=q4=Vestments of the Shattered Fellowship", "=ds=#s5#, #a2#"};
-			{ 5, 47077, "", "=q4=Treads of the Icewalker", "=ds=#s12#, #a2#"};
-			{ 6, 47074, "", "=q4=Bracers of the Untold Massacre", "=ds=#s8#, #a3#"};
-			{ 7, 47087, "", "=q4=Legguards of Concealed Hatred", "=ds=#s11#, #a3#"};
-			{ 8, 47099, "", "=q4=Boots of Tremoring Earth", "=ds=#s12#, #a3#"};
-			{ 9, 47086, "", "=q4=Chestplate of the Frostborn Hero", "=ds=#s5#, #a4#"};
-			{ 10, 47098, "", "=q4=Vambraces of the Broken Bond", "=ds=#s8#, #a4#"};
-			{ 11, 47076, "", "=q4=Girdle of Bloodied Scars", "=ds=#s10#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47075, "", "=q4=Ring of Callous Aggression", "=ds=#s13#"};
-			{ 19, 47088, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#"};
-			{ 21, 47078, "", "=q4=Justicebringer", "=ds=#h2#, #w1#"};
-			{ 22, 47085, "", "=q4=Bastion of Purity", "=ds=#w8#"};
-		};
-	};
+AtlasLoot_Data["TrialOftheCrusaderFactionChampions"] = {
 	["Normal_H"] = {
 		{
-			{ 1, 47873, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
-			{ 2, 47878, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
-			{ 3, 47875, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
-			{ 4, 47876, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
-			{ 5, 47877, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
-			{ 7, 47880, "", "=q4=Binding Stone", "=ds=#s14#"};
-			{ 8, 47882, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
-			{ 9, 47879, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
-			{ 10, 47881, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
-			{ 16, 47874, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
+			{ 1, 47880, "", "=q4=Binding Stone", "=ds=#s14#", "", "10%"};
+			{ 2, 47882, "", "=q4=Eitrigg's Oath", "=ds=#s14#", "", "10%"};
+			{ 3, 47879, "", "=q4=Fetish of Volatile Power", "=ds=#s14#", "", "10%"};
+			{ 4, 47878, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#", "", "10%"};
+			{ 5, 47876, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#", "", "10%"};
+			{ 6, 47877, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#", "", "10%"};
+			{ 7, 47874, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h3#, #w4#", "", "10%"};
+			{ 8, 47873, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#", "", "10%"};
+			{ 9, 47875, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#", "", "10%"};
+			{ 10, 47881, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#", "", "10%"};
+		};
+	};
+	["Normal_A"] = {
+		{
+			{ 1, 47728, "", "=q4=Binding Light", "=ds=#s14#", "", "10%"};
+			{ 2, 47724, "", "=q4=Blade of the Silver Disciple", "=ds=#h3#, #w4#", "", "10%"};
+			{ 3, 47717, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#", "", "10%"};
+			{ 4, 47727, "", "=q4=Fervor of the Frostborn", "=ds=#s14#", "", "10%"};
+			{ 5, 47719, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#", "", "10%"};
+			{ 6, 47718, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#", "", "10%"};
+			{ 7, 47720, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#", "", "10%"};
+			{ 8, 47721, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#", "", "10%"};
+			{ 9, 47726, "", "=q4=Talisman of Volatile Power", "=ds=#s14#", "", "10%"};
+			{ 10, 47725, "", "=q4=Victor's Call", "=ds=#s14#", "", "10%"};
 		};
 	};
 	["Heroic_H"] = {
 		{
-			{ 1, 48012, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#"};
-			{ 2, 48017, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#"};
-			{ 3, 48014, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#"};
-			{ 4, 48015, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#"};
-			{ 5, 48016, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#"};
-			{ 7, 48019, "", "=q4=Binding Stone", "=ds=#s14#"};
-			{ 8, 48021, "", "=q4=Eitrigg's Oath", "=ds=#s14#"};
-			{ 9, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#"};
-			{ 10, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#"};
-			{ 16, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h1#, #w4#"};
+			{ 1, 48019, "", "=q4=Binding Stone", "=ds=#s14#", "", "10%"};
+			{ 2, 48021, "", "=q4=Eitrigg's Oath", "=ds=#s14#", "", "10%"};
+			{ 3, 48018, "", "=q4=Fetish of Volatile Power", "=ds=#s14#", "", "10%"};
+			{ 4, 48017, "", "=q4=Sunreaver Assassin's Gloves", "=ds=#s9#, #a2#", "", "10%"};
+			{ 5, 48015, "", "=q4=Sunreaver Champion's Faceplate", "=ds=#s1#, #a4#", "", "10%"};
+			{ 6, 48016, "", "=q4=Sunreaver Defender's Pauldrons", "=ds=#s3#, #a4#", "", "10%"};
+			{ 7, 48013, "", "=q4=Sunreaver Disciple's Blade", "=ds=#h3#, #w4#", "", "10%"};
+			{ 8, 48012, "", "=q4=Sunreaver Magus' Sandals", "=ds=#s12#, #a1#", "", "10%"};
+			{ 9, 48014, "", "=q4=Sunreaver Ranger's Helm", "=ds=#s1#, #a3#", "", "10%"};
+			{ 10, 48020, "", "=q4=Vengeance of the Forsaken", "=ds=#s14#", "", "10%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["Heroic_A"] = {
+		{
+			{ 1, 47947, "", "=q4=Binding Light", "=ds=#s14#", "", "10%"};
+			{ 2, 47941, "", "=q4=Blade of the Silver Disciple", "=ds=#h3#, #w4#", "", "10%"};
+			{ 3, 47943, "", "=q4=Faceplate of the Silver Champion", "=ds=#s1#, #a4#", "", "10%"};
+			{ 4, 47949, "", "=q4=Fervor of the Frostborn", "=ds=#s14#", "", "10%"};
+			{ 5, 47945, "", "=q4=Gloves of the Silver Assassin", "=ds=#s9#, #a2#", "", "10%"};
+			{ 6, 47942, "", "=q4=Helm of the Silver Ranger", "=ds=#s1#, #a3#", "", "10%"};
+			{ 7, 47944, "", "=q4=Pauldrons of the Silver Defender", "=ds=#s3#, #a4#", "", "10%"};
+			{ 8, 47940, "", "=q4=Sandals of the Silver Magus", "=ds=#s12#, #a1#", "", "10%"};
+			{ 9, 47946, "", "=q4=Talisman of Volatile Power", "=ds=#s14#", "", "10%"};
+			{ 10, 47948, "", "=q4=Victor's Call", "=ds=#s14#", "", "10%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25Man_H"] = {
 		{
-			{ 1, 47291, "", "=q4=Shroud of Displacement", "=ds=#s4#"};
-			{ 2, 47286, "", "=q4=Belt of Biting Cold", "=ds=#s10#, #a1#"};
-			{ 3, 47293, "", "=q4=Sandals of the Mourning Widow", "=ds=#s12#, #a1#"};
-			{ 4, 47292, "", "=q4=Robes of the Shattered Fellowship", "=ds=#s5#, #a2#"};
-			{ 5, 47284, "", "=q4=Icewalker Treads", "=ds=#s12#, #a2#"};
-			{ 6, 47281, "", "=q4=Bracers of the Silent Massacre", "=ds=#s8#, #a3#"};
-			{ 7, 47289, "", "=q4=Leggings of Concealed Hatred", "=ds=#s11#, #a3#"};
-			{ 8, 47295, "", "=q4=Sabatons of Tremoring Earth", "=ds=#s12#, #a3#"};
-			{ 9, 47288, "", "=q4=Chestplate of the Frostwolf Hero", "=ds=#s5#, #a4#"};
-			{ 10, 47294, "", "=q4=Bracers of the Broken Bond", "=ds=#s8#, #a4#"};
-			{ 11, 47283, "", "=q4=Belt of Bloodied Scars", "=ds=#s10#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47282, "", "=q4=Band of Callous Aggression", "=ds=#s13#"};
-			{ 19, 47290, "", "=q4=Juggernaut's Vitality", "=ds=#s14#"};
-			{ 21, 47285, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#"};
-			{ 22, 47287, "", "=q4=Bastion of Resolve", "=ds=#w8#"};
+			{ 1, 47282, "", "=q4=Band of Callous Aggression", "=ds=#s13#", "", "6.7%"};
+			{ 2, 47287, "", "=q4=Bastion of Resolve", "=ds=#w8#", "", "6.7%"};
+			{ 3, 47286, "", "=q4=Belt of Biting Cold", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 4, 47283, "", "=q4=Belt of Bloodied Scars", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 5, 47294, "", "=q4=Bracers of the Broken Bond", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 6, 47281, "", "=q4=Bracers of the Silent Massacre", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 7, 47288, "", "=q4=Chestplate of the Frostwolf Hero", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 8, 47285, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 9, 47284, "", "=q4=Icewalker Treads", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 10, 47290, "", "=q4=Juggernaut's Vitality", "=ds=#s14#", "", "6.7%"};
+			{ 11, 47289, "", "=q4=Leggings of Concealed Hatred", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 12, 47292, "", "=q4=Robes of the Shattered Fellowship", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 13, 47295, "", "=q4=Sabatons of Tremoring Earth", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 14, 47293, "", "=q4=Sandals of the Mourning Widow", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 15, 47291, "", "=q4=Shroud of Displacement", "=ds=#s4#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25Man_A"] = {
+		{
+			{ 1, 47079, "", "=q4=Bastion of Purity", "=ds=#w8#", "", "6.7%"};
+			{ 2, 47092, "", "=q4=Boots of the Mourning Widow", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 3, 47090, "", "=q4=Boots of Tremoring Earth", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 4, 47073, "", "=q4=Bracers of the Untold Massacre", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 5, 47082, "", "=q4=Chestplate of the Frostborn Hero", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 6, 47089, "", "=q4=Cloak of Displacement", "=ds=#s4#", "", "6.7%"};
+			{ 7, 47081, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 8, 47072, "", "=q4=Girdle of Bloodied Scars", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 9, 47069, "", "=q4=Justicebringer", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 10, 47083, "", "=q4=Legguards of Concealed Hatred", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 11, 47070, "", "=q4=Ring of Callous Aggression", "=ds=#s13#", "", "6.7%"};
+			{ 12, 47080, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#", "", "6.7%"};
+			{ 13, 47071, "", "=q4=Treads of the Icewalker", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 14, 47093, "", "=q4=Vambraces of the Broken Bond", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 15, 47094, "", "=q4=Vestments of the Shattered Fellowship", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25ManHeroic_H"] = {
 		{
-			{ 1, 47452, "", "=q4=Shroud of Displacement", "=ds=#s4#"};
-			{ 2, 47447, "", "=q4=Belt of Biting Cold", "=ds=#s10#, #a1#"};
-			{ 3, 47454, "", "=q4=Sandals of the Mourning Widow", "=ds=#s12#, #a1#"};
-			{ 4, 47453, "", "=q4=Robes of the Shattered Fellowship", "=ds=#s5#, #a2#"};
-			{ 5, 47445, "", "=q4=Icewalker Treads", "=ds=#s12#, #a2#"};
-			{ 6, 47442, "", "=q4=Bracers of the Silent Massacre", "=ds=#s8#, #a3#"};
-			{ 7, 47450, "", "=q4=Leggings of Concealed Hatred", "=ds=#s11#, #a3#"};
-			{ 8, 47456, "", "=q4=Sabatons of Tremoring Earth", "=ds=#s12#, #a3#"};
-			{ 9, 47449, "", "=q4=Chestplate of the Frostwolf Hero", "=ds=#s5#, #a4#"};
-			{ 10, 47455, "", "=q4=Bracers of the Broken Bond", "=ds=#s8#, #a4#"};
-			{ 11, 47444, "", "=q4=Belt of Bloodied Scars", "=ds=#s10#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47443, "", "=q4=Band of Callous Aggression", "=ds=#s13#"};
-			{ 19, 47451, "", "=q4=Juggernaut's Vitality", "=ds=#s14#"};
-			{ 21, 47446, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#"};
-			{ 22, 47448, "", "=q4=Bastion of Resolve", "=ds=#w8#"};
+			{ 1, 47443, "", "=q4=Band of Callous Aggression", "=ds=#s13#", "", "6.7%"};
+			{ 2, 47448, "", "=q4=Bastion of Resolve", "=ds=#w8#", "", "6.7%"};
+			{ 3, 47447, "", "=q4=Belt of Biting Cold", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 4, 47444, "", "=q4=Belt of Bloodied Scars", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 5, 47455, "", "=q4=Bracers of the Broken Bond", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 6, 47442, "", "=q4=Bracers of the Silent Massacre", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 7, 47449, "", "=q4=Chestplate of the Frostwolf Hero", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 8, 47446, "", "=q4=Dual-blade Butcher", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 9, 47445, "", "=q4=Icewalker Treads", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 10, 47451, "", "=q4=Juggernaut's Vitality", "=ds=#s14#", "", "6.7%"};
+			{ 11, 47450, "", "=q4=Leggings of Concealed Hatred", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 12, 47453, "", "=q4=Robes of the Shattered Fellowship", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 13, 47456, "", "=q4=Sabatons of Tremoring Earth", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 14, 47454, "", "=q4=Sandals of the Mourning Widow", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 15, 47452, "", "=q4=Shroud of Displacement", "=ds=#s4#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25ManHeroic_A"] = {
+		{
+			{ 1, 47085, "", "=q4=Bastion of Purity", "=ds=#w8#", "", "6.7%"};
+			{ 2, 47097, "", "=q4=Boots of the Mourning Widow", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 3, 47099, "", "=q4=Boots of Tremoring Earth", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 4, 47074, "", "=q4=Bracers of the Untold Massacre", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 5, 47086, "", "=q4=Chestplate of the Frostborn Hero", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 6, 47095, "", "=q4=Cloak of Displacement", "=ds=#s4#", "", "6.7%"};
+			{ 7, 47084, "", "=q4=Cord of Biting Cold", "=ds=#s10#, #a1#", "", "6.7%"};
+			{ 8, 47076, "", "=q4=Girdle of Bloodied Scars", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 9, 47078, "", "=q4=Justicebringer", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 10, 47087, "", "=q4=Legguards of Concealed Hatred", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 11, 47075, "", "=q4=Ring of Callous Aggression", "=ds=#s13#", "", "6.7%"};
+			{ 12, 47088, "", "=q4=Satrina's Impeding Scarab", "=ds=#s14#", "", "6.7%"};
+			{ 13, 47077, "", "=q4=Treads of the Icewalker", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 14, 47098, "", "=q4=Vambraces of the Broken Bond", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 15, 47096, "", "=q4=Vestments of the Shattered Fellowship", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -5765,153 +5784,159 @@ AtlasLoot_Data["TrialoftheCrusaderFactionChampions"] = {
 	};
 }
 
-AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs"] = {
-	["Normal_A"] = {
-		{
-			{ 1, 47745, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
-			{ 2, 49231, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
-			{ 3, 47746, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
-			{ 4, 47739, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#"};
-			{ 5, 47744, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#"};
-			{ 6, 47738, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#"};
-			{ 8, 47747, "", "=q4=Darkbane Pendant", "=ds=#s2#"};
-			{ 9, 47700, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#"};
-			{ 10, 47742, "", "=q4=Chalice of Benedictus", "=ds=#s15#"};
-			{ 16, 47736, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#"};
-			{ 17, 47737, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
-			{ 18, 47743, "", "=q4=Enlightenment", "=ds=#w9#"};
-			{ 19, 47740, "", "=q4=The Diplomat", "=ds=#w5#"};
-		};
-	};
-	["Heroic_A"] = {
-		{
-			{ 1, 47956, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#"};
-			{ 2, 49234, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#"};
-			{ 3, 47959, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#"};
-			{ 4, 47954, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#"};
-			{ 5, 47961, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#"};
-			{ 6, 47952, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#"};
-			{ 8, 47957, "", "=q4=Darkbane Pendant", "=ds=#s2#"};
-			{ 9, 47955, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#"};
-			{ 10, 47958, "", "=q4=Chalice of Benedictus", "=ds=#s15#"};
-			{ 16, 47953, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#"};
-			{ 17, 47951, "", "=q4=Reckoning", "=ds=#h2#, #w10#"};
-			{ 18, 47960, "", "=q4=Enlightenment", "=ds=#w9#"};
-			{ 19, 47950, "", "=q4=The Diplomat", "=ds=#w5#"};
-		};
-	};
-	["25Man_A"] = {
-		{
-			{ 1, 47126, "", "=q4=Skyweaver Robes", "=ds=#s5#, #a1#"};
-			{ 2, 47141, "", "=q4=Bindings of Dark Essence", "=ds=#s8#, #a1#"};
-			{ 3, 47107, "", "=q4=Belt of the Merciless Killer", "=ds=#s10#, #a2#"};
-			{ 4, 47140, "", "=q4=Cord of Pale Thorns", "=ds=#s10#, #a2#"};
-			{ 5, 47106, "", "=q4=Sabatons of Ruthless Judgment", "=ds=#s12#, #a3#"};
-			{ 6, 47142, "", "=q4=Breastplate of the Frozen Lake", "=ds=#s5#, #a4#"};
-			{ 7, 47108, "", "=q4=Bracers of the Shieldmaiden", "=ds=#s8#, #a4#"};
-			{ 8, 47121, "", "=q4=Legguards of Ascension", "=ds=#s11#, #a4#"};
-			{ 10, 47116, "", "=q4=The Arbiter's Muse", "=ds=#s2#"};
-			{ 11, 47105, "", "=q4=The Executioner's Malice", "=ds=#s2#"};
-			{ 12, 47139, "", "=q4=Wail of the Val'kyr", "=ds=#s2#"};
-			{ 13, 47115, "", "=q4=Death's Verdict", "=ds=#s14#"};
-			{ 14, 47138, "", "=q4=Chalice of Searing Light", "=ds=#s15#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47104, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
-			{ 19, 47114, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
-		};
-	},
-	["25ManHeroic_A"] = {
-		{
-			{ 1, 47129, "", "=q4=Skyweaver Robes", "=ds=#s5#, #a1#"};
-			{ 2, 47143, "", "=q4=Bindings of Dark Essence", "=ds=#s8#, #a1#"};
-			{ 3, 47112, "", "=q4=Belt of the Merciless Killer", "=ds=#s10#, #a2#"};
-			{ 4, 47145, "", "=q4=Cord of Pale Thorns", "=ds=#s10#, #a2#"};
-			{ 5, 47109, "", "=q4=Sabatons of Ruthless Judgment", "=ds=#s12#, #a3#"};
-			{ 6, 47147, "", "=q4=Breastplate of the Frozen Lake", "=ds=#s5#, #a4#"};
-			{ 7, 47111, "", "=q4=Bracers of the Shieldmaiden", "=ds=#s8#, #a4#"};
-			{ 8, 47132, "", "=q4=Legguards of Ascension", "=ds=#s11#, #a4#"};
-			{ 10, 47133, "", "=q4=The Arbiter's Muse", "=ds=#s2#"};
-			{ 11, 47110, "", "=q4=The Executioner's Malice", "=ds=#s2#"};
-			{ 12, 47144, "", "=q4=Wail of the Val'kyr", "=ds=#s2#"};
-			{ 13, 47131, "", "=q4=Death's Verdict", "=ds=#s14#"};
-			{ 14, 47146, "", "=q4=Chalice of Searing Light", "=ds=#s15#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47113, "", "=q4=Twin Spike", "=ds=#h1#, #w4#"};
-			{ 19, 47130, "", "=q4=Lupine Longstaff", "=ds=#w9#"};
-		};
-	};
+AtlasLoot_Data["TrialOftheCrusaderTwinValkyr"] = {
 	["Normal_H"] = {
 		{
-			{ 1, 47889, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
-			{ 2, 49232, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
-			{ 3, 47891, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
-			{ 4, 47887, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#"};
-			{ 5, 47893, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#"};
-			{ 6, 47885, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#"};
-			{ 8, 47890, "", "=q4=Darkbane Amulet", "=ds=#s2#"};
-			{ 9, 47888, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#"};
-			{ 10, 47913, "", "=q4=Lightbane Focus", "=ds=#s15#"};
-			{ 16, 47886, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#"};
-			{ 17, 47884, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
-			{ 18, 47892, "", "=q4=Illumination", "=ds=#w9#"};
-			{ 19, 47883, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
+			{ 1, 47888, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#", "", "16.7%"};
+			{ 2, 47884, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#", "", "16.7%"};
+			{ 3, 47885, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#", "", "16.7%"};
+			{ 4, 47886, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#", "", "16.7%"};
+			{ 5, 47887, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#", "", "16.7%"};
+			{ 6, 47883, "", "=q4=Widebarrel Flintlock", "=ds=#w5#", "", "16.7%"};
+			{ 7, 47890, "", "=q4=Darkbane Amulet", "=ds=#s2#", "", "14.3%"};
+			{ 8, 47891, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#", "", "14.3%"};
+			{ 9, 47892, "", "=q4=Illumination", "=ds=#w9#", "", "14.3%"};
+			{ 10, 47913, "", "=q4=Lightbane Focus", "=ds=#s15#", "", "14.3%"};
+			{ 11, 47889, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#", "", "14.3%"};
+			{ 12, 49232, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 13, 47893, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#", "", "14.3%"};
+		};
+	};
+	["Normal_A"] = {
+		{
+			{ 1, 47739, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#", "", "16.7%"};
+			{ 2, 47736, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#", "", "16.7%"};
+			{ 3, 47700, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#", "", "16.7%"};
+			{ 4, 47737, "", "=q4=Reckoning", "=ds=#h2#, #w10#", "", "16.7%"};
+			{ 5, 47738, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#", "", "16.7%"};
+			{ 6, 47740, "", "=q4=The Diplomat", "=ds=#w5#", "", "16.7%"};
+			{ 7, 49231, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 8, 47742, "", "=q4=Chalice of Benedictus", "=ds=#s15#", "", "14.3%"};
+			{ 9, 47747, "", "=q4=Darkbane Pendant", "=ds=#s2#", "", "14.3%"};
+			{ 10, 47743, "", "=q4=Enlightenment", "=ds=#w9#", "", "14.3%"};
+			{ 11, 47745, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#", "", "14.3%"};
+			{ 12, 47744, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#", "", "14.3%"};
+			{ 13, 47746, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#", "", "14.3%"};
 		};
 	};
 	["Heroic_H"] = {
 		{
-			{ 1, 48028, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#"};
-			{ 2, 49233, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#"};
-			{ 3, 48034, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#"};
-			{ 4, 48026, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#"};
-			{ 5, 48038, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#"};
-			{ 6, 48024, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#"};
-			{ 8, 48030, "", "=q4=Darkbane Amulet", "=ds=#s2#"};
-			{ 9, 48027, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#"};
-			{ 10, 48032, "", "=q4=Lightbane Focus", "=ds=#s15#"};
-			{ 16, 48025, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#"};
-			{ 17, 48023, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#"};
-			{ 18, 48036, "", "=q4=Illumination", "=ds=#w9#"};
-			{ 19, 48022, "", "=q4=Widebarrel Flintlock", "=ds=#w5#"};
+			{ 1, 48027, "", "=q4=Band of the Twin Val'kyr", "=ds=#s13#", "", "16.7%"};
+			{ 2, 48023, "", "=q4=Edge of Agony", "=ds=#h2#, #w10#", "", "16.7%"};
+			{ 3, 48024, "", "=q4=Greaves of the Lingering Vortex", "=ds=#s12#, #a4#", "", "16.7%"};
+			{ 4, 48025, "", "=q4=Nemesis Blade", "=ds=#h1#, #w4#", "", "16.7%"};
+			{ 5, 48026, "", "=q4=Vest of Shifting Shadows", "=ds=#s5#, #a2#", "", "16.7%"};
+			{ 6, 48022, "", "=q4=Widebarrel Flintlock", "=ds=#w5#", "", "16.7%"};
+			{ 7, 48030, "", "=q4=Darkbane Amulet", "=ds=#s2#", "", "14.3%"};
+			{ 8, 48034, "", "=q4=Helm of the High Mesa", "=ds=#s1#, #a2#", "", "14.3%"};
+			{ 9, 48036, "", "=q4=Illumination", "=ds=#w9#", "", "14.3%"};
+			{ 10, 48032, "", "=q4=Lightbane Focus", "=ds=#s15#", "", "14.3%"};
+			{ 11, 48028, "", "=q4=Looming Shadow Wraps", "=ds=#s9#, #a1#", "", "14.3%"};
+			{ 12, 49233, "", "=q4=Sandals of the Grieving Soul", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 13, 48038, "", "=q4=Sen'jin Ritualist Gloves", "=ds=#s9#, #a3#", "", "14.3%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["Heroic_A"] = {
+		{
+			{ 1, 47954, "", "=q4=Armor of Shifting Shadows", "=ds=#s5#, #a2#", "", "16.7%"};
+			{ 2, 47953, "", "=q4=Icefall Blade", "=ds=#h1#, #w4#", "", "16.7%"};
+			{ 3, 47955, "", "=q4=Loop of the Twin Val'kyr", "=ds=#s13#", "", "16.7%"};
+			{ 4, 47951, "", "=q4=Reckoning", "=ds=#h2#, #w10#", "", "16.7%"};
+			{ 5, 47952, "", "=q4=Sabatons of the Lingering Vortex", "=ds=#s12#, #a4#", "", "16.7%"};
+			{ 6, 47950, "", "=q4=The Diplomat", "=ds=#w5#", "", "16.7%"};
+			{ 7, 49234, "", "=q4=Boots of the Grieving Soul", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 8, 47958, "", "=q4=Chalice of Benedictus", "=ds=#s15#", "", "14.3%"};
+			{ 9, 47957, "", "=q4=Darkbane Pendant", "=ds=#s2#", "", "14.3%"};
+			{ 10, 47960, "", "=q4=Enlightenment", "=ds=#w9#", "", "14.3%"};
+			{ 11, 47956, "", "=q4=Gloves of Looming Shadow", "=ds=#s9#, #a1#", "", "14.3%"};
+			{ 12, 47961, "", "=q4=Gloves of the Azure Prophet", "=ds=#s9#, #a3#", "", "14.3%"};
+			{ 13, 47959, "", "=q4=Helm of the Snowy Grotto", "=ds=#s1#, #a2#", "", "14.3%"};
+			{ 16, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25Man_H"] = {
 		{
-			{ 1, 47301, "", "=q4=Skyweaver Vestments", "=ds=#s5#, #a1#"};
-			{ 2, 47306, "", "=q4=Dark Essence Bindings", "=ds=#s8#, #a1#"};
-			{ 3, 47308, "", "=q4=Belt of Pale Thorns", "=ds=#s10#, #a2#"};
-			{ 4, 47299, "", "=q4=Belt of the Pitiless Killer", "=ds=#s10#, #a2#"};
-			{ 5, 47296, "", "=q4=Greaves of Ruthless Judgment", "=ds=#s12#, #a3#"};
-			{ 6, 47310, "", "=q4=Chestplate of the Frozen Lake", "=ds=#s5#, #a4#"};
-			{ 7, 47298, "", "=q4=Armguards of the Shieldmaiden", "=ds=#s8#, #a4#"};
-			{ 8, 47304, "", "=q4=Legplates of Ascension", "=ds=#s11#, #a4#"};
-			{ 10, 47307, "", "=q4=Cry of the Val'kyr", "=ds=#s2#"};
-			{ 11, 47305, "", "=q4=Legionnaire's Gorget", "=ds=#s2#"};
-			{ 12, 47297, "", "=q4=The Executioner's Vice", "=ds=#s2#"};
-			{ 13, 47303, "", "=q4=Death's Choice", "=ds=#s14#"};
-			{ 14, 47309, "", "=q4=Mystifying Charm", "=ds=#s15#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47300, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
-			{ 19, 47302, "", "=q4=Twin's Pact", "=ds=#w9#"};
+			{ 1, 47308, "", "=q4=Belt of Pale Thorns", "=ds=#s10#, #a2#", "", "20%"};
+			{ 2, 47310, "", "=q4=Chestplate of the Frozen Lake", "=ds=#s5#, #a4#", "", "20%"};
+			{ 3, 47307, "", "=q4=Cry of the Val'kyr", "=ds=#s2#", "", "20%"};
+			{ 4, 47306, "", "=q4=Dark Essence Bindings", "=ds=#s8#, #a1#", "", "20%"};
+			{ 5, 47309, "", "=q4=Mystifying Charm", "=ds=#s15#", "", "20%"};
+			{ 6, 47298, "", "=q4=Armguards of the Shieldmaiden", "=ds=#s8#, #a4#", "", "10%"};
+			{ 7, 47299, "", "=q4=Belt of the Pitiless Killer", "=ds=#s10#, #a2#", "", "10%"};
+			{ 8, 47303, "", "=q4=Death's Choice", "=ds=#s14#", "", "10%"};
+			{ 9, 47300, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#", "", "10%"};
+			{ 10, 47296, "", "=q4=Greaves of Ruthless Judgment", "=ds=#s12#, #a3#", "", "10%"};
+			{ 11, 47305, "", "=q4=Legionnaire's Gorget", "=ds=#s2#", "", "10%"};
+			{ 12, 47304, "", "=q4=Legplates of Ascension", "=ds=#s11#, #a4#", "", "10%"};
+			{ 13, 47301, "", "=q4=Skyweaver Vestments", "=ds=#s5#, #a1#", "", "10%"};
+			{ 14, 47297, "", "=q4=The Executioner's Vice", "=ds=#s2#", "", "10%"};
+			{ 15, 47302, "", "=q4=Twin's Pact", "=ds=#w9#", "", "10%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
+	["25Man_A"] = {
+		{
+			{ 1, 47141, "", "=q4=Bindings of Dark Essence", "=ds=#s8#, #a1#", "", "20%"};
+			{ 2, 47142, "", "=q4=Breastplate of the Frozen Lake", "=ds=#s5#, #a4#", "", "20%"};
+			{ 3, 47138, "", "=q4=Chalice of Searing Light", "=ds=#s15#", "", "20%"};
+			{ 4, 47140, "", "=q4=Cord of Pale Thorns", "=ds=#s10#, #a2#", "", "20%"};
+			{ 5, 47139, "", "=q4=Wail of the Val'kyr", "=ds=#s2#", "", "20%"};
+			{ 6, 47107, "", "=q4=Belt of the Merciless Killer", "=ds=#s10#, #a2#", "", "10%"};
+			{ 7, 47108, "", "=q4=Bracers of the Shieldmaiden", "=ds=#s8#, #a4#", "", "10%"};
+			{ 8, 47115, "", "=q4=Death's Verdict", "=ds=#s14#", "", "10%"};
+			{ 9, 47121, "", "=q4=Legguards of Ascension", "=ds=#s11#, #a4#", "", "10%"};
+			{ 10, 47114, "", "=q4=Lupine Longstaff", "=ds=#w9#", "", "10%"};
+			{ 11, 47106, "", "=q4=Sabatons of Ruthless Judgment", "=ds=#s12#, #a3#", "", "10%"};
+			{ 12, 47126, "", "=q4=Skyweaver Robes", "=ds=#s5#, #a1#", "", "10%"};
+			{ 13, 47116, "", "=q4=The Arbiter's Muse", "=ds=#s2#", "", "10%"};
+			{ 14, 47105, "", "=q4=The Executioner's Malice", "=ds=#s2#", "", "10%"};
+			{ 15, 47104, "", "=q4=Twin Spike", "=ds=#h1#, #w4#", "", "10%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	},
 	["25ManHeroic_H"] = {
 		{
-			{ 1, 47462, "", "=q4=Skyweaver Vestments", "=ds=#s5#, #a1#"};
-			{ 2, 47467, "", "=q4=Dark Essence Bindings", "=ds=#s8#, #a1#"};
-			{ 3, 47469, "", "=q4=Belt of Pale Thorns", "=ds=#s10#, #a2#"};
-			{ 4, 47460, "", "=q4=Belt of the Pitiless Killer", "=ds=#s10#, #a2#"};
-			{ 5, 47457, "", "=q4=Greaves of Ruthless Judgment", "=ds=#s12#, #a3#"};
-			{ 6, 47471, "", "=q4=Chestplate of the Frozen Lake", "=ds=#s5#, #a4#"};
-			{ 7, 47459, "", "=q4=Armguards of the Shieldmaiden", "=ds=#s8#, #a4#"};
-			{ 8, 47465, "", "=q4=Legplates of Ascension", "=ds=#s11#, #a4#"};
-			{ 10, 47468, "", "=q4=Cry of the Val'kyr", "=ds=#s2#"};
-			{ 11, 47466, "", "=q4=Legionnaire's Gorget", "=ds=#s2#"};
-			{ 12, 47458, "", "=q4=The Executioner's Vice", "=ds=#s2#"};
-			{ 13, 47464, "", "=q4=Death's Choice", "=ds=#s14#"};
-			{ 14, 47470, "", "=q4=Mystifying Charm", "=ds=#s15#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47461, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#"};
-			{ 19, 47463, "", "=q4=Twin's Pact", "=ds=#w9#"};
+			{ 1, 47469, "", "=q4=Belt of Pale Thorns", "=ds=#s10#, #a2#", "", "20%"};
+			{ 2, 47471, "", "=q4=Chestplate of the Frozen Lake", "=ds=#s5#, #a4#", "", "20%"};
+			{ 3, 47468, "", "=q4=Cry of the Val'kyr", "=ds=#s2#", "", "20%"};
+			{ 4, 47467, "", "=q4=Dark Essence Bindings", "=ds=#s8#, #a1#", "", "20%"};
+			{ 5, 47470, "", "=q4=Mystifying Charm", "=ds=#s15#", "", "20%"};
+			{ 6, 47459, "", "=q4=Armguards of the Shieldmaiden", "=ds=#s8#, #a4#", "", "10%"};
+			{ 7, 47460, "", "=q4=Belt of the Pitiless Killer", "=ds=#s10#, #a2#", "", "10%"};
+			{ 8, 47464, "", "=q4=Death's Choice", "=ds=#s14#", "", "10%"};
+			{ 9, 47461, "", "=q4=Gouge of the Frigid Heart", "=ds=#h1#, #w4#", "", "10%"};
+			{ 10, 47457, "", "=q4=Greaves of Ruthless Judgment", "=ds=#s12#, #a3#", "", "10%"};
+			{ 11, 47466, "", "=q4=Legionnaire's Gorget", "=ds=#s2#", "", "10%"};
+			{ 12, 47465, "", "=q4=Legplates of Ascension", "=ds=#s11#, #a4#", "", "10%"};
+			{ 13, 47462, "", "=q4=Skyweaver Vestments", "=ds=#s5#, #a1#", "", "10%"};
+			{ 14, 47458, "", "=q4=The Executioner's Vice", "=ds=#s2#", "", "10%"};
+			{ 15, 47463, "", "=q4=Twin's Pact", "=ds=#w9#", "", "10%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25ManHeroic_A"] = {
+		{
+			{ 1, 47143, "", "=q4=Bindings of Dark Essence", "=ds=#s8#, #a1#", "", "20%"};
+			{ 2, 47147, "", "=q4=Breastplate of the Frozen Lake", "=ds=#s5#, #a4#", "", "20%"};
+			{ 3, 47146, "", "=q4=Chalice of Searing Light", "=ds=#s15#", "", "20%"};
+			{ 4, 47145, "", "=q4=Cord of Pale Thorns", "=ds=#s10#, #a2#", "", "20%"};
+			{ 5, 47144, "", "=q4=Wail of the Val'kyr", "=ds=#s2#", "", "20%"};
+			{ 6, 47112, "", "=q4=Belt of the Merciless Killer", "=ds=#s10#, #a2#", "", "10%"};
+			{ 7, 47111, "", "=q4=Bracers of the Shieldmaiden", "=ds=#s8#, #a4#", "", "10%"};
+			{ 8, 47131, "", "=q4=Death's Verdict", "=ds=#s14#", "", "10%"};
+			{ 9, 47132, "", "=q4=Legguards of Ascension", "=ds=#s11#, #a4#", "", "10%"};
+			{ 10, 47130, "", "=q4=Lupine Longstaff", "=ds=#w9#", "", "10%"};
+			{ 11, 47109, "", "=q4=Sabatons of Ruthless Judgment", "=ds=#s12#, #a3#", "", "10%"};
+			{ 12, 47129, "", "=q4=Skyweaver Robes", "=ds=#s5#, #a1#", "", "10%"};
+			{ 13, 47133, "", "=q4=The Arbiter's Muse", "=ds=#s2#", "", "10%"};
+			{ 14, 47110, "", "=q4=The Executioner's Malice", "=ds=#s2#", "", "10%"};
+			{ 15, 47113, "", "=q4=Twin Spike", "=ds=#h1#, #w4#", "", "10%"};
+			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 18, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -5921,193 +5946,199 @@ AtlasLoot_Data["TrialoftheCrusaderTwinValkyrs"] = {
 	};
 }
 
-AtlasLoot_Data["TrialoftheCrusaderAnubarak"] = {
-	["Normal_A"] = {
-		{
-			{ 1, 47838, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
-			{ 2, 47837, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
-			{ 3, 47832, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
-			{ 4, 47813, "", "=q4=Helmet of the Crypt Lord", "=ds=#s1#, #a3#" };
-			{ 5, 47829, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#" };
-			{ 6, 47811, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#" };
-			{ 7, 47836, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#" };
-			{ 8, 47830, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#" };
-			{ 10, 47810, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#" };
-			{ 11, 47814, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#" };
-			{ 12, 47808, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#" };
-			{ 13, 47809, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#" };
-			{ 14, 47816, "", "=q4=The Grinder", "=ds=#h1#, #w6#" };
-			{ 16, 47834, "", "=q4=Fordragon Blades", "=ds=#w7#" };
-			{ 17, 47815, "", "=q4=Cold Convergence", "=ds=#w9#" };
-			{ 18, 47835, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
-			{ 19, 47812, "", "=q4=Vigilant Ward", "=ds=#w8#" };
-			{ 20, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
-		};
-	};
-	["Heroic_A"] = {
-		{
-			{ 1, 47974, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#"};
-			{ 2, 47977, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#" };
-			{ 3, 47972, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#" };
-			{ 4, 47965, "", "=q4=Headpiece of the Crypt Lord", "=ds=#s1#, #a3#" };
-			{ 5, 47969, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#" };
-			{ 6, 47964, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#" };
-			{ 7, 47976, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#" };
-			{ 8, 47970, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#" };
-			{ 10, 47967, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#" };
-			{ 11, 47971, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#" };
-			{ 12, 47966, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#" };
-			{ 13, 47962, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#" };
-			{ 14, 47973, "", "=q4=The Grinder", "=ds=#h1#, #w6#" };
-			{ 16, 47979, "", "=q4=Fordragon Blades", "=ds=#w7#" };
-			{ 17, 47968, "", "=q4=Cold Convergence", "=ds=#w9#" };
-			{ 18, 47978, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#" };
-			{ 19, 47963, "", "=q4=Vigilant Ward", "=ds=#w8#" };
-			{ 20, 47975, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#" };
-		};
-	};
-	["25Man_A"] = {
-		{
-			{ 1, 47225, "", "=q4=Maiden's Favor", "=ds=#s4#"};
-			{ 2, 47183, "", "=q4=Strength of the Nerub", "=ds=#s4#"};
-			{ 3, 47203, "", "=q4=Armbands of the Ashen Saint", "=ds=#s8#, #a1#"};
-			{ 4, 47235, "", "=q4=Gloves of the Lifeless Touch", "=ds=#s9#, #a1#"};
-			{ 5, 47187, "", "=q4=Leggings of the Deepening Void", "=ds=#s11#, #a1#"};
-			{ 6, 47194, "", "=q4=Footpads of the Icy Floe", "=ds=#s12#, #a1#"};
-			{ 7, 47151, "", "=q4=Bracers of Dark Determination", "=ds=#s8#, #a2#"};
-			{ 8, 47186, "", "=q4=Legwraps of the Awakening", "=ds=#s11#, #a2#"};
-			{ 9, 47204, "", "=q4=Chestguard of Flowing Elements", "=ds=#s5#, #a3#"};
-			{ 10, 47152, "", "=q4=Belt of Deathly Dominion", "=ds=#s10#, #a3#"};
-			{ 11, 47184, "", "=q4=Legguards of the Lurking Threat", "=ds=#s11#, #a3#"};
-			{ 12, 47234, "", "=q4=Gloves of Bitter Reprisal", "=ds=#s9#, #a4#"};
-			{ 13, 47195, "", "=q4=Belt of the Forgotten Martyr", "=ds=#s10#, #a4#"};
-			{ 14, 47150, "", "=q4=Greaves of the 7th Legion", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47054, "", "=q4=Band of Deplorable Violence", "=ds=#s13#"};
-			{ 19, 47149, "", "=q4=Signet of the Traitor King", "=ds=#s13#"};
-			{ 20, 47182, "", "=q4=Reign of the Unliving", "=ds=#s14#"};
-			{ 22, 47148, "", "=q4=Stormpike Cleaver", "=ds=#h1#, #w1#"};
-			{ 23, 47193, "", "=q4=Misery's End", "=ds=#h3#, #w6#"};
-			{ 24, 47233, "", "=q4=Archon Glaive", "=ds=#w7#"};	
-		};
-	};
-	["25ManHeroic_A"] = {
-		{
-			{ 1, 47238, "", "=q4=Maiden's Favor", "=ds=#s4#"};
-			{ 2, 47192, "", "=q4=Strength of the Nerub", "=ds=#s4#"};
-			{ 3, 47208, "", "=q4=Armbands of the Ashen Saint", "=ds=#s8#, #a1#"};
-			{ 4, 47236, "", "=q4=Gloves of the Lifeless Touch", "=ds=#s9#, #a1#"};
-			{ 5, 47189, "", "=q4=Leggings of the Deepening Void", "=ds=#s11#, #a1#"};
-			{ 6, 47205, "", "=q4=Footpads of the Icy Floe", "=ds=#s12#, #a1#"};
-			{ 7, 47155, "", "=q4=Bracers of Dark Determination", "=ds=#s8#, #a2#"};
-			{ 8, 47190, "", "=q4=Legwraps of the Awakening", "=ds=#s11#, #a2#"};
-			{ 9, 47209, "", "=q4=Chestguard of Flowing Elements", "=ds=#s5#, #a3#"};
-			{ 10, 47153, "", "=q4=Belt of Deathly Dominion", "=ds=#s10#, #a3#"};
-			{ 11, 47191, "", "=q4=Legguards of the Lurking Threat", "=ds=#s11#, #a3#"};
-			{ 12, 47240, "", "=q4=Gloves of Bitter Reprisal", "=ds=#s9#, #a4#"};
-			{ 13, 47207, "", "=q4=Belt of the Forgotten Martyr", "=ds=#s10#, #a4#"};
-			{ 14, 47154, "", "=q4=Greaves of the 7th Legion", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47237, "", "=q4=Band of Deplorable Violence", "=ds=#s13#"};
-			{ 19, 47157, "", "=q4=Signet of the Traitor King", "=ds=#s13#"};
-			{ 20, 47188, "", "=q4=Reign of the Unliving", "=ds=#s14#"};
-			{ 22, 47156, "", "=q4=Stormpike Cleaver", "=ds=#h1#, #w1#"};
-			{ 23, 47206, "", "=q4=Misery's End", "=ds=#h3#, #w6#"};
-			{ 24, 47239, "", "=q4=Archon Glaive", "=ds=#w7#"};
-		};
-	};
+AtlasLoot_Data["TrialOftheCrusaderAnubarak"] = {
 	["Normal_H"] = {
 		{
-			{ 1, 47906, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
-			{ 2, 47909, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
-			{ 3, 47904, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
-			{ 4, 47897, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#" };
-			{ 5, 47901, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#" };
-			{ 6, 47896, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#" };
-			{ 7, 47902, "", "=q4=Legplates of Redeemed Blood", "=ds=#s11#, #a4#" };
-			{ 8, 47908, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#" };
-			{ 10, 47899, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#" };
-			{ 11, 47903, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#" };
-			{ 12, 47898, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#" };
-			{ 13, 47894, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#" };
-			{ 14, 47905, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#" };
-			{ 16, 47911, "", "=q4=Anguish", "=ds=#w7#" };
-			{ 17, 47900, "", "=q4=Perdition", "=ds=#w9#" };
-			{ 18, 47910, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
-			{ 19, 47895, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
-			{ 20, 47907, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
+			{ 1, 47910, "", "=q4=Aegis of the Coliseum", "=ds=#w8#", "", "5.6%"};
+			{ 2, 47911, "", "=q4=Anguish", "=ds=#w7#", "", "5.6%"};
+			{ 3, 47899, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 4, 47909, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#", "", "5.6%"};
+			{ 5, 47905, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#", "", "5.6%"};
+			{ 6, 47907, "", "=q4=Darkmaw Crossbow", "=ds=#w3#", "", "5.6%"};
+			{ 7, 47903, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 8, 47898, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#", "", "5.6%"};
+			{ 9, 47897, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#", "", "5.6%"};
+			{ 10, 47902, "", "=q4=Legplates of Redeemed Blood", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 11, 47894, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#", "", "5.6%"};
+			{ 12, 47901, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#", "", "5.6%"};
+			{ 13, 47900, "", "=q4=Perdition", "=ds=#w9#", "", "5.6%"};
+			{ 14, 47895, "", "=q4=Pride of the Kor'kron", "=ds=#w8#", "", "5.6%"};
+			{ 15, 47906, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#", "", "5.6%"};
+			{ 16, 47904, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#", "", "5.6%"};
+			{ 17, 47896, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#", "", "5.6%"};
+			{ 18, 47908, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#", "", "5.6%"};
+		};
+	};
+	["Normal_A"] = {
+		{
+			{ 1, 47809, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#", "", "5.6%"};
+			{ 2, 47741, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#", "", "5.6%"};
+			{ 3, 47835, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#", "", "5.6%"};
+			{ 4, 47811, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#", "", "5.6%"};
+			{ 5, 47837, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#", "", "5.6%"};
+			{ 6, 47815, "", "=q4=Cold Convergence", "=ds=#w9#", "", "5.6%"};
+			{ 7, 47810, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 8, 47834, "", "=q4=Fordragon Blades", "=ds=#w7#", "", "5.6%"};
+			{ 9, 47813, "", "=q4=Helmet of the Crypt Lord", "=ds=#s1#, #a3#", "", "5.6%"};
+			{ 10, 47836, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 11, 47830, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 12, 47829, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#", "", "5.6%"};
+			{ 13, 47832, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#", "", "5.6%"};
+			{ 14, 47816, "", "=q4=The Grinder", "=ds=#h1#, #w6#", "", "5.6%"};
+			{ 15, 47808, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#", "", "5.6%"};
+			{ 16, 47838, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#", "", "5.6%"};
+			{ 17, 47812, "", "=q4=Vigilant Ward", "=ds=#w8#", "", "5.6%"};
+			{ 18, 47814, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#", "", "5.6%"};
 		};
 	};
 	["Heroic_H"] = {
 		{
-			{ 1, 48051, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#"};
-			{ 2, 48054, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#" };
-			{ 3, 48049, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#" };
-			{ 4, 48042, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#" };
-			{ 5, 48046, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#" };
-			{ 6, 48041, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#" };
-			{ 7, 48047, "", "=q4=Legplates of the Redeemed Blood Knight", "=ds=#s11#, #a4#" };
-			{ 8, 48053, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#" };
-			{ 10, 48044, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#" };
-			{ 11, 48048, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#" };
-			{ 12, 48043, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#" };
-			{ 13, 48039, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#" };
-			{ 14, 48050, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#" };
-			{ 16, 48056, "", "=q4=Anguish", "=ds=#w7#" };
-			{ 17, 48045, "", "=q4=Perdition", "=ds=#w9#" };
-			{ 18, 48055, "", "=q4=Aegis of the Coliseum", "=ds=#w8#" };
-			{ 19, 48040, "", "=q4=Pride of the Kor'kron", "=ds=#w8#" };
-			{ 20, 48052, "", "=q4=Darkmaw Crossbow", "=ds=#w3#" };
+			{ 1, 48055, "", "=q4=Aegis of the Coliseum", "=ds=#w8#", "", "5.6%"};
+			{ 2, 48056, "", "=q4=Anguish", "=ds=#w7#", "", "5.6%"};
+			{ 3, 48044, "", "=q4=Ardent Guard", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 4, 48054, "", "=q4=Belt of the Eternal", "=ds=#s10#, #a1#", "", "5.6%"};
+			{ 5, 48050, "", "=q4=Blackhorn Bludgeon", "=ds=#h1#, #w6#", "", "5.6%"};
+			{ 6, 48052, "", "=q4=Darkmaw Crossbow", "=ds=#w3#", "", "5.6%"};
+			{ 7, 48048, "", "=q4=Forsaken Bonecarver", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 8, 48043, "", "=q4=Frostblade Hatchet", "=ds=#h1#, #w1#", "", "5.6%"};
+			{ 9, 48042, "", "=q4=Helm of the Crypt Lord", "=ds=#s1#, #a3#", "", "5.6%"};
+			{ 10, 48047, "", "=q4=Legplates of the Redeemed Blood Knight", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 11, 48039, "", "=q4=Mace of the Earthborn Chieftain", "=ds=#h3#, #w6#", "", "5.6%"};
+			{ 12, 48046, "", "=q4=Pauldrons of the Shadow Hunter", "=ds=#s3#, #a3#", "", "5.6%"};
+			{ 13, 48045, "", "=q4=Perdition", "=ds=#w9#", "", "5.6%"};
+			{ 14, 48040, "", "=q4=Pride of the Kor'kron", "=ds=#w8#", "", "5.6%"};
+			{ 15, 48051, "", "=q4=Robes of the Sleepless", "=ds=#s5#, #a1#", "", "5.6%"};
+			{ 16, 48049, "", "=q4=Shoulderpads of the Snow Bandit", "=ds=#s3#, #a2#", "", "5.6%"};
+			{ 17, 48041, "", "=q4=Stoneskin Chestplate", "=ds=#s5#, #a4#", "", "5.6%"};
+			{ 18, 48053, "", "=q4=Sunwalker Legguards", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 20, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["Heroic_A"] = {
+		{
+			{ 1, 47962, "", "=q4=Argent Resolve", "=ds=#h3#, #w6#", "", "5.6%"};
+			{ 2, 47975, "", "=q4=Baelgun's Heavy Crossbow", "=ds=#w3#", "", "5.6%"};
+			{ 3, 47978, "", "=q4=Bulwark of the Royal Guard", "=ds=#w8#", "", "5.6%"};
+			{ 4, 47964, "", "=q4=Chestguard of the Warden", "=ds=#s5#, #a4#", "", "5.6%"};
+			{ 5, 47977, "", "=q4=Cinch of the Undying", "=ds=#s10#, #a1#", "", "5.6%"};
+			{ 6, 47968, "", "=q4=Cold Convergence", "=ds=#w9#", "", "5.6%"};
+			{ 7, 47967, "", "=q4=Crusader's Glory", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 8, 47979, "", "=q4=Fordragon Blades", "=ds=#w7#", "", "5.6%"};
+			{ 9, 47965, "", "=q4=Helmet of the Crypt Lord", "=ds=#s1#, #a3#", "", "5.6%"};
+			{ 10, 47976, "", "=q4=Legplates of the Immortal Spider", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 11, 47970, "", "=q4=Legplates of the Silver Hand", "=ds=#s11#, #a4#", "", "5.6%"};
+			{ 12, 47969, "", "=q4=Pauldrons of the Timeless Hunter", "=ds=#s3#, #a3#", "", "5.6%"};
+			{ 13, 47972, "", "=q4=Spaulders of the Snow Bandit", "=ds=#s3#, #a2#", "", "5.6%"};
+			{ 14, 47973, "", "=q4=The Grinder", "=ds=#h1#, #w6#", "", "5.6%"};
+			{ 15, 47966, "", "=q4=The Lion's Maw", "=ds=#h1#, #w1#", "", "5.6%"};
+			{ 16, 47974, "", "=q4=Vestments of the Sleepless", "=ds=#s5#, #a1#", "", "5.6%"};
+			{ 17, 47963, "", "=q4=Vigilant Ward", "=ds=#w8#", "", "5.6%"};
+			{ 18, 47971, "", "=q4=Westfall Saber", "=ds=#h1#, #w10#", "", "5.6%"};
+			{ 20, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25Man_H"] = {
 		{
-			{ 1, 47328, "", "=q4=Maiden's Adoration", "=ds=#s4#"};
-			{ 2, 47320, "", "=q4=Might of the Nerub", "=ds=#s4#"};
-			{ 3, 47324, "", "=q4=Bindings of the Ashen Saint", "=ds=#s8#, #a1#"};
-			{ 4, 47326, "", "=q4=Handwraps of the Lifeless Touch", "=ds=#s9#, #a1#"};
-			{ 5, 47317, "", "=q4=Breeches of the Deepening Void", "=ds=#s11#, #a1#"};
-			{ 6, 47321, "", "=q4=Boots of the Icy Floe", "=ds=#s12#, #a1#"};
-			{ 7, 47313, "", "=q4=Armbands of Dark Determination", "=ds=#s8#, #a2#"};
-			{ 8, 47318, "", "=q4=Leggings of the Awakening", "=ds=#s11#, #a2#"};
-			{ 9, 47325, "", "=q4=Cuirass of Flowing Elements", "=ds=#s5#, #a3#"};
-			{ 10, 47311, "", "=q4=Waistguard of Deathly Dominion", "=ds=#s10#, #a3#"};
-			{ 11, 47319, "", "=q4=Leggings of the Lurking Threat", "=ds=#s11#, #a3#"};
-			{ 12, 47330, "", "=q4=Gauntlets of Bitter Reprisal", "=ds=#s9#, #a4#"};
-			{ 13, 47323, "", "=q4=Girdle of the Forgotten Martyr", "=ds=#s10#, #a4#"};
-			{ 14, 47312, "", "=q4=Greaves of the Saronite Citadel", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47315, "", "=q4=Band of the Traitor King", "=ds=#s13#"};
-			{ 19, 47327, "", "=q4=Lurid Manifestation", "=ds=#s13#"};
-			{ 20, 47316, "", "=q4=Reign of the Dead", "=ds=#s14#"};
-			{ 22, 47314, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#"};
-			{ 23, 47322, "", "=q4=Suffering's End", "=ds=#h3#, #w6#"};
-			{ 24, 47329, "", "=q4=Hellion Glaive", "=ds=#w7#"};
+			{ 1, 47313, "", "=q4=Armbands of Dark Determination", "=ds=#s8#, #a2#", "", "5%"};
+			{ 2, 47315, "", "=q4=Band of the Traitor King", "=ds=#s13#", "", "5%"};
+			{ 3, 47324, "", "=q4=Bindings of the Ashen Saint", "=ds=#s8#, #a1#", "", "5%"};
+			{ 4, 47321, "", "=q4=Boots of the Icy Floe", "=ds=#s12#, #a1#", "", "5%"};
+			{ 5, 47317, "", "=q4=Breeches of the Deepening Void", "=ds=#s11#, #a1#", "", "5%"};
+			{ 6, 47325, "", "=q4=Cuirass of Flowing Elements", "=ds=#s5#, #a3#", "", "5%"};
+			{ 7, 47330, "", "=q4=Gauntlets of Bitter Reprisal", "=ds=#s9#, #a4#", "", "5%"};
+			{ 8, 47323, "", "=q4=Girdle of the Forgotten Martyr", "=ds=#s10#, #a4#", "", "5%"};
+			{ 9, 47312, "", "=q4=Greaves of the Saronite Citadel", "=ds=#s12#, #a4#", "", "5%"};
+			{ 10, 47326, "", "=q4=Handwraps of the Lifeless Touch", "=ds=#s9#, #a1#", "", "5%"};
+			{ 11, 47329, "", "=q4=Hellion Glaive", "=ds=#w7#", "", "5%"};
+			{ 12, 47314, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#", "", "5%"};
+			{ 13, 47318, "", "=q4=Leggings of the Awakening", "=ds=#s11#, #a2#", "", "5%"};
+			{ 14, 47319, "", "=q4=Leggings of the Lurking Threat", "=ds=#s11#, #a3#", "", "5%"};
+			{ 15, 47327, "", "=q4=Lurid Manifestation", "=ds=#s13#", "", "5%"};
+			{ 16, 47328, "", "=q4=Maiden's Adoration", "=ds=#s4#", "", "5%"};
+			{ 17, 47320, "", "=q4=Might of the Nerub", "=ds=#s4#", "", "5%"};
+			{ 18, 47316, "", "=q4=Reign of the Dead", "=ds=#s14#", "", "5%"};
+			{ 19, 47322, "", "=q4=Suffering's End", "=ds=#h3#, #w6#", "", "5%"};
+			{ 20, 47311, "", "=q4=Waistguard of Deathly Dominion", "=ds=#s10#, #a3#", "", "5%"};
+			{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 24, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25Man_A"] = {
+		{
+			{ 1, 47233, "", "=q4=Archon Glaive", "=ds=#w7#", "", "5%"};
+			{ 2, 47203, "", "=q4=Armbands of the Ashen Saint", "=ds=#s8#, #a1#", "", "5%"};
+			{ 3, 47054, "", "=q4=Band of Deplorable Violence", "=ds=#s13#", "", "5%"};
+			{ 4, 47152, "", "=q4=Belt of Deathly Dominion", "=ds=#s10#, #a3#", "", "5%"};
+			{ 5, 47195, "", "=q4=Belt of the Forgotten Martyr", "=ds=#s10#, #a4#", "", "5%"};
+			{ 6, 47151, "", "=q4=Bracers of Dark Determination", "=ds=#s8#, #a2#", "", "5%"};
+			{ 7, 47204, "", "=q4=Chestguard of Flowing Elements", "=ds=#s5#, #a3#", "", "5%"};
+			{ 8, 47194, "", "=q4=Footpads of the Icy Floe", "=ds=#s12#, #a1#", "", "5%"};
+			{ 9, 47234, "", "=q4=Gloves of Bitter Reprisal", "=ds=#s9#, #a4#", "", "5%"};
+			{ 10, 47235, "", "=q4=Gloves of the Lifeless Touch", "=ds=#s9#, #a1#", "", "5%"};
+			{ 11, 47150, "", "=q4=Greaves of the 7th Legion", "=ds=#s12#, #a4#", "", "5%"};
+			{ 12, 47187, "", "=q4=Leggings of the Deepening Void", "=ds=#s11#, #a1#", "", "5%"};
+			{ 13, 47184, "", "=q4=Legguards of the Lurking Threat", "=ds=#s11#, #a3#", "", "5%"};
+			{ 14, 47186, "", "=q4=Legwraps of the Awakening", "=ds=#s11#, #a2#", "", "5%"};
+			{ 15, 47225, "", "=q4=Maiden's Favor", "=ds=#s4#", "", "5%"};
+			{ 16, 47193, "", "=q4=Misery's End", "=ds=#h3#, #w6#", "", "5%"};
+			{ 17, 47182, "", "=q4=Reign of the Unliving", "=ds=#s14#", "", "5%"};
+			{ 18, 47149, "", "=q4=Signet of the Traitor King", "=ds=#s13#", "", "5%"};
+			{ 19, 47148, "", "=q4=Stormpike Cleaver", "=ds=#h1#, #w1#", "", "5%"};
+			{ 20, 47183, "", "=q4=Strength of the Nerub", "=ds=#s4#", "", "5%"};
+			{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 24, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	["25ManHeroic_H"] = {
 		{
-			{ 1, 47490, "", "=q4=Maiden's Adoration", "=ds=#s4#"};
-			{ 2, 47481, "", "=q4=Might of the Nerub", "=ds=#s4#"};
-			{ 3, 47485, "", "=q4=Bindings of the Ashen Saint", "=ds=#s8#, #a1#"};
-			{ 4, 47487, "", "=q4=Handwraps of the Lifeless Touch", "=ds=#s9#, #a1#"};
-			{ 5, 47478, "", "=q4=Breeches of the Deepening Void", "=ds=#s11#, #a1#"};
-			{ 6, 47482, "", "=q4=Boots of the Icy Floe", "=ds=#s12#, #a1#"};
-			{ 7, 47474, "", "=q4=Armbands of Dark Determination", "=ds=#s8#, #a2#"};
-			{ 8, 47479, "", "=q4=Leggings of the Awakening", "=ds=#s11#, #a2#"};
-			{ 9, 47486, "", "=q4=Cuirass of Flowing Elements", "=ds=#s5#, #a3#"};
-			{ 10, 47472, "", "=q4=Waistguard of Deathly Dominion", "=ds=#s10#, #a3#"};
-			{ 11, 47480, "", "=q4=Leggings of the Lurking Threat", "=ds=#s11#, #a3#"};
-			{ 12, 47492, "", "=q4=Gauntlets of Bitter Reprisal", "=ds=#s9#, #a4#"};
-			{ 13, 47484, "", "=q4=Girdle of the Forgotten Martyr", "=ds=#s10#, #a4#"};
-			{ 14, 47473, "", "=q4=Greaves of the Saronite Citadel", "=ds=#s12#, #a4#"};
-			{ 16, 47242, "", "=q4=Trophy of the Crusade", "=ds=#e15#"};
-			{ 18, 47476, "", "=q4=Band of the Traitor King", "=ds=#s13#"};
-			{ 19, 47489, "", "=q4=Lurid Manifestation", "=ds=#s13#"};
-			{ 20, 47477, "", "=q4=Reign of the Dead", "=ds=#s14#"};
-			{ 22, 47475, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#"};
-			{ 23, 47483, "", "=q4=Suffering's End", "=ds=#h3#, #w6#"};
-			{ 24, 47491, "", "=q4=Hellion Glaive", "=ds=#w7#"};
+			{ 1, 47474, "", "=q4=Armbands of Dark Determination", "=ds=#s8#, #a2#", "", "5%"};
+			{ 2, 47476, "", "=q4=Band of the Traitor King", "=ds=#s13#", "", "5%"};
+			{ 3, 47485, "", "=q4=Bindings of the Ashen Saint", "=ds=#s8#, #a1#", "", "5%"};
+			{ 4, 47482, "", "=q4=Boots of the Icy Floe", "=ds=#s12#, #a1#", "", "5%"};
+			{ 5, 47478, "", "=q4=Breeches of the Deepening Void", "=ds=#s11#, #a1#", "", "5%"};
+			{ 6, 47486, "", "=q4=Cuirass of Flowing Elements", "=ds=#s5#, #a3#", "", "5%"};
+			{ 7, 47492, "", "=q4=Gauntlets of Bitter Reprisal", "=ds=#s9#, #a4#", "", "5%"};
+			{ 8, 47484, "", "=q4=Girdle of the Forgotten Martyr", "=ds=#s10#, #a4#", "", "5%"};
+			{ 9, 47473, "", "=q4=Greaves of the Saronite Citadel", "=ds=#s12#, #a4#", "", "5%"};
+			{ 10, 47487, "", "=q4=Handwraps of the Lifeless Touch", "=ds=#s9#, #a1#", "", "5%"};
+			{ 11, 47491, "", "=q4=Hellion Glaive", "=ds=#w7#", "", "5%"};
+			{ 12, 47475, "", "=q4=Hellscream Slicer", "=ds=#h1#, #w1#", "", "5%"};
+			{ 13, 47479, "", "=q4=Leggings of the Awakening", "=ds=#s11#, #a2#", "", "5%"};
+			{ 14, 47480, "", "=q4=Leggings of the Lurking Threat", "=ds=#s11#, #a3#", "", "5%"};
+			{ 15, 47489, "", "=q4=Lurid Manifestation", "=ds=#s13#", "", "5%"};
+			{ 16, 47490, "", "=q4=Maiden's Adoration", "=ds=#s4#", "", "5%"};
+			{ 17, 47481, "", "=q4=Might of the Nerub", "=ds=#s4#", "", "5%"};
+			{ 18, 47477, "", "=q4=Reign of the Dead", "=ds=#s14#", "", "5%"};
+			{ 19, 47483, "", "=q4=Suffering's End", "=ds=#h3#, #w6#", "", "5%"};
+			{ 20, 47472, "", "=q4=Waistguard of Deathly Dominion", "=ds=#s10#, #a3#", "", "5%"};
+			{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 24, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+		};
+	};
+	["25ManHeroic_A"] = {
+		{
+			{ 1, 47239, "", "=q4=Archon Glaive", "=ds=#w7#", "", "5%"};
+			{ 2, 47208, "", "=q4=Armbands of the Ashen Saint", "=ds=#s8#, #a1#", "", "5%"};
+			{ 3, 47237, "", "=q4=Band of Deplorable Violence", "=ds=#s13#", "", "5%"};
+			{ 4, 47153, "", "=q4=Belt of Deathly Dominion", "=ds=#s10#, #a3#", "", "5%"};
+			{ 5, 47207, "", "=q4=Belt of the Forgotten Martyr", "=ds=#s10#, #a4#", "", "5%"};
+			{ 6, 47155, "", "=q4=Bracers of Dark Determination", "=ds=#s8#, #a2#", "", "5%"};
+			{ 7, 47209, "", "=q4=Chestguard of Flowing Elements", "=ds=#s5#, #a3#", "", "5%"};
+			{ 8, 47205, "", "=q4=Footpads of the Icy Floe", "=ds=#s12#, #a1#", "", "5%"};
+			{ 9, 47240, "", "=q4=Gloves of Bitter Reprisal", "=ds=#s9#, #a4#", "", "5%"};
+			{ 10, 47236, "", "=q4=Gloves of the Lifeless Touch", "=ds=#s9#, #a1#", "", "5%"};
+			{ 11, 47154, "", "=q4=Greaves of the 7th Legion", "=ds=#s12#, #a4#", "", "5%"};
+			{ 12, 47189, "", "=q4=Leggings of the Deepening Void", "=ds=#s11#, #a1#", "", "5%"};
+			{ 13, 47191, "", "=q4=Legguards of the Lurking Threat", "=ds=#s11#, #a3#", "", "5%"};
+			{ 14, 47190, "", "=q4=Legwraps of the Awakening", "=ds=#s11#, #a2#", "", "5%"};
+			{ 15, 47238, "", "=q4=Maiden's Favor", "=ds=#s4#", "", "5%"};
+			{ 16, 47206, "", "=q4=Misery's End", "=ds=#h3#, #w6#", "", "5%"};
+			{ 17, 47188, "", "=q4=Reign of the Unliving", "=ds=#s14#", "", "5%"};
+			{ 18, 47157, "", "=q4=Signet of the Traitor King", "=ds=#s13#", "", "5%"};
+			{ 19, 47156, "", "=q4=Stormpike Cleaver", "=ds=#h1#, #w1#", "", "5%"};
+			{ 20, 47192, "", "=q4=Strength of the Nerub", "=ds=#s4#", "", "5%"};
+			{ 22, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15#", "", "100%"};
+			{ 24, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
 		};
 	};
 	info = {
@@ -6117,103 +6148,107 @@ AtlasLoot_Data["TrialoftheCrusaderAnubarak"] = {
 	};
 }
 
-AtlasLoot_Data["TrialoftheCrusaderTribute"] = {
-	["Heroic_A"] = {
-		{
-			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3918#"}; -- Call of the Grand Crusade
-			{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
-			{ 4, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3808#"}; -- A Tribute To Skill
-			{ 5, 48712, "", "=q4=The Spinebreaker", "=ds=#h3#, #w13#"};
-			{ 6, 48708, "", "=q4=Spellstorm Blade", "=ds=#h3#, #w10#"};
-			{ 7, 48713, "", "=q4=Lothar's Edge", "=ds=#h2#, #w1#"};
-			{ 8, 48709, "", "=q4=Heartcrusher", "=ds=#h3#, #w6#"};
-			{ 9, 48714, "", "=q4=Honor of the Fallen", "=ds=#h1#, #w6#"};
-			{ 10, 48710, "", "=q4=Paragon's Breadth", "=ds=#w9#"};
-			{ 11, 48711, "", "=q4=Rhok'shalla, the Shadow's Bane", "=ds=#w2#"};
-			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3809#"}; -- A Tribute to Mad Skill
-			{ 17, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
-			{ 19, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3810#"}; -- A Tribute to Insanity
-			{ 20, 48673, "", "=q4=Cloak of the Silver Covenant", "=ds=#s4#" };
-			{ 21, 48675, "", "=q4=Cloak of the Unmoving Guardian", "=ds=#s4#" };
-			{ 22, 48674, "", "=q4=Cloak of the Victorious Combatant", "=ds=#s4#" };
-			{ 23, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#" };
-			{ 24, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#" };
-			{ 25, 49044, "", "=q4=Swift Alliance Steed", "=ds=#e12# =ec1=#m7#"};
-		};
-	};
-	["25ManHeroic_A"] = {
-		{
-			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3812#"}; -- Call of the Grand Crusade
-			{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
-			{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
-			{ 4, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
-			{ 6, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3817#"}; -- A Tribute To Skill
-			{ 7, 47517, "", "=q4=Blade of the Unbroken Covenant", "=ds=#h3#, #w10#"};
-			{ 8, 47506, "", "=q4=Silverwing Defender", "=ds=#h1#, #w10#"};
-			{ 9, 47515, "", "=q4=Decimation", "=ds=#h2#, #w10#"};
-			{ 10, 47526, "", "=q4=Remorseless", "=ds=#h1#, #w6#"};
-			{ 11, 47519, "", "=q4=Catastrophe", "=ds=#h2#, #w6#"};
-			{ 12, 47524, "", "=q4=Clemency", "=ds=#w9#"};
-			{ 13, 47521, "", "=q4=BRK-1000", "=ds=#w5#"};
-			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3818#"}; -- A Tribute to Mad Skill
-			{ 17, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
-			{ 18, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
-			{ 19, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
-			{ 21, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3819#"}; -- A Tribute to Insanity
-			{ 22, 47553, "", "=q4=Bolvar's Devotion", "=ds=#s4#"};
-			{ 23, 47552, "", "=q4=Jaina's Radiance", "=ds=#s4#"};
-			{ 24, 47549, "", "=q4=Magni's Resolution", "=ds=#s4#"};
-			{ 25, 47545, "", "=q4=Vereesa's Dexterity", "=ds=#s4#"};
-			{ 26, 47547, "", "=q4=Varian's Furor", "=ds=#s4#"};
-		};
-	};
+AtlasLoot_Data["TrialOftheCrusaderTribute"] = {
 	["Heroic_H"] = {
 		{
 			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3918#"}; -- Call of the Grand Crusade
-			{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
-			{ 4, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3808#"}; -- A Tribute To Skill
-			{ 5, 48703, "", "=q4=The Facebreaker", "=ds=#h3#, #w13#" };
-			{ 6, 48701, "", "=q4=Spellharvest", "=ds=#h3#, #w10#" };
-			{ 7, 48695, "", "=q4=Mor'kosh, the Bloodreaver", "=ds=#h2#, #w1#" };
-			{ 8, 48693, "", "=q4=Heartsmasher", "=ds=#h3#, #w6#" };
-			{ 9, 48699, "", "=q4=Blood and Glory", "=ds=#h1#, #w6#" };
-			{ 10, 48705, "", "=q4=Attrition", "=ds=#w9#" };
-			{ 11, 48697, "", "=q4=Frenzystrike Longbow", "=ds=#w2#"};
+			{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15# =q1=(x2)", "", "100%"};
+			{ 4, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+			{ 6, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3808#"}; -- A Tribute To Skill
+			{ 7, 48705, "", "=q4=Attrition", "=ds=#w9#", "", "14.3%"};
+			{ 8, 48699, "", "=q4=Blood and Glory", "=ds=#h1#, #w6#", "", "14.3%"};
+			{ 9, 48697, "", "=q4=Frenzystrike Longbow", "=ds=#w2#", "", "14.3%"};
+			{ 10, 48693, "", "=q4=Heartsmasher", "=ds=#h3#, #w6#", "", "14.3%"};
+			{ 11, 48695, "", "=q4=Mor'kosh, the Bloodreaver", "=ds=#h2#, #w1#", "", "14.3%"};
+			{ 12, 48701, "", "=q4=Spellharvest", "=ds=#h3#, #w10#", "", "14.3%"};
+			{ 13, 48703, "", "=q4=The Facebreaker", "=ds=#h3#, #w13#", "", "14.3%"};
 			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3809#"}; -- A Tribute to Mad Skill
-			{ 17, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
+			{ 17, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15# =q1=(x2)", "", "100%"};
 			{ 19, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3810#"}; -- A Tribute to Insanity
-			{ 20, 48668, "", "=q4=Cloak of Serrated Blades", "=ds=#s4#" };
-			{ 21, 48669, "", "=q4=Cloak of the Triumphant Combatant", "=ds=#s4#" };
-			{ 22, 48670, "", "=q4=Cloak of the Unflinching Guardian", "=ds=#s4#" };
-			{ 23, 48666, "", "=q4=Drape of the Sunreavers", "=ds=#s4#" };
-			{ 24, 48667, "", "=q4=Shawl of the Devout Crusader", "=ds=#s4#" };
-			{ 25, 49046, "", "=q4=Swift Horde Wolf", "=ds=#e12# =ec1=#m6#"};
+			{ 20, 48668, "", "=q4=Cloak of Serrated Blades", "=ds=#s4#", "", "20%"};
+			{ 21, 48669, "", "=q4=Cloak of the Triumphant Combatant", "=ds=#s4#", "", "20%"};
+			{ 22, 48670, "", "=q4=Cloak of the Unflinching Guardian", "=ds=#s4#", "", "20%"};
+			{ 23, 48666, "", "=q4=Drape of the Sunreavers", "=ds=#s4#", "", "20%"};
+			{ 24, 48667, "", "=q4=Shawl of the Devout Crusader", "=ds=#s4#", "", "20%"};
+			{ 26, 49046, "", "=q4=Swift Horde Wolf", "=ds=#e12# =ec1=#m6#", "", "100%"};
+		};
+	};
+	["Heroic_A"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3918#"}; -- Call of the Grand Crusade
+			{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15# =q1=(x2)", "", "100%"};
+			{ 4, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+			{ 6, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3808#"}; -- A Tribute To Skill
+			{ 7, 48709, "", "=q4=Heartcrusher", "=ds=#h3#, #w6#", "", "14.3%"};
+			{ 8, 48714, "", "=q4=Honor of the Fallen", "=ds=#h1#, #w6#", "", "14.3%"};
+			{ 9, 48713, "", "=q4=Lothar's Edge", "=ds=#h2#, #w1#", "", "14.3%"};
+			{ 10, 48710, "", "=q4=Paragon's Breadth", "=ds=#w9#", "", "14.3%"};
+			{ 11, 48711, "", "=q4=Rhok'shalla, the Shadow's Bane", "=ds=#w2#", "", "14.3%"};
+			{ 12, 48708, "", "=q4=Spellstorm Blade", "=ds=#h3#, #w10#", "", "14.3%"};
+			{ 13, 48712, "", "=q4=The Spinebreaker", "=ds=#h3#, #w13#", "", "14.3%"};
+			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3809#"}; -- A Tribute to Mad Skill
+			{ 17, 47242, "", "=q4=Trophy of the Crusade", "=ds=#m42# #e15# =q1=(x2)", "", "100%"};
+			{ 19, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3810#"}; -- A Tribute to Insanity
+			{ 20, 48673, "", "=q4=Cloak of the Silver Covenant", "=ds=#s4#", "", "20%"};
+			{ 21, 48675, "", "=q4=Cloak of the Unmoving Guardian", "=ds=#s4#", "", "20%"};
+			{ 22, 48674, "", "=q4=Cloak of the Victorious Combatant", "=ds=#s4#", "", "20%"};
+			{ 23, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#", "", "20%"};
+			{ 24, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#", "", "20%"};
+			{ 26, 49044, "", "=q4=Swift Alliance Steed", "=ds=#e12# =ec1=#m7#", "", "100%"};
 		};
 	};
 	["25ManHeroic_H"] = {
 		{
 			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3812#"}; -- Call of the Grand Crusade
-			{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
-			{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
-			{ 4, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
-			{ 6, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3817#"}; -- A Tribute To Skill
-			{ 7, 47518, "", "=q4=Mortalis", "=ds=#h3#, #w10#"};
-			{ 8, 47513, "", "=q4=Ogrim's Deflector", "=ds=#h1#, #w10#"};
-			{ 9, 47516, "", "=q4=Fleshrender", "=ds=#h2#, #w10#"};
-			{ 10, 47528, "", "=q4=Cudgel of the Damned", "=ds=#h1#, #w6#"};
-			{ 11, 47520, "", "=q4=Grievance", "=ds=#h2#, #w6#"};
-			{ 12, 47525, "", "=q4=Sufferance", "=ds=#w9#"};
-			{ 13, 47523, "", "=q4=Fezzik's Autocannon", "=ds=#w5#"};
+			{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 4, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 6, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+			{ 8, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3817#"}; -- A Tribute To Skill
+			{ 9, 47528, "", "=q4=Cudgel of the Damned", "=ds=#h1#, #w6#", "", "14.3%"};
+			{ 10, 47523, "", "=q4=Fezzik's Autocannon", "=ds=#w5#", "", "14.3%"};
+			{ 11, 47516, "", "=q4=Fleshrender", "=ds=#h2#, #w10#", "", "14.3%"};
+			{ 12, 47520, "", "=q4=Grievance", "=ds=#h2#, #w6#", "", "14.3%"};
+			{ 13, 47518, "", "=q4=Mortalis", "=ds=#h3#, #w10#", "", "14.3%"};
+			{ 14, 47513, "", "=q4=Ogrim's Deflector", "=ds=#h1#, #w10#", "", "14.3%"};
+			{ 15, 47525, "", "=q4=Sufferance", "=ds=#w9#", "", "14.3%"};
 			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3818#"}; -- A Tribute to Mad Skill
-			{ 17, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
-			{ 18, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
-			{ 19, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
+			{ 17, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 18, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 19, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#m42# #e15#", "", "33.3%"};
 			{ 21, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3819#"}; -- A Tribute to Insanity
-			{ 22, 47551, "", "=q4=Aethas' Intensity", "=ds=#s4#"};
-			{ 23, 47550, "", "=q4=Cairne's Endurance", "=ds=#s4#"};
-			{ 24, 47548, "", "=q4=Garrosh's Rage", "=ds=#s4#"};
-			{ 25, 47554, "", "=q4=Lady Liadrin's Conviction", "=ds=#s4#"};
-			{ 26, 47546, "", "=q4=Sylvanas' Cunning", "=ds=#s4#"};
+			{ 22, 47551, "", "=q4=Aethas' Intensity", "=ds=#s4#", "", "20%"};
+			{ 23, 47550, "", "=q4=Cairne's Endurance", "=ds=#s4#", "", "20%"};
+			{ 24, 47548, "", "=q4=Garrosh's Rage", "=ds=#s4#", "", "20%"};
+			{ 25, 47554, "", "=q4=Lady Liadrin's Conviction", "=ds=#s4#", "", "20%"};
+			{ 26, 47546, "", "=q4=Sylvanas' Cunning", "=ds=#s4#", "", "20%"};
+		};
+	};
+	["25ManHeroic_A"] = {
+		{
+			{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3812#"}; -- Call of the Grand Crusade
+			{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 4, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 6, 47556, "", "=q2=Crusader Orb", "=ds=#e6#", "", "100%"};
+			{ 8, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3817#"}; -- A Tribute To Skill
+			{ 9, 47517, "", "=q4=Blade of the Unbroken Covenant", "=ds=#h3#, #w10#", "", "14.3%"};
+			{ 10, 47521, "", "=q4=BRK-1000", "=ds=#w5#", "", "14.3%"};
+			{ 11, 47519, "", "=q4=Catastrophe", "=ds=#h2#, #w6#", "", "14.3%"};
+			{ 12, 47524, "", "=q4=Clemency", "=ds=#w9#", "", "14.3%"};
+			{ 13, 47515, "", "=q4=Decimation", "=ds=#h2#, #w10#", "", "14.3%"};
+			{ 14, 47526, "", "=q4=Remorseless", "=ds=#h1#, #w6#", "", "14.3%"};
+			{ 15, 47506, "", "=q4=Silverwing Defender", "=ds=#h1#, #w10#", "", "14.3%"};
+			{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3818#"}; -- A Tribute to Mad Skill
+			{ 17, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 18, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 19, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#m42# #e15#", "", "33.3%"};
+			{ 21, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3819#"}; -- A Tribute to Insanity
+			{ 22, 47553, "", "=q4=Bolvar's Devotion", "=ds=#s4#", "", "20%"};
+			{ 23, 47552, "", "=q4=Jaina's Radiance", "=ds=#s4#", "", "20%"};
+			{ 24, 47549, "", "=q4=Magni's Resolution", "=ds=#s4#", "", "20%"};
+			{ 25, 47547, "", "=q4=Varian's Furor", "=ds=#s4#", "", "20%"};
+			{ 26, 47545, "", "=q4=Vereesa's Dexterity", "=ds=#s4#", "", "20%"};
 		};
 	};
 	info = {
@@ -6223,53 +6258,115 @@ AtlasLoot_Data["TrialoftheCrusaderTribute"] = {
 	};
 }
 
-AtlasLoot_Data["TrialoftheCrusaderPatterns"] = {
-	["Normal_A"] = {
+AtlasLoot_Data["TrialOftheCrusaderPatterns"] = {
+	["Heroic_H"] = {
 		{
-			{ 1, 47622, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)"};
-			{ 2, 47623, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)"};
-			{ 3, 47627, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)"};
-			{ 4, 47626, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)"};
-			{ 5, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
-			{ 6, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
-			{ 7, 47629, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)"};
-			{ 8, 47635, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)"};
-			{ 9, 47631, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)"};
-			{ 10, 47630, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)"};
-			{ 11, 47628, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)"};
-			{ 12, 47634, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)"};
-			{ 13, 47632, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)"};
-			{ 14, 47633, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)"};
-			{ 16, 47654, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)"};
-			{ 17, 47655, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)"};
-			{ 18, 47656, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
-			{ 19, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
-			{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
+			{ 1, 47640, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)", "", "2.5%"};
+			{ 2, 47641, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)", "", "2.5%"};
+			{ 3, 47642, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)", "", "2.5%"};
+			{ 4, 47643, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)", "", "2.5%"};
+			{ 5, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)", "", "2.5%"};
+			{ 6, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)", "", "2.5%"};
 		};
 	};
-	["Normal_H"] = {
+	["Heroic_A"] = {
 		{
-			{ 1, 47640, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)"};
-			{ 2, 47641, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)"};
-			{ 3, 47642, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)"};
-			{ 4, 47643, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)"};
-			{ 5, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)"};
-			{ 6, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)"};
-			{ 7, 47646, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)"};
-			{ 8, 47647, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)"};
-			{ 9, 47648, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)"};
-			{ 10, 47649, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)"};
-			{ 11, 47650, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)"};
-			{ 12, 47651, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)"};
-			{ 13, 47652, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)"};
-			{ 14, 47653, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)"};
-			{ 16, 47639, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)"};
-			{ 17, 47638, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)"};
-			{ 18, 47637, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)"};
-			{ 19, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)"};
-			{ 30, 47556, "", "=q3=Crusader Orb", "=ds=#e8#"};
+			{ 1, 47622, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)", "", "2.5%"};
+			{ 2, 47623, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)", "", "2.5%"};
+			{ 3, 47627, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)", "", "2.5%"};
+			{ 4, 47626, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)", "", "2.5%"};
+			{ 5, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)", "", "2.5%"};
+			{ 6, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)", "", "2.5%"};
 		};
 	};
+	["25Man_H"] = {
+		{
+			{ 1, 47639, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)", "", "0.83%"};
+			{ 2, 47646, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)", "", "0.83%"};
+			{ 3, 47647, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)", "", "0.83%"};
+			{ 4, 47648, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)", "", "0.83%"};
+			{ 5, 47649, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+			{ 6, 47650, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+			{ 7, 47651, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)", "", "0.83%"};
+			{ 8, 47652, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)", "", "0.83%"};
+			{ 9, 47638, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)", "", "0.83%"};
+			{ 10, 47653, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)", "", "0.83%"};
+			{ 11, 47637, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)", "", "0.83%"};
+			{ 12, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)", "", "0.83%"};
+			{ 13, 47640, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)", "", "0.83%"};
+			{ 14, 47641, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)", "", "0.83%"};
+			{ 15, 47642, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)", "", "0.83%"};
+			{ 16, 47643, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)", "", "0.83%"};
+			{ 17, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)", "", "0.83%"};
+			{ 18, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)", "", "0.83%"};
+		};
+	};
+	["25Man_A"] = {
+		{
+			{ 1, 47654, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)", "", "0.83%"};
+			{ 2, 47629, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)", "", "0.83%"};
+			{ 3, 47635, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)", "", "0.83%"};
+			{ 4, 47631, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)", "", "0.83%"};
+			{ 5, 47630, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+			{ 6, 47628, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+			{ 7, 47634, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)", "", "0.83%"};
+			{ 8, 47632, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)", "", "0.83%"};
+			{ 9, 47655, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)", "", "0.83%"};
+			{ 10, 47633, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)", "", "0.83%"};
+			{ 11, 47656, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)", "", "0.83%"};
+			{ 12, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)", "", "0.83%"};
+			{ 13, 47622, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)", "", "0.83%"};
+			{ 14, 47623, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)", "", "0.83%"};
+			{ 15, 47627, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)", "", "0.83%"};
+			{ 16, 47626, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)", "", "0.83%"};
+			{ 17, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)", "", "0.83%"};
+			{ 18, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)", "", "0.83%"};
+		};
+	};
+--	["25ManHeroic_H"] = { -- don't really need this since it's the same as normal, but is it weird to not have a toggle for heroic to indicate it drops on both? uhhhhhh
+--		{
+--			{ 1, 47639, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 2, 47646, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 3, 47647, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 4, 47648, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 5, 47649, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 6, 47650, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 7, 47651, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 8, 47652, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 9, 47638, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 10, 47653, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 11, 47637, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 12, 47636, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 13, 47640, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 14, 47641, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 15, 47642, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 16, 47643, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 17, 47644, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 18, 47645, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)", "", "0.83%"};
+--		};
+--	};
+--	["25ManHeroic_A"] = {
+--		{
+--			{ 1, 47654, "", "=q4=Pattern: Bejeweled Wizard's Bracers", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 2, 47629, "", "=q4=Pattern: Black Chitin Bracers", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 3, 47635, "", "=q4=Pattern: Bracers of Swift Death", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 4, 47631, "", "=q4=Pattern: Crusader's Dragonscale Bracers", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 5, 47630, "", "=q4=Pattern: Crusader's Dragonscale Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 6, 47628, "", "=q4=Pattern: Ensorcelled Nerubian Breastplate", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 7, 47634, "", "=q4=Pattern: Knightbane Carapace", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 8, 47632, "", "=q4=Pattern: Lunar Eclipse Chestguard", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 9, 47655, "", "=q4=Pattern: Merlin's Robe", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 10, 47633, "", "=q4=Pattern: Moonshadow Armguards", "=ds=#p7# (450)", "", "0.83%"};
+--			{ 11, 47656, "", "=q4=Pattern: Royal Moonshroud Bracers", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 12, 47657, "", "=q4=Pattern: Royal Moonshroud Robe", "=ds=#p8# (450)", "", "0.83%"};
+--			{ 13, 47622, "", "=q4=Plans: Breastplate of the White Knight", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 14, 47623, "", "=q4=Plans: Saronite Swordbreakers", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 15, 47627, "", "=q4=Plans: Sunforged Bracers", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 16, 47626, "", "=q4=Plans: Sunforged Breastplate", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 17, 47624, "", "=q4=Plans: Titanium Razorplate", "=ds=#p2# (450)", "", "0.83%"};
+--			{ 18, 47625, "", "=q4=Plans: Titanium Spikeguards", "=ds=#p2# (450)", "", "0.83%"};
+--		};
+--	};
 	info = {
 		name = AL["Trial of the Crusader Patterns/Plans"],
 		module = moduleName,
