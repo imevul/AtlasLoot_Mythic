@@ -308,13 +308,13 @@ AtlasLoot_LootTableRegister = {
 
 		["TrialOfTheCrusader"] = {
 			["Bosses"] = {
-				{ "TrialoftheCrusaderNorthrendBeasts",  4 },
-				{ "TrialoftheCrusaderLordJaraxxus",     9 },
-				{ "TrialoftheCrusaderFactionChampions", 10 },
-				{ "TrialoftheCrusaderTwinValkyrs",      11 },
-				{ "TrialoftheCrusaderAnubarak",         14 },
-				{ "TrialoftheCrusaderTribute",          15 },
-				{ "TrialoftheCrusaderPatterns",         16 },
+				{ "TrialOftheCrusaderNorthrendBeasts", 1 },
+				{ "TrialOftheCrusaderLordJaraxxus", 2 },
+				{ "TrialOftheCrusaderFactionChampions", 3 },
+				{ "TrialOftheCrusaderTwinValkyr", 4 },
+				{ "TrialOftheCrusaderAnubarak", 5 },
+				{ "TrialOftheCrusaderTribute", 6 },
+				{ "TrialOftheCrusaderPatterns", 7 },
 			},
 			["Info"] = { BabbleZone["Trial of the Crusader"], "AtlasLootWotLK", mapname = "TheArgentColiseum", raid = true },
 		},
