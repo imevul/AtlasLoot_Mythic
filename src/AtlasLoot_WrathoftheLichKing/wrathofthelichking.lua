@@ -4364,52 +4364,53 @@ AtlasLoot_Data["TheEyeOfEternityMalygos"] = {
 --- Ulduar ---
 --------------
 
-AtlasLoot_Data["UlduarLeviathan"] = {
+AtlasLoot_Data["UlduarFlameLeviathan"] = {
 	["Normal"] = {
 		{
-			{ 1, 45289, "", "=q4=Lifespark Visage", "=ds=#s1#, #a1#", "", "22%"};
-			{ 2, 45291, "", "=q4=Combustion Bracers", "=ds=#s8#, #a1#", "", "17%"};
-			{ 3, 45288, "", "=q4=Firestrider Chestguard", "=ds=#s5#, #a3#", "", "22%"};
-			{ 4, 45283, "", "=q4=Flamewatch Armguards", "=ds=#s8#, #a4#", "", "19%"};
-			{ 5, 45285, "", "=q4=Might of the Leviathan", "=ds=#s2#", "", "18%"};
-			{ 7, 45292, "", "=q4=Energy Siphon", "=ds=#s14#", "", "18%"};
-			{ 8, 45286, "", "=q4=Pyrite Infuser", "=ds=#s14#", "", "17%"};
-			{ 16, 45287, "", "=q4=Firesoul", "=ds=#h3#, #w10#", "", "17%"};
-			{ 17, 45284, "", "=q4=Kinetic Ripper", "=ds=#h4#, #w13#", "", "19%"};
-			{ 18, 45282, "", "=q4=Ironsoul", "=ds=#h2#, #w6#", "", "19%"};
-			{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3056#"};
-			{ 21, 45293, "", "=q4=Handguards of Potent Cures", "=ds=#s9#, #a2#", "", "0.18%"};
-			{ 22, 45300, "", "=q4=Mantle of Fiery Vengeance", "=ds=#s3#, #a3#"};
-			{ 23, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#", "", "0.25%"};
-			{ 24, 45297, "", "=q4=Shimmering Seal", "=ds=#s13#", "", "0.11%"};
-			{ 25, 45296, "", "=q4=Twirling Blades", "=ds=#w11#", "", "0.36%"};
+			{ 1, 45291, "", "=q4=Combustion Bracers", "=ds=#s8#, #a1#", "", "10%"};
+			{ 2, 45292, "", "=q4=Energy Siphon", "=ds=#s14#", "", "10%"};
+			{ 3, 45287, "", "=q4=Firesoul", "=ds=#h3#, #w10#", "", "10%"};
+			{ 4, 45288, "", "=q4=Firestrider Chestguard", "=ds=#s5#, #a3#", "", "10%"};
+			{ 5, 45283, "", "=q4=Flamewatch Armguards", "=ds=#s8#, #a4#", "", "10%"};
+			{ 6, 45282, "", "=q4=Ironsoul", "=ds=#h2#, #w6#", "", "10%"};
+			{ 7, 45284, "", "=q4=Kinetic Ripper", "=ds=#h4#, #w13#", "", "10%"};
+			{ 8, 45289, "", "=q4=Lifespark Visage", "=ds=#s1#, #a1#", "", "10%"};
+			{ 9, 45285, "", "=q4=Might of the Leviathan", "=ds=#s2#", "", "10%"};
+			{ 10, 45286, "", "=q4=Pyrite Infuser", "=ds=#s14#", "", "10%"};
+			{ 16, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "100%"};
+			{ 18, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3056#"};
+			{ 19, 45295, "", "=q4=Gilded Steel Legplates", "=ds=#s11#, #a4#", "", "20%"};
+			{ 20, 45293, "", "=q4=Handguards of Potent Cures", "=ds=#s9#, #a2#", "", "20%"};
+			{ 21, 45300, "", "=q4=Mantle of Fiery Vengeance", "=ds=#s3#, #a3#", "", "20%"};
+			{ 22, 45297, "", "=q4=Shimmering Seal", "=ds=#s13#", "", "20%"};
+			{ 23, 45296, "", "=q4=Twirling Blades", "=ds=#w11#", "", "20%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45117, "", "=q4=Constructor's Handwraps", "=ds=#s9#, #a1#", "", "19%"};
-			{ 2, 45119, "", "=q4=Embrace of the Leviathan", "=ds=#s10#, #a1#", "", "20%"};
-			{ 3, 45108, "", "=q4=Mechanist's Bindings", "=ds=#s8#, #a2#", "", "19%"};
-			{ 4, 45118, "", "=q4=Steamworker's Goggles", "=ds=#s1#, #a3#", "", "20%"};
-			{ 5, 45109, "", "=q4=Gloves of the Fiery Behemoth", "=ds=#s9#, #a3#", "", "18%"};
-			{ 6, 45107, "", "=q4=Iron Riveted War Helm", "=ds=#s1#, #a4#", "", "17%"};
-			{ 7, 45111, "", "=q4=Mimiron's Inferno Couplings", "=ds=#s8#, #a4#", "", "18%"};
-			{ 9, 45116, "", "=q4=Freya's Choker of Warding", "=ds=#s2#", "", "19%"};
-			{ 10, 45113, "", "=q4=Glowing Ring of Reclamation", "=ds=#s13#", "", "19%"};
-			{ 11, 45106, "", "=q4=Strength of the Automaton", "=ds=#s13#", "", "16%"};
-			{ 12, 45112, "", "=q4=The Leviathan's Coil", "=ds=#s13#", "", "19%"};
-			{ 13, 45115, "", "=q4=Overcharged Fuel Rod", "=ds=#s15#", "", "18%"};
-			{ 14, 45114, "", "=q4=Steamcaller's Totem", "=ds=#w15#", "", "18%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#", "", "18%"};
-			{ 20, 45086, "", "=q4=Rising Sun", "=ds=#w11#", "", "18%"};
-			{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3057#"};
-			{ 23, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#", "", "0.27%"};
-			{ 24, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#"};
-			{ 25, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#"};
-			{ 26, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#"};
-			{ 27, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "0.11%"};
+			{ 1, 45117, "", "=q4=Constructor's Handwraps", "=ds=#s9#, #a1#", "", "7.7%"};
+			{ 2, 45119, "", "=q4=Embrace of the Leviathan", "=ds=#s10#, #a1#", "", "7.7%"};
+			{ 3, 45116, "", "=q4=Freya's Choker of Warding", "=ds=#s2#", "", "7.7%"};
+			{ 4, 45109, "", "=q4=Gloves of the Fiery Behemoth", "=ds=#s9#, #a3#", "", "7.7%"};
+			{ 5, 45113, "", "=q4=Glowing Ring of Reclamation", "=ds=#s13#", "", "7.7%"};
+			{ 6, 45107, "", "=q4=Iron Riveted War Helm", "=ds=#s1#, #a4#", "", "7.7%"};
+			{ 7, 45115, "", "=q4=Leviathan Fueling Manual", "=ds=#s15#", "", "7.7%"};			
+			{ 8, 45108, "", "=q4=Mechanist's Bindings", "=ds=#s8#, #a2#", "", "7.7%"};
+			{ 9, 45111, "", "=q4=Mimiron's Inferno Couplings", "=ds=#s8#, #a4#", "", "7.7%"};
+			{ 10, 45114, "", "=q4=Steamcaller's Totem", "=ds=#w15#", "", "7.7%"};
+			{ 11, 45118, "", "=q4=Steamworker's Goggles", "=ds=#s1#, #a3#", "", "7.7%"};
+			{ 12, 45106, "", "=q4=Strength of the Automaton", "=ds=#s13#", "", "7.7%"};
+			{ 13, 45112, "", "=q4=The Leviathan's Coil", "=ds=#s13#", "", "7.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "8%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "5%"};
+			{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3057#"};
+			{ 21, 45135, "", "=q4=Boots of Fiery Resolution", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 22, 45132, "", "=q4=Golden Saronite Dragon", "=ds=#h3#, #w13#", "", "14.3%"};
+			{ 23, 45133, "", "=q4=Pendant of Fiery Havoc", "=ds=#s2#", "", "14.3%"};
+			{ 24, 45134, "", "=q4=Plated Leggings of Ruination", "=ds=#s11#, #a4#", "", "14.3%"};
+			{ 25, 45086, "", "=q4=Rising Sun", "=ds=#w11#", "", "14.3%"};
+			{ 26, 45136, "", "=q4=Shoulderpads of Dormant Energies", "=ds=#s3#, #a2#", "", "14.3%"};
+			{ 27, 45110, "", "=q4=Titanguard", "=ds=#h1#, #w10#", "", "14.3%"};
 		};
 	};
 	info = {
@@ -4419,83 +4420,40 @@ AtlasLoot_Data["UlduarLeviathan"] = {
 	};
 };
 
-AtlasLoot_Data["UlduarRazorscale"] = {
+AtlasLoot_Data["UlduarIgnisTheFurnaceMaster"] = {
 	["Normal"] = {
 		{
-			{ 1, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#", "", "20%"};
-			{ 2, 45302, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#", "", "19%"};
-			{ 3, 45301, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#", "", "20%"};
-			{ 4, 45307, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#", "", "20%"};
-			{ 5, 45299, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#", "", "19%"};
-			{ 6, 45305, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#", "", "19%"};
-			{ 7, 45304, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#", "", "19%"};
-			{ 16, 45303, "", "=q4=Band of Draconic Guile", "=ds=#s13#", "", "20%"};
-			{ 17, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#", "", "21%"};
-			{ 19, 45298, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#", "", "20%"};
+			{ 1, 45316, "", "=q4=Armbraces of the Vibrant Flame", "=ds=#s8#, #a3#", "", "10%"};
+			{ 2, 45318, "", "=q4=Drape of Fuming Anger", "=ds=#s4#", "", "10%"};
+			{ 3, 45313, "", "=q4=Furnace Stone", "=ds=#s14#", "", "10%"};
+			{ 4, 45310, "", "=q4=Gauntlets of the Iron Furnace", "=ds=#s9#, #a4#", "", "10%"};
+			{ 5, 45312, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#", "", "10%"};
+			{ 6, 45314, "", "=q4=Igniter Rod", "=ds=#s15#", "", "10%"};
+			{ 7, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#", "", "10%"};
+			{ 8, 45311, "", "=q4=Relentless Edge", "=ds=#w7#", "", "10%"};
+			{ 9, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#", "", "10%"};			
+			{ 10, 45317, "", "=q4=Shawl of the Caretaker", "=ds=#s4#", "", "10%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45138, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "20%"};
-			{ 2, 45150, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "20%"};
-			{ 3, 45146, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "20%"};
-			{ 4, 45149, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#", "", "21%"};
-			{ 5, 45141, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#", "", "19%"};
-			{ 6, 45151, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#", "", "19%"};
-			{ 7, 45143, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#", "", "20%"};
-			{ 8, 45140, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "19%"};
-			{ 9, 45139, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "19%"};
-			{ 11, 45148, "", "=q4=Living Flame", "=ds=#s14#", "", "19%"};
-			{ 12, 45510, "", "=q4=Libram of Discord", "=ds=#w16#", "", "19%"};
-			{ 13, 45144, "", "=q4=Sigil of Deflection", "=ds=#w21#", "", "19%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "19%"};
-			{ 20, 45147, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "19%"};
-			{ 21, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "18%"};
-		};
-	};
-	info = {
-		name = BabbleBoss["Razorscale"],
-		module = moduleName,
-		instance = "Ulduar",
-	};
-};
-
-AtlasLoot_Data["UlduarIgnis"] = {
-	["Normal"] = {
-		{
-			{ 1, 45317, "", "=q4=Shawl of the Caretaker", "=ds=#s4#", "", "20%"};
-			{ 2, 45318, "", "=q4=Drape of Fuming Anger", "=ds=#s4#", "", "19%"};
-			{ 3, 45312, "", "=q4=Gloves of Smoldering Touch", "=ds=#s9#, #a2#", "", "20%"};
-			{ 4, 45316, "", "=q4=Armbraces of the Vibrant Flame", "=ds=#s8#, #a3#", "", "19%"};
-			{ 5, 45321, "", "=q4=Pauldrons of Tempered Will", "=ds=#s3#, #a4#", "", "21%"};
-			{ 6, 45310, "", "=q4=Gauntlets of the Iron Furnace", "=ds=#s9#, #a4#", "", "20%"};
-			{ 16, 45313, "", "=q4=Furnace Stone", "=ds=#s14#", "", "19%"};
-			{ 17, 45314, "", "=q4=Igniter Rod", "=ds=#s15#", "", "19%"};
-			{ 19, 45311, "", "=q4=Relentless Edge", "=ds=#w7#", "", "20%"};
-			{ 20, 45309, "", "=q4=Rifle of the Platinum Guard", "=ds=#w5#", "", "19%"};
-		};
-	};
-	["25Man"] = {
-		{
-			{ 1, 45186, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#", "", "18%"};
-			{ 2, 45185, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#", "", "20%"};
-			{ 3, 45162, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#", "", "18%"};
-			{ 4, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#", "", "19%"};
-			{ 5, 45187, "", "=q4=Wristguards of the Firetender", "=ds=#s8#, #a3#", "", "19%"};
-			{ 6, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#", "", "19%"};
-			{ 7, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#", "", "19%"};
-			{ 8, 45166, "", "=q4=Charred Saronite Greaves", "=ds=#s12#, #a4#", "", "20%"};
-			{ 10, 45157, "", "=q4=Cindershard Ring", "=ds=#s13#", "", "20%"};
-			{ 11, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#", "", "20%"};
-			{ 12, 45158, "", "=q4=Heart of Iron", "=ds=#s14#", "", "19%"};
-			{ 13, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#w15#", "", "21%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#", "", "19%"};
-			{ 20, 45171, "", "=q4=Intensity", "=ds=#w9#", "", "20%"};
-			{ 21, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#", "", "21%"};
+			{ 1, 45166, "", "=q4=Charred Saronite Greaves", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 2, 45157, "", "=q4=Cindershard Ring", "=ds=#s13#", "", "6.7%"};
+			{ 3, 45162, "", "=q4=Flamestalker Boots", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 4, 45185, "", "=q4=Flamewrought Cinch", "=ds=#s10#, #a2#", "", "6.7%"};
+			{ 5, 45161, "", "=q4=Girdle of Embers", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 6, 45158, "", "=q4=Heart of Iron", "=ds=#s14#", "", "6.7%"};
+			{ 7, 45164, "", "=q4=Helm of the Furnace Master", "=ds=#s1#, #a3#", "", "6.7%"};
+			{ 8, 45171, "", "=q4=Intensity", "=ds=#w9#", "", "6.7%"};
+			{ 9, 45167, "", "=q4=Lifeforge Breastplate", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 10, 45168, "", "=q4=Pyrelight Circle", "=ds=#s13#", "", "6.7%"};
+			{ 11, 45170, "", "=q4=Scepter of Creation", "=ds=#w12#", "", "6.7%"};
+			{ 12, 45186, "", "=q4=Soot-Covered Mantle", "=ds=#s3#, #a1#", "", "6.7%"};
+			{ 13, 45169, "", "=q4=Totem of the Dancing Flame", "=ds=#w15#", "", "6.7%"};
+			{ 14, 45165, "", "=q4=Worldcarver", "=ds=#h2#, #w1#", "", "6.7%"};
+			{ 15, 45187, "", "=q4=Wristguards of the Firetender", "=ds=#s8#, #a3#", "", "6.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "8%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
 		};
 	};
 	info = {
@@ -4505,52 +4463,95 @@ AtlasLoot_Data["UlduarIgnis"] = {
 	};
 };
 
-AtlasLoot_Data["UlduarDeconstructor"] = {
+AtlasLoot_Data["UlduarRazorscale"] = {
 	["Normal"] = {
 		{
-			{ 1, 45694, "", "=q4=Conductive Cord", "=ds=#s10#, #a1#", "", "21%"};
-			{ 2, 45677, "", "=q4=Treacherous Shoulderpads", "=ds=#s3#, #a2#", "", "19%"};
-			{ 3, 45686, "", "=q4=Vest of the Glowing Crescent", "=ds=#s5#, #a2#", "", "21%"};
-			{ 4, 45687, "", "=q4=Helm of Veiled Energies", "=ds=#s1#, #a3#", "", "21%"};
-			{ 5, 45679, "", "=q4=Gloves of Taut Grip", "=ds=#s9#, #a3#", "", "19%"};
-			{ 6, 45676, "", "=q4=Chestplate of Vicious Potency", "=ds=#s5#, #a4#", "", "19%"};
-			{ 7, 45680, "", "=q4=Armbands of the Construct", "=ds=#s8#, #a4#", "", "18%"};
-			{ 9, 45675, "", "=q4=Power Enhancing Loop", "=ds=#s13#", "", "20%"};
-			{ 16, 45685, "", "=q4=Plasma Foil", "=ds=#h3#, #w4#", "", "22%"};
-			{ 17, 45682, "", "=q4=Pulsing Spellshield", "=ds=#w8#", "", "14%"};
-			{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3058#"};
-			{ 20, 45869, "", "=q4=Fluxing Energy Coils", "=ds=#s8#, #a2#", "", "3%"};
-			{ 21, 45867, "", "=q4=Breastplate of the Stoneshaper", "=ds=#s5#, #a3#", "", "2%"};
-			{ 22, 45871, "", "=q4=Seal of Ulduar", "=ds=#s13#", "", "2%"};
-			{ 23, 45868, "", "=q4=Aesir's Edge", "=ds=#h2#, #w10#", "", "2%"};
-			{ 24, 45870, "", "=q4=Magnetized Projectile Emitter", "=ds=#w5#", "", "3%"};
+			{ 1, 45303, "", "=q4=Band of Draconic Guile", "=ds=#s13#", "", "10%"};
+			{ 2, 45306, "", "=q4=Binding of the Dragon Matriarch", "=ds=#s10#, #a1#", "", "10%"};
+			{ 3, 45301, "", "=q4=Bracers of the Smothering Inferno", "=ds=#s8#, #a3#", "", "10%"};
+			{ 4, 45305, "", "=q4=Breastplate of the Afterlife", "=ds=#s5#, #a4#", "", "10%"};
+			{ 5, 45299, "", "=q4=Dragonsteel Faceplate", "=ds=#s1#, #a4#", "", "10%"};
+			{ 6, 45308, "", "=q4=Eye of the Broodmother", "=ds=#s14#", "", "10%"};
+			{ 7, 45307, "", "=q4=Ironscale Leggings", "=ds=#s11#, #a3#", "", "10%"};
+			{ 8, 45298, "", "=q4=Razorscale Talon", "=ds=#h1#, #w10#", "", "10%"};
+			{ 9, 45304, "", "=q4=Stormtempered Girdle", "=ds=#s10#, #a4#", "", "10%"};
+			{ 10, 45302, "", "=q4=Treads of the Invader", "=ds=#s12#, #a2#", "", "10%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45253, "", "=q4=Mantle of Wavering Calm", "=ds=#s3#, #a1#", "", "19%"};
-			{ 2, 45258, "", "=q4=Sandals of Rash Temperament", "=ds=#s12#, #a1#", "", "19%"};
-			{ 3, 45260, "", "=q4=Boots of Hasty Revival", "=ds=#s12#, #a2#", "", "21%"};
-			{ 4, 45259, "", "=q4=Quartz-studded Harness", "=ds=#s5#, #a3#", "", "18%"};
-			{ 5, 45249, "", "=q4=Brass-lined Boots", "=ds=#s12#, #a3#", "", "18%"};
-			{ 6, 45251, "", "=q4=Shoulderplates of the Deconstructor", "=ds=#s3#, #a4#", "", "18%"};
-			{ 7, 45252, "", "=q4=Horologist's Wristguards", "=ds=#s8#, #a4#", "", "19%"};
-			{ 8, 45248, "", "=q4=Clockwork Legplates", "=ds=#s11#, #a4#", "", "19%"};
-			{ 10, 45250, "", "=q4=Crazed Construct Ring", "=ds=#s13#", "", "18%"};
-			{ 11, 45247, "", "=q4=Signet of the Earthshaker", "=ds=#s13#", "", "20%"};
-			{ 12, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#w21#", "", "20%"};
-			{ 13, 45255, "", "=q4=Thunderfall Totem", "=ds=#w15#", "", "20%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45246, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#", "", "19%"};
-			{ 20, 45256, "", "=q4=Twisted Visage", "=ds=#w9#", "", "19%"};
-			{ 21, 45257, "", "=q4=Quartz Crystal Wand", "=ds=#w12#", "", "20%"};
-			{ 23, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3059#"};
-			{ 24, 45446, "", "=q4=Grasps of Reason", "=ds=#s8#, #a1#", "", "0.16%"};
-			{ 25, 45444, "", "=q4=Gloves of the Steady Hand", "=ds=#s9#, #a3#", "", "0.29%"};
-			{ 26, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#", "", "0.16%"};
-			{ 27, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#", "", "0.15%"};
-			{ 28, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#", "", "0.28%"};
+			{ 1, 45151, "", "=q4=Belt of the Fallen Wyrm", "=ds=#s10#, #a3#", "", "6.7%"};
+			{ 2, 45149, "", "=q4=Bracers of the Broodmother", "=ds=#s8#, #a2#", "", "6.7%"};
+			{ 3, 45150, "", "=q4=Collar of the Wyrmhunter", "=ds=#s1#, #a1#", "", "6.7%"};
+			{ 4, 45139, "", "=q4=Dragonslayer's Brace", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 5, 45138, "", "=q4=Drape of the Drakerider", "=ds=#s4#", "", "6.7%"};
+			{ 6, 45147, "", "=q4=Guiding Star", "=ds=#h3#, #w6#", "", "6.7%"};
+			{ 7, 45510, "", "=q4=Libram of Discord", "=ds=#w16#", "", "6.7%"};
+			{ 8, 45148, "", "=q4=Living Flame", "=ds=#s14#", "", "6.7%"};
+			{ 9, 45141, "", "=q4=Proto-hide Leggings", "=ds=#s11#, #a2#", "", "6.7%"};
+			{ 10, 45140, "", "=q4=Razorscale Shoulderguards", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 11, 45142, "", "=q4=Remorse", "=ds=#h1#, #w10#", "", "6.7%"};
+			{ 12, 45143, "", "=q4=Saronite Mesh Legguards", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 13, 45146, "", "=q4=Shackles of the Odalisque", "=ds=#s8#, #a1#", "", "6.7%"};
+			{ 14, 45144, "", "=q4=Sigil of Deflection", "=ds=#w21#", "", "6.7%"};
+			{ 15, 45137, "", "=q4=Veranus' Bane", "=ds=#w5#", "", "6.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "8%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
+		};
+	};
+	info = {
+		name = BabbleBoss["Razorscale"],
+		module = moduleName,
+		instance = "Ulduar",
+	};
+};
+
+AtlasLoot_Data["UlduarXT002Deconstructor"] = {
+	["Normal"] = {
+		{
+			{ 1, 45680, "", "=q4=Armbands of the Construct", "=ds=#s8#, #a4#", "", "10%"};
+			{ 2, 45676, "", "=q4=Chestplate of Vicious Potency", "=ds=#s5#, #a4#", "", "10%"};
+			{ 3, 45694, "", "=q4=Conductive Cord", "=ds=#s10#, #a1#", "", "10%"};
+			{ 4, 45679, "", "=q4=Gloves of Taut Grip", "=ds=#s9#, #a3#", "", "10%"};
+			{ 5, 45687, "", "=q4=Helm of Veiled Energies", "=ds=#s1#, #a3#", "", "10%"};
+			{ 6, 45685, "", "=q4=Plasma Foil", "=ds=#h3#, #w4#", "", "10%"};
+			{ 7, 45675, "", "=q4=Power Enhancing Loop", "=ds=#s13#", "", "10%"};
+			{ 8, 45682, "", "=q4=Pulsing Spellshield", "=ds=#w8#", "", "10%"};
+			{ 9, 45677, "", "=q4=Treacherous Shoulderpads", "=ds=#s3#, #a2#", "", "10%"};
+			{ 10, 45686, "", "=q4=Vest of the Glowing Crescent", "=ds=#s5#, #a2#", "", "10%"};
+			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3058#"};
+			{ 17, 45868, "", "=q4=Aesir's Edge", "=ds=#h2#, #w10#", "", "20%"};
+			{ 18, 45867, "", "=q4=Breastplate of the Stoneshaper", "=ds=#s5#, #a3#", "", "20%"};
+			{ 19, 45869, "", "=q4=Fluxing Energy Coils", "=ds=#s8#, #a2#", "", "20%"};
+			{ 20, 45870, "", "=q4=Magnetized Projectile Emitter", "=ds=#w5#", "", "20%"};
+			{ 21, 45871, "", "=q4=Seal of Ulduar", "=ds=#s13#", "", "20%"};
+		};
+	};
+	["25Man"] = {
+		{
+			{ 1, 45260, "", "=q4=Boots of Hasty Revival", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 2, 45249, "", "=q4=Brass-lined Boots", "=ds=#s12#, #a3#", "", "6.7%"};
+			{ 3, 45248, "", "=q4=Clockwork Legplates", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 4, 45250, "", "=q4=Crazed Construct Ring", "=ds=#s13#", "", "6.7%"};
+			{ 5, 45246, "", "=q4=Golem-Shard Sticker", "=ds=#h1#, #w4#", "", "6.7%"};
+			{ 6, 45252, "", "=q4=Horologist's Wristguards", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 7, 45253, "", "=q4=Mantle of Wavering Calm", "=ds=#s3#, #a1#", "", "6.7%"};
+			{ 8, 45257, "", "=q4=Quartz Crystal Wand", "=ds=#w12#", "", "6.7%"};
+			{ 9, 45259, "", "=q4=Quartz-studded Harness", "=ds=#s5#, #a3#", "", "6.7%"};
+			{ 10, 45258, "", "=q4=Sandals of Rash Temperament", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 11, 45251, "", "=q4=Shoulderplates of the Deconstructor", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 12, 45254, "", "=q4=Sigil of the Vengeful Heart", "=ds=#w21#", "", "6.7%"};
+			{ 13, 45247, "", "=q4=Signet of the Earthshaker", "=ds=#s13#", "", "6.7%"};
+			{ 14, 45255, "", "=q4=Thunderfall Totem", "=ds=#w15#", "", "6.7%"};
+			{ 15, 45256, "", "=q4=Twisted Visage", "=ds=#w9#", "", "6.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "8%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
+			{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3059#"};
+			{ 21, 45445, "", "=q4=Breastplate of the Devoted", "=ds=#s5#, #a4#", "", "20%"};
+			{ 22, 45443, "", "=q4=Charm of Meticulous Timing", "=ds=#s2#", "", "20%"};
+			{ 23, 45444, "", "=q4=Gloves of the Steady Hand", "=ds=#s9#, #a3#", "", "20%"};
+			{ 24, 45446, "", "=q4=Grasps of Reason", "=ds=#s8#, #a1#", "", "20%"};
+			{ 25, 45442, "", "=q4=Sorthalis, Hammer of the Watchers", "=ds=#h1#, #w6#", "", "20%"};
 		};
 	};
 	info = {
@@ -4563,52 +4564,60 @@ AtlasLoot_Data["UlduarDeconstructor"] = {
 AtlasLoot_Data["UlduarIronCouncil"] = {
 	["Normal"] = {
 		{
-			{ 1, 45322, "", "=q4=Cloak of the Iron Council", "=ds=#s4#", "", "18%"};
-			{ 2, 45423, "", "=q4=Runetouch Handwraps", "=ds=#s8#, #a1#", "", "24%"};
-			{ 3, 45324, "", "=q4=Leggings of Swift Reflexes", "=ds=#s11#, #a2#", "", "19%"};
-			{ 4, 45378, "", "=q4=Boots of the Petrified Forest", "=ds=#s12#, #a2#", "", "17%"};
-			{ 5, 45329, "", "=q4=Circlet of True Sight", "=ds=#s1#, #a3#", "", "19%"};
-			{ 6, 45333, "", "=q4=Belt of the Iron Servant", "=ds=#s10#, #a3#", "", "22%"};
-			{ 7, 45330, "", "=q4=Greaves of Iron Intensity", "=ds=#s12#, #a4#", "", "23%"};
-			{ 9, 45418, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#", "", "21%"};
-			{ 16, 45332, "", "=q4=Stormtip", "=ds=#h3#, #w4#", "", "23%"};
-			{ 17, 45331, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#", "", "19%"};
-			{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2941#"};
-			{ 20, 45455, "", "=q4=Belt of the Crystal Tree", "=ds=#s10#, #a2#", "", "19%"};
-			{ 21, 45447, "", "=q4=Watchful Eye of Fate", "=ds=#s2#", "", "18%"};
-			{ 22, 45456, "", "=q4=Loop of the Agile", "=ds=#s13#", "", "16%"};
-			{ 23, 45449, "", "=q4=The Masticator", "=ds=#h3#, #w13#", "", "18%"};
-			{ 24, 45448, "", "=q4=Perilous Bite", "=ds=#h1#, #w4#", "", "17%"};
-			{ 25, 45506, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "91%"};
+			{ 1, 45333, "", "=q4=Belt of the Iron Servant", "=ds=#s10#, #a3#", "", "10%"};
+			{ 2, 45378, "", "=q4=Boots of the Petrified Forest", "=ds=#s12#, #a2#", "", "10%"};
+			{ 3, 45329, "", "=q4=Circlet of True Sight", "=ds=#s1#, #a3#", "", "10%"};
+			{ 4, 45322, "", "=q4=Cloak of the Iron Council", "=ds=#s4#", "", "10%"};
+			{ 5, 45330, "", "=q4=Greaves of Iron Intensity", "=ds=#s12#, #a4#", "", "10%"};
+			{ 6, 45418, "", "=q4=Lady Maye's Sapphire Ring", "=ds=#s13#", "", "10%"};
+			{ 7, 45324, "", "=q4=Leggings of Swift Reflexes", "=ds=#s11#, #a2#", "", "10%"};
+			{ 8, 45331, "", "=q4=Rune-Etched Nightblade", "=ds=#h1#, #w10#", "", "10%"};
+			{ 9, 45423, "", "=q4=Runetouch Handwraps", "=ds=#s8#, #a1#", "", "10%"};
+			{ 10, 45332, "", "=q4=Stormtip", "=ds=#h3#, #w4#", "", "10%"};
+			{ 12, 0, "INV_Box_01", "=q6=#j1#", "#ACHIEVEMENTID:2939#"};
+			{ 13, 45506, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "100%"};
+			{ 15, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
+			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2941#"};
+			{ 17, 45456, "", "=q4=Loop of the Agile", "=ds=#s13#", "", "20%"};
+			{ 18, 45448, "", "=q4=Perilous Bite", "=ds=#h1#, #w4#", "", "20%"};
+			{ 19, 45449, "", "=q4=The Masticator", "=ds=#h3#, #w13#", "", "20%"};
+			{ 20, 45447, "", "=q4=Watchful Eye of Fate", "=ds=#s2#", "", "20%"};
+			{ 22, 45506, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "100%"};
+			{ 24, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45224, "", "=q4=Drape of the Lithe", "=ds=#s4#", "", "19%"};
-			{ 2, 45240, "", "=q4=Raiments of the Iron Council", "=ds=#s5#, #a1#", "", "24%"};
-			{ 3, 45238, "", "=q4=Overload Legwraps", "=ds=#s11#, #a1#", "", "20%"};
-			{ 4, 45237, "", "=q4=Phaelia's Vestments of the Sprouting Seed", "=ds=#s5#, #a2#", "", "23%"};
-			{ 5, 45232, "", "=q4=Runed Ironhide Boots", "=ds=#s12#, #a2#", "", "22%"};
-			{ 6, 45227, "", "=q4=Iron-studded Mantle", "=ds=#s3#, #a3#", "", "22%"};
-			{ 7, 45239, "", "=q4=Runeshaper's Gloves", "=ds=#s9#, #a3#", "", "20%"};
-			{ 8, 45226, "", "=q4=Ancient Iron Heaume", "=ds=#s1#, #a4#", "", "20%"};
-			{ 9, 45225, "", "=q4=Steelbreaker's Embrace", "=ds=#s5#, #a4#", "", "19%"};
-			{ 10, 45228, "", "=q4=Handguards of the Enclave", "=ds=#s9#, #a4#", "", "21%"};
-			{ 12, 45193, "", "=q4=Insurmountable Fervor", "=ds=#s2#", "", "19%"};
-			{ 13, 45236, "", "=q4=Unblinking Eye", "=ds=#s2#", "", "19%"};
-			{ 14, 45235, "", "=q4=Radiant Seal", "=ds=#s13#", "", "20%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45233, "", "=q4=Rune Edge", "=ds=#h2#, #w10#", "", "20%"};
-			{ 20, 45234, "", "=q4=Rapture", "=ds=#w9#", "", "19%"};
-			{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2944#"};
-			{ 23, 45242, "", "=q4=Drape of Mortal Downfall", "=ds=#s4#", "", "21%"};
-			{ 24, 45245, "", "=q4=Shoulderpads of the Intruder", "=ds=#s3#, #a2#", "", "14%"};
-			{ 25, 45244, "", "=q4=Greaves of Swift Vengeance", "=ds=#s12#, #a3#", "", "9%"};
-			{ 26, 45241, "", "=q4=Belt of Colossal Rage", "=ds=#s10#, #a4#", "", "15%"};
-			{ 27, 45243, "", "=q4=Sapphire Amulet of Renewal", "=ds=#s2#", "", "10%"};
-			{ 28, 45607, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
-			{ 29, 45857, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "94%"};
+			{ 1, 45226, "", "=q4=Ancient Iron Heaume", "=ds=#s1#, #a4#", "", "6.7%"};
+			{ 2, 45224, "", "=q4=Drape of the Lithe", "=ds=#s4#", "", "6.7%"};
+			{ 3, 45228, "", "=q4=Handguards of the Enclave", "=ds=#s9#, #a4#", "", "6.7%"};
+			{ 4, 45193, "", "=q4=Insurmountable Fervor", "=ds=#s2#", "", "6.7%"};
+			{ 5, 45227, "", "=q4=Iron-studded Mantle", "=ds=#s3#, #a3#", "", "6.7%"};
+			{ 6, 45238, "", "=q4=Overload Legwraps", "=ds=#s11#, #a1#", "", "6.7%"};
+			{ 7, 45237, "", "=q4=Phaelia's Vestments of the Sprouting Seed", "=ds=#s5#, #a2#", "", "6.7%"};
+			{ 8, 45235, "", "=q4=Radiant Seal", "=ds=#s13#", "", "6.7%"};
+			{ 9, 45240, "", "=q4=Raiments of the Iron Council", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 10, 45234, "", "=q4=Rapture", "=ds=#w9#", "", "6.7%"};
+			{ 11, 45232, "", "=q4=Runed Ironhide Boots", "=ds=#s12#, #a2#", "", "6.7%"};
+			{ 12, 45239, "", "=q4=Runeshaper's Gloves", "=ds=#s9#, #a3#", "", "6.7%"};
+			{ 13, 45225, "", "=q4=Steelbreaker's Embrace", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 14, 45233, "", "=q4=Stormrune Edge", "=ds=#h2#, #w10#", "", "6.7%"};
+			{ 15, 45236, "", "=q4=Unblinking Eye", "=ds=#s2#", "", "6.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "N: 8%; H: 18%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
+			{ 20, 0, "INV_Box_01", "=q6=#j1#", "#ACHIEVEMENTID:2942#"};
+			{ 21, 45857, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "100%"};
+			{ 23, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:2944#"};
+			{ 24, 45241, "", "=q4=Belt of Colossal Rage", "=ds=#s10#, #a4#", "", "15%"};
+			{ 25, 45242, "", "=q4=Drape of Mortal Downfall", "=ds=#s4#", "", "21%"};
+			{ 26, 45607, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
+			{ 27, 45244, "", "=q4=Greaves of Swift Vengeance", "=ds=#s12#, #a3#", "", "9%"};
+			{ 28, 45243, "", "=q4=Sapphire Amulet of Renewal", "=ds=#s2#", "", "10%"};
+			{ 29, 45245, "", "=q4=Shoulderpads of the Intruder", "=ds=#s3#, #a2#", "", "14%"};
+		},
+		{
+			{ 1, 45857, "", "=q4=Archivum Data Disc", "=ds=#m2#", "", "100%"};
+			{ 3, 45087, "", "=q3=Runed Orb", "=ds=#e6# =q1=(x2)", "", "75%"};
 		};
 	};
 	info = {
@@ -4618,97 +4627,47 @@ AtlasLoot_Data["UlduarIronCouncil"] = {
 	};
 }
 
-AtlasLoot_Data["UlduarKologarn"] = {
+AtlasLoot_Data["UlduarAlgalonTheObserver"] = {
 	["Normal"] = {
 		{
-			{ 1, 45704, "", "=q4=Shawl of the Shattered Giant", "=ds=#s4#", "", "19%"};
-			{ 2, 45701, "", "=q4=Greaves of the Earthbinder", "=ds=#s12#, #a3#", "", "21%"};
-			{ 3, 45697, "", "=q4=Shoulderguards of the Solemn Watch", "=ds=#s3#, #a4#", "", "18%"};
-			{ 4, 45698, "", "=q4=Sabatons of the Iron Watcher", "=ds=#s12#, #a4#", "", "18%"};
-			{ 6, 45696, "", "=q4=Mark of the Unyielding", "=ds=#s2#", "", "19%"};
-			{ 7, 45699, "", "=q4=Pendant of the Piercing Glare", "=ds=#s2#", "", "17%"};
-			{ 8, 45702, "", "=q4=Emerald Signet Ring", "=ds=#s13#", "", "18%"};
-			{ 9, 45703, "", "=q4=Spark of Hope", "=ds=#s14#", "", "17%"};
-			{ 16, 45700, "", "=q4=Stoneguard", "=ds=#h1#, #w10#", "", "19%"};
-			{ 17, 45695, "", "=q4=Spire of Withering Dreams", "=ds=#w9#", "", "21%"};
+			{ 1, 46048, "", "=q4=Band of Lights", "=ds=#s13#", "", "6.7%"};
+			{ 2, 46039, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 3, 46038, "", "=q4=Dark Matter", "=ds=#s14#", "", "6.7%"};
+			{ 4, 46042, "", "=q4=Drape of the Messenger", "=ds=#s4#", "", "6.7%"};
+			{ 5, 46043, "", "=q4=Gloves of the Endless Dark", "=ds=#s9#, #a2#", "", "6.7%"};
+			{ 6, 46051, "", "=q4=Meteorite Crystal", "=ds=#s14#", "", "6.7%"};
+			{ 7, 46046, "", "=q4=Nebula Band", "=ds=#s13#", "", "6.7%"};
+			{ 8, 46044, "", "=q4=Observer's Mantle", "=ds=#s3#, #a3#", "", "6.7%"};
+			{ 9, 46047, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#", "", "6.7%"};
+			{ 10, 46045, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#", "", "6.7%"};
+			{ 11, 46037, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 12, 46041, "", "=q4=Starfall Girdle", "=ds=#s10#, #a4#", "", "6.7%"};
+			{ 13, 46050, "", "=q4=Starlight Treads", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 14, 46040, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "6.7%"};
+			{ 15, 46049, "", "=q4=Zodiac Leggings", "=ds=#s11#, #a2#", "", "6.7%"};
+			{ 16, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45272, "", "=q4=Robes of the Umbral Brute", "=ds=#s5#, #a1#", "", "20%"};
-			{ 2, 45275, "", "=q4=Bracers of Unleashed Magic", "=ds=#s8#, #a1#", "", "18%"};
-			{ 3, 45273, "", "=q4=Handwraps of Plentiful Recovery", "=ds=#s9#, #a1#", "", "18%"};
-			{ 4, 45265, "", "=q4=Shoulderpads of the Monolith", "=ds=#s3#, #a2#", "", "16%"};
-			{ 5, 45274, "", "=q4=Leggings of the Stoneweaver", "=ds=#s11#, #a3#", "", "14%"};
-			{ 6, 45264, "", "=q4=Decimator's Armguards", "=ds=#s8#, #a4#", "", "16%"};
-			{ 7, 45269, "", "=q4=Unfaltering Armguards", "=ds=#s8#, #a4#", "", "16%"};
-			{ 8, 45268, "", "=q4=Gloves of the Pythonic Guardian", "=ds=#s9#, #a4#", "", "18%"};
-			{ 9, 45267, "", "=q4=Saronite Plated Legguards", "=ds=#s11#, #a4#", "", "18%"};
-			{ 11, 45262, "", "=q4=Necklace of Unerring Mettle", "=ds=#s2#", "", "18%"};
-			{ 12, 45263, "", "=q4=Wrathstone", "=ds=#s14#", "", "18%"};
-			{ 13, 45271, "", "=q4=Ironmender", "=ds=#s15#", "", "17%"};
-			{ 14, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#w14#", "", "17%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "18%"};
-			{ 20, 45261, "", "=q4=Giant's Bane", "=ds=#w5#", "", "16%"};
-		};
-	};
-	info = {
-		name = BabbleBoss["Kologarn"],
-		module = moduleName,
-		instance = "Ulduar",
-	};
-}
-
-AtlasLoot_Data["UlduarAlgalon"] = {
-	["Normal"] = {
-		{
-			{ 1, 46042, "", "=q4=Drape of the Messenger", "=ds=#s4#"};
-			{ 2, 46045, "", "=q4=Pulsar Gloves", "=ds=#s9#, #a1#", "", "40%"};
-			{ 3, 46050, "", "=q4=Starlight Treads", "=ds=#s12#, #a1#"};
-			{ 4, 46043, "", "=q4=Gloves of the Endless Dark", "=ds=#s9#, #a2#"};
-			{ 5, 46049, "", "=q4=Zodiac Leggings", "=ds=#s11#, #a2#"};
-			{ 6, 46044, "", "=q4=Observer's Mantle", "=ds=#s3#, #a3#"};
-			{ 7, 46037, "", "=q4=Shoulderplates of the Celestial Watch", "=ds=#s3#, #a4#"};
-			{ 8, 46039, "", "=q4=Breastplate of the Timeless", "=ds=#s5#, #a4#"};
-			{ 9, 46041, "", "=q4=Starfall Girdle", "=ds=#s10#, #a4#"};
-			{ 11, 46047, "", "=q4=Pendant of the Somber Witness", "=ds=#s2#"};
-			{ 12, 46040, "", "=q4=Strength of the Heavens", "=ds=#s2#", "", "40%"};
-			{ 13, 46048, "", "=q4=Band of Lights", "=ds=#s13#"};
-			{ 14, 46046, "", "=q4=Nebula Band", "=ds=#s13#"};
-			{ 16, 46038, "", "=q4=Dark Matter", "=ds=#s14#"};
-			{ 17, 46051, "", "=q4=Meteorite Crystal", "=ds=#s14#", "", "40%"};
-			{ 19, 46052, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-			{ 20, 46320, "", "=q4=Drape of the Skyherald", "=q1=#m4#: =ds=#s4#"};
-			{ 21, 46321, "", "=q4=Sunglimmer Drape", "=q1=#m4#: =ds=#s4#"};
-			{ 22, 46322, "", "=q4=Brann's Sealing Ring", "=q1=#m4#: =ds=#s13#"};
-			{ 23, 46323, "", "=q4=Starshine Signet", "=q1=#m4#: =ds=#s13#"};
-		};
-	};
-	["25Man"] = {
-		{
-			{ 1, 45665, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "40%"};
-			{ 2, 45619, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", ""};
-			{ 3, 45611, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "40%"};
-			{ 4, 45616, "", "=q4=Star-beaded Clutch", "=ds=#s10#, #a2#"};
-			{ 5, 45610, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#"};
-			{ 6, 45615, "", "=q4=Planewalker Treads", "=ds=#s12#, #a3#"};
-			{ 7, 45594, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#", "", "20%"};
-			{ 8, 45599, "", "=q4=Sabatons of Lifeless Night", "=ds=#s12#, #a4#"};
-			{ 10, 45620, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
-			{ 11, 45607, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "18%"};
-			{ 12, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
-			{ 13, 45613, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
-			{ 14, 45587, "", "=q4=Bulwark of Algalon", "=ds=#w8#"};
-			{ 15, 45570, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
-			{ 16, 45609, "", "=q4=Comet's Trail", "=ds=#s14#"};
-			{ 17, 45617, "", "=q4=Cosmos", "=ds=#s15#"};
-			{ 19, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
-			{ 20, 45588, "", "=q4=Drape of the Skyborn", "=q1=#m4#: =ds=#s4#"};
-			{ 21, 45618, "", "=q4=Sunglimmer Cloak", "=q1=#m4#: =ds=#s4#"};
-			{ 22, 45608, "", "=q4=Brann's Signet Ring", "=q1=#m4#: =ds=#s13#"};
-			{ 23, 45614, "", "=q4=Starshine Circle", "=q1=#m4#: =ds=#s13#"};
+			{ 1, 45610, "", "=q4=Boundless Gaze", "=ds=#s1#, #a3#", "", "6.3%"};
+			{ 2, 45587, "", "=q4=Bulwark of Algalon", "=ds=#w8#", "", "6.3%"};
+			{ 3, 45609, "", "=q4=Comet's Trail", "=ds=#s14#", "", "6.3%"};
+			{ 4, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "6.3%"};
+			{ 5, 45617, "", "=q4=Cosmos", "=ds=#s15#", "", "6.3%"};
+			{ 6, 45613, "", "=q4=Dreambinder", "=ds=#w9#", "", "6.3%"};
+			{ 7, 45607, "", "=q4=Fang of Oblivion", "=ds=#h1#, #w4#", "", "6.3%"};
+			{ 8, 45594, "", "=q4=Legplates of the Endless Void", "=ds=#s11#, #a4#", "", "6.3%"};
+			{ 9, 45665, "", "=q4=Pharos Gloves", "=ds=#s9#, #a1#", "", "6.3%"};
+			{ 10, 45615, "", "=q4=Planewalker Treads", "=ds=#s12#, #a3#", "", "6.3%"};
+			{ 11, 45599, "", "=q4=Sabatons of Lifeless Night", "=ds=#s12#, #a4#", "", "6.3%"};
+			{ 12, 45570, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "6.3%"};
+			{ 13, 45611, "", "=q4=Solar Bindings", "=ds=#s8#, #a2#", "", "6.3%"};
+			{ 14, 45616, "", "=q4=Star-beaded Clutch", "=ds=#s10#, #a2#", "", "6.3%"};
+			{ 15, 45620, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#", "", "6.3%"};
+			{ 16, 45619, "", "=q4=Starwatcher's Binding", "=ds=#s10#, #a1#", "", "6.3%"};
+			{ 18, 46053, "", "=q4=Reply-Code Alpha", "=ds=#m2#", "", "100%"};
+			{ 20, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "20%"};
 		};
 	};
 	info = {
@@ -4718,40 +4677,83 @@ AtlasLoot_Data["UlduarAlgalon"] = {
 	};
 }
 
-AtlasLoot_Data["UlduarAuriaya"] = {
+AtlasLoot_Data["UlduarKologarn"] = {
 	["Normal"] = {
 		{
-			{ 1, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "", "19%"};
-			{ 2, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#", "", "20%"};
-			{ 3, 45864, "", "=q4=Cover of the Keepers", "=ds=#s1#, #a2#", "", "20%"};
-			{ 4, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s10#, #a2#", "", "19%"};
-			{ 5, 45711, "", "=q4=Ironaya's Discarded Mantle", "=ds=#s3#, #a3#", "", "19%"};
-			{ 6, 45712, "", "=q4=Chestplate of Titanic Fury", "=ds=#s5#, #a4#", "", "20%"};
-			{ 7, 45708, "", "=q4=Archaedas' Lost Legplates", "=ds=#s11#, #a4#", "", "20%"};
-			{ 9, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#", "", "19%"};
-			{ 16, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#", "", "19%"};
-			{ 17, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#", "", "21%"};
+			{ 1, 45702, "", "=q4=Emerald Signet Ring", "=ds=#s13#", "", "10%"};
+			{ 2, 45701, "", "=q4=Greaves of the Earthbinder", "=ds=#s12#, #a3#", "", "10%"};
+			{ 3, 45696, "", "=q4=Mark of the Unyielding", "=ds=#s2#", "", "10%"};
+			{ 4, 45699, "", "=q4=Pendant of the Piercing Glare", "=ds=#s2#", "", "10%"};
+			{ 5, 45698, "", "=q4=Sabatons of the Iron Watcher", "=ds=#s12#, #a4#", "", "10%"};
+			{ 6, 45704, "", "=q4=Shawl of the Shattered Giant", "=ds=#s4#", "", "10%"};
+			{ 7, 45697, "", "=q4=Shoulderguards of the Solemn Watch", "=ds=#s3#, #a4#", "", "10%"};
+			{ 8, 45703, "", "=q4=Spark of Hope", "=ds=#s14#", "", "10%"};
+			{ 9, 45695, "", "=q4=Spire of Withering Dreams", "=ds=#w9#", "", "10%"};
+			{ 10, 45700, "", "=q4=Stoneguard", "=ds=#h1#, #w10#", "", "10%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45319, "", "=q4=Cloak of the Makers", "=ds=#s4#", "", "19%"};
-			{ 2, 45435, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#", "", "19%"};
-			{ 3, 45441, "", "=q4=Sandals of the Ancient Keeper", "=ds=#s12#, #a1#", "", "20%"};
-			{ 4, 45439, "", "=q4=Unwavering Stare", "=ds=#s1#, #a2#", "", "20%"};
-			{ 5, 45325, "", "=q4=Gloves of the Stonereaper", "=ds=#s9#, #a2#", "", "20%"};
-			{ 6, 45440, "", "=q4=Amice of the Stoic Watch", "=ds=#s3#, #a3#", "", "20%"};
-			{ 7, 45320, "", "=q4=Shoulderplates of the Eternal", "=ds=#s3#, #a4#", "", "20%"};
-			{ 8, 45334, "", "=q4=Unbreakable Chestguard", "=ds=#s5#, #a4#", "", "18%"};
-			{ 9, 45434, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#", "", "20%"};
-			{ 11, 45326, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#", "", "19%"};
-			{ 12, 45438, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#", "", "19%"};
-			{ 13, 45436, "", "=q4=Libram of the Resolute", "=ds=#w16#", "", "20%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#", "", "20%"};
-			{ 20, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#", "", "19%"};
-			{ 21, 45327, "", "=q4=Siren's Cry", "=ds=#w2#", "", "20%"};
+			{ 1, 45275, "", "=q4=Bracers of Unleashed Magic", "=ds=#s8#, #a1#", "", "6.7%"};
+			{ 2, 45264, "", "=q4=Decimator's Armguards", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 3, 45261, "", "=q4=Giant's Bane", "=ds=#w5#", "", "6.7%"};
+			{ 4, 45268, "", "=q4=Gloves of the Pythonic Guardian", "=ds=#s9#, #a4#", "", "6.7%"};
+			{ 5, 45273, "", "=q4=Handwraps of Plentiful Recovery", "=ds=#s9#, #a1#", "", "6.7%"};
+			{ 6, 45270, "", "=q4=Idol of the Crying Wind", "=ds=#w14#", "", "6.7%"};
+			{ 7, 45271, "", "=q4=Ironmender", "=ds=#s15#", "", "6.7%"};
+			{ 8, 45274, "", "=q4=Leggings of the Stoneweaver", "=ds=#s11#, #a3#", "", "6.7%"};
+			{ 9, 45266, "", "=q4=Malice", "=ds=#h1#, #w10#", "", "6.7%"};
+			{ 10, 45262, "", "=q4=Necklace of Unerring Mettle", "=ds=#s2#", "", "6.7%"};
+			{ 11, 45272, "", "=q4=Robes of the Umbral Brute", "=ds=#s5#, #a1#", "", "6.7%"};
+			{ 12, 45267, "", "=q4=Saronite Plated Legguards", "=ds=#s11#, #a4#", "", "6.7%"};
+			{ 13, 45265, "", "=q4=Shoulderpads of the Monolith", "=ds=#s3#, #a2#", "", "6.7%"};
+			{ 14, 45269, "", "=q4=Unfaltering Armguards", "=ds=#s8#, #a4#", "", "6.7%"};
+			{ 15, 45263, "", "=q4=Wrathstone", "=ds=#s14#", "", "6.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "8%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "50%"};
+		};
+	};
+	info = {
+		name = BabbleBoss["Kologarn"],
+		module = moduleName,
+		instance = "Ulduar",
+	};
+}
+
+AtlasLoot_Data["UlduarAuriaya"] = {
+	["Normal"] = {
+		{
+			{ 1, 45708, "", "=q4=Archaedas' Lost Legplates", "=ds=#s11#, #a4#", "", "10%"};
+			{ 2, 45712, "", "=q4=Chestplate of Titanic Fury", "=ds=#s5#, #a4#", "", "10%"};
+			{ 3, 45864, "", "=q4=Cover of the Keepers", "=ds=#s1#, #a2#", "", "10%"};
+			{ 4, 45866, "", "=q4=Elemental Focus Stone", "=ds=#s14#", "", "10%"};
+			{ 5, 45711, "", "=q4=Ironaya's Discarded Mantle", "=ds=#s3#, #a3#", "", "10%"};
+			{ 6, 45832, "", "=q4=Mantle of the Preserver", "=ds=#s3#, #a1#", "", "10%"};
+			{ 7, 45709, "", "=q4=Nimble Climber's Belt", "=ds=#s10#, #a2#", "", "10%"};
+			{ 8, 45713, "", "=q4=Nurturing Touch", "=ds=#w12#", "", "10%"};
+			{ 9, 45865, "", "=q4=Raiments of the Corrupted", "=ds=#s5#, #a1#", "", "10%"};
+			{ 10, 45707, "", "=q4=Shieldwall of the Breaker", "=ds=#w8#", "", "10%"};
+		};
+	};
+	["25Man"] = {
+		{
+			{ 1, 45440, "", "=q4=Amice of the Stoic Watch", "=ds=#s3#, #a3#", "", "6.7%"};
+			{ 2, 45319, "", "=q4=Cloak of the Makers", "=ds=#s4#", "", "6.7%"};
+			{ 3, 45435, "", "=q4=Cowl of the Absolute", "=ds=#s1#, #a1#", "", "6.7%"};
+			{ 4, 45325, "", "=q4=Gloves of the Stonereaper", "=ds=#s9#, #a2#", "", "6.7%"};
+			{ 5, 45434, "", "=q4=Greaves of the Rockmender", "=ds=#s12#, #a4#", "", "6.7%"};
+			{ 6, 45436, "", "=q4=Libram of the Resolute", "=ds=#w16#", "", "6.7%"};
+			{ 7, 45326, "", "=q4=Platinum Band of the Aesir", "=ds=#s13#", "", "6.7%"};
+			{ 8, 45438, "", "=q4=Ring of the Faithful Servant", "=ds=#s13#", "", "6.7%"};
+			{ 9, 45437, "", "=q4=Runescribed Blade", "=ds=#h3#, #w10#", "", "6.7%"};
+			{ 10, 45441, "", "=q4=Sandals of the Ancient Keeper", "=ds=#s12#, #a1#", "", "6.7%"};
+			{ 11, 45320, "", "=q4=Shoulderplates of the Eternal", "=ds=#s3#, #a4#", "", "6.7%"};
+			{ 12, 45327, "", "=q4=Siren's Cry", "=ds=#w2#", "", "6.7%"};
+			{ 13, 45315, "", "=q4=Stonerender", "=ds=#h1#, #w6#", "", "6.7%"};
+			{ 14, 45334, "", "=q4=Unbreakable Chestguard", "=ds=#s5#, #a4#", "", "6.7%"};
+			{ 15, 45439, "", "=q4=Unwavering Stare", "=ds=#s1#, #a2#", "", "6.7%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "8%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "75%"};
 		};
 	};
 	info = {
@@ -4764,43 +4766,43 @@ AtlasLoot_Data["UlduarAuriaya"] = {
 AtlasLoot_Data["UlduarHodir"] = {
 	["Normal"] = {
 		{
-			{ 1, 45873, "", "=q4=Winter's Frigid Embrace", "=ds=#s4#", "", "15%"};
-			{ 2, 45464, "", "=q4=Cowl of Icy Breaths", "=ds=#s1#, #a1#", "", "20%"};
-			{ 3, 45874, "", "=q4=Signet of Winter", "=ds=#s13#", "", "16%"};
-			{ 4, 45458, "", "=q4=Stormedge", "=ds=#h2#, #w1#", "", "17%"};
-			{ 5, 45872, "", "=q4=Avalanche", "=ds=#w2#", "", "22%"};
-			{ 7, 45650, "", "=q4=Leggings of the Wayward Conqueror", "=ds=#e15#", "", "29%"};
-			{ 8, 45651, "", "=q4=Leggings of the Wayward Protector", "=ds=#e15#", "", "29%"};
-			{ 9, 45652, "", "=q4=Leggings of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
+			{ 1, 45872, "", "=q4=Avalanche", "=ds=#w2#", "", "20%"};
+			{ 2, 45454, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "20%"};
+			{ 3, 45874, "", "=q4=Signet of Winter", "=ds=#s13#", "", "20%"};
+			{ 4, 45458, "", "=q4=Stormedge", "=ds=#h2#, #w1#", "", "20%"};
+			{ 5, 45873, "", "=q4=Winter's Frigid Embrace", "=ds=#s4#", "", "20%"};
+			{ 7, 45650, "", "=q4=Leggings of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45651, "", "=q4=Leggings of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45652, "", "=q4=Leggings of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3182#"};
-			{ 17, 45888, "", "=q4=Bitter Cold Armguards", "=ds=#s8#, #a4#", "", "18%"};
-			{ 18, 45876, "", "=q4=Shiver", "=ds=#h1#, #w6#", "", "16%"};
+			{ 17, 45888, "", "=q4=Bitter Cold Armguards", "=ds=#s8#, #a4#", "", "20%"};
+			{ 18, 45887, "", "=q4=Ice Layered Barrier", "=ds=#w8#", "", "20%"};
 			{ 19, 45886, "", "=q4=Icecore Staff", "=ds=#w9#", "", "20%"};
-			{ 20, 45887, "", "=q4=Ice Layered Barrier", "=ds=#w8#", "", "18%"};
-			{ 21, 45877, "", "=q4=The Boreal Guard", "=ds=#w8#", "", "17%"};
-			{ 23, 45786, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "23%"};
+			{ 20, 45876, "", "=q4=Shiver", "=ds=#h1#, #w6#", "", "20%"};
+			{ 21, 45877, "", "=q4=The Boreal Guard", "=ds=#w8#", "", "20%"};
+			{ 23, 45786, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 4, 45453, "", "=q4=Winter's Icy Embrace", "=ds=#s5#, #a2#", "", "16%"};
-			{ 5, 45454, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "18%"};
-			{ 6, 45452, "", "=q4=Frostplate Greaves", "=ds=#s11#, #a4#", "", "16%"};
-			{ 7, 45451, "", "=q4=Frozen Loop", "=ds=#s13#", "", "15%"};
-			{ 8, 45450, "", "=q4=Northern Barrier", "=ds=#w8#", "", "19%"};
-			{ 10, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
-			{ 11, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=#e15#", "", "50%"};
-			{ 12, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=#e15#", "", "71%"};
+			{ 1, 45454, "", "=q4=Frost-bound Chain Bracers", "=ds=#s8#, #a3#", "", "20%"};
+			{ 2, 45452, "", "=q4=Frostplate Greaves", "=ds=#s11#, #a4#", "", "20%"};
+			{ 3, 45451, "", "=q4=Frozen Loop", "=ds=#s13#", "", "20%"};
+			{ 4, 45450, "", "=q4=Northern Barrier", "=ds=#w8#", "", "20%"};
+			{ 5, 45453, "", "=q4=Winter's Icy Embrace", "=ds=#s5#, #a2#", "", "20%"};
+			{ 7, 45632, "", "=q4=Breastplate of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45633, "", "=q4=Breastplate of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45634, "", "=q4=Breastplate of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 11, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "10%"};
+			{ 13, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "10%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3184#"};
-			{ 17, 45461, "", "=q4=Drape of Icy Intent", "=ds=#s4#", "", "19%"};
-			{ 18, 45462, "", "=q4=Gloves of the Frozen Glade", "=ds=#s9#, #a2#", "", "10%"};
-			{ 19, 45460, "", "=q4=Bindings of Winter Gale", "=ds=#s8#, #a3#", "", "12%"};
-			{ 20, 45459, "", "=q4=Frigid Strength of Hodir", "=ds=#s2#", "", "13%"};
-			{ 21, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "11%"};
-			{ 22, 45457, "", "=q4=Staff of Endless Winter", "=ds=#w9#", "", "19%"};
-			{ 24, 45815, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "21%"};
+			{ 17, 45460, "", "=q4=Bindings of Winter Gale", "=ds=#s8#, #a3#", "", "16.7%"};
+			{ 18, 45612, "", "=q4=Constellus", "=ds=#h3#, #w6#", "", "16.7%"};
+			{ 19, 45461, "", "=q4=Drape of Icy Intent", "=ds=#s4#", "", "16.7%"};
+			{ 20, 45459, "", "=q4=Frigid Strength of Hodir", "=ds=#s2#", "", "16.7%"};
+			{ 21, 45462, "", "=q4=Gloves of the Frozen Glade", "=ds=#s9#, #a2#", "", "16.7%"};
+			{ 22, 45457, "", "=q4=Staff of Endless Winter", "=ds=#w9#", "", "16.7%"};
+			{ 24, 45815, "", "=q1=Hodir's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	info = {
@@ -4813,43 +4815,44 @@ AtlasLoot_Data["UlduarHodir"] = {
 AtlasLoot_Data["UlduarThorim"] = {
 	["Normal"] = {
 		{
-			{ 1, 45893, "", "=q4=Guise of the Midgard Serpent", "=ds=#s1#, #a2#", "", "19%"};
-			{ 2, 45927, "", "=q4=Handwraps of Resonance", "=ds=#s9#, #a1#", "", "17%"};
-			{ 3, 45894, "", "=q4=Leggings of Unstable Discharge", "=ds=#s11#, #a1#", "", "17%"};
-			{ 4, 45895, "", "=q4=Belt of the Blood Pit", "=ds=#s10#, #a3#", "", "18%"};
-			{ 5, 45892, "", "=q4=Legacy of Thunder", "=ds=#h1# #w6#", "", "18%"};
-			{ 7, 45659, "", "=q4=Spaulders of the Wayward Conqueror", "=ds=#e15#", "", "25%"};
-			{ 8, 45660, "", "=q4=Spaulders of the Wayward Protector", "=ds=#e15#", "", "28%"};
-			{ 9, 45661, "", "=q4=Spaulders of the Wayward Vanquisher", "=ds=#e15#", "", "34%"};
+			{ 1, 45895, "", "=q4=Belt of the Blood Pit", "=ds=#s10#, #a3#", "", "20%"};
+			{ 2, 45893, "", "=q4=Guise of the Midgard Serpent", "=ds=#s1#, #a2#", "", "20%"};
+			{ 3, 45927, "", "=q4=Handwraps of Resonance", "=ds=#s9#, #a1#", "", "20%"};
+			{ 4, 45892, "", "=q4=Legacy of Thunder", "=ds=#h1# #w6#", "", "20%"};
+			{ 5, 45894, "", "=q4=Leggings of Unstable Discharge", "=ds=#s11#, #a1#", "", "20%"};
+			{ 7, 45659, "", "=q4=Spaulders of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45660, "", "=q4=Spaulders of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45661, "", "=q4=Spaulders of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3176#"};
-			{ 17, 45928, "", "=q4=Gauntlets of the Thunder God", "=ds=#s9#, #a4#", "", "5%"};
-			{ 18, 45933, "", "=q4=Pendant of the Shallow Grave", "=ds=#s2#", "", "4%"};
-			{ 19, 45931, "", "=q4=Mjolnir Runestone", "=ds=#s14#", "", "5%"};
-			{ 20, 45929, "", "=q4=Sif's Remembrance", "=ds=#s14#", "", "4%"};
-			{ 21, 45930, "", "=q4=Combatant's Bootblade", "=ds=#h1# #w4#", "", "5%"};
-			{ 23, 45784, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "5%"};
+			{ 17, 45930, "", "=q4=Combatant's Bootblade", "=ds=#h1#, #w4#", "", "20%"};
+			{ 18, 45928, "", "=q4=Gauntlets of the Thunder God", "=ds=#s9#, #a4#", "", "20%"};
+			{ 19, 45931, "", "=q4=Mjolnir Runestone", "=ds=#s14#", "", "20%"};
+			{ 20, 45933, "", "=q4=Pendant of the Shallow Grave", "=ds=#s2#", "", "20%"};
+			{ 21, 45929, "", "=q4=Sif's Remembrance", "=ds=#s14#", "", "20%"};
+			{ 23, 45784, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 4, 45468, "", "=q4=Leggings of Lost Love", "=ds=#s11#, #a1#", "", "17%"};
-			{ 5, 45467, "", "=q4=Belt of the Betrayed", "=ds=#s10#, #a3#", "", "17%"};
-			{ 6, 45469, "", "=q4=Sif's Promise", "=ds=#s13#", "", "14%"};
-			{ 7, 45466, "", "=q4=Scale of Fates", "=ds=#s14#", "", "17%"};
-			{ 8, 45463, "", "=q4=Vulmir, the Northern Tempest", "=ds=#h1# #w6#", "", "18%"};
-			{ 10, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=#e15#", "", "50%"};
-			{ 11, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=#e15#", "", "57%"};
-			{ 12, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=#e15#", "", "71%"};
+			
+			{ 1, 45467, "", "=q4=Belt of the Betrayed", "=ds=#s10#, #a3#", "", "20%"};
+			{ 2, 45468, "", "=q4=Leggings of Lost Love", "=ds=#s11#, #a1#", "", "20%"};
+			{ 3, 45466, "", "=q4=Scale of Fates", "=ds=#s14#", "", "20%"};
+			{ 4, 45469, "", "=q4=Sif's Promise", "=ds=#s13#", "", "20%"};
+			{ 5, 45463, "", "=q4=Vulmir, the Northern Tempest", "=ds=#h1#, #w6#", "", "20%"};
+			{ 7, 45638, "", "=q4=Crown of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45639, "", "=q4=Crown of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45640, "", "=q4=Crown of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 11, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "18%"};
+			{ 13, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "10%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3183#"};
-			{ 17, 45473, "", "=q4=Embrace of the Gladiator", "=ds=#s5#, #a2#", "", "2%"};
-			{ 18, 45474, "", "=q4=Pauldrons of the Combatant", "=ds=#s3#, #a3#", "", "2%"};
-			{ 19, 45472, "", "=q4=Warhelm of the Champion", "=ds=#s1#, #a4#", "", "1%"};
-			{ 20, 45471, "", "=q4=Fate's Clutch", "=ds=#s13#", "", "1%"};
-			{ 21, 45570, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "1%"};
-			{ 22, 45470, "", "=q4=Wisdom's Hold", "=ds=#w8#", "", "2%"};
-			{ 24, 45817, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "3%"};
+			{ 17, 45473, "", "=q4=Embrace of the Gladiator", "=ds=#s5#, #a2#", "", "16.7%"};
+			{ 18, 45471, "", "=q4=Fate's Clutch", "=ds=#s13#", "", "16.7%"};
+			{ 19, 45474, "", "=q4=Pauldrons of the Combatant", "=ds=#s3#, #a3#", "", "16.7%"};
+			{ 20, 45570, "", "=q4=Skyforge Crossbow", "=ds=#w3#", "", "16.7%"};
+			{ 21, 45472, "", "=q4=Warhelm of the Champion", "=ds=#s1#, #a4#", "", "16.7%"};
+			{ 22, 45470, "", "=q4=Wisdom's Hold", "=ds=#w8#", "", "16.7%"};
+			{ 24, 45817, "", "=q1=Thorim's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	info = {
@@ -4862,45 +4865,47 @@ AtlasLoot_Data["UlduarThorim"] = {
 AtlasLoot_Data["UlduarFreya"] = {
 	["Normal"] = {
 		{
-			{ 1, 45940, "", "=q4=Tunic of the Limber Stalker", "=ds=#s5#, #a2#", "", "15%"};
-			{ 2, 45941, "", "=q4=Chestguard of the Lasher", "=ds=#s5#, #a3#", "", "15%"};
-			{ 3, 45935, "", "=q4=Ironbark Faceguard", "=ds=#s1#, #a4#", "", "17%"};
-			{ 4, 45936, "", "=q4=Legplates of Flourishing Resolve", "=ds=#s11#, #a4#", "", "15%"};
-			{ 5, 45934, "", "=q4=Unraveling Reach", "=ds=#w9#", "", "18%"};
-			{ 7, 45644, "", "=q4=Gloves of the Wayward Conqueror", "=ds=#e15#", "", "25%"};
-			{ 8, 45645, "", "=q4=Gloves of the Wayward Protector", "=ds=#e15#", "", "23%"};
-			{ 9, 45646, "", "=q4=Gloves of the Wayward Vanquisher", "=ds=#e15#", "", "30%"};
-			{ 11, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
+			{ 1, 45941, "", "=q4=Chestguard of the Lasher", "=ds=#s5#, #a3#", "", "20%"};
+			{ 2, 45935, "", "=q4=Ironbark Faceguard", "=ds=#s1#, #a4#", "", "20%"};
+			{ 3, 45936, "", "=q4=Legplates of Flourishing Resolve", "=ds=#s11#, #a4#", "", "20%"};
+			{ 4, 45940, "", "=q4=Tunic of the Limber Stalker", "=ds=#s5#, #a2#", "", "20%"};
+			{ 5, 45934, "", "=q4=Unraveling Reach", "=ds=#w9#", "", "20%"};
+			{ 7, 45644, "", "=q4=Gloves of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45645, "", "=q4=Gloves of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45646, "", "=q4=Gloves of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 11, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "100%"};
+			{ 13, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "100%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3179#"};
-			{ 17, 45943, "", "=q4=Gloves of Whispering Winds", "=ds=#s9#, #a3#", "", "2%"};
-			{ 18, 45945, "", "=q4=Seed of Budding Carnage", "=ds=#s2#", "", "2%"};
-			{ 19, 45946, "", "=q4=Fire Orchid Signet", "=ds=#s13#", "", "2%"};
-			{ 20, 45947, "", "=q4=Serilas, Blood Blade of Invar One-Arm", "=ds=#h1# #w10#", "", "2%"};
-			{ 21, 45294, "", "=q4=Petrified Ivy Sprig", "=ds=#w12#", "", "1%"};
-			{ 23, 45788, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "4%"};
+			{ 17, 45946, "", "=q4=Fire Orchid Signet", "=ds=#s13#", "", "20%"};
+			{ 18, 45943, "", "=q4=Gloves of Whispering Winds", "=ds=#s9#, #a3#", "", "20%"};
+			{ 19, 45294, "", "=q4=Petrified Ivy Sprig", "=ds=#w12#", "", "20%"};
+			{ 20, 45945, "", "=q4=Seed of Budding Carnage", "=ds=#s2#", "", "20%"};
+			{ 21, 45947, "", "=q4=Serilas, Blood Blade of Invar One-Arm", "=ds=#h1# #w10#", "", "20%"};
+			{ 23, 45788, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 4, 45483, "", "=q4=Boots of the Servant", "=ds=#s12#, #a1#", "", "15%"};
-			{ 5, 45482, "", "=q4=Leggings of the Lifetender", "=ds=#s11#, #a2#", "", "17%"};
-			{ 6, 45481, "", "=q4=Gauntlets of Ruthless Reprisal", "=ds=#s9#, #a4#", "", "16%"};
-			{ 7, 45480, "", "=q4=Nymph Heart Charm", "=ds=#s2#", "", "13%"};
-			{ 8, 45479, "", "=q4=The Lifebinder", "=ds=#w9#", "", "19%"};
-			{ 10, 45653, "", "=q4=Legplates of the Wayward Conqueror", "=ds=#e15#", "", "43%"};
-			{ 11, 45654, "", "=q4=Legplates of the Wayward Protector", "=ds=#e15#", "", "52%"};
-			{ 12, 45655, "", "=q4=Legplates of the Wayward Vanquisher", "=ds=#e15#", "", "69%"};
-			{ 14, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "66%"};
+			
+			{ 1, 45483, "", "=q4=Boots of the Servant", "=ds=#s12#, #a1#", "", "20%"};
+			{ 2, 45481, "", "=q4=Gauntlets of Ruthless Reprisal", "=ds=#s9#, #a4#", "", "20%"};
+			{ 3, 45482, "", "=q4=Leggings of the Lifetender", "=ds=#s11#, #a2#", "", "20%"};
+			{ 4, 45480, "", "=q4=Nymph Heart Charm", "=ds=#s2#", "", "20%"};
+			{ 5, 45479, "", "=q4=The Lifebinder", "=ds=#w9#", "", "20%"};
+			{ 7, 45653, "", "=q4=Legplates of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45654, "", "=q4=Legplates of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45655, "", "=q4=Legplates of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 11, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "20%"};
+			{ 13, 45087, "", "=q3=Runed Orb", "=ds=#e6# =q1=(x1-2)", "", "100%"};
+			{ 15, 46110, "", "=q3=Alchemist's Cache", "=ds=#p1# (425)", "", "100%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3187#"};
-			{ 17, 45486, "", "=q4=Drape of the Sullen Goddess", "=ds=#s4#"};
-			{ 18, 45488, "", "=q4=Leggings of the Enslaved Idol", "=ds=#s11#, #a1#", "", "0.13%"};
-			{ 19, 45487, "", "=q4=Handguards of Revitalization", "=ds=#s9#, #a4#", "", "0.34%"};
-			{ 20, 45485, "", "=q4=Bronze Pendant of the Vanir", "=ds=#s2#"};
-			{ 21, 45484, "", "=q4=Bladetwister", "=ds=#h1#, #w4#", "", "0.27%"};
-			{ 22, 45613, "", "=q4=Dreambinder", "=ds=#w9#", "", "1%"};
-			{ 24, 45814, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "0.27%"};
+			{ 17, 45484, "", "=q4=Bladetwister", "=ds=#h1#, #w4#", "", "16.7%"};
+			{ 18, 45485, "", "=q4=Bronze Pendant of the Vanir", "=ds=#s2#", "", "16.7%"};
+			{ 19, 45486, "", "=q4=Drape of the Sullen Goddess", "=ds=#s4#", "", "16.7%"};
+			{ 20, 45613, "", "=q4=Dreambinder", "=ds=#w9#", "", "16.7%"};
+			{ 21, 45487, "", "=q4=Handguards of Revitalization", "=ds=#s9#, #a4#", "", "16.7%"};
+			{ 22, 45488, "", "=q4=Leggings of the Enslaved Idol", "=ds=#s11#, #a1#", "", "16.7%"};
+			{ 24, 45814, "", "=q1=Freya's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	info = {
@@ -4913,43 +4918,43 @@ AtlasLoot_Data["UlduarFreya"] = {
 AtlasLoot_Data["UlduarMimiron"] = {
 	["Normal"] = {
 		{
-			{ 1, 45973, "", "=q4=Stylish Power Cape", "=ds=#s4#", "", "19%"};
-			{ 2, 45976, "", "=q4=Static Charge Handwraps", "=ds=#s9#, #a1#", "", "20%"};
-			{ 3, 45974, "", "=q4=Shoulderguards of Assimilation", "=ds=#s3#, #a2#", "", "75%"};
-			{ 4, 45975, "", "=q4=Cable of the Metrognome", "=ds=#s10#, #a4#", "", "11%"};
-			{ 5, 45972, "", "=q4=Pulse Baton", "=ds=#h3#, #w6#", "", "0.13%"};
-			{ 7, 45647, "", "=q4=Helm of the Wayward Conqueror", "=ds=#e15#", "", "28%"};
-			{ 8, 45648, "", "=q4=Helm of the Wayward Protector", "=ds=#e15#", "", "75%"};
-			{ 9, 45649, "", "=q4=Helm of the Wayward Vanquisher", "=ds=#e15#", "", "37%"};
+			{ 1, 45975, "", "=q4=Cable of the Metrognome", "=ds=#s10#, #a4#", "", "20%"};
+			{ 2, 45972, "", "=q4=Pulse Baton", "=ds=#h3#, #w6#", "", "20%"};
+			{ 3, 45974, "", "=q4=Shoulderguards of Assimilation", "=ds=#s3#, #a2#", "", "20%"};
+			{ 4, 45976, "", "=q4=Static Charge Handwraps", "=ds=#s9#, #a1#", "", "20%"};
+			{ 5, 45973, "", "=q4=Stylish Power Cape", "=ds=#s4#", "", "20%"};
+			{ 7, 45647, "", "=q4=Helm of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45648, "", "=q4=Helm of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45649, "", "=q4=Helm of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3180#"};
-			{ 17, 45993, "", "=q4=Mimiron's Flight Goggles", "=ds=#s1#, #a2#", "", "1%"};
-			{ 18, 45989, "", "=q4=Tempered Mercury Greaves", "=ds=#s12#, #a3#", "", "0.34%"};
-			{ 19, 45982, "", "=q4=Fused Alloy Legplates", "=ds=#s11#, #a4#", "", "0.34%"};
-			{ 20, 45988, "", "=q4=Greaves of the Iron Army", "=ds=#s12#, #a4#"};
-			{ 21, 45990, "", "=q4=Fusion Blade", "=ds=#h1#, #w10#", "", "0.13%"};
-			{ 23, 45787, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "2%"};
+			{ 17, 45982, "", "=q4=Fused Alloy Legplates", "=ds=#s11#, #a4#", "", "20%"};
+			{ 18, 45990, "", "=q4=Fusion Blade", "=ds=#h3#, #w10#", "", "20%"};
+			{ 19, 45988, "", "=q4=Greaves of the Iron Army", "=ds=#s12#, #a4#", "", "20%"};
+			{ 20, 45993, "", "=q4=Mimiron's Flight Goggles", "=ds=#s1#, #a2#", "", "20%"};
+			{ 21, 45989, "", "=q4=Tempered Mercury Greaves", "=ds=#s12#, #a3#", "", "20%"};
+			{ 23, 45787, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 4, 45493, "", "=q4=Asimov's Drape", "=ds=#s4#", "", "11%"};
-			{ 5, 45492, "", "=q4=Malleable Steelweave Mantle", "=ds=#s3#, #a2#", "", "25%"};
-			{ 6, 45491, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#", "", "17%"};
-			{ 7, 45490, "", "=q4=Pandora's Plea", "=ds=#s14#", "", "17%"};
-			{ 8, 45489, "", "=q4=Insanity's Grip", "=ds=#h3#, #w13#", "", "15%"};
-			{ 10, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#e15#", "", "45%"};
-			{ 11, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#e15#", "", "50%"};
-			{ 12, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#e15#", "", "68%"};
+			{ 1, 45493, "", "=q4=Asimov's Drape", "=ds=#s4#", "", "20%"};
+			{ 2, 45489, "", "=q4=Insanity's Grip", "=ds=#h3#, #w13#", "", "20%"};
+			{ 3, 45492, "", "=q4=Malleable Steelweave Mantle", "=ds=#s3#, #a2#", "", "20%"};
+			{ 4, 45490, "", "=q4=Pandora's Plea", "=ds=#s14#", "", "20%"};
+			{ 5, 45491, "", "=q4=Waistguard of the Creator", "=ds=#s10#, #a2#", "", "20%"};
+			{ 7, 45641, "", "=q4=Gauntlets of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 8, 45642, "", "=q4=Gauntlets of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 9, 45643, "", "=q4=Gauntlets of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 11, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "18%"};
+			{ 13, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "10%"};
 			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3189#"};
-			{ 17, 45496, "", "=q4=Titanskin Cloak", "=ds=#s4#", "", "0.33%"};
-			{ 18, 45497, "", "=q4=Crown of Luminescence", "=ds=#s1#, #a1#"};
-			{ 19, 45663, "", "=q4=Armbands of Bedlam", "=ds=#s8#, #a4#"};
-			{ 20, 45495, "", "=q4=Conductive Seal", "=ds=#s13#"};
-			{ 21, 45494, "", "=q4=Delirium's Touch", "=ds=#h4#, #w13#"};
-			{ 22, 45620, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#"};
-			{ 24, 45816, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "0.16%"};
+			{ 17, 45663, "", "=q4=Armbands of Bedlam", "=ds=#s8#, #a4#", "", "16.7%"};
+			{ 18, 45495, "", "=q4=Conductive Seal", "=ds=#s13#", "", "16.7%"};
+			{ 19, 45497, "", "=q4=Crown of Luminescence", "=ds=#s1#, #a1#", "", "16.7%"};
+			{ 20, 45494, "", "=q4=Delirium's Touch", "=ds=#h4#, #w13#", "", "16.7%"};
+			{ 21, 45620, "", "=q4=Starshard Edge", "=ds=#h3#, #w4#", "", "16.7%"};
+			{ 22, 45496, "", "=q4=Titanskin Cloak", "=ds=#s4#", "", "16.7%"};
+			{ 24, 45816, "", "=q1=Mimiron's Sigil", "=ds=#m3#", "", "100%"};
 		};
 	};
 	info = {
@@ -4959,53 +4964,52 @@ AtlasLoot_Data["UlduarMimiron"] = {
 	};
 }
 
-AtlasLoot_Data["UlduarVezax"] = {
+AtlasLoot_Data["UlduarGeneralVezax"] = {
 	["Normal"] = {
 		{
-			{ 1, 46014, "", "=q4=Saronite Animus Cloak", "=ds=#s4#", "", "22%"};
-			{ 2, 46013, "", "=q4=Underworld Mantle", "=ds=#s3#, #a1#", "", "20%"};
-			{ 3, 46012, "", "=q4=Vestments of the Piercing Light", "=ds=#s5#, #a1#", "", "20%"};
-			{ 4, 46009, "", "=q4=Bindings of the Depths", "=ds=#s8#, #a2#", "", "17%"};
-			{ 5, 46346, "", "=q4=Boots of Unsettled Prey", "=ds=#s12#, #a3#", "", "6%"};
-			{ 6, 45997, "", "=q4=Gauntlets of the Wretched", "=ds=#s9#, #a4#", "", "17%"};
-			{ 8, 46008, "", "=q4=Choker of the Abyss", "=ds=#s2#", "", "18%"};
-			{ 9, 46015, "", "=q4=Pendant of Endless Despair", "=ds=#s2#", "", "18%"};
-			{ 10, 46010, "", "=q4=Darkstone Ring", "=ds=#s13#", "", "21%"};
-			{ 16, 46011, "", "=q4=Shadowbite", "=ds=#h1#, #w4#", "", "19%"};
-			{ 17, 45996, "", "=q4=Hoperender", "=ds=#w7#", "", "22%"};
-			{ 19, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3181#"};
-			{ 20, 46032, "", "=q4=Drape of the Faceless General", "=ds=#s4#", "", "2%"};
-			{ 21, 46034, "", "=q4=Leggings of Profound Darkness", "=ds=#s11#, #a1#", "", "3%"};
-			{ 22, 46036, "", "=q4=Void Sabre", "=ds=#h1#, #w10#", "", "2%"};
-			{ 23, 46035, "", "=q4=Aesuga, Hand of the Ardent Champion", "=ds=#h1#, #w6#", "", "3%"};
-			{ 24, 46033, "", "=q4=Tortured Earth", "=ds=#w9#", "", "4%"};
+			{ 1, 46009, "", "=q4=Bindings of the Depths", "=ds=#s8#, #a2#", "", "10%"};
+			{ 2, 46008, "", "=q4=Choker of the Abyss", "=ds=#s2#", "", "10%"};
+			{ 3, 46010, "", "=q4=Darkstone Ring", "=ds=#s13#", "", "10%"};
+			{ 4, 45997, "", "=q4=Gauntlets of the Wretched", "=ds=#s9#, #a4#", "", "10%"};
+			{ 5, 45996, "", "=q4=Hoperender", "=ds=#w7#", "", "10%"};
+			{ 6, 46015, "", "=q4=Pendant of Endless Despair", "=ds=#s2#", "", "10%"};
+			{ 7, 46014, "", "=q4=Saronite Animus Cloak", "=ds=#s4#", "", "10%"};
+			{ 8, 46011, "", "=q4=Shadowbite", "=ds=#h1#, #w4#", "", "10%"};
+			{ 9, 46013, "", "=q4=Underworld Mantle", "=ds=#s3#, #a1#", "", "10%"};
+			{ 10, 46012, "", "=q4=Vestments of the Piercing Light", "=ds=#s5#, #a1#", "", "10%"};
+			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3181#"};
+			{ 17, 46035, "", "=q4=Aesuga, Hand of the Ardent Champion", "=ds=#h3#, #w6#", "", "20%"};
+			{ 18, 46032, "", "=q4=Drape of the Faceless General", "=ds=#s4#", "", "20%"};
+			{ 19, 46034, "", "=q4=Leggings of Profound Darkness", "=ds=#s11#, #a1#", "", "20%"};
+			{ 20, 46033, "", "=q4=Tortured Earth", "=ds=#w9#", "", "20%"};
+			{ 21, 46036, "", "=q4=Void Sabre", "=ds=#h1#, #w10#", "", "20%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45514, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#", "", "20%"};
-			{ 2, 45508, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#", "", "21%"};
-			{ 3, 45512, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#", "", "19%"};
-			{ 4, 45504, "", "=q4=Darkcore Leggings", "=ds=#s11#, #a3#", "", "18%"};
-			{ 5, 45513, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#", "", "18%"};
-			{ 6, 45502, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#", "", "19%"};
-			{ 7, 45505, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#", "", "19%"};
-			{ 8, 45501, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#", "", "17%"};
-			{ 10, 45503, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#", "", "20%"};
-			{ 11, 45515, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#", "", "21%"};
-			{ 12, 45507, "", "=q4=The General's Heart", "=ds=#s14#", "", "20%"};
-			{ 13, 45509, "", "=q4=Idol of the Corruptor", "=ds=#w14#", "", "17%"};
-			{ 14, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#w16#", "", "19%"};
-			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 17, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 19, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "20%"};
-			{ 20, 45511, "", "=q4=Scepter of Lost Souls", "=ds=#w12#", "", "19%"};
-			{ 22, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3188#"};
-			{ 23, 45520, "", "=q4=Handwraps of the Vigilant", "=ds=#s9#, #a1#", "", "0.32%"};
-			{ 24, 45519, "", "=q4=Vestments of the Blind Denizen", "=ds=#s5#, #a2#", "", "0.32%"};
-			{ 25, 45517, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "0.36%"};
-			{ 26, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#"};
-			{ 27, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#"};
+			{ 1, 45505, "", "=q4=Belt of Clinging Hope", "=ds=#s10#, #a4#", "", "7.7%"};
+			{ 2, 45508, "", "=q4=Belt of the Darkspeaker", "=ds=#s10#, #a1#", "", "7.7%"};
+			{ 3, 45513, "", "=q4=Boots of the Forgotten Depths", "=ds=#s12#, #a3#", "", "7.7%"};
+			{ 4, 45501, "", "=q4=Boots of the Underdweller", "=ds=#s12#, #a4#", "", "7.7%"};
+			{ 5, 45504, "", "=q4=Darkcore Leggings", "=ds=#s11#, #a3#", "", "7.7%"};
+			{ 6, 45512, "", "=q4=Grips of the Unbroken", "=ds=#s9#, #a2#", "", "7.7%"};
+			{ 7, 45502, "", "=q4=Helm of the Faceless", "=ds=#s1#, #a4#", "", "7.7%"};
+			{ 8, 45509, "", "=q4=Idol of the Corruptor", "=ds=#w14#", "", "7.7%"};
+			{ 9, 45145, "", "=q4=Libram of the Sacred Shield", "=ds=#w16#", "", "7.7%"};
+			{ 10, 45514, "", "=q4=Mantle of the Unknowing", "=ds=#s3#, #a1#", "", "7.7%"};
+			{ 11, 45503, "", "=q4=Metallic Loop of the Sufferer", "=ds=#s13#", "", "7.7%"};
+			{ 12, 45515, "", "=q4=Ring of the Vacant Eye", "=ds=#s13#", "", "7.7%"};
+			{ 13, 45507, "", "=q4=The General's Heart", "=ds=#s14#", "", "7.7%"};
+			{ 15, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "11%"};
+			{ 16, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "10%"};
+			{ 18, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3188#"};
+			{ 19, 45518, "", "=q4=Flare of the Heavens", "=ds=#s14#", "", "14.3%"};
+			{ 20, 45520, "", "=q4=Handwraps of the Vigilant", "=ds=#s9#, #a1#", "", "14.3%"};
+			{ 21, 45498, "", "=q4=Lotrafen, Spear of the Damned", "=ds=#w7#", "", "14.3%"};
+			{ 22, 45517, "", "=q4=Pendulum of Infinity", "=ds=#s2#", "", "14.3%"};
+			{ 23, 45511, "", "=q4=Scepter of Lost Souls", "=ds=#w12#", "", "14.3%"};
+			{ 24, 45519, "", "=q4=Vestments of the Blind Denizen", "=ds=#s5#, #a2#", "", "14.3%"};
+			{ 25, 45516, "", "=q4=Voldrethar, Dark Blade of Oblivion", "=ds=#h2#, #w10#", "", "14.3%"};
 		};
 	};
 	info = {
@@ -5018,54 +5022,55 @@ AtlasLoot_Data["UlduarVezax"] = {
 AtlasLoot_Data["UlduarYoggSaron"] = {
 	["Normal"] = {
 		{
-			{ 1, 46030, "", "=q4=Treads of the Dragon Council", "=ds=#s12#, #a1#", "", "17%"};
-			{ 2, 46019, "", "=q4=Leggings of the Insatiable", "=ds=#s11#, #a3#", "", "12%"};
-			{ 3, 46028, "", "=q4=Faceguard of the Eyeless Horror", "=ds=#s1#, #a4#", "", "17%"};
-			{ 4, 46022, "", "=q4=Pendant of a Thousand Maws", "=ds=#s2#", "", "8%"};
-			{ 5, 46021, "", "=q4=Royal Seal of King Llane", "=ds=#s14#", "", "12%"};
-			{ 6, 46024, "", "=q4=Kingsbane", "=ds=#h1#, #w4#", "", "10%"};
-			{ 7, 46016, "", "=q4=Abaddon", "=ds=#h2#, #w10#", "", "17%"};
-			{ 8, 46031, "", "=q4=Touch of Madness", "=ds=#h1#, #w1#", "", "25%"};
-			{ 9, 46025, "", "=q4=Devotion", "=ds=#w9#", "", "23%"};
-			{ 10, 46018, "", "=q4=Deliverance", "=ds=#w3#", "", "35%"};
-			{ 12, 45635, "", "=q4=Chestguard of the Wayward Conqueror", "=ds=#e15#", "", "52%"};
-			{ 13, 45636, "", "=q4=Chestguard of the Wayward Protector", "=ds=#e15#", "", "50%"};
-			{ 14, 45637, "", "=q4=Chestguard of the Wayward Vanquisher", "=ds=#e15#", "", "27%"};
-			{ 16, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3157#"};
-			{ 17, 46068, "", "=q4=Amice of Inconceivable Horror", "=ds=#s3#, #a1#"};
-			{ 18, 46095, "", "=q4=Soul-Devouring Cinch", "=ds=#s10#, #a2#"};
-			{ 19, 46096, "", "=q4=Signet of Soft Lament", "=ds=#s13#"};
-			{ 20, 46097, "", "=q4=Caress of Insanity", "=ds=#h1#, #w6#"};
-			{ 21, 46067, "", "=q4=Hammer of Crushing Whispers", "=ds=#h2#, #w6#"};
-			{ 23, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3159#"};
-			{ 24, 46312, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
+			{ 1, 46016, "", "=q4=Abaddon", "=ds=#h2#, #w10#", "", "10%"};
+			{ 2, 46018, "", "=q4=Deliverance", "=ds=#w3#", "", "10%"};
+			{ 3, 46025, "", "=q4=Devotion", "=ds=#w9#", "", "10%"};
+			{ 4, 46028, "", "=q4=Faceguard of the Eyeless Horror", "=ds=#s1#, #a4#", "", "10%"};
+			{ 5, 46024, "", "=q4=Kingsbane", "=ds=#h1#, #w4#", "", "10%"};
+			{ 6, 46019, "", "=q4=Leggings of the Insatiable", "=ds=#s11#, #a3#", "", "10%"};
+			{ 7, 46022, "", "=q4=Pendant of a Thousand Maws", "=ds=#s2#", "", "10%"};
+			{ 8, 46021, "", "=q4=Royal Seal of King Llane", "=ds=#s14#", "", "10%"};
+			{ 9, 46031, "", "=q4=Touch of Madness", "=ds=#h1#, #w1#", "", "10%"};
+			{ 10, 46030, "", "=q4=Treads of the Dragon Council", "=ds=#s12#, #a1#", "", "10%"};
+			{ 12, 45635, "", "=q4=Chestguard of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 13, 45636, "", "=q4=Chestguard of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 14, 45637, "", "=q4=Chestguard of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 16, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "100%"};
+			{ 18, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3157#"};
+			{ 19, 46068, "", "=q4=Amice of Inconceivable Horror", "=ds=#s3#, #a1#", "", "20%"};
+			{ 20, 46097, "", "=q4=Caress of Insanity", "=ds=#h1#, #w6#", "", "20%"};
+			{ 21, 46067, "", "=q4=Hammer of Crushing Whispers", "=ds=#h2#, #w6#", "", "20%"};
+			{ 22, 46096, "", "=q4=Signet of Soft Lament", "=ds=#s13#", "", "20%"};
+			{ 23, 46095, "", "=q4=Soul-Devouring Cinch", "=ds=#s10#, #a2#", "", "20%"};
+			{ 25, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3159#"};
+			{ 26, 46312, "", "=q4=Vanquished Clutches of Yogg-Saron", "=ds=#s14#", "", "100%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m3#", "", "40%"};
-			{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=q1=#m4#: =ds=#h1#, #w6#"};
-			{ 4, 45529, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#", "", "25%"};
-			{ 5, 45532, "", "=q4=Cowl of Dark Whispers", "=ds=#s1#, #a1#", "", "17%"};
-			{ 6, 45523, "", "=q4=Garona's Guise", "=ds=#s1#, #a2#", "", "18%"};
-			{ 7, 45524, "", "=q4=Chestguard of Insidious Intent", "=ds=#s5#, #a3#", "", "13%"};
-			{ 8, 45531, "", "=q4=Chestguard of the Fallen God", "=ds=#s5#, #a3#", "", "16%"};
-			{ 9, 45525, "", "=q4=Godbane Signet", "=ds=#s13#", "", "11%"};
-			{ 10, 45530, "", "=q4=Sanity's Bond", "=ds=#s13#", "", "18%"};
-			{ 11, 45522, "", "=q4=Blood of the Old God", "=ds=#s14#", "", "20%"};
-			{ 12, 45527, "", "=q4=Soulscribe", "=ds=#h3#, #w4#", "", "9%"};
-			{ 13, 45521, "", "=q4=Earthshaper", "=ds=#h2#, #w6#", "", "15%"};
-			{ 16, 45656, "", "=q4=Mantle of the Wayward Conqueror", "=ds=#e15#", "", "59%"};
-			{ 17, 45657, "", "=q4=Mantle of the Wayward Protector", "=ds=#e15#", "", "54%"};
-			{ 18, 45658, "", "=q4=Mantle of the Wayward Vanquisher", "=ds=#e15#", "", "66%"};
+			{ 1, 45522, "", "=q4=Blood of the Old God", "=ds=#s14#", "", "10%"};
+			{ 2, 45524, "", "=q4=Chestguard of Insidious Intent", "=ds=#s5#, #a3#", "", "10%"};
+			{ 3, 45531, "", "=q4=Chestguard of the Fallen God", "=ds=#s5#, #a3#", "", "10%"};
+			{ 4, 45532, "", "=q4=Cowl of Dark Whispers", "=ds=#s1#, #a1#", "", "10%"};
+			{ 5, 45521, "", "=q4=Earthshaper", "=ds=#h2#, #w6#", "", "10%"};
+			{ 6, 45523, "", "=q4=Garona's Guise", "=ds=#s1#, #a2#", "", "10%"};
+			{ 7, 45525, "", "=q4=Godbane Signet", "=ds=#s13#", "", "10%"};
+			{ 8, 45530, "", "=q4=Sanity's Bond", "=ds=#s13#", "", "10%"};
+			{ 9, 45529, "", "=q4=Shawl of Haunted Memories", "=ds=#s4#", "", "10%"};
+			{ 10, 45527, "", "=q4=Soulscribe", "=ds=#h3#, #w4#", "", "10%"};
+			{ 12, 45656, "", "=q4=Mantle of the Wayward Conqueror", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 13, 45657, "", "=q4=Mantle of the Wayward Protector", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 14, 45658, "", "=q4=Mantle of the Wayward Vanquisher", "=ds=#m41# #e15#", "", "33.3%"};
+			{ 16, 45038, "", "=q5=Fragment of Val'anyr", "=ds=#m20#", "", "100%"};
+			{ 18, 45087, "", "=q3=Runed Orb", "=ds=#e6#", "", "10%"};
 			{ 20, 0, "INV_Box_01", "=q6=#j53#", "#ACHIEVEMENTID:3161#"};
-			{ 21, 45537, "", "=q4=Treads of the False Oracle", "=ds=#s12#, #a1#", "", "1%"};
-			{ 22, 45536, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "1%"};
-			{ 23, 45534, "", "=q4=Seal of the Betrayed King", "=ds=#s13#"};
-			{ 24, 45535, "", "=q4=Show of Faith", "=ds=#s14#"};
-			{ 25, 45533, "", "=q4=Dark Edge of Depravity", "=ds=#h2#, #w1#", "", "1%"};
+			{ 21, 45533, "", "=q4=Dark Edge of Depravity", "=ds=#w7#", "", "20%"};
+			{ 22, 45536, "", "=q4=Legguards of Cunning Deception", "=ds=#s11#, #a2#", "", "20%"};
+			{ 23, 45534, "", "=q4=Seal of the Betrayed King", "=ds=#s13#", "", "20%"};
+			{ 24, 45535, "", "=q4=Show of Faith", "=ds=#s14#", "", "20%"};
+			{ 25, 45537, "", "=q4=Treads of the False Oracle", "=ds=#s12#, #a1#", "", "20%"};
 			{ 27, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3164#"};
-			{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e27#", "", "1%"};
+			{ 28, 45693, "", "=q4=Mimiron's Head", "=ds=#e27#", "", "100%"};
 		};
 	};
 	info = {
@@ -5078,33 +5083,33 @@ AtlasLoot_Data["UlduarYoggSaron"] = {
 AtlasLoot_Data["UlduarTrash"] = {
 	["Normal"] = {
 		{
-			{ 1, 46341, "", "=q4=Drape of the Spellweaver", "=ds=#s4#", "", "2%"};
-			{ 2, 46347, "", "=q4=Cloak of the Dormant Blaze", "=ds=#s4#", "", "2%"};
-			{ 3, 46344, "", "=q4=Iceshear Mantle", "=ds=#s3#, #a1#", "", "2%"};
-			{ 4, 46346, "", "=q4=Boots of Unsettled Prey", "=ds=#s12#, #a3#", "", "6%"};
-			{ 5, 46345, "", "=q4=Bracers of Righteous Reformation", "=ds=#s8#, #a4#", "", "2%"};
-			{ 6, 46340, "", "=q4=Adamant Handguards", "=ds=#s9#, #a4#", "", "2%"};
-			{ 8, 46343, "", "=q4=Fervor of the Protectorate", "=ds=#s2#", "", "2%"};
-			{ 16, 46339, "", "=q4=Mimiron's Repeater", "=ds=#w5#", "", "2%"};
-			{ 17, 46351, "", "=q4=Bloodcrush Cudgel", "=ds=#h1# #w6#", "", "2%"};
-			{ 18, 46350, "", "=q4=Pillar of Fortitude", "=ds=#w9#", "", "2%"};
-			{ 19, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#", "", "2%"};
+			{ 1, 46340, "", "=q4=Adamant Handguards", "=ds=#s9#, #a4#", "", "0.08%"};
+			{ 2, 46351, "", "=q4=Bloodcrush Cudgel", "=ds=#h1#, #w6#", "", "0.08%"};
+			{ 3, 46346, "", "=q4=Boots of Unsettled Prey", "=ds=#s12#, #a3#", "", "0.08%"};
+			{ 4, 46345, "", "=q4=Bracers of Righteous Reformation", "=ds=#s8#, #a4#", "", "0.08%"};
+			{ 5, 46347, "", "=q4=Cloak of the Dormant Blaze", "=ds=#s4#", "", "0.08%"};
+			{ 6, 46341, "", "=q4=Drape of the Spellweaver", "=ds=#s4#", "", "0.08%"};
+			{ 7, 46343, "", "=q4=Fervor of the Protectorate", "=ds=#s2#", "", "0.08%"};
+			{ 8, 46342, "", "=q4=Golemheart Longbow", "=ds=#w2#", "", "0.08%"};
+			{ 9, 46344, "", "=q4=Iceshear Mantle", "=ds=#s3#, #a1#", "", "0.08%"};
+			{ 10, 46350, "", "=q4=Pillar of Fortitude", "=ds=#w9#", "", "0.08%"};
+			{ 11, 45538, "", "=q4=Titanstone Pendant", "=ds=#s2#", "", "0.08%"};
 		};
 	};
 	["25Man"] = {
 		{
-			{ 1, 45541, "", "=q4=Shroud of Alteration", "=ds=#s4#", "", "2%"};
-			{ 2, 45549, "", "=q4=Grips of Chaos", "=ds=#s8#, #a1#", "", "3%"};
-			{ 3, 45547, "", "=q4=Relic Hunter's Cord", "=ds=#s10#, #a2#", "", "3%"};
-			{ 4, 45548, "", "=q4=Belt of the Sleeper", "=ds=#s10#, #a2#", "", "2%"};
-			{ 5, 45543, "", "=q4=Shoulders of Misfortune", "=ds=#s3#, #a3#", "", "2%"};
-			{ 6, 45544, "", "=q4=Leggings of the Tortured Earth", "=ds=#s11#, #a3#", "", "2%"};
-			{ 7, 45542, "", "=q4=Greaves of the Stonewarder", "=ds=#s12#, #a4#", "", "2%"};
-			{ 9, 45540, "", "=q4=Bladebearer's Signet", "=ds=#s13#", "", "2%"};
-			{ 10, 45539, "", "=q4=Pendant of Focused Energies", "=ds=#s2#", "", "6%"};
-			{ 11, 45538, "", "=q4=Titanstone Pendant", "=ds=#s2#", "", "3%"};
-			{ 12, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#w14#", "", "6%"};
-			{ 16, 45605, "", "=q4=Daschal's Bite", "=ds=#h1# #w4#", "", "2%"};
+			{ 1, 45548, "", "=q4=Belt of the Sleeper", "=ds=#s10#, #a2#", "", "0.19%"};
+			{ 2, 45540, "", "=q4=Bladebearer's Signet", "=ds=#s13#", "", "0.19%"};
+			{ 3, 45605, "", "=q4=Daschal's Bite", "=ds=#h1#, #w4#", "", "0.19%"};
+			{ 4, 45542, "", "=q4=Greaves of the Stonewarder", "=ds=#s12#, #a4#", "", "0.19%"};
+			{ 5, 45549, "", "=q4=Grips of Chaos", "=ds=#s8#, #a1#", "", "0.19%"};
+			{ 6, 46138, "", "=q4=Idol of the Flourishing Life", "=ds=#w14#", "", "0.19%"};
+			{ 7, 45544, "", "=q4=Leggings of the Tortured Earth", "=ds=#s11#, #a3#", "", "0.19%"};
+			{ 8, 45539, "", "=q4=Pendant of Focused Energies", "=ds=#s2#", "", "0.19%"};
+			{ 9, 45547, "", "=q4=Relic Hunter's Cord", "=ds=#s10#, #a2#", "", "0.19%"};
+			{ 10, 45543, "", "=q4=Shoulders of Misfortune", "=ds=#s3#, #a3#", "", "0.19%"};
+			{ 11, 45541, "", "=q4=Shroud of Alteration", "=ds=#s4#", "", "0.19%"};
+			{ 12, 45538, "", "=q4=Titanstone Pendant", "=ds=#s2#", "", "0.19%"};
 		};
 	};
 	info = {
@@ -5117,26 +5122,50 @@ AtlasLoot_Data["UlduarTrash"] = {
 AtlasLoot_Data["UlduarPatterns"] = {
 	["Normal"] = {
 		{
-			{ 1, 45089, "", "=q4=Plans: Battlelord's Plate Boots", "=ds=#p2# (450)"};
-			{ 2, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)"};
-			{ 3, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)"};
-			{ 4, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)"};
-			{ 5, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)"};
-			{ 6, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)"};
-			{ 7, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)"};
-			{ 8, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)"};
-			{ 9, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)"};
-			{ 10, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)"};
-			{ 11, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)"};
-			{ 12, 45101, "", "=q4=Pattern: Boots of Wintry Endurance", "=ds=#p7# (450)"};
-			{ 13, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)"};
-			{ 14, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)"};
-			{ 15, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)"};
-			{ 16, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)"};
-			{ 17, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)"};
-			{ 18, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)"};
-			{ 19, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)"};
-			{ 30, 45087, "", "=q3=Runed Orb", "=ds=#e8#"};
+			{ 1, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)", "", "FL: 14%; Yogg: 1.4%"};
+			{ 2, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)", "", "FL: 14%; Yogg: 1.4%"};
+			{ 3, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 4, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 5, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 6, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 7, 45101, "", "=q4=Pattern: Boots of Wintry Endurance", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 8, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 9, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 10, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 11, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 12, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 13, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 14, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 15, 45089, "", "=q4=Plans: Battlelord's Plate Boots", "=ds=#p2# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 16, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 17, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 18, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 19, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)", "", "FL: 4%; Yogg: 0.4%"};
+			{ 20, 45091, "", "=q4=Plans: Treads of Destiny", "=ds=#p2# (450)", "", "FL: 4%; Yogg: 0.4%"};
+		};
+	};
+	["25Man"] = {
+		{
+			{ 1, 46348, "", "=q4=Formula: Enchant Weapon - Blood Draining", "=ds=#p4# (450)", "", "FL: 0.7%; Others: 1.4%"};
+			{ 2, 46027, "", "=q4=Formula: Enchant Weapon - Blade Ward", "=ds=#p4# (450)", "", "FL: 0.7%; Others: 1.4%"};
+			{ 3, 45100, "", "=q4=Pattern: Belt of Arctic Life", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 4, 45094, "", "=q4=Pattern: Belt of Dragons", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 5, 45096, "", "=q4=Pattern: Blue Belt of Chaos", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 6, 45095, "", "=q4=Pattern: Boots of Living Scale", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 7, 45101, "", "=q4=Pattern: Boots of Wintry Endurance", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 8, 45104, "", "=q4=Pattern: Cord of the White Dawn", "=ds=#p8# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 9, 45098, "", "=q4=Pattern: Death-warmed Belt", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 10, 45099, "", "=q4=Pattern: Footpads of Silence", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 11, 45097, "", "=q4=Pattern: Lightning Grounded Boots", "=ds=#p7# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 12, 45102, "", "=q4=Pattern: Sash of Ancient Power", "=ds=#p8# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 13, 45105, "", "=q4=Pattern: Savior's Slippers", "=ds=#p8# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 14, 45103, "", "=q4=Pattern: Spellslinger's Slippers", "=ds=#p8# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 15, 45089, "", "=q4=Plans: Battlelord's Plate Boots", "=ds=#p2# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 16, 45088, "", "=q4=Plans: Belt of the Titans", "=ds=#p2# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 17, 45092, "", "=q4=Plans: Indestructible Plate Girdle", "=ds=#p2# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 18, 45090, "", "=q4=Plans: Plate Girdle of Righteousness", "=ds=#p2# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 19, 45093, "", "=q4=Plans: Spiked Deathdealers", "=ds=#p2# (450)", "", "FL: 0.2%; Others: 0.4%"};
+			{ 20, 45091, "", "=q4=Plans: Treads of Destiny", "=ds=#p2# (450)", "", "FL: 0.2%; Others: 0.4%"};
 		};
 	};
 	info = {
