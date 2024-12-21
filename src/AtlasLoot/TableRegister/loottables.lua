@@ -356,10 +356,10 @@ AtlasLoot_LootTableRegister = {
 
 		["VaultOfArchavon"] = {
 			["Bosses"] = {
-				{ "ARCHAVON", 2 },
-				{ "EMALON",   3 },
-				{ "KORALON",  4 },
-				{ "TORAVON",  5 },
+				{ "ARCHAVON", 1 },
+				{ "EMALON", 2 },
+				{ "KORALON", 3 },
+				{ "TORAVON", 4 },
 			},
 			["Info"] = { BabbleZone["Vault of Archavon"], "AtlasLootWotLK", mapname = "VaultofArchavon", raid = true, disableCompare = true },
 		},
