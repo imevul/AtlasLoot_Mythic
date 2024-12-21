@@ -425,7 +425,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["ARCHAVON"] = { --duplicate for faction specific
+	AtlasLoot_Data["ARCHAVON"] = {
 		["Normal_H"] = {
 			{
 				{ 2, "VoAArchavon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
