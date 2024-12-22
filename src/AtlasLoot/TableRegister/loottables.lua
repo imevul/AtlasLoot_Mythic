@@ -1210,9 +1210,9 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicAuchAuchenaiCrypts"] = {
 			["Bosses"] = {
-				{ "MythicAuchCryptsShirrak", 3 },
-				{ "MythicAuchCryptsExarch",  4 },
-				{ "MythicAuchCryptsAvatar",  5 },
+				{ "MythicAuchenaiCryptsShirrakTheDeadWatcher", 1 },
+				{ "MythicAuchenaiCryptsExarchMaladaar", 2 },
+				{ "MythicAuchenaiCryptsAvatarOfTheMartyred", 3 },
 			},
 			["Info"] = { BabbleZone["Auchenai Crypts"].."+", "AtlasLootMythic" },
 		},
@@ -1294,9 +1294,9 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicHCHellfireRamparts"] = {
 			["Bosses"] = {
-				{ "MythicHCRampWatchkeeper", 4 },
-				{ "MythicHCRampOmor",        5 },
-				{ "MythicHCRampVazruden",    { 6, 8 } },
+				{ "MythicHellfireRampartsWatchkeeperGargolmar", 1 },
+				{ "MythicHellfireRampartsOmorTheUnscarred", 2 },
+				{ "MythicHellfireRampartsVazrudenNazan", 3 },
 			},
 			["Info"] = { BabbleZone["Hellfire Ramparts"].."+", "AtlasLootMythic" },
 		},
