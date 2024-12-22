@@ -1219,19 +1219,19 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicAuchManaTombs"] = {
 			["Bosses"] = {
-				{ "MythicAuchManaPandemonius", 4 },
-				{ "MythicAuchManaTavarok",     6 },
-				{ "MythicAuchManaNexusPrince", 7 },
-				{ "MythicAuchManaYor",         8 },
+				{ "MythicManaTombsPandemonius", 1 },
+				{ "MythicManaTombsTavarok", 2 },
+				{ "MythicManaTombsNexusPrinceShaffar", 3 },
+				{ "MythicManaTombsYor", 4 },
 			},
 			["Info"] = { BabbleZone["Mana-Tombs"].."+", "AtlasLootMythic", mapname = "ManaTombs1" },
 		},
 
 		["MythicAuchSethekkHalls"] = {
 			["Bosses"] = {
-				{ "MythicAuchSethekkDarkweaver", 3 },
-				{ "MythicAuchSethekkRavenGod",   5 },
-				{ "MythicAuchSethekkTalonKing",  7 },
+				{ "MythicSethekkHallsDarkweaverSyth", 3 },
+				{ "MythicSethekkHallsAnzu",   5 },
+				{ "MythicSethekkHallsTalonKingIkiss",  7 },
 			},
 			["Info"] = { BabbleZone["Sethekk Halls"].."+", "AtlasLootMythic" },
 		},
@@ -1248,9 +1248,9 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicCoTOldHillsbrad"] = {
 			["Bosses"] = {
-				{ "MythicCoTHillsbradDrake",   10 },
-				{ "MythicCoTHillsbradSkarloc", 12 },
-				{ "MythicCoTHillsbradHunter",  15 },
+				{ "MythicOldHillsbradLieutenantDrake", 1 },
+				{ "MythicOldHillsbradCaptainSkarloc", 2 },
+				{ "MythicOldHillsbradEpochHunter", 3 },
 			},
 			["Info"] = { BabbleZone["Old Hillsbrad Foothills"].."+", "AtlasLootMythic" },
 		},
@@ -1322,10 +1322,10 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicMagistersTerrace"] = {
 			["Bosses"] = {
-				{ "MythicSMTFireheart", 4 },
-				{ "MythicSMTVexallus",  6 },
-				{ "MythicSMTDelrissa",  7 },
-				{ "MythicSMTKaelthas",  18 },
+				{ "MythicMagistersTerraceSelinFireheart", 1 },
+				{ "MythicMagistersTerraceVexallus", 2 },
+				{ "MythicMagistersTerracePriestessDelrissa", 3 },
+				{ "MythicMagistersTerraceKaelthasSunstrider", 4 },
 			},
 			["Info"] = { BabbleZone["Magisters' Terrace"].."+", "AtlasLootMythic" },
 		},
