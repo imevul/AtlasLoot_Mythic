@@ -73,11 +73,11 @@ AtlasLoot_Data["MythicTKMechCalc"] = {
 		{ 5,  60153, "", "=q4=Mana Wrath",                   "=ds=#h3#, #w10#",     "", "11.38%" },
 		{ 6,  60152, "", "=q4=Edge of the Cosmos",           "=ds=#h1#, #w10#",     "", "11.13%" },
 		{ 7,  60148, "", "=q4=Telescopic Sharprifle",        "=ds=#w5#",            "", "12.28%" },
-		{ 16, 60145, "", "=q4=Incanter's Cowl",              "=ds=#s1#, #a1# (D3)", "", "13.39%" },
-		{ 17, 60147, "", "=q4=Moonglade Robe",               "=ds=#s5#, #a2# (D3)", "", "11.92%" },
-		{ 18, 60154, "", "=q4=Tunic of Assassination",       "=ds=#s5#, #a2# (D3)", "", "12.44%" },
-		{ 19, 60151, "", "=q4=Beast Lord Helm",              "=ds=#s1#, #a3# (D3)", "", "12.37%" },
-		{ 20, 60144, "", "=q4=Helm of the Righteous",        "=ds=#s1#, #a4# (D3)", "", "10.88%" },
+		{ 16, 60145, "", "=q4=Incanter's Cowl",              "=ds=#s1#, #a1# =q1=#j10#+", "", "13.39%" },
+		{ 17, 60147, "", "=q4=Moonglade Robe",               "=ds=#s5#, #a2# =q1=#j10#+", "", "11.92%" },
+		{ 18, 60154, "", "=q4=Tunic of Assassination",       "=ds=#s5#, #a2# =q1=#j10#+", "", "12.44%" },
+		{ 19, 60151, "", "=q4=Beast Lord Helm",              "=ds=#s1#, #a3# =q1=#j10#+", "", "12.37%" },
+		{ 20, 60144, "", "=q4=Helm of the Righteous",        "=ds=#s1#, #a4# =q1=#j10#+", "", "10.88%" },
 		{ 22, 60155, "", "=q4=Boots of the Pious",           "=ds=#s12#, #a1#",     "", "7.88%" },
 		{ 23, 60157, "", "=q4=Handguards of the Steady",     "=ds=#s9#, #a3#" },
 		{ 24, 60156, "", "=q4=Vanquisher's Legplates",       "=ds=#s11#, #a4#",     "", "6.90%" },
@@ -154,8 +154,8 @@ AtlasLoot_Data["MythicCFRUnderStalker"] = {
 		{ 12, 60198, "", "=q4=Ring of Fabled Hope",             "=ds=#s13#",            "", "9.90%" },
 		{ 13, 60199, "", "=q4=Alembic of Infernal Power",       "=ds=#s14#",            "", "12.60%" },
 		{ 14, 60192, "", "=q4=Argussian Compass",               "=ds=#s14#",            "", "3.66%" },
-		{ 20, 60201, "", "=q4=Mana-Etched Pantaloons",          "=ds=#s11#, #a1# (D3)", "", "4.88%" },
-		{ 21, 60200, "", "=q4=Doomplate Shoulderguards",        "=ds=#s3#, #a4# (D3)",  "", "6.50%" },
+		{ 20, 60201, "", "=q4=Mana-Etched Pantaloons",          "=ds=#s11#, #a1# =q1=#j10#+", "", "4.88%" },
+		{ 21, 60200, "", "=q4=Doomplate Shoulderguards",        "=ds=#s3#, #a4# =q1=#j10#+",  "", "6.50%" },
 		{ 23, 60197, "", "=q4=Endbringer",                      "=ds=#h2#, #w10#",      "", "9.35%" },
 		{ 24, 60202, "", "=q4=Stormshield of Renewal",          "=ds=#w8#",             "", "13.01%" },
 	} },
@@ -333,15 +333,17 @@ AtlasLoot_Data["MythicHellfireRampartsVazrudenNazan"] = {
 --- Auchindoun: Shadow Labyrinth ---
 ------------------------------------
 
-AtlasLoot_Data["MythicAuchShadowHellmaw"] = {
-	["Normal"] = { {
-		{ 1, 60339, "", "=q4=Jaedenfire Gloves of Annihilation", "=ds=#s9#, #a1#",   "", "13.58%" },
-		{ 2, 60337, "", "=q4=Dream-Wing Helm",                   "=ds=#s1#, #a3#",   "", "11.81%" },
-		{ 3, 60340, "", "=q4=Ornate Boots of the Sanctified",    "=ds=#s12#, #a4#",  "", "13.15%" },
-		{ 4, 60338, "", "=q4=Idol of the Emerald Queen",         "=ds=#w14#", "", "12.94%" },
-		{ 5, 60341, "", "=q4=Platinum Shield of the Valorous",   "=ds=#w8#",         "", "10.88%" },
-		{ 6, 60342, "", "=q4=Soul-Wand of the Aldor",            "=ds=#w12#",        "", "13.34%" },
-	} },
+AtlasLoot_Data["MythicShadowLabyrinthAmbassadorHellmaw"] = {
+	["Normal"] = {
+		{
+			{ 1, 60337, "", "=q4=Dream-Wing Helm", "=ds=#s1#, #a3#", "", "16.7%" },
+			{ 2, 60338, "", "=q4=Idol of the Emerald Queen", "=ds=#w14#", "", "16.7%" },
+			{ 3, 60339, "", "=q4=Jaedenfire Gloves of Annihilation", "=ds=#s9#, #a1#", "", "16.7%" },
+			{ 4, 60340, "", "=q4=Ornate Boots of the Sanctified", "=ds=#s12#, #a4#", "", "16.7%" },
+			{ 5, 60341, "", "=q4=Platinum Shield of the Valorous", "=ds=#w8#", "", "16.7%" },
+			{ 6, 60342, "", "=q4=Soul-Wand of the Aldor", "=ds=#w12#", "", "16.7%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Ambassador Hellmaw"],
 		module = moduleName,
@@ -349,15 +351,17 @@ AtlasLoot_Data["MythicAuchShadowHellmaw"] = {
 	},
 };
 
-AtlasLoot_Data["MythicAuchShadowBlackheart"] = {
-	["Normal"] = { {
-		{ 1, 60346, "", "=q4=Moonglade Handwraps",              "=ds=#s9#, #a2# (D3)", "", "6.67%" },
-		{ 3, 60345, "", "=q4=Cloak of the Inciter",             "=ds=#s4#",            "", "16.32%" },
-		{ 4, 60347, "", "=q4=Ornate Leggings of the Venerated", "=ds=#s11#, #a4#",     "", "13.35%" },
-		{ 5, 60344, "", "=q4=Brooch of Hightened Potential",    "=ds=#s2#",            "", "10.54%" },
-		{ 6, 60343, "", "=q4=Adamantine Figurine",              "=ds=#s14#",           "", "10.93%" },
-		{ 7, 60348, "", "=q4=Wand of the Netherwing",           "=ds=#w12#",           "", "10.77%" },
-	} },
+AtlasLoot_Data["MythicShadowLabyrinthBlackheartTheInciter"] = {
+	["Normal"] = {
+		{
+			{ 1, 60343, "", "=q4=Adamantine Figurine", "=ds=#s14#", "", "16.7%" },
+			{ 2, 60344, "", "=q4=Brooch of Hightened Potential", "=ds=#s2#", "", "16.7%" },
+			{ 3, 60345, "", "=q4=Cloak of the Inciter", "=ds=#s4#", "", "16.7%" },
+			{ 4, 60347, "", "=q4=Ornate Leggings of the Venerated", "=ds=#s11#, #a4#", "", "16.7%" },
+			{ 5, 60348, "", "=q4=Wand of the Netherwing", "=ds=#w12#", "", "16.7%" },
+			{ 7, 60346, "", "=q4=Moonglade Handwraps", "=ds=#s9#, #a2# =q1=#j10#+", "", "16.7%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Blackheart the Inciter"],
 		module = moduleName,
@@ -365,14 +369,16 @@ AtlasLoot_Data["MythicAuchShadowBlackheart"] = {
 	},
 };
 
-AtlasLoot_Data["MythicAuchShadowGrandmaster"] = {
-	["Normal"] = { {
-		{ 1, 60351, "", "=q4=Hallowed Pauldrons",            "=ds=#s3#, #a1# (D3)", "", "16.11%" },
-		{ 3, 60350, "", "=q4=Breastplate of Many Graces",    "=ds=#s5#, #a4#",      "", "12.67%" },
-		{ 4, 60352, "", "=q4=Jewel of Charismatic Mystique", "=ds=#s14#",           "", "16.64%" },
-		{ 5, 60349, "", "=q4=Blackout Truncheon",            "=ds=#h1#, #w6#",      "", "14.35%" },
-		{ 6, 60353, "", "=q4=Wrathfire Hand-Cannon",         "=ds=#w5#",            "", "14.71%" },
-	} },
+AtlasLoot_Data["MythicShadowLabyrinthGrandmasterVorpil"] = {
+	["Normal"] = {
+		{
+			{ 1, 60349, "", "=q4=Blackout Truncheon", "=ds=#h1#, #w6#", "", "20%" },
+			{ 2, 60350, "", "=q4=Breastplate of Many Graces", "=ds=#s5#, #a4#", "", "20%" },
+			{ 3, 60352, "", "=q4=Jewel of Charismatic Mystique", "=ds=#s14#", "", "20%" },
+			{ 4, 60353, "", "=q4=Wrathfire Hand-Cannon", "=ds=#w5#", "", "20%" },
+			{ 6, 60351, "", "=q4=Hallowed Pauldrons", "=ds=#s3#, #a1# =q1=#j10#+", "", "20%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Grandmaster Vorpil"],
 		module = moduleName,
@@ -380,25 +386,28 @@ AtlasLoot_Data["MythicAuchShadowGrandmaster"] = {
 	},
 };
 
-AtlasLoot_Data["MythicAuchShadowMurmur"] = {
-	["Normal"] = { {
-		{ 3,  60364, "", "=q4=Silent Slippers of Meditation", "=ds=#s12#, #a1#",      "", "12.28%" },
-		{ 4,  60360, "", "=q4=Harness of the Deep Currents",  "=ds=#s5#, #a3#",       "", "13.59%" },
-		{ 5,  60369, "", "=q4=Whispering Blade of Slaying",   "=ds=#h1#, #w4#",       "", "9.69%" },
-		{ 6,  60358, "", "=q4=Greatsword of Horrid Dreams",   "=ds=#h3#, #w10#",      "", "9.35%" },
-		{ 7,  60366, "", "=q4=Sonic Spear",                   "=ds=#w7#",             "", "11.17%" },
-		{ 8,  60365, "", "=q4=Silvermoon Crest Shield",       "=ds=#w8#",             "", "12.46%" },
-		{ 10, 60367, "", "=q4=Spaulders of Oblivion",         "=ds=#s3#, #a1# (D3)",  "", "12.28%" },
-		{ 11, 60362, "", "=q4=Robe of Oblivion",              "=ds=#s5#, #a1# (D3)",  "", "10.47%" },
-		{ 12, 60359, "", "=q4=Hallowed Garments",             "=ds=#s5#, #a1# (D3)",  "", "11.46%" },
-		{ 13, 60361, "", "=q4=Leggings of Assassination",     "=ds=#s11#, #a2# (D3)", "", "8.76%" },
-		{ 14, 60368, "", "=q4=Tidefury Kilt",                 "=ds=#s11#, #a3# (D3)", "", "13.87%" },
-		{ 15, 60363, "", "=q4=Shoulderguards of the Bold",    "=ds=#s3#, #a4# (D3)",  "", "9.49%" },
-		{ 22, 60355, "", "=q4=Kirin Tor Master's Trousers",   "=ds=#s11#, #a1#",      "", "11.90%" },
-		{ 23, 60356, "", "=q4=Master Thief's Gloves",         "=ds=#s9#, #a2#" },
-		{ 24, 60354, "", "=q4=Girdle of Ferocity",            "=ds=#s10#, #a3#",      "", "3.57%" },
-		{ 25, 60357, "", "=q4=Shockwave Truncheon",           "=ds=#h3#, #w6#",       "", "10.71%" },
-	} },
+AtlasLoot_Data["MythicShadowLabyrinthMurmur"] = {
+	["Normal"] = {
+		{
+			{ 1, 60354, "", "=q4=Girdle of Ferocity", "=ds=#s10#, #a3#", "", "25%" },
+			{ 2, 60355, "", "=q4=Kirin Tor Master's Trousers", "=ds=#s11#, #a1#", "", "25%" },
+			{ 3, 60356, "", "=q4=Master Thief's Gloves", "=ds=#s9#, #a2#", "", "25%" },
+			{ 4, 60357, "", "=q4=Shockwave Truncheon", "=ds=#h3#, #w6#", "", "25%" },
+			{ 5,  60358, "", "=q4=Greatsword of Horrid Dreams", "=ds=#h3#, #w10#", "", "8.3%" },
+			{ 6,  60360, "", "=q4=Harness of the Deep Currents", "=ds=#s5#, #a3#", "", "8.3%" },
+			{ 7,  60364, "", "=q4=Silent Slippers of Meditation", "=ds=#s12#, #a1#", "", "8.3%" },
+			{ 8,  60365, "", "=q4=Silvermoon Crest Shield", "=ds=#w8#", "", "8.3%" },
+			{ 9,  60366, "", "=q4=Sonic Spear", "=ds=#w7#", "", "8.3%" },
+			{ 10,  60369, "", "=q4=Whispering Blade of Slaying", "=ds=#h1#, #w4#", "", "8.3%" },
+			{ 16, 60359, "", "=q4=Hallowed Garments", "=ds=#s5#, #a1# =q1=#j10#+", "", "8.3%" },
+			{ 17, 60361, "", "=q4=Leggings of Assassination", "=ds=#s11#, #a2# =q1=#j10#+", "", "8.3%" },
+			{ 18, 60362, "", "=q4=Robe of Oblivion", "=ds=#s5#, #a1# =q1=#j10#+", "", "8.3%" },
+			{ 19, 60363, "", "=q4=Shoulderguards of the Bold", "=ds=#s3#, #a4# =q1=#j10#+", "", "8.3%" },
+			{ 20, 60367, "", "=q4=Spaulders of Oblivion", "=ds=#s3#, #a1# =q1=#j10#+", "", "8.3%" },
+			{ 21, 60368, "", "=q4=Tidefury Kilt", "=ds=#s11#, #a3# =q1=#j10#+", "", "8.3%" },
+			
+		}
+	},
 	info = {
 		name = BabbleBoss["Murmur"],
 		module = moduleName,
@@ -410,14 +419,16 @@ AtlasLoot_Data["MythicAuchShadowMurmur"] = {
 --- Tempest Keep: The Arcatraz ---
 ----------------------------------
 
-AtlasLoot_Data["MythicTKArcUnbound"] = {
-	["Normal"] = { {
-		{ 1, 60306, "", "=q4=Cloak of Scintillating Auras", "=ds=#s4#",         "", "17.13%" },
-		{ 2, 60308, "", "=q4=Mana-Sphere Shoulderguards",   "=ds=#s3#, #a1#",   "", "20.35%" },
-		{ 3, 60309, "", "=q4=Outland Striders",             "=ds=#s12#, #a3#",  "", "19.52%" },
-		{ 4, 60310, "", "=q4=Rubium War-Girdle",            "=ds=#s10#, #a4#",  "", "14.38%" },
-		{ 5, 60307, "", "=q4=Idol of Feral Shadows",        "=ds=#w14#", "", "15.80%" },
-	} },
+AtlasLoot_Data["MythicArcatrazZerekethTheUnbound"] = {
+	["Normal"] = {
+		{
+			{ 1, 60306, "", "=q4=Cloak of Scintillating Auras", "=ds=#s4#", "", "20%" },
+			{ 2, 60307, "", "=q4=Idol of Feral Shadows", "=ds=#w14#", "", "20%" },
+			{ 3, 60308, "", "=q4=Mana-Sphere Shoulderguards", "=ds=#s3#, #a1#", "", "20%" },
+			{ 4, 60309, "", "=q4=Outland Striders", "=ds=#s12#, #a3#", "", "20%" },
+			{ 5, 60310, "", "=q4=Rubium War-Girdle", "=ds=#s10#, #a4#", "", "20%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Zereketh the Unbound"],
 		module = moduleName,
@@ -425,29 +436,16 @@ AtlasLoot_Data["MythicTKArcUnbound"] = {
 	},
 };
 
-AtlasLoot_Data["MythicTKArcScryer"] = {
-	["Normal"] = { {
-		{ 1, 60317, "", "=q4=Gloves of the Unbound",     "=ds=#s9#, #a2#",  "", "17.80%" },
-		{ 2, 60319, "", "=q4=The Sleeper's Cord",        "=ds=#s10#, #a2#", "", "16.29%" },
-		{ 3, 60318, "", "=q4=Ryngo's Band of Ingenuity", "=ds=#s13#",       "", "16.81%" },
-		{ 4, 60320, "", "=q4=Warmaul of Infused Light",  "=ds=#h2#, #w6#",  "", "16.14%" },
-		{ 5, 60316, "", "=q4=Emberhawk Crossbow",        "=ds=#w3#",        "", "17.65%" },
-	} },
-	info = {
-		name = BabbleBoss["Wrath-Scryer Soccothrates"],
-		module = moduleName,
-		instance = "MythicTempestKeepArcatraz",
+AtlasLoot_Data["MythicArcatrazDalliahTheDoomsayer"] = {
+	["Normal"] = {
+		{
+			{ 1, 60311, "", "=q4=Lamp of Peaceful Repose", "=ds=#s15#", "", "20%" },
+			{ 2, 60312, "", "=q4=Nether Core's Control Rod", "#w12#", "", "20%" },
+			{ 3, 60313, "", "=q4=Reflex Blades", "=ds=#h3#, #w13#", "", "20%" },
+			{ 4, 60314, "", "=q4=Thatia's Self-Correcting Gauntlets", "=ds=#s9#, #a4#", "", "20%" },
+			{ 5, 60315, "", "=q4=Worldfire Chestguard", "=ds=#s5#, #a3#", "", "20%" },
+		}
 	},
-};
-
-AtlasLoot_Data["MythicTKArcDalliah"] = {
-	["Normal"] = { {
-		{ 3, 60315, "", "=q4=Worldfire Chestguard",               "=ds=#s5#, #a3#",  "", "18.57%" },
-		{ 4, 60314, "", "=q4=Thatia's Self-Correcting Gauntlets", "=ds=#s9#, #a4#",  "", "14.80%" },
-		{ 5, 60311, "", "=q4=Lamp of Peaceful Repose",            "=ds=#s15#",       "", "15.92%" },
-		{ 6, 60313, "", "=q4=Reflex Blades",                      "=ds=#h3#, #w13#", "", "18.37%" },
-		{ 7, 60312, "", "=q4=Nether Core's Control Rod",          "#w12#",           "", "15.29%" },
-	} },
 	info = {
 		name = BabbleBoss["Dalliah the Doomsayer"],
 		module = moduleName,
@@ -455,25 +453,44 @@ AtlasLoot_Data["MythicTKArcDalliah"] = {
 	},
 };
 
-AtlasLoot_Data["MythicTKArcHarbinger"] = {
-	["Normal"] = { {
-		{ 1,  60331, "", "=q4=Hood of Oblivion",              "=ds=#s1#, #a1# (D3)", "", "12.23%" },
-		{ 2,  60329, "", "=q4=Hallowed Crown",                "=ds=#s1#, #a1# (D3)", "", "12.17%" },
-		{ 3,  60330, "", "=q4=Helm of Assassination",         "=ds=#s1#, #a2# (D3)", "", "11.25%" },
-		{ 4,  60336, "", "=q4=Tidefury Chestpiece",           "=ds=#s5#, #a3# (D3)", "", "14.98%" },
-		{ 5,  60327, "", "=q4=Doomplate Chestguard",          "=ds=#s5#, #a4# (D3)", "", "13.15%" },
-		{ 6,  60325, "", "=q4=Breastplate of the Bold",       "=ds=#s5#, #a4# (D3)", "", "11.19%" },
-		{ 8,  60335, "", "=q4=Sigil-Laced Boots",             "=ds=#s12#, #a1#",     "", "12.23%" },
-		{ 9,  60326, "", "=q4=Choker of Fluid Thought",       "=ds=#s2#",            "", "14.92%" },
-		{ 10, 60328, "", "=q4=Elementium Band of the Sentry", "=ds=#s13#",           "", "10.70%" },
-		{ 11, 60334, "", "=q4=Shiffar's Nexus-Horn",          "=ds=#s14#",           "", "12.23%" },
-		{ 12, 60333, "", "=q4=Lamp of Peaceful Radiance",     "=ds=#s15#",           "", "13.15%" },
-		{ 13, 60332, "", "=q4=Hungering Spineripper",         "=ds=#h1#, #w4#",      "", "12.35%" },
-		{ 22, 60321, "", "=q4=Belt of Depravity",             "=ds=#s10#, #a1#",     "", "8.47%" },
-		{ 23, 60323, "", "=q4=Shadowstep Striders",           "=ds=#s12#, #a2#",     "", "0.61%" },
-		{ 24, 60322, "", "=q4=Bracers of Dignity",            "=ds=#s8#, #a4#",      "", "3.03%" },
-		{ 25, 60324, "", "=q4=Vileblade of the Betrayer",     "=ds=#h1#, #w4#",      "", "0.18%" },
-	} },
+AtlasLoot_Data["MythicArcatrazWrathScryerSoccothrates"] = {
+	["Normal"] = {
+		{
+			{ 1, 60316, "", "=q4=Emberhawk Crossbow", "=ds=#w3#", "", "20%" },
+			{ 2, 60317, "", "=q4=Gloves of the Unbound", "=ds=#s9#, #a2#", "", "20%" },
+			{ 3, 60318, "", "=q4=Ryngo's Band of Ingenuity", "=ds=#s13#", "", "20%" },
+			{ 4, 60319, "", "=q4=The Sleeper's Cord", "=ds=#s10#, #a2#", "", "20%" },
+			{ 5, 60320, "", "=q4=Warmaul of Infused Light", "=ds=#h2#, #w6#", "", "20%" },
+		}
+	},
+	info = {
+		name = BabbleBoss["Wrath-Scryer Soccothrates"],
+		module = moduleName,
+		instance = "MythicTempestKeepArcatraz",
+	},
+};
+
+AtlasLoot_Data["MythicArcatrazHarbingerSkyriss"] = {
+	["Normal"] = {
+		{
+			{ 1, 60321, "", "=q4=Belt of Depravity", "=ds=#s10#, #a1#", "", "25%" },
+			{ 2, 60322, "", "=q4=Bracers of Dignity", "=ds=#s8#, #a4#", "", "25%" },
+			{ 3, 60323, "", "=q4=Shadowstep Striders", "=ds=#s12#, #a2#", "", "25%" },
+			{ 4, 60324, "", "=q4=Vileblade of the Betrayer", "=ds=#h1#, #w4#", "", "25%" },
+			{ 5,  60326, "", "=q4=Choker of Fluid Thought", "=ds=#s2#", "", "16.7%" },
+			{ 6, 60328, "", "=q4=Elementium Band of the Sentry", "=ds=#s13#", "", "16.7%" },
+			{ 7, 60332, "", "=q4=Hungering Spineripper", "=ds=#h1#, #w4#", "", "16.7%" },
+			{ 8, 60333, "", "=q4=Lamp of Peaceful Radiance", "=ds=#s15#", "", "16.7%" },
+			{ 9, 60334, "", "=q4=Shiffar's Nexus-Horn", "=ds=#s14#", "", "16.7%" },
+			{ 10,  60335, "", "=q4=Sigil-Laced Boots", "=ds=#s12#, #a1#", "", "16.7%" },
+			{ 16,  60325, "", "=q4=Breastplate of the Bold", "=ds=#s5#, #a4# =q1=#j10#+", "", "16.7%" },
+			{ 17,  60327, "", "=q4=Doomplate Chestguard", "=ds=#s5#, #a4# =q1=#j10#+", "", "16.7%" },
+			{ 18,  60329, "", "=q4=Hallowed Crown", "=ds=#s1#, #a1# =q1=#j10#+", "", "16.7%" },
+			{ 19,  60330, "", "=q4=Helm of Assassination", "=ds=#s1#, #a2# =q1=#j10#+", "", "16.7%" },
+			{ 20,  60331, "", "=q4=Hood of Oblivion", "=ds=#s1#, #a1# =q1=#j10#+", "", "16.7%" },
+			{ 21,  60336, "", "=q4=Tidefury Chestpiece", "=ds=#s5#, #a3# =q1=#j10#+", "", "16.7%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Harbinger Skyriss"],
 		module = moduleName,
@@ -485,15 +502,17 @@ AtlasLoot_Data["MythicTKArcHarbinger"] = {
 --- Caverns of Time: The Black Morass ---
 -----------------------------------------
 
-AtlasLoot_Data["MythicCoTMorassDeja"] = {
-	["Normal"] = { {
-		{ 1, 60370, "", "=q4=Burnoose of Shifting Ages",   "=ds=#s4#",       "", "13.87%" },
-		{ 2, 60371, "", "=q4=Mantle of Three Terrors",     "=ds=#s3#, #a1#", "", "12.30%" },
-		{ 3, 60375, "", "=q4=Sun-Gilded Shouldercaps",     "=ds=#s3#, #a2#", "", "13.13%" },
-		{ 4, 60372, "", "=q4=Mask of Inner Fire",          "=ds=#s1#, #a3#", "", "13.84%" },
-		{ 5, 60374, "", "=q4=Ring of Spiritual Precision", "=ds=#s13#",      "", "14.45%" },
-		{ 6, 60373, "", "=q4=Melmorta's Twilight Longbow", "=ds=#w2#",       "", "11.51%" },
-	} },
+AtlasLoot_Data["MythicBlackMorassChronoLordDeja"] = {
+	["Normal"] = {
+		{
+			{ 1, 60370, "", "=q4=Burnoose of Shifting Ages", "=ds=#s4#", "", "16.7%" },
+			{ 2, 60371, "", "=q4=Mantle of Three Terrors", "=ds=#s3#, #a1#", "", "16.7%" },
+			{ 3, 60372, "", "=q4=Mask of Inner Fire", "=ds=#s1#, #a3#", "", "16.7%" },
+			{ 4, 60373, "", "=q4=Melmorta's Twilight Longbow", "=ds=#w2#", "", "16.7%" },
+			{ 5, 60374, "", "=q4=Ring of Spiritual Precision", "=ds=#s13#", "", "16.7%" },
+			{ 6, 60375, "", "=q4=Sun-Gilded Shouldercaps", "=ds=#s3#, #a2#", "", "16.7%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Chrono Lord Deja"],
 		module = moduleName,
@@ -501,15 +520,17 @@ AtlasLoot_Data["MythicCoTMorassDeja"] = {
 	},
 };
 
-AtlasLoot_Data["MythicCoTMorassTemporus"] = {
-	["Normal"] = { {
-		{ 1, 60378, "", "=q4=Khadgar's Kilt of Abjuration",  "=ds=#s11#, #a1#", "", "14.26%" },
-		{ 2, 60379, "", "=q4=Laughing Skull Battle-Harness", "=ds=#s5#, #a3#",  "", "13.14%" },
-		{ 3, 60377, "", "=q4=Hourglass of the Unraveller",   "=ds=#s14#",       "", "13.69%" },
-		{ 4, 60381, "", "=q4=Star-Heart Lamp",               "=ds=#s15#",       "", "11.83%" },
-		{ 5, 60380, "", "=q4=Millennium Blade",              "=ds=#h1#, #w10#", "", "11.74%" },
-		{ 6, 60376, "", "=q4=Epoch-Mender",                  "=ds=#w9#",        "", "13.80%" },
-	} },
+AtlasLoot_Data["MythicBlackMorassTemporus"] = {
+	["Normal"] = {
+		{
+			{ 1, 60376, "", "=q4=Epoch-Mender", "=ds=#w9#", "", "16.7%" },
+			{ 2, 60377, "", "=q4=Hourglass of the Unraveller", "=ds=#s14#", "", "16.7%" },
+			{ 3, 60378, "", "=q4=Khadgar's Kilt of Abjuration", "=ds=#s11#, #a1#", "", "16.7%" },
+			{ 4, 60379, "", "=q4=Laughing Skull Battle-Harness", "=ds=#s5#, #a3#", "", "16.7%" },
+			{ 5, 60380, "", "=q4=Millennium Blade", "=ds=#h1#, #w10#", "", "16.7%" },
+			{ 6, 60381, "", "=q4=Star-Heart Lamp", "=ds=#s15#", "", "16.7%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Temporus"],
 		module = moduleName,
@@ -517,25 +538,27 @@ AtlasLoot_Data["MythicCoTMorassTemporus"] = {
 	},
 };
 
-AtlasLoot_Data["MythicCoTMorassAeonus"] = {
-	["Normal"] = { {
-		{ 1,  60393, "", "=q4=Mana-Etched Crown",               "=ds=#s1#, #a1# (D3)",  "", "11.99%" },
-		{ 2,  60388, "", "=q4=Handgrips of Assassination",      "=ds=#s9#, #a2# (D3)",  "", "12.84%" },
-		{ 3,  60394, "", "=q4=Moonglade Pants",                 "=ds=#s11#, #a2# (D3)", "", "11.28%" },
-		{ 4,  60389, "", "=q4=Helm of Desolation",              "=ds=#s1#, #a3# (D3)",  "", "12.77%" },
-		{ 5,  60391, "", "=q4=Legplates of the Bold",           "=ds=#s11#, #a4# (D3)", "", "9.92%" },
-		{ 6,  60392, "", "=q4=Legplates of the Righteous",      "=ds=#s11#, #a4# (D3)", "", "12.10%" },
-		{ 8,  60387, "", "=q4=Cowl of the Guiltless",           "=ds=#s1#, #a2#",       "", "12.25%" },
-		{ 9,  60396, "", "=q4=Primal Surge Bracers",            "=ds=#s8#, #a3#",       "", "13.51%" },
-		{ 10, 60395, "", "=q4=Pauldrons of the Crimson Flight", "=ds=#s3#, #a4#",       "", "11.11%" },
-		{ 11, 60397, "", "=q4=Scarab of the Infinite Cycle",    "=ds=#s14#",            "", "11.32%" },
-		{ 12, 60390, "", "=q4=Latro's Shifting Sword",          "=ds=#h1#, #w10#",      "", "9.70%" },
-		{ 13, 60386, "", "=q4=Bloodfire Greatstaff",            "=ds=#w9#",             "", "10.48%" },
-		{ 22, 60382, "", "=q4=Breeches of the Occultist",       "=ds=#s11#, #a1#",      "", "1.49%" },
-		{ 23, 60383, "", "=q4=Girdle of the Deathdealer",       "=ds=#s10#, #a2#" },
-		{ 24, 60384, "", "=q4=Girdle of Valorous Deeds",        "=ds=#s10#, #a4#" },
-		{ 25, 60385, "", "=q4=Quantum Blade",                   "=ds=#h2#, #w10#" },
-	} },
+AtlasLoot_Data["MythicBlackMorassAeonus"] = {
+	["Normal"] = {
+		{
+			{ 1, 60382, "", "=q4=Breeches of the Occultist", "=ds=#s11#, #a1#", "", "25%" },
+			{ 2, 60383, "", "=q4=Girdle of the Deathdealer", "=ds=#s10#, #a2#", "", "25%" },
+			{ 3, 60384, "", "=q4=Girdle of Valorous Deeds", "=ds=#s10#, #a4#", "", "25%" },
+			{ 4, 60385, "", "=q4=Quantum Blade", "=ds=#h2#, #w10#", "", "25%" },
+			{ 5, 60386, "", "=q4=Bloodfire Greatstaff", "=ds=#w9#", "", "16.7%" },
+			{ 6, 60387, "", "=q4=Cowl of the Guiltless", "=ds=#s1#, #a2#", "", "16.7%" },
+			{ 7, 60390, "", "=q4=Latro's Shifting Sword", "=ds=#h1#, #w10#", "", "16.7%" },
+			{ 8, 60395, "", "=q4=Pauldrons of the Crimson Flight", "=ds=#s3#, #a4#", "", "16.7%" },
+			{ 9, 60396, "", "=q4=Primal Surge Bracers", "=ds=#s8#, #a3#", "", "16.7%" },
+			{ 10, 60397, "", "=q4=Scarab of the Infinite Cycle", "=ds=#s14#", "", "16.7%" },
+			{ 16, 60388, "", "=q4=Handgrips of Assassination", "=ds=#s9#, #a2# =q1=#j10#+", "", "16.7%" },
+			{ 17, 60389, "", "=q4=Helm of Desolation", "=ds=#s1#, #a3# =q1=#j10#+", "", "16.7%" },
+			{ 18, 60391, "", "=q4=Legplates of the Bold", "=ds=#s11#, #a4# =q1=#j10#+", "", "16.7%" },
+			{ 19, 60392, "", "=q4=Legplates of the Righteous", "=ds=#s11#, #a4# =q1=#j10#+", "", "16.7%" },
+			{ 20, 60393, "", "=q4=Mana-Etched Crown", "=ds=#s1#, #a1# =q1=#j10#+", "", "16.7%" },
+			{ 21, 60394, "", "=q4=Moonglade Pants", "=ds=#s11#, #a2# =q1=#j10#+", "", "16.7%" },
+		}
+	},
 	info = {
 		name = BabbleBoss["Aeonus"],
 		module = moduleName,
@@ -721,7 +744,7 @@ AtlasLoot_Data["MythicTKBotThorngrin"] = {
 
 AtlasLoot_Data["MythicTKBotLaj"] = {
 	["Normal"] = { {
-		{ 1, 60458, "", "=q4=Spaulders of the Righteous",  "=ds=#s3#, #a4# (D3)", "", "18.13%" },
+		{ 1, 60458, "", "=q4=Spaulders of the Righteous",  "=ds=#s3#, #a4# =q1=#j10#+", "", "18.13%" },
 		{ 3, 60457, "", "=q4=Mithril-Bark Cloak",          "=ds=#s4#",            "", "20.88%" },
 		{ 4, 60455, "", "=q4=Devil-Stitched Leggings",     "=ds=#s11#, #a1#",     "", "18.71%" },
 		{ 5, 60456, "", "=q4=Mantle of Autumn",            "=ds=#s3#, #a2#",      "", "17.19%" },
@@ -748,11 +771,11 @@ AtlasLoot_Data["MythicTKBotSplinter"] = {
 		{ 13, 60473, "", "=q4=Warp Splinter's Thorn",          "=ds=#h1#, #w4#",      "", "28.00%" },
 		{ 14, 60465, "", "=q4=Greatsword of Forlorn Visions",  "=ds=#h2#, #w10#",     "", "8.00%" },
 		{ 15, 60475, "", "=q4=Warpstaff of Arcanum",           "=ds=#w9#",            "", "4.00%" },
-		{ 20, 60466, "", "=q4=Incanter's Robe",                "=ds=#s5#, #a1# (D3)", "", "4.00%" },
-		{ 21, 60468, "", "=q4=Moonglade Cowl",                 "=ds=#s1#, #a2# (D3)", "", "12.00%" },
-		{ 22, 60470, "", "=q4=Tidefury Helm",                  "=ds=#s1#, #a3# (D3)", "", "12.00%" },
-		{ 23, 60464, "", "=q4=Beast Lord Curiass",             "=ds=#s5#, #a3# (D3)", "", "20.00%" },
-		{ 24, 60471, "", "=q4=Warhelm of the Bold",            "=ds=#s1#, #a4# (D3)", "", "16.00%" },
+		{ 20, 60466, "", "=q4=Incanter's Robe",                "=ds=#s5#, #a1# =q1=#j10#+", "", "4.00%" },
+		{ 21, 60468, "", "=q4=Moonglade Cowl",                 "=ds=#s1#, #a2# =q1=#j10#+", "", "12.00%" },
+		{ 22, 60470, "", "=q4=Tidefury Helm",                  "=ds=#s1#, #a3# =q1=#j10#+", "", "12.00%" },
+		{ 23, 60464, "", "=q4=Beast Lord Curiass",             "=ds=#s5#, #a3# =q1=#j10#+", "", "20.00%" },
+		{ 24, 60471, "", "=q4=Warhelm of the Bold",            "=ds=#s1#, #a4# =q1=#j10#+", "", "16.00%" },
 	} },
 	info = {
 		name = BabbleBoss["Warp Splinter"],
@@ -864,8 +887,8 @@ AtlasLoot_Data["MythicHCFurnaceBroggok"] = {
 
 AtlasLoot_Data["MythicHCFurnaceBreaker"] = {
 	["Normal"] = { {
-		{ 1,  61363, "", "=q4=Wastewalker Tunic",           "=ds=#s5#, #a2# (D3)", "", "6.82%" },
-		{ 2,  61355, "", "=q4=Doomplate Gauntlets",         "=ds=#s9#, #a4# (D3)", "", "9.09%" },
+		{ 1,  61363, "", "=q4=Wastewalker Tunic",           "=ds=#s5#, #a2# =q1=#j10#+", "", "6.82%" },
+		{ 2,  61355, "", "=q4=Doomplate Gauntlets",         "=ds=#s9#, #a4# =q1=#j10#+", "", "9.09%" },
 		{ 4,  61359, "", "=q4=Robe of Effervescent Light",  "=ds=#s5#, #a1#",      "", "17.42%" },
 		{ 5,  61358, "", "=q4=Leggings of the Unrepentant", "=ds=#s11#, #a2#",     "", "13.64%" },
 		{ 6,  61364, "", "=q4=World's End Bracers",         "=ds=#s8#, #a3#",      "", "25.76%" },
@@ -926,8 +949,8 @@ AtlasLoot_Data["MythicCFRSlaveRokmar"] = {
 
 AtlasLoot_Data["MythicCFRSlaveQuagmirran"] = {
 	["Normal"] = { {
-		{ 1,  61387, "", "=q4=Mana-Etched Spaulders",            "=ds=#s3#, #a1# (D3)", "", "5.24%" },
-		{ 2,  61388, "", "=q4=Pauldrons of Desolation",          "=ds=#s3#, #a3# (D3)", "", "10.70%" },
+		{ 1,  61387, "", "=q4=Mana-Etched Spaulders",            "=ds=#s3#, #a1# =q1=#j10#+", "", "5.24%" },
+		{ 2,  61388, "", "=q4=Pauldrons of Desolation",          "=ds=#s3#, #a3# =q1=#j10#+", "", "10.70%" },
 		{ 4,  61386, "", "=q4=Mage-Fury Girdle",                 "=ds=#s10#, #a1#",     "", "12.00%" },
 		{ 5,  61391, "", "=q4=Shackles of Quagmirran",           "=ds=#s8#, #a2#" },
 		{ 6,  61384, "", "=q4=Earthsoul Britches",               "=ds=#s11#, #a2#",     "", "13.76%" },
@@ -986,7 +1009,7 @@ AtlasLoot_Data["MythicHCHallsPorung"] = {
 
 AtlasLoot_Data["MythicHCHallsOmrogg"] = {
 	["Normal"] = { {
-		{ 1, 61407, "", "=q4=Tidefury Shoulderguards",         "=ds=#s3#, #a3# (D3)", "", "17.02%" },
+		{ 1, 61407, "", "=q4=Tidefury Shoulderguards",         "=ds=#s3#, #a3# =q1=#j10#+", "", "17.02%" },
 		{ 3, 61404, "", "=q4=Jeweled Boots of Sanctification", "=ds=#s12#, #a1#",     "", "18.26%" },
 		{ 4, 61405, "", "=q4=Runesong Dagger",                 "=ds=#h3#, #w4#",      "", "15.32%" },
 		{ 5, 61403, "", "=q4=Firemaul of Destruction",         "=ds=#h2#, #w6#",      "", "17.95%" },
@@ -1001,12 +1024,12 @@ AtlasLoot_Data["MythicHCHallsOmrogg"] = {
 
 AtlasLoot_Data["MythicHCHallsKargath"] = {
 	["Normal"] = { {
-		{ 1,  61419, "", "=q4=Hallowed Handwraps",          "=ds=#s9#, #a1# (D3)", "", "12.63%" },
-		{ 2,  61417, "", "=q4=Gloves of Oblivion",          "=ds=#s9#, #a1# (D3)", "", "12.54%" },
-		{ 3,  61423, "", "=q4=Wastewalker Gloves",          "=ds=#s9#, #a2# (D3)", "", "11.03%" },
-		{ 4,  61412, "", "=q4=Beast Lord Handguards",       "=ds=#s9#, #a3# (D3)", "", "10.73%" },
-		{ 5,  61415, "", "=q4=Gauntlets of Desolation",     "=ds=#s9#, #a3# (D3)", "", "13.86%" },
-		{ 6,  61416, "", "=q4=Gauntlets of the Righteous",  "=ds=#s9#, #a4# (D3)", "", "11.24%" },
+		{ 1,  61419, "", "=q4=Hallowed Handwraps",          "=ds=#s9#, #a1# =q1=#j10#+", "", "12.63%" },
+		{ 2,  61417, "", "=q4=Gloves of Oblivion",          "=ds=#s9#, #a1# =q1=#j10#+", "", "12.54%" },
+		{ 3,  61423, "", "=q4=Wastewalker Gloves",          "=ds=#s9#, #a2# =q1=#j10#+", "", "11.03%" },
+		{ 4,  61412, "", "=q4=Beast Lord Handguards",       "=ds=#s9#, #a3# =q1=#j10#+", "", "10.73%" },
+		{ 5,  61415, "", "=q4=Gauntlets of Desolation",     "=ds=#s9#, #a3# =q1=#j10#+", "", "13.86%" },
+		{ 6,  61416, "", "=q4=Gauntlets of the Righteous",  "=ds=#s9#, #a4# =q1=#j10#+", "", "11.24%" },
 		{ 8,  61418, "", "=q4=Greaves of the Shatterer",    "=ds=#s11#, #a4#",     "", "12.89%" },
 		{ 9,  61414, "", "=q4=Figurine of the Colossus",    "=ds=#s14#",           "", "10.41%" },
 		{ 10, 61420, "", "=q4=Hortus' Seal of Brilliance",  "=ds=#s15#",           "", "12.98%" },
@@ -1031,7 +1054,7 @@ AtlasLoot_Data["MythicHCHallsKargath"] = {
 
 AtlasLoot_Data["MythicCFRSteamThespia"] = {
 	["Normal"] = { {
-		{ 1, 61426, "", "=q4=Incanter's Gloves",          "=ds=#s9#, #a1# (D3)", "", "17.09%" },
+		{ 1, 61426, "", "=q4=Incanter's Gloves",          "=ds=#s9#, #a1# =q1=#j10#+", "", "17.09%" },
 		{ 3, 61425, "", "=q4=Cloak of Whispering Shells", "=ds=#s4#",            "", "14.32%" },
 		{ 4, 61424, "", "=q4=Chestguard of No Remorse",   "=ds=#s5#, #a2#",      "", "17.65%" },
 		{ 5, 61427, "", "=q4=Moonrage Girdle",            "=ds=#s10#, #a2#",     "", "18.71%" },
@@ -1061,13 +1084,13 @@ AtlasLoot_Data["MythicCFRSteamSteamrigger"] = {
 
 AtlasLoot_Data["MythicCFRSteamWarlord"] = {
 	["Normal"] = { {
-		{ 3,  61444, "", "=q4=Incanter's Pauldrons",             "=ds=#s3#, #a1# (D3)",  "", "12.25%" },
-		{ 4,  61445, "", "=q4=Moonglade Shoulders",              "=ds=#s3#, #a2# (D3)",  "", "12.89%" },
-		{ 5,  61439, "", "=q4=Beast Lord Mantle",                "=ds=#s3#, #a3# (D3)",  "", "10.63%" },
-		{ 6,  61448, "", "=q4=Tidefury Gauntlets",               "=ds=#s9#, #a3# (D3)",  "", "12.45%" },
-		{ 7,  61438, "", "=q4=Beast Lord Leggings",              "=ds=#s11#, #a3# (D3)", "", "9.56%" },
-		{ 8,  61440, "", "=q4=Breastplate of the Righteous",     "=ds=#s5#, #a4# (D3)",  "", "10.98%" },
-		{ 9,  61443, "", "=q4=Gauntlets of the Bold",            "=ds=#s9#, #a4# (D3)",  "", "10.05%" },
+		{ 3,  61444, "", "=q4=Incanter's Pauldrons",             "=ds=#s3#, #a1# =q1=#j10#+",  "", "12.25%" },
+		{ 4,  61445, "", "=q4=Moonglade Shoulders",              "=ds=#s3#, #a2# =q1=#j10#+",  "", "12.89%" },
+		{ 5,  61439, "", "=q4=Beast Lord Mantle",                "=ds=#s3#, #a3# =q1=#j10#+",  "", "10.63%" },
+		{ 6,  61448, "", "=q4=Tidefury Gauntlets",               "=ds=#s9#, #a3# =q1=#j10#+",  "", "12.45%" },
+		{ 7,  61438, "", "=q4=Beast Lord Leggings",              "=ds=#s11#, #a3# =q1=#j10#+", "", "9.56%" },
+		{ 8,  61440, "", "=q4=Breastplate of the Righteous",     "=ds=#s5#, #a4# =q1=#j10#+",  "", "10.98%" },
+		{ 9,  61443, "", "=q4=Gauntlets of the Bold",            "=ds=#s9#, #a4# =q1=#j10#+",  "", "10.05%" },
 		{ 11, 61441, "", "=q4=Devilshark Cape",                  "=ds=#s4#",             "", "12.18%" },
 		{ 12, 61449, "", "=q4=Vermillion Robes of the Dominant", "=ds=#s5#, #a1#",       "", "12.47%" },
 		{ 13, 61447, "", "=q4=Sash of Serpentra",                "=ds=#s10#, #a1#",      "", "11.03%" },
