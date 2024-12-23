@@ -1238,10 +1238,10 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicAuchShadowLabyrinth"] = {
 			["Bosses"] = {
-				{ "MythicAuchShadowHellmaw",     3 },
-				{ "MythicAuchShadowBlackheart",  4 },
-				{ "MythicAuchShadowGrandmaster", 5 },
-				{ "MythicAuchShadowMurmur",      7 },
+				{ "MythicShadowLabyrinthAmbassadorHellmaw", 1 },
+				{ "MythicShadowLabyrinthBlackheartTheInciter", 2 },
+				{ "MythicShadowLabyrinthGrandmasterVorpil", 3 },
+				{ "MythicShadowLabyrinthMurmur", 4 },
 			},
 			["Info"] = { BabbleZone["Shadow Labyrinth"].."+", "AtlasLootMythic", mapname = "ShadowLabyrinth1" },
 		},
@@ -1257,9 +1257,9 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicCoTBlackMorass"] = {
 			["Bosses"] = {
-				{ "MythicCoTMorassDeja",     7 },
-				{ "MythicCoTMorassTemporus", 8 },
-				{ "MythicCoTMorassAeonus",   9 },
+				{ "MythicBlackMorassChronoLordDeja", 1 },
+				{ "MythicBlackMorassTemporus", 2 },
+				{ "MythicBlackMorassAeonus", 3 },
 			},
 			["Info"] = { BabbleZone["The Black Morass"].."+", "AtlasLootMythic" },
 		},
@@ -1332,10 +1332,10 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicTempestKeepArcatraz"] = {
 			["Bosses"] = {
-				{ "MythicTKArcUnbound",   3 },
-				{ "MythicTKArcDalliah",   4 },
-				{ "MythicTKArcScryer",    5 },
-				{ "MythicTKArcHarbinger", 6 },
+				{ "MythicArcatrazZerekethTheUnbound", 1 },
+				{ "MythicArcatrazDalliahTheDoomsayer", 2 },
+				{ "MythicArcatrazWrathScryerSoccothrates", 3 },
+				{ "MythicArcatrazHarbingerSkyriss", 4 },
 			},
 			["Info"] = { BabbleZone["The Arcatraz"].."+", "AtlasLootMythic" },
 		},
