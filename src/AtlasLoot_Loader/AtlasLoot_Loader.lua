@@ -1,4 +1,4 @@
-﻿-- $Id: AtlasLoot_Loader.lua 3697 2012-01-31 15:17:37Z lag123 $
+-- $Id: AtlasLoot_Loader.lua 3697 2012-01-31 15:17:37Z lag123 $
 --[[
 Atlasloot Enhanced
 Author Hegarol
@@ -21,7 +21,8 @@ AtlasLoot.Modules = {
 	{"AtlasLootWotLK", "AtlasLoot_WrathoftheLichKing", false, "", AL["Wrath of the Lich King"] },
 	{"AtlasLootCrafting", "AtlasLoot_Crafting", false, ""},
 	{"AtlasLootWorldEvents", "AtlasLoot_WorldEvents", false, ""},
-	{"AtlasLootMythic", "AtlasLoot_Mythic", false, "", "TBC Mythics"},
+	{"AtlasLootMythicBC", "AtlasLoot_Mythic", false, "", "TBC Mythics"},
+	{"AtlasLootMythicWotLK", "AtlasLoot_Mythic", false, "", "WotLK Mythics"},
 }
 
 local allLoaded = false
