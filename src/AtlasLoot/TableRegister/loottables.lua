@@ -119,8 +119,8 @@ AtlasLoot_LootTableRegister = {
 		["FHPitOfSaron"] = {
 			["Bosses"] = {
 				{ "PitOfSaronForgemasterGarfrost", 1 },
-				{ "PitOfSaronKrickAndIck", 1 },
-				{ "PitOfSaronScourgelordTyrannus", 1 },
+				{ "PitOfSaronKrickAndIck", 2 },
+				{ "PitOfSaronScourgelordTyrannus", 3 },
 				{ "FrozenHallsTrash", 4 },
 			},
 			["Info"] = { BabbleZone["Pit of Saron"], "AtlasLootWotLK", mapname = "PitofSaron" },
@@ -275,7 +275,7 @@ AtlasLoot_LootTableRegister = {
 				{ "NaxxramasKelThuzad", 15 },
 				{ "NaxxramasTrash", 16 },
 			},
-			["Info"] = { BabbleZone["Naxxramas"], "AtlasLootWotLK", mapname = "IcecrownCitadel", mapname = "Naxxramas", raid = true },
+			["Info"] = { BabbleZone["Naxxramas"], "AtlasLootWotLK", mapname = "Naxxramas", raid = true },
 		},
 
 		["ObsidianSanctum"] = {
@@ -1202,9 +1202,9 @@ AtlasLoot_LootTableRegister = {
 			["Info"] = { BabbleZone["World Bosses Azeroth"], "AtlasLootClassicWoW", raid = true },
 		},
 
-		--------------------
+		---------------------------
 		--- Mythic BC Instances ---
-		--------------------
+		---------------------------
 
 		---- Dungeons
 
@@ -1214,7 +1214,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicAuchenaiCryptsExarchMaladaar", 2 },
 				{ "MythicAuchenaiCryptsAvatarOfTheMartyred", 3 },
 			},
-			["Info"] = { BabbleZone["Auchenai Crypts"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["Auchenai Crypts"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicAuchManaTombs"] = {
@@ -1224,7 +1224,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicManaTombsNexusPrinceShaffar", 3 },
 				{ "MythicManaTombsYor", 4 },
 			},
-			["Info"] = { BabbleZone["Mana-Tombs"].."+", "AtlasLootMythic", mapname = "ManaTombs1" },
+			["Info"] = { BabbleZone["Mana-Tombs"] .. "+", "AtlasLootMythicBC", mapname = "ManaTombs1" },
 		},
 
 		["MythicAuchSethekkHalls"] = {
@@ -1233,7 +1233,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicSethekkHallsAnzu",   5 },
 				{ "MythicSethekkHallsTalonKingIkiss",  7 },
 			},
-			["Info"] = { BabbleZone["Sethekk Halls"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["Sethekk Halls"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicAuchShadowLabyrinth"] = {
@@ -1243,7 +1243,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicShadowLabyrinthGrandmasterVorpil", 3 },
 				{ "MythicShadowLabyrinthMurmur", 4 },
 			},
-			["Info"] = { BabbleZone["Shadow Labyrinth"].."+", "AtlasLootMythic", mapname = "ShadowLabyrinth1" },
+			["Info"] = { BabbleZone["Shadow Labyrinth"] .. "+", "AtlasLootMythicBC", mapname = "ShadowLabyrinth1" },
 		},
 
 		["MythicCoTOldHillsbrad"] = {
@@ -1252,7 +1252,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicOldHillsbradCaptainSkarloc", 2 },
 				{ "MythicOldHillsbradEpochHunter", 3 },
 			},
-			["Info"] = { BabbleZone["Old Hillsbrad Foothills"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["Old Hillsbrad Foothills"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicCoTBlackMorass"] = {
@@ -1261,7 +1261,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicBlackMorassTemporus", 2 },
 				{ "MythicBlackMorassAeonus", 3 },
 			},
-			["Info"] = { BabbleZone["The Black Morass"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Black Morass"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicCFRTheSlavePens"] = {
@@ -1270,7 +1270,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicCFRSlaveRokmar",     4 },
 				{ "MythicCFRSlaveQuagmirran", 5 },
 			},
-			["Info"] = { BabbleZone["The Slave Pens"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Slave Pens"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicCFRTheSteamvault"] = {
@@ -1279,7 +1279,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicCFRSteamSteamrigger", 5 },
 				{ "MythicCFRSteamWarlord",     7 },
 			},
-			["Info"] = { BabbleZone["The Steamvault"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Steamvault"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicCFRTheUnderbog"] = {
@@ -1289,7 +1289,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicCFRUnderSwamplord", 6 },
 				{ "MythicCFRUnderStalker",   8 },
 			},
-			["Info"] = { BabbleZone["The Underbog"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Underbog"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicHCHellfireRamparts"] = {
@@ -1298,7 +1298,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicHellfireRampartsOmorTheUnscarred", 2 },
 				{ "MythicHellfireRampartsVazrudenNazan", 3 },
 			},
-			["Info"] = { BabbleZone["Hellfire Ramparts"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["Hellfire Ramparts"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicHCBloodFurnace"] = {
@@ -1307,7 +1307,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicHCFurnaceBroggok", 5 },
 				{ "MythicHCFurnaceBreaker", 6 },
 			},
-			["Info"] = { BabbleZone["The Blood Furnace"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Blood Furnace"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicHCTheShatteredHalls"] = {
@@ -1317,7 +1317,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicHCHallsOmrogg",     6 },
 				{ "MythicHCHallsKargath",    7 },
 			},
-			["Info"] = { BabbleZone["The Shattered Halls"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Shattered Halls"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicMagistersTerrace"] = {
@@ -1327,7 +1327,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicMagistersTerracePriestessDelrissa", 3 },
 				{ "MythicMagistersTerraceKaelthasSunstrider", 4 },
 			},
-			["Info"] = { BabbleZone["Magisters' Terrace"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["Magisters' Terrace"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicTempestKeepArcatraz"] = {
@@ -1337,7 +1337,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicArcatrazWrathScryerSoccothrates", 3 },
 				{ "MythicArcatrazHarbingerSkyriss", 4 },
 			},
-			["Info"] = { BabbleZone["The Arcatraz"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Arcatraz"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicTempestKeepBotanica"] = {
@@ -1348,7 +1348,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicTKBotLaj",       7 },
 				{ "MythicTKBotSplinter",  8 },
 			},
-			["Info"] = { BabbleZone["The Botanica"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Botanica"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicTempestKeepMechanar"] = {
@@ -1358,7 +1358,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicTKMechCalc",             9 },
 				{ "MythicTKMechCacheoftheLegion", 10 },
 			},
-			["Info"] = { BabbleZone["The Mechanar"].."+", "AtlasLootMythic" },
+			["Info"] = { BabbleZone["The Mechanar"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		---- Raids
@@ -1382,7 +1382,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicBTCouncil",          5 },
 				{ "MythicBTIllidanStormrage", 10 },
 			},
-			["Info"] = { BabbleZone["Black Temple"].."+", "AtlasLootMythic", sortOrder = { "MythicBlackTempleStart", "MythicBlackTempleBasement", "MythicBlackTempleTop" }, raid = true },
+			["Info"] = { BabbleZone["Black Temple"] .. "+", "AtlasLootMythicBC", sortOrder = { "MythicBlackTempleStart", "MythicBlackTempleBasement", "MythicBlackTempleTop" }, raid = true },
 		},
 
 		["MythicCoTHyjalEnt"] = "MythicCoTHyjalEaI",
@@ -1398,7 +1398,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicMountHyjalAzgalor",     12 },
 				{ "MythicMountHyjalArchimonde",  13 },
 			},
-			["Info"] = { BabbleZone["Hyjal"].."+", "AtlasLootMythic", sortOrder = { "MythicCoTHyjalEnt", "MythicCoTHyjal" }, raid = true },
+			["Info"] = { BabbleZone["Hyjal"] .. "+", "AtlasLootMythicBC", sortOrder = { "MythicCoTHyjalEnt", "MythicCoTHyjal" }, raid = true },
 		},
 
 		["MythicCFRSerpentshrineCavern"] = {
@@ -1410,7 +1410,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicCFRSerpentMorogrim",   8 },
 				{ "MythicCFRSerpentVashj",      9 },
 			},
-			["Info"] = { BabbleZone["Serpentshrine Cavern"].."+", "AtlasLootMythic", raid = true },
+			["Info"] = { BabbleZone["Serpentshrine Cavern"] .. "+", "AtlasLootMythicBC", raid = true },
 		},
 
 		["MythicGruulsLair"] = {
@@ -1418,14 +1418,14 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicGruulsLairHighKingMaulgar", 2 },
 				{ "MythicGruulGruul",                7 },
 			},
-			["Info"] = { BabbleZone["Gruul's Lair"].."+", "AtlasLootMythic", raid = true },
+			["Info"] = { BabbleZone["Gruul's Lair"] .. "+", "AtlasLootMythicBC", raid = true },
 		},
 
 		["MythicMagtheridonsLair"] = {
 			["Bosses"] = {
 				{ "MythicMagtheridon", 2 },
 			},
-			["Info"] = { BabbleZone["Magtheridon's Lair"].."+", "AtlasLootMythic", raid = true },
+			["Info"] = { BabbleZone["Magtheridon's Lair"] .. "+", "AtlasLootMythicBC", raid = true },
 		},
 
 		["MythicKarazhanEnt"] = "MythicKarazhanEaI",
@@ -1451,7 +1451,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicKaraChess",       { 15, 16 } },
 				{ "MythicKaraPrince",      17 },
 			},
-			["Info"] = { BabbleZone["Karazhan"].."+", "AtlasLootMythic", sortOrder = { "MythicKarazhanEnt", "MythicKarazhanStart", "MythicKarazhanEnd" }, raid = true },
+			["Info"] = { BabbleZone["Karazhan"] .. "+", "AtlasLootMythicBC", sortOrder = { "MythicKarazhanEnt", "MythicKarazhanStart", "MythicKarazhanEnd" }, raid = true },
 		},
 
 		["MythicSunwellPlateau"] = {
@@ -1463,7 +1463,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicSPMuru",        10 },
 				{ "MythicSPKiljaeden",   12 },
 			},
-			["Info"] = { BabbleZone["Sunwell Plateau"].."+", "AtlasLootMythic", raid = true },
+			["Info"] = { BabbleZone["Sunwell Plateau"] .. "+", "AtlasLootMythicBC", raid = true },
 		},
 
 		["MythicTempestKeepTheEye"] = {
@@ -1474,10 +1474,312 @@ AtlasLoot_LootTableRegister = {
 				{ "MythicTKEyeKaelthas",   6 },
 				{ "MythicTKEyeTrash",      12 },
 			},
-			["Info"] = { BabbleZone["The Eye"].."+", "AtlasLootMythic", raid = true },
+			["Info"] = { BabbleZone["The Eye"] .. "+", "AtlasLootMythicBC", raid = true },
+		},
+
+		------------------------------
+		--- Mythic WotLK Instances ---
+		------------------------------
+
+		---- Dungeons
+
+		["MythicAhnKahet"] = {
+			["Bosses"] = {
+				{ "MythicAhnkahetElderNadox", 1 },
+				{ "MythicAhnkahetPrinceTaldaram", 2 },
+				{ "MythicAhnkahetAmanitar", 3 },
+				{ "MythicAhnkahetJedogaShadowseeker", 4 },
+				{ "MythicAhnkahetHeraldVolazj", 5 },
+			},
+			["Info"] = { BabbleZone["Ahn'kahet: The Old Kingdom"] .. "+", "AtlasLootMythicWotLK", mapname = "Ahnkahet" },
+		},
+
+		["MythicAzjolNerub"] = {
+			["Bosses"] = {
+				{ "MythicAzjolNerubKrikthirTheGatewatcher", 1 },
+				{ "MythicAzjolNerubHadronox", 2 },
+				{ "MythicAzjolNerubAnubarak", 3 },
+			},
+			["Info"] = { BabbleZone["Azjol-Nerub"] .. "+", "AtlasLootMythicWotLK", mapname = "AzjolNerub" },
+		},
+
+		["MythicCoTCullingOfStratholme"] = {
+			["Bosses"] = {
+				{ "MythicTheCullingOfStratholmeMeathook", 1 },
+				{ "MythicTheCullingOfStratholmeSalrammTheFleshcrafter", 2 },
+				{ "MythicTheCullingOfStratholmeChronoLordEpoch", 3 },
+				{ "MythicTheCullingOfStratholmeMalGanis", 4 },
+			},
+			["Info"] = { BabbleZone["The Culling of Stratholme"] .. "+", "AtlasLootMythicWotLK", mapname = "CoTStratholme" },
+		},
+
+		["MythicDrakTharonKeep"] = {
+			["Bosses"] = {
+				{ "MythicDrakTharonKeepTrollgore", 1 },
+				{ "MythicDrakTharonKeepNovosTheSummoner", 2 },
+				{ "MythicDrakTharonKeepKingDred", 3 },
+				{ "MythicDrakTharonKeepTheProphetTharonja", 4 },
+			},
+			["Info"] = { BabbleZone["Drak'Tharon Keep"] .. "+", "AtlasLootMythicWotLK", mapname = "DrakTharonKeep" },
+		},
+
+		["MythicFHTheForgeOfSouls"] = {
+			["Bosses"] = {
+				{ "MythicForgeOfSoulsBronjahm", 1 },
+				{ "MythicForgeOfSoulsDevourerOfSouls", 2 },
+			},
+			["Info"] = { BabbleZone["The Forge of Souls"] .. "+", "AtlasLootMythicWotLK", mapname = "TheForgeofSouls" },
+		},
+
+		["MythicFHHallsOfReflection"] = {
+			["Bosses"] = {
+				{ "MythicHallsOfReflectionFalric", 1 },
+				{ "MythicHallsOfReflectionMarwyn", 2 },
+				{ "MythicHallsOfReflectionTheLichKing", 3 },
+			},
+			["Info"] = { BabbleZone["Halls of Reflection"] .. "+", "AtlasLootMythicWotLK", mapname = "HallsofReflection" },
+		},
+
+		["MythicFHPitOfSaron"] = {
+			["Bosses"] = {
+				{ "MythicPitOfSaronForgemasterGarfrost", 1 },
+				{ "MythicPitOfSaronKrickAndIck", 2 },
+				{ "MythicPitOfSaronScourgelordTyrannus", 3 },
+			},
+			["Info"] = { BabbleZone["Pit of Saron"] .. "+", "AtlasLootMythicWotLK", mapname = "PitofSaron" },
+		},
+
+		["MythicGundrak"] = {
+			["Bosses"] = {
+				{ "MythicGundrakMoorabi", 1 },
+				{ "MythicGundrakEckTheFerocious", 2 },
+				{ "MythicGundrakDrakkariColossus", 3 },
+				{ "MythicGundrakSladran", 4 },
+				{ "MythicGundrakGaldarah", 5 },
+			},
+			["Info"] = { BabbleZone["Gundrak"] .. "+", "AtlasLootMythicWotLK", mapname = "Gundrak" },
+		},
+
+		["MythicTheNexus"] = {
+			["Bosses"] = {
+				{ "MythicTheNexusCommander", 1 },
+				{ "MythicTheNexusGrandMagusTelestra", 2 },
+				{ "MythicTheNexusAnomalus", 3 },
+				{ "MythicTheNexusOrmorokTheTreeShaper", 4 },
+				{ "MythicTheNexusKeristrasza", 5 },
+			},
+			["Info"] = { BabbleZone["The Nexus"] .. "+", "AtlasLootMythicWotLK", mapname = "TheNexus" },
+		},
+
+		["MythicTheOculus"] = {
+			["Bosses"] = {
+				{ "MythicTheOculusDrakosTheInterrogator", 1 },
+				{ "MythicTheOculusVarosCloudstrider", 2 },
+				{ "MythicTheOculusMageLordUrom", 3 },
+				{ "MythicTheOculusLeyGuardianEregos", 4 },
+			},
+			["Info"] = { BabbleZone["The Oculus"] .. "+", "AtlasLootMythicWotLK", mapname = "Nexus80" },
+		},
+
+		["MythicTrialOfTheChampion"] = {
+			["Bosses"] = {
+				{ "MythicTrialOfTheChampionGrandChampions", 1 },
+				{ "MythicTrialOfTheChampionArgentConfessorPaletress", 2 },
+				{ "MythicTrialOfTheChampionEadricThePure", 3 },
+				{ "MythicTrialOfTheChampionTheBlackKnight", 4 },
+			},
+			["Info"] = { BabbleZone["Trial of the Champion"] .. "+", "AtlasLootMythicWotLK", mapname = "TheArgentColiseum" },
+		},
+
+		["MythicUlduarHallsofStone"] = {
+			["Bosses"] = {
+				{ "MythicHallsOfStoneKrystallus", 1 },
+				{ "MythicHallsOfStoneMaidenOfGrief", 2 },
+				{ "MythicHallsOfStoneTribunalOfTheAges", 3 },
+				{ "MythicHallsOfStoneSjonnirTheIronshaper", 4 },
+			},
+			["Info"] = { BabbleZone["Halls of Stone"] .. "+", "AtlasLootMythicWotLK", mapname = "Ulduar77" },
+		},
+
+		["MythicUlduarHallsofLightning"] = {
+			["Bosses"] = {
+				{ "MythicHallsOfLightningGeneralBjarngrim", 1 },
+				{ "MythicHallsOfLightningVolkhan", 2 },
+				{ "MythicHallsOfLightningIonar", 3 },
+				{ "MythicHallsOfLightningLoken", 4 },
+			},
+			["Info"] = { BabbleZone["Halls of Lightning"] .. "+", "AtlasLootMythicWotLK", mapname = "HallsofLightning" },
+		},
+
+		["MythicUtgardeKeep"] = {
+			["Bosses"] = {
+				{ "MythicUtgardeKeepPrinceKeleseth", 1 },
+				{ "MythicUtgardeKeepSkarvaldAndDalronn", 2 },
+				{ "MythicUtgardeKeepIngvarThePlunderer", 3 },
+			},
+			["Info"] = { BabbleZone["Utgarde Keep"] .. "+", "AtlasLootMythicWotLK", mapname = "UtgardeKeep" },
+		},
+
+		["MythicUtgardePinnacle"] = {
+			["Bosses"] = {
+				{ "MythicUtgardePinnacleSvalaSorrowgrave", 1 },
+				{ "MythicUtgardePinnacleGortokPalehoof", 2 },
+				{ "MythicUtgardePinnacleSkadiTheRuthless", 3 },
+				{ "MythicUtgardePinnacleKingYmiron", 4 },
+			},
+			["Info"] = { BabbleZone["Utgarde Pinnacle"] .. "+", "AtlasLootMythicWotLK", mapname = "UtgardePinnacle" },
+		},
+
+		["MythicVioletHold"] = {
+			["Bosses"] = {
+				{ "MythicTheVioletHoldErekem", 1 },
+				{ "MythicTheVioletHoldIchoron", 2 },
+				{ "MythicTheVioletHoldLavanthor", 3 },
+				{ "MythicTheVioletHoldMoragg", 4 },
+				{ "MythicTheVioletHoldXevozz", 5 },
+				{ "MythicTheVioletHoldZuramatTheObliterator", 6 },
+				{ "MythicTheVioletHoldCyanigosa", 7 },
+			},
+			["Info"] = { BabbleZone["The Violet Hold"] .. "+", "AtlasLootMythicWotLK", mapname = "VioletHold" },
+		},
+
+		---- Raids
+
+		["MythicIcecrownCitadelA"] = "MythicIcecrownCitadel",
+		["MythicIcecrownCitadelB"] = "MythicIcecrownCitadel",
+		["MythicIcecrownCitadelC"] = "MythicIcecrownCitadel",
+		["MythicIcecrownCitadel"] = {
+			["MythicIcecrownCitadelA"] = {
+				{ "MythicIcecrownCitadelLordMarrowgar", 1 },
+				{ "MythicIcecrownCitadelLadyDeathwhisper", 2 },
+				{ "MythicIcecrownCitadelGunshipBattle", 3 },
+				{ "MythicIcecrownCitadelDeathbringerSaurfang", 4 },
+			},
+			["MythicIcecrownCitadelB"] = {
+				{ "MythicIcecrownCitadelFestergut", 1 },
+				{ "MythicIcecrownCitadelRotface", 2 },
+				{ "MythicIcecrownCitadelProfessorPutricide", 3 },
+				{ "MythicIcecrownCitadelBloodPrinceCouncil", 4 },
+				{ "MythicIcecrownCitadelBloodQueenLanathel", 5 },
+				{ "MythicIcecrownCitadelValithriaDreamwalker", 6 },
+				{ "MythicIcecrownCitadelSindragosa", 7 },
+			},
+			["MythicIcecrownCitadelC"] = {
+				{ "MythicIcecrownCitadelTheLichKing", 1 },
+				{ "MythicIcecrownCitadelTrash", 2 },
+			},
+			["Info"] = { BabbleZone["Icecrown Citadel"] .. "+", "AtlasLootMythicWotLK", sortOrder = { "MythicIcecrownCitadelA", "MythicIcecrownCitadelB", "MythicIcecrownCitadelC" }, mapname = "IcecrownCitadel", raid = true },
+		},
+
+		["MythicNaxxramas"] = {
+			["Bosses"] = {
+				{ "MythicNaxxramasPatchwerk", 1 },
+				{ "MythicNaxxramasGrobbulus", 2 },
+				{ "MythicNaxxramasGluth", 3 },
+				{ "MythicNaxxramasThaddius", 4 },
+				{ "MythicNaxxramasAnubRekhan", 5 },
+				{ "MythicNaxxramasGrandWidowFaerlina", 6 },
+				{ "MythicNaxxramasMaexxna", 7 },
+				{ "MythicNaxxramasInstructorRazuvious", 8 },
+				{ "MythicNaxxramasGothikTheHarvester", 9 },
+				{ "MythicNaxxramasFourHorseman", 10 },
+				{ "MythicNaxxramasNothThePlaguebringer", 11 },
+				{ "MythicNaxxramasHeiganTheUnclean", 12 },
+				{ "MythicNaxxramasLoatheb", 13 },
+				{ "MythicNaxxramasSapphiron", 14 },
+				{ "MythicNaxxramasKelThuzad", 15 },
+				{ "MythicNaxxramasTrash", 16 },
+			},
+			["Info"] = { BabbleZone["Naxxramas"] .. "+", "AtlasLootMythicWotLK", mapname = "Naxxramas", raid = true },
+		},
+
+		["MythicObsidianSanctum"] = {
+			["Bosses"] = {
+				{ "MythicObsidianSanctumSartharion", 1 },
+			},
+			["Info"] = { BabbleZone["The Obsidian Sanctum"] .. "+", "AtlasLootMythicWotLK", mapname = "TheObsidianSanctum", raid = true },
+		},
+
+		["MythicOnyxiasLair"] = {
+			["Bosses"] = {
+				{ "MythicOnyxiasLairOnyxia", 1 },
+			},
+			["Info"] = { BabbleZone["Onyxia's Lair"] .. "+", "AtlasLootMythicWotLK", mapname = "OnyxiasLair", raid = true },
+		},
+
+		["MythicRubySanctum"] = {
+			["Bosses"] = {
+				{ "MythicRubySanctumHalion", 1 },
+			},
+			["Info"] = { BabbleZone["The Ruby Sanctum"] .. "+", "AtlasLootMythicWotLK", mapname = "TheRubySanctum", raid = true },
+		},
+
+		["MythicTheEyeOfEternity"] = {
+			["Bosses"] = {
+				{ "MythicTheEyeOfEternityMalygos", 1 },
+			},
+			["Info"] = { BabbleZone["The Eye of Eternity"] .. "+", "AtlasLootMythicWotLK", mapname = "TheEyeOfEternity", raid = true },
+		},
+
+		["MythicTrialOfTheCrusader"] = {
+			["Bosses"] = {
+				{ "MythicTrialOftheCrusaderNorthrendBeasts", 1 },
+				{ "MythicTrialOftheCrusaderLordJaraxxus", 2 },
+				{ "MythicTrialOftheCrusaderFactionChampions", 3 },
+				{ "MythicTrialOftheCrusaderTwinValkyr", 4 },
+				{ "MythicTrialOftheCrusaderAnubarak", 5 },
+				{ "MythicTrialOftheCrusaderTribute", 6 },
+				{ "MythicTrialOftheCrusaderPatterns", 7 },
+			},
+			["Info"] = { BabbleZone["Trial of the Crusader"] .. "+", "AtlasLootMythicWotLK", mapname = "TheArgentColiseum", raid = true },
+		},
+
+		["MythicUlduarA"] = "MythicUlduar",
+		["MythicUlduarB"] = "MythicUlduar",
+		["MythicUlduarC"] = "MythicUlduar",
+		["MythicUlduarD"] = "MythicUlduar",
+		["MythicUlduarE"] = "MythicUlduar",
+		["MythicUlduar"] = {
+			["MythicUlduarA"] = {
+				{ "MythicUlduarFlameLeviathan", 1 },
+				{ "MythicUlduarIgnisTheFurnaceMaster", 2 },
+				{ "MythicUlduarRazorscale", 3 },
+				{ "MythicUlduarXT002Deconstructor", 4 },
+			},
+			["MythicUlduarB"] = {
+				{ "MythicUlduarIronCouncil", 1 },
+				{ "MythicUlduarAlgalonTheObserver", 2 },
+				{ "MythicUlduarKologarn", 3 },
+			},
+			["MythicUlduarC"] = {
+				{ "MythicUlduarAuriaya", 1 },
+				{ "MythicUlduarHodir", 2 },
+				{ "MythicUlduarThorim", 3 },
+				{ "MythicUlduarFreya", 4 },
+			},
+			["MythicUlduarD"] = {
+				{ "MythicUlduarMimiron", 1 },
+			},
+			["MythicUlduarE"] = {
+				{ "MythicUlduarGeneralVezax", 1 },
+				{ "MythicUlduarYoggSaron", 2 },
+				{ "MythicUlduarTrash", 3 },
+				{ "MythicUlduarPatterns", 4 },
+			},
+			["Info"] = { BabbleZone["Ulduar"] .. "+", "AtlasLootMythicWotLK", sortOrder = { "MythicUlduarA", "MythicUlduarB", "MythicUlduarC", "MythicUlduarD", "MythicUlduarE" }, mapname = "Ulduar", raid = true },
+		},
+
+		["MythicVaultOfArchavon"] = {
+			["Bosses"] = {
+				{ "MythicARCHAVON", 1 },
+				{ "MythicEMALON", 2 },
+				{ "MythicKORALON", 3 },
+				{ "MythicTORAVON", 4 },
+			},
+			["Info"] = { BabbleZone["Vault of Archavon"] .. "+", "AtlasLootMythicWotLK", mapname = "VaultofArchavon", raid = true, disableCompare = true },
 		},
 	},
-	
+
 	---------------------
 	--- Battlegrounds ---
 	---------------------
