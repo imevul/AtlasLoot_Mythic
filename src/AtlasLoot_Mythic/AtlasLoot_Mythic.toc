@@ -1,4 +1,4 @@
-﻿## Interface: 30300
+## Interface: 30300
 ## Title: AtlasLoot_Mythic
 ## Notes: AtlasLoot loot tables for Mythic items
 ## Author: Imevul, Aurele
@@ -7,4 +7,5 @@
 ## LoadOnDemand: 1
 ## X-Contributors: Xenothang, Lubricated, dillyns
 
-AtlasLoot_Mythic.lua
+AtlasLoot_MythicBC.lua
+AtlasLoot_MythicWotLK.lua
