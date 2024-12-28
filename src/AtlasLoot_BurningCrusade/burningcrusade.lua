@@ -1991,12 +1991,12 @@ AtlasLoot_Data["GruulsLairGruulTheDragonkiller"] = {
 AtlasLoot_Data["HellfireRampartsWatchkeeperGargolmar"] = {
 	["Normal"] = {
 		{
-			{ 1,  24023, "", "=q3=Bracers of Finesse", "=ds=#s8#, #a2#", "", "20%" },
-			{ 2,  24021, "", "=q3=Light-Touched Breastplate", "=ds=#s5#, #a4#", "", "20%" },
-			{ 3,  24024, "", "=q3=Pauldrons of Arcane Rage", "=ds=#s3#, #a1#", "", "20%" },
-			{ 4,  24022, "", "=q3=Scale Leggings of the Skirmisher", "=ds=#s11#, #a3#", "", "20%" },
-			{ 5,  24020, "", "=q3=Shadowrend Longblade", "=ds=#h1#, #w10#", "", "20%" },
-			{ 7,  23881, "", "=q1=Gargolmar's Hand", "=ds=#m3#", "", "100%" },
+			{ 1, 24023, "", "=q3=Bracers of Finesse", "=ds=#s8#, #a2#", "", "20%" },
+			{ 2, 24021, "", "=q3=Light-Touched Breastplate", "=ds=#s5#, #a4#", "", "20%" },
+			{ 3, 24024, "", "=q3=Pauldrons of Arcane Rage", "=ds=#s3#, #a1#", "", "20%" },
+			{ 4, 24022, "", "=q3=Scale Leggings of the Skirmisher", "=ds=#s11#, #a3#", "", "20%" },
+			{ 5, 24020, "", "=q3=Shadowrend Longblade", "=ds=#h1#, #w10#", "", "20%" },
+			{ 7, 23881, "", "=q1=Gargolmar's Hand", "=ds=#m3#", "", "100%" },
 		},
 	},
 	["Heroic"] = {
