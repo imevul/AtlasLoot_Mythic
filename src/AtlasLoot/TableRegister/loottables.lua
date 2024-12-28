@@ -1266,28 +1266,28 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicCFRTheSlavePens"] = {
 			["Bosses"] = {
-				{ "MythicCFRSlaveMennu",      3 },
-				{ "MythicCFRSlaveRokmar",     4 },
-				{ "MythicCFRSlaveQuagmirran", 5 },
+				{ "MythicSlavePensMennuTheBetrayer", 1 },
+				{ "MythicSlavePensRokmarTheCrackler", 2 },
+				{ "MythicSlavePensQuagmirran", 3 },
 			},
 			["Info"] = { BabbleZone["The Slave Pens"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicCFRTheSteamvault"] = {
 			["Bosses"] = {
-				{ "MythicCFRSteamThespia",     3 },
-				{ "MythicCFRSteamSteamrigger", 5 },
-				{ "MythicCFRSteamWarlord",     7 },
+				{ "MythicSteamvaultHydromancerThespia", 1 },
+				{ "MythicSteamvaultMekgineerSteamrigger", 2 },
+				{ "MythicSteamvaultWarlordKalithresh", 3 },
 			},
 			["Info"] = { BabbleZone["The Steamvault"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicCFRTheUnderbog"] = {
 			["Bosses"] = {
-				{ "MythicCFRUnderHungarfen", 3 },
-				{ "MythicCFRUnderGhazan",    5 },
-				{ "MythicCFRUnderSwamplord", 6 },
-				{ "MythicCFRUnderStalker",   8 },
+				{ "MythicUnderbogHungarfen", 1 },
+				{ "MythicUnderbogGhazan", 2 },
+				{ "MythicUnderbogSwamplordMuselek", 3 },
+				{ "MythicUnderbogTheBlackStalker", 4 },
 			},
 			["Info"] = { BabbleZone["The Underbog"] .. "+", "AtlasLootMythicBC" },
 		},
@@ -1303,19 +1303,19 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicHCBloodFurnace"] = {
 			["Bosses"] = {
-				{ "MythicHCFurnaceMaker",   4 },
-				{ "MythicHCFurnaceBroggok", 5 },
-				{ "MythicHCFurnaceBreaker", 6 },
+				{ "MythicTheBloodFurnaceTheMaker", 1 },
+				{ "MythicTheBloodFurnaceBroggok", 2 },
+				{ "MythicTheBloodFurnaceKelidanTheBreaker", 3 },
 			},
 			["Info"] = { BabbleZone["The Blood Furnace"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicHCTheShatteredHalls"] = {
 			["Bosses"] = {
-				{ "MythicHCHallsNethekurse", 4 },
-				{ "MythicHCHallsPorung",     5 },
-				{ "MythicHCHallsOmrogg",     6 },
-				{ "MythicHCHallsKargath",    7 },
+				{ "MythicShatteredHallsGrandWarlockNethekurse", 1 },
+				{ "MythicShatteredHallsBloodGuardPorung", 2 },
+				{ "MythicShatteredHallsWarbringerOmrogg", 3 },
+				{ "MythicShatteredHallsWarchiefKargathBladefist", 4 },
 			},
 			["Info"] = { BabbleZone["The Shattered Halls"] .. "+", "AtlasLootMythicBC" },
 		},
@@ -1342,21 +1342,23 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicTempestKeepBotanica"] = {
 			["Bosses"] = {
-				{ "MythicTKBotSarannis",  4 },
-				{ "MythicTKBotFreywinn",  5 },
-				{ "MythicTKBotThorngrin", 6 },
-				{ "MythicTKBotLaj",       7 },
-				{ "MythicTKBotSplinter",  8 },
+				{ "MythicBotanicaCommanderSarannis", 1 },
+				{ "MythicBotanicaHighBotanistFreywinn", 2 },
+				{ "MythicBotanicaThorngrinTheTender", 3 },
+				{ "MythicBotanicaLaj", 4 },
+				{ "MythicBotanicaWarpSplinter", 5 },
 			},
 			["Info"] = { BabbleZone["The Botanica"] .. "+", "AtlasLootMythicBC" },
 		},
 
 		["MythicTempestKeepMechanar"] = {
 			["Bosses"] = {
-				{ "MythicTKMechCapacitus",        6 },
-				{ "MythicTKMechSepethrea",        8 },
-				{ "MythicTKMechCalc",             9 },
-				{ "MythicTKMechCacheoftheLegion", 10 },
+				{ "MythicMechanarGatewatcherIronHand", 1 },
+				{ "MythicMechanarMechanoLordCapacitus", 2 },
+				{ "MythicMechanarGatewatcherGyroKill", 3 },
+				{ "MythicMechanarCacheOfTheLegion", 4 },
+				{ "MythicMechanarNethermancerSepethrea", 5 },
+				{ "MythicMechanarPathaleonTheCalculator", 6 },
 			},
 			["Info"] = { BabbleZone["The Mechanar"] .. "+", "AtlasLootMythicBC" },
 		},
