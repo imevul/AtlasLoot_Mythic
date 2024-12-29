@@ -573,14 +573,13 @@ AtlasLoot_Data["MythicTheVioletHoldCyanigosa"] = {
 AtlasLoot_Data["MythicGundrakMoorabi"] = {
 	["Normal"] = {
 		{
-			{ 1, 35589, "", "=q4=Arcane Focal Signet", "=ds=#s13#", "", "33.3%"};
-			{ 2, 35588, "", "=q4=Forlorn Breastplate of War", "=ds=#s5#, #a4#", "", "33.3%"};
-			{ 3, 35587, "", "=q4=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#", "", "33.3%"};
-
-			{ 1, 37631, "", "=q4=Fist of the Deity", "=ds=#h3#, #w13#", "", "25%"};
-			{ 2, 37633, "", "=q4=Ground Tremor Helm", "=ds=#s1#, #a4#", "", "25%"};
-			{ 3, 37632, "", "=q4=Mojo Frenzy Greaves", "=ds=#s12#, #a4#", "", "25%"};
-			{ 4, 37630, "", "=q4=Shroud of Moorabi", "=ds=#s4#", "", "25%"};
+			{ 1, 62545, "", "=q4=Arcane Focal Signet", "=ds=#s13#", "", "14.3%"};
+			{ 2, 62547, "", "=q4=Fist of the Deity", "=ds=#h3#, #w13#", "", "14.3%"};
+			{ 3, 62544, "", "=q4=Forlorn Breastplate of War", "=ds=#s5#, #a4#", "", "14.3%"};
+			{ 4, 62543, "", "=q4=Frozen Scepter of Necromancy", "=ds=#h3#, #w6#", "", "14.3%"};
+			{ 5, 62549, "", "=q4=Ground Tremor Helm", "=ds=#s1#, #a4#", "", "14.3%"};
+			{ 6, 62548, "", "=q4=Mojo Frenzy Greaves", "=ds=#s12#, #a4#", "", "14.3%"};
+			{ 7, 62546, "", "=q4=Shroud of Moorabi", "=ds=#s4#", "", "14.3%"};
 		};
 	};
 	info = {
@@ -593,10 +592,10 @@ AtlasLoot_Data["MythicGundrakMoorabi"] = {
 AtlasLoot_Data["MythicGundrakEckTheFerocious"] = {
 	["Heroic"] = {
 		{
-			{ 1, 43310, "", "=q4=Engraved Chestplate of Eck", "=ds=#s5#, #a4#", "", "25%"};
-			{ 2, 43312, "", "=q4=Gorloc Muddy Footwraps", "=ds=#s12#, #a2#", "", "25%"};
-			{ 3, 43311, "", "=q4=Helmet of the Shrine", "=ds=#s1#, #a3#", "", "25%"};
-			{ 4, 43313, "", "=q4=Leggings of the Ruins Dweller", "=ds=#s11#, #a1#", "", "25%"};
+			{ 1, 62550, "", "=q4=Engraved Chestplate of Eck", "=ds=#s5#, #a4#", "", "25%"};
+			{ 2, 62552, "", "=q4=Gorloc Muddy Footwraps", "=ds=#s12#, #a2#", "", "25%"};
+			{ 3, 62551, "", "=q4=Helmet of the Shrine", "=ds=#s1#, #a3#", "", "25%"};
+			{ 4, 62553, "", "=q4=Leggings of the Ruins Dweller", "=ds=#s11#, #a1#", "", "25%"};
 		};
 	};
 	info = {
@@ -609,14 +608,13 @@ AtlasLoot_Data["MythicGundrakEckTheFerocious"] = {
 AtlasLoot_Data["MythicGundrakDrakkariColossus"] = {
 	["Normal"] = {
 		{
-			{ 1, 35590, "", "=q4=Drakkari Hunting Bow", "=ds=#w2#", "", "33.3%"};
-			{ 2, 35592, "", "=q4=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#", "", "33.3%"};
-			{ 3, 35591, "", "=q4=Shoulderguards of the Ice Troll", "=ds=#s3#, #a2#", "", "33.3%"};
-
-			{ 1, 37634, "", "=q4=Bracers of the Divine Elemental", "=ds=#s8#, #a2#", "", "25%"};
-			{ 2, 37636, "", "=q4=Helm of Cheated Fate", "=ds=#s1#, #a2#", "", "25%"};
-			{ 3, 37637, "", "=q4=Living Mojo Belt", "=ds=#s10#, #a1#", "", "25%"};
-			{ 4, 37635, "", "=q4=Pauldrons of the Colossus", "=ds=#s3#, #a4#", "", "25%"};
+			{ 1, 62539, "", "=q4=Bracers of the Divine Elemental", "=ds=#s8#, #a2#", "", "14.3%"};
+			{ 2, 62536, "", "=q4=Drakkari Hunting Bow", "=ds=#w2#", "", "14.3%"};
+			{ 3, 62538, "", "=q4=Hauberk of Totemic Mastery", "=ds=#s5#, #a3#", "", "14.3%"};
+			{ 4, 62541, "", "=q4=Helm of Cheated Fate", "=ds=#s1#, #a2#", "", "14.3%"};
+			{ 5, 62542, "", "=q4=Living Mojo Belt", "=ds=#s10#, #a1#", "", "14.3%"};
+			{ 6, 62540, "", "=q4=Pauldrons of the Colossus", "=ds=#s3#, #a4#", "", "14.3%"};
+			{ 7, 62537, "", "=q4=Shoulderguards of the Ice Troll", "=ds=#s3#, #a2#", "", "14.3%"};
 		}
 	};
 	info = {
@@ -629,14 +627,13 @@ AtlasLoot_Data["MythicGundrakDrakkariColossus"] = {
 AtlasLoot_Data["MythicGundrakSladran"] = {
 	["Normal"] = {
 		{
-			{ 1, 35585, "", "=q4=Cannibal's Legguards", "=ds=#s11#, #a3#", "", "33.3%"};
-			{ 2, 35584, "", "=q4=Embroidered Gown of Zul'Drak", "=ds=#s5#, #a1#", "", "33.3%"};
-			{ 3, 35583, "", "=q4=Witch Doctor's Wildstaff", "=ds=#w9#", "", "33.3%"};
-
-			{ 1, 37628, "", "=q4=Slad'ran's Coiled Cord", "=ds=#s10#, #a3#", "", "25%"};
-			{ 2, 37629, "", "=q4=Slithering Slippers", "=ds=#s12#, #a1#", "", "25%"};
-			{ 3, 37627, "", "=q4=Snake Den Spaulders", "=ds=#s3#, #a4#", "", "25%"};
-			{ 4, 37626, "", "=q4=Wand of Sseratus", "=ds=#w12#", "", "25%"};
+			{ 1, 62531, "", "=q4=Cannibal's Legguards", "=ds=#s11#, #a3#", "", "14.3%"};
+			{ 2, 62530, "", "=q4=Embroidered Gown of Zul'Drak", "=ds=#s5#, #a1#", "", "14.3%"};
+			{ 3, 62534, "", "=q4=Slad'ran's Coiled Cord", "=ds=#s10#, #a3#", "", "14.3%"};
+			{ 4, 62535, "", "=q4=Slithering Slippers", "=ds=#s12#, #a1#", "", "14.3%"};
+			{ 5, 62533, "", "=q4=Snake Den Spaulders", "=ds=#s3#, #a4#", "", "14.3%"};
+			{ 6, 62532, "", "=q4=Wand of Sseratus", "=ds=#w12#", "", "14.3%"};
+			{ 7, 62529, "", "=q4=Witch Doctor's Wildstaff", "=ds=#w9#", "", "14.3%"};
 		};
 	};
 	info = {
@@ -649,18 +646,17 @@ AtlasLoot_Data["MythicGundrakSladran"] = {
 AtlasLoot_Data["MythicGundrakGaldarah"] = {
 	["Normal"] = {
 		{
-			{ 1, 43309, "", "=q4=Amulet of the Stampede", "=ds=#s2#", "", "33.3%"};
-			{ 2, 43306, "", "=q4=Gal'darah's Signet", "=ds=#s13#", "", "33.3%"};
-			{ 3, 43305, "", "=q4=Shroud of Akali", "=ds=#s4#", "", "33.3%"};
-
-			{ 1, 37641, "", "=q4=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#", "", "25%"};
-			{ 2, 37640, "", "=q4=Boots of Transformation", "=ds=#s12#, #a2#", "", "25%"};
-			{ 3, 37644, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#", "", "25%"};
-			{ 4, 37639, "", "=q4=Grips of the Beast God", "=ds=#s9#, #a3#", "", "25%"};
-			{ 5, 37642, "", "=q4=Hemorrhaging Circle", "=ds=#s13#", "", "25%"};
-			{ 6, 37645, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#", "", "25%"};
-			{ 7, 37638, "", "=q4=Offering of Sacrifice", "=ds=#s14#", "", "25%"};
-			{ 8, 37643, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#", "", "25%"};
+			{ 1, 62564, "", "=q4=Amulet of the Stampede", "=ds=#s2#", "", "9.1%"};
+			{ 2, 62557, "", "=q4=Arcane Flame Altar-Garb", "=ds=#s5#, #a1#", "", "9.1%"};
+			{ 3, 62556, "", "=q4=Boots of Transformation", "=ds=#s12#, #a2#", "", "9.1%"};
+			{ 4, 62563, "", "=q4=Gal'darah's Signet", "=ds=#s13#", "", "9.1%"};
+			{ 5, 62560, "", "=q4=Gored Hide Legguards", "=ds=#s11#, #a2#", "", "9.1%"};
+			{ 6, 62555, "", "=q4=Grips of the Beast God", "=ds=#s9#, #a3#", "", "9.1%"};
+			{ 7, 62558, "", "=q4=Hemorrhaging Circle", "=ds=#s13#", "", "9.1%"};
+			{ 8, 62561, "", "=q4=Horn-Tipped Gauntlets", "=ds=#s9#, #a4#", "", "9.1%"};
+			{ 9, 62554, "", "=q4=Offering of Sacrifice", "=ds=#s14#", "", "9.1%"};
+			{ 10, 62559, "", "=q4=Sash of Blood Removal", "=ds=#s10#, #a2#", "", "9.1%"};
+			{ 11, 62562, "", "=q4=Shroud of Akali", "=ds=#s4#", "", "9.1%"};
 		}
 	};
 	info = {
@@ -764,15 +760,14 @@ AtlasLoot_Data["MythicHallsOfStoneSjonnirTheIronshaper"] = {
 AtlasLoot_Data["MythicHallsOfLightningGeneralBjarngrim"] = {
 	["Normal"] = {
 		{
-			{ 1, 36979, "", "=q4=Bjarngrim Family Signet", "=ds=#s13#", "", "25%"};
-			{ 2, 36981, "", "=q4=Hardened Vrykul Throwing Axe", "=ds=#w11#", "", "25%"};
-			{ 3, 36980, "", "=q4=Hewn Sparring Quarterstaff", "=ds=#w9#", "", "25%"};
-			{ 4, 36982, "", "=q4=Mantle of Electrical Charges", "=ds=#s3#, #a1#", "", "25%"};
-
-			{ 1, 37814, "", "=q4=Iron Dwarf Smith Pauldrons", "=ds=#s3#, #a4#", "", "25%"};
-			{ 2, 37818, "", "=q4=Patroller's War-Kilt", "=ds=#s11#, #a3#", "", "25%"};
-			{ 3, 37826, "", "=q4=The General's Steel Girdle", "=ds=#s10#, #a4#", "", "25%"};
-			{ 4, 37825, "", "=q4=Traditionally Dyed Handguards", "=ds=#s9#, #a1#", "", "25%"};
+			{ 1, 62489, "", "=q4=Bjarngrim Family Signet", "=ds=#s13#", "", "12.5%"};
+			{ 2, 62491, "", "=q4=Hardened Vrykul Throwing Axe", "=ds=#w11#", "", "12.5%"};
+			{ 3, 62490, "", "=q4=Hewn Sparring Quarterstaff", "=ds=#w9#", "", "12.5%"};
+			{ 4, 62493, "", "=q4=Iron Dwarf Smith Pauldrons", "=ds=#s3#, #a4#", "", "12.5%"};
+			{ 5, 62492, "", "=q4=Mantle of Electrical Charges", "=ds=#s3#, #a1#", "", "12.5%"};
+			{ 6, 62494, "", "=q4=Patroller's War-Kilt", "=ds=#s11#, #a3#", "", "12.5%"};
+			{ 7, 62496, "", "=q4=The General's Steel Girdle", "=ds=#s10#, #a4#", "", "12.5%"};
+			{ 8, 62495, "", "=q4=Traditionally Dyed Handguards", "=ds=#s9#, #a1#", "", "12.5%"};
 		};
 	};
 	info = {
@@ -785,15 +780,14 @@ AtlasLoot_Data["MythicHallsOfLightningGeneralBjarngrim"] = {
 AtlasLoot_Data["MythicHallsOfLightningVolkhan"] = {
 	["Normal"] = {
 		{
-			{ 1, 36983, "", "=q4=Cape of Seething Steam", "=ds=#s4#", "", "25%"};
-			{ 2, 36984, "", "=q4=Eternally Folded Blade", "=ds=#h1#, #w10#", "", "25%"};
-			{ 3, 36986, "", "=q4=Kilt of Molten Golems", "=ds=#s11#, #a3#", "", "25%"};
-			{ 4, 36985, "", "=q4=Volkhan's Hood", "=ds=#s1#, #a1#", "", "25%"};
-
-			{ 1, 37842, "", "=q4=Belt of Vivacity", "=ds=#s10#, #a2#", "", "25%"};
-			{ 2, 37843, "", "=q4=Giant-Hair Woven Gloves", "=ds=#s9#, #a1#", "", "25%"};
-			{ 3, 37840, "", "=q4=Shroud of Reverberation", "=ds=#s4#", "", "25%"};
-			{ 4, 37841, "", "=q4=Slag Footguards", "=ds=#s12#, #a2#", "", "25%"};
+			{ 1, 62503, "", "=q4=Belt of Vivacity", "=ds=#s10#, #a2#", "", "12.5%"};
+			{ 2, 62497, "", "=q4=Cape of Seething Steam", "=ds=#s4#", "", "12.5%"};
+			{ 3, 62498, "", "=q4=Eternally Folded Blade", "=ds=#h1#, #w10#", "", "12.5%"};
+			{ 4, 62504, "", "=q4=Giant-Hair Woven Gloves", "=ds=#s9#, #a1#", "", "12.5%"};
+			{ 5, 62500, "", "=q4=Kilt of Molten Golems", "=ds=#s11#, #a3#", "", "12.5%"};
+			{ 6, 62501, "", "=q4=Shroud of Reverberation", "=ds=#s4#", "", "12.5%"};
+			{ 7, 62502, "", "=q4=Slag Footguards", "=ds=#s12#, #a2#", "", "12.5%"};
+			{ 8, 62499, "", "=q4=Volkhan's Hood", "=ds=#s1#, #a1#", "", "12.5%"};
 		};
 	};
 	info = {
@@ -806,15 +800,14 @@ AtlasLoot_Data["MythicHallsOfLightningVolkhan"] = {
 AtlasLoot_Data["MythicHallsOfLightningIonar"] = {
 	["Normal"] = {
 		{
-			{ 1, 39535, "", "=q4=Ionar's Girdle", "=ds=#s10#, #a4#", "", "25%"};
-			{ 2, 39534, "", "=q4=Pauldrons of the Lightning Revenant", "=ds=#s3#, #a4#", "", "25%"};
-			{ 3, 39536, "", "=q4=Thundercloud Grasps", "=ds=#s9#, #a1#", "", "25%"};
-			{ 4, 39657, "", "=q4=Tornado Cuffs", "=ds=#s8#, #a3#", "", "25%"};
-
-			{ 1, 37846, "", "=q4=Charged-Bolt Grips", "=ds=#s9#, #a2#", "", "25%"};
-			{ 2, 37845, "", "=q4=Cord of Swirling Winds", "=ds=#s10#, #a3#", "", "25%"};
-			{ 3, 37847, "", "=q4=Skywall Striders", "=ds=#s12#, #a4#", "", "25%"};
-			{ 4, 37844, "", "=q4=Winged Talisman", "=ds=#s14#", "", "25%"};
+			{ 1, 62507, "", "=q4=Charged-Bolt Grips", "=ds=#s9#, #a2#", "", "12.5%"};
+			{ 2, 62506, "", "=q4=Cord of Swirling Winds", "=ds=#s10#, #a3#", "", "12.5%"};
+			{ 3, 62510, "", "=q4=Ionar's Girdle", "=ds=#s10#, #a4#", "", "12.5%"};
+			{ 4, 62509, "", "=q4=Pauldrons of the Lightning Revenant", "=ds=#s3#, #a4#", "", "12.5%"};
+			{ 5, 62508, "", "=q4=Skywall Striders", "=ds=#s12#, #a4#", "", "12.5%"};
+			{ 6, 62511, "", "=q4=Thundercloud Grasps", "=ds=#s9#, #a1#", "", "12.5%"};
+			{ 7, 62512, "", "=q4=Tornado Cuffs", "=ds=#s8#, #a3#", "", "12.5%"};
+			{ 8, 62505, "", "=q4=Winged Talisman", "=ds=#s14#", "", "12.5%"};
 		};
 	};
 	info = {
@@ -827,23 +820,22 @@ AtlasLoot_Data["MythicHallsOfLightningIonar"] = {
 AtlasLoot_Data["MythicHallsOfLightningLoken"] = {
 	["Normal"] = {
 		{
-			{ 1, 36989, "", "=q4=Ancient Measuring Rod", "=ds=#w12#", "", "12.5%"};
-			{ 2, 36988, "", "=q4=Chaotic Spiral Amulet", "=ds=#s2#", "", "12.5%"};
-			{ 3, 36995, "", "=q4=Fists of Loken", "=ds=#s9#, #a4#", "", "12.5%"};
-			{ 4, 36996, "", "=q4=Hood of the Furtive Assassin", "=ds=#s1#, #a2#", "", "12.5%"};
-			{ 5, 36992, "", "=q4=Leather-Braced Chain Leggings", "=ds=#s11#, #a3#", "", "12.5%"};
-			{ 6, 36994, "", "=q4=Projectile Activator", "=ds=#w5#", "", "12.5%"};
-			{ 7, 36991, "", "=q4=Raiments of the Titans", "=ds=#s5#, #a1#", "", "12.5%"};
-			{ 8, 36993, "", "=q4=Seal of the Pantheon", "=ds=#s14#", "", "12.5%"};
-
-			{ 1, 37853, "", "=q4=Advanced Tooled-Leather Bands", "=ds=#s8#, #a2#", "", "25%"};
-			{ 2, 37852, "", "=q4=Colossal Skull-Clad Cleaver", "=ds=#h2#, #w1#", "", "25%"};
-			{ 3, 37850, "", "=q4=Flowing Sash of Order", "=ds=#s10#, #a1#", "", "25%"};
-			{ 4, 37848, "", "=q4=Lightning Giant Staff", "=ds=#w9#", "", "25%"};
-			{ 5, 37855, "", "=q4=Mail Girdle of the Audient Earth", "=ds=#s10#, #a3#", "", "25%"};
-			{ 6, 37851, "", "=q4=Ornate Woolen Stola", "=ds=#s5#, #a1#", "", "25%"};
-			{ 7, 37849, "", "=q4=Planetary Helm", "=ds=#s1#, #a4#", "", "25%"};
-			{ 8, 37854, "", "=q4=Woven Bracae Leggings", "=ds=#s11#, #a1#", "", "25%"};
+			{ 1, 62526, "", "=q4=Advanced Tooled-Leather Bands", "=ds=#s8#, #a2#", "", "6.3%"};
+			{ 2, 62514, "", "=q4=Ancient Measuring Rod", "=ds=#w12#", "", "6.3%"};
+			{ 3, 62513, "", "=q4=Chaotic Spiral Amulet", "=ds=#s2#", "", "6.3%"};
+			{ 4, 62525, "", "=q4=Colossal Skull-Clad Cleaver", "=ds=#h2#, #w1#", "", "6.3%"};
+			{ 5, 62519, "", "=q4=Fists of Loken", "=ds=#s9#, #a4#", "", "6.3%"};
+			{ 6, 62523, "", "=q4=Flowing Sash of Order", "=ds=#s10#, #a1#", "", "6.3%"};
+			{ 7, 62520, "", "=q4=Hood of the Furtive Assassin", "=ds=#s1#, #a2#", "", "6.3%"};
+			{ 8, 62516, "", "=q4=Leather-Braced Chain Leggings", "=ds=#s11#, #a3#", "", "6.3%"};
+			{ 9, 62521, "", "=q4=Lightning Giant Staff", "=ds=#w9#", "", "6.3%"};
+			{ 10, 62528, "", "=q4=Mail Girdle of the Audient Earth", "=ds=#s10#, #a3#", "", "6.3%"};
+			{ 11, 62524, "", "=q4=Ornate Woolen Stola", "=ds=#s5#, #a1#", "", "6.3%"};
+			{ 12, 62522, "", "=q4=Planetary Helm", "=ds=#s1#, #a4#", "", "6.3%"};
+			{ 13, 62518, "", "=q4=Projectile Activator", "=ds=#w5#", "", "6.3%"};
+			{ 14, 62515, "", "=q4=Raiments of the Titans", "=ds=#s5#, #a1#", "", "6.3%"};
+			{ 15, 62517, "", "=q4=Seal of the Pantheon", "=ds=#s14#", "", "6.3%"};
+			{ 16, 62527, "", "=q4=Woven Bracae Leggings", "=ds=#s11#, #a1#", "", "6.3%"};
 		};
 	};
 	info = {
@@ -1454,19 +1446,18 @@ AtlasLoot_Data["MythicPitOfSaronScourgelordTyrannus"] = {
 AtlasLoot_Data["MythicHallsOfReflectionFalric"] = {
 	["Normal"] = {
 		{
-			{ 1, 49832, "", "=q4=Eerie Runeblade Polisher", "=ds=#s4#", "", "16.7%"};
-			{ 2, 49830, "", "=q4=Fallen Sentry's Hood", "=ds=#s1#, #a2#", "", "16.7%"};
-			{ 3, 49827, "", "=q4=Ghoulslicer", "=ds=#h1#, #w10#", "", "16.7%"};
-			{ 4, 49828, "", "=q4=Marwyn's Macabre Fingertips", "=ds=#s9#, #a1#", "", "16.7%"};
-			{ 5, 49831, "", "=q4=Muddied Boots of Brill", "=ds=#s12#, #a3#", "", "16.7%"};
-			{ 6, 49829, "", "=q4=Valonforth's Tarnished Pauldrons", "=ds=#s3#, #a4#", "", "16.7%"};
-
-			{ 1, 50292, "", "=q4=Bracer of Worn Molars", "=ds=#s8#, #a1#", "", "16.7%"};
-			{ 2, 50294, "", "=q4=Chestpiece of High Treason", "=ds=#s5#, #a4#", "", "16.7%"};
-			{ 3, 50290, "", "=q4=Falric's Wrist-Chopper", "=ds=#h1#, #w1#", "", "16.7%"};
-			{ 4, 50291, "", "=q4=Soulsplinter", "=ds=#w12#", "", "16.7%"};
-			{ 5, 50293, "", "=q4=Spaulders of Black Betrayal", "=ds=#s3#, #a2#", "", "16.7%"};
-			{ 6, 50295, "", "=q4=Spiked Toestompers", "=ds=#s12#, #a3#", "", "16.7%"};
+			{ 1, 62805, "", "=q4=Bracer of Worn Molars", "=ds=#s8#, #a1#", "", "8.3%"};
+			{ 2, 62807, "", "=q4=Chestpiece of High Treason", "=ds=#s5#, #a4#", "", "8.3%"};
+			{ 3, 62802, "", "=q4=Eerie Runeblade Polisher", "=ds=#s4#", "", "8.3%"};
+			{ 4, 62800, "", "=q4=Fallen Sentry's Hood", "=ds=#s1#, #a2#", "", "8.3%"};
+			{ 5, 62803, "", "=q4=Falric's Wrist-Chopper", "=ds=#h1#, #w1#", "", "8.3%"};
+			{ 6, 62797, "", "=q4=Ghoulslicer", "=ds=#h1#, #w10#", "", "8.3%"};
+			{ 7, 62798, "", "=q4=Marwyn's Macabre Fingertips", "=ds=#s9#, #a1#", "", "8.3%"};
+			{ 8, 62801, "", "=q4=Muddied Boots of Brill", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 9, 62804, "", "=q4=Soulsplinter", "=ds=#w12#", "", "8.3%"};
+			{ 10, 62806, "", "=q4=Spaulders of Black Betrayal", "=ds=#s3#, #a2#", "", "8.3%"};
+			{ 11, 62808, "", "=q4=Spiked Toestompers", "=ds=#s12#, #a3#", "", "8.3%"};
+			{ 12, 62799, "", "=q4=Valonforth's Tarnished Pauldrons", "=ds=#s3#, #a4#", "", "8.3%"};
 		};
 	};
 	info = {
@@ -1479,19 +1470,18 @@ AtlasLoot_Data["MythicHallsOfReflectionFalric"] = {
 AtlasLoot_Data["MythicHallsOfReflectionMarwyn"] = {
 	["Normal"] = {
 		{
-			{ 1, 49838, "", "=q4=Carpal Tunnelers", "=ds=#s9#, #a2#", "", "16.7%"};
-			{ 2, 49834, "", "=q4=Frayed Abomination Stitching Shoulders", "=ds=#s3#, #a1#", "", "16.7%"};
-			{ 3, 49836, "", "=q4=Frostsworn Bone Leggings", "=ds=#s11#, #a3#", "", "16.7%"};
-			{ 4, 49837, "", "=q4=Mitts of Burning Hail", "=ds=#s9#, #a3#", "", "16.7%"};
-			{ 5, 49835, "", "=q4=Splintered Door of the Citadel", "=ds=#w8#", "", "16.7%"};
-			{ 6, 49833, "", "=q4=Splintered Icecrown Parapet", "=ds=#h3#, #w10#", "", "16.7%"};
-
-			{ 1, 50300, "", "=q4=Choking Hauberk", "=ds=#s5#, #a2#", "", "16.7%"};
-			{ 2, 50260, "", "=q4=Ephemeral Snowflake", "=ds=#s14#", "", "16.7%"};
-			{ 3, 50297, "", "=q4=Frostsworn Bone Chestpiece", "=ds=#s5#, #a3#", "", "16.7%"};
-			{ 4, 50296, "", "=q4=Orca-Hunter's Harpoon", "=ds=#w7#", "", "16.7%"};
-			{ 5, 50298, "", "=q4=Sightless Crown of Ulmaas", "=ds=#s1#, #a1#", "", "16.7%"};
-			{ 6, 50299, "", "=q4=Suspiciously Soft Gloves", "=ds=#s9#, #a1#", "", "16.7%"};
+			{ 1, 62814, "", "=q4=Carpal Tunnelers", "=ds=#s9#, #a2#", "", "8.3%"};
+			{ 2, 62820, "", "=q4=Choking Hauberk", "=ds=#s5#, #a2#", "", "8.3%"};
+			{ 3, 62815, "", "=q4=Ephemeral Snowflake", "=ds=#s14#", "", "8.3%"};
+			{ 4, 62810, "", "=q4=Frayed Abomination Stitching Shoulders", "=ds=#s3#, #a1#", "", "8.3%"};
+			{ 5, 62817, "", "=q4=Frostsworn Bone Chestpiece", "=ds=#s5#, #a3#", "", "8.3%"};
+			{ 6, 62812, "", "=q4=Frostsworn Bone Leggings", "=ds=#s11#, #a3#", "", "8.3%"};
+			{ 7, 62813, "", "=q4=Mitts of Burning Hail", "=ds=#s9#, #a3#", "", "8.3%"};
+			{ 8, 62816, "", "=q4=Orca-Hunter's Harpoon", "=ds=#w7#", "", "8.3%"};
+			{ 9, 62818, "", "=q4=Sightless Crown of Ulmaas", "=ds=#s1#, #a1#", "", "8.3%"};
+			{ 10, 62811, "", "=q4=Splintered Door of the Citadel", "=ds=#w8#", "", "8.3%"};
+			{ 11, 62809, "", "=q4=Splintered Icecrown Parapet", "=ds=#h3#, #w10#", "", "8.3%"};
+			{ 12, 62819, "", "=q4=Suspiciously Soft Gloves", "=ds=#s9#, #a1#", "", "8.3%"};
 		};
 	};
 	info = {
@@ -1504,31 +1494,30 @@ AtlasLoot_Data["MythicHallsOfReflectionMarwyn"] = {
 AtlasLoot_Data["MythicHallsOfReflectionTheLichKing"] = {
 	["Normal"] = {
 		{
-			{ 1, 49841, "", "=q4=Blackened Geist Ribs", "=ds=#s5#, #a2#", "", "8.3%"};
-			{ 2, 49845, "", "=q4=Bone Golem Scapula", "=ds=#h3#, #w6#", "", "8.3%"};
-			{ 3, 49846, "", "=q4=Chilled Heart of the Glacier", "=ds=#h3#, #w4#", "", "8.3%"};
-			{ 4, 49844, "", "=q4=Crypt Fiend Slayer", "=ds=#w2#", "", "8.3%"};
-			{ 5, 49843, "", "=q4=Crystalline Citadel Gauntlets", "=ds=#s9#, #a4#", "", "8.3%"};
-			{ 6, 49851, "", "=q4=Greathelm of the Silver Hand", "=ds=#s1#, #a4#", "", "8.3%"};
-			{ 7, 49848, "", "=q4=Grim Lasher Shoulderguards", "=ds=#s3#, #a2#", "", "8.3%"};
-			{ 8, 49840, "", "=q4=Hate-Forged Cleaver", "=ds=#h1#, #w1#", "", "8.3%"};
-			{ 9, 49847, "", "=q4=Legguards of Untimely Demise", "=ds=#s11#, #a3#", "", "8.3%"};
-			{ 10, 49839, "", "=q4=Mourning Malice", "=ds=#h2#, #w10#", "", "8.3%"};
-			{ 11, 49842, "", "=q4=Tapestry of the Frozen Throne", "=ds=#s4#", "", "8.3%"};
-			{ 12, 49849, "", "=q4=Tattered Glacial-Woven Hood", "=ds=#s1#, #a1#", "", "8.3%"};
-
-			{ 1, 50303, "", "=q4=Black Icicle", "=ds=#h1#, #w6#", "", "8.3%"};
-			{ 2, 50308, "", "=q4=Blighted Leather Footpads", "=ds=#s12#, #a2#", "", "8.3%"};
-			{ 3, 50312, "", "=q4=Chestguard of Broken Branches", "=ds=#s5#, #a2#", "", "8.3%"};
-			{ 4, 50310, "", "=q4=Fossilized Ammonite Choker", "=ds=#s2#", "", "8.3%"};
-			{ 5, 50305, "", "=q4=Grinning Skull Boots", "=ds=#s12#, #a4#", "", "8.3%"};
-			{ 6, 50304, "", "=q4=Hoarfrost Gauntlets", "=ds=#s9#, #a3#", "", "8.3%"};
-			{ 7, 50302, "", "=q4=Liar's Tongue", "=ds=#h1#, #w10#", "", "8.3%"};
-			{ 8, 50313, "", "=q4=Oath of Empress Zoe", "=ds=#s13#", "", "8.3%"};
-			{ 9, 50311, "", "=q4=Second Helm of the Executioner", "=ds=#s1#, #a4#", "", "8.3%"};
-			{ 10, 50309, "", "=q4=Shriveled Heart", "=ds=#s15#", "", "8.3%"};
-			{ 11, 50314, "", "=q4=Strip of Remorse", "=ds=#s10#, #a1#", "", "8.3%"};
-			{ 12, 50306, "", "=q4=The Lady's Promise", "=ds=#s13#", "", "8.3%"};
+			{ 1, 62834, "", "=q4=Black Icicle", "=ds=#h1#, #w6#", "", "4.2%"};
+			{ 2, 62823, "", "=q4=Blackened Geist Ribs", "=ds=#s5#, #a2#", "", "4.2%"};
+			{ 3, 62838, "", "=q4=Blighted Leather Footpads", "=ds=#s12#, #a2#", "", "4.2%"};
+			{ 4, 62827, "", "=q4=Bone Golem Scapula", "=ds=#h3#, #w6#", "", "4.2%"};
+			{ 5, 62842, "", "=q4=Chestguard of Broken Branches", "=ds=#s5#, #a2#", "", "4.2%"};
+			{ 6, 62828, "", "=q4=Chilled Heart of the Glacier", "=ds=#h3#, #w4#", "", "4.2%"};
+			{ 7, 62826, "", "=q4=Crypt Fiend Slayer", "=ds=#w2#", "", "4.2%"};
+			{ 8, 62825, "", "=q4=Crystalline Citadel Gauntlets", "=ds=#s9#, #a4#", "", "4.2%"};
+			{ 9, 62840, "", "=q4=Fossilized Ammonite Choker", "=ds=#s2#", "", "4.2%"};
+			{ 10, 62832, "", "=q4=Greathelm of the Silver Hand", "=ds=#s1#, #a4#", "", "4.2%"};
+			{ 11, 62830, "", "=q4=Grim Lasher Shoulderguards", "=ds=#s3#, #a2#", "", "4.2%"};
+			{ 12, 62836, "", "=q4=Grinning Skull Boots", "=ds=#s12#, #a4#", "", "4.2%"};
+			{ 13, 62822, "", "=q4=Hate-Forged Cleaver", "=ds=#h1#, #w1#", "", "4.2%"};
+			{ 14, 62835, "", "=q4=Hoarfrost Gauntlets", "=ds=#s9#, #a3#", "", "4.2%"};
+			{ 15, 62829, "", "=q4=Legguards of Untimely Demise", "=ds=#s11#, #a3#", "", "4.2%"};
+			{ 16, 62833, "", "=q4=Liar's Tongue", "=ds=#h1#, #w10#", "", "4.2%"};
+			{ 17, 62821, "", "=q4=Mourning Malice", "=ds=#h2#, #w10#", "", "4.2%"};
+			{ 18, 62843, "", "=q4=Oath of Empress Zoe", "=ds=#s13#", "", "4.2%"};
+			{ 19, 62841, "", "=q4=Second Helm of the Executioner", "=ds=#s1#, #a4#", "", "4.2%"};
+			{ 20, 62839, "", "=q4=Shriveled Heart", "=ds=#s15#", "", "4.2%"};
+			{ 21, 62844, "", "=q4=Strip of Remorse", "=ds=#s10#, #a1#", "", "4.2%"};
+			{ 22, 62824, "", "=q4=Tapestry of the Frozen Throne", "=ds=#s4#", "", "4.2%"};
+			{ 23, 62831, "", "=q4=Tattered Glacial-Woven Hood", "=ds=#s1#, #a1#", "", "4.2%"};
+			{ 24, 62837, "", "=q4=The Lady's Promise", "=ds=#s13#", "", "4.2%"};
 		};
 	};
 	info = {
