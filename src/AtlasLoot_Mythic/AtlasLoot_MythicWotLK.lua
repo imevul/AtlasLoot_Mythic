@@ -433,12 +433,11 @@ AtlasLoot_Data["MythicDrakTharonKeepTheProphetTharonja"] = {
 AtlasLoot_Data["MythicTheVioletHoldErekem"] = {
 	["Normal"] = {
 		{
-			{ 1, 43363, "", "=q4=Screeching Cape", "=ds=#s4#", "", "50%"};
-			{ 2, 43375, "", "=q4=Trousers of the Arakkoa", "=ds=#s11#, #a1#", "", "50%"};
-
-			{ 1, 43406, "", "=q4=Cloak of the Gushing Wound", "=ds=#s4#", "", "33.3%"};
-			{ 2, 43405, "", "=q4=Sabatons of Erekem", "=ds=#s12#, #a4#", "", "33.3%"};
-			{ 3, 43407, "", "=q4=Stormstrike Mace", "=ds=#h1#, #w6#", "", "33.3%"};
+			{ 1, 62573, "", "=q4=Cloak of the Gushing Wound", "=ds=#s4#", "", "20%"};
+			{ 2, 62572, "", "=q4=Sabatons of Erekem", "=ds=#s12#, #a4#", "", "20%"};
+			{ 3, 62570, "", "=q4=Screeching Cape", "=ds=#s4#", "", "20%"};
+			{ 4, 62574, "", "=q4=Stormstrike Mace", "=ds=#h1#, #w6#", "", "20%"};
+			{ 5, 62571, "", "=q4=Trousers of the Arakkoa", "=ds=#s11#, #a1#", "", "20%"};
 		};
 	};
 	info = {
@@ -451,12 +450,11 @@ AtlasLoot_Data["MythicTheVioletHoldErekem"] = {
 AtlasLoot_Data["MythicTheVioletHoldIchoron"] = {
 	["Normal"] = {
 		{
-			{ 1, 35647, "", "=q4=Handguards of Rapid Pursuit", "=ds=#s9#, #a2#", "", "50%"};
-			{ 2, 35643, "", "=q4=Spaulders of Ichoron", "=ds=#s3#, #a4#", "", "50%"};
-
-			{ 1, 37862, "", "=q4=Gauntlets of the Water Revenant", "=ds=#s9#, #a4#", "", "33.3%"};
-			{ 2, 37869, "", "=q4=Globule Signet", "=ds=#s13#", "", "33.3%"};
-			{ 3, 43401, "", "=q4=Water-Drenched Robe", "=ds=#s5#, #a1#", "", "33.3%"};
+			{ 1, 62592, "", "=q4=Gauntlets of the Water Revenant", "=ds=#s9#, #a4#", "", "20%"};
+			{ 2, 62593, "", "=q4=Globule Signet", "=ds=#s13#", "", "20%"};
+			{ 3, 62591, "", "=q4=Handguards of Rapid Pursuit", "=ds=#s9#, #a2#", "", "20%"};
+			{ 4, 62590, "", "=q4=Spaulders of Ichoron", "=ds=#s3#, #a4#", "", "20%"};
+			{ 5, 62594, "", "=q4=Water-Drenched Robe", "=ds=#s5#, #a1#", "", "20%"};
 		};
 	};
 	info = {
@@ -469,12 +467,11 @@ AtlasLoot_Data["MythicTheVioletHoldIchoron"] = {
 AtlasLoot_Data["MythicTheVioletHoldLavanthor"] = {
 	["Normal"] = {
 		{
-			{ 1, 35646, "", "=q4=Lava Burn Gloves", "=ds=#s9#, #a1#", "", "50%"};
-			{ 2, 35645, "", "=q4=Prison Warden's Shotgun", "=ds=#w5#", "", "50%"};
-
-			{ 1, 37872, "", "=q4=Lavanthor's Talisman", "=ds=#s14#", "", "33.3%"};
-			{ 2, 37871, "", "=q4=The Key", "=ds=#h1#, #w1#", "", "33.3%"};
-			{ 3, 37870, "", "=q4=Twin-Headed Boots", "=ds=#s12#, #a3#", "", "33.3%"};
+			{ 1, 62586, "", "=q4=Lava Burn Gloves", "=ds=#s9#, #a1#", "", "20%"};
+			{ 2, 62589, "", "=q4=Lavanthor's Talisman", "=ds=#s14#", "", "20%"};
+			{ 3, 62585, "", "=q4=Prison Warden's Shotgun", "=ds=#w5#", "", "20%"};
+			{ 4, 62588, "", "=q4=The Key", "=ds=#h1#, #w1#", "", "20%"};
+			{ 5, 62587, "", "=q4=Twin-Headed Boots", "=ds=#s12#, #a3#", "", "20%"};
 		};
 	};
 	info = {
@@ -487,12 +484,11 @@ AtlasLoot_Data["MythicTheVioletHoldLavanthor"] = {
 AtlasLoot_Data["MythicTheVioletHoldMoragg"] = {
 	["Normal"] = {
 		{
-			{ 1, 43382, "", "=q4=Band of Eyes", "=ds=#s13#", "", "50%"};
-			{ 2, 43387, "", "=q4=Shoulderplates of the Beholder", "=ds=#s3#, #a4#", "", "50%"};
-
-			{ 1, 43410, "", "=q4=Moragg's Chestguard", "=ds=#s5#, #a3#", "", "33.3%"};
-			{ 2, 43409, "", "=q4=Saliva Corroded Pike", "=ds=#w7#", "", "33.3%"};
-			{ 3, 43408, "", "=q4=Solitare of Reflecting Beams", "=ds=#s13#", "", "33.3%"};
+			{ 1, 62580, "", "=q4=Band of Eyes", "=ds=#s13#", "", "20%"};
+			{ 2, 62584, "", "=q4=Moragg's Chestguard", "=ds=#s5#, #a3#", "", "20%"};
+			{ 3, 62583, "", "=q4=Saliva Corroded Pike", "=ds=#w7#", "", "20%"};
+			{ 4, 62581, "", "=q4=Shoulderplates of the Beholder", "=ds=#s3#, #a4#", "", "20%"};
+			{ 5, 62582, "", "=q4=Solitare of Reflecting Beams", "=ds=#s13#", "", "20%"};
 		};	
 	};
 	info = {
@@ -505,12 +501,11 @@ AtlasLoot_Data["MythicTheVioletHoldMoragg"] = {
 AtlasLoot_Data["MythicTheVioletHoldXevozz"] = {
 	["Normal"] = {
 		{
-			{ 1, 35642, "", "=q4=Riot Shield", "=ds=#w8#", "", "50%"};
-			{ 2, 35644, "", "=q4=Xevozz's Belt", "=ds=#s10#, #a3#", "", "50%"};
-
-			{ 1, 37867, "", "=q4=Footwraps of Teleportation", "=ds=#s12#, #a1#", "", "33.3%"};
-			{ 2, 37868, "", "=q4=Girdle of the Ethereal", "=ds=#s10#, #a3#", "", "33.3%"};
-			{ 3, 37861, "", "=q4=Necklace of Arcane Spheres", "=ds=#s2#", "", "33.3%"};
+			{ 1, 62568, "", "=q4=Footwraps of Teleportation", "=ds=#s12#, #a1#", "", "20%"};
+			{ 2, 62569, "", "=q4=Girdle of the Ethereal", "=ds=#s10#, #a3#", "", "20%"};
+			{ 3, 62567, "", "=q4=Necklace of Arcane Spheres", "=ds=#s2#", "", "20%"};
+			{ 4, 62565, "", "=q4=Riot Shield", "=ds=#w8#", "", "20%"};
+			{ 5, 62566, "", "=q4=Xevozz's Belt", "=ds=#s10#, #a3#", "", "20%"};
 		};
 	};
 	info = {
@@ -523,12 +518,11 @@ AtlasLoot_Data["MythicTheVioletHoldXevozz"] = {
 AtlasLoot_Data["MythicTheVioletHoldZuramatTheObliterator"] = {
 	["Normal"] = {
 		{
-			{ 1, 43358, "", "=q4=Pendant of Shadow Beams", "=ds=#s2#", "", "50%"};
-			{ 2, 43353, "", "=q4=Void Sentry Legplates", "=ds=#s11#, #a4#", "", "50%"};
-
-			{ 1, 43403, "", "=q4=Shroud of Darkness", "=ds=#s1#, #a2#", "", "33.3%"};
-			{ 2, 43402, "", "=q4=The Obliterator Greaves", "=ds=#s12#, #a4#", "", "33.3%"};
-			{ 3, 43404, "", "=q4=Zuramat's Necklace", "=ds=#s2#", "", "33.3%"};
+			{ 1, 62576, "", "=q4=Pendant of Shadow Beams", "=ds=#s2#", "", "20%"};
+			{ 2, 62578, "", "=q4=Shroud of Darkness", "=ds=#s1#, #a2#", "", "20%"};
+			{ 3, 62577, "", "=q4=The Obliterator Greaves", "=ds=#s12#, #a4#", "", "20%"};
+			{ 4, 62575, "", "=q4=Void Sentry Legplates", "=ds=#s11#, #a4#", "", "20%"};
+			{ 5, 62579, "", "=q4=Zuramat's Necklace", "=ds=#s2#", "", "20%"};
 		};
 	};
 	info = {
@@ -541,18 +535,17 @@ AtlasLoot_Data["MythicTheVioletHoldZuramatTheObliterator"] = {
 AtlasLoot_Data["MythicTheVioletHoldCyanigosa"] = {
 	["Normal"] = {
 		{
-			{ 1, 35650, "", "=q4=Boots of the Portal Guardian", "=ds=#s12#, #a3#", "", "33.3%"};
-			{ 2, 35649, "", "=q4=Jailer's Baton", "=ds=#w9#", "", "33.3%"};
-			{ 3, 35651, "", "=q4=Plate Claws of the Dragon", "=ds=#s9#, #a4#", "", "33.3%"};
-
-			{ 1, 37884, "", "=q4=Azure Cloth Bindings", "=ds=#s8#, #a1#", "", "25%"};
-			{ 2, 43500, "", "=q4=Bolstered Legplates", "=ds=#s11#, #a4#", "", "25%"};
-			{ 3, 37876, "", "=q4=Cyanigosa's Leggings", "=ds=#s11#, #a1#", "", "25%"};
-			{ 4, 37874, "", "=q4=Gauntlets of Capture", "=ds=#s9#, #a4#", "", "25%"};
-			{ 5, 37886, "", "=q4=Handgrips of the Savage Emissary", "=ds=#s9#, #a3#", "", "25%"};
-			{ 6, 37873, "", "=q4=Mark of the War Prisoner", "=ds=#s14#", "", "25%"};
-			{ 7, 37875, "", "=q4=Spaulders of the Violet Hold", "=ds=#s3#, #a3#", "", "25%"};
-			{ 8, 37883, "", "=q4=Staff of Trickery", "=ds=#w9#", "", "25%"};
+			{ 1, 62602, "", "=q4=Azure Cloth Bindings", "=ds=#s8#, #a1#", "", "9.1%"};
+			{ 2, 62604, "", "=q4=Bolstered Legplates", "=ds=#s11#, #a4#", "", "9.1%"};
+			{ 3, 62596, "", "=q4=Boots of the Portal Guardian", "=ds=#s12#, #a3#", "", "9.1%"};
+			{ 4, 62600, "", "=q4=Cyanigosa's Leggings", "=ds=#s11#, #a1#", "", "9.1%"};
+			{ 5, 60127, "", "=q4=Gauntlets of Capture", "=ds=#s9#, #a4#", "", "9.1%"};
+			{ 6, 62603, "", "=q4=Handgrips of the Savage Emissary", "=ds=#s9#, #a3#", "", "9.1%"};
+			{ 7, 62595, "", "=q4=Jailer's Baton", "=ds=#w9#", "", "9.1%"};
+			{ 8, 62598, "", "=q4=Mark of the War Prisoner", "=ds=#s14#", "", "9.1%"};
+			{ 9, 62597, "", "=q4=Plate Claws of the Dragon", "=ds=#s9#, #a4#", "", "9.1%"};
+			{ 10, 62599, "", "=q4=Spaulders of the Violet Hold", "=ds=#s3#, #a3#", "", "9.1%"};
+			{ 11, 62601, "", "=q4=Staff of Trickery", "=ds=#w9#", "", "9.1%"};
 		};
 	};
 	info = {
@@ -1124,19 +1117,18 @@ AtlasLoot_Data["MythicTheOculusLeyGuardianEregos"] = {
 AtlasLoot_Data["MythicTrialOfTheChampionGrandChampions"] = {
 	["Normal"] = {
 		{
-			{ 1, 47170, "", "=q4=Belt of Fierce Competition", "=ds=#s10#, #a2#", "", "16.7%"};
-			{ 2, 47174, "", "=q4=Binding of the Tranquil Glade", "=ds=#s10#, #a2#", "", "16.7%"};
-			{ 3, 47173, "", "=q4=Bindings of the Wicked", "=ds=#s8#, #a1#", "", "16.7%"};
-			{ 4, 47172, "", "=q4=Helm of the Bested Gallant", "=ds=#s1#, #a4#", "", "16.7%"};
-			{ 5, 47171, "", "=q4=Legguards of Abandoned Fealty", "=ds=#s11#, #a4#", "", "16.7%"};
-			{ 6, 47175, "", "=q4=Scale Boots of the Outlander", "=ds=#s12#, #a3#", "", "16.7%"};
-
-			{ 1, 47244, "", "=q4=Chestguard of the Ravenous Fiend", "=ds=#s5#, #a3#", "", "16.7%"};
-			{ 2, 47493, "", "=q4=Edge of Ruin", "=ds=#h2#, #w1#", "", "16.7%"};
-			{ 3, 47249, "", "=q4=Leggings of the Snowy Bramble", "=ds=#s11#, #a2#", "", "16.7%"};
-			{ 4, 47243, "", "=q4=Mark of the Relentless", "=ds=#s13#", "", "16.7%"};
-			{ 5, 47250, "", "=q4=Pauldrons of the Deafening Gale", "=ds=#s3#, #a3#", "", "16.7%"};
-			{ 6, 47248, "", "=q4=Treads of Dismal Fortune", "=ds=#s12#, #a2#", "", "16.7%"};
+			{ 1, 62677, "", "=q4=Belt of Fierce Competition", "=ds=#s10#, #a2#", "", "16.7%"};
+			{ 2, 62681, "", "=q4=Binding of the Tranquil Glade", "=ds=#s10#, #a2#", "", "16.7%"};
+			{ 3, 62680, "", "=q4=Bindings of the Wicked", "=ds=#s8#, #a1#", "", "16.7%"};
+			{ 4, 62684, "", "=q4=Chestguard of the Ravenous Fiend", "=ds=#s5#, #a3#", "", "16.7%"};
+			{ 5, 62688, "", "=q4=Edge of Ruin", "=ds=#h2#, #w1#", "", "16.7%"};
+			{ 6, 62679, "", "=q4=Helm of the Bested Gallant", "=ds=#s1#, #a4#", "", "16.7%"};
+			{ 7, 62686, "", "=q4=Leggings of the Snowy Bramble", "=ds=#s11#, #a2#", "", "16.7%"};
+			{ 8, 62678, "", "=q4=Legguards of Abandoned Fealty", "=ds=#s11#, #a4#", "", "16.7%"};
+			{ 9, 62683, "", "=q4=Mark of the Relentless", "=ds=#s13#", "", "16.7%"};
+			{ 10, 62687, "", "=q4=Pauldrons of the Deafening Gale", "=ds=#s3#, #a3#", "", "16.7%"};
+			{ 11, 62682, "", "=q4=Scale Boots of the Outlander", "=ds=#s12#, #a3#", "", "16.7%"};
+			{ 12, 62685, "", "=q4=Treads of Dismal Fortune", "=ds=#s12#, #a2#", "", "16.7%"};
 		};
 	};
 	info = {
@@ -1149,35 +1141,32 @@ AtlasLoot_Data["MythicTrialOfTheChampionGrandChampions"] = {
 AtlasLoot_Data["MythicTrialOfTheChampionArgentConfessorPaletress"] = {
 	["Normal"] = {
 		{
-			{ 1, 47214, "", "=q4=Banner of Victory", "=ds=#s14#", "", "16.7%"};
-			{ 2, 47219, "", "=q4=Brilliant Hailstone Amulet", "=ds=#s2#", "", "16.7%"};
-			{ 3, 47217, "", "=q4=Gaze of the Somber Keeper", "=ds=#s1#, #a2#", "", "16.7%"};
-			{ 4, 47212, "", "=q4=Mercy's Hold", "=ds=#s9#, #a4#", "", "16.7%"};
-			{ 5, 47218, "", "=q4=The Confessor's Binding", "=ds=#s10#, #a1#", "", "16.7%"};
-			{ 6, 47211, "", "=q4=Wristguards of Ceaseless Regret", "=ds=#s8#, #a3#", "", "16.7%"};
+			{ 1, 62715, "", "=q4=Banner of Victory", "=ds=#s14#", "", "4.2%"};
+			{ 2, 62718, "", "=q4=Brilliant Hailstone Amulet", "=ds=#s2#", "", "4.2%"};
+			{ 3, 62716, "", "=q4=Gaze of the Somber Keeper", "=ds=#s1#, #a2#", "", "4.2%"};
+			{ 4, 62724, "", "=q4=Marrowstrike", "=ds=#w7#", "", "4.2%"};
+			{ 5, 62714, "", "=q4=Mercy's Hold", "=ds=#s9#, #a4#", "", "4.2%"};
+			{ 6, 62719, "", "=q4=Pauldrons of Concealed Loathing", "=ds=#s3#, #a3#", "", "4.2%"};
+			{ 7, 62721, "", "=q4=Plated Greaves of Providence", "=ds=#s12#, #a4#", "", "4.2%"};
+			{ 8, 62723, "", "=q4=Regal Aurous Shoulderplates", "=ds=#s3#, #a4#", "", "4.2%"};
+			{ 9, 62722, "", "=q4=Sinner's Confession", "=ds=#s13#", "", "4.2%"};
+			{ 10, 62720, "", "=q4=Trueheart Girdle", "=ds=#s10#, #a4#", "", "4.2%"};
+			{ 11, 62717, "", "=q4=The Confessor's Binding", "=ds=#s10#, #a1#", "", "4.2%"};
+			{ 12, 62713, "", "=q4=Wristguards of Ceaseless Regret", "=ds=#s8#, #a3#", "", "4.2%"};
 			
-			{ 16, 0, "INV_Box_01", "=q6=#m5#", "=ds=" .. BabbleBoss["Argent Confessor Paletress"] .. "=q1= & =ds=" .. BabbleBoss["Eadric the Pure"]};
-			{ 17, 47213, "", "=q4=Abyssal Rune", "=ds=#s14#", "", "16.7%"};
-			{ 18, 47181, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#", "", "16.7%"};
-			{ 19, 47176, "", "=q4=Breastplate of the Imperial Joust", "=ds=#s5#, #a4#", "", "16.7%"};
-			{ 20, 47178, "", "=q4=Carapace of Grim Visions", "=ds=#s5#, #a3#", "", "16.7%"};
-			{ 21, 47177, "", "=q4=Gloves of the Argent Fanatic", "=ds=#s9#, #a2#", "", "16.7%"};
-			{ 22, 47185, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#", "", "16.7%"};
-
-			{ 1, 47522, "", "=q4=Marrowstrike", "=ds=#w7#", "", "16.7%"};
-			{ 2, 47245, "", "=q4=Pauldrons of Concealed Loathing", "=ds=#s3#, #a3#", "", "16.7%"};
-			{ 3, 47511, "", "=q4=Plated Greaves of Providence", "=ds=#s12#, #a4#", "", "16.7%"};
-			{ 4, 47514, "", "=q4=Regal Aurous Shoulderplates", "=ds=#s3#, #a4#", "", "16.7%"};
-			{ 5, 47512, "", "=q4=Sinner's Confession", "=ds=#s13#", "", "16.7%"};
-			{ 6, 47510, "", "=q4=Trueheart Girdle", "=ds=#s10#, #a4#", "", "16.7%"};
-			
-			{ 16, 0, "INV_Box_04", "=q6=#m5#", "=ds=" .. BabbleBoss["Argent Confessor Paletress"] .. "=q1= & =ds=" .. BabbleBoss["Eadric the Pure"]};
-			{ 17, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#", "", "16.7%"};
-			{ 18, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#", "", "16.7%"};
-			{ 19, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#", "", "16.7%"};
-			{ 20, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#", "", "16.7%"};
-			{ 21, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#", "", "16.7%"};
-			{ 22, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#", "", "16.7%"};
+			{ 16, 0, "inv_misc_enggizmos_17", "=q6=#m5#", "=ds=" .. BabbleBoss["Argent Confessor Paletress"] .. "=q1= & =ds=" .. BabbleBoss["Eadric the Pure"]};
+			{ 17, 62700, "", "=q4=Abyssal Rune", "=ds=#s14#", "", "4.2%"};
+			{ 18, 62701, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#", "", "4.2%"};
+			{ 19, 62703, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#", "", "4.2%"};
+			{ 20, 62692, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#", "", "4.2%"};
+			{ 21, 62689, "", "=q4=Breastplate of the Imperial Joust", "=ds=#s5#, #a4#", "", "4.2%"};
+			{ 22, 62691, "", "=q4=Carapace of Grim Visions", "=ds=#s5#, #a3#", "", "4.2%"};
+			{ 23, 62705, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#", "", "4.2%"};
+			{ 24, 62690, "", "=q4=Gloves of the Argent Fanatic", "=ds=#s9#, #a2#", "", "4.2%"};
+			{ 25, 62704, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#", "", "4.2%"};
+			{ 26, 62693, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#", "", "4.2%"};
+			{ 27, 62702, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#", "", "4.2%"};
+			{ 28, 62706, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#", "", "4.2%"};
 		};
 	};
 	info = {
@@ -1190,35 +1179,31 @@ AtlasLoot_Data["MythicTrialOfTheChampionArgentConfessorPaletress"] = {
 AtlasLoot_Data["MythicTrialOfTheChampionEadricThePure"] = {
 	["Normal"] = {
 		{
-			{ 1, 47201, "", "=q4=Boots of Heartfelt Repentance", "=ds=#s12#, #a4#", "", "16.7%"};
-			{ 2, 47197, "", "=q4=Gauntlets of the Stouthearted Crusader", "=ds=#s9#, #a4#", "", "16.7%"};
-			{ 3, 47199, "", "=q4=Greaves of the Grand Paladin", "=ds=#s12#, #a4#", "", "16.7%"};
-			{ 4, 47202, "", "=q4=Leggings of Brazen Trespass", "=ds=#s11#, #a2#", "", "16.7%"};
-			{ 5, 47210, "", "=q4=Mantle of Gnarled Overgrowth", "=ds=#s3#, #a2#", "", "16.7%"};
-			{ 6, 47200, "", "=q4=Signet of Purity", "=ds=#s13#", "", "16.7%"};
-			
-			{ 16, 0, "INV_Box_01", "=q6=#m5#", "=ds=" .. BabbleBoss["Argent Confessor Paletress"] .. "=q1= & =ds=" .. BabbleBoss["Eadric the Pure"]};
-			{ 17, 47213, "", "=q4=Abyssal Rune", "=ds=#s14#", "", "16.7%"};
-			{ 18, 47181, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#", "", "16.7%"};
-			{ 19, 47176, "", "=q4=Breastplate of the Imperial Joust", "=ds=#s5#, #a4#", "", "16.7%"};
-			{ 20, 47178, "", "=q4=Carapace of Grim Visions", "=ds=#s5#, #a3#", "", "16.7%"};
-			{ 21, 47177, "", "=q4=Gloves of the Argent Fanatic", "=ds=#s9#, #a2#", "", "16.7%"};
-			{ 22, 47185, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#", "", "16.7%"};
-
-			{ 1, 47508, "", "=q4=Aledar's Battlestar", "=ds=#h1#, #w6#", "", "16.7%"};
-			{ 2, 47504, "", "=q4=Barkhide Treads", "=ds=#s12#, #a2#", "", "16.7%"};
-			{ 3, 47501, "", "=q4=Kurisu's Indecision", "=ds=#s4#", "", "16.7%"};
-			{ 4, 47503, "", "=q4=Legplates of the Argent Armistice", "=ds=#s11#, #a4#", "", "16.7%"};
-			{ 5, 47502, "", "=q4=Majestic Silversmith Shoulderplates", "=ds=#s3#, #a4#", "", "16.7%"};
-			{ 6, 47509, "", "=q4=Mariel's Sorrow", "=ds=#h3#, #w6#", "", "16.7%"};
-			
-			{ 16, 0, "INV_Box_04", "=q6=#m5#", "=ds=" .. BabbleBoss["Argent Confessor Paletress"] .. "=q1= & =ds=" .. BabbleBoss["Eadric the Pure"]};
-			{ 17, 47494, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#", "", "16.7%"};
-			{ 18, 47496, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#", "", "16.7%"};
-			{ 19, 47498, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#", "", "16.7%"};
-			{ 20, 47497, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#", "", "16.7%"};
-			{ 21, 47495, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#", "", "16.7%"};
-			{ 22, 47500, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#", "", "16.7%"};
+			{ 1, 62711, "", "=q4=Aledar's Battlestar", "=ds=#h1#, #w6#", "", "4.2%"};
+			{ 2, 62710, "", "=q4=Barkhide Treads", "=ds=#s12#, #a2#", "", "4.2%"};
+			{ 3, 62697, "", "=q4=Boots of Heartfelt Repentance", "=ds=#s12#, #a4#", "", "4.2%"};
+			{ 4, 62694, "", "=q4=Gauntlets of the Stouthearted Crusader", "=ds=#s9#, #a4#", "", "4.2%"};
+			{ 5, 62695, "", "=q4=Greaves of the Grand Paladin", "=ds=#s12#, #a4#", "", "4.2%"};
+			{ 6, 62707, "", "=q4=Kurisu's Indecision", "=ds=#s4#", "", "4.2%"};
+			{ 7, 62698, "", "=q4=Leggings of Brazen Trespass", "=ds=#s11#, #a2#", "", "4.2%"};
+			{ 8, 62709, "", "=q4=Legplates of the Argent Armistice", "=ds=#s11#, #a4#", "", "4.2%"};
+			{ 9, 62708, "", "=q4=Majestic Silversmith Shoulderplates", "=ds=#s3#, #a4#", "", "4.2%"};
+			{ 10, 62712, "", "=q4=Mariel's Sorrow", "=ds=#h3#, #w6#", "", "4.2%"};
+			{ 11, 62699, "", "=q4=Mantle of Gnarled Overgrowth", "=ds=#s3#, #a2#", "", "4.2%"};
+			{ 12, 62696, "", "=q4=Signet of Purity", "=ds=#s13#", "", "4.2%"};
+			{ 16, 0, "inv_misc_enggizmos_17", "=q6=#m5#", "=ds=" .. BabbleBoss["Argent Confessor Paletress"] .. "=q1= & =ds=" .. BabbleBoss["Eadric the Pure"]};
+			{ 17, 62700, "", "=q4=Abyssal Rune", "=ds=#s14#", "", "4.2%"};
+			{ 18, 62701, "", "=q4=Ancient Pendant of Arathor", "=ds=#s2#", "", "4.2%"};
+			{ 19, 62703, "", "=q4=Armbands of the Wary Lookout", "=ds=#s8#, #a2#", "", "4.2%"};
+			{ 20, 62692, "", "=q4=Belt of the Churning Blaze", "=ds=#s10#, #a1#", "", "4.2%"};
+			{ 21, 62689, "", "=q4=Breastplate of the Imperial Joust", "=ds=#s5#, #a4#", "", "4.2%"};
+			{ 22, 62691, "", "=q4=Carapace of Grim Visions", "=ds=#s5#, #a3#", "", "4.2%"};
+			{ 23, 62705, "", "=q4=Gloves of Dismal Fortune", "=ds=#s9#, #a2#", "", "4.2%"};
+			{ 24, 62690, "", "=q4=Gloves of the Argent Fanatic", "=ds=#s9#, #a2#", "", "4.2%"};
+			{ 25, 62704, "", "=q4=Helm of the Crestfallen Challenger", "=ds=#s1#, #a4#", "", "4.2%"};
+			{ 26, 62693, "", "=q4=Leggings of the Haggard Apprentice", "=ds=#s11#, #a1#", "", "4.2%"};
+			{ 27, 62702, "", "=q4=Legplates of Relentless Onslaught", "=ds=#s11#, #a4#", "", "4.2%"};
+			{ 28, 62706, "", "=q4=Peacekeeper Blade", "=ds=#h1#, #w10#", "", "4.2%"};
 		};
 	};
 	info = {
@@ -1231,32 +1216,30 @@ AtlasLoot_Data["MythicTrialOfTheChampionEadricThePure"] = {
 AtlasLoot_Data["MythicTrialOfTheChampionTheBlackKnight"] = {
 	["Normal"] = {
 		{
-			{ 1, 47231, "", "=q4=Belt of Merciless Cruelty", "=ds=#s10#, #a3#", "", "8.3%"};
-			{ 2, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#", "", "8.3%"};
-			{ 3, 47232, "", "=q4=Drape of the Undefeated", "=ds=#s4#", "", "8.3%"};
-			{ 4, 47227, "", "=q4=Girdle of the Pallid Knight", "=ds=#s10#, #a4#", "", "8.3%"};
-			{ 5, 47230, "", "=q4=Handwraps of Surrendered Hope", "=ds=#s9#, #a1#", "", "8.3%"};
-			{ 6, 47220, "", "=q4=Helm of the Violent Fray", "=ds=#s1#, #a4#", "", "8.3%"};
-			{ 7, 47228, "", "=q4=Leggings of the Bloodless Knight", "=ds=#s11#, #a3#", "", "8.3%"};
-			{ 8, 47226, "", "=q4=Mantle of Inconsolable Fear", "=ds=#s3#, #a1#", "", "8.3%"};
-			{ 9, 47221, "", "=q4=Shoulderpads of the Infamous Knave", "=ds=#s3#, #a2#", "", "8.3%"};
-			{ 10, 47215, "", "=q4=Tears of the Vanquished", "=ds=#s14#", "", "8.3%"};
-			{ 11, 47216, "", "=q4=The Black Heart", "=ds=#s14#", "", "8.3%"};
-			{ 12, 47222, "", "=q4=Uruka's Band of Zeal", "=ds=#s13#", "", "8.3%"};
-
-			{ 1, 49682, "", "=q4=Black Knight's Rondel", "=ds=#h1#, #w4#", "", "7.7%"};
-			{ 2, 47560, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#", "", "7.7%"};
-			{ 3, 47527, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#", "", "7.7%"};
-			{ 4, 47567, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#", "", "7.7%"};
-			{ 5, 47564, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#", "", "7.7%"};
-			{ 6, 47563, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#", "", "7.7%"};
-			{ 7, 47561, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#", "", "7.7%"};
-			{ 8, 47529, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#", "", "7.7%"};
-			{ 9, 47569, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#", "", "7.7%"};
-			{ 10, 47562, "", "=q4=Symbol of Redemption", "=ds=#s2#", "", "7.7%"};
-			{ 11, 47566, "", "=q4=The Warlord's Depravity", "=ds=#s2#", "", "7.7%"};
-			{ 12, 47568, "", "=q4=True-Aim Long Rifle", "=ds=#w5#", "", "7.7%"};
-			{ 13, 47565, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#", "", "7.7%"};
+			{ 1, 62734, "", "=q4=Belt of Merciless Cruelty", "=ds=#s10#, #a3#", "", "4.2%"};
+			{ 2, 62748, "", "=q4=Black Knight's Rondel", "=ds=#h1#, #w4#", "", "4.2%"};
+			{ 3, 62738, "", "=q4=Boots of the Crackling Flame", "=ds=#s12#, #a1#", "", "4.2%"};
+			{ 4, 62735, "", "=q4=Drape of the Undefeated", "=ds=#s4#", "", "4.2%"};
+			{ 5, 62736, "", "=q4=Embrace of Madness", "=ds=#s5#, #a1#", "", "4.2%"};
+			{ 6, 62745, "", "=q4=Gauntlets of Revelation", "=ds=#s9#, #a4#", "", "4.2%"};
+			{ 7, 62742, "", "=q4=Gaze of the Unknown", "=ds=#s1#, #a1#", "", "4.2%"};
+			{ 8, 62741, "", "=q4=Girdle of the Dauntless Conqueror", "=ds=#s10#, #a3#", "", "4.2%"};
+			{ 9, 62731, "", "=q4=Girdle of the Pallid Knight", "=ds=#s10#, #a4#", "", "4.2%"};
+			{ 10, 62739, "", "=q4=Gloves of the Dark Exile", "=ds=#s9#, #a3#", "", "4.2%"};
+			{ 11, 62733, "", "=q4=Handwraps of Surrendered Hope", "=ds=#s9#, #a1#", "", "4.2%"};
+			{ 12, 62727, "", "=q4=Helm of the Violent Fray", "=ds=#s1#, #a4#", "", "4.2%"};
+			{ 13, 62732, "", "=q4=Leggings of the Bloodless Knight", "=ds=#s11#, #a3#", "", "4.2%"};
+			{ 14, 62730, "", "=q4=Mantle of Inconsolable Fear", "=ds=#s3#, #a1#", "", "4.2%"};
+			{ 15, 62737, "", "=q4=Mask of Distant Memory", "=ds=#s1#, #a2#", "", "4.2%"};
+			{ 16, 62728, "", "=q4=Shoulderpads of the Infamous Knave", "=ds=#s3#, #a2#", "", "4.2%"};
+			{ 17, 62747, "", "=q4=Spectral Kris", "=ds=#h3#, #w4#", "", "4.2%"};
+			{ 18, 62740, "", "=q4=Symbol of Redemption", "=ds=#s2#", "", "4.2%"};
+			{ 19, 62725, "", "=q4=Tears of the Vanquished", "=ds=#s14#", "", "4.2%"};
+			{ 20, 62726, "", "=q4=The Black Heart", "=ds=#s14#", "", "4.2%"};
+			{ 21, 62744, "", "=q4=The Warlord's Depravity", "=ds=#s2#", "", "4.2%"};
+			{ 22, 62746, "", "=q4=True-Aim Long Rifle", "=ds=#w5#", "", "4.2%"};
+			{ 23, 62729, "", "=q4=Uruka's Band of Zeal", "=ds=#s13#", "", "4.2%"};
+			{ 24, 62743, "", "=q4=Vambraces of Unholy Command", "=ds=#s8#, #a4#", "", "4.2%"};
 		};
 	};
 	info = {
