@@ -16,14 +16,13 @@ local moduleName = "AtlasLootMythicWotLK"
 AtlasLoot_Data["MythicUtgardeKeepPrinceKeleseth"] = {
 	["Normal"] = {
 		{
-			{ 1, 35571, "", "=q4=Dragon Stabler's Gauntlets", "=ds=#s9#, #a3#", "", "33.3%"};
-			{ 2, 35570, "", "=q4=Keleseth's Blade of Evocation", "=ds=#h3#, #w4#", "", "33.3%"};
-			{ 3, 35572, "", "=q4=Reinforced Velvet Helm", "=ds=#s1#, #a1#", "", "33.3%"};
-
-			{ 1, 37180, "", "=q4=Battlemap Hide Helm", "=ds=#s1#, #a2#", "", "25%"};
-			{ 2, 37179, "", "=q4=Infantry Assault Blade", "=ds=#h1#, #w10#", "", "25%"};
-			{ 3, 37178, "", "=q4=Strategist's Belt", "=ds=#s10#, #a4#", "", "25%"};
-			{ 4, 37177, "", "=q4=Wand of the San'layn", "=ds=#w12#", "", "25%"};
+			{ 1, 62226, "", "=q4=Battlemap Hide Helm", "=ds=#s1#, #a2#", "", "14.3%"};
+			{ 2, 62221, "", "=q4=Dragon Stabler's Gauntlets", "=ds=#s9#, #a3#", "", "14.3%"};
+			{ 3, 62225, "", "=q4=Infantry Assault Blade", "=ds=#h1#, #w10#", "", "14.3%"};
+			{ 4, 62220, "", "=q4=Keleseth's Blade of Evocation", "=ds=#h3#, #w4#", "", "14.3%"};
+			{ 5, 62222, "", "=q4=Reinforced Velvet Helm", "=ds=#s1#, #a1#", "", "14.3%"};
+			{ 6, 62224, "", "=q4=Strategist's Belt", "=ds=#s10#, #a4#", "", "14.3%"};
+			{ 7, 62223, "", "=q4=Wand of the San'layn", "=ds=#w12#", "", "14.3%"};
 		};
 	};
 	info = {
@@ -36,14 +35,13 @@ AtlasLoot_Data["MythicUtgardeKeepPrinceKeleseth"] = {
 AtlasLoot_Data["MythicUtgardeKeepSkarvaldAndDalronn"] = {
 	["Normal"] = {
 		{
-			{ 1, 35573, "", "=q4=Arm Blade of Augelmir", "=ds=#h3#, #w13#", "", "33.3%"};
-			{ 2, 35574, "", "=q4=Chestplate of the Northern Lights", "=ds=#s5#, #a4#", "", "33.3%"};
-			{ 3, 35575, "", "=q4=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#", "", "33.3%"};
-
-			{ 1, 37183, "", "=q4=Bindings of the Tunneler", "=ds=#s8#, #a2#", "", "25%"};
-			{ 2, 37181, "", "=q4=Dagger of Betrayal", "=ds=#h1#, #w4#", "", "25%"};
-			{ 3, 37184, "", "=q4=Dalronn's Jerkin", "=ds=#s5#, #a3#", "", "25%"};
-			{ 4, 37182, "", "=q4=Helmet of the Constructor", "=ds=#s1#, #a4#", "", "25%"};
+			{ 1, 62227, "", "=q4=Arm Blade of Augelmir", "=ds=#h3#, #w13#", "", "14.3%"};
+			{ 2, 62232, "", "=q4=Bindings of the Tunneler", "=ds=#s8#, #a2#", "", "14.3%"};
+			{ 3, 62228, "", "=q4=Chestplate of the Northern Lights", "=ds=#s5#, #a4#", "", "14.3%"};
+			{ 4, 62230, "", "=q4=Dagger of Betrayal", "=ds=#h1#, #w4#", "", "14.3%"};
+			{ 5, 62233, "", "=q4=Dalronn's Jerkin", "=ds=#s5#, #a3#", "", "14.3%"};
+			{ 6, 62231, "", "=q4=Helmet of the Constructor", "=ds=#s1#, #a4#", "", "14.3%"};
+			{ 7, 62229, "", "=q4=Skarvald's Dragonskin Habergeon", "=ds=#s5#, #a2#", "", "14.3%"};
 		};
 	};
 	info = {
@@ -56,18 +54,17 @@ AtlasLoot_Data["MythicUtgardeKeepSkarvaldAndDalronn"] = {
 AtlasLoot_Data["MythicUtgardeKeepIngvarThePlunderer"] = {
 	["Normal"] = {
 		{
-			{ 1, 35577, "", "=q4=Holistic Patchwork Breeches", "=ds=#s11#, #a2#", "", "33.3%"};
-			{ 2, 35576, "", "=q4=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#", "", "33.3%"};
-			{ 3, 35578, "", "=q4=Overlaid Chain Spaulders", "=ds=#s3#, #a3#", "", "33.3%"};
-
-			{ 1, 37192, "", "=q4=Annhylde's Ring", "=ds=#s13#", "", "25%"};
-			{ 2, 37189, "", "=q4=Breeches of the Caller", "=ds=#s11#, #a1#", "", "25%"};
-			{ 3, 37191, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#", "", "25%"};
-			{ 4, 37190, "", "=q4=Enraged Feral Staff", "=ds=#w9#", "", "25%"};
-			{ 5, 37188, "", "=q4=Plunderer's Helmet", "=ds=#s1#, #a3#", "", "25%"};
-			{ 6, 37194, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#", "", "25%"};
-			{ 7, 37193, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#", "", "25%"};
-			{ 8, 37186, "", "=q4=Unsmashable Heavy Band", "=ds=#s13#", "", "25%"};
+			{ 1, 62242, "", "=q4=Annhylde's Ring", "=ds=#s13#", "", "9.1%"};
+			{ 2, 62239, "", "=q4=Breeches of the Caller", "=ds=#s11#, #a1#", "", "9.1%"};
+			{ 3, 62241, "", "=q4=Drake-Mounted Crossbow", "=ds=#w3#", "", "9.1%"};
+			{ 4, 62240, "", "=q4=Enraged Feral Staff", "=ds=#w9#", "", "9.1%"};
+			{ 5, 62235, "", "=q4=Holistic Patchwork Breeches", "=ds=#s11#, #a2#", "", "9.1%"};
+			{ 6, 62234, "", "=q4=Ingvar's Monolithic Cleaver", "=ds=#h2#, #w1#", "", "9.1%"};
+			{ 7, 62236, "", "=q4=Overlaid Chain Spaulders", "=ds=#s3#, #a3#", "", "9.1%"};
+			{ 8, 62238, "", "=q4=Plunderer's Helmet", "=ds=#s1#, #a3#", "", "9.1%"};
+			{ 9, 62244, "", "=q4=Sharp-Barbed Leather Belt", "=ds=#s10#, #a2#", "", "9.1%"};
+			{ 10, 62243, "", "=q4=Staggering Legplates", "=ds=#s11#, #a4#", "", "9.1%"};
+			{ 11, 62237, "", "=q4=Unsmashable Heavy Band", "=ds=#s13#", "", "9.1%"};
 		};
 	};
 	info = {
@@ -929,15 +926,14 @@ AtlasLoot_Data["MythicTheCullingOfStratholmeMalGanis"] = {
 AtlasLoot_Data["MythicUtgardePinnacleSvalaSorrowgrave"] = {
 	["Normal"] = {
 		{
-			{ 1, 37038, "", "=q4=Brazier Igniter", "=ds=#w12#", "", "25%"};
-			{ 2, 37037, "", "=q4=Ritualistic Athame", "=ds=#h1#, #w4#", "", "25%"};
-			{ 3, 37040, "", "=q4=Svala's Bloodied Shackles", "=ds=#s8#, #a4#", "", "25%"};
-			{ 4, 37043, "", "=q4=Tear-Linked Gauntlets", "=ds=#s9#, #a3#", "", "25%"};
-
-			{ 1, 37370, "", "=q4=Cuffs of the Trussed Hall", "=ds=#s8#, #a1#", "", "25%"};
-			{ 2, 37367, "", "=q4=Echoing Stompers", "=ds=#s12#, #a4#", "", "25%"};
-			{ 3, 37368, "", "=q4=Silent Spectator Shoulderpads", "=ds=#s3#, #a2#", "", "25%"};
-			{ 4, 37369, "", "=q4=Sorrowgrave's Breeches", "=ds=#s11#, #a1#", "", "25%"};
+			{ 1, 62246, "", "=q4=Brazier Igniter", "=ds=#w12#", "", "12.5%"};
+			{ 2, 62252, "", "=q4=Cuffs of the Trussed Hall", "=ds=#s8#, #a1#", "", "12.5%"};
+			{ 3, 62249, "", "=q4=Echoing Stompers", "=ds=#s12#, #a4#", "", "12.5%"};
+			{ 4, 62245, "", "=q4=Ritualistic Athame", "=ds=#h1#, #w4#", "", "12.5%"};
+			{ 5, 62250, "", "=q4=Silent Spectator Shoulderpads", "=ds=#s3#, #a2#", "", "12.5%"};
+			{ 6, 62251, "", "=q4=Sorrowgrave's Breeches", "=ds=#s11#, #a1#", "", "12.5%"};
+			{ 7, 62247, "", "=q4=Svala's Bloodied Shackles", "=ds=#s8#, #a4#", "", "12.5%"};
+			{ 8, 62248, "", "=q4=Tear-Linked Gauntlets", "=ds=#s9#, #a3#", "", "12.5%"};
 		};
 	};
 	info = {
@@ -950,15 +946,14 @@ AtlasLoot_Data["MythicUtgardePinnacleSvalaSorrowgrave"] = {
 AtlasLoot_Data["MythicUtgardePinnacleGortokPalehoof"] = {
 	["Normal"] = {
 		{
-			{ 1, 37052, "", "=q4=Reanimated Armor", "=ds=#s5#, #a4#", "", "25%"};
-			{ 2, 37051, "", "=q4=Seal of Valgarde", "=ds=#s15#", "", "25%"};
-			{ 3, 37048, "", "=q4=Shroud of Resurrection", "=ds=#s4#", "", "25%"};
-			{ 4, 37050, "", "=q4=Trophy Gatherer", "=ds=#w2#", "", "25%"};
-
-			{ 1, 37376, "", "=q4=Ferocious Pauldrons of the Rhino", "=ds=#s3#, #a4#", "", "25%"};
-			{ 2, 37373, "", "=q4=Massive Spaulders of the Jormungar", "=ds=#s3#, #a3#", "", "25%"};
-			{ 3, 37374, "", "=q4=Ravenous Leggings of the Furbolg", "=ds=#s11#, #a2#", "", "25%"};
-			{ 4, 37371, "", "=q4=Ring of the Frenzied Wolvar", "=ds=#s13#", "", "25%"};
+			{ 1, 62260, "", "=q4=Ferocious Pauldrons of the Rhino", "=ds=#s3#, #a4#", "", "12.5%"};
+			{ 2, 62258, "", "=q4=Massive Spaulders of the Jormungar", "=ds=#s3#, #a3#", "", "12.5%"};
+			{ 3, 62259, "", "=q4=Ravenous Leggings of the Furbolg", "=ds=#s11#, #a2#", "", "12.5%"};
+			{ 4, 62256, "", "=q4=Reanimated Armor", "=ds=#s5#, #a4#", "", "12.5%"};
+			{ 5, 62257, "", "=q4=Ring of the Frenzied Wolvar", "=ds=#s13#", "", "12.5%"};
+			{ 6, 62255, "", "=q4=Seal of Valgarde", "=ds=#s15#", "", "12.5%"};
+			{ 7, 62253, "", "=q4=Shroud of Resurrection", "=ds=#s4#", "", "12.5%"};
+			{ 8, 62254, "", "=q4=Trophy Gatherer", "=ds=#w2#", "", "12.5%"};
 		};
 	};
 	info = {
@@ -971,15 +966,14 @@ AtlasLoot_Data["MythicUtgardePinnacleGortokPalehoof"] = {
 AtlasLoot_Data["MythicUtgardePinnacleSkadiTheRuthless"] = {
 	["Normal"] = {
 		{
-			{ 1, 37053, "", "=q4=Amulet of Deflected Blows", "=ds=#s2#", "", "25%"};
-			{ 2, 37057, "", "=q4=Drake Rider's Tunic", "=ds=#s5#, #a2#", "", "25%"};
-			{ 3, 37056, "", "=q4=Harpooner's Striders", "=ds=#s12#, #a4#", "", "25%"};
-			{ 4, 37055, "", "=q4=Silken Amice of the Ymirjar", "=ds=#s3#, #a1#", "", "25%"};
-
-			{ 1, 37389, "", "=q4=Crenelation Leggings", "=ds=#s11#, #a2#", "", "25%"};
-			{ 2, 37377, "", "=q4=Netherbreath Spellblade", "=ds=#h3#, #w4#", "", "25%"};
-			{ 3, 37379, "", "=q4=Skadi's Iron Belt", "=ds=#s10#, #a4#", "", "25%"};
-			{ 4, 37384, "", "=q4=Staff of Wayward Principles", "=ds=#w9#", "", "25%"};
+			{ 1, 62261, "", "=q4=Amulet of Deflected Blows", "=ds=#s2#", "", "12.5%"};
+			{ 2, 62268, "", "=q4=Crenelation Leggings", "=ds=#s11#, #a2#", "", "12.5%"};
+			{ 3, 62264, "", "=q4=Drake Rider's Tunic", "=ds=#s5#, #a2#", "", "12.5%"};
+			{ 4, 62263, "", "=q4=Harpooner's Striders", "=ds=#s12#, #a4#", "", "12.5%"};
+			{ 5, 62265, "", "=q4=Netherbreath Spellblade", "=ds=#h3#, #w4#", "", "12.5%"};
+			{ 6, 62262, "", "=q4=Silken Amice of the Ymirjar", "=ds=#s3#, #a1#", "", "12.5%"};
+			{ 7, 62266, "", "=q4=Skadi's Iron Belt", "=ds=#s10#, #a4#", "", "12.5%"};
+			{ 8, 62267, "", "=q4=Staff of Wayward Principles", "=ds=#w9#", "", "12.5%"};
 		};
 	};
 	info = {
@@ -992,23 +986,22 @@ AtlasLoot_Data["MythicUtgardePinnacleSkadiTheRuthless"] = {
 AtlasLoot_Data["MythicUtgardePinnacleKingYmiron"] = {
 	["Normal"] = {
 		{
-			{ 1, 37066, "", "=q4=Ancient Royal Legguards", "=ds=#s11#, #a4#", "", "12.5%"};
-			{ 2, 37067, "", "=q4=Ceremonial Pyre Mantle", "=ds=#s3#, #a2#", "", "12.5%"};
-			{ 3, 37062, "", "=q4=Crown of Forgotten Kings", "=ds=#s1#, #a4#", "", "12.5%"};
-			{ 4, 37060, "", "=q4=Jeweled Coronation Sword", "=ds=#h3#, #w10#", "", "12.5%"};
-			{ 5, 37058, "", "=q4=Signet of Ranulf", "=ds=#s13#", "", "12.5%"};
-			{ 6, 37061, "", "=q4=Tor's Crest", "=ds=#w8#", "", "12.5%"};
-			{ 7, 37064, "", "=q4=Vestige of Haldor", "=ds=#s14#", "", "12.5%"};
-			{ 8, 37065, "", "=q4=Ymiron's Blade", "=ds=#h1#, #w10#", "", "12.5%"};
-
-			{ 1, 37409, "", "=q4=Gilt-Edged Leather Gauntlets", "=ds=#s9#, #a2#", "", "25%"};
-			{ 3, 37408, "", "=q4=Girdle of Bane", "=ds=#s10#, #a1#", "", "25%"};
-			{ 2, 37397, "", "=q4=Gold Amulet of Kings", "=ds=#s2#", "", "25%"};
-			{ 4, 37398, "", "=q4=Mantle of Discarded Ways", "=ds=#s3#, #a3#", "", "25%"};
-			{ 5, 37390, "", "=q4=Meteorite Whetstone", "=ds=#s14#", "", "25%"};
-			{ 6, 37395, "", "=q4=Ornamented Plate Regalia", "=ds=#s5#, #a4#", "", "25%"};
-			{ 7, 37401, "", "=q4=Red Sword of Courage", "=ds=#h1#, #w10#", "", "25%"};
-			{ 8, 37407, "", "=q4=Sovereign's Belt", "=ds=#s10#, #a3#", "", "25%"};
+			{ 1, 62275, "", "=q4=Ancient Royal Legguards", "=ds=#s11#, #a4#", "", "6.3%"};
+			{ 2, 62276, "", "=q4=Ceremonial Pyre Mantle", "=ds=#s3#, #a2#", "", "6.3%"};
+			{ 3, 62272, "", "=q4=Crown of Forgotten Kings", "=ds=#s1#, #a4#", "", "6.3%"};
+			{ 4, 62284, "", "=q4=Gilt-Edged Leather Gauntlets", "=ds=#s9#, #a2#", "", "6.3%"};
+			{ 5, 62283, "", "=q4=Girdle of Bane", "=ds=#s10#, #a1#", "", "6.3%"};
+			{ 6, 62279, "", "=q4=Gold Amulet of Kings", "=ds=#s2#", "", "6.3%"};
+			{ 7, 62270, "", "=q4=Jeweled Coronation Sword", "=ds=#h3#, #w10#", "", "6.3%"};
+			{ 8, 62280, "", "=q4=Mantle of Discarded Ways", "=ds=#s3#, #a3#", "", "6.3%"};
+			{ 9, 62277, "", "=q4=Meteorite Whetstone", "=ds=#s14#", "", "6.3%"};
+			{ 10, 62278, "", "=q4=Ornamented Plate Regalia", "=ds=#s5#, #a4#", "", "6.3%"};
+			{ 11, 62281, "", "=q4=Red Sword of Courage", "=ds=#h1#, #w10#", "", "6.3%"};
+			{ 12, 62269, "", "=q4=Signet of Ranulf", "=ds=#s13#", "", "6.3%"};
+			{ 13, 62282, "", "=q4=Sovereign's Belt", "=ds=#s10#, #a3#", "", "6.3%"};
+			{ 14, 62271, "", "=q4=Tor's Crest", "=ds=#w8#", "", "6.3%"};
+			{ 15, 62273, "", "=q4=Vestige of Haldor", "=ds=#s14#", "", "6.3%"};
+			{ 16, 62274, "", "=q4=Ymiron's Blade", "=ds=#h1#, #w10#", "", "6.3%"};
 		};
 	};
 	info = {
