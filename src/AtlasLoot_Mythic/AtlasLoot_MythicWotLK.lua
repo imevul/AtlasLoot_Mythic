@@ -1481,3 +1481,19 @@ AtlasLoot_Data["MythicHallsOfReflectionTheLichKing"] = {
 		instance = "MythicFHHallsOfReflection",
 	};
 }
+
+-------------
+--- Misc. ---
+-------------
+
+AtlasLoot_Data["MythicRaidsPlaceholderWotLK"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "achievement_character_human_male", "=q6=Come back later, kid.", "=ds=There's no loot here yet."},
+		}
+	},
+	info = {
+		name = "Meh's Bodyguard",
+		module = moduleName,
+	},
+};
