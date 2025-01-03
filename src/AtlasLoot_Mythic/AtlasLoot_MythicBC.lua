@@ -20,7 +20,7 @@ AtlasLoot_Data["MythicMechanarGatewatcherIronHand"] = {
 		},
 	},
 	info = {
-		name = BabbleBoss["Gatewatcher Iron-Hand"],
+		name = BabbleBoss["Gatewatcher Iron-Hand"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepMechanar",
 	},
@@ -37,7 +37,7 @@ AtlasLoot_Data["MythicMechanarMechanoLordCapacitus"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Mechano-Lord Capacitus"],
+		name = BabbleBoss["Mechano-Lord Capacitus"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepMechanar",
 	},
@@ -50,7 +50,7 @@ AtlasLoot_Data["MythicMechanarGatewatcherGyroKill"] = {
 		},
 	},
 	info = {
-		name = BabbleBoss["Gatewatcher Gyro-Kill"],
+		name = BabbleBoss["Gatewatcher Gyro-Kill"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepMechanar",
 	},
@@ -67,7 +67,7 @@ AtlasLoot_Data["MythicMechanarCacheOfTheLegion"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Cache of the Legion"],
+		name = BabbleBoss["Cache of the Legion"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepMechanar",
 	}
@@ -84,7 +84,7 @@ AtlasLoot_Data["MythicMechanarNethermancerSepethrea"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Nethermancer Sepethrea"],
+		name = BabbleBoss["Nethermancer Sepethrea"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepMechanar",
 	},
@@ -112,7 +112,7 @@ AtlasLoot_Data["MythicMechanarPathaleonTheCalculator"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Pathaleon the Calculator"],
+		name = BabbleBoss["Pathaleon the Calculator"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepMechanar",
 	},
@@ -139,7 +139,7 @@ AtlasLoot_Data["MythicUnderbogHungarfen"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Hungarfen"],
+		name = BabbleBoss["Hungarfen"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheUnderbog",
 	},
@@ -162,7 +162,7 @@ AtlasLoot_Data["MythicUnderbogGhazan"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Ghaz'an"],
+		name = BabbleBoss["Ghaz'an"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheUnderbog",
 	},
@@ -185,7 +185,7 @@ AtlasLoot_Data["MythicUnderbogSwamplordMuselek"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Swamplord Musel'ek"],
+		name = BabbleBoss["Swamplord Musel'ek"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheUnderbog",
 	},
@@ -218,7 +218,7 @@ AtlasLoot_Data["MythicUnderbogTheBlackStalker"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["The Black Stalker"],
+		name = BabbleBoss["The Black Stalker"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheUnderbog",
 	},
@@ -246,7 +246,7 @@ AtlasLoot_Data["MythicManaTombsPandemonius"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Pandemonius"],
+		name = BabbleBoss["Pandemonius"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchManaTombs",
 	},
@@ -270,7 +270,7 @@ AtlasLoot_Data["MythicManaTombsTavarok"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Tavarok"],
+		name = BabbleBoss["Tavarok"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchManaTombs",
 	},
@@ -305,7 +305,7 @@ AtlasLoot_Data["MythicManaTombsNexusPrinceShaffar"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Nexus-Prince Shaffar"],
+		name = BabbleBoss["Nexus-Prince Shaffar"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchManaTombs",
 	},
@@ -327,7 +327,7 @@ AtlasLoot_Data["MythicManaTombsYor"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Yor"],
+		name = BabbleBoss["Yor"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchManaTombs",
 	},
@@ -353,7 +353,7 @@ AtlasLoot_Data["MythicHellfireRampartsWatchkeeperGargolmar"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Watchkeeper Gargolmar"],
+		name = BabbleBoss["Watchkeeper Gargolmar"] .. "+",
 		module = moduleName,
 		instance = "MythicHCHellfireRamparts",
 	},
@@ -383,7 +383,7 @@ AtlasLoot_Data["MythicHellfireRampartsOmorTheUnscarred"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Omor the Unscarred"],
+		name = BabbleBoss["Omor the Unscarred"] .. "+",
 		module = moduleName,
 		instance = "MythicHCHellfireRamparts",
 	},
@@ -420,7 +420,7 @@ AtlasLoot_Data["MythicHellfireRampartsVazrudenNazan"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Vazruden"] .. " & " .. BabbleBoss["Nazan"],
+		name = BabbleBoss["Vazruden"] .. " & " .. BabbleBoss["Nazan"] .. "+",
 		module = moduleName,
 		instance = "MythicHCHellfireRamparts",
 	},
@@ -442,7 +442,7 @@ AtlasLoot_Data["MythicShadowLabyrinthAmbassadorHellmaw"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Ambassador Hellmaw"],
+		name = BabbleBoss["Ambassador Hellmaw"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchShadowLabyrinth",
 	},
@@ -460,7 +460,7 @@ AtlasLoot_Data["MythicShadowLabyrinthBlackheartTheInciter"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Blackheart the Inciter"],
+		name = BabbleBoss["Blackheart the Inciter"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchShadowLabyrinth",
 	},
@@ -477,7 +477,7 @@ AtlasLoot_Data["MythicShadowLabyrinthGrandmasterVorpil"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Grandmaster Vorpil"],
+		name = BabbleBoss["Grandmaster Vorpil"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchShadowLabyrinth",
 	},
@@ -505,7 +505,7 @@ AtlasLoot_Data["MythicShadowLabyrinthMurmur"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Murmur"],
+		name = BabbleBoss["Murmur"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchShadowLabyrinth",
 	},
@@ -526,7 +526,7 @@ AtlasLoot_Data["MythicArcatrazZerekethTheUnbound"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Zereketh the Unbound"],
+		name = BabbleBoss["Zereketh the Unbound"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepArcatraz",
 	},
@@ -543,7 +543,7 @@ AtlasLoot_Data["MythicArcatrazDalliahTheDoomsayer"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Dalliah the Doomsayer"],
+		name = BabbleBoss["Dalliah the Doomsayer"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepArcatraz",
 	},
@@ -560,7 +560,7 @@ AtlasLoot_Data["MythicArcatrazWrathScryerSoccothrates"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Wrath-Scryer Soccothrates"],
+		name = BabbleBoss["Wrath-Scryer Soccothrates"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepArcatraz",
 	},
@@ -588,7 +588,7 @@ AtlasLoot_Data["MythicArcatrazHarbingerSkyriss"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Harbinger Skyriss"],
+		name = BabbleBoss["Harbinger Skyriss"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepArcatraz",
 	},
@@ -610,7 +610,7 @@ AtlasLoot_Data["MythicBlackMorassChronoLordDeja"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Chrono Lord Deja"],
+		name = BabbleBoss["Chrono Lord Deja"] .. "+",
 		module = moduleName,
 		instance = "MythicCoTBlackMorass",
 	},
@@ -628,7 +628,7 @@ AtlasLoot_Data["MythicBlackMorassTemporus"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Temporus"],
+		name = BabbleBoss["Temporus"] .. "+",
 		module = moduleName,
 		instance = "MythicCoTBlackMorass",
 	},
@@ -656,7 +656,7 @@ AtlasLoot_Data["MythicBlackMorassAeonus"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Aeonus"],
+		name = BabbleBoss["Aeonus"] .. "+",
 		module = moduleName,
 		instance = "MythicCoTBlackMorass",
 	},
@@ -683,7 +683,7 @@ AtlasLoot_Data["MythicAuchenaiCryptsShirrakTheDeadWatcher"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Shirrak the Dead Watcher"],
+		name = BabbleBoss["Shirrak the Dead Watcher"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchAuchenaiCrypts",
 	},
@@ -710,7 +710,7 @@ AtlasLoot_Data["MythicAuchenaiCryptsExarchMaladaar"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Exarch Maladaar"],
+		name = BabbleBoss["Exarch Maladaar"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchAuchenaiCrypts",
 	},
@@ -728,7 +728,7 @@ AtlasLoot_Data["MythicAuchenaiCryptsAvatarOfTheMartyred"] = {
 		}
 	},
 	info = {
-		name = AL["Avatar of the Martyred"],
+		name = AL["Avatar of the Martyred"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchAuchenaiCrypts",
 	},
@@ -750,7 +750,7 @@ AtlasLoot_Data["MythicSethekkHallsDarkweaverSyth"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Darkweaver Syth"],
+		name = BabbleBoss["Darkweaver Syth"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchSethekkHalls",
 	},
@@ -767,7 +767,7 @@ AtlasLoot_Data["MythicSethekkHallsAnzu"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Anzu"],
+		name = BabbleBoss["Anzu"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchSethekkHalls",
 	},
@@ -794,7 +794,7 @@ AtlasLoot_Data["MythicSethekkHallsTalonKingIkiss"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Talon King Ikiss"],
+		name = BabbleBoss["Talon King Ikiss"] .. "+",
 		module = moduleName,
 		instance = "MythicAuchSethekkHalls",
 	},
@@ -815,7 +815,7 @@ AtlasLoot_Data["MythicBotanicaCommanderSarannis"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Commander Sarannis"],
+		name = BabbleBoss["Commander Sarannis"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepBotanica",
 	},
@@ -832,7 +832,7 @@ AtlasLoot_Data["MythicBotanicaHighBotanistFreywinn"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["High Botanist Freywinn"],
+		name = BabbleBoss["High Botanist Freywinn"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepBotanica",
 	},
@@ -849,7 +849,7 @@ AtlasLoot_Data["MythicBotanicaThorngrinTheTender"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Thorngrin the Tender"],
+		name = BabbleBoss["Thorngrin the Tender"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepBotanica",
 	},
@@ -866,7 +866,7 @@ AtlasLoot_Data["MythicBotanicaLaj"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Laj"],
+		name = BabbleBoss["Laj"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepBotanica",
 	},
@@ -895,7 +895,7 @@ AtlasLoot_Data["MythicBotanicaWarpSplinter"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Warp Splinter"],
+		name = BabbleBoss["Warp Splinter"] .. "+",
 		module = moduleName,
 		instance = "MythicTempestKeepBotanica",
 	},
@@ -921,7 +921,7 @@ AtlasLoot_Data["MythicOldHillsbradLieutenantDrake"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Lieutenant Drake"],
+		name = BabbleBoss["Lieutenant Drake"] .. "+",
 		module = moduleName,
 		instance = "MythicCoTOldHillsbrad",
 	},
@@ -944,7 +944,7 @@ AtlasLoot_Data["MythicOldHillsbradCaptainSkarloc"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Captain Skarloc"],
+		name = BabbleBoss["Captain Skarloc"] .. "+",
 		module = moduleName,
 		instance = "MythicCoTOldHillsbrad",
 	},
@@ -977,7 +977,7 @@ AtlasLoot_Data["MythicOldHillsbradEpochHunter"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Epoch Hunter"],
+		name = BabbleBoss["Epoch Hunter"] .. "+",
 		module = moduleName,
 		instance = "MythicCoTOldHillsbrad",
 	},
@@ -1003,7 +1003,7 @@ AtlasLoot_Data["MythicTheBloodFurnaceTheMaker"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["The Maker"],
+		name = BabbleBoss["The Maker"] .. "+",
 		module = moduleName,
 		instance = "MythicHCBloodFurnace",
 	},
@@ -1025,7 +1025,7 @@ AtlasLoot_Data["MythicTheBloodFurnaceBroggok"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Broggok"],
+		name = BabbleBoss["Broggok"] .. "+",
 		module = moduleName,
 		instance = "MythicHCBloodFurnace",
 	},
@@ -1058,7 +1058,7 @@ AtlasLoot_Data["MythicTheBloodFurnaceKelidanTheBreaker"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Keli'dan the Breaker"],
+		name = BabbleBoss["Keli'dan the Breaker"] .. "+",
 		module = moduleName,
 		instance = "MythicHCBloodFurnace",
 	},
@@ -1085,7 +1085,7 @@ AtlasLoot_Data["MythicSlavePensMennuTheBetrayer"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Mennu the Betrayer"],
+		name = BabbleBoss["Mennu the Betrayer"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheSlavePens",
 	},
@@ -1108,7 +1108,7 @@ AtlasLoot_Data["MythicSlavePensRokmarTheCrackler"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Rokmar the Crackler"],
+		name = BabbleBoss["Rokmar the Crackler"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheSlavePens",
 	},
@@ -1141,7 +1141,7 @@ AtlasLoot_Data["MythicSlavePensQuagmirran"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Quagmirran"],
+		name = BabbleBoss["Quagmirran"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheSlavePens",
 	},
@@ -1162,7 +1162,7 @@ AtlasLoot_Data["MythicShatteredHallsGrandWarlockNethekurse"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Grand Warlock Nethekurse"],
+		name = BabbleBoss["Grand Warlock Nethekurse"] .. "+",
 		module = moduleName,
 		instance = "MythicHCTheShatteredHalls",
 	},
@@ -1179,7 +1179,7 @@ AtlasLoot_Data["MythicShatteredHallsBloodGuardPorung"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Blood Guard Porung"],
+		name = BabbleBoss["Blood Guard Porung"] .. "+",
 		module = moduleName,
 		instance = "MythicHCTheShatteredHalls",
 	},
@@ -1196,7 +1196,7 @@ AtlasLoot_Data["MythicShatteredHallsWarbringerOmrogg"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Warbringer O'mrogg"],
+		name = BabbleBoss["Warbringer O'mrogg"] .. "+",
 		module = moduleName,
 		instance = "MythicHCTheShatteredHalls",
 	},
@@ -1224,7 +1224,7 @@ AtlasLoot_Data["MythicShatteredHallsWarchiefKargathBladefist"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Warchief Kargath Bladefist"],
+		name = BabbleBoss["Warchief Kargath Bladefist"] .. "+",
 		module = moduleName,
 		instance = "MythicHCTheShatteredHalls",
 	},
@@ -1245,7 +1245,7 @@ AtlasLoot_Data["MythicSteamvaultHydromancerThespia"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Hydromancer Thespia"],
+		name = BabbleBoss["Hydromancer Thespia"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheSteamvault",
 	},
@@ -1262,7 +1262,7 @@ AtlasLoot_Data["MythicSteamvaultMekgineerSteamrigger"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Mekgineer Steamrigger"],
+		name = BabbleBoss["Mekgineer Steamrigger"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheSteamvault",
 	},
@@ -1290,7 +1290,7 @@ AtlasLoot_Data["MythicSteamvaultWarlordKalithresh"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Warlord Kalithresh"],
+		name = BabbleBoss["Warlord Kalithresh"] .. "+",
 		module = moduleName,
 		instance = "MythicCFRTheSteamvault",
 	},
@@ -1316,7 +1316,7 @@ AtlasLoot_Data["MythicMagistersTerraceSelinFireheart"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Selin Fireheart"],
+		name = BabbleBoss["Selin Fireheart"] .. "+",
 		module = moduleName,
 		instance = "MythicMagistersTerrace",
 	},
@@ -1338,7 +1338,7 @@ AtlasLoot_Data["MythicMagistersTerraceVexallus"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Vexallus"],
+		name = BabbleBoss["Vexallus"] .. "+",
 		module = moduleName,
 		instance = "MythicMagistersTerrace",
 	},
@@ -1360,7 +1360,7 @@ AtlasLoot_Data["MythicMagistersTerracePriestessDelrissa"] = {
 		}
 	},
 	info = {
-		name = BabbleBoss["Priestess Delrissa"],
+		name = BabbleBoss["Priestess Delrissa"] .. "+",
 		module = moduleName,
 		instance = "MythicMagistersTerrace",
 	},
@@ -1389,11 +1389,111 @@ AtlasLoot_Data["MythicMagistersTerraceKaelthasSunstrider"] = {
 			{ 18, 61484, "", "=q4=Sunrage Treads", "=ds=#s12#, #a2#", "", "5%" },
 			{ 19, 61485, "", "=q4=Sunstrider Warboots", "=ds=#s12#, #a4#", "", "5%" },
 			{ 20, 61499, "", "=q4=Tunic of the Ranger Lord", "=ds=#s5#, #a3#", "", "5%" },
+			{ 1, 61509, "", "=q4=Abyss Walker's Boots", "=ds=#s12#, #a1#" },
+
 		}
 	},
 	info = {
-		name = BabbleBoss["Kael'thas Sunstrider"],
+		name = BabbleBoss["Kael'thas Sunstrider"] .. "+",
 		module = moduleName,
 		instance = "MythicMagistersTerrace",
+	},
+};
+
+-------------
+--- Misc. ---
+-------------
+
+AtlasLoot_Data["MythicDungeonBoEsTBC"] = {
+	["Normal"] = {
+		{
+			{ 1, 61509, "", "=q4=Abyss Walker's Boots", "=ds=#s12#, #a1#" },
+			{ 2, 61503, "", "=q4=Amulet of Sanctification", "=ds=#s2#" },
+			{ 3, 61303, "", "=q4=Band of Dominion", "=ds=#s13#" },
+			{ 4, 61324, "", "=q4=Band of Impenetrable Defenses", "=ds=#s13#" },
+			{ 5, 61334, "", "=q4=Band of Sorrow", "=ds=#s13#" },
+			{ 6, 61510, "", "=q4=Blade of Unquenched Thirst", "=ds=#h1#, #w4#" },
+			{ 7, 61307, "", "=q4=Blade of Wizardry", "=ds=#h3#, #w10#" },
+			{ 8, 61325, "", "=q4=Blinkstrike", "=ds=#h1#, #w10#" },
+			{ 9, 61502, "", "=q4=Boots of the Pathfinder", "=ds=#s12#, #a3#" },
+			{ 10, 61331, "", "=q4=Boots of Zealotry", "=ds=#s12#, #a4#" },
+			{ 11, 61286, "", "=q4=Bracers of Recklessness", "=ds=#s8#, #a4#" },
+			{ 12, 61501, "", "=q4=Braxxis' Staff of Slumber", "=ds=#w9#" },
+			{ 13, 61291, "", "=q4=Breastplate of Rapid Striking", "=ds=#s5#, #a3#" },
+			{ 14, 61301, "", "=q4=Ced's Carver", "=ds=#h1#, #w4#" },
+			{ 15, 61317, "", "=q4=Charlotte's Ivy", "=ds=#s2#" },
+			{ 16, 61314, "", "=q4=Chestguard of Exile", "=ds=#s5#, #a4#" },
+			{ 17, 61293, "", "=q4=Chestguard of the Dark Stalker", "=ds=#s5#, #a2#" },
+			{ 18, 61285, "", "=q4=Chestguard of the Talon", "=ds=#s5#, #a2#" },
+			{ 19, 61313, "", "=q4=Choker of Repentance", "=ds=#s2#" },
+			{ 20, 61335, "", "=q4=Cloak of the Craft", "=ds=#s4#" },
+			{ 21, 61333, "", "=q4=Crown of Endless Knowledge", "=ds=#s1#, #a1#" },
+			{ 22, 61290, "", "=q4=Crystal Pulse Shield", "=ds=#w8#" },
+			{ 23, 61326, "", "=q4=Crystalblade of the Draenei", "=ds=#h1#, #w10#" },
+			{ 24, 61284, "", "=q4=Crystalforged War Axe", "=ds=#h2#, #w1#" },
+			{ 25, 61311, "", "=q4=Don Santos' Famous Hunting Rifle", "=ds=#w5#" },
+			{ 26, 61297, "", "=q4=Draenei Honor Guard Shield", "=ds=#w8#" },
+			{ 27, 61337, "", "=q4=Elekk Hide Leggings", "=ds=#s11#, #a2#" },
+			{ 28, 61500, "", "=q4=Gauntlets of the Skullsplitter", "=ds=#s9#, #a4#" },
+			{ 29, 61505, "", "=q4=Girdle of Divine Blessing", "=ds=#s10#, #a4#" },
+			{ 30, 61292, "", "=q4=Girdle of Gale Force", "=ds=#s10#, #a3#" },
+		},
+		{
+			{ 1, 62538, "", "=q4=Hauberk of Totemic Rage", "=ds=#s5#, #a3#" },
+			{ 2, 61507, "", "=q4=Headdress of Inner Rage", "=ds=#s1#, #a3#" },
+			{ 3, 61321, "", "=q4=Kamaei's Cerulean Skirt", "=ds=#s11#, #a1#" },
+			{ 4, 61309, "", "=q4=Leggings of Beast Mastery", "=ds=#s11#, #a3#" },
+			{ 5, 61300, "", "=q4=Leggings of the Sacred Crest", "=ds=#s11#, #a1#" },
+			{ 6, 61508, "", "=q4=Leggings of the Sly", "=ds=#s11#, #a2#" },
+			{ 7, 61304, "", "=q4=Legguards of the Shattered Hand", "=ds=#s11#, #a4#" },
+			{ 8, 61308, "", "=q4=Lifegiving Cloak", "=ds=#s4#" },
+			{ 9, 61323, "", "=q4=Lightning Crown", "=ds=#s1#, #a3#" },
+			{ 10, 61318, "", "=q4=Lola's Eve", "=ds=#s13#" },
+			{ 11, 61328, "", "=q4=Mask of Veiled Death", "=ds=#s1#, #a2#" },
+			{ 12, 61332, "", "=q4=Necklace of Trophies", "=ds=#s2#" },
+			{ 13, 61306, "", "=q4=Pants of Living Growth", "=ds=#s11#, #a2#" },
+			{ 14, 61330, "", "=q4=Pathfinder's Band", "=ds=#s13#" },
+			{ 15, 61296, "", "=q4=Pauldrons of Surging Mana", "=ds=#s3#, #a3#" },
+			{ 16, 61294, "", "=q4=Robe of the Crimson Order", "=ds=#s5#, #a1#" },
+			{ 17, 61338, "", "=q4=Sash of Sealed Fate", "=ds=#s10#, #a1#" },
+			{ 18, 61336, "", "=q4=Scales of the Beast", "=ds=#s11#, #a3#" },
+			{ 19, 61504, "", "=q4=Shield of the Wayward Footman", "=ds=#w8#" },
+			{ 20, 61327, "", "=q4=Shroud of Spiritual Purity", "=ds=#s5#, #a1#" },
+			{ 21, 61316, "", "=q4=Singing Crystal Axe", "=ds=#h2#, #w1#" },
+			{ 22, 61289, "", "=q4=Staff of Divine Infusion", "=ds=#w9#" },
+			{ 23, 61305, "", "=q4=Staff of Natural Fury", "=ds=#w9#" },
+			{ 24, 61320, "", "=q4=The Ancient Scepter of Sue-Min", "=ds=#h3#, #w6#" },
+			{ 25, 61299, "", "=q4=The Bringer of Death", "=ds=#w9#" },
+			{ 26, 61287, "", "=q4=The Dreamer's Shoulderpads", "=ds=#s3#, #a2#" },
+			{ 27, 61298, "", "=q4=The Essence Focuser", "=ds=#h3#, #w6#" },
+			{ 28, 61506, "", "=q4=The Gunblade", "=ds=#w5#" },
+			{ 29, 61312, "", "=q4=The Hammer of Destiny", "=ds=#h2#, #w6#" },
+			{ 30, 61288, "", "=q4=The Master's Treads", "=ds=#s12#, #a2#" },
+		},
+		{
+			{ 1, 61322, "", "=q4=The Night Blade", "=ds=#h1#, #w4#" },
+			{ 2, 61315, "", "=q4=The Night Watchman", "=ds=#s1#, #a2#" },
+			{ 3, 61295, "", "=q4=The Oathkeeper", "=ds=#h2#, #w6#" },
+			{ 4, 61329, "", "=q4=Thundercaller's Gauntlets", "=ds=#s9#, #a3#" },
+			{ 5, 61310, "", "=q4=Truestrike Ring", "=ds=#s13#" },
+			{ 6, 61302, "", "=q4=Valanos' Longbow", "=ds=#w2#" },
+			{ 7, 61319, "", "=q4=Will of Edward the Odd", "=ds=#s5#, #a1#" },
+		}
+	},
+	info = {
+		name = AL["BoE World Epics"] .. "+",
+		module = moduleName,
+	},
+};
+
+AtlasLoot_Data["MythicRaidsPlaceholderTBC"] = {
+	["Normal"] = {
+		{
+			{ 1, 0, "achievement_character_human_male", "=q6=Come back later, kid.", "=ds=There's no loot here yet."},
+		}
+	},
+	info = {
+		name = "Meh's Bodyguard",
+		module = moduleName,
 	},
 };
