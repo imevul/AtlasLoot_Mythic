@@ -426,20 +426,36 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	}
 
 	AtlasLoot_Data["ARCHAVON"] = {
-		["Normal"] = {
+		["Normal_H"] = {
 			{
 				{ 2, "VoAArchavon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
 				{ 3, "VoAArchavon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-				{ 4, "VoAArchavon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 5, "VoAArchavon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 4, "VoAArchavon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAArchavon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 				{ 6, "VoAArchavon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-				{ 8, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
+				{ 8, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", "0.5%"};
+				
 				{ 17, "VoAArchavon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-				{ 18, "VoAArchavon#3", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 18, "VoAArchavon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 				{ 19, "VoAArchavon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
 				{ 20, "VoAArchavon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 				{ 21, "VoAArchavon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-				{ 23, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+			};
+		};
+		["Normal_A"] = {
+			{
+				{ 2, "VoAArchavon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "VoAArchavon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "VoAArchavon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAArchavon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, "VoAArchavon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 8, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", "0.5%"};
+				
+				{ 17, "VoAArchavon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAArchavon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAArchavon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAArchavon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAArchavon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
 			};
 		};
 		info = {
@@ -448,25 +464,46 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	}
 
 	AtlasLoot_Data["EMALON"] = {
-		["Normal"] = {
+		["Normal_H"] = {
 			{
-				{ 2, "VoAEmalon#5", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 2, "VoAEmalon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
 				{ 3, "VoAEmalon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-				{ 4, "VoAEmalon", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 5, "VoAEmalon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 4, "VoAEmalon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAEmalon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 				{ 6, "VoAEmalon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-				{ 8, "VoAEmalon#6", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
-				{ 9, "VoAEmalon#7", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
-				{ 10, "VoAEmalon#8", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 17, "VoAEmalon", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-				{ 18, "VoAEmalon#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 19, "VoAEmalon#3", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
-				{ 20, "VoAEmalon", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 21, "VoAEmalon#5", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-				{ 23, "VoAEmalon#6", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
-				{ 24, "VoAEmalon#7", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
-				{ 27, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 8, "VoAEmalon#8", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
+				{ 9, "VoAEmalon#9", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
+				{ 10, "VoAEmalon#10", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
+				{ 12, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", "0.5%"};
+				
+				{ 17, "VoAEmalon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAEmalon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAEmalon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAEmalon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAEmalon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, "VoAEmalon#8", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
+				{ 24, "VoAEmalon#9", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
+			};
+		};
+		["Normal_A"] = {
+			{
+				{ 2, "VoAEmalon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "VoAEmalon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "VoAEmalon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAEmalon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, "VoAEmalon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 8, "VoAEmalon#8", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
+				{ 9, "VoAEmalon#9", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
+				{ 10, "VoAEmalon#10", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
+				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", "0.5%"};
+				
+				{ 17, "VoAEmalon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAEmalon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAEmalon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAEmalon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAEmalon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, "VoAEmalon#8", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
+				{ 24, "VoAEmalon#9", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
 			};
 		};
 		info = {
@@ -475,25 +512,46 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	}
 
 	AtlasLoot_Data["KORALON"] = {
-		["Normal"] = {
+		["Normal_H"] = {
 			{
-				{ 2, "VoAKoralon#5", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 2, "VoAKoralon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
 				{ 3, "VoAKoralon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-				{ 4, "VoAKoralon", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 5, "VoAKoralon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 4, "VoAKoralon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAKoralon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 				{ 6, "VoAKoralon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-				{ 8, "VoAKoralon#6", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
-				{ 9, "VoAKoralon#7", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
-				{ 10, "VoAKoralon#8", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 17, "VoAKoralon", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-				{ 18, "VoAKoralon#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 19, "VoAKoralon#3", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
-				{ 20, "VoAKoralon", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 21, "VoAKoralon#5", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-				{ 23, "VoAKoralon#6", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
-				{ 24, "VoAKoralon#7", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
-				{ 27, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 8, "VoAKoralon#8", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
+				{ 9, "VoAKoralon#9", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
+				{ 10, "VoAKoralon#10", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
+				{ 12, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", "0.5%"};
+				
+				{ 17, "VoAKoralon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAKoralon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAKoralon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAKoralon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAKoralon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, "VoAKoralon#8", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
+				{ 24, "VoAKoralon#9", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
+			};
+		};
+		["Normal_A"] = {
+			{
+				{ 2, "VoAKoralon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "VoAKoralon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "VoAKoralon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAKoralon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, "VoAKoralon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 8, "VoAKoralon#8", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
+				{ 9, "VoAKoralon#9", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
+				{ 10, "VoAKoralon#10", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
+				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", "0.5%"};
+				
+				{ 17, "VoAKoralon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAKoralon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAKoralon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAKoralon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAKoralon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, "VoAKoralon#8", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
+				{ 24, "VoAKoralon#9", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
 			};
 		};
 		info = {
@@ -502,25 +560,46 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	}
 
 	AtlasLoot_Data["TORAVON"] = {
-		["Normal"] = {
+		["Normal_H"] = {
 			{
-				{ 2, "VoAToravon#5", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 2, "VoAToravon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
 				{ 3, "VoAToravon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
-				{ 4, "VoAToravon", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
-				{ 5, "VoAToravon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 4, "VoAToravon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAToravon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
 				{ 6, "VoAToravon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
-				{ 8, "VoAToravon#6", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
-				{ 9, "VoAToravon#7", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
-				{ 10, "VoAToravon#8", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
-				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", ""};
-				{ 17, "VoAToravon", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
-				{ 18, "VoAToravon#2", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
-				{ 19, "VoAToravon#3", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
-				{ 20, "VoAToravon", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
-				{ 21, "VoAToravon#5", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
-				{ 23, "VoAToravon#6", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
-				{ 24, "VoAToravon#7", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
-				{ 27, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", ""};
+				{ 8, "VoAToravon#8", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
+				{ 9, "VoAToravon#9", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
+				{ 10, "VoAToravon#10", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
+				{ 12, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m6#", "", "0.5%"};
+				
+				{ 17, "VoAToravon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAToravon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAToravon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAToravon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAToravon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, "VoAToravon#8", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
+				{ 24, "VoAToravon#9", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
+			};
+		};
+		["Normal_A"] = {
+			{
+				{ 2, "VoAToravon", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], ""};
+				{ 3, "VoAToravon#2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
+				{ 4, "VoAToravon#3", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], ""};
+				{ 5, "VoAToravon#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], ""};
+				{ 6, "VoAToravon#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], ""};
+				{ 8, "VoAToravon#8", "INV_Boots_Cloth_12", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Cloth"]};
+				{ 9, "VoAToravon#9", "INV_Boots_Plate_06", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Mail"]};
+				{ 10, "VoAToravon#10", "inv_misc_cape_19", "=ds="..AL["PvP Non-Set Epics"], "=q5="..AL["Misc"]};
+				{ 12, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=ds=#e26# =ec1=#m7#", "", "0.5%"};
+				
+				{ 17, "VoAToravon#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], ""};
+				{ 18, "VoAToravon#5", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
+				{ 19, "VoAToravon#6", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], ""};
+				{ 20, "VoAToravon#7", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
+				{ 21, "VoAToravon#7", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], ""};
+				{ 23, "VoAToravon#8", "INV_Boots_08", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Leather"]};
+				{ 24, "VoAToravon#9", "INV_Boots_Plate_04", "=ds="..AL["PvP Non-Set Epics"], "=q5="..BabbleInventory["Plate"]};
 			};
 		};
 		info = {

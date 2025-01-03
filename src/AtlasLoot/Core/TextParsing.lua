@@ -78,7 +78,7 @@ AtlasLoot_TextParsing = {
 	{ "#s15#", BabbleInventory["Held in Off-Hand"] },
 	{ "#s16#", BabbleInventory["Relic"] },
 
-	-- Weapon Weilding
+	-- Weapon Wielding
 	{ "#h1#", BabbleInventory["One-Hand"] },
 	{ "#h2#", BabbleInventory["Two-Hand"] },
 	{ "#h3#", BabbleInventory["Main Hand"] },
@@ -101,6 +101,10 @@ AtlasLoot_TextParsing = {
 	{ "#w14#", BabbleInventory["Idol"] },
 	{ "#w15#", BabbleInventory["Totem"] },
 	{ "#w16#", BabbleInventory["Libram"] },
+	{ "#w17#", BabbleInventory["Arrow"] },
+	{ "#w18#", BabbleInventory["Bullet"] },
+	{ "#w19#", BabbleInventory["Quiver"] },
+	{ "#w20#", BabbleInventory["Ammo Pouch"] },
 	{ "#w21#", BabbleInventory["Sigil"] },
 
 	-- Misc Inventory related words
@@ -121,6 +125,8 @@ AtlasLoot_TextParsing = {
 	{ "#e15#", AL["Token"] },
 	{ "#e16#", AL["Darkmoon Faire Card"] },
 	{ "#e17#", BabbleInventory["Enchant"] },
+	{ "#e18#", BabbleInventory["Skinning"] },
+	{ "#e19#", BabbleInventory["Herbalism"] },
 	{ "#e20#", BabbleInventory["Fishing Pole"] },
 	{ "#e21#", BabbleInventory["Fish"] },
 	{ "#e22#", AL["Combat Pet"] },
@@ -155,6 +161,10 @@ AtlasLoot_TextParsing = {
 	{ "#m37#", AL["Tier 11"] },
 	{ "#m38#", AL["Tier 12"] },
 	{ "#m39#", AL["Tier 13"] },
+	{ "#m40#", AL["Tier 7"] },
+	{ "#m41#", AL["Tier 8"] },
+	{ "#m42#", AL["Tier 9"] },
+	{ "#m43#", AL["Tier 10"] },
 
 	-- Misc
 	{ "#j1#", AL["Normal Mode"] },
@@ -165,6 +175,7 @@ AtlasLoot_TextParsing = {
 	{ "#j7#", AL["Dungeon Set 2"] },
 	{ "#j8#", AL["Dungeon Set 1/2"] },
 	{ "#j9#", AL["Replica"] },
+	{ "#j10#", AL["Dungeon Set 3"] },
 	{ "#j11#", AL["Fire Resistance Gear"] },
 	{ "#j12#", AL["Arcane Resistance Gear"] },
 	{ "#j13#", AL["Nature Resistance Gear"] },
@@ -224,6 +235,7 @@ AtlasLoot_TextParsing = {
 	-- Factions
 	{ "#f1#", BabbleFaction["Lower City"] },
 	{ "#f2#", BabbleFaction["The Sha'tar"] },
+	{ "#f3#", BabbleFaction["Thrallmar"] },
 	{ "#f4#", BabbleFaction["Honor Hold"] },
 	{ "#f5#", BabbleFaction["Keepers of Time"] },
 	{ "#f6#", BabbleFaction["Cenarion Expedition"] },
