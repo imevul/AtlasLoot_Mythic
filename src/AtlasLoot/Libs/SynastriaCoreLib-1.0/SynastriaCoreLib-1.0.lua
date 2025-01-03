@@ -1,5 +1,5 @@
 ﻿local wowAddonName, NS = ...
-local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 17
+local SYNASTRIACORELIB_MAJOR, SYNASTRIACORELIB_MINOR = 'SynastriaCoreLib-1.0', 21
 NS.SYNASTRIACORELIB_MINOR = SYNASTRIACORELIB_MINOR
 
 if not SCL then SCL = {} end
@@ -19,12 +19,69 @@ NS.loaded = true
 
 NS.DebugLog(nil, nil, 'Loaded')
 
-local ItemCache = LibStub('ItemCache-1.0')
+if SynastriaCoreLib.frame == nil then
+    local defaults = {
+        ldb = {
+            cacheTTL = 600,
+            disable = false,
+        }
+    }
+
+    SynastriaCoreLib.frame = CreateFrame('Frame')
+
+    function SynastriaCoreLib.frame:OnEvent(event, addOnName)
+        if addOnName == 'SynastriaCoreLib' or addOnName == 'SynastriaCoreLib-1.0' then
+            SynastriaCoreLibDB = SynastriaCoreLibDB or CopyTable(defaults)
+            self.db = SynastriaCoreLibDB
+            NS.DebugLog(nil, nil, 'Loaded DB')
+            self:InitializeOptions()
+--        else
+--            NS.DebugLog(nil, nil, 'Failed to load DB: ' .. (addOnName or ''))
+        end
+    end
+
+    SynastriaCoreLib.frame:RegisterEvent('ADDON_LOADED')
+    SynastriaCoreLib.frame:SetScript('OnEvent', SynastriaCoreLib.frame.OnEvent)
+
+    function SynastriaCoreLib.frame:InitializeOptions()
+        self.panel = CreateFrame('Frame')
+        self.panel.name = 'SynastriaCoreLib-1.0'
+
+        local cb = CreateFrame('CheckButton', 'SCL_Options_LDB_DisableCB', self.panel, 'InterfaceOptionsCheckButtonTemplate')
+        cb:SetPoint('TOPLEFT', 20, -20)
+        --cb:SetText('Prevent LDB feeds from updating')
+        SCL_Options_LDB_DisableCBText:SetText('Prevent LDB feeds from updating')
+        cb.tooltip = 'Prevent LDB feeds from updating, reducing CPU load'
+        
+        cb:HookScript('OnClick', function(_, btn, down)
+            self.db.ldb.disable = cb:GetChecked()
+        end)
+        cb:SetChecked(self.db.ldb.disable)
+
+        InterfaceOptions_AddCategory(self.panel)
+        NS.DebugLog(nil, nil, 'Added Options category')
+    end
+
+    SLASH_HELLOW1 = "/scl"
+    SLASH_HELLOW2 = "/synastriacorelib"
+    
+    SlashCmdList.HELLOW = function(msg, editBox)
+        InterfaceOptionsFrame_OpenToCategory(SynastriaCoreLib.frame.panel)
+    end
+end
+
+
+--local ItemCache = LibStub('ItemCache-1.0')
+local Cache = LibStub('Cache-1.0')
 
 -- Define eventHandlers
 local oldCustomGameData = OnCustomGameData
 local oldCustomGameDataFinish = OnCustomGameDataFinish
 local oldCustomGameInit = OnCustomGameInit
+
+local SCL_DEFAULT_ITEM_NAME = 'Unknown Item'
+local SCL_DEFAULT_ITEM_COLOR = 'e55a30'
+local SCL_DEFAULT_ITEM_OWNER_LEVEL = 80
 
 function OnCustomGameData(typeId, id, prev, cur)
     if oldCustomGameData then oldCustomGameData(typeId, id, prev, cur) end
@@ -78,12 +135,20 @@ function SynastriaCoreLib._OnCustomGameDataFinish(...)
     --print(('Processing %d custom game data updates'):format(#SynastriaCoreLib._queuedGameData))
     for _, change in ipairs(SynastriaCoreLib._queuedGameData) do
         if change.typeId then
+            --SynastriaCoreLib._dataCache:forget(change.typeId)
+
+            if change.typeId >= 1 and change.typeId <= 10 then
+                SynastriaCoreLib._ldbCache:forget(SynastriaCoreLib.CustomDataTypes.PERK_TASKASSIGN1)
+            else
+                SynastriaCoreLib._ldbCache:forget(change.typeId)
+            end
+
             if change.typeId == 11 then
-                SynastriaCoreLib._cache:put(change.id, {
-                    itemId = change.id,
-                    attuned = change.cur == 100,
-                    progress = change.cur,
-                })
+--                SynastriaCoreLib._cache:put(change.id, {
+--                    itemId = change.id,
+--                    attuned = change.cur == 100,
+--                    progress = change.cur,
+--                })
 
                 if change.cur == 100 then
                     SynastriaCoreLib._OnAttuneItem(change.id)
@@ -177,7 +242,9 @@ SynastriaCoreLib.Colors = { -- { Red, Green, Blue, Alpha }
 
 SynastriaCoreLib.loaded = false
 SynastriaCoreLib.enabled = false
-SynastriaCoreLib._cache = ItemCache.new(60)
+SynastriaCoreLib._cache = nil   --ItemCache.new(60)
+--SynastriaCoreLib._dataCache = Cache.new(600)
+SynastriaCoreLib._ldbCache = Cache.new(3600)
 
 -- Event queue
 SynastriaCoreLib._queuedGameData = {}
@@ -239,20 +306,54 @@ function SynastriaCoreLib._EnableModules()
     end
 end
 
-function SynastriaCoreLib.generateItemLink(itemId, suffixId, name, color)
-    color = color or 'ffffff'
-    name = name or ''
-    suffixId = suffixId or 0
+function SynastriaCoreLib.generateItemLink(itemIdOrLink, suffixId, name, color)
+    local itemId, propertySeed, ownerLevel
+    if type(itemIdOrLink) == 'number' then
+        itemId = itemIdOrLink
+    elseif type(itemIdOrLink) == 'string' then
+        itemId = SynastriaCoreLib.parseItemId(itemIdOrLink)
+        if suffixId == nil then
+            suffixId = SynastriaCoreLib.parseSuffixId(itemIdOrLink, 0)
+        end
 
-    return ('|cff%s|Hitem:%d:0:0:0:0:0:%d:%d:%d|h[%s]|h|r'):format(color, itemId, 0, suffixId, 0, name)
+        if name == nil then
+            name = SynastriaCoreLib.parseItemName(itemIdOrLink, SCL_DEFAULT_ITEM_NAME)
+        end
+
+        if color == nil then
+            color = SynastriaCoreLib.parseItemColor(itemIdOrLink)
+        end
+
+        if propertySeed == nil then
+            propertySeed = SynastriaCoreLib.parsePropertySeed(itemIdOrLink)
+        end
+
+        if ownerLevel == nil then
+            ownerLevel = SynastriaCoreLib.parseOwnerLevel(itemIdOrLink, SCL_DEFAULT_ITEM_OWNER_LEVEL)
+        end
+    else
+        return 'ERR'
+    end
+    color = color or SCL_DEFAULT_ITEM_COLOR
+    name = name or SCL_DEFAULT_ITEM_NAME
+    ownerLevel = ownerLevel or SCL_DEFAULT_ITEM_OWNER_LEVEL
+    suffixId = suffixId or 0
+    propertySeed = propertySeed or 0
+
+    local ench1 = 0
+    local ench2 = 0
+    local ench3 = 0
+    local ench4 = 0
+    local socketBonus = 0
+
+    return ('|cff%s|Hitem:%d:%d:%d:%d:%d:%d:%d:%d:%d|h[%s]|h|r'):format(color, itemId, ench1, ench2, ench3, ench4, socketBonus, suffixId, propertySeed, ownerLevel, name)
 end
 
 function SynastriaCoreLib.parseItemIdAndLink(itemIdOrLink, suffixId)
     if type(itemIdOrLink) == 'number' then
         return itemIdOrLink, SynastriaCoreLib.generateItemLink(itemIdOrLink, suffixId)
     elseif type(itemIdOrLink) == 'string' then
-        if itemIdOrLink:find('item:') == 1 then itemIdOrLink = '|H' .. itemIdOrLink end
-        return SynastriaCoreLib.parseItemId(itemIdOrLink, 0), itemIdOrLink
+        return SynastriaCoreLib.parseItemId(itemIdOrLink, 0), SynastriaCoreLib.generateItemLink(itemIdOrLink, suffixId)
     end
 
     return nil, nil
@@ -264,7 +365,26 @@ function SynastriaCoreLib.parseItemId(itemLink, default)
 end
 
 function SynastriaCoreLib.parseSuffixId(itemLink, default)
-    return tonumber(itemLink:match('item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:([^:]*):')) or default or nil
+    return tonumber(itemLink:match('item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:([^:]*)')) or default or 0
+end
+
+function SynastriaCoreLib.parsePropertySeed(itemLink, default)
+    return tonumber(itemLink:match('item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:([^:]*)')) or default or 0
+end
+
+function SynastriaCoreLib.parseOwnerLevel(itemLink, default)
+    return tonumber(itemLink:match('item:%d+:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:([^:]*)')) or default or 0
+end
+
+function SynastriaCoreLib.parseItemColor(itemLink, default)
+    local itemColor = itemLink:match('|cff([^|]+)')
+    return SynastriaCoreLib.getValidItemColor(itemColor, default)
+end
+
+function SynastriaCoreLib.parseItemName(itemLink, default)
+    if type(itemLink) ~= 'string' then return default or SCL_DEFAULT_ITEM_NAME end
+    local itemName = itemLink:match('|h([^|]+)|h')
+    return itemName or default or SCL_DEFAULT_ITEM_NAME
 end
 
 function SynastriaCoreLib.isValidItemId(itemId)
@@ -274,6 +394,34 @@ end
 function SynastriaCoreLib.getValidItemId(itemId, default)
     if not SynastriaCoreLib.isValidItemId(itemId) then return default or nil end
     return itemId
+end
+
+function SynastriaCoreLib.isValidItemColor(itemColor)
+    return type(itemColor) == 'string' and itemColor:find('%x{6}')
+end
+
+function SynastriaCoreLib.getValidItemColor(itemColor, default)
+    if not SynastriaCoreLib.isValidItemColor(itemColor) then return default or SCL_DEFAULT_ITEM_COLOR end
+    return itemColor
+end
+
+function SynastriaCoreLib.IsUnforged(itemLink)
+    return SynastriaCoreLib.IsItemValid(SynastriaCoreLib.parseItemId(itemLink)) and not (SynastriaCoreLib.IsTitanForged(itemLink) or SynastriaCoreLib.IsWarForged(itemLink) or SynastriaCoreLib.IsLightForged(itemLink))
+end
+
+function SynastriaCoreLib.IsTitanForged(itemLink)
+    local propertySeed = SynastriaCoreLib.parsePropertySeed(itemLink)
+    return bit.band(propertySeed, bit.lshift(1, 12)) > 0
+end
+
+function SynastriaCoreLib.IsWarForged(itemLink)
+    local propertySeed = SynastriaCoreLib.parsePropertySeed(itemLink)
+    return bit.band(propertySeed, bit.lshift(1, 13)) > 0
+end
+
+function SynastriaCoreLib.IsLightForged(itemLink)
+    local propertySeed = SynastriaCoreLib.parsePropertySeed(itemLink)
+    return bit.band(propertySeed, bit.lshift(1, 14)) > 0
 end
 
 function SynastriaCoreLib.GetRace()
@@ -299,7 +447,7 @@ end
 function SynastriaCoreLib.AllCustomGameData(typeId, filterFnc)
     if not SynastriaCoreLib.isLoaded() then return function() end, nil end
 
-    local index = nil
+    local index = 0
     local count = GetCustomGameDataCount(typeId)
 
     return function()
@@ -312,13 +460,13 @@ function SynastriaCoreLib.AllCustomGameData(typeId, filterFnc)
                 value = GetCustomGameData(typeId, key)
 
                 if not filterFnc or (filterFnc and filterFnc(key, value)) then
-                    return key, value
+                    return index, { key = key, value = value }
                 end
             end
         end
 
         return nil, nil
-    end, typeId, nil
+    end, typeId, 0
 end
 
 function SynastriaCoreLib.LoadItem(itemIdOrLink, fnc)

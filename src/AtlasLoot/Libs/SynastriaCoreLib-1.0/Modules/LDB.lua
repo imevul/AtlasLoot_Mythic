@@ -1,5 +1,5 @@
 local _, NS = ...
-local MODULE_NAME, MODULE_VERSION = 'LDB', 6
+local MODULE_NAME, MODULE_VERSION = 'LDB', 7
 
 NS.DebugLog(MODULE_NAME, MODULE_VERSION, 'Start')
 if not NS.loaded then return end
@@ -27,19 +27,24 @@ local function RemoveDataObject(name)
 end
 
 local function GetTopInProgress(maxNum)
-    local ret = {}
-    local count = 0
-    local total = 0
-    for itemId, progress in SynastriaCoreLib.InProgressItems() do
-        total = total + progress
-        local _, itemLink = SynastriaCoreLib.GetItemInfoCustom(itemId)
+    return unpack(SynastriaCoreLib._ldbCache:get(SynastriaCoreLib.CustomDataTypes.ATTUNE_HAS, function()
+        local ret = {}
+        local count = 0
+        local total = 0
+        for _, itemProgress in SynastriaCoreLib.InProgressItems() do
+            if not itemProgress then break end
+            local itemId = itemProgress.key
+            local progress = itemProgress.value
+            total = total + progress
+            local _, itemLink = SynastriaCoreLib.GetItemInfoCustom(itemId)
 
-        table.insert(ret, { left = itemLink or ('Unknown Item [%d]'):format(itemId), right = ('%d %%'):format(progress) })
-        count = count + 1
-        if count >= maxNum then break end
-    end
+            table.insert(ret, { left = itemLink or ('Unknown Item [%d]'):format(itemId), right = ('%d %%'):format(progress) })
+            count = count + 1
+            if count >= maxNum then break end
+        end
 
-    return ret, ('%d %%'):format(total / math.max(1, count)), count
+        return { ret, ('%d %%'):format(total / math.max(1, count)), count }
+    end))
 end
 
 local function GetActiveTasks(maxNum)
@@ -77,19 +82,47 @@ local function updateFeeds(self, elap)
 
     elapsed = 0
 
+    if SynastriaCoreLibDB and SynastriaCoreLibDB.ldb and SynastriaCoreLibDB.ldb.disable then
+        if SynastriaCoreLib.LDB.inProgressFeed then
+            SynastriaCoreLib.LDB.inProgressFeed.text = ('? items: ?')
+        end
+
+        if SynastriaCoreLib.LDB.perkTaskFeed then
+            SynastriaCoreLib.LDB.perkTaskFeed.text = ('Perk Tasks: ?')
+        end
+
+        if SynastriaCoreLib.LDB.resourceBankFeed then
+            SynastriaCoreLib.LDB.resourceBankFeed.text = ('Resource Bank: ?')
+        end
+
+        return
+    end
+
     if SynastriaCoreLib.LDB.inProgressFeed then
         local _, total, count = GetTopInProgress(10)
-        SynastriaCoreLib.LDB.inProgressFeed.text = ('%d items: %s'):format(count, total)
+        if count ~= nil and total ~= nil then
+            SynastriaCoreLib.LDB.inProgressFeed.text = ('%d items: %s'):format(count, total)
+        else
+            SynastriaCoreLib.LDB.inProgressFeed.text = ('? items: ?')
+        end
     end
 
     if SynastriaCoreLib.LDB.perkTaskFeed then
         local _, count = GetActiveTasks(50)
-        SynastriaCoreLib.LDB.perkTaskFeed.text = ('Perk Tasks: %s'):format(count)
+        if count ~= nil then
+            SynastriaCoreLib.LDB.perkTaskFeed.text = ('Perk Tasks: %s'):format(count)
+        else
+            SynastriaCoreLib.LDB.perkTaskFeed.text = ('Perk Tasks: ?')
+        end
     end
 
     if SynastriaCoreLib.LDB.resourceBankFeed then
         local _, total, _ = GetResources()
-        SynastriaCoreLib.LDB.resourceBankFeed.text = ('Resource Bank: %s'):format(total)
+        if total ~= nil then
+            SynastriaCoreLib.LDB.resourceBankFeed.text = ('Resource Bank: %s'):format(total)
+        else
+            SynastriaCoreLib.LDB.resourceBankFeed.text = ('Resource Bank: ?')
+        end
     end
 end
 
@@ -107,6 +140,7 @@ RemoveDataObject('SCL: In Progress')
 SynastriaCoreLib.LDB.inProgressFeed = LDB:NewDataObject('SCL: In Progress', { type = 'data source', text = 'Attunement', icon = "Interface\\Icons\\Spell_Holy_Spellwarding", OnClick = function() OpenAttuneSummary() end })
 
 function SynastriaCoreLib.LDB.inProgressFeed:OnTooltipShow()
+    if SynastriaCoreLibDB and SynastriaCoreLibDB.ldb and SynastriaCoreLibDB.ldb.disable then return end
     local inProgressItems, total = GetTopInProgress(10)
 
     for _, item in ipairs(inProgressItems) do
@@ -122,6 +156,7 @@ RemoveDataObject('SCL: Perk Tasks')
 SynastriaCoreLib.LDB.perkTaskFeed = LDB:NewDataObject('SCL: Perk Tasks', { type = 'data source', text = 'Perk Tasks', icon = "Interface\\Icons\\Achievement_Quests_Completed_Daily_07", OnClick = function() OpenPerkMgr() end })
 
 function SynastriaCoreLib.LDB.perkTaskFeed:OnTooltipShow()
+    if SynastriaCoreLibDB and SynastriaCoreLibDB.ldb and SynastriaCoreLibDB.ldb.disable then return end
     local tasks = GetActiveTasks(25)
 
     for _, task in ipairs(tasks) do
@@ -134,6 +169,7 @@ RemoveDataObject('SCL: Resource Bank')
 SynastriaCoreLib.LDB.resourceBankFeed = LDB:NewDataObject('SCL: Resource Bank', { type = 'data source', text = 'Resource Bank', icon = "Interface\\Icons\\Inv_Misc_Bag_22", OnClick = function() OpenResourceSummary() end })
 
 function SynastriaCoreLib.LDB.resourceBankFeed:OnTooltipShow()
+    if SynastriaCoreLibDB and SynastriaCoreLibDB.ldb and SynastriaCoreLibDB.ldb.disable then return end
     local resources = GetResources(25)
 
     local category = nil

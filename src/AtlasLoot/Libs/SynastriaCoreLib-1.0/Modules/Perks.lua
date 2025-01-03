@@ -1,5 +1,5 @@
 local _, NS = ...
-local MODULE_NAME, MODULE_VERSION = 'Perks', 4
+local MODULE_NAME, MODULE_VERSION = 'Perks', 5
 -- TODO: Still a work in progress! Use at your own risk!
 
 NS.DebugLog(MODULE_NAME, MODULE_VERSION, 'Start')
@@ -47,44 +47,49 @@ function SynastriaCoreLib.Perks.GetAllTasks()
 end
 
 function SynastriaCoreLib.Perks.GetActiveTasks()
-    local ret = {}
-    for perkId, pivotId in SynastriaCoreLib.AllCustomGameData(SynastriaCoreLib.CustomDataTypes.PERK_TASKASSIGN1) do
-        if GetPerkActive(perkId) then
-            local perk = PerkMgrPerks[perkId]
-            if perk then
-                if bit.band(perk.flags, 0x400) ~= 0x400 then
-                    local taskId = GetPerkTaskAssign2(pivotId or 0)
-                    local task = PerkMgrTaskAll[taskId or 0]
-                    local color = ('|cff%s%s|r'):format(SynastriaCoreLib.Perks.CategoryColors[perk.cat] or 'ffffff', '%s')
+    return SynastriaCoreLib._ldbCache:get(SynastriaCoreLib.CustomDataTypes.PERK_TASKASSIGN1, function()
+        local ret = {}
+        for _, perkInfo in SynastriaCoreLib.AllCustomGameData(SynastriaCoreLib.CustomDataTypes.PERK_TASKASSIGN1) do
+            local perkId = perkInfo.key
+            local pivotId = perkInfo.value
 
-                    if task then
-                        local progress = ''
-                        if (task.req0 or 0) > 0 then
-                            progress = ('    %d / %d'):format(SynastriaCoreLib.Perks.GetTaskProgress(pivotId), task.req0 or 0)
+            if GetPerkActive(perkId) then
+                local perk = PerkMgrPerks[perkId]
+                if perk then
+                    if bit.band(perk.flags, 0x400) ~= 0x400 then
+                        local taskId = GetPerkTaskAssign2(pivotId or 0)
+                        local task = PerkMgrTaskAll[taskId or 0]
+                        local color = ('|cff%s%s|r'):format(SynastriaCoreLib.Perks.CategoryColors[perk.cat] or 'ffffff', '%s')
+
+                        if task then
+                            local progress = ''
+                            if (task.req0 or 0) > 0 then
+                                progress = ('    %d / %d'):format(SynastriaCoreLib.Perks.GetTaskProgress(pivotId), task.req0 or 0)
+                            end
+
+                            table.insert(ret, {
+                                cat = perk.cat,
+                                perkId = perkId,
+                                perk = perk,
+                                perkName = perk.name,
+                                perkNameColored = color:format(perk.name),
+                                --perkNameColored = ('%d %s'):format(perkId, color:format(perk.name)),
+                                perkLevel = GetCustomGameData(SynastriaCoreLib.CustomDataTypes.PERK_ACQUIRED, perkId),
+                                taskId = taskId,
+                                task = task,
+                                text = SynastriaCoreLib.Perks.GetPerkTaskText(perkId, task),
+                                progress = progress,
+                            })
                         end
-
-                        table.insert(ret, {
-                            cat = perk.cat,
-                            perkId = perkId,
-                            perk = perk,
-                            perkName = perk.name,
-                            perkNameColored = color:format(perk.name),
-                            --perkNameColored = ('%d %s'):format(perkId, color:format(perk.name)),
-                            perkLevel = GetCustomGameData(SynastriaCoreLib.CustomDataTypes.PERK_ACQUIRED, perkId),
-                            taskId = taskId,
-                            task = task,
-                            text = SynastriaCoreLib.Perks.GetPerkTaskText(perkId, task),
-                            progress = progress,
-                        })
                     end
                 end
             end
         end
-    end
 
-    table.sort(ret, function(a, b) return a.cat < b.cat end)
+        table.sort(ret, function(a, b) return a.cat < b.cat end)
 
-    return ret
+        return ret
+    end)
 end
 
 function SynastriaCoreLib.Perks.GetPerkTaskText(perkId, task)
@@ -120,7 +125,9 @@ function SynastriaCoreLib.Perks.GetActiveTasksText()
 end
 
 function SynastriaCoreLib.Perks.GetAcquired()
-    return SynastriaCoreLib.AllCustomGameData(SynastriaCoreLib.CustomDataTypes.PERK_ACQUIRED)
+    return SynastriaCoreLib._ldbCache:get(SynastriaCoreLib.CustomDataTypes.PERK_ACQUIRED, function()
+        return SynastriaCoreLib.AllCustomGameData(SynastriaCoreLib.CustomDataTypes.PERK_ACQUIRED)
+    end)
 end
 
 function SynastriaCoreLib.Perks.IsActive(perkId)
