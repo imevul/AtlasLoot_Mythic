@@ -1370,6 +1370,7 @@ AtlasLoot_LootTableRegister = {
 		["MythicBlackTempleTop"] = "MythicBlackTemple",
 		["MythicBlackTemple"] = {
 			["MythicBlackTempleStart"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicBTNajentus", 6 },
 				{ "MythicBTSupremus", 7 },
 				{ "MythicBTAkama",    8 },
@@ -1390,10 +1391,11 @@ AtlasLoot_LootTableRegister = {
 		["MythicCoTHyjalEnt"] = "MythicCoTHyjalEaI",
 		["MythicCoTHyjal"] = "MythicCoTHyjalEaI",
 		["MythicCoTHyjalEaI"] = {
-			["CoTHyjalEnt"] = {
+			["MythicCoTHyjalEnt"] = {
 				{ "ScaleSands", 2, hide = true },
 			},
-			["CoTHyjal"] = {
+			["MythicCoTHyjal"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicMountHyjalWinterchill", 9 },
 				{ "MythicMountHyjalAnetheron",   10 },
 				{ "MythicMountHyjalKazrogal",    11 },
@@ -1405,6 +1407,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicCFRSerpentshrineCavern"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicCFRSerpentHydross",    3 },
 				{ "MythicCFRSerpentLurker",     4 },
 				{ "MythicCFRSerpentLeotheras",  5 },
@@ -1417,6 +1420,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicGruulsLair"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicGruulsLairHighKingMaulgar", 2 },
 				{ "MythicGruulGruul",                7 },
 			},
@@ -1425,6 +1429,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicMagtheridonsLair"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicMagtheridon", 2 },
 			},
 			["Info"] = { BabbleZone["Magtheridon's Lair"] .. "+", "AtlasLootMythicBC", raid = true },
@@ -1438,6 +1443,7 @@ AtlasLoot_LootTableRegister = {
 				{ "KaraCharredBoneFragment", 8, hide = true },
 			},
 			["MythicKarazhanStart"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicKaraAttumen",    4 },
 				{ "MythicKaraMoroes",     6 },
 				{ "MythicKaraMaiden",     13 },
@@ -1458,6 +1464,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicSunwellPlateau"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicSPKalecgos",    2 },
 				{ "MythicSPBrutallus",   4 },
 				{ "MythicSPFelmyst",     5 },
@@ -1470,6 +1477,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicTempestKeepTheEye"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderTBC", 1 },
 				{ "MythicTKEyeAlar",       3 },
 				{ "MythicTKEyeVoidReaver", 4 },
 				{ "MythicTKEyeSolarian",   5 },
@@ -1652,6 +1660,7 @@ AtlasLoot_LootTableRegister = {
 		["MythicIcecrownCitadelC"] = "MythicIcecrownCitadel",
 		["MythicIcecrownCitadel"] = {
 			["MythicIcecrownCitadelA"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicIcecrownCitadelLordMarrowgar", 1 },
 				{ "MythicIcecrownCitadelLadyDeathwhisper", 2 },
 				{ "MythicIcecrownCitadelGunshipBattle", 3 },
@@ -1675,6 +1684,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicNaxxramas"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicNaxxramasPatchwerk", 1 },
 				{ "MythicNaxxramasGrobbulus", 2 },
 				{ "MythicNaxxramasGluth", 3 },
@@ -1697,6 +1707,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicObsidianSanctum"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicObsidianSanctumSartharion", 1 },
 			},
 			["Info"] = { BabbleZone["The Obsidian Sanctum"] .. "+", "AtlasLootMythicWotLK", mapname = "TheObsidianSanctum", raid = true },
@@ -1704,6 +1715,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicOnyxiasLair"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicOnyxiasLairOnyxia", 1 },
 			},
 			["Info"] = { BabbleZone["Onyxia's Lair"] .. "+", "AtlasLootMythicWotLK", mapname = "OnyxiasLair", raid = true },
@@ -1711,6 +1723,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicRubySanctum"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicRubySanctumHalion", 1 },
 			},
 			["Info"] = { BabbleZone["The Ruby Sanctum"] .. "+", "AtlasLootMythicWotLK", mapname = "TheRubySanctum", raid = true },
@@ -1718,6 +1731,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicTheEyeOfEternity"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicTheEyeOfEternityMalygos", 1 },
 			},
 			["Info"] = { BabbleZone["The Eye of Eternity"] .. "+", "AtlasLootMythicWotLK", mapname = "TheEyeOfEternity", raid = true },
@@ -1725,6 +1739,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicTrialOfTheCrusader"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicTrialOftheCrusaderNorthrendBeasts", 1 },
 				{ "MythicTrialOftheCrusaderLordJaraxxus", 2 },
 				{ "MythicTrialOftheCrusaderFactionChampions", 3 },
@@ -1743,6 +1758,7 @@ AtlasLoot_LootTableRegister = {
 		["MythicUlduarE"] = "MythicUlduar",
 		["MythicUlduar"] = {
 			["MythicUlduarA"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicUlduarFlameLeviathan", 1 },
 				{ "MythicUlduarIgnisTheFurnaceMaster", 2 },
 				{ "MythicUlduarRazorscale", 3 },
@@ -1773,6 +1789,7 @@ AtlasLoot_LootTableRegister = {
 
 		["MythicVaultOfArchavon"] = {
 			["Bosses"] = {
+				{ "MythicRaidsPlaceholderWotLK", 1 },
 				{ "MythicARCHAVON", 1 },
 				{ "MythicEMALON", 2 },
 				{ "MythicKORALON", 3 },
