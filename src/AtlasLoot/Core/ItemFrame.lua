@@ -81,7 +81,7 @@ function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, direction)
 				if v2[2] then
 					local itemId = v2[2]
 					AtlasLoot:AddItemToCache(itemId)
-					if itemId ~= nil and itemId ~= 0 then
+					if itemId ~= nil and itemId ~= 0 and type(itemId) == 'number' then
 						if SynastriaCoreLib.IsItemValid(itemId) then
 							attunable = attunable + 1
 							if SynastriaCoreLib.IsAttuned(itemId) then
@@ -164,7 +164,7 @@ function AtlasLoot:SetItemTable(tab)
 			itemButtonNum = v[1]
 			if self.ItemFrame.ItemButtons[itemButtonNum] then
 				local itemId = v[2]
-				if itemId ~= nil and itemId ~= 0 then
+				if itemId ~= nil and itemId ~= 0 and type(itemId) == 'number' then
 					if SynastriaCoreLib.IsItemValid(itemId) then
 						attunable = attunable + 1
 						if SynastriaCoreLib.GetAttuneProgress(itemId) >= 100 then
