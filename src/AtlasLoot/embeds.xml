@@ -12,7 +12,7 @@
 
 <Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
 
-<Include file="Libs\SynastriaCoreLib-1.0\SynastriaCoreLib-1.0.xml"/>
+
 
 <!--@end-no-lib-strip@-->
 

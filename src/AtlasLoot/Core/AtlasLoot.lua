@@ -8,8 +8,6 @@ Can be integrated with Atlas (http://www.atlasmod.com)
 local addonname = ...
 local AtlasLoot = _G.AtlasLoot
 
-SynastriaCoreLib = LibStub('SynastriaCoreLib-1.0')
-
 --Instance required libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
