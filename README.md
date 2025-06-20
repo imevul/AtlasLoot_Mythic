@@ -2,10 +2,6 @@
 
 Adds mythic items to AtlasLoot
 
-## Dependencies
-
-- [SynastriaCoreLib](https://github.com/imevul/SynastriaCoreLib/releases) (Embedded)
-
 ## Installation
 
 1. Download the [latest release](https://github.com/imevul/AtlasLoot_Mythic/releases)
