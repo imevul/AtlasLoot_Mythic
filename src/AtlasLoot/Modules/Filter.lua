@@ -9,7 +9,6 @@ local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-local SynastriaCoreLib = LibStub('SynastriaCoreLib-1.0')
 
 local MODULENAME = "Filter"
 local Filter = AtlasLoot:NewModule(MODULENAME)
@@ -515,7 +514,7 @@ function Filter:FilterBySlot(lootTable)
 		
 		local itemId = v[2]
 		if itemId ~= nil and itemId ~= 0 then
-			if not SynastriaCoreLib.IsAttunable(itemId) or SynastriaCoreLib.IsAttuned(itemId) then
+			if not (CanAttuneItemHelper and CanAttuneItemHelper(itemId) > 0) or (HasAttunedAnyVariantOfItem and HasAttunedAnyVariantOfItem(itemId)) then
 				xgo = false
 			end
 		end
