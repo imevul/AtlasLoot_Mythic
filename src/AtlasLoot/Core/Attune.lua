@@ -7,7 +7,7 @@ end
 function AtlasAttune:ToggleAttuneIcon(slot, itemId)
 	-- on /reload the attune functions will error out for the first few calls
 	-- to work around that we catch the error in ToggleAttuneIcon and validate if that's the case
-	-- if not, we call it again without catching the error 
+	-- if not, we call it again without catching the error
 	local ok, res = pcall(ToggleAttuneIcon, slot, itemId)
 	if not ok then
 		if res == nil or not res:endswith("attempt to call global 'CanAttuneItemHelper' (a nil value)") then
@@ -23,7 +23,7 @@ function AddAttuneIcon(slot)
 		slot.AttuneTextureBorder:SetVertexColor(0, 0, 0)
 		slot.AttuneTextureBorder:Hide()
 	end
-	
+
 	if not slot.AttuneTexture then
 		slot.AttuneTexture = slot:CreateTexture(nil, "OVERLAY")
 		slot.AttuneTexture:SetTexture(AtlasLoot.imagePath.."AttuneIconWhite")
@@ -61,6 +61,7 @@ function ToggleAttuneIcon(slot, itemId)
 		slot.AttuneTexture:Show()
 	elseif AtlasAttune:CheckItemValid(itemId) == 1 then
 		local progress = GetItemAttuneProgress(itemId)
+    local forgeStatus = GetItemAttuneForge(itemId)
 		if progress < 100 then
 			local height = math.max(maxHeight * (progress/100), minHeight)
 			slot.AttuneTextureBorder:SetHeight(height + borderWidth*2)
@@ -69,7 +70,17 @@ function ToggleAttuneIcon(slot, itemId)
 		else
 			slot.AttuneTextureBorder:SetHeight(maxHeight + borderWidth*2)
 			slot.AttuneTexture:SetHeight(maxHeight)
-            slot.AttuneTexture:SetVertexColor(0, 0.64, 0.05)
+      if forgeStatus == 0 then
+        slot.AttuneTexture:SetVertexColor(0.65, 1, 0.5)
+      elseif forgeStatus == 1 then
+        slot.AttuneTexture:SetVertexColor(0.5, 0.5, 1)
+      elseif forgeStatus == 2 then
+        slot.AttuneTexture:SetVertexColor(1, 0.65, 0.5)
+      elseif forgeStatus == 3 then
+        slot.AttuneTexture:SetVertexColor(1, 1, 0.65)
+      else
+        slot.AttuneTexture:SetVertexColor(0, 0.64, 0.05)
+      end
 		end
 		slot.AttuneTextureBorder:Show()
 		slot.AttuneTexture:Show()

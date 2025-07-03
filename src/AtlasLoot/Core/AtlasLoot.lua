@@ -536,7 +536,7 @@ end
 -- @usage local bossName, instanceName = AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber)
 -- @return localized boss name or table name
 -- @return localized instance name
-function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber, attunable, attuned, attunableOverall, attunedOverall)
+function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPageNumber)
 	if not dataID or type(dataID) ~= "string" then
 		--error("AtlasLoot:GetTableInfo: Enter a available dataID <string>", 2)
 		return
@@ -574,10 +574,6 @@ function AtlasLoot:GetTableInfo(dataID, addInstanceName, addInstanceType, addPag
 	local instanceTypeOld = instanceType
 	instanceType = self:GetLocInstanceType(instanceType)
 
-	-- add attune status to the boss name
-	if attunable ~= nil and attuned ~= nil then
-		bossName = bossName .. " Attuned: [" .. attuned .. "/" .. attunable .. "] - all [" .. attunedOverall .. "/" .. attunableOverall.. "]"
-	end
 	if addInstanceName and not addInstanceType and instanceName and instanceType ~= "" then
 		bossName = bossName .. " (" .. instanceName .. ")"
 	elseif addInstanceType and not addInstanceName and instanceType and instanceType ~= "" then
@@ -992,8 +988,8 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	dataID, instancePage = self:FormatDataID(dataID)
 
 	-- get Attune status of current boss displayed + all items of instance
-	local attunable, attuned = self:SetItemTable(self:GetLootPageFromDataID(saveDataID))
-	local attunableOverall, attunedOverall = AtlasLoot:GetAttunesFromDataID(dataID)
+	local attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged = self:SetItemTable(self:GetLootPageFromDataID(saveDataID))
+	local attunableOverall, attunedOverall, titanForgeableOverall, titanForgedOverall, warForgeableOverall, warForgedOverall, lightForgeableOverall, lightForgedOverall = AtlasLoot:GetAttunesFromDataID(dataID)
 
 	nextPage, prevPage = self:GetNextPrevPage(dataID, instancePage)
 	lootTableType = self:GetLootTableType(saveDataID)
@@ -1013,8 +1009,42 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	self.ItemFrame.lootTableType = lootTableType
 
 	-- boss name include attune status
-	bossName = self:GetTableInfo(saveDataID, false, true, true, attunable, attuned, attunableOverall, attunedOverall)
+	local bossName = self:GetTableInfo(saveDataID, false, true, true, attunable, attuned, attunableOverall, attunedOverall, forgeable, forged, forgeableOverall, forgedOverall)
 	self.ItemFrame.BossName:SetText(bossName)
+
+  local attuneText = ""
+ 	if attunable ~= nil and attuned ~= nil then
+ 		attuneText = attuned .. "/" .. attunable
+ 	end
+
+  local titanForgeText = "N/A"
+  if titanForged ~= nil then
+ 		titanForgeText = titanForged
+ 	end
+
+  local warForgeText = "N/A"
+  if warForged ~= nil then
+ 		warForgeText = warForged
+ 	end
+
+  local lightForgeText = "N/A"
+  if lightForged ~= nil then
+ 		lightForgeText = lightForged
+ 	end
+
+	self.ItemFrame.AttuneFrame:SetText(attuneText)
+	self.ItemFrame.AttuneFrame:SetVertexColor(0.65, 1, 0.5)
+
+	self.ItemFrame.TitanForgedFrame:SetText(titanForgeText)
+	self.ItemFrame.TitanForgedFrame:SetVertexColor(0.5, 0.5, 1)
+
+	self.ItemFrame.WarForgedFrame:SetText(warForgeText)
+	self.ItemFrame.WarForgedFrame:SetVertexColor(1, 0.65, 0.5)
+
+	self.ItemFrame.LightForgedFrame:SetText(lightForgeText)
+	self.ItemFrame.LightForgedFrame:SetVertexColor(1, 1, 0.65)
+
+  AtlasLoot:DefaultFrame_SetAttuneInfo(attunableOverall, attunedOverall, titanForgeableOverall, titanForgedOverall, warForgeableOverall, warForgedOverall, lightForgeableOverall, lightForgedOverall)
 
 	if nextPage then
 		self.ItemFrame.Next.lootpage = nextPage

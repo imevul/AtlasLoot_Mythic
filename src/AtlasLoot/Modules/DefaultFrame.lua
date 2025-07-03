@@ -65,19 +65,19 @@ do
 
 				},
 			}
-		
+
 		end
 		return options
 	end
-	
+
 end
-	
+
 
 function DefaultFrame:OnInitialize()
 	if not AtlasLoot.db then AtlasLoot:OnLoaderLoad() end
 	self.db = AtlasLoot.db:RegisterNamespace(MODULENAME, dbDefaults)
 	db = self.db.profile
-	
+
 	self:CreateDefaultFrame()
 	self:CreateInstanceTab()
 	self.Frame:SetPoint(unpack(db.NEWpoint))
@@ -113,13 +113,13 @@ do
 			end
 		end
 	end
-	
+
 	local function onDragStop(self)
 		self:StopMovingOrSizing()
 		local a,b,c,d,e = self:GetPoint()
 		db.NEWpoint = { a, nil, c, d, e }
 	end
-	
+
 	local function setFrameLvl(self)
 		self:SetFrameLevel( self:GetParent():GetFrameLevel() + 1 )
 		--self:SetToplevel(true)
@@ -160,9 +160,9 @@ do
 	end
 
 	local function onVerticalScroll()
-		FauxScrollFrame_OnVerticalScroll(self, offset, 15, scrollBarUpdate); 
+		FauxScrollFrame_OnVerticalScroll(self, offset, 15, scrollBarUpdate);
 	end
-	
+
 	local function onShow()
 		AtlasLoot.AtlasLootPanel:SetParent(_G[frameName])
 		AtlasLoot.AtlasLootPanel:SetPoint("TOP", frameName, "BOTTOM", 0, 9)
@@ -170,35 +170,35 @@ do
 		AtlasLoot.AtlasInfoFrame:SetPoint("TOPLEFT", frameName, "TOPLEFT", 535, -37)
 		DefaultFrame:AutoSelect()
 		DefaultFrame:SetInstanceTable()
-		
+
 		if AtlasLoot.db.profile.HidePanel == true then
 			AtlasLoot.AtlasLootPanel:Hide();
 		else
 			AtlasLoot.AtlasLootPanel:Show();
-		end 
+		end
 		AtlasLoot.AtlasInfoFrame:Show()
 		AtlasLootItemsFrame:Show()
 	end
-	
+
 	local function onEnter()
 		AtlasLoot:DefaultFrame_RefreshAlpha()
 	end
-	
+
 	local function onLeave()
 		AtlasLoot:DefaultFrame_RefreshAlpha(true)
 	end
-	
+
 	local function onCompareFrameClick()
 		if db.instance then
 			if AtlasLoot.CompareFrame:IsShown() then AtlasLoot.CompareFrame:Hide() end
-			AtlasLoot:CompareFrame_LoadInstance( db.instance ) 
-		end 
+			AtlasLoot:CompareFrame_LoadInstance( db.instance )
+		end
 	end
 
 	function DefaultFrame:CreateDefaultFrame()
 		if self.Frame then return end
 		self.Frame = CreateFrame("Frame", frameName)
-		
+
 		local Frame = self.Frame
 		Frame:ClearAllPoints()
 		Frame:SetParent(UIParent)
@@ -217,123 +217,152 @@ do
 		--Frame:SetScript("OnLeave", onLeave)
 		Frame:SetToplevel(true)
 		Frame:SetClampedToScreen(true)
-		
+
 		Frame.CloseButton = CreateFrame("Button", frameName.."_CloseButton", Frame, "UIPanelCloseButton")
 		Frame.CloseButton:SetPoint("TOPRIGHT", Frame, "TOPRIGHT", 5, -7)
 		Frame.CloseButton:SetScript("OnShow", setFrameLvl)
-		
+
 		Frame.LockButton = CreateFrame("Button", frameName.."_LockButton",Frame,"OptionsButtonTemplate")
 		Frame.LockButton:SetWidth(32)
 		Frame.LockButton:SetHeight(32)
 		Frame.LockButton:SetPoint("RIGHT", Frame.CloseButton, "LEFT", 10, 0)
 		Frame.LockButton:SetScript("OnClick", toggleLock)
-		
+
 		Frame.LockButton.NormalTexture = Frame:CreateTexture(frameName.."_NormalTexture", "ARTWORK")
-		Frame.LockButton.NormalTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")	
-		
+		Frame.LockButton.NormalTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")
+
 		Frame.LockButton.PushedTexture = Frame:CreateTexture(frameName.."_PushedTexture", "ARTWORK")
 		Frame.LockButton.PushedTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")
 
 		Frame.LockButton.HighlightTexture = Frame:CreateTexture(frameName.."_HighlightTexture", "ARTWORK")
 		Frame.LockButton.HighlightTexture:SetPoint("TOPLEFT", Frame.LockButton, "TOPLEFT")
 		Frame.LockButton.HighlightTexture:SetTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Highlight")
-		
+
 		Frame.LockButton:SetNormalTexture(Frame.LockButton.NormalTexture)
 		Frame.LockButton:SetPushedTexture(Frame.LockButton.PushedTexture)
 		Frame.LockButton:SetHighlightTexture(Frame.LockButton.HighlightTexture, "ADD")
 		updateLock()
-		
-		
+
+
 		Frame.Layers = {}
-		
+
 		Frame.Layers[1] = Frame:CreateTexture(nil, "ARTWORK")
-		Frame.Layers[1]:SetPoint("TOPLEFT", Frame, "TOPLEFT")	
+		Frame.Layers[1]:SetPoint("TOPLEFT", Frame, "TOPLEFT")
 		Frame.Layers[1]:SetWidth(512)
 		Frame.Layers[1]:SetHeight(128)
 		Frame.Layers[1]:SetTexture(imagePath.."AtlasFrame-Top")
-		
+
 		Frame.Layers[2] = Frame:CreateTexture(nil, "ARTWORK")
-		Frame.Layers[2]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 0, -128)	
+		Frame.Layers[2]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 0, -128)
 		Frame.Layers[2]:SetWidth(32)
 		Frame.Layers[2]:SetHeight(256)
 		Frame.Layers[2]:SetTexture(imagePath.."AtlasFrame-Left")
-		
+
 		Frame.Layers[3] = Frame:CreateTexture(nil, "ARTWORK")
-		Frame.Layers[3]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 0, -384)	
+		Frame.Layers[3]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 0, -384)
 		Frame.Layers[3]:SetWidth(512)
 		Frame.Layers[3]:SetHeight(256)
 		Frame.Layers[3]:SetTexture(imagePath.."AtlasFrame-Bottom")
-		
+
 		Frame.Layers[4] = Frame:CreateTexture(nil, "ARTWORK")
-		Frame.Layers[4]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 512, -512)	
+		Frame.Layers[4]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 512, -512)
 		Frame.Layers[4]:SetWidth(512)
 		Frame.Layers[4]:SetHeight(128)
 		Frame.Layers[4]:SetTexture(imagePath.."AtlasFrame-Bottom2")
-		
+
 		Frame.Layers[5] = Frame:CreateTexture(nil, "ARTWORK")
-		Frame.Layers[5]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 512, 0)	
+		Frame.Layers[5]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 512, 0)
 		Frame.Layers[5]:SetWidth(512)
 		Frame.Layers[5]:SetHeight(512)
 		Frame.Layers[5]:SetTexture(imagePath.."AtlasFrame-Right")
-		
+
 		Frame.Layers[6] = Frame:CreateTexture(nil, "ARTWORK")
-		Frame.Layers[6]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 18, -84)	
+		Frame.Layers[6]:SetPoint("TOPLEFT", Frame, "TOPLEFT", 18, -84)
 		Frame.Layers[6]:SetWidth(512)
 		Frame.Layers[6]:SetHeight(512)
 		Frame.Layers[6]:SetTexture(0.0, 0.0, 0.0, 1.0)
-		
+
 		Frame.Title = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
 		Frame.Title:SetPoint("TOP", Frame, "TOP", 20, -17)
 		Frame.Title:SetText(AL["AtlasLoot"])
-		
+
 		Frame.VersionNumber = Frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
 		Frame.VersionNumber:SetPoint("TOPRIGHT", Frame, "TOPRIGHT", -52, -18)
 		Frame.VersionNumber:SetTextColor(0.4, 0.4, 0.4)
 		Frame.VersionNumber:SetText(ATLASLOOT_VERSION_NUM.." ( FrameStyle by Atlas )")
-		
+
 		Frame.InstanceName = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
 		Frame.InstanceName:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97)
 		Frame.InstanceName:SetJustifyH("LEFT")
 		Frame.InstanceName:SetWidth(351)
+		Frame.InstanceName:SetHeight(30)
 		Frame.InstanceName:SetText("")
-		
+
+		Frame.OverallAttuneFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
+		Frame.OverallAttuneFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97  - 15 * 1)
+		Frame.OverallAttuneFrame:SetJustifyH("LEFT")
+		Frame.OverallAttuneFrame:SetWidth(351)
+    Frame.OverallAttuneFrame:SetHeight(30)
+		Frame.OverallAttuneFrame:SetText("")
+
+		Frame.OverallTitanForgedFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
+		Frame.OverallTitanForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97 - 15 * 2)
+		Frame.OverallTitanForgedFrame:SetJustifyH("LEFT")
+		Frame.OverallTitanForgedFrame:SetWidth(351)
+    Frame.OverallTitanForgedFrame:SetHeight(30)
+		Frame.OverallTitanForgedFrame:SetText("")
+
+		Frame.OverallWarForgedFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
+		Frame.OverallWarForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97 - 15 * 3)
+		Frame.OverallWarForgedFrame:SetJustifyH("LEFT")
+		Frame.OverallWarForgedFrame:SetWidth(351)
+    Frame.OverallWarForgedFrame:SetHeight(30)
+		Frame.OverallWarForgedFrame:SetText("")
+
+		Frame.OverallLightForgedFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
+		Frame.OverallLightForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97 - 15 * 4)
+		Frame.OverallLightForgedFrame:SetJustifyH("LEFT")
+		Frame.OverallLightForgedFrame:SetWidth(351)
+    Frame.OverallLightForgedFrame:SetHeight(30)
+		Frame.OverallLightForgedFrame:SetText("")
+
 		Frame.ScrollFrame = CreateFrame("ScrollFrame", frameName.."_ScrollFrame", Frame, "FauxScrollFrameTemplate")
-		Frame.ScrollFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 530, -186)	
+		Frame.ScrollFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 530, -186)
 		Frame.ScrollFrame:SetWidth(351)
 		Frame.ScrollFrame:SetHeight(367)
 		Frame.ScrollFrame:SetScript("OnVerticalScroll", onVerticalScroll)
 		Frame.ScrollFrame:SetScript("OnShow", scrollBarUpdate)
-		
+
 		Frame.ScrollFrame.Buttons = {}
-		
+
 		Frame.CompareFrame = CreateFrame("Button", frameName.."_CompareFrame", Frame, "UIPanelButtonTemplate2")
 		Frame.CompareFrame:SetWidth(200)
 		Frame.CompareFrame:SetHeight(20)
 		Frame.CompareFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 545, -560)
 		Frame.CompareFrame:SetText(AL["Show in Compare Frame"])
 		Frame.CompareFrame:SetScript("OnClick", onCompareFrameClick)
-		
+
 		Frame.EncounterJournal = AtlasLoot:EncounterJournal_CreateButton(frameName.."_EncounterJournal", Frame)
 		Frame.EncounterJournal:SetPoint("LEFT", Frame.CompareFrame, "RIGHT", 0, 0)
 		Frame:Hide()
-		
+
 		Frame.ModuleSelect = CreateFrame("Frame", frameName.."_ModuleSelect", Frame, "UIDropDownMenuTemplate")
 		Frame.ModuleSelect:SetPoint("TOPLEFT", Frame, "TOPLEFT", 60, -50)
 		Frame.ModuleSelect.info = {}
-		
+
 		Frame.ModuleSelect.Text = Frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
 		Frame.ModuleSelect.Text:SetPoint("BOTTOMLEFT", Frame.ModuleSelect, "TOPLEFT", 21, 0)
 		Frame.ModuleSelect.Text:SetText(AL["Select Module"])
-		
+
 
 		Frame.InstanceSelect = CreateFrame("Frame", frameName.."_InstanceSelect", Frame, "UIDropDownMenuTemplate")
 		Frame.InstanceSelect:SetPoint("LEFT", Frame.ModuleSelect, "RIGHT", 0, 0)
 		Frame.InstanceSelect.info = {}
-		
+
 		Frame.InstanceSelect.Text = Frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
 		Frame.InstanceSelect.Text:SetPoint("BOTTOMLEFT", Frame.InstanceSelect, "TOPLEFT", 21, 0)
 		Frame.InstanceSelect.Text:SetText(AL["Select Instance"])
-		
+
 		Frame:Hide()
 	end
 
@@ -350,7 +379,7 @@ function DefaultFrame:DropDownRefresh()
 	UIDropDownMenu_Initialize(_G[frameName.."_ModuleSelect"], DefaultFrame.ModuleSelect_Initialize)
 	UIDropDownMenu_SetSelectedValue(_G[frameName.."_ModuleSelect"], db.module)
 	UIDropDownMenu_SetWidth(_G[frameName.."_ModuleSelect"], 190)
-	
+
 	UIDropDownMenu_Initialize(_G[frameName.."_InstanceSelect"], DefaultFrame.InstanceSelect_Initialize)
 	UIDropDownMenu_SetSelectedValue(_G[frameName.."_InstanceSelect"], db.instance)
 	UIDropDownMenu_SetWidth(_G[frameName.."_InstanceSelect"], 190)
@@ -358,8 +387,8 @@ end
 
 function DefaultFrame:ModuleSelect_Initialize()
 	local info = self.info
-	wipe(info)	
-	
+	wipe(info)
+
 	for num,module in ipairs(AtlasLoot.Modules) do
 		if module[1] ~= "AtlasLootCrafting" and module[1] ~= "AtlasLootWorldEvents" and type(AtlasLoot:CheckModule(module[1])) ~= "string" then
 			info.text = module[5]
@@ -403,7 +432,7 @@ function DefaultFrame:InstanceSelect_Initialize(level)
 					UIDropDownMenu_AddButton(info, level)
 				end
 			end
-			
+
 			info.text = ""
 			info.value = nil
 			info.func = nil
@@ -412,15 +441,15 @@ function DefaultFrame:InstanceSelect_Initialize(level)
 			info.isTitle = true
 			info.justifyH = "CENTER"
 			UIDropDownMenu_AddButton(info, level)
-			
+
 			info.text = "--- "..tostring(RAIDS or "RAIDS").." ---"
 			UIDropDownMenu_AddButton(info, level)
-			
+
 			info.notCheckable = false
 			info.isTitle = false
 			info.disabled = false
 			info.justifyH = nil
-			
+
 			for k,v in ipairs(instances[db.module]) do
 				if v[2] then
 					info.text = AtlasLoot_LootTableRegister["Instances"][v[1]]["Info"][1]
@@ -473,10 +502,10 @@ function DefaultFrame:SetInstanceTable()
 	end
 	if curInstance["Info"] and curInstance["Info"].EncounterJournalID then
 		self.Frame.EncounterJournal.info = { curInstance["Info"].EncounterJournalID, nil }
-		AtlasLoot:EncounterJournal_ButtonsRefresh()	
+		AtlasLoot:EncounterJournal_ButtonsRefresh()
 	else
 		self.Frame.EncounterJournal.info = nil
-		AtlasLoot:EncounterJournal_ButtonsRefresh()	
+		AtlasLoot:EncounterJournal_ButtonsRefresh()
 	end
 	curInstance = curInstance["Bosses"]
 	if not curInstance then return end
@@ -484,7 +513,7 @@ function DefaultFrame:SetInstanceTable()
 
 	if DEFAULTFRAME_STYLE_NUM_DUMMY == 1 then
 		DefaultFrame.Frame.InstanceName:SetText(iniName)
-		
+
 		for i = 1,scrollCurLines do
 			if not DefaultFrame.Frame.ScrollFrame.Buttons[i] then
 				if i==1 then
@@ -495,7 +524,7 @@ function DefaultFrame:SetInstanceTable()
 				DefaultFrame.Frame.ScrollFrame.Buttons[i]:SetScript("OnClick", DefaultFrame.Boss_OnClick)
 			end
 		end
-	
+
 		for i in ipairs(DefaultFrame.Frame.ScrollFrame.Buttons) do
 			if DefaultFrame.Frame.ScrollFrame.Buttons[i] then
 				DefaultFrame.Frame.ScrollFrame.Buttons[i]:Hide()
@@ -522,9 +551,9 @@ function DefaultFrame:SetInstanceTable()
 			end
 		end
 	elseif DEFAULTFRAME_STYLE_NUM_DUMMY == 2 then
-	
+
 	end
-	
+
 end
 
 function DefaultFrame:Boss_OnClick()
@@ -556,7 +585,7 @@ do
 	local function SortTable(t, f)
 		local a = {}
 		local a2 = {}
-		for k,v in pairs(t) do 
+		for k,v in pairs(t) do
 			if v["Info"] and v["Info"][1] then
 				a[#a + 1] = v["Info"][1]
 				a2[v["Info"][1]] = k
@@ -621,7 +650,7 @@ do
 		if not mapRegister then createMapRegister() end
 		local mapname = GetMapInfo()
 		if not mapname or not mapRegister[mapname] then return end
-		
+
 		if type(mapRegister[mapname][2]) == "table" then
 			if UnitLevel("player") == 85 then
 				db.module = mapRegister[mapname][2][2]
@@ -632,13 +661,13 @@ do
 			db.module = mapRegister[mapname][2]
 		end
 		db.instance = mapRegister[mapname][1]
-		
+
 		DefaultFrame:DropDownRefresh()
-		--[[ sub Zone support 
+		--[[ sub Zone support
 		local level = GetCurrentMapDungeonLevel()
 		if level == 0 then level = 1 end
 
-		for i = level, 1, -1 do 
+		for i = level, 1, -1 do
 			if mapRegister[mapname][i] then
 				db.module = mapRegister[mapname][i][2]
 				db.instance = mapRegister[mapname][i][1]
@@ -680,4 +709,40 @@ function AtlasLoot:DefaultFrame_SetInstance(module, instance, iniBoss)
 	if iniBoss then
 		DefaultFrame:SetBoss(iniBoss)
 	end
+end
+
+-- Set attune info
+function AtlasLoot:DefaultFrame_SetAttuneInfo(attunableOverall, attunedOverall, titanForgeableOverall, titanForgedOverall, warForgeableOverall, warForgedOverall, lightForgeableOverall, lightForgedOverall)
+  local attuneText = ""
+ 	if attunableOverall ~= nil and attunedOverall ~= nil then
+ 		attuneText = "Attuned: " .. attunedOverall .. "/" .. attunableOverall
+ 	end
+
+  local titanForgeText = "N/A"
+  if titanForgedOverall ~= nil then
+ 		titanForgeText = "Titanforged: " .. titanForgedOverall
+ 	end
+
+  local warForgeText = "N/A"
+  if warForgedOverall ~= nil then
+ 		warForgeText = "Warforged: " .. warForgedOverall
+ 	end
+
+  local lightForgeText = "N/A"
+  if lightForgedOverall ~= nil then
+ 		lightForgeText = "Lightforged: " .. lightForgedOverall
+ 	end
+
+  DefaultFrame.Frame.OverallAttuneFrame:SetText(attuneText)
+  DefaultFrame.Frame.OverallAttuneFrame:SetVertexColor(0.65, 1, 0.5)
+
+  DefaultFrame.Frame.OverallTitanForgedFrame:SetText(titanForgeText)
+  DefaultFrame.Frame.OverallTitanForgedFrame:SetVertexColor(0.5, 0.5, 1)
+
+  DefaultFrame.Frame.OverallWarForgedFrame:SetText(warForgeText)
+  DefaultFrame.Frame.OverallWarForgedFrame:SetVertexColor(1, 0.65, 0.5)
+
+  DefaultFrame.Frame.OverallLightForgedFrame:SetText(lightForgeText)
+  DefaultFrame.Frame.OverallLightForgedFrame:SetVertexColor(1, 1, 0.65)
+
 end

@@ -29,14 +29,14 @@ function AtlasLoot:CreateItemFrame()
 	Frame:SetWidth(510)
 	Frame:SetHeight(510)
 	Frame:SetScript("OnHide", self.ItemsFrameOnCloseButton)
-	Frame:SetScript("OnShow", onShow)	
-		
+	Frame:SetScript("OnShow", onShow)
+
 	Frame.CloseButton = CreateFrame("Button","AtlasLootItemsFrame_CloseButton",Frame,"UIPanelCloseButton")
 	Frame.CloseButton:SetPoint("TOPRIGHT", Frame, "TOPRIGHT", -5, -5)
 	Frame.CloseButton:SetScript("OnClick", AtlasLoot.ItemsFrameOnCloseButton)
 	--Frame.CloseButton:SetScript("OnShow",function(self) self:SetFrameLevel( self:GetParent():GetFrameLevel() + 1 ) end)
 	Frame.CloseButton:Hide()
-	
+
 	---------------
 	-- loot frame
 	---------------
@@ -45,15 +45,43 @@ function AtlasLoot:CreateItemFrame()
 	Frame.BackGround:SetTexture(0,0,0,0.7)
 	Frame.BackGround:SetHeight(510)
 	Frame.BackGround:SetWidth(510)
-	
+
 	Frame.BossName = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
-	Frame.BossName:SetPoint("TOP", Frame, "TOP")
+	Frame.BossName:SetPoint("TOP", Frame, "TOP", -25, 0)
 	Frame.BossName:SetJustifyH("CENTER")
 	Frame.BossName:SetText("")
 	Frame.BossName:SetWidth(512)
 	Frame.BossName:SetHeight(30)
-	
-	Frame.ItemButtons = {}	
+
+	Frame.AttuneFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
+	Frame.AttuneFrame:SetPoint("TOP", Frame, "TOP", -25 - 90, 0)
+	Frame.AttuneFrame:SetJustifyH("RIGHT")
+	Frame.AttuneFrame:SetText("")
+	Frame.AttuneFrame:SetWidth(512)
+	Frame.AttuneFrame:SetHeight(30)
+
+	Frame.TitanForgedFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
+	Frame.TitanForgedFrame:SetPoint("TOP", Frame, "TOP", -25 - 60, 0)
+	Frame.TitanForgedFrame:SetJustifyH("RIGHT")
+	Frame.TitanForgedFrame:SetText("")
+	Frame.TitanForgedFrame:SetWidth(512)
+	Frame.TitanForgedFrame:SetHeight(30)
+
+	Frame.WarForgedFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
+	Frame.WarForgedFrame:SetPoint("TOP", Frame, "TOP", -25 - 30, 0)
+	Frame.WarForgedFrame:SetJustifyH("RIGHT")
+	Frame.WarForgedFrame:SetText("")
+	Frame.WarForgedFrame:SetWidth(512)
+	Frame.WarForgedFrame:SetHeight(30)
+
+	Frame.LightForgedFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
+	Frame.LightForgedFrame:SetPoint("TOP", Frame, "TOP", -25 - 0, 0)
+	Frame.LightForgedFrame:SetJustifyH("RIGHT")
+	Frame.LightForgedFrame:SetText("")
+	Frame.LightForgedFrame:SetWidth(512)
+	Frame.LightForgedFrame:SetHeight(30)
+
+	Frame.ItemButtons = {}
 	for i=1,30 do
 		if i == 1 then
 			Frame.ItemButtons[i] = self:CreateItemButton(Frame, {"TOPLEFT", Frame, "TOPLEFT", 25, -35}, "AtlasLootItem_"..i)
@@ -71,7 +99,7 @@ function AtlasLoot:CreateItemFrame()
 	Frame.Switch:SetPoint("BOTTOM", Frame, "BOTTOM", -120, 4)
 	Frame.Switch:SetScript("OnClick", AtlasLoot.Toggle10Man25Man)
 	Frame.Switch:Hide()
-	
+
 	Frame.Heroic = CreateFrame("CheckButton", "AtlasLootItemsFrame_Heroic", Frame, "OptionsCheckButtonTemplate")
 	Frame.Heroic:SetPoint("BOTTOM", Frame, "BOTTOM", -185, 24)
 	Frame.Heroic:SetWidth(25)
@@ -89,7 +117,7 @@ function AtlasLoot:CreateItemFrame()
 	Frame.Back:SetPoint("BOTTOM", Frame, "BOTTOM", 0, 4)
 	Frame.Back:SetScript("OnClick", AtlasLoot.NavButton_OnClick)
 	Frame.Back:Hide()
-	
+
 	Frame.Next = CreateFrame("Button","AtlasLootItemsFrame_NEXT",Frame)
 	Frame.Next:SetWidth(30)
 	Frame.Next:SetHeight(30)
@@ -101,7 +129,7 @@ function AtlasLoot:CreateItemFrame()
 	Frame.Next:SetPoint("BOTTOMRIGHT", Frame, "BOTTOMRIGHT", -5, 5)
 	Frame.Next:SetScript("OnClick", AtlasLoot.NavButton_OnClick)
 	Frame.Next:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
-	
+
 	Frame.NextBack = Frame.Next:CreateTexture(nil,"BACKGROUND")
 	Frame.NextBack:SetPoint("CENTER", Frame.Next, "CENTER", 0, 1)
 	Frame.NextBack:SetTexture("Interface\\Buttons\\UI-PageButton-Background")
@@ -120,14 +148,14 @@ function AtlasLoot:CreateItemFrame()
 	Frame.Prev:SetPoint("BOTTOMLEFT", Frame, "BOTTOMLEFT", 12, 8)
 	Frame.Prev:SetScript("OnClick", AtlasLoot.NavButton_OnClick)
 	Frame.Prev:SetScript("OnShow", function(self) self:SetFrameLevel( (self:GetParent()):GetFrameLevel() + 1 ) end)
-	
+
 	Frame.PrevBack = Frame.Prev:CreateTexture(nil,"BACKGROUND")
 	Frame.PrevBack:SetPoint("CENTER", Frame.Prev, "CENTER", 0, 1)
 	Frame.PrevBack:SetTexture("Interface\\Buttons\\UI-PageButton-Background")
 	Frame.PrevBack:SetHeight(30)
 	Frame.PrevBack:SetWidth(30)
 	Frame.Prev:Hide()
-	
+
 	Frame.ServerQuery = CreateFrame("Button","AtlasLootServerQueryButton",Frame,"UIPanelButtonTemplate2")
 	Frame.ServerQuery:SetWidth(160)
 	Frame.ServerQuery:SetHeight(23)
@@ -150,7 +178,7 @@ function AtlasLoot:CreateItemFrame()
 		GameTooltip:Hide()
 		AtlasLoot:QueryLootPage()
 	end)
-	
+
 	Frame.QuickLooks = CreateFrame("Button","AtlasLootQuickLooksButton",Frame)
 	Frame.QuickLooks:SetWidth(23)
 	Frame.QuickLooks:SetHeight(23)
@@ -164,19 +192,19 @@ function AtlasLoot:CreateItemFrame()
 	Frame.QuickLooks:SetScript("OnShow", function(self)
 		self:Enable()
 	end)
-	
+
 	Frame.QuickLooksDropDownMenu = CreateFrame("Frame", "AtlasLootQuickLooksButtonDropDownMenu")
 	Frame.QuickLooksDropDownMenu.displayMode = "MENU"
 	Frame.QuickLooksDropDownMenu.initialize = self.QuickLooks_DropDownInit
-	
+
 	Frame.QuickLooksName = Frame:CreateFontString("AtlasLoot_QuickLooks","OVERLAY","GameFontNormal")
 	Frame.QuickLooksName:SetPoint("BOTTOM", Frame, "BOTTOM", -57, 28)
 	Frame.QuickLooksName:SetText(AL["Add to QuickLooks:"])
 	Frame.QuickLooksName:SetJustifyH("RIGHT")
 	Frame.QuickLooksName:SetWidth(200)
 	Frame.QuickLooksName:SetHeight(25)
-	
+
 	Frame.SetItemsTable = AtlasLoot.ItemFrame_SetItemsTable
-	
+
 	Frame:Hide()
-end               
+end

@@ -26,6 +26,7 @@ function AtlasLoot:ClearLootPage()
 	self.ItemFrame.dataID = nil
 	self.ItemFrame.lootTableType = nil
 	self.ItemFrame.BossName:SetText("")
+	self.ItemFrame.AttuneFrame:SetText("")
 end
 
 --- Refresh the itemtable
@@ -57,10 +58,16 @@ end
 -- @param tab the item table
 -- @usage AtlasLoot:SetItemTable(tab)
 
-function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, direction)
+function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged, direction)
 	if not attunable then
 		attunable = 0
 		attuned = 0
+    titanForgeable = 0
+    titanForged = 0
+    warForgeable = 0
+    warForged = 0
+    lightForgeable = 0
+    lightForged = 0
 	end
 	if not dataID or type(dataID) ~= "string" then
 		return
@@ -83,9 +90,22 @@ function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, direction)
 					if itemId ~= nil and itemId ~= 0 and type(itemId) == 'number' then
 						if CanAttuneItemHelper and CanAttuneItemHelper(itemId) > 0 then
 							attunable = attunable + 1
+              titanForgeable = titanForgeable + 1
+              warForgeable = warForgeable + 1
+              lightForgeable = lightForgeable + 1
 							if HasAttunedAnyVariantOfItem and HasAttunedAnyVariantOfItem(itemId) then
 								attuned = attuned + 1
 							end
+              if GetItemAttuneForge then
+                 local forgeLevel = GetItemAttuneForge(itemId)
+                if forgeLevel == 1 then
+                  titanForged = titanForged + 1
+                elseif forgeLevel == 2 then
+                  warForged = warForged + 1
+                elseif forgeLevel == 3 then
+                  lightForged = lightForged + 1
+                end
+              end
 						end
 					end
 				end
@@ -94,12 +114,12 @@ function AtlasLoot:GetAttunesFromDataID(dataID, attunable, attuned, direction)
 	end
 	local nextPage, prevPage = self:GetNextPrevPage(dataIDNew, instancePage)
 	if nextPage and (not direction or direction == "fw") then
-		attunable, attuned = AtlasLoot:GetAttunesFromDataID(nextPage, attunable, attuned, "fw")
+		attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged = AtlasLoot:GetAttunesFromDataID(nextPage, attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged, "fw")
 	end
 	if prevPage and (not direction or direction == "bw") then
-		attunable, attuned = AtlasLoot:GetAttunesFromDataID(prevPage, attunable, attuned, "bw")
+		attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged = AtlasLoot:GetAttunesFromDataID(prevPage, attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged, "bw")
 	end
-	return attunable, attuned
+	return attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged
 end
 
 function AtlasLoot:SetItemTable(tab)
@@ -107,7 +127,7 @@ function AtlasLoot:SetItemTable(tab)
 	if not tab or type(tab) ~= "table" or not #tab then return end
 	local cPoint = false
 	local itemButtonNum, texture, num1, spellNumber
-	local attunable, attuned = 0, 0
+	local attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged = 0, 0, 0, 0, 0, 0, 0, 0
 
 	for k,v in ipairs(tab) do
 		if v and type(v) == "table" then
@@ -128,7 +148,7 @@ function AtlasLoot:SetItemTable(tab)
 				elseif v[2] == "" and v[3] and v[3] ~= "" then
 					v[2] = tonumber(v[3])
 				end
-					
+
 				-- check if we have a price
 				if v[6] and v[6] ~= "" and v[6] ~= "=ds=" then--and v[5] and v[5] ~= "" and v[5] ~= "=ds="  then
 					cPoint = true
@@ -166,8 +186,21 @@ function AtlasLoot:SetItemTable(tab)
 				if itemId ~= nil and itemId ~= 0 and type(itemId) == 'number' then
 					if CanAttuneItemHelper and CanAttuneItemHelper(itemId) > 0 then
 						attunable = attunable + 1
+            titanForgeable = titanForgeable + 1
+            warForgeable = warForgeable + 1
+            lightForgeable = lightForgeable + 1
 						if GetItemAttuneProgress and GetItemAttuneProgress(itemId, nil, nil) >= 100 then
 							attuned = attuned + 1
+              if GetItemAttuneForge then
+                local forgeLevel = GetItemAttuneForge(itemId)
+                if forgeLevel == 1 then
+                  titanForged = titanForged + 1
+                elseif forgeLevel == 2 then
+                  warForged = warForged + 1
+                elseif forgeLevel == 3 then
+                  lightForged = lightForged + 1
+                end
+              end
 						end
 					end
 				end
@@ -177,8 +210,8 @@ function AtlasLoot:SetItemTable(tab)
 
 	self.ItemFrame.Switch.changePoint = cPoint
 	self.ItemFrame:Show()
-	return attunable, attuned
-end 
+	return attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged
+end
 
 -----------------------------
 -- Button functions
@@ -208,7 +241,7 @@ function AtlasLoot:ItemsFrameOnCloseButton()
 end
 
 function AtlasLoot:RefreshBossSelect(boss)
-	local done 
+	local done
 	local dataID, page = AtlasLoot:FormatDataID(boss)
 	if AtlasLoot.DefaultFrame_SetInstance and AtlasLootDefaultFrame and AtlasLootDefaultFrame:IsShown() and page == 1 then
 		done = AtlasLoot:DefaultFrame_SetInstance(nil, nil, dataID)
@@ -216,7 +249,7 @@ function AtlasLoot:RefreshBossSelect(boss)
 	if AtlasLoot.Atlas_SetBoss and AtlasFrame and AtlasFrame:IsShown() and page == 1 then
 		done = AtlasLoot:Atlas_SetBoss(dataID)
 	end
-	
+
 	if not done then
 		AtlasLoot:ShowLootPage(boss)
 	end
@@ -233,7 +266,7 @@ end
 -- Switches between the heroic and normal versions of a loot page
 function AtlasLoot:HeroicModeToggle()
 	local dataID = AtlasLoot.ItemFrame.dataID
-	
+
 	if AtlasLoot.db.profile.LootTableType == "Normal" then
 		AtlasLoot:SetLootTableType("Heroic", dataID)
 	elseif AtlasLoot.db.profile.LootTableType == "Heroic" then
@@ -249,7 +282,7 @@ end
 -- Switches between the heroic and normal versions of a loot page
 function AtlasLoot:Toggle10Man25Man()
 	local dataID = AtlasLoot.ItemFrame.dataID
-	
+
 	if self.changePoint then
 		AtlasLoot.db.profile.ShowLootTablePrice = not AtlasLoot.db.profile.ShowLootTablePrice
 		AtlasLoot:ShowLootPage(dataID)
@@ -277,7 +310,7 @@ end
 -----------------------------
 -- Query All function
 -----------------------------
-do 
+do
 
 	local queryAllTimerFrame = CreateFrame("Frame")
 	local queryAllAnimationGroup = queryAllTimerFrame:CreateAnimationGroup()
@@ -288,12 +321,12 @@ do
 	queryAllAnimation:SetDuration(7)
 	queryAllAnimationGroup:SetLooping("NONE")
 	queryAllScanTooltip:SetOwner(UIParent, "ANCHOR_NONE");
-	
+
 	-- Querys the itemButton
-	-- buttonIndex 
+	-- buttonIndex
 	local function QueryItem(buttonIndex)
 		if not buttonIndex or buttonIndex > 30 then return end
-		local queryitem 
+		local queryitem
 		if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info then
 			queryitem = AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info[2]
 		end
@@ -313,7 +346,7 @@ do
 			AtlasLoot:StopQuery()
 			AtlasLoot:RefreshLootPage()
 		else
-			local queryitem 
+			local queryitem
 			if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info then
 				queryitem = AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].info[2]
 			end
@@ -342,10 +375,10 @@ do
 			queryAllAnimationGroup:Play()
 		end
 	end
-	
+
 	queryAllAnimationGroup:SetScript("OnFinished", QueryNextItem)
 	queryAllScanTooltip:SetScript('OnTooltipSetItem', OnTooltipSetItem)
-	
+
 	--- Starts to Query the lootpage
 	-- Querys all valid items on the current loot page.
 	-- @usage AtlasLoot_QueryLootPage()
@@ -353,12 +386,12 @@ do
 		queryAllButtonIndex = 0
 		QueryNextItem()
 	end
-	
+
 	--- Stops the Query of all items
 	-- @usage AtlasLoot:StopQuery()
 	function AtlasLoot:StopQuery()
 		if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex] then AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex].Frame.QueryIcon:Hide() end
 		queryAllAnimationGroup:Stop()
-	end	
+	end
 
 end

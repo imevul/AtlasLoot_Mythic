@@ -20,7 +20,7 @@ StaticPopupDialogs["ATLASLOOT_INCOMPATIBLE_ATLAS"] = {
 	text = "Please note that AtlasLoot v6.05.01 is only compatible with Atlas 1.21.0. AtlasLoot detected that you have an older Atlas version installed and thus Atlas integration was disabled.",
 	button1 = AL["OK"],
 	OnAccept = function()
-		
+
 	end,
 	timeout = 0,
 	whileDead = 1,
@@ -33,7 +33,7 @@ function AtlasLoot:SetupForAtlas()
 	--Anchor the loot table to the Atlas frame
 	AtlasLoot:SetItemInfoFrame("Atlas");
 	AtlasLootItemsFrame:Hide();
-	AtlasLoot_AnchorFrame = AtlasFrame;	
+	AtlasLoot_AnchorFrame = AtlasFrame;
 	AtlasLoot.AtlasLootPanel:SetParent(AtlasFrame)
 	AtlasLoot.AtlasLootPanel:SetPoint("TOP", "AtlasFrame", "BOTTOM", 0, 9)
 	AtlasLoot.AtlasInfoFrame:SetParent(AtlasFrame)
@@ -68,12 +68,12 @@ function AtlasLoot:AtlasInitialize()
 		if AtlasCheck == false then
 			AtlasLoot.db.profile.AtlasType = "Unknown"
 		end
-		
+
 		--Legacy code for those using the ultimately failed attempt at making Atlas load on demand
 		if AtlasButton_LoadAtlas then
 			AtlasButton_LoadAtlas()
 		end
-		
+
 		AtlasLoot:RegisterPFrame("Atlas", { "TOPLEFT", "AtlasFrame", "TOPLEFT", "18", "-84" })
 
 		--Hook the necessary Atlas functions
@@ -81,15 +81,15 @@ function AtlasLoot:AtlasInitialize()
 		Atlas_Refresh = AtlasLoot.AtlasRefreshHook
 		Hooked_Atlas_OnShow = Atlas_OnShow
 		Atlas_OnShow = AtlasLoot.Atlas_OnShow
-		
-		--Instead of hooking, replace the scrollbar driver function 
+
+		--Instead of hooking, replace the scrollbar driver function
 		Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update
 		AtlasScrollBar_Update = AtlasLoot.AtlasScrollBar_Update
-		
+
 	else
 		if ATLAS_VERSION and ATLASLOOT_MIN_ATLAS ~= AtlasLoot.db.profile.LastMinAtlasVersion then
 			AtlasLoot.db.profile.LastMinAtlasVersion = ATLASLOOT_MIN_ATLAS
-			StaticPopup_Show("ATLASLOOT_INCOMPATIBLE_ATLAS")			
+			StaticPopup_Show("ATLASLOOT_INCOMPATIBLE_ATLAS")
 		end
 		AtlasLoot.AtlasRefreshHook = nil
 		AtlasLoot.Atlas_OnShow = nil
@@ -106,7 +106,7 @@ end
 -- integration purposes.
 function AtlasLoot:Atlas_OnShow()
 	Atlas_Refresh();
-	
+
 	--We don't want Atlas and the Loot Browser open at the same time, so the Loot Browser is close
 	if AtlasLootDefaultFrame then
 		AtlasLootDefaultFrame:Hide();
@@ -132,8 +132,8 @@ function AtlasLoot:Atlas_OnShow()
 		AtlasLootPanel:Hide();
 	else
 		AtlasLootPanel:Show();
-	end 
-	
+	end
+
 	pFrame = AtlasFrame;
 end
 
@@ -148,16 +148,16 @@ function AtlasLoot:AtlasRefreshHook()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
 	local base = {};
-	
+
 	--Get boss name information
 	for k,v in pairs(data[zoneID]) do
 		base[k] = v;
 	end
-	
+
 	Atlas_MapRefresh();
-	
+
 	Atlastextbase = base;
-	
+
 	-- Check Tables
 	local contentTable = "Instances"
 	for k,v in pairs(AtlasLoot_LootTableRegister) do
@@ -174,10 +174,10 @@ function AtlasLoot:AtlasRefreshHook()
 		for k,v in ipairs(LootTable) do
 			if v[1] and type(v[1]) == "string" and AtlasLoot:FormatDataID(v[1]) then
 				local bossname = AtlasLoot:GetTableInfo(v[1])
-				if v[2] and type(v[2]) == "number" then 
+				if v[2] and type(v[2]) == "number" then
 					if v[2] and not Atlastextbase[v[2]] then
 						local missLines = v[2] - numContent + 1
-							
+
 						if not Atlastextbase[v[2]] or Atlastextbase[v[2]] == "" then
 							-- Fills missed Lines with empty lines
 							if missLines > 0 then
@@ -195,8 +195,8 @@ function AtlasLoot:AtlasRefreshHook()
 				elseif v[2] and type(v[2]) == "table" then
 					for k2,v2 in ipairs(v[2]) do
 						if v2 and not Atlastextbase[v2] then
-							local missLines = v2 - numContent + 1						
-								
+							local missLines = v2 - numContent + 1
+
 							if not Atlastextbase[v2] or Atlastextbase[v2] == "" then
 								-- Fills missed Lines with empty lines
 								if missLines > 0 then
@@ -217,21 +217,21 @@ function AtlasLoot:AtlasRefreshHook()
 		end
 		Atlastextbase[numContent+1]={"", nil, nil};
 	end
-	
+
 	--Hide any Atlas objects lurking around that have now been replaced
 	for i=1,ATLAS_CUR_LINES do
 		if ( _G["AtlasEntry"..i] ) then
 			_G["AtlasEntry"..i]:Hide();
 		end
 	end
-	
+
 	ATLAS_DATA = Atlastextbase;
 	ATLAS_SEARCH_METHOD = data.Search;
 	--Deal with Atlas's search function
 	if ( data.Search == nil ) then
 		ATLAS_SEARCH_METHOD = AtlasSimpleSearch;
 	end
-	
+
 	if ( data.Search ~= false ) then
 		AtlasSearchEditBox:Show();
 		AtlasNoSearch:Hide();
@@ -245,7 +245,7 @@ function AtlasLoot:AtlasRefreshHook()
 	Atlas_Search("");
 	AtlasSearchEditBox:SetText("");
 	AtlasSearchEditBox:ClearFocus();
-	
+
 	--create and align any new entry buttons that we need
 	if not AtlasLoot.AtlasLines then AtlasLoot.AtlasLines = {} end
 	for i=1,ATLAS_CUR_LINES do
@@ -271,7 +271,7 @@ function AtlasLoot:AtlasRefreshHook()
 	Atlas_Search("");
 	--Make sure the scroll bar is correctly offset
 	AtlasLoot:AtlasScrollBar_Update();
-	
+
 	--see if we should display the entrance/instance button or not, and decide what it should say
 	local matchFound = {nil};
 	local sayEntrance = nil;
@@ -289,7 +289,7 @@ function AtlasLoot:AtlasRefreshHook()
 			end
 		end
 	end
-	
+
 	--set the button's text, populate the dropdown menu, and show or hide the button
 	if ( matchFound[1] ~= nil ) then
 		ATLAS_INST_ENT_DROPDOWN = {};
@@ -307,13 +307,13 @@ function AtlasLoot:AtlasRefreshHook()
 	else
 		AtlasSwitchButton:Hide();
 	end
-	
+
 	if ( TitanPanelButton_UpdateButton ) then
 		TitanPanelButton_UpdateButton("Atlas");
 	end
 end
 
--- Hooks the Atlas scroll frame.  
+-- Hooks the Atlas scroll frame.
 -- Required as the Atlas function cannot deal with the AtlasLoot button template or the added Atlasloot entries
 function AtlasLoot:AtlasScrollBar_Update()
 	local line, lineplusoffset;
@@ -391,7 +391,7 @@ end
 function AtlasLoot:Boss_OnClick()
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone]
 	local id = self.idnum
-	
+
 	-- Check Tables
 	local contentTable = "Instances"
 	for k,v in pairs(AtlasLoot_LootTableRegister) do
@@ -400,7 +400,7 @@ function AtlasLoot:Boss_OnClick()
 			break
 		end
 	end
-	
+
 	--If the loot table was already shown and boss clicked again, hide the loot table and fix boss list icons
 	if self.Selected:IsVisible() then
 		self.Selected:Hide()
@@ -408,7 +408,7 @@ function AtlasLoot:Boss_OnClick()
 		self.Loot:Show()
 		AtlasLootItemsFrame:Hide()
 		AtlasLootItemsFrame.activeBoss = nil
-	else	
+	else
 		if ( AtlasMap_Text:IsShown() ) then
 			AtlasMap_Text:Hide()
 		end
@@ -443,13 +443,13 @@ function AtlasLoot:Boss_OnClick()
 			end
 		end
 	end
-	
+
 	--self has been invoked from Atlas, so we remove any claim external mods have on the loot table
 	AtlasLootItemsFrame.externalBoss = nil;
-	
+
 	--Hide the AtlasQuest frame if present so that the AtlasLoot items frame is not stuck under it
 	if (AtlasQuestInsideFrame) then
 		HideUIPanel(AtlasQuestInsideFrame);
 	end
-	
+
 end
