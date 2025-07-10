@@ -480,7 +480,8 @@ end
 
 -- onClick of a itemButton
 function WishList:ButtonOnClick(arg1)
-	if not self.par.tableLink and IsAltKeyDown() then
+	if not self.par.tableLink and IsAltKeyDown() and IsControlKeyDown() then
+		-- ʕ •ᴥ•ʔ✿ Ctrl+Alt+Click to add item to wishlist ✿ʕ •ᴥ•ʔ
 		self.par:AddItemToWishList()
 	end
 end

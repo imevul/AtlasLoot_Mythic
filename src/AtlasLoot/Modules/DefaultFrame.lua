@@ -292,35 +292,35 @@ do
 		Frame.VersionNumber:SetText(ATLASLOOT_VERSION_NUM.." ( FrameStyle by Atlas )")
 
 		Frame.InstanceName = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
-		Frame.InstanceName:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97)
+		Frame.InstanceName:SetPoint("TOPLEFT", Frame, "TOPLEFT", 544, -91) -- ʕ •ᴥ•ʔ✿ Adjusted 2px left, 6px up ✿ʕ •ᴥ•ʔ
 		Frame.InstanceName:SetJustifyH("LEFT")
 		Frame.InstanceName:SetWidth(351)
 		Frame.InstanceName:SetHeight(30)
 		Frame.InstanceName:SetText("")
 
 		Frame.OverallAttuneFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
-		Frame.OverallAttuneFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97  - 15 * 1)
+		Frame.OverallAttuneFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 544, -91 - 15 * 1) -- ʕ •ᴥ•ʔ✿ Adjusted 2px left, 6px up ✿ʕ •ᴥ•ʔ
 		Frame.OverallAttuneFrame:SetJustifyH("LEFT")
 		Frame.OverallAttuneFrame:SetWidth(351)
     Frame.OverallAttuneFrame:SetHeight(30)
 		Frame.OverallAttuneFrame:SetText("")
 
 		Frame.OverallTitanForgedFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
-		Frame.OverallTitanForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97 - 15 * 2)
+		Frame.OverallTitanForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 544, -91 - 15 * 2) -- ʕ •ᴥ•ʔ✿ Adjusted 2px left, 6px up ✿ʕ •ᴥ•ʔ
 		Frame.OverallTitanForgedFrame:SetJustifyH("LEFT")
 		Frame.OverallTitanForgedFrame:SetWidth(351)
     Frame.OverallTitanForgedFrame:SetHeight(30)
 		Frame.OverallTitanForgedFrame:SetText("")
 
 		Frame.OverallWarForgedFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
-		Frame.OverallWarForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97 - 15 * 3)
+		Frame.OverallWarForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 544, -91 - 15 * 3) -- ʕ •ᴥ•ʔ✿ Adjusted 2px left, 6px up ✿ʕ •ᴥ•ʔ
 		Frame.OverallWarForgedFrame:SetJustifyH("LEFT")
 		Frame.OverallWarForgedFrame:SetWidth(351)
     Frame.OverallWarForgedFrame:SetHeight(30)
 		Frame.OverallWarForgedFrame:SetText("")
 
 		Frame.OverallLightForgedFrame = Frame:CreateFontString(nil, "ARTWORK", "GameFontHighlightLarge")
-		Frame.OverallLightForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 546, -97 - 15 * 4)
+		Frame.OverallLightForgedFrame:SetPoint("TOPLEFT", Frame, "TOPLEFT", 544, -91 - 15 * 4) -- ʕ •ᴥ•ʔ✿ Adjusted 2px left, 6px up ✿ʕ •ᴥ•ʔ
 		Frame.OverallLightForgedFrame:SetJustifyH("LEFT")
 		Frame.OverallLightForgedFrame:SetWidth(351)
     Frame.OverallLightForgedFrame:SetHeight(30)
@@ -544,6 +544,13 @@ function DefaultFrame:SetInstanceTable()
 				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Loot:Show()
 				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].Selected:Hide()
 				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum].boss = v[1]
+				-- ʕ •ᴥ•ʔ✿ Add tooltip functionality for attune info ✿ʕ •ᴥ•ʔ
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:SetScript("OnEnter", function(self)
+					DefaultFrame:BossButton_OnEnter(self)
+				end)
+				DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:SetScript("OnLeave", function(self)
+					DefaultFrame:BossButton_OnLeave(self)
+				end)
 				if not curBoss then
 					DefaultFrame.Frame.ScrollFrame.Buttons[buttonNum]:Click()
 				end
@@ -578,6 +585,81 @@ function DefaultFrame:SetBoss(boss)
 			return
 		end
 	end
+end
+
+-- ʕ •ᴥ•ʔ✿ Calculate attune info for tooltip without changing display ✿ʕ •ᴥ•ʔ
+function DefaultFrame:CalculateBossAttuneInfo(dataID)
+	local lootTable = AtlasLoot:GetLootPageFromDataID(dataID)
+	if not lootTable then return 0, 0, 0, 0, 0, 0, 0, 0 end
+	
+	local attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged = 0, 0, 0, 0, 0, 0, 0, 0
+	
+	-- Calculate attune info for this boss's items without affecting display
+	for k,v in ipairs(lootTable) do
+		if v and type(v) == "table" then
+			local itemId = v[2]
+			if itemId ~= nil and itemId ~= 0 and type(itemId) == 'number' then
+				if CanAttuneItemHelper and CanAttuneItemHelper(itemId) > 0 then
+					attunable = attunable + 1
+					titanForgeable = titanForgeable + 1
+					warForgeable = warForgeable + 1
+					lightForgeable = lightForgeable + 1
+					if GetItemAttuneProgress and GetItemAttuneProgress(itemId, nil, nil) >= 100 then
+						attuned = attuned + 1
+						if GetItemAttuneForge then
+							local forgeLevel = GetItemAttuneForge(itemId)
+							if forgeLevel == 1 then
+								titanForged = titanForged + 1
+							elseif forgeLevel == 2 then
+								warForged = warForged + 1
+							elseif forgeLevel == 3 then
+								lightForged = lightForged + 1
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	return attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged
+end
+
+-- ʕ •ᴥ•ʔ✿ Tooltip functions for boss buttons ✿ʕ •ᴥ•ʔ
+function DefaultFrame:BossButton_OnEnter(button)
+	if not button or not button.boss then return end
+	
+	local dataID = button.boss
+	-- ʕ •ᴥ•ʔ✿ Get boss-specific attune info WITHOUT changing display ✿ʕ •ᴥ•ʔ
+	local attunable, attuned, titanForgeable, titanForged, warForgeable, warForged, lightForgeable, lightForged = self:CalculateBossAttuneInfo(dataID)
+	
+	-- Only show tooltip if there's attune information
+	if (attunable and attunable > 0) or (titanForged and titanForged > 0) or (warForged and warForged > 0) or (lightForged and lightForged > 0) then
+		GameTooltip:SetOwner(button, "ANCHOR_RIGHT")
+		GameTooltip:SetText(button.Text:GetText(), 1, 1, 1)
+		
+		if attunable and attunable > 0 then
+			GameTooltip:AddLine("Attuned: " .. (attuned or 0) .. "/" .. attunable, 0.65, 1, 0.5)
+		end
+		
+		if titanForged and titanForged > 0 then
+			GameTooltip:AddLine("Titanforged: " .. titanForged, 0.5, 0.5, 1)
+		end
+		
+		if warForged and warForged > 0 then
+			GameTooltip:AddLine("Warforged: " .. warForged, 1, 0.65, 0.5)
+		end
+		
+		if lightForged and lightForged > 0 then
+			GameTooltip:AddLine("Lightforged: " .. lightForged, 1, 1, 0.65)
+		end
+		
+		GameTooltip:Show()
+	end
+end
+
+function DefaultFrame:BossButton_OnLeave(button)
+	GameTooltip:Hide()
 end
 
 -- instance table creator
