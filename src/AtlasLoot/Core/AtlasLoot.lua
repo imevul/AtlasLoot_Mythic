@@ -1008,41 +1008,25 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 	self.ItemFrame.dataID = saveDataID
 	self.ItemFrame.lootTableType = lootTableType
 
-	-- boss name include attune status
-	local bossName = self:GetTableInfo(saveDataID, false, true, true, attunable, attuned, attunableOverall, attunedOverall, forgeable, forged, forgeableOverall, forgedOverall)
+	-- ʕ •ᴥ•ʔ✿ Clean boss name without attune info ✿ʕ •ᴥ•ʔ
+	local bossName = self:GetTableInfo(saveDataID, false, true, true)
 	self.ItemFrame.BossName:SetText(bossName)
 
-  local attuneText = ""
- 	if attunable ~= nil and attuned ~= nil then
- 		attuneText = attuned .. "/" .. attunable
- 	end
+	-- ʕ •ᴥ•ʔ✿ Attune display removed - info only in tooltip ✿ʕ •ᴥ•ʔ
 
-  local titanForgeText = "N/A"
-  if titanForged ~= nil then
- 		titanForgeText = titanForged
- 	end
+	-- ʕ •ᴥ•ʔ✿ Store attune info for tooltip ✿ʕ •ᴥ•ʔ
+	self.ItemFrame.BossName.attuneInfo = {
+		attunable = attunable,
+		attuned = attuned,
+		titanForged = titanForged,
+		warForged = warForged,
+		lightForged = lightForged
+	}
 
-  local warForgeText = "N/A"
-  if warForged ~= nil then
- 		warForgeText = warForged
- 	end
-
-  local lightForgeText = "N/A"
-  if lightForged ~= nil then
- 		lightForgeText = lightForged
- 	end
-
-	self.ItemFrame.AttuneFrame:SetText(attuneText)
-	self.ItemFrame.AttuneFrame:SetVertexColor(0.65, 1, 0.5)
-
-	self.ItemFrame.TitanForgedFrame:SetText(titanForgeText)
-	self.ItemFrame.TitanForgedFrame:SetVertexColor(0.5, 0.5, 1)
-
-	self.ItemFrame.WarForgedFrame:SetText(warForgeText)
-	self.ItemFrame.WarForgedFrame:SetVertexColor(1, 0.65, 0.5)
-
-	self.ItemFrame.LightForgedFrame:SetText(lightForgeText)
-	self.ItemFrame.LightForgedFrame:SetVertexColor(1, 1, 0.65)
+	-- ʕ •ᴥ•ʔ✿ Hide individual forge frames (moved to compact display) ✿ʕ •ᴥ•ʔ
+	self.ItemFrame.TitanForgedFrame:SetText("")
+	self.ItemFrame.WarForgedFrame:SetText("")
+	self.ItemFrame.LightForgedFrame:SetText("")
 
   AtlasLoot:DefaultFrame_SetAttuneInfo(attunableOverall, attunedOverall, titanForgeableOverall, titanForgedOverall, warForgeableOverall, warForgedOverall, lightForgeableOverall, lightForgedOverall)
 
@@ -1135,6 +1119,56 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self:SetEnableQuickLook(self:GetEnableQuickLook())
 	end
 	-- AtlasLoot:QueryLootPage()
+end
+
+-- ʕ •ᴥ•ʔ✿ Tooltip functions for boss name ✿ʕ •ᴥ•ʔ
+function AtlasLoot:BossName_OnEnter(button)
+	if not self.ItemFrame or not self.ItemFrame.BossName or not self.ItemFrame.BossName.attuneInfo then
+		return
+	end
+	
+	local attuneInfo = self.ItemFrame.BossName.attuneInfo
+	local hasInfo = false
+	
+	-- Check if there's any attune information to display
+	if (attuneInfo.attunable and attuneInfo.attunable > 0) or 
+	   (attuneInfo.titanForged and attuneInfo.titanForged > 0) or 
+	   (attuneInfo.warForged and attuneInfo.warForged > 0) or 
+	   (attuneInfo.lightForged and attuneInfo.lightForged > 0) then
+		
+		GameTooltip:SetOwner(button, "ANCHOR_BOTTOM")
+		GameTooltip:SetText(self.ItemFrame.BossName:GetText(), 1, 1, 1)
+		
+		if attuneInfo.attunable and attuneInfo.attunable > 0 then
+			GameTooltip:AddLine("Attuned: " .. (attuneInfo.attuned or 0) .. "/" .. attuneInfo.attunable, 0.65, 1, 0.5)
+			hasInfo = true
+		end
+		
+		if attuneInfo.titanForged and attuneInfo.titanForged > 0 then
+			GameTooltip:AddLine("Titanforged: " .. attuneInfo.titanForged, 0.5, 0.5, 1)
+			hasInfo = true
+		end
+		
+		if attuneInfo.warForged and attuneInfo.warForged > 0 then
+			GameTooltip:AddLine("Warforged: " .. attuneInfo.warForged, 1, 0.65, 0.5)
+			hasInfo = true
+		end
+		
+		if attuneInfo.lightForged and attuneInfo.lightForged > 0 then
+			GameTooltip:AddLine("Lightforged: " .. attuneInfo.lightForged, 1, 1, 0.65)
+			hasInfo = true
+		end
+		
+		if hasInfo then
+			GameTooltip:Show()
+		else
+			GameTooltip:Hide()
+		end
+	end
+end
+
+function AtlasLoot:BossName_OnLeave(button)
+	GameTooltip:Hide()
 end
 
 -- Table format (wishlist, filter, ...)

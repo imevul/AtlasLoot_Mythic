@@ -52,34 +52,52 @@ function AtlasLoot:CreateItemFrame()
 	Frame.BossName:SetText("")
 	Frame.BossName:SetWidth(512)
 	Frame.BossName:SetHeight(30)
+	
+	-- ʕ •ᴥ•ʔ✿ Make boss name interactive for tooltip ✿ʕ •ᴥ•ʔ
+	Frame.BossNameButton = CreateFrame("Button", "AtlasLoot_BossNameButton", Frame)
+	Frame.BossNameButton:SetPoint("TOP", Frame, "TOP", -25, 0)
+	Frame.BossNameButton:SetWidth(512)
+	Frame.BossNameButton:SetHeight(30)
+	Frame.BossNameButton:SetScript("OnEnter", function(self)
+		AtlasLoot:BossName_OnEnter(self)
+	end)
+	Frame.BossNameButton:SetScript("OnLeave", function(self)
+		AtlasLoot:BossName_OnLeave(self)
+	end)
 
-	Frame.AttuneFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
-	Frame.AttuneFrame:SetPoint("TOP", Frame, "TOP", -25 - 90, 0)
-	Frame.AttuneFrame:SetJustifyH("RIGHT")
+	-- ʕ •ᴥ•ʔ✿ Hidden attune frame - info moved to tooltip only ✿ʕ •ᴥ•ʔ
+	Frame.AttuneFrame = Frame:CreateFontString("AtlasLoot_AttuneFrame","OVERLAY","GameFontNormalSmall")
+	Frame.AttuneFrame:SetPoint("TOP", Frame, "TOP", -1000, 0) -- Move offscreen
+	Frame.AttuneFrame:SetJustifyH("CENTER")
 	Frame.AttuneFrame:SetText("")
-	Frame.AttuneFrame:SetWidth(512)
-	Frame.AttuneFrame:SetHeight(30)
+	Frame.AttuneFrame:SetWidth(1)
+	Frame.AttuneFrame:SetHeight(1)
+	Frame.AttuneFrame:Hide()
 
-	Frame.TitanForgedFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
-	Frame.TitanForgedFrame:SetPoint("TOP", Frame, "TOP", -25 - 60, 0)
-	Frame.TitanForgedFrame:SetJustifyH("RIGHT")
+	-- ʕ •ᴥ•ʔ✿ Hide individual forge frames - info moved to tooltip ✿ʕ •ᴥ•ʔ
+	Frame.TitanForgedFrame = Frame:CreateFontString("AtlasLoot_TitanForgedFrame","OVERLAY","GameFontNormalSmall")
+	Frame.TitanForgedFrame:SetPoint("TOP", Frame, "TOP", -1000, 0) -- Move offscreen
+	Frame.TitanForgedFrame:SetJustifyH("CENTER")
 	Frame.TitanForgedFrame:SetText("")
-	Frame.TitanForgedFrame:SetWidth(512)
-	Frame.TitanForgedFrame:SetHeight(30)
+	Frame.TitanForgedFrame:SetWidth(1)
+	Frame.TitanForgedFrame:SetHeight(1)
+	Frame.TitanForgedFrame:Hide()
 
-	Frame.WarForgedFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
-	Frame.WarForgedFrame:SetPoint("TOP", Frame, "TOP", -25 - 30, 0)
-	Frame.WarForgedFrame:SetJustifyH("RIGHT")
+	Frame.WarForgedFrame = Frame:CreateFontString("AtlasLoot_WarForgedFrame","OVERLAY","GameFontNormalSmall")
+	Frame.WarForgedFrame:SetPoint("TOP", Frame, "TOP", -1000, 0) -- Move offscreen
+	Frame.WarForgedFrame:SetJustifyH("CENTER")
 	Frame.WarForgedFrame:SetText("")
-	Frame.WarForgedFrame:SetWidth(512)
-	Frame.WarForgedFrame:SetHeight(30)
+	Frame.WarForgedFrame:SetWidth(1)
+	Frame.WarForgedFrame:SetHeight(1)
+	Frame.WarForgedFrame:Hide()
 
-	Frame.LightForgedFrame = Frame:CreateFontString("AtlasLoot_BossName","OVERLAY","GameFontHighlightLarge")
-	Frame.LightForgedFrame:SetPoint("TOP", Frame, "TOP", -25 - 0, 0)
-	Frame.LightForgedFrame:SetJustifyH("RIGHT")
+	Frame.LightForgedFrame = Frame:CreateFontString("AtlasLoot_LightForgedFrame","OVERLAY","GameFontNormalSmall")
+	Frame.LightForgedFrame:SetPoint("TOP", Frame, "TOP", -1000, 0) -- Move offscreen
+	Frame.LightForgedFrame:SetJustifyH("CENTER")
 	Frame.LightForgedFrame:SetText("")
-	Frame.LightForgedFrame:SetWidth(512)
-	Frame.LightForgedFrame:SetHeight(30)
+	Frame.LightForgedFrame:SetWidth(1)
+	Frame.LightForgedFrame:SetHeight(1)
+	Frame.LightForgedFrame:Hide()
 
 	Frame.ItemButtons = {}
 	for i=1,30 do

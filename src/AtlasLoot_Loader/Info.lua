@@ -55,11 +55,15 @@ AtlasLoot.AddonInfo = {
 		},
 		{
 			AL["How to add an item to the wishlist:"],
-			AL["Alt+Left Click any item to add it to the wishlist."],
+			AL["Ctrl+Alt+Left Click any item to add it to the wishlist."],
 		},
 		{
 			AL["How to delete an item from the wishlist:"],
-			AL["While on the wishlist screen, just Alt+Left Click on an item to delete it."],
+			AL["While on the wishlist screen, just Ctrl+Alt+Left Click on an item to delete it."],
+		},
+		{
+			AL["How to open an item in LootDb:"],
+			AL["Alt+Left Click any item to open it in LootDb."],
 		},
 		{
 			AL["What else does the wishlist do?"],

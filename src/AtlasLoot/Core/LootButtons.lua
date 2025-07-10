@@ -1541,8 +1541,17 @@ function AtlasLoot:ItemOnClick(arg1)
 		elseif arg1 == "RightButton" and itemRarity and itemRarity == 7 and self.par.info then
 			AtlasLoot:ShowHeriloomConfigWindow(self.par.info)
 		end
+	elseif IsControlKeyDown() and IsAltKeyDown() then
+		-- ʕ •ᴥ•ʔ✿ Ctrl+Alt+Click reserved for wishlist (handled by WishList module) ✿ʕ •ᴥ•ʔ
+		-- This condition prevents conflict with individual key handlers
 	elseif IsControlKeyDown() then
 		self.par:DressUp()
+	elseif IsAltKeyDown() and self.par.info and self.par.info[2] then
+		-- ʕ •ᴥ•ʔ✿ Alt+Click to open item in LootDb ✿ʕ •ᴥ•ʔ
+		local itemID = self.par.info[2]
+		if itemID and type(itemID) == "number" then
+			OpenLootDb(itemID)
+		end
 	end
 end
 
