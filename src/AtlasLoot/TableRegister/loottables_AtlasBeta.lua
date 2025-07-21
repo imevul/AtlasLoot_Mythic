@@ -1,4 +1,4 @@
-﻿-- $Id: loottables_AtlasBeta.lua 3697 2012-01-31 15:17:37Z lag123 $
+﻿ -- $Id: loottables_AtlasBeta.lua 3697 2012-01-31 15:17:37Z lag123 $
 --[[
 loottables.en.lua
 This file assigns a title to every loot table.  The primary use of this table
@@ -8,10 +8,10 @@ inherant title to the loot table, given the origins of the mod as an Atlas plugi
 
 -- Invoke libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
-local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
+local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.1")
 local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
-local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
+local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.1")
 
 -- Using alchemy skill to get localized rank
 local JOURNEYMAN = select(2, GetSpellInfo(3101));
@@ -47,10 +47,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 
 
 AtlasLoot_LootTableRegister_AtlasBeta = {
-	["Instances"] = {
-		--[[ example
+    ["Instances"] = {
+        --[[ example
 			-- ["Info"] is optional
-			
+
 			["BlackrockCaverns"] = {
 				["Bosses"] = {
 					{ "BlackrockCavernsRomogg", 2 },
@@ -62,23 +62,23 @@ AtlasLoot_LootTableRegister_AtlasBeta = {
 				},
 				["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns" },
 			},
-		]]--
-		},
+		]] --
+    },
 }
 
 local mergeFinish = false
 function AtlasLoot:LootTableRegister_Merge()
-	if not mergeFinish then 
-		for k,v in pairs(AtlasLoot_LootTableRegister_AtlasBeta) do
-			for i,j in pairs(v) do
-				if j["Bosses"] then 
-					AtlasLoot_LootTableRegister_AtlasBeta[k][i]["Bosses"] = j["Bosses"]
-				end
-				if j["Info"] then 
-					AtlasLoot_LootTableRegister_AtlasBeta[k][i]["Info"] = j["Info"]
-				end
-			end
-		end
-		mergeFinish = true
-	end
+    if not mergeFinish then
+        for k, v in pairs(AtlasLoot_LootTableRegister_AtlasBeta) do
+            for i, j in pairs(v) do
+                if j["Bosses"] then
+                    AtlasLoot_LootTableRegister_AtlasBeta[k][i]["Bosses"] = j["Bosses"]
+                end
+                if j["Info"] then
+                    AtlasLoot_LootTableRegister_AtlasBeta[k][i]["Info"] = j["Info"]
+                end
+            end
+        end
+        mergeFinish = true
+    end
 end

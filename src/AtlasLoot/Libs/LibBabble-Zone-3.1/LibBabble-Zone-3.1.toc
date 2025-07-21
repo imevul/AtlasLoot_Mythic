@@ -1,6 +1,6 @@
 ## Interface: 40300
 ## LoadOnDemand: 1
-## Title: Lib: Babble-Zone-3.0
+## Title: Lib: Babble-Zone-3.1
 ## Notes: A library to help with localization of Zones.
 ## Notes-deDE: BabbleLib ist eine Bibliothek, die bei der Lokalisierung helfen soll.
 ## Notes-frFR: Une bibliothèque d'aide à la localisation.
@@ -10,9 +10,9 @@
 ## X-Category: Library
 ## X-License: MIT
 ## X-Curse-Packaged-Version: 4.3-release5
-## X-Curse-Project-Name: LibBabble-Zone-3.0
-## X-Curse-Project-ID: libbabble-zone-3-0
-## X-Curse-Repository-ID: wow/libbabble-zone-3-0/mainline
+## X-Curse-Project-Name: LibBabble-Zone-3.1
+## X-Curse-Project-ID: libbabble-zone-3-1
+## X-Curse-Repository-ID: wow/libbabble-zone-3-1/mainline
 
 LibStub\LibStub.lua
 lib.xml

@@ -1,6 +1,6 @@
 ﻿## Interface: 40300
 ## LoadOnDemand: 1
-## Title: Lib: Babble-Boss-3.0
+## Title: Lib: Babble-Boss-3.1
 ## Notes: A library to help with localization of bosses.
 ## Notes-zhCN: 为本地化服务的支持库[首领名称]
 ## Notes-zhTW: 為本地化服務的函式庫[首領名稱]
@@ -12,10 +12,9 @@
 ## X-Category: Library
 ## X-License: MIT
 ## X-Curse-Packaged-Version: 4.3-release5
-## X-Curse-Project-Name: LibBabble-Boss-3.0
-## X-Curse-Project-ID: libbabble-boss-3-0
-## X-Curse-Repository-ID: wow/libbabble-boss-3-0/mainline
+## X-Curse-Project-Name: LibBabble-Boss-3.1
+## X-Curse-Project-ID: libbabble-boss-3-1
+## X-Curse-Repository-ID: wow/libbabble-boss-3-1/mainline
 
 LibStub\LibStub.lua
 lib.xml
-
