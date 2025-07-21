@@ -3,11 +3,11 @@
 
 <!--@no-lib-strip@-->
 <Include file="Libs\LibAboutPanel\lib.xml"/>
-<Include file="Libs\LibBabble-Boss-3.0\lib.xml"/>
+<Include file="Libs\LibBabble-Boss-3.1\lib.xml"/>
 <Include file="Libs\LibBabble-Faction-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Inventory-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-ItemSet-3.0\lib.xml"/>
-<Include file="Libs\LibBabble-Zone-3.0\lib.xml"/>
+<Include file="Libs\LibBabble-Zone-3.1\lib.xml"/>
 <Include file="Libs\LibAdvancedIconSelector-1.0\LibAdvancedIconSelector-1.0.xml"/>
 
 <Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
