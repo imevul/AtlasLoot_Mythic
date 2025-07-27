@@ -13,7 +13,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local MiniMapLDB = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("AtlasLoot", {
     type = "launcher",
 	text = AL["AtlasLoot"],
-    icon = "Interface\\Icons\\INV_Box_01",
+    icon = "Interface\\AddOns\\AtlasLoot\\Images\\AtlasLootMinimap",
 })
 
 local MiniMapIcon = LibStub("LibDBIcon-1.0")
