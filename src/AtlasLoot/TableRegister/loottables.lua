@@ -128,10 +128,10 @@ AtlasLoot_LootTableRegister = {
 
         ["Gundrak"] = {
             ["Bosses"] = {
-                { "GundrakSladran",          4 },
-                { "GundrakDrakkariColossus", 3 },
-                { "GundrakMoorabi",          1 },
-				{ "GundrakEckTheFerocious",  2 },
+                { "GundrakSladran",          1 },
+                { "GundrakDrakkariColossus", 2 },
+                { "GundrakMoorabi",          3 },
+				{ "GundrakEckTheFerocious",  4 },
                 { "GundrakGaldarah",         5 },
                 { "GundrakTrash",            6 },
             },
@@ -217,10 +217,10 @@ AtlasLoot_LootTableRegister = {
         ["VioletHold"] = {
             ["Bosses"] = {
                 { "TheVioletHoldErekem",                1 },
-				{ "TheVioletHoldZuramatTheObliterator", 2 },
+                { "TheVioletHoldZuramatTheObliterator", 2 },
                 { "TheVioletHoldXevozz",                3 },
                 { "TheVioletHoldIchoron",               4 },
-				{ "TheVioletHoldMoragg",                5 },
+                { "TheVioletHoldMoragg",                5 },
                 { "TheVioletHoldLavanthor",             6 },
                 { "TheVioletHoldCyanigosa",             7 },
                 { "TheVioletHoldTrash",                 8 },
@@ -526,12 +526,12 @@ AtlasLoot_LootTableRegister = {
 
         ["TempestKeepMechanar"] = {
             ["Bosses"] = {
-                { "MechanarGatewatcherGyroKill",    3 },
-				{ "MechanarGatewatcherIronHand",    1 },
-                { "MechanarMechanoLordCapacitus",   2 },
-                { "MechanarCacheOfTheLegion",       4 },
-                { "MechanarNethermancerSepethrea",  5 },
-                { "MechanarPathaleonTheCalculator", 6 },
+                { "MechanarGatewatcherGyroKill",    1 },
+				{ "MechanarGatewatcherIronHand",    2 },
+                { "MechanarMechanoLordCapacitus",   3 },
+                { "MechanarNethermancerSepethrea",  4 },
+                { "MechanarPathaleonTheCalculator", 5 },
+                { "MechanarCacheOfTheLegion",       6 },
                 { "TempestKeepTrash",               7 },
             },
             ["Info"] = { "[70] " .. BabbleZone["The Mechanar"], "AtlasLootBurningCrusade", mapname = "TheMechanar" },
@@ -549,9 +549,9 @@ AtlasLoot_LootTableRegister = {
                 { "BlackTempleShadeOfAkama",        3 },
             },
             ["BlackTempleBasement"] = {
+				{ "BlackTempleTeronGorefiend",   1 },
                 { "BlackTempleGurtoggBloodboil", 2 },
                 { "BlackTempleReliquaryOfSouls", 3 },
-				{ "BlackTempleTeronGorefiend",   1 },
             },
             ["BlackTempleTop"] = {
                 { "BlackTempleMotherShahraz",      1 },
@@ -677,7 +677,7 @@ AtlasLoot_LootTableRegister = {
         ["WorldBossesBC"] = {
             ["Bosses"] = {
                 { "WBDoomLordKazzak", 1 },
-                { "WBDoomwalker",     2, },
+                { "WBDoomwalker",     2 },
             },
             ["Info"] = { BabbleZone["World Bosses Outland"], "AtlasLootBurningCrusade", mapname = "WorldBossesBC", raid = true },
         },
@@ -1383,12 +1383,12 @@ AtlasLoot_LootTableRegister = {
 
         ["MythicTempestKeepMechanar"] = {
             ["Bosses"] = {
-                { "MythicMechanarGatewatcherGyroKill",    3 },
-				{ "MythicMechanarGatewatcherIronHand",    1 },
-                { "MythicMechanarMechanoLordCapacitus",   2 },
-                { "MythicMechanarCacheOfTheLegion",       4 },
-                { "MythicMechanarNethermancerSepethrea",  5 },
-                { "MythicMechanarPathaleonTheCalculator", 6 },
+                { "MythicMechanarGatewatcherGyroKill",    1 },
+				{ "MythicMechanarGatewatcherIronHand",    2 },
+                { "MythicMechanarMechanoLordCapacitus",   3 },
+                { "MythicMechanarNethermancerSepethrea",  4 },
+                { "MythicMechanarPathaleonTheCalculator", 5 },
+                { "MythicMechanarCacheOfTheLegion",       6 },
                 { "MythicDungeonBoEsTBC",                 7 },
             },
             ["Info"] = { BabbleZone["The Mechanar"] .. "+", "AtlasLootMythicBC" },
@@ -1637,10 +1637,10 @@ AtlasLoot_LootTableRegister = {
 
         ["MythicGundrak"] = {
             ["Bosses"] = {
-                { "MythicGundrakMoorabi",          1 },
-                { "MythicGundrakEckTheFerocious",  2 },
-                { "MythicGundrakDrakkariColossus", 3 },
-                { "MythicGundrakSladran",          4 },
+                { "MythicGundrakSladran",          1 },
+                { "MythicGundrakDrakkariColossus", 2 },
+                { "MythicGundrakMoorabi",          3 },
+                { "MythicGundrakEckTheFerocious",  4 },
                 { "MythicGundrakGaldarah",         5 },
                 { "MythicGundrakTrash",            6 },
                 { "MythicDungeonBoEsWotLK",        7 },
