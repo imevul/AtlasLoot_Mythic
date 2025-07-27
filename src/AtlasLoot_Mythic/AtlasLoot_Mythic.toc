@@ -2,10 +2,10 @@
 ## Title: AtlasLoot_Mythic
 ## Notes: AtlasLoot loot tables for Mythic items
 ## Author: Imevul, Aurele
-## Version: v2.2.0
+## Version: v2.2.1
 ## Dependencies: AtlasLoot
 ## LoadOnDemand: 1
-## X-Contributors: Xenothang, Lubricated, dillyns, Aldrek, RosemyneH
+## X-Contributors: Xenothang, Lubricated, dillyns, Aldrek, RosemyneH, Lulleh
 
 AtlasLoot_MythicBC.lua
 AtlasLoot_MythicWotLK.lua
