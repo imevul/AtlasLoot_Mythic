@@ -265,7 +265,7 @@ AtlasLoot_Data["MythicAzjolNerubAnubarak"] = {
         },
     },
     info = {
-        name = BabbleBoss["Anub'arak"] .. "+",
+        name = BabbleBoss["Anub'arakAN"] .. "+",
         module = moduleName,
         instance = "MythicAzjolNerub",
     },
@@ -1630,7 +1630,7 @@ AtlasLoot_Data["MythicHallsOfReflectionTheLichKing"] = {
         },
     },
     info = {
-        name = BabbleBoss["The Lich King"] .. "+",
+        name = BabbleBoss["The Lich KingHoR"] .. "+",
         module = moduleName,
         instance = "MythicFHHallsOfReflection",
     },
