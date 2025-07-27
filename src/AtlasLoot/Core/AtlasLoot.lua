@@ -48,6 +48,890 @@ local ORANGE = "|cffFF8400";
 --Establish number of boss lines in the Atlas frame for scrolling
 local ATLAS_LOOT_BOSS_LINES = 25;
 
+-- In AtlasLoot.lua, find this section around line 45-55:
+
+local GREY = "|cff999999";
+local RED = "|cffff0000";
+local WHITE = "|cffFFFFFF";
+local GREEN = "|cff1eff00";
+local PURPLE = "|cff9F3FFF";
+local BLUE = "|cff0070dd";
+local ORANGE = "|cffFF8400";
+
+--Establish number of boss lines in the Atlas frame for scrolling
+local ATLAS_LOOT_BOSS_LINES = 25;
+
+--==================================================
+-- ATLAS MAP INTEGRATION 
+--==================================================
+
+-- Instance to Atlas Map lookup table
+AtlasLoot.InstanceToMap = {
+	-- Ragefire Chasm
+	["RagefireChasmTaragamanTheHungerer"] = "RagefireChasm",
+	["RagefireChasmJergoshTheInvoker"] = "RagefireChasm",
+	["RagefireChasmZelemarTheWrathful"] = "RagefireChasm",
+	
+	-- The Deadmines
+	["DeadminesRhahkZor"] = "TheDeadmines",
+	["DeadminesSneedsShredder"] = "TheDeadmines",
+	["DeadminesSneed"] = "TheDeadmines",
+	["DeadminesGilnid"] = "TheDeadmines",
+	["DeadminesMrSmite"] = "TheDeadmines",
+	["DeadminesCookie"] = "TheDeadmines",
+	["DeadminesCaptainGreenskin"] = "TheDeadmines",
+	["DeadminesVanCleef"] = "TheDeadmines",
+	["DeadminesMinerJohnson"] = "TheDeadmines",
+	
+	-- Wailing Caverns
+	["WailingCavernsKresh"] = "WailingCaverns",
+	["WailingCavernsLadyAnacondra"] = "WailingCaverns",
+	["WailingCavernsLordCobrahn"] = "WailingCaverns",
+	["WailingCavernsLordPythas"] = "WailingCaverns",
+	["WailingCavernsSkum"] = "WailingCaverns",
+	["WailingCavernsLordSerpentis"] = "WailingCaverns",
+	["WailingCavernsVerdanTheEverliving"] = "WailingCaverns",
+	["WailingCavernsMutanusTheDevourer"] = "WailingCaverns",
+	["WailingCavernsDeviateFaerieDragon"] = "WailingCaverns",
+	
+	-- Shadowfang Keep
+	["ShadowfangKeepRethilgore"] = "ShadowfangKeep",
+	["ShadowfangKeepRazorclawTheButcher"] = "ShadowfangKeep",
+	["ShadowfangKeepBaronSilverlaine"] = "ShadowfangKeep",
+	["ShadowfangKeepCommanderSpringvale"] = "ShadowfangKeep",
+	["ShadowfangKeepOdoTheBlindwatcher"] = "ShadowfangKeep",
+	["ShadowfangKeepFenrusTheDevourer"] = "ShadowfangKeep",
+	["ShadowfangKeepWolfMasterNandos"] = "ShadowfangKeep",
+	["ShadowfangKeepArchmageArugal"] = "ShadowfangKeep",
+	["ShadowfangKeepDeathswornCaptain"] = "ShadowfangKeep",
+	
+	-- Blackfathom Deeps
+	["BlackfathomDeepsGhamoora"] = "BlackfathomDeeps",
+	["BlackfathomDeepsLadySarevess"] = "BlackfathomDeeps",
+	["BlackfathomDeepsGelihast"] = "BlackfathomDeeps",
+	["BlackfathomDeepsBaronAquanis"] = "BlackfathomDeeps",
+	["BlackfathomDeepsOldSerrakis"] = "BlackfathomDeeps",
+	["BlackfathomDeepsTwilightLordKelris"] = "BlackfathomDeeps",
+	["BlackfathomDeepsAkumai"] = "BlackfathomDeeps",
+	
+	-- The Stockade
+	["TheStockadeTargorrTheDread"] = "TheStockade",
+	["TheStockadeDextrenWard"] = "TheStockade",
+	["TheStockadeKamDeepfury"] = "TheStockade",
+	["TheStockadeBazilThredd"] = "TheStockade",
+	["TheStockadeBruegalIronknuckle"] = "TheStockade",
+	
+	-- Razorfen Kraul
+	["RazorfenKraulRoogug"] = "RazorfenKraul",
+	["RazorfenKraulAggemThorncurse"] = "RazorfenKraul",
+	["RazorfenKraulDeathSpeakerJargba"] = "RazorfenKraul",
+	["RazorfenKraulOverlordRamtusk"] = "RazorfenKraul",
+	["RazorfenKraulAgathelosTheRaging"] = "RazorfenKraul",
+	["RazorfenKraulCharlgaRazorflank"] = "RazorfenKraul",
+	["RazorfenKraulRazorfenSpearhide"] = "RazorfenKraul",
+	["RazorfenKraulBlindHunter"] = "RazorfenKraul",
+	["RazorfenKraulEarthcallerHalmgar"] = "RazorfenKraul",
+	
+	-- Gnomeregan
+	["GnomereganGrubbis"] = "Gnomeregan",
+	["GnomereganViscousFallout"] = "Gnomeregan",
+	["GnomereganElectrocutioner6000"] = "Gnomeregan",
+	["GnomereganCrowdPummeler960"] = "Gnomeregan",
+	["GnomereganMekgineerThermaplugg"] = "Gnomeregan",
+	["GnomereganDarkIronAmbassador"] = "Gnomeregan",
+	
+	-- Razorfen Downs
+	["RazorfenDownsTutenkash"] = "RazorfenDowns",
+	["RazorfenDownsMordreshFireEye"] = "RazorfenDowns",
+	["RazorfenDownsPlaguemawTheRotting"] = "RazorfenDowns",
+	["RazorfenDownsGlutton"] = "RazorfenDowns",
+	["RazorfenDownsAmnennarTheColdbringer"] = "RazorfenDowns",
+	["RazorfenDownsRagglesnout"] = "RazorfenDowns",
+	
+	-- Scarlet Monastery
+	["SMGraveyardInterrogatorVishas"] = "SMGraveyard",
+	["SMGraveyardBloodmageThalnos"] = "SMGraveyard",
+	["SMGraveyardAzshirTheSleepless"] = "SMGraveyard",
+	["SMGraveyardFallenChampion"] = "SMGraveyard",
+	["SMGraveyardIronspine"] = "SMGraveyard",
+	
+	["SMCathedralHighInquisitorFairbanks"] = "SMCathedral",
+	["SMCathedralScarletCommanderMograine"] = "SMCathedral",
+	["SMCathedralHighInquisitorWhitemane"] = "SMCathedral",
+	
+	["SMArmoryHerod"] = "SMArmory",
+	
+	["SMLibraryHoundmasterLoksey"] = "SMLibrary",
+	["SMLibraryArcanistDoan"] = "SMLibrary",
+	
+	-- Uldaman
+	["UldamanLostVikings"] = "Uldaman",
+	["UldamanRevelosh"] = "Uldaman",
+	["UldamanIronaya"] = "Uldaman",
+	["UldamanObsidianSentinel"] = "Uldaman",
+	["UldamanAncientStoneKeeper"] = "Uldaman",
+	["UldamanGalgannFirehammer"] = "Uldaman",
+	["UldamanGrimlok"] = "Uldaman",
+	["UldamanArchaedas"] = "Uldaman",
+	
+	-- Zul'Farrak
+	["ZulFarrakAntusul"] = "ZulFarrak",
+	["ZulFarrakThekaTheMartyr"] = "ZulFarrak",
+	["ZulFarrakWitchDoctorZumrah"] = "ZulFarrak",
+	["ZulFarrakSandfuryExecutioner"] = "ZulFarrak",
+	["ZulFarrakShadowpriestSezzziz"] = "ZulFarrak",
+	["ZulFarrakSergeantBly"] = "ZulFarrak",
+	["ZulFarrakHydromancerVelratha"] = "ZulFarrak",
+	["ZulFarrakGahzrilla"] = "ZulFarrak",
+	["ZulFarrakChiefUkorzSandscalp"] = "ZulFarrak",
+	["ZulFarrakDustwraith"] = "ZulFarrak",
+	["ZulFarrakZerillis"] = "ZulFarrak",
+	
+	-- Maraudon
+	["MaraudonVeng"] = "Maraudon",
+	["MaraudonNoxxion"] = "Maraudon",
+	["MaraudonRazorlash"] = "Maraudon",
+	["MaraudonMaraudos"] = "Maraudon",
+	["MaraudonLordVyletongue"] = "Maraudon",
+	["MaraudonCelebrasTheCursed"] = "Maraudon",
+	["MaraudonLandslide"] = "Maraudon",
+	["MaraudonTinkererGizlock"] = "Maraudon",
+	["MaraudonRotgrip"] = "Maraudon",
+	["MaraudonPrincessTheradras"] = "Maraudon",
+	["MaraudonMeshlokTheHarvester"] = "Maraudon",
+	
+	-- Sunken Temple
+	["SunkenTempleAtalalarion"] = "TheSunkenTemple",
+	["SunkenTempleTrolls"] = "TheSunkenTemple",
+	["SunkenTempleJammalanTheProphet"] = "TheSunkenTemple",
+	["SunkenTempleDragons"] = "TheSunkenTemple",
+	["SunkenTempleAvatarOfHakkar"] = "TheSunkenTemple",
+	["SunkenTempleShadeOfEranikus"] = "TheSunkenTemple",
+	["SunkenTempleSpawnOfHakkar"] = "TheSunkenTemple",
+	
+	-- Blackrock Depths
+	["BlackrockDepthsHighInterrogatorGerstahn"] = "BlackrockDepths",
+	["BlackrockDepthsLordRoccor"] = "BlackrockDepths",
+	["BlackrockDepthsHoundmasterGrebmar"] = "BlackrockDepths",
+	["BlackrockDepthsBaelGar"] = "BlackrockDepths",
+	["BlackrockDepthsLordIncendius"] = "BlackrockDepths",
+	["BlackrockDepthsFineousDarkvire"] = "BlackrockDepths",
+	["BlackrockDepthsWarderStilgiss"] = "BlackrockDepths",
+	["BlackrockDepthsDarkKeepers"] = "BlackrockDepths",
+	["BlackrockDepthsTheVault"] = "BlackrockDepths",
+	["BlackrockDepthsWatchmanDoomgrip"] = "BlackrockDepths",
+	["BlackrockDepthsPyromancerLoregrain"] = "BlackrockDepths",
+	["BlackrockDepthsArena"] = "BlackrockDepths",
+	["BlackrockDepthsTheldren"] = "BlackrockDepths",
+	["BlackrockDepthsGeneralAngerforge"] = "BlackrockDepths",
+	["BlackrockDepthsGolemLordArgelmach"] = "BlackrockDepths",
+	["BlackrockDepthsGrimGuzzler"] = "BlackrockDepths",
+	["BlackrockDepthsAmbassadorFlamelash"] = "BlackrockDepths",
+	["BlackrockDepthsSummonersTomb"] = "BlackrockDepths",
+	["BlackrockDepthsMagmus"] = "BlackrockDepths",
+	["BlackrockDepthsEmperorDagranThaurissan"] = "BlackrockDepths",
+	["BlackrockDepthsPanzorTheInvincible"] = "BlackrockDepths",
+	
+	-- Dire Maul
+	["DireMaulEastPusillin"] = "DireMaulEast",
+	["DireMaulEastLethtendris"] = "DireMaulEast",
+	["DireMaulEastHydrospawn"] = "DireMaulEast",
+	["DireMaulEastZevrimThornhoof"] = "DireMaulEast",
+	["DireMaulEastAlzzinTheWildshaper"] = "DireMaulEast",
+	["DireMaulEastIsalien"] = "DireMaulEast",
+	
+	["DireMaulNorthGuardMoldar"] = "DireMaulNorth",
+	["DireMaulNorthStomperKreeg"] = "DireMaulNorth",
+	["DireMaulNorthGuardFengus"] = "DireMaulNorth",
+	["DireMaulNorthGuardSlipkik"] = "DireMaulNorth",
+	["DireMaulNorthKnotThimblejack"] = "DireMaulNorth",
+	["DireMaulNorthCaptainKromcrush"] = "DireMaulNorth",
+	["DireMaulNorthKingGordok"] = "DireMaulNorth",
+	["DireMaulNorthChoRushTheObserver"] = "DireMaulNorth",
+	["DireMaulNorthTribute"] = "DireMaulNorth",
+	
+	["DireMaulWestTendrisWarpwood"] = "DireMaulWest",
+	["DireMaulWestMagisterKalendris"] = "DireMaulWest",
+	["DireMaulWestIllyannaRavenoak"] = "DireMaulWest",
+	["DireMaulWestImmolthar"] = "DireMaulWest",
+	["DireMaulWestLordHelnurath"] = "DireMaulWest",
+	["DireMaulWestPrinceTortheldrin"] = "DireMaulWest",
+	["DireMaulWestTsuzee"] = "DireMaulWest",
+	
+	-- Scholomance
+	["ScholomanceBloodStewardOfKirtonos"] = "Scholomance",
+	["ScholomanceKirtonosTheHerald"] = "Scholomance",
+	["ScholomanceJandiceBarov"] = "Scholomance",
+	["ScholomanceRattlegore"] = "Scholomance",
+	["ScholomanceDeathKnightDarkreaver"] = "Scholomance",
+	["ScholomanceMardukBlackpoolAndVectus"] = "Scholomance",
+	["ScholomanceRasFrostwhisper"] = "Scholomance",
+	["ScholomanceKormok"] = "Scholomance",
+	["ScholomanceLorekeeperPolkelt"] = "Scholomance",
+	["ScholomanceDoctorTheolenKrastinov"] = "Scholomance",
+	["ScholomanceInstructorMalicia"] = "Scholomance",
+	["ScholomanceLadyIlluciaBarov"] = "Scholomance",
+	["ScholomanceLordAlexeiBarov"] = "Scholomance",
+	["ScholomanceTheRavenian"] = "Scholomance",
+	["ScholomanceDarkmasterGandling"] = "Scholomance",
+	
+	-- Stratholme
+	["LiveStratholmeFrasSiabi"] = "Stratholme",
+	["LiveStratholmeTheUnforgiven"] = "Stratholme",
+	["LiveStratholmeHearthsingerForresten"] = "Stratholme",
+	["LiveStratholmeTimmyTheCruel"] = "Stratholme",
+	["LiveStratholmeMalorTheZealous"] = "Stratholme",
+	["LiveStratholmeCrimsonHammersmith"] = "Stratholme",
+	["LiveStratholmeCannonMasterWilley"] = "Stratholme",
+	["LiveStratholmeArchivistGalford"] = "Stratholme",
+	["LiveStratholmeBalnazzar"] = "Stratholme",
+	["LiveStratholmeSothosJarien"] = "Stratholme",
+	["LiveStratholmeSkul"] = "Stratholme",
+	
+	["UndeadStratholmeMagistrateBarthilas"] = "Stratholme",
+	["UndeadStratholmeBlackGuardSwordsmith"] = "Stratholme",
+	["UndeadStratholmeBaronessAnastari"] = "Stratholme",
+	["UndeadStratholmeNerubenkan"] = "Stratholme",
+	["UndeadStratholmeMalekiThePallid"] = "Stratholme",
+	["UndeadStratholmeRamsteinTheGorger"] = "Stratholme",
+	["UndeadStratholmeBaronRivendare"] = "Stratholme",
+	["UndeadStratholmeStonespine"] = "Stratholme",
+	
+	-- Lower Blackrock Spire
+	["LowerBlackrockSpireHighlordOmokk"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireShadowHunterVoshgajin"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireWarMasterVoone"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireMorGrayhoof"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireMotherSmolderweb"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireUrokDoomhowl"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireQuartermasterZigris"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireHalycon"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireGizrulTheSlavener"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireOverlordWyrmthalak"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireBurningFelguard"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireSpirestoneButcher"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireBannokGrimaxe"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireCrystalFang"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireSpirestoneBattleLord"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireSpirestoneLordMagus"] = "BlackrockSpireLower",
+	["LowerBlackrockSpireGhokBashguud"] = "BlackrockSpireLower",
+	
+	-- Upper Blackrock Spire
+	["UpperBlackrockSpirePyroguardEmberseer"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireFatherFlame"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireSolakarFlamewreath"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireGoralukAnvilcrack"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireWarchiefRendBlackhand"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireTheBeast"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireLordValthalak"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireGeneralDrakkisath"] = "BlackrockSpireUpper",
+	["UpperBlackrockSpireJedRunewatcher"] = "BlackrockSpireUpper",
+	
+	-- Zul'Gurub
+	["ZulGurubHighPriestessJeklik"] = "ZulGurub",
+	["ZulGurubHighPriestVenoxis"] = "ZulGurub",
+	["ZulGurubHighPriestessMarli"] = "ZulGurub",
+	["ZulGurubBloodlordMandokir"] = "ZulGurub",
+	["ZulGurubEdgeOfMadness"] = "ZulGurub",
+	["ZulGurubGahzranka"] = "ZulGurub",
+	["ZulGurubHighPriestThekal"] = "ZulGurub",
+	["ZulGurubHighPriestessArlokk"] = "ZulGurub",
+	["ZulGurubJindoTheHexxer"] = "ZulGurub",
+	["ZulGurubHakkar"] = "ZulGurub",
+	
+	-- Molten Core
+	["MoltenCoreLucifron"] = "MoltenCore",
+	["MoltenCoreMagmadar"] = "MoltenCore",
+	["MoltenCoreGehennas"] = "MoltenCore",
+	["MoltenCoreGarr"] = "MoltenCore",
+	["MoltenCoreBaronGeddon"] = "MoltenCore",
+	["MoltenCoreShazzrah"] = "MoltenCore",
+	["MoltenCoreSulfuronHarbinger"] = "MoltenCore",
+	["MoltenCoreGolemaggTheIncinerator"] = "MoltenCore",
+	["MoltenCoreMajordomoExecutus"] = "MoltenCore",
+	["MoltenCoreRagnaros"] = "MoltenCore",
+	
+	-- Blackwing Lair
+	["BlackwingLairRazorgoreTheUntamed"] = "BlackwingLair",
+	["BlackwingLairVaelastraszTheCorrupt"] = "BlackwingLair",
+	["BlackwingLairBroodlordLashlayer"] = "BlackwingLair",
+	["BlackwingLairFiremaw"] = "BlackwingLair",
+	["BlackwingLairEbonroc"] = "BlackwingLair",
+	["BlackwingLairFlamegor"] = "BlackwingLair",
+	["BlackwingLairChromaggus"] = "BlackwingLair",
+	["BlackwingLairNefarian"] = "BlackwingLair",
+	
+	-- The Ruins of Ahn'Qiraj
+	["RuinsOfAhnQirajKurinnaxx"] = "TheRuinsofAhnQiraj",
+	["RuinsOfAhnQirajGeneralRajaxx"] = "TheRuinsofAhnQiraj",
+	["RuinsOfAhnQirajBuruTheGorger"] = "TheRuinsofAhnQiraj",
+	["RuinsOfAhnQirajAyamissTheHunter"] = "TheRuinsofAhnQiraj",
+	["RuinsOfAhnQirajMoam"] = "TheRuinsofAhnQiraj",
+	["RuinsOfAhnQirajOssirianTheUnscarred"] = "TheRuinsofAhnQiraj",
+	
+	-- The Temple of Ahn'Qiraj
+	["TempleOfAhnQirajTheProphetSkeram"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajBugFamily"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajBattleguardSartura"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajFankrissTheUnyielding"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajViscidus"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajPrincessHuhuran"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajTwinEmperors"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajOuro"] = "TheTempleofAhnQiraj",
+	["TempleOfAhnQirajCThun"] = "TheTempleofAhnQiraj",
+	
+	-- Auchenai Crypts
+	["AuchenaiCryptsShirrakTheDeadWatcher"] = "AuchAuchenaiCrypts",
+	["AuchenaiCryptsExarchMaladaar"] = "AuchAuchenaiCrypts",
+	["AuchenaiCryptsAvatarOfTheMartyred"] = "AuchAuchenaiCrypts",
+	
+	-- Mana Tombs
+	["ManaTombsPandemonius"] = "AuchManaTombs",
+	["ManaTombsTavarok"] = "AuchManaTombs",
+	["ManaTombsNexusPrinceShaffar"] = "AuchManaTombs",
+	["ManaTombsYor"] = "AuchManaTombs",
+	
+	-- Sethekk Halls
+	["SethekkHallsDarkweaverSyth"] = "AuchSethekkHalls",
+	["SethekkHallsAnzu"] = "AuchSethekkHalls",
+	["SethekkHallsTalonKingIkiss"] = "AuchSethekkHalls",
+	
+	-- Shadow Labyrinth
+	["ShadowLabyrinthAmbassadorHellmaw"] = "AuchShadowLabyrinth",
+	["ShadowLabyrinthBlackheartTheInciter"] = "AuchShadowLabyrinth",
+	["ShadowLabyrinthGrandmasterVorpil"] = "AuchShadowLabyrinth",
+	["ShadowLabyrinthMurmur"] = "AuchShadowLabyrinth",
+	
+	-- Old Hillsbrad Foothills
+	["OldHillsbradLieutenantDrake"] = "CoTOldHillsbrad",
+	["OldHillsbradCaptainSkarloc"] = "CoTOldHillsbrad",
+	["OldHillsbradEpochHunter"] = "CoTOldHillsbrad",
+	
+	-- Black Morass
+	["BlackMorassChronoLordDeja"] = "CoTBlackMorass",
+	["BlackMorassTemporus"] = "CoTBlackMorass",
+	["BlackMorassAeonus"] = "CoTBlackMorass",
+	
+	-- The Slave Pens
+	["SlavePensMennuTheBetrayer"] = "CFRTheSlavePens",
+	["SlavePensRokmarTheCrackler"] = "CFRTheSlavePens",
+	["SlavePensQuagmirran"] = "CFRTheSlavePens",
+	
+	-- The Steamvault
+	["SteamvaultHydromancerThespia"] = "CFRTheSteamvault",
+	["SteamvaultMekgineerSteamrigger"] = "CFRTheSteamvault",
+	["SteamvaultWarlordKalithresh"] = "CFRTheSteamvault",
+	
+	-- The Underbog
+	["UnderbogHungarfen"] = "CFRTheUnderbog",
+	["UnderbogGhazan"] = "CFRTheUnderbog",
+	["UnderbogSwamplordMuselek"] = "CFRTheUnderbog",
+	["UnderbogTheBlackStalker"] = "CFRTheUnderbog",
+	
+	-- Hellfire Ramparts
+	["HellfireRampartsWatchkeeperGargolmar"] = "HCHellfireRamparts",
+	["HellfireRampartsOmorTheUnscarred"] = "HCHellfireRamparts",
+	["HellfireRampartsVazrudenNazan"] = "HCHellfireRamparts",
+	
+	-- Blood Furnace
+	["BloodFurnaceTheMaker"] = "HCBloodFurnace",
+	["BloodFurnaceBroggok"] = "HCBloodFurnace",
+	["BloodFurnaceKelidanTheBreaker"] = "HCBloodFurnace",
+	
+	-- The Shattered Halls
+	["ShatteredHallsGrandWarlockNethekurse"] = "HCTheShatteredHalls",
+	["ShatteredHallsBloodGuardPorung"] = "HCTheShatteredHalls",
+	["ShatteredHallsWarbringerOmrogg"] = "HCTheShatteredHalls",
+	["ShatteredHallsWarchiefKargathBladefist"] = "HCTheShatteredHalls",
+	
+	-- The Arcatraz
+	["ArcatrazZerekethTheUnbound"] = "TempestKeepArcatraz",
+	["ArcatrazDalliahTheDoomsayer"] = "TempestKeepArcatraz",
+	["ArcatrazWrathScryerSoccothrates"] = "TempestKeepArcatraz",
+	["ArcatrazHarbingerSkyriss"] = "TempestKeepArcatraz",
+	
+	-- The Botanica
+	["BotanicaCommanderSarannis"] = "TempestKeepBotanica",
+	["BotanicaHighBotanistFreywinn"] = "TempestKeepBotanica",
+	["BotanicaThorngrinTheTender"] = "TempestKeepBotanica",
+	["BotanicaLaj"] = "TempestKeepBotanica",
+	["BotanicaWarpSplinter"] = "TempestKeepBotanica",
+	
+	-- The Mechanar
+	["MechanarGatewatcherIronHand"] = "TempestKeepMechanar",
+	["MechanarMechanoLordCapacitus"] = "TempestKeepMechanar",
+	["MechanarGatewatcherGyroKill"] = "TempestKeepMechanar",
+	["MechanarCacheOfTheLegion"] = "TempestKeepMechanar",
+	["MechanarNethermancerSepethrea"] = "TempestKeepMechanar",
+	["MechanarPathaleonTheCalculator"] = "TempestKeepMechanar",
+	
+	-- Magisters' Terrace
+	["MagistersTerraceSelinFireheart"] = "MagistersTerrace",
+	["MagistersTerraceVexallus"] = "MagistersTerrace",
+	["MagistersTerracePriestessDelrissa"] = "MagistersTerrace",
+	["MagistersTerraceKaelthasSunstrider"] = "MagistersTerrace",
+	
+	-- Karazhan
+	["KarazhanServantsQuarters"] = "KarazhanStart",
+	["KarazhanAttumenTheHuntsman"] = "KarazhanStart",
+	["KarazhanMoroes"] = "KarazhanStart",
+	["KarazhanMaidenOfVirtue"] = "KarazhanStart",
+	["KarazhanOpera"] = "KarazhanStart",
+	["KarazhanNightbane"] = "KarazhanStart",
+	
+	["KarazhanTheCurator"] = "KarazhanEnd",
+	["KarazhanTerestianIllhoof"] = "KarazhanEnd",
+	["KarazhanShadeOfAran"] = "KarazhanEnd",
+	["KarazhanNetherspite"] = "KarazhanEnd",
+	["KarazhanChess"] = "KarazhanEnd",
+	["KarazhanPrinceMalchezaar"] = "KarazhanEnd",
+	["KarazhanTrash"] = "KarazhanEnd",
+	
+	-- Gruul's Lair
+	["GruulsLairHighKingMaulgar"] = "GruulsLair",
+	["GruulsLairGruulTheDragonkiller"] = "GruulsLair",
+	
+	-- Magtheridon's Lair
+	["MagtheridonsLairMagtheridon"] = "HCMagtheridonsLair",
+	
+	-- Serpentshrine Cavern
+	["SerpentshrineCavernHydrossTheUnstable"] = "CFRSerpentshrineCavern",
+	["SerpentshrineCavernTheLurkerBelow"] = "CFRSerpentshrineCavern",
+	["SerpentshrineCavernLeotherasTheBlind"] = "CFRSerpentshrineCavern",
+	["SerpentshrineCavernFathomLordKarathress"] = "CFRSerpentshrineCavern",
+	["SerpentshrineCavernMorogrimTidewalker"] = "CFRSerpentshrineCavern",
+	["SerpentshrineCavernLadyVashj"] = "CFRSerpentshrineCavern",
+	
+	-- The Eye
+	["TheEyeAlar"] = "TempestKeepTheEye",
+	["TheEyeVoidReaver"] = "TempestKeepTheEye",
+	["TheEyeHighAstromancerSolarian"] = "TempestKeepTheEye",
+	["TheEyeKaelthasSunstrider"] = "TempestKeepTheEye",
+	
+	-- Hyjal Summit
+	["HyjalRageWinterchill"] = "CoTHyjal",
+	["HyjalAnetheron"] = "CoTHyjal",
+	["HyjalKazrogal"] = "CoTHyjal",
+	["HyjalAzgalor"] = "CoTHyjal",
+	["HyjalArchimonde"] = "CoTHyjal",
+	
+	-- Black Temple
+	["BlackTempleHighWarlordNajentus"] = "BlackTempleStart",
+	["BlackTempleSupremus"] = "BlackTempleStart",
+	["BlackTempleShadeOfAkama"] = "BlackTempleStart",
+	
+	["BlackTempleTeronGorefiend"] = "BlackTempleBasement",
+	["BlackTempleGurtoggBloodboil"] = "BlackTempleBasement",
+	["BlackTempleReliquaryOfSouls"] = "BlackTempleBasement",
+	
+	["BlackTempleMotherShahraz"] = "BlackTempleTop",
+	["BlackTempleTheIllidariCouncil"] = "BlackTempleTop",
+	["BlackTempleIllidanStormrage"] = "BlackTempleTop",
+	
+	-- Zul'Aman
+	["ZulAmanAkilzon"] = "ZulAman",
+	["ZulAmanNalorakk"] = "ZulAman",
+	["ZulAmanJanalai"] = "ZulAman",
+	["ZulAmanHalazzi"] = "ZulAman",
+	["ZulAmanHexLordMalacrass"] = "ZulAman",
+	["ZulAmanZuljin"] = "ZulAman",
+	
+	-- Sunwell Plateau
+	["SunwellPlateauKalecgos"] = "SunwellPlateau",
+	["SunwellPlateauBrutallus"] = "SunwellPlateau",
+	["SunwellPlateauFelmyst"] = "SunwellPlateau",
+	["SunwellPlateauEredarTwins"] = "SunwellPlateau",
+	["SunwellPlateauMuru"] = "SunwellPlateau",
+	["SunwellPlateauKiljaeden"] = "SunwellPlateau",
+	
+	-- Ahn'Kahet
+	["AhnkahetElderNadox"] = "AhnKahet",
+	["AhnkahetPrinceTaldaram"] = "AhnKahet",
+	["AhnkahetAmanitar"] = "AhnKahet",
+	["AhnkahetJedogaShadowseeker"] = "AhnKahet",
+	["AhnkahetHeraldVolazj"] = "AhnKahet",
+	
+	-- Azjol'Nerub
+	["AzjolNerubKrikthirTheGatewatcher"] = "AzjolNerub",
+	["AzjolNerubHadronox"] = "AzjolNerub",
+	["AzjolNerubAnubarak"] = "AzjolNerub",
+	
+	-- Drak'Tharon Keep
+	["DrakTharonKeepTrollgore"] = "DrakTharonKeep",
+	["DrakTharonKeepNovosTheSummoner"] = "DrakTharonKeep",
+	["DrakTharonKeepKingDred"] = "DrakTharonKeep",
+	["DrakTharonKeepTheProphetTharonja"] = "DrakTharonKeep",
+	
+	-- Gundrak
+	["GundrakMoorabi"] = "Gundrak",
+	["GundrakEckTheFerocious"] = "Gundrak",
+	["GundrakDrakkariColossus"] = "Gundrak",
+	["GundrakSladran"] = "Gundrak",
+	["GundrakGaldarah"] = "Gundrak",
+	
+	-- Halls of Lightning
+	["HallsOfLightningGeneralBjarngrim"] = "UlduarHallsofLightning",
+	["HallsOfLightningVolkhan"] = "UlduarHallsofLightning",
+	["HallsOfLightningIonar"] = "UlduarHallsofLightning",
+	["HallsOfLightningLoken"] = "UlduarHallsofLightning",
+	
+	-- Halls of Stone
+	["HallsOfStoneKrystallus"] = "UlduarHallsofStone",
+	["HallsOfStoneMaidenOfGrief"] = "UlduarHallsofStone",
+	["HallsOfStoneTribunalOfTheAges"] = "UlduarHallsofStone",
+	["HallsOfStoneSjonnirTheIronshaper"] = "UlduarHallsofStone",
+	
+	-- Culling of Stratholme
+	["TheCullingOfStratholmeMeathook"] = "CoTOldStratholme",
+	["TheCullingOfStratholmeSalrammTheFleshcrafter"] = "CoTOldStratholme",
+	["TheCullingOfStratholmeChronoLordEpoch"] = "CoTOldStratholme",
+	["TheCullingOfStratholmeMalGanis"] = "CoTOldStratholme",
+	
+	-- The Nexus
+	["TheNexusCommander"] = "TheNexus",
+	["TheNexusGrandMagusTelestra"] = "TheNexus",
+	["TheNexusAnomalus"] = "TheNexus",
+	["TheNexusOrmorokTheTreeShaper"] = "TheNexus",
+	["TheNexusKeristrasza"] = "TheNexus",
+	
+	-- The Oculus
+	["TheOculusDrakosTheInterrogator"] = "TheOculus",
+	["TheOculusVarosCloudstrider"] = "TheOculus",
+	["TheOculusMageLordUrom"] = "TheOculus",
+	["TheOculusLeyGuardianEregos"] = "TheOculus",
+	
+	-- The Violet Hold
+	["TheVioletHoldErekem"] = "VioletHold",
+	["TheVioletHoldIchoron"] = "VioletHold",
+	["TheVioletHoldLavanthor"] = "VioletHold",
+	["TheVioletHoldMoragg"] = "VioletHold",
+	["TheVioletHoldXevozz"] = "VioletHold",
+	["TheVioletHoldZuramatTheObliterator"] = "VioletHold",
+	["TheVioletHoldCyanigosa"] = "VioletHold",
+
+	-- Trial of the Champion
+	["TrialOfTheChampionGrandChampions"] = "TrialOfTheChampion",
+	["TrialOfTheChampionArgentConfessorPaletress"] = "TrialOfTheChampion",
+	["TrialOfTheChampionEadricThePure"] = "TrialOfTheChampion",
+	["TrialOfTheChampionTheBlackKnight"] = "TrialOfTheChampion",
+	
+	-- Utgarde Keep
+	["UtgardeKeepPrinceKeleseth"] = "UtgardeKeep",
+	["UtgardeKeepSkarvaldAndDalronn"] = "UtgardeKeep",
+	["UtgardeKeepIngvarThePlunderer"] = "UtgardeKeep",
+	
+	-- Utgarde Pinnacle
+	["UtgardePinnacleSvalaSorrowgrave"] = "UtgardePinnacle",
+	["UtgardePinnacleGortokPalehoof"] = "UtgardePinnacle",
+	["UtgardePinnacleSkadiTheRuthless"] = "UtgardePinnacle",
+	["UtgardePinnacleKingYmiron"] = "UtgardePinnacle",
+	
+	-- The Forge of Souls
+	["ForgeOfSoulsBronjahm"] = "FHTheForgeOfSouls",
+	["ForgeOfSoulsDevourerOfSouls"] = "FHTheForgeOfSouls",
+	
+	-- Pit of Saron
+	["PitOfSaronForgemasterGarfrost"] = "FHPitOfSaron",
+	["PitOfSaronKrickAndIck"] = "FHPitOfSaron",
+	["PitOfSaronScourgelordTyrannus"] = "FHPitOfSaron",
+	
+	-- Halls of Reflection
+	["HallsOfReflectionFalric"] = "FHHallsOfReflection",
+	["HallsOfReflectionMarwyn"] = "FHHallsOfReflection",
+	["HallsOfReflectionTheLichKing"] = "FHHallsOfReflection",
+	
+	-- Naxxramas
+	["NaxxramasPatchwerk"] = "Naxxramas",
+	["NaxxramasGrobbulus"] = "Naxxramas",
+	["NaxxramasGluth"] = "Naxxramas",
+	["NaxxramasThaddius"] = "Naxxramas",
+	["NaxxramasAnubRekhan"] = "Naxxramas",
+	["NaxxramasGrandWidowFaerlina"] = "Naxxramas",
+	["NaxxramasMaexxna"] = "Naxxramas",
+	["NaxxramasInstructorRazuvious"] = "Naxxramas",
+	["NaxxramasGothikTheHarvester"] = "Naxxramas",
+	["NaxxramasFourHorseman"] = "Naxxramas",
+	["NaxxramasNothThePlaguebringer"] = "Naxxramas",
+	["NaxxramasHeiganTheUnclean"] = "Naxxramas",
+	["NaxxramasLoatheb"] = "Naxxramas",
+	["NaxxramasSapphiron"] = "Naxxramas",
+	["NaxxramasKelThuzad"] = "Naxxramas",
+	
+	-- The Obsidian Sanctum
+	["ObsidianSanctumSartharion"] = "ObsidianSanctum",
+	
+	-- The Eye of Eternity
+	["TheEyeOfEternityMalygos"] = "TheEyeOfEternity",
+	
+	-- Ulduar
+	["UlduarFlameLeviathan"] = "UlduarA",
+	["UlduarIgnisTheFurnaceMaster"] = "UlduarA",
+	["UlduarRazorscale"] = "UlduarA",
+	["UlduarXT002Deconstructor"] = "UlduarA",
+	["UlduarIronCouncil"] = "UlduarB",
+	["UlduarAlgalonTheObserver"] = "UlduarB",
+	["UlduarKologarn"] = "UlduarB",
+	["UlduarAuriaya"] = "UlduarC",
+	["UlduarHodir"] = "UlduarC",
+	["UlduarThorim"] = "UlduarC",
+	["UlduarFreya"] = "UlduarC",
+	["UlduarMimiron"] = "UlduarD",
+	["UlduarGeneralVezax"] = "UlduarE",
+	["UlduarYoggSaron"] = "UlduarE",
+	
+	-- Trial of the Crusader
+	["TrialOftheCrusaderNorthrendBeasts"] = "TrialOfTheCrusader",
+	["TrialOftheCrusaderLordJaraxxus"] = "TrialOfTheCrusader",
+	["TrialOftheCrusaderFactionChampions"] = "TrialOfTheCrusader",
+	["TrialOftheCrusaderTwinValkyr"] = "TrialOfTheCrusader",
+	["TrialOftheCrusaderAnubarak"] = "TrialOfTheCrusader",
+	
+	-- Onyxia's Lair
+	["OnyxiasLairOnyxia"] = "OnyxiasLair",
+	
+	-- Icecrown Citadel
+	["IcecrownCitadelLordMarrowgar"] = "IcecrownCitadelA",
+	["IcecrownCitadelLadyDeathwhisper"] = "IcecrownCitadelA",
+	["IcecrownCitadelGunshipBattle"] = "IcecrownCitadelA",
+	["IcecrownCitadelDeathbringerSaurfang"] = "IcecrownCitadelA",
+	
+	["IcecrownCitadelFestergut"] = "IcecrownCitadelB",
+	["IcecrownCitadelRotface"] = "IcecrownCitadelB",
+	["IcecrownCitadelProfessorPutricide"] = "IcecrownCitadelB",
+	["IcecrownCitadelBloodPrinceCouncil"] = "IcecrownCitadelB",
+	["IcecrownCitadelBloodQueenLanathel"] = "IcecrownCitadelB",
+	["IcecrownCitadelValithriaDreamwalker"] = "IcecrownCitadelB",
+	["IcecrownCitadelSindragosa"] = "IcecrownCitadelB",
+	
+	["IcecrownCitadelTheLichKing"] = "IcecrownCitadelC",
+	
+	-- The Ruby Sanctum
+	["RubySanctumHalion"] = "RubySanctum",
+	
+	-- Vault of Archavon
+	["ARCHAVON"] = "VaultOfArchavon",
+	["EMALON"] = "VaultOfArchavon",
+	["KORALON"] = "VaultOfArchavon",
+	["TORAVON"] = "VaultOfArchavon",
+	
+	-- Mythic Auchenai Crypts
+	["MythicAuchenaiCryptsShirrakTheDeadWatcher"] = "AuchAuchenaiCrypts",
+	["MythicAuchenaiCryptsExarchMaladaar"] = "AuchAuchenaiCrypts",
+	["MythicAuchenaiCryptsAvatarOfTheMartyred"] = "AuchAuchenaiCrypts",
+	
+	-- Mythic Mana Tombs
+	["MythicManaTombsPandemonius"] = "AuchManaTombs",
+	["MythicManaTombsTavarok"] = "AuchManaTombs",
+	["MythicManaTombsNexusPrinceShaffar"] = "AuchManaTombs",
+	["MythicManaTombsYor"] = "AuchManaTombs",
+	
+	-- Mythic Sethekk Halls
+	["MythicSethekkHallsDarkweaverSyth"] = "AuchSethekkHalls",
+	["MythicSethekkHallsAnzu"] = "AuchSethekkHalls",
+	["MythicSethekkHallsTalonKingIkiss"] = "AuchSethekkHalls",
+	
+	-- Mythic Shadow Labyrinth
+	["MythicShadowLabyrinthAmbassadorHellmaw"] = "AuchShadowLabyrinth",
+	["MythicShadowLabyrinthBlackheartTheInciter"] = "AuchShadowLabyrinth",
+	["MythicShadowLabyrinthGrandmasterVorpil"] = "AuchShadowLabyrinth",
+	["MythicShadowLabyrinthMurmur"] = "AuchShadowLabyrinth",
+	
+	-- Mythic Old Hillsbrad Foothills
+	["MythicOldHillsbradLieutenantDrake"] = "CoTOldHillsbrad",
+	["MythicOldHillsbradCaptainSkarloc"] = "CoTOldHillsbrad",
+	["MythicOldHillsbradEpochHunter"] = "CoTOldHillsbrad",
+	
+	-- Mythic Black Morass
+	["MythicBlackMorassChronoLordDeja"] = "CoTBlackMorass",
+	["MythicBlackMorassTemporus"] = "CoTBlackMorass",
+	["MythicBlackMorassAeonus"] = "CoTBlackMorass",
+	
+	-- Mythic The Slave Pens
+	["MythicSlavePensMennuTheBetrayer"] = "CFRTheSlavePens",
+	["MythicSlavePensRokmarTheCrackler"] = "CFRTheSlavePens",
+	["MythicSlavePensQuagmirran"] = "CFRTheSlavePens",
+	
+	-- Mythic The Steamvault
+	["MythicSteamvaultHydromancerThespia"] = "CFRTheSteamvault",
+	["MythicSteamvaultMekgineerSteamrigger"] = "CFRTheSteamvault",
+	["MythicSteamvaultWarlordKalithresh"] = "CFRTheSteamvault",
+	
+	-- Mythic The Underbog
+	["MythicUnderbogHungarfen"] = "CFRTheUnderbog",
+	["MythicUnderbogGhazan"] = "CFRTheUnderbog",
+	["MythicUnderbogSwamplordMuselek"] = "CFRTheUnderbog",
+	["MythicUnderbogTheBlackStalker"] = "CFRTheUnderbog",
+	
+	-- Mythic Hellfire Ramparts
+	["MythicHellfireRampartsWatchkeeperGargolmar"] = "HCHellfireRamparts",
+	["MythicHellfireRampartsOmorTheUnscarred"] = "HCHellfireRamparts",
+	["MythicHellfireRampartsVazrudenNazan"] = "HCHellfireRamparts",
+	
+	-- Mythic Blood Furnace
+	["MythicTheBloodFurnaceTheMaker"] = "HCBloodFurnace",
+	["MythicTheBloodFurnaceBroggok"] = "HCBloodFurnace",
+	["MythicTheBloodFurnaceKelidanTheBreaker"] = "HCBloodFurnace",
+	
+	-- Mythic The Shattered Halls
+	["MythicShatteredHallsGrandWarlockNethekurse"] = "HCTheShatteredHalls",
+	["MythicShatteredHallsBloodGuardPorung"] = "HCTheShatteredHalls",
+	["MythicShatteredHallsWarbringerOmrogg"] = "HCTheShatteredHalls",
+	["MythicShatteredHallsWarchiefKargathBladefist"] = "HCTheShatteredHalls",
+	
+	-- Mythic The Arcatraz
+	["MythicArcatrazZerekethTheUnbound"] = "TempestKeepArcatraz",
+	["MythicArcatrazDalliahTheDoomsayer"] = "TempestKeepArcatraz",
+	["MythicArcatrazWrathScryerSoccothrates"] = "TempestKeepArcatraz",
+	["MythicArcatrazHarbingerSkyriss"] = "TempestKeepArcatraz",
+	
+	-- Mythic The Botanica
+	["MythicBotanicaCommanderSarannis"] = "TempestKeepBotanica",
+	["MythicBotanicaHighBotanistFreywinn"] = "TempestKeepBotanica",
+	["MythicBotanicaThorngrinTheTender"] = "TempestKeepBotanica",
+	["MythicBotanicaLaj"] = "TempestKeepBotanica",
+	["MythicBotanicaWarpSplinter"] = "TempestKeepBotanica",
+	
+	-- Mythic The Mechanar
+	["MythicMechanarGatewatcherIronHand"] = "TempestKeepMechanar",
+	["MythicMechanarMechanoLordCapacitus"] = "TempestKeepMechanar",
+	["MythicMechanarGatewatcherGyroKill"] = "TempestKeepMechanar",
+	["MythicMechanarCacheOfTheLegion"] = "TempestKeepMechanar",
+	["MythicMechanarNethermancerSepethrea"] = "TempestKeepMechanar",
+	["MythicMechanarPathaleonTheCalculator"] = "TempestKeepMechanar",
+	
+	-- Mythic Magisters' Terrace
+	["MythicMagistersTerraceSelinFireheart"] = "MagistersTerrace",
+	["MythicMagistersTerraceVexallus"] = "MagistersTerrace",
+	["MythicMagistersTerracePriestessDelrissa"] = "MagistersTerrace",
+	["MythicMagistersTerraceKaelthasSunstrider"] = "MagistersTerrace",
+	
+	-- Mythic Ahn'Kahet
+	["MythicAhnkahetElderNadox"] = "AhnKahet",
+	["MythicAhnkahetPrinceTaldaram"] = "AhnKahet",
+	["MythicAhnkahetAmanitar"] = "AhnKahet",
+	["MythicAhnkahetJedogaShadowseeker"] = "AhnKahet",
+	["MythicAhnkahetHeraldVolazj"] = "AhnKahet",
+	
+	-- Mythic Azjol'Nerub
+	["MythicAzjolNerubKrikthirTheGatewatcher"] = "AzjolNerub",
+	["MythicAzjolNerubHadronox"] = "AzjolNerub",
+	["MythicAzjolNerubAnubarak"] = "AzjolNerub",
+	
+	-- Mythic Drak'Tharon Keep
+	["MythicDrakTharonKeepTrollgore"] = "DrakTharonKeep",
+	["MythicDrakTharonKeepNovosTheSummoner"] = "DrakTharonKeep",
+	["MythicDrakTharonKeepKingDred"] = "DrakTharonKeep",
+	["MythicDrakTharonKeepTheProphetTharonja"] = "DrakTharonKeep",
+	
+	-- Mythic Gundrak
+	["MythicGundrakMoorabi"] = "Gundrak",
+	["MythicGundrakEckTheFerocious"] = "Gundrak",
+	["MythicGundrakDrakkariColossus"] = "Gundrak",
+	["MythicGundrakSladran"] = "Gundrak",
+	["MythicGundrakGaldarah"] = "Gundrak",
+	
+	-- Mythic Halls of Lightning
+	["MythicHallsOfLightningGeneralBjarngrim"] = "UlduarHallsofLightning",
+	["MythicHallsOfLightningVolkhan"] = "UlduarHallsofLightning",
+	["MythicHallsOfLightningIonar"] = "UlduarHallsofLightning",
+	["MythicHallsOfLightningLoken"] = "UlduarHallsofLightning",
+	
+	-- Mythic Halls of Stone
+	["MythicHallsOfStoneKrystallus"] = "UlduarHallsofStone",
+	["MythicHallsOfStoneMaidenOfGrief"] = "UlduarHallsofStone",
+	["MythicHallsOfStoneTribunalOfTheAges"] = "UlduarHallsofStone",
+	["MythicHallsOfStoneSjonnirTheIronshaper"] = "UlduarHallsofStone",
+	
+	-- Mythic Culling of Stratholme
+	["MythicTheCullingOfStratholmeMeathook"] = "CoTOldStratholme",
+	["MythicTheCullingOfStratholmeSalrammTheFleshcrafter"] = "CoTOldStratholme",
+	["MythicTheCullingOfStratholmeChronoLordEpoch"] = "CoTOldStratholme",
+	["MythicTheCullingOfStratholmeMalGanis"] = "CoTOldStratholme",
+	
+	-- Mythic The Nexus
+	["MythicTheNexusCommander"] = "TheNexus",
+	["MythicTheNexusGrandMagusTelestra"] = "TheNexus",
+	["MythicTheNexusAnomalus"] = "TheNexus",
+	["MythicTheNexusOrmorokTheTreeShaper"] = "TheNexus",
+	["MythicTheNexusKeristrasza"] = "TheNexus",
+	
+	-- Mythic The Oculus
+	["MythicTheOculusDrakosTheInterrogator"] = "TheOculus",
+	["MythicTheOculusVarosCloudstrider"] = "TheOculus",
+	["MythicTheOculusMageLordUrom"] = "TheOculus",
+	["MythicTheOculusLeyGuardianEregos"] = "TheOculus",
+	
+	-- Mythic The Violet Hold
+	["MythicTheVioletHoldErekem"] = "VioletHold",
+	["MythicTheVioletHoldIchoron"] = "VioletHold",
+	["MythicTheVioletHoldLavanthor"] = "VioletHold",
+	["MythicTheVioletHoldMoragg"] = "VioletHold",
+	["MythicTheVioletHoldXevozz"] = "VioletHold",
+	["MythicTheVioletHoldZuramatTheObliterator"] = "VioletHold",
+	["MythicTheVioletHoldCyanigosa"] = "VioletHold",
+
+	-- Mythic Trial of the Champion
+	["MythicTrialOfTheChampionGrandChampions"] = "TrialOfTheChampion",
+	["MythicTrialOfTheChampionArgentConfessorPaletress"] = "TrialOfTheChampion",
+	["MythicTrialOfTheChampionEadricThePure"] = "TrialOfTheChampion",
+	["MythicTrialOfTheChampionTheBlackKnight"] = "TrialOfTheChampion",
+	
+	-- Mythic Utgarde Keep
+	["MythicUtgardeKeepPrinceKeleseth"] = "UtgardeKeep",
+	["MythicUtgardeKeepSkarvaldAndDalronn"] = "UtgardeKeep",
+	["MythicUtgardeKeepIngvarThePlunderer"] = "UtgardeKeep",
+	
+	-- Mythic Utgarde Pinnacle
+	["MythicUtgardePinnacleSvalaSorrowgrave"] = "UtgardePinnacle",
+	["MythicUtgardePinnacleGortokPalehoof"] = "UtgardePinnacle",
+	["MythicUtgardePinnacleSkadiTheRuthless"] = "UtgardePinnacle",
+	["MythicUtgardePinnacleKingYmiron"] = "UtgardePinnacle",
+	
+	-- Mythic The Forge of Souls
+	["MythicForgeOfSoulsBronjahm"] = "FHTheForgeOfSouls",
+	["MythicForgeOfSoulsDevourerOfSouls"] = "FHTheForgeOfSouls",
+	
+	-- Mythic Pit of Saron
+	["MythicPitOfSaronForgemasterGarfrost"] = "FHPitOfSaron",
+	["MythicPitOfSaronKrickAndIck"] = "FHPitOfSaron",
+	["MythicPitOfSaronScourgelordTyrannus"] = "FHPitOfSaron",
+	
+	-- Mythic Halls of Reflection
+	["MythicHallsOfReflectionFalric"] = "FHHallsOfReflection",
+	["MythicHallsOfReflectionMarwyn"] = "FHHallsOfReflection",
+	["MythicHallsOfReflectionTheLichKing"] = "FHHallsOfReflection",
+}
+
+-- Function to load a map for a given instance
+function AtlasLoot:LoadInstanceMap(instanceKey)
+    if not instanceKey or not AtlasLootMapTexture then
+        return false
+    end
+    
+    local cleanInstanceKey = self:FormatDataID(instanceKey)
+    local mapFile = self.InstanceToMap[cleanInstanceKey]
+    
+    if mapFile then
+        local success = AtlasLootMapTexture:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\Maps\\" .. mapFile)
+        
+        if not success then
+            success = AtlasLootMapTexture:SetTexture("Interface\\AddOns\\Atlas\\Images\\Maps\\" .. mapFile)
+        end
+        
+        if success then
+            AtlasLootMapTexture:Show()  -- Just show the map, don't hide black square
+            return true
+        end
+    end
+    
+    AtlasLootMapTexture:Hide()
+    return false
+end
+
+--==================================================
+-- END ATLAS MAP INTEGRATION
+--==================================================
+
 --Flag so that error messages do not spam
 local ATLASLOOT_POPUPSHOWN = false;
 
@@ -367,7 +1251,7 @@ function AtlasLoot:CreateSelectBossLineButton(parent, point, name)
 
 	bossLineButton.Loot = bossLineButton:CreateTexture(name .. "_Loot", "OVERLAY")
 	bossLineButton.Loot:SetPoint("RIGHT", bossLineButton, "RIGHT")
-	bossLineButton.Loot:SetTexture(AtlasLoot.imagePath .. "silver")
+	bossLineButton.Loot:SetTexture(AtlasLoot.imagePath .. "AtlasIcon")
 	bossLineButton.Loot:SetHeight(16)
 	bossLineButton.Loot:SetWidth(16)
 	bossLineButton.Loot:Hide()
@@ -1272,6 +2156,21 @@ do
 		itemCache = nil
 	end
 end
+
+-- Hook the original ShowLootPage to add map loading
+do
+    local originalShowLootPage = AtlasLoot.ShowLootPage
+    function AtlasLoot:ShowLootPage(dataID, pFrame)
+        -- Call the original function first
+        originalShowLootPage(self, dataID, pFrame)
+        
+        -- Then try to load the appropriate map
+        if dataID and AtlasLootMapTexture then
+            self:LoadInstanceMap(dataID)
+        end
+    end
+end
+
 -----------------------------
 -- pFrame (ItemInfoFrame)
 -----------------------------
