@@ -395,7 +395,7 @@ AtlasLoot_Data["AzjolNerubAnubarak"] = {
         },
     },
     info = {
-        name = BabbleBoss["Anub'arak"],
+        name = BabbleBoss["Anub'arakAN"],
         module = moduleName,
         instance = "AzjolNerub",
     },
@@ -6211,7 +6211,7 @@ AtlasLoot_Data["TrialOftheCrusaderAnubarak"] = {
         },
     },
     info = {
-        name = BabbleBoss["Anub'arak"],
+        name = BabbleBoss["Anub'arakToC"],
         module = moduleName,
         instance = "TrialOfTheCrusader",
     },
@@ -6920,7 +6920,7 @@ AtlasLoot_Data["HallsOfReflectionTheLichKing"] = {
         },
     },
     info = {
-        name = BabbleBoss["The Lich King"],
+        name = BabbleBoss["The Lich KingHoR"],
         module = moduleName,
         instance = "FHHallsOfReflection",
     },
@@ -7951,7 +7951,7 @@ AtlasLoot_Data["IcecrownCitadelTheLichKing"] = {
         },
     },
     info = {
-        name = BabbleBoss["The Lich King"],
+        name = BabbleBoss["The Lich KingICC"],
         module = moduleName,
         instance = "IcecrownCitadel",
     },
