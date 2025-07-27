@@ -217,11 +217,11 @@ AtlasLoot_LootTableRegister = {
         ["VioletHold"] = {
             ["Bosses"] = {
                 { "TheVioletHoldErekem",                1 },
-				{ "TheVioletHoldZuramatTheObliterator", 6 },
-                { "TheVioletHoldIchoron",               2 },
-				{ "TheVioletHoldMoragg",                4 },
-                { "TheVioletHoldLavanthor",             3 },
-                { "TheVioletHoldXevozz",                5 },
+				{ "TheVioletHoldZuramatTheObliterator", 2 },
+                { "TheVioletHoldXevozz",                3 },
+                { "TheVioletHoldIchoron",               4 },
+				{ "TheVioletHoldMoragg",                5 },
+                { "TheVioletHoldLavanthor",             6 },
                 { "TheVioletHoldCyanigosa",             7 },
                 { "TheVioletHoldTrash",                 8 },
             },
