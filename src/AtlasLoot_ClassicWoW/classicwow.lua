@@ -939,7 +939,7 @@ AtlasLoot_Data["BlackrockDepthsDarkKeepers"] = {
         },
     },
     info = {
-        name = "Dark Keepers",
+        name = "8) Dark Keepers",
         module = moduleName,
         instance = "BlackrockDepths",
     },
@@ -995,7 +995,7 @@ AtlasLoot_Data["BlackrockDepthsWatchmanDoomgrip"] = {
         },
     },
     info = {
-        name = "Watchman Doomgrip",
+        name = "8) Watchman Doomgrip",
         module = moduleName,
         instance = "BlackrockDepths",
     },
@@ -4628,7 +4628,7 @@ AtlasLoot_Data["LiveStratholmeMalorTheZealous"] = {
         }
     },
     info = {
-        name = "Malor the Zealous",
+        name = "7) Malor the Zealous",
         module = moduleName,
         instance = "StratholmeCrusader",
     },
@@ -6089,7 +6089,7 @@ AtlasLoot_Data["ZulGurubEdgeOfMadness"] = {
         }
     },
     info = {
-        name = "Edge of Madness",
+        name = "6) Edge of Madness",
         module = moduleName,
         instance = "ZulGurub",
     },
