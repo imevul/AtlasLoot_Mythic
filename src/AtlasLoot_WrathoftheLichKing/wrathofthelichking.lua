@@ -12857,7 +12857,7 @@ AtlasLoot_Data["PetsRare"] = {
             { 19, 8498,  "",           "=q1=Tiny Emerald Whelpling",       "=ds=" .. BabbleZone["Feralas"] },
             { 22, 0,     "INV_Box_01", "=q6=" .. AL["Dungeon/Raid"],       "" },
             { 23, 33993, "",           "=q3=Mojo",                         "=q1=" .. BabbleZone["Zul'Aman"] },
-            { 24, 35504, "",           "=q3=Phoenix Hatchling",            "=q2=" .. BabbleBoss["Kael'thas Sunstrider"] .. ", =q1=" .. BabbleZone["Magisters' Terrace"] },
+            { 24, 35504, "",           "=q3=Phoenix Hatchling",            "=q2=" .. BabbleBoss["Kael'thas SunstriderMT"] .. ", =q1=" .. BabbleZone["Magisters' Terrace"] },
             { 25, 12264, "",           "=q3=Worg Carrier",                 "=q1=" .. BabbleZone["Lower Blackrock Spire"] },
             { 26, 48114, "",           "=q1=Deviate Hatchling",            "=q2=" .. AL["Deviate Ravager/Deviate Guardian"] .. ", =q1=" .. BabbleZone["Wailing Caverns"] },
         },
