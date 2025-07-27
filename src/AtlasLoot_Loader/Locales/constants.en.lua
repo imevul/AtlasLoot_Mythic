@@ -963,8 +963,8 @@ if AL then
     -- NPCs missing from BabbleBoss
     AL["Trash Mobs"] = true;
     AL["Dungeon Set 2 Summonable"] = true;
-    AL["Theldren"] = true;
-    AL["Sothos and Jarien"] = true;
+    AL["Theldren"] = "6) Theldren";
+    AL["Sothos and Jarien"] = "11) Sothos and Jarien";
     AL["Druid of the Fang"] = true;
     AL["Defias Strip Miner"] = true;
     AL["Defias Overseer/Taskmaster"] = true;
@@ -975,7 +975,7 @@ if AL then
     AL["Herod/Mograine"] = true;
     AL["Scarlet Protector/Guardsman"] = true;
     AL["Shadowforge Flame Keeper"] = true;
-    AL["Avatar of the Martyred"] = true;
+    AL["Avatar of the Martyred"] = "2) Avatar of the Martyred";
     AL["Nexus Stalker"] = true;
     AL["Auchenai Monk"] = true;
     AL["Cabal Fanatic"] = true;
@@ -1052,13 +1052,13 @@ if AL then
     AL["Dukes"] = true;
     AL["High Council"] = true;
     AL["Scarshield Quartermaster"] = true;
-    AL["Father Flame"] = true;
+    AL["Father Flame"] = "2) Father Flame";
     AL["Thomas Yance"] = true;
-    AL["Knot Thimblejack"] = true;
+    AL["Knot Thimblejack"] = "4) Knot Thimblejack";
     AL["Shen'dralar Provisioner"] = true;
     AL["The Nameles Prophet"] = true;
     AL["Rajaxx's Captains"] = true;
-    AL["Razorfen Spearhide"] = true;
+    AL["Razorfen Spearhide"] = "4) Razorfen Spearhide";
     AL["Magregan Deepshadow"] = true;
     AL["Don Carlos"] = true;
     AL["Thomas Yance"] = true;
@@ -1068,7 +1068,7 @@ if AL then
     AL["Time-Lost Proto Drake"] = true;
     AL["Razzashi Raptor"] = true;
     AL["Deviate Ravager/Deviate Guardian"] = true;
-    AL["Servant's Quarter Animal Bosses"] = true;
+    AL["Servant's Quarter Animal Bosses"] = "1) Servant's Quarter Animal Bosses";
     AL["Jadefang"] = true;
     AL["Aeonaxx"] = true;
     AL["Prince Sarsarun"] = true;
@@ -1092,12 +1092,12 @@ if AL then
     AL["Avatar"] = true; -- Avatar of the Martyred
 
     -- Chests, etc
-    AL["Ring of Law"] = true;
+    AL["Ring of Law"] = "6) Ring of Law";
     AL["Monument of Franclorn Forgewright"] = true;
-    AL["The Grim Guzzler"] = true;
-    AL["Summoner's Tomb"] = true;
+    AL["The Grim Guzzler"] = "15) The Grim Guzzler";
+    AL["Summoner's Tomb"] = "18) Summoner's Tomb";
     AL["The Secret Safe"] = true;
-    AL["The Vault"] = true;
+    AL["The Vault"] = "8) The Vault";
     AL["Ogre Tannin Basket"] = true;
     AL["Fengus's Chest"] = true;
     AL["Unfinished Painting"] = true;
@@ -1130,7 +1130,7 @@ if AL then
     AL["Krom Stoutarm's Chest"] = true;
     AL["Garrett Family Chest"] = true;
     AL["Reinforced Fel Iron Chest"] = true;
-    AL["DM North Tribute Chest"] = true;
+    AL["DM North Tribute Chest"] = "6) DM North Tribute Chest";
     AL["The Saga of Terokk"] = true;
     AL["First Fragment Guardian"] = true;
     AL["Second Fragment Guardian"] = true;
