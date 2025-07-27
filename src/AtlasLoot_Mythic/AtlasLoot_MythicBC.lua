@@ -1394,7 +1394,7 @@ AtlasLoot_Data["MythicMagistersTerraceKaelthasSunstrider"] = {
         }
     },
     info = {
-        name = BabbleBoss["Kael'thas Sunstrider"] .. "+",
+        name = BabbleBoss["Kael'thas SunstriderMT"] .. "+",
         module = moduleName,
         instance = "MythicMagistersTerrace",
     },
