@@ -19,7 +19,8 @@ function AtlasLoot:CreateAtlasInfoFrame()
 	Frame.Version = Frame:CreateFontString(nil,"OVERLAY","GameFontNormalSmall")
 	Frame.Version:SetPoint("TOPLEFT", Frame, "TOPLEFT", 0, 0)
 	Frame.Version:SetText(ATLASLOOT_VERSION);
-	Frame.Version:SetWidth(Frame.Version:GetStringWidth() < 180 and Frame.Version:GetStringWidth()+5 or 180)
+	--Frame.Version:SetWidth(Frame.Version:GetStringWidth() < 180 and Frame.Version:GetStringWidth()+5 or 180) --original code
+	Frame.Version:SetWidth(250)
 	Frame.Version:SetHeight(10)
 	
 	Frame.Info = Frame:CreateFontString(nil,"OVERLAY","GameFontNormalSmall")
