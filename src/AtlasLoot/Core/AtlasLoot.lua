@@ -15,8 +15,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 local VERSION_MAJOR = "6";
 local VERSION_MINOR = "05";
 local VERSION_BOSSES = "04";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v" .. VERSION_MAJOR .. "." .. VERSION_MINOR ..
-"." .. VERSION_BOSSES .. "|r";
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v" .. VERSION_MAJOR .. "." .. VERSION_MINOR .. "." .. VERSION_BOSSES .. " [Synastria Edition]|r";
 ATLASLOOT_VERSION_NUM = VERSION_MAJOR .. "." .. VERSION_MINOR .. "." .. VERSION_BOSSES
 
 --Now allows for multiple compatible Atlas versions.  Always put the newest first

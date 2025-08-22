@@ -170,9 +170,10 @@ end
 
 -- Create the Slashs /al and /atlasloot
 function AtlasLoot:CreateSlash()
-	--Enable the use of /al or /atlasloot to open the loot browser
+	--Enable the use of /atlasloot, /al or /at to open the loot browser
 	SLASH_ATLASLOOT1 = "/atlasloot";
 	SLASH_ATLASLOOT2 = "/al";
+	SLASH_ATLASLOOT3 = "/at";
 	SlashCmdList["ATLASLOOT"] = function(msg)
 		self:SlashCommand(msg);
 	end
