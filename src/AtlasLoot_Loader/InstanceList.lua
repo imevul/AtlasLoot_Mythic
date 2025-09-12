@@ -859,6 +859,7 @@ AtlasLoot_InstanceList_Loader = {
 	["BilgewaterCartel"] = 1,
 	["LeatherworkingMailFrostscaleBinding"] = 4,
 	["MountsRemoved"] = 3,
+	["MountsGamble"] = 3,
 	["BWLTrashMobs"] = 1,
 	["AQEnchants"] = 1,
 	["Terokkar"] = 2,
