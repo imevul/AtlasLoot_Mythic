@@ -2178,6 +2178,7 @@ AtlasLoot_LootTableRegister = {
                 { "MountsCraftQuest" },
                 { "MountsCardGamePromotional" },
                 { "MountsEvent" },
+                { "MountsGamble" },
                 { "MountsRemoved" },
             },
             ["Info"] = { BabbleInventory["Mounts"], "AtlasLootWotLK" },

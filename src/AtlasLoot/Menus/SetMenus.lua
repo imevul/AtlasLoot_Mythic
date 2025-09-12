@@ -114,7 +114,8 @@ AtlasLoot_Data["MOUNTMENU"] = {
             { 23, "MountsRareRaid",            "inv_misc_summerfest_brazierorange", "=ds=" .. AL["Rare Mounts"],                                                                                                   "=ec1=" .. AL["Raid"] },
             { 24, "MountsAchievement",         "ability_hunter_pet_dragonhawk",     "=ds=" .. AL["Achievement Reward"],                                                                                            "" },
             { 25, "MountsCardGamePromotional", "ability_mount_bigblizzardbear",     "=ds=" .. AL["Promotional & Card Game"],                                                                                       "" },
-            { 26, "MountsRemoved",             "INV_Misc_QirajiCrystal_05",         "=ds=" .. AL["Unobtainable Mounts"],                                                                                           "" },
+            { 26, "MountsGamble",              "inv_crate_03",  			        "=ds=Gamble Box Mounts",                                                                                          			   "" },
+            { 27, "MountsRemoved",             "INV_Misc_QirajiCrystal_05",         "=ds=" .. AL["Unobtainable Mounts"],                                                                                           "" },
         },
     },
     info = {
