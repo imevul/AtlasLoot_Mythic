@@ -13695,13 +13695,9 @@ AtlasLoot_Data["MountsGamble"] = {
             { 3, 38576, "", "=q4=Big Battle Bear", "" },
             { 4, 46778, "", "=q4=Magic Rooster Egg", "" },
             { 5, 33225, "", "=q4=Reins of the Swift Spectral Tiger", "" },
-            { 6, 23720, "", "=q4=Riding Turtle", "" },
-            { 7, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#" },
-            { 8, 35226, "", "=q4=X-51 Nether-Rocket X-TREME", "" },
-            { 9, 54860, "", "=q4=X-53 Touring Rocket", "" },
-            { 10, 33224, "", "=q3=Reins of the Spectral Tiger", "" },
-            { 11, 35225, "", "=q3=X-51 Nether-Rocket", "" },
-			
+            { 6, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#" },
+            { 7, 35226, "", "=q4=X-51 Nether-Rocket X-TREME", "" },
+            { 8, 54860, "", "=q4=X-53 Touring Rocket", "" },			
         },
     },
     info = {
