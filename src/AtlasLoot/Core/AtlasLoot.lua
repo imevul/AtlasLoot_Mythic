@@ -276,6 +276,7 @@ AtlasLoot.InstanceToMap = {
 	
 	-- Stratholme
 	["LiveStratholmeFrasSiabi"] = "Stratholme",
+	["LiveStratholmePostmasterMalown"] = "Stratholme",
 	["LiveStratholmeTheUnforgiven"] = "Stratholme",
 	["LiveStratholmeHearthsingerForresten"] = "Stratholme",
 	["LiveStratholmeTimmyTheCruel"] = "Stratholme",
