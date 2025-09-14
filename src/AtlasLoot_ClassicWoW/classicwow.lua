@@ -4750,7 +4750,25 @@ AtlasLoot_Data["LiveStratholmeSkul"] = {
         }
     },
     info = {
-        name = BabbleBoss["Skul"],
+        name = BabbleBoss["Skul"] .. " (" .. AL["Rare"] .. ")",
+        module = moduleName,
+        instance = "StratholmeCrusader",
+    },
+};
+
+AtlasLoot_Data["LiveStratholmePostmasterMalown"] = {
+    ["Normal"] = {
+        {
+            { 1, 13393, "", "=q3=Malown's Slam", "=ds=#h2#, #w6#", "", "19%" },
+            { 2, 13392, "", "=q3=The Postmaster's Seal", "=ds=#s13#", "", "19%" },
+            { 3, 13391, "", "=q3=The Postmaster's Treads", "=ds=#s12#, #a1#", "", "19%" },
+            { 4, 13389, "", "=q3=The Postmaster's Trousers", "=ds=#s11#, #a1#", "", "19%" },
+            { 5, 13388, "", "=q3=The Postmaster's Tunic", "=ds=#s5#, #a1#", "", "19%" },
+            { 6, 13390, "", "=q3=The Postmaster's Band", "=ds=#s1#, #a1#", "", "3%" },
+        }
+    },
+    info = {
+        name = BabbleBoss["Postmaster Malown"],
         module = moduleName,
         instance = "StratholmeCrusader",
     },
