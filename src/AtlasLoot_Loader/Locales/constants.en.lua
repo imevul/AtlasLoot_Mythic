@@ -352,8 +352,8 @@ if AL then
     AL["Legendary Items"] = true;
     AL["Misc Sets"] = true;
     AL["Tier 1/2 Set"] = true;
-    AL["Tier 1/2/3 Set"] = true;
-    AL["Tier 3 Set"] = true;
+    AL["Tier 1/2/3+ Set"] = true;
+    AL["Tier 3+ Set"] = true;
     AL["Tier 4/5/6 Set"] = true;
     AL["Tier 7/8 Set"] = true;
     AL["Tier 9 Set"] = true;
@@ -546,7 +546,7 @@ if AL then
     AL["Dungeon Set 4"] = true;
     AL["Tier 1"] = true;
     AL["Tier 2"] = true;
-    AL["Tier 3"] = true;
+    AL["Tier 3+"] = true;
     AL["Tier 4"] = true;
     AL["Tier 5"] = true;
     AL["Tier 6"] = true;
