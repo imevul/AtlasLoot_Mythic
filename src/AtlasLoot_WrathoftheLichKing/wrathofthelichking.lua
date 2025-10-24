@@ -12901,10 +12901,9 @@ AtlasLoot_Data["CardGame"] = {
             { 5,  38309, "",           "=q4=Tabard of Nature",          "=ds=#s7#" },
             { 6,  38310, "",           "=q4=Tabard of the Arcane",      "=ds=#s7#" },
             { 17, 38314, "",           "=q4=Tabard of the Defender",    "=ds=#s7#" },
-            { 18, 38314, "",           "=q4=Tabard of the Defender",    "=ds=#s7#" },
-            { 19, 38311, "",           "=q4=Tabard of the Void",        "=ds=#s7#" },
-            { 21, 49704, "",           "=q4=Carved Ogre Idol",          "=ds=" },
-            { 22, 49703, "",           "=q4=Perpetual Purple Firework", "=ds=" },
+            { 18, 38311, "",           "=q4=Tabard of the Void",        "=ds=#s7#" },
+            { 20, 49704, "",           "=q4=Carved Ogre Idol",          "=ds=" },
+            { 21, 49703, "",           "=q4=Perpetual Purple Firework", "=ds=" },
         },
     },
     info = {

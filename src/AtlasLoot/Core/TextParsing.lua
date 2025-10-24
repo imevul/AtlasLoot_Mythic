@@ -156,7 +156,7 @@ AtlasLoot_TextParsing = {
     { "#m31#",                   AL["Tier 2"] },
     { "#m32#",                   AL["Achievement Reward"] },
     { "#m34#",                   AL["Old Quest Reward"] },
-    { "#m35#",                   AL["Tier 3"] },
+    { "#m35#",                   AL["Tier 3+"] },
     { "#m36#",                   AL["No Longer Available"] },
     { "#m37#",                   AL["Tier 11"] },
     { "#m38#",                   AL["Tier 12"] },
@@ -427,6 +427,7 @@ AtlasLoot_TextParsing = {
     { "#t3s7#",                  BabbleItemSet["The Earthshatterer"] },
     { "#t3s8#",                  BabbleItemSet["Plagueheart Raiment"] },
     { "#t3s9#",                  BabbleItemSet["Dreadnaught's Battlegear"] },
+    { "#t3s10#",                 BabbleItemSet["Scourgeborne Battlegear"] },
 
     -- Tier 4 Sets
     { "#t4s1_1#",                BabbleItemSet["Malorne Harness"] },

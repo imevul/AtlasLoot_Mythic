@@ -950,6 +950,7 @@ AtlasLoot_InstanceList_Loader = {
 	["TKMechCacheoftheLegion"] = 2,
 	["EngineeringScope"] = 4,
 	["Hammersmith"] = 4,
+	["T3DeathKnight"] = 1,
 
 	["MythicTKMechCacheoftheLegion"] = 6,
 	["MythicTKMechCapacitus"] = 6,
